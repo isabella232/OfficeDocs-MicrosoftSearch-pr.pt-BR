@@ -8,13 +8,19 @@ ms.audience: Admin
 ms.topic: landing-page
 layout: LandingPage
 ms.service: mssearch
-localization_priority: Normal
+localization_priority: Priority
 search.appverid:
-  - BFB160
-  - MET150
-  - MOE150
+- BFB160
+- MET150
+- MOE150
 ms.assetid: 90d3190d-1add-490f-bef2-10b528252a2e
-description: 'Microsoft Search é uma experiência de pesquisa empresarial que aumenta a produtividade e economiza tempo, fornecendo os resultados de pesquisa mais relevantes para a sua organização'
+description: Microsoft Search é uma experiência de pesquisa empresarial que aumenta a produtividade e economiza tempo, fornecendo os resultados de pesquisa mais relevantes para a sua organização
+ms.openlocfilehash: 1a50ff7a0ae3c2b86f3051ad4eeecb38a8a602a9
+ms.sourcegitcommit: 1c038d87efab4840d97b1f367b39e2b9ecdfee4a
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "29612343"
 ---
 # <a name="microsoft-search"></a>Microsoft Search
 
@@ -148,7 +154,7 @@ description: 'Microsoft Search é uma experiência de pesquisa empresarial que a
                     <div class="cardText">
                         <p><a href="security.md">Segurança</a></p>
                         <p><a href="requirements.md">Requisitos</a></p>  
-                        <p><a href="about-the-admin-portal.md">Sobre o portal de administração</a></p>
+                        <p><a href="about-the-admin-portal.md">Sobre o Portal de administração</a></p>
                     </div>
                 </div>
             </div>
@@ -159,7 +165,7 @@ description: 'Microsoft Search é uma experiência de pesquisa empresarial que a
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <p><a href="quick-set-up.md">Rápido configurar</a></p>
+                        <p><a href="quick-set-up.md">Configuração rápida</a></p>
                         <p><a href="connected-services.md">Serviços conectados</a></p>
                         <p><a href="set-up-microsoft-search.md">Configurar o Microsoft Search</a></p>
                     </div>
@@ -173,7 +179,7 @@ description: 'Microsoft Search é uma experiência de pesquisa empresarial que a
                 <div class="card">
                     <div class="cardText">
                         <p><a href="create-bookmarks.md">Criar indicadores</a></p>
-                        <p><a href="create-qas.md">Criar Q&As</a></p>
+                        <p><a href="create-qas.md">Criar perguntas e respostas</a></p>
                         <p><a href="add-users.md">Adicionar usuários</a></p>
                     </div>
                 </div>
