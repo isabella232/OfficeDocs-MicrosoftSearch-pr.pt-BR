@@ -1,5 +1,5 @@
 ---
-title: Sobre o portal de administração
+title: Sobre o Portal de administração
 ms.author: dawholl
 author: dawholl
 manager: kellis
@@ -7,21 +7,21 @@ ms.date: 12/11/2018
 ms.audience: Admin
 ms.topic: hub-page
 ms.service: mssearch
-localization_priority: Normal
+localization_priority: Priority
 search.appverid:
 - BFB160
 - MET150
 - MOE150
 ms.assetid: fee131cf-c82f-4f4b-b288-6fa98a99b793
 description: Obtenha uma visão geral sobre a administração de recursos de portal e acessar as permissões disponíveis com o Microsoft Search
-ms.openlocfilehash: 1bb219798a68553bd359ba15452cb4bb4ae74cbf
-ms.sourcegitcommit: bf52cc63b75f2e0324a716fe65da47702956b722
+ms.openlocfilehash: 3b1a0173a12d921a789ccf1c01e788f9abae2916
+ms.sourcegitcommit: 1c038d87efab4840d97b1f367b39e2b9ecdfee4a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "29378383"
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "29612446"
 ---
-# <a name="about-the-admin-portal"></a>Sobre o portal de administração
+# <a name="about-the-admin-portal"></a>Sobre o Portal de administração
 
 Microsoft Search permite que você use o Bing para pesquisar a sua organização para sites do SharePoint e arquivos, sites da Web internos, pessoas, grupos do Office 365 e muito mais. Use o portal de administração para gerenciar todos os aspectos do Microsoft Search.
   
@@ -35,7 +35,7 @@ Portal de administração de pesquisa da Microsoft é organizado em torno nessas
     
     Criar resultados promovidos para ajudar as pessoas a localizar importantes ferramentas e recursos dentro da organização, colocando-os no topo dos resultados do Bing
     
-- [Q&As](create-and-manage-qas.md)
+- [Perguntas e respostas](create-and-manage-qas.md)
     
     Responder as perguntas mais frequentes na sua organização
     

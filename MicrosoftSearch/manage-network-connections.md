@@ -7,19 +7,19 @@ ms.date: 10/25/2018
 ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
-localization_priority: Normal
+localization_priority: Priority
 search.appverid:
 - BFB160
 - MET150
 - MOE150
 ms.assetid: 8ad58820-69e0-4ee0-88a7-d207ffa790b7
 description: Adicionar lista de permissões esses URLs e domínios ao seu firewall para seus usuários acessá facilmente o Microsoft Search
-ms.openlocfilehash: dcbad8130ca65fe65fb5077484733c8b2da185d7
-ms.sourcegitcommit: bf52cc63b75f2e0324a716fe65da47702956b722
+ms.openlocfilehash: 87a650bd0db17fbede2483c5e117cb03841f6378
+ms.sourcegitcommit: 1c038d87efab4840d97b1f367b39e2b9ecdfee4a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "29378385"
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "29612542"
 ---
 # <a name="manage-network-connections"></a>Gerenciar conexões de rede
 
