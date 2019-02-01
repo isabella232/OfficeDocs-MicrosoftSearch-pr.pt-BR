@@ -13,13 +13,13 @@ search.appverid:
 - MOE150
 - MED150
 ms.assetid: 2379e72c-a7da-4e3f-932a-12d431a0a284
-description: Visão geral de todas as maneiras que você pode incluir resultados de trabalho do Microsoft Searc de locais da sua organização
-ms.openlocfilehash: 6b96fd405fc78d77f9b61408909b380cc45ec95e
-ms.sourcegitcommit: bf52cc63b75f2e0324a716fe65da47702956b722
+description: Visão geral de todas as maneiras que você pode incluir locais da sua organização em resultados de trabalho do Microsoft Search
+ms.openlocfilehash: 4ff30d7e346d609e9fddaca70caa1a85652fad3c
+ms.sourcegitcommit: 98fd5dd37a5b753cfa2fb81fc4bd6497ecc8ed30
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "29378376"
+ms.lasthandoff: 02/01/2019
+ms.locfileid: "29690655"
 ---
 # <a name="locations"></a>Locais
 
@@ -31,7 +31,7 @@ Locais de ajudam os usuários a localização de endereços e localize prédios 
     
     Adicionar um edifício, office, campus ou outro espaço de trabalho
     
-- [Crie os locais em massa](bulk-create-locations.md)
+- [Criar locais em massa](bulk-create-locations.md)
     
     Adicionar locais para um arquivo. csv e em massa importá-los
     
