@@ -1,5 +1,5 @@
 ---
-title: Segurança para pesquisa da Microsoft
+title: Segurança da Pesquisa da Microsoft
 ms.author: dawholl
 author: dawholl
 manager: kellis
@@ -13,70 +13,70 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 50461cb9-8707-46c1-935a-1b9608a98800
-description: Proteger seus dados da empresa e usuários, além de fornecer informações aos usuários autorizados, Microsoft Search
+description: Proteja seus dados corporativos e dos usuários, além de fornecer informações aos usuários autorizados com a Pesquisa da Microsoft
 ms.openlocfilehash: 5f59e0e2969ef829d7c14b07ecb47d645cc63013
 ms.sourcegitcommit: 1c038d87efab4840d97b1f367b39e2b9ecdfee4a
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 01/29/2019
 ms.locfileid: "29612518"
 ---
-# <a name="security-for-microsoft-search"></a>Segurança para pesquisa da Microsoft
+# <a name="security-for-microsoft-search"></a>Segurança da Pesquisa da Microsoft
 
-Com a segurança em nível empresarial, Microsoft Search sempre mantém seus usuários e os dados protegidos.
+Com a segurança de nível empresarial, a Pesquisa da Microsoft sempre mantém seus usuários e dados protegidos.
   
-## <a name="secure-by-default"></a>Seguro por padrão
+## <a name="secure-by-default"></a>Segurança por padrão
 
-Microsoft Search sempre garante que as solicitações são feitas via HTTPS. Esta salvaguarda garante que a conexão é criptografada ponta a ponta para aprimorar a segurança.
+A Pesquisa da Microsoft garante que as solicitações sempre sejam feitas via HTTPS. Essa proteção garante que a conexão seja criptografada de ponta a ponta para aumentar a segurança.
   
-## <a name="authentication-and-authorization-with-azure-active-directory"></a>Autenticação e autorização com o Active Directory do Windows Azure
+## <a name="authentication-and-authorization-with-azure-active-directory"></a>Autenticação e autorização com o Azure Active Directory
 
-A autenticação para o Microsoft Search é associada ao Active Directory do Azure. Quando os usuários do Microsoft Search ir para Bing, o Bing cabeçalho mostrará opções de entrar para uma conta da Microsoft como assim como um trabalho ou escola conta. Se o Bing não pode determinar se um usuário é um participante elegível, os usuários podem ir para a página de [Pesquisa da Microsoft explorar](https://www.bing.com/business/explore) , onde eles serão redirecionados automaticamente para a página de entrada da sua organização. 
+A autenticação da Pesquisa da Microsoft está vinculada ao Azure Active Directory. Quando os usuários da Pesquisa da Microsoft acessam o Bing, o cabeçalho do Bing exibe as opções de entrada para uma conta Microsoft, bem como uma conta corporativa ou de estudante. Se o Bing não conseguir determinar se um usuário é um participante qualificado, os usuários podem acessar a página [Explorar Pesquisa da Microsoft](https://www.bing.com/business/explore), na qual serão redirecionados automaticamente para a página de entrada da sua organização. 
   
-Os usuários podem acessar o Microsoft Search apenas por meio de uma conta de trabalho ou da escola. Eles precisam entrar com as mesmas credenciais que usam para acessar os serviços do Office 365 such as SharePoint or Outlook. Uma conta da Microsoft pessoal não pode ser usada para entrar no Microsoft Search.
+Os usuários podem acessar a Pesquisa da Microsoft com uma conta corporativa ou de estudante. Eles precisam entrar com as mesmas credenciais que usam para acessar os serviços do Office 365, como o SharePoint ou o Outlook. Não é possível usar uma conta Microsoft pessoal para entrar na Pesquisa da Microsoft.
   
-Os usuários não podem estar conectados ao Bing com uma conta da Microsoft e de uma conta de trabalho ou da escola ao mesmo tempo.
+Os usuários não podem entrar no Bing com uma conta Microsoft e uma conta corporativa ou de estudante ao mesmo tempo.
   
 ## <a name="single-sign-on"></a>Logon único
 
-Se um usuário já estiver autenticado com sua conta de trabalho ou da escola em outro serviço, como o Outlook ou do SharePoint, eles vai ser automaticamente conectados ao Microsoft Search quando forem para Bing no mesmo navegador. Além disso, quando o usuário entra fora do Microsoft Search, eles serão automaticamente desconectados de outros serviços no mesmo navegador.
+Se um usuário já estiver autenticado com a conta corporativa ou de estudante em outro serviço, como o Outlook ou o SharePoint, ele entrará automaticamente na Pesquisa da Microsoft ao acessar o Bing no mesmo navegador. Além disso, quando o usuário sair da Pesquisa da Microsoft, ele sairá automaticamente dos outros serviços no mesmo navegador.
   
-## <a name="communicates-with-the-trusted-cloud-from-the-browser"></a>Se comunica com a nuvem confiáveis pelo navegador
+## <a name="communicates-with-the-trusted-cloud-from-the-browser"></a>Comunicação com a nuvem de forma confiável no navegador
 
-Quando um usuário entrar com seus trabalhos ou conta escola, Bing baixará as bibliotecas necessárias do cliente para o navegador para permitir que os resultados do Microsoft Search. Em seguida, quando eles pesquisam, o código do navegador chama o Office 365 na nuvem para obter resultados de trabalho. Para fazer isso, o Microsoft Search usa uma API dedicada que é camada C (SOC2 tipo 1) compatíveis de acordo com o Office 365 [Estrutura de conformidade para padrões do setor e normas](https://download.microsoft.com/download/B/2/7/B27B3EF3-8849-4C18-8BA4-5AD755728620/Compliance%20Framework_customer%20guidance.pdf) (download PDF). Isso significa que os resultados de trabalho e dados de trabalho nunca fluem através de sistemas não compatíveis do Bing. 
+Quando um usuário entra com sua conta corporativa ou de estudante, o Bing baixa as bibliotecas de cliente necessárias para o navegador para permitir resultados da Pesquisa da Microsoft. Em seguida, ao pesquisar, o código no navegador chama a nuvem do Office 365 para obter resultados de trabalho. Para fazer isso, a Pesquisa da Microsoft usa uma API dedicada compatível com a camada C (SOC2 Tipo 1) de acordo com a [Estrutura de conformidade para padrões e regulamentações do setor](https://download.microsoft.com/download/B/2/7/B27B3EF3-8849-4C18-8BA4-5AD755728620/Compliance%20Framework_customer%20guidance.pdf) do Office 365 (baixar o PDF). Isso significa que os resultados e dados do trabalho nunca fluem por meio de sistemas não compatíveis com o Bing. 
   
 ## <a name="permissions"></a>Permissões
 
-Resultados de trabalho recuperados do cargas de trabalho do Office 365, como o SharePoint e o OneDrive for Business são segurança aparada na origem. Os usuários não podem ver recursos como documentos do Word ou apresentações do PowerPoint, eles não podem ver e acessar por meio do Office 365. Só podem ver seus próprios arquivos e os arquivos que foram compartilhados com eles pelo autor explícita ou implicitamente (por meio de uma associação de grupo, por exemplo) no SharePoint.
+Os resultados dos trabalhos recuperados das cargas de trabalho do Office 365, como o SharePoint e OneDrive for Business, têm a segurança realizada na fonte. Os usuários não podem ver os recursos, tais como documentos do Word ou apresentações do PowerPoint, que não possam ser vistos e acessados por meio do Office 365. Eles só podem visualizar seus próprios arquivos e aqueles compartilhados explícita ou implicitamente com eles pelo autor (por exemplo, por meio da associação de grupo) no SharePoint.
   
-## <a name="protects-user-queries-from-the-public-portion-of-bing"></a>Protege a consultas do usuário contra a parte pública do Bing
+## <a name="protects-user-queries-from-the-public-portion-of-bing"></a>Proteção das consultas de usuários da parte pública do Bing
 
-Como as pesquisas relacionadas ao trabalho podem ser confidenciais, o Microsoft Search implementou um conjunto de medidas de confiança de como eles são manipulados pela web públicos resultados parte do Bing.
+Como as pesquisas relacionadas ao trabalho podem ser confidenciais, a Pesquisa da Microsoft implementou um conjunto de medidas de confiança sobre como elas são manipuladas pela parte de resultados web públicos da Bing.
   
-Se uma consulta de usuário contém um ou mais resultados de trabalho na resposta retornado, independentemente de medidas a seguir são executadas:
+Independentemente da consulta do usuário conter um ou mais resultados de trabalho na resposta retornada, as seguintes medidas são executadas:
   
-- Logging
+- Registro em Log
     
-  - Todos os logs de pesquisa referentes ao tráfego do Microsoft Search são identificados desprovisionamento e armazenados separadamente do tráfego do público, não - Microsoft Search. Eles estiver mantidos por 18 meses e o acesso é restrito apenas para depuração.
+  - Todos os logs de pesquisa referentes ao tráfego da Pesquisa da Microsoft têm as identidades removidas e são armazenados separadamente do tráfego público que não for da Pesquisa da Microsoft. Eles são mantidos por 18 meses e o acesso é restrito para fins de depuração de bugs.
     
-  - As consultas esses logs não são usados para o modelo ou treinar públicos recursos como sugestão automática ou relacionados a procura por web pública.
+  - As consultas nesses logs não são usadas para modelar ou treinar recursos públicos, como sugestão automática ou pesquisas relacionadas na web pública.
     
-  - Acesso restrito é gerenciado através de vários mecanismos seguros, incluindo grupos de segurança e outras camadas dentro do sistema de engenharia.
+  - O acesso restrito é gerenciado por vários mecanismos seguros, incluindo os grupos de segurança e outras camadas no sistema de engenharia.
     
-- Pesquisar histórico
+- Pesquisar o histórico
     
-  - Quando assinado com uma conta de trabalho ou da escola, histórico de pesquisa do usuário não estará disponível em outros computadores ou dispositivos.
+  - Ao fazer login com uma conta corporativa ou de estudante, o histórico de pesquisa de um usuário não estará disponível em outros computadores ou dispositivos.
     
-- Anunciando
+- Publicidade
     
-  - Consultas de pesquisa empresarial nunca são compartilhadas com ou sugeridas para anunciantes.
+  - As consultas de pesquisa corporativa nunca são compartilhadas com ou sugeridas para anunciantes.
     
-  - Pesquisar logs de Ads referentes ao Microsoft Search são armazenados separadamente do tráfego público.
+  - Os logs de pesquisa de anúncios referentes à Pesquisa da Microsoft são armazenados separadamente do tráfego público.
     
-  - ADS nunca são direcionadas para um usuário com base em sua identidade comercial ou organização.
+  - Os anúncios nunca são direcionados para um usuário com base na sua identidade de trabalho ou da organização.
     
 ## <a name="gdpr"></a>RGPD
 
-A [postagem de blog de 21 de maio de 2018,](https://blogs.microsoft.com/on-the-issues/2018/05/21/microsofts-commitment-to-gdpr-privacy-and-putting-customers-in-control-of-their-own-data/) da Microsoft reflete nosso compromisso de conformidade GDPR e como a Microsoft ajuda empresas e organizações com seus próprios obrigações de conformidade GDPR. Você pode encontrar detalhes adicionais no Microsoft [FAQ do Centro de confiança](https://www.microsoft.com/en-us/trustcenter/privacy/gdpr/gdpr-faqs). Consultas do Microsoft Search que operam contra os dados de cliente organizacionais clientes dentro do Online Services também atenderá os compromissos de processador descritos no artigo 28 medida refletido no [FAQ do Centro de confiança](https://www.microsoft.com/en-us/trustcenter/privacy/gdpr/gdpr-faqs). Com relação a consultas do Microsoft Search que vá para Bing público, a Microsoft é um controlador de dados e implementou medidas para identificar desprovisionamento as consultas, conforme descrito em GDPR.
+Em [21 de maio de 2018, a postagem do blog](https://blogs.microsoft.com/on-the-issues/2018/05/21/microsofts-commitment-to-gdpr-privacy-and-putting-customers-in-control-of-their-own-data/) da Microsoft reflete o nosso compromisso com a conformidade com o RGDP e como a Microsoft ajuda empresas e organizações a cumprir suas próprias obrigações de conformidade com o RGDP. Você pode encontrar detalhes adicionais nas [Perguntas Frequentes da Central de Confiabilidade](https://www.microsoft.com/pt-BR/trustcenter/privacy/gdpr/gdpr-faqs) da Microsoft. As consultas da Pesquisa da Microsoft que operam com base em dados de clientes organizacionais dentro dos Serviços Online também atenderão às obrigações do processador descritas no artigo 28, bem como refletidos nas [Perguntas Frequentes da Central de Confiabilidade](https://www.microsoft.com/pt-BR/trustcenter/privacy/gdpr/gdpr-faqs). Com relação às consultas da Pesquisa da Microsoft que forem feitas no Bing público, a Microsoft é uma controladora de dados e implementou medidas para remover a identificação das consultas, como descrito no RGPD.
 
 

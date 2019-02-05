@@ -13,19 +13,19 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 8ad58820-69e0-4ee0-88a7-d207ffa790b7
-description: Adicionar lista de permissões esses URLs e domínios ao seu firewall para seus usuários acessá facilmente o Microsoft Search
+description: Adicione essas URLs e domínios à lista de permissões do firewall para os usuários acessarem facilmente a Pesquisa da Microsoft
 ms.openlocfilehash: 87a650bd0db17fbede2483c5e117cb03841f6378
 ms.sourcegitcommit: 1c038d87efab4840d97b1f367b39e2b9ecdfee4a
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 01/29/2019
 ms.locfileid: "29612542"
 ---
 # <a name="manage-network-connections"></a>Gerenciar conexões de rede
 
-Para garantir que você e seus usuários podem se conectar aos pontos de extremidade do Microsoft Search, adicione que listas de permissões dessas URLs para seu firewall.
+Para garantir que você e seus usuários podem se conectar aos pontos de extremidade da Pesquisa da Microsoft, adicione estas URLs nas listas de permissões do firewall.
   
-## <a name="for-the-microsoft-search-admin-portal"></a>Para o portal de administração de pesquisa da Microsoft:
+## <a name="for-the-microsoft-search-admin-portal"></a>Para o Portal de Administração da Pesquisa da Microsoft:
 
 - `www.bingatwork.com`
     
@@ -39,7 +39,7 @@ Para garantir que você e seus usuários podem se conectar aos pontos de extremi
     
 - `\*.bingforbusiness.com`
     
-## <a name="for-microsoft-search-in-bing"></a>Pesquisa do Microsoft no Bing:
+## <a name="for-microsoft-search-in-bing"></a>Para a Pesquisa da Microsoft no Bing:
 
 - `business.bing.com`
     

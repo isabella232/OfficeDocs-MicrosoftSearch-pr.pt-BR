@@ -1,5 +1,5 @@
 ---
-title: Criar Q&As
+title: Criar perguntas e respostas
 ms.author: dawholl
 author: dawholl
 manager: kellis
@@ -13,95 +13,95 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: d432b9d9-3792-47a0-9a13-30a1a83caabc
-description: Maneiras de criar respostas para perguntas frequentes para o Microsoft Search funcionam resultados
+description: Maneiras de criar respostas para perguntas frequentes em seus resultados de trabalho da Pesquisa da Microsoft
 ms.openlocfilehash: 9713608450688a0841aa64d1f3198183b10e05ee
 ms.sourcegitcommit: 1c038d87efab4840d97b1f367b39e2b9ecdfee4a
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 01/29/2019
 ms.locfileid: "29612494"
 ---
-# <a name="create-qas"></a>Criar Q&As
+# <a name="create-qas"></a>Criar perguntas e respostas
 
-Q&As fornecem uma resposta ou info aos usuários, incluindo um link opcional. Idealmente, um Q&A inclui todos os detalhes de que os usuários estão procurando por isso, eles não precisam passar para a fonte. Você pode formatar seu conteúdo Q&A e incluir imagens, listas e tabelas.
+As perguntas e respostas fornecem uma resposta ou informações aos usuários, inclusive um link opcional. O ideal é que uma P e R inclua todos os detalhes que os usuários estão procurando para que eles não precisem ir até a fonte. É possível formatar o conteúdo da P e R e incluir imagens, listas e tabelas.
   
-## <a name="create-a-qa"></a>Criar um Q&A
+## <a name="create-a-qa"></a>Criar uma pergunta e resposta
 
-Para obter informações sobre a criação de títulos efetivos, descrições, palavras-chave e muito mais, consulte [planejar seu conteúdo.](plan-your-content.md)
+Para saber mais sobre como criar de maneira eficaz títulos, descrições, palavras-chave e muito mais, confira [Planejar o conteúdo.](plan-your-content.md)
   
-1. Vá para o portal de administração de pesquisa da Microsoft
+1. Ir para o Portal de Administração da Pesquisa da Microsoft
     
-2. No painel de navegação, clique em **Q&As**
+2. No painel de navegação, clique em **P e R**
     
-3. Na parte superior da página, clique em **Adicionar Q&A**
+3. Na parte superior da página, clique em **Adicionar P e R**
     
-    A página Editar Q&A é exibida, com uma visualização da aparência o Q&A em Bing. Conforme você adiciona as informações necessárias, a visualização será atualizado automaticamente.
+    A página Editar P e R é exibida, com uma visualização de como as P e Rs aparecerão no Bing. Conforme você adiciona as informações necessárias, a visualização é atualizada automaticamente.
     
-4. Insira um **título**
+4. Inserir um **Título**
     
-    O título é o título que aparece no resultado. Ele pode ter até 120 caracteres de comprimento e é recomendável usar um formato de pergunta.
+    O título é o cabeçalho exibido no resultado. Pode ter até 120 caracteres e é recomendável usar um formato de pergunta.
     
-5. Se necessário, digite a **URL** da página, site ou fará um link para o indicador de local 
+5. Se necessário, insira a **URL** da página, site ou local ao qual o indicador será vinculado 
     
-    Este permite que os usuários que precisam de informações adicionais facilmente têm para a fonte para ler mais.
+    Assim os usuários que precisam de mais informações podem acessar a fonte de modo fácil para saber mais.
     
-6. Insira uma **Descrição de resposta**
+6. Insira uma **Descrição da resposta**
     
-    Isso deve responder à pergunta que será perguntada do título. Você pode copiar o conteúdo HTML existente e colá-lo aqui. Quaisquer marcas sem suporte serão ignoradas.
+    Ela deve responder à pergunta feita no título. Você pode copiar o conteúdo HTML existente e colá-lo aqui. As marcas sem suporte serão ignoradas.
     
-7. Usar marcas HTML e as opções internas para formatar o texto, adicione imagens, listas, tabelas e muito mais
+7. Use as marcas HTML e as opções internas para formatar o texto, adicionar imagens, listas, tabelas e muito mais
     
-    Use a visualização na parte superior da página para ver como seu marcas e a formatação será exibido em Bing. Para obter informações sobre:
+    Use a visualização na parte superior da página para ver como as marcas e a formatação serão exibidas no Bing. Para obter informações sobre:
     
-  - Marcas HTML, consulte a lista de marcas HTML suportada abaixo
+  - marcas HTML, veja a lista de marcas HTML compatíveis abaixo
     
-  - Opções internas, clique em **guia de redução** (ícone de ponto de interrogação) 
+  - Opções internas, clique em **Guia de markdown** (ícone de ponto de interrogação) 
     
-8. Insira **palavras-chave** que você deseja acionar este Q&A 
+8. Insira as **Palavras-chave** que você quer para acionar esta P e R 
     
-    Como um indicador, quando um usuário procura por qualquer uma das palavras-chave que já tiver incluído, este Q&A serão incluídos em seus resultados de trabalho. Tente adicionar tantos variantes possível, incluindo o título do Q&A.
+    Como um indicador, quando um usuário pesquisa qualquer uma das palavras-chave incluídas, esse P e R será incluído em seus resultados de trabalho. Tente adicionar o máximo de variantes possíveis, incluindo o título do P e R.
     
-9. Selecione **corresponder automaticamente palavras-chave semelhantes** para expandir seu conjunto de palavras-chave 
+9. Selecione **Corresponder automaticamente a palavras-chave semelhante** para expandir seu conjunto de palavras-chave 
     
-    Isso permite que uma correspondência mais ampla de termos de pesquisa e ajuda a garantir que este Q&A é incluído nos resultados de trabalho relevantes.
+    Isso proporciona uma correspondência maior dos termos de pesquisa e ajuda a garantir que esse P e R estará incluído nos resultados de trabalhos relevantes.
     
-10. Insira **palavras-chave reservadas**
+10. Insira as **Palavras-chave reservadas**
     
-    Se uma palavra-chave acionar vários Q&As, Microsoft Search será aquele mais popular na parte superior de mostrar os outros como links relacionados. Use um ou mais palavras-chave reservadas para garantir que uma Q&A sempre aparece como o resultado de superior. Palavras-chave reservadas não podem ser compartilhadas entre Q&As. Além disso, o compartilhamento de palavras-chave reservadas entre Q&As e indicadores não é recomendável. Se um indicador e um Q&A compartilham uma palavra-chave ou uma palavra reservada, o indicador sempre terão precedência e o Q&A não será exibida.
+    Se uma palavra-chave acionar várias P e R, a Pesquisa da Microsoft colocará a mais popular no topo e mostrará as outras como links relacionados. Use uma ou mais palavras-chave reservadas para garantir que a P e R sempre apareça como o melhor resultado. As palavras-chave reservadas não podem ser compartilhadas em P e R. Além disso, não é recomendado compartilhar palavras-chave reservadas em P e R e indicadores. Se um indicador e uma P e R compartilharem uma palavra-chave ou uma palavra-chave reservada, o indicador sempre terá precedência e a P e R não será exibida.
     
-## <a name="add-qa-settings"></a>Adicionar Q&A configurações
+## <a name="add-qa-settings"></a>Adicionar configurações de P e R
 
-Configurações de Q&A conceder controle adicional sobre quando um Q&A aparece e quem vê-lo.
+As configurações de P e R disponibilizam um controle adicional sobre quando uma P e R é exibida e quem a vê.
   
 - Datas
     
-    Defina uma data de início, bem como uma data de término opcional para controlar quando um Q&A serão publicados ou expirar.
+    Defina uma data de início, bem como uma data de término opcional para controlar quando uma P e R será publicada ou expirará.
     
 - País/região
     
-    Se você selecionar países ou regiões, somente os usuários nesses locais verão que Q&A.
+    Se você selecionar países ou regiões, somente os usuários desses locais verão essa P e R.
     
 - Grupos
     
-    Use os grupos de configuração para disponibilizar um resultado Q&A somente aos membros de um grupo selecionado. Por exemplo, se você estiver criando Q&As relativas apenas para os funcionários do departamento de RH, você pode mapear essa configuração para o grupo de segurança de RH apropriado.
+    Use a configuração de Grupos para disponibilizar um resultado de P e R somente para membros de um grupo selecionado. Por exemplo, se você estiver criando uma P e R que se aplica apenas aos funcionários no departamento de RH, é possível mapear essa configuração ao grupo de segurança de RH apropriado.
     
-- Dispositivo &amp; SO
+- SO &amp; dispositivo
     
-    Se você selecionar tipos de dispositivo ou sistemas operacionais, somente os usuários pesquisando nesses dispositivos ou usando aqueles sistemas verão que Q&A.
+    Se você selecionar os tipos de dispositivo ou sistemas operacionais, somente os usuários pesquisando nesses dispositivos ou usando estes sistemas verão a P e R.
     
-- Variações direcionadas
+- Variações de destino
     
-    Use esta configuração para variar o conteúdo do Q&A com base no dispositivo e o local de um usuário.
+    Use esta configuração para variar o conteúdo da P e R com base no dispositivo e no local do usuário.
     
-## <a name="use-a-browser-extension-to-create-content"></a>Usar uma extensão de navegador para criar conteúdo
+## <a name="use-a-browser-extension-to-create-content"></a>Usar a extensão do navegador para criar conteúdo
 
-Na seção Ferramentas de portal de administração, baixe e instale a extensão de navegador do criador do conteúdo para a borda ou Chrome. Para usar a extensão, entrar e vá para um site ou página que você deseja adicionar como uma revisão Q&A. e altere o conteúdo sugerido, incluindo palavras-chave, adicione qualquer conteúdo adicional e salve o Q&A.
+Na seção Ferramentas do Portal do Administrador, baixe e instale a extensão de navegador do criador de Conteúdo para o Edge ou Chrome. Para usar a extensão, faça logon e acesse um site ou uma página que você deseja adicionar como uma P e R. Revise e altere o conteúdo sugerido, como palavras-chave, adicione qualquer conteúdo adicional e salve a P e R.
   
-Se vários Q&As forem encontradas, revise cada um deles e determinar se você deseja publicar, salve rascunho ou salvar todos para rascunho.
+Se várias P e Rs forem encontradas, analise cada uma e determine se você deseja publicar, salvar como rascunho ou salvar todos como rascunho.
   
 ## <a name="supported-html-tags"></a>Marcas HTML com suporte
 
-Você pode usar o conteúdo HTML existente ou adicionar marcas HTML à sua descrição de resposta. Não há suporte para as marcas serão ignoradas.
+Você pode usar o conteúdo HTML existente ou adicionar marcas HTML à descrição da resposta. Marcas sem suporte são ignoradas.
   
 - blockquote
     
@@ -109,25 +109,25 @@ Você pode usar o conteúdo HTML existente ou adicionar marcas HTML à sua descr
     
 - em
     
-- S1, S2, S3 e h4
+- h1, h2, h3 e h4
     
-- OL, ul e li
+- ol, ul e li
     
 - p
     
-- pré
+- pre
     
-- SPAN
+- span
     
-- forte
+- strong
     
-- tabela, thead, tbody, tr, th e td
+- table, thead, tbody, tr, th e td
     
 - u
     
 - a
     
-- código
+- code
     
 - br
     
