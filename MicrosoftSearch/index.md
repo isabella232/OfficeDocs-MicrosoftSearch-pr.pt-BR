@@ -1,5 +1,5 @@
 ---
-title: Microsoft Search
+title: Pesquisa da Microsoft
 ms.author: dawholl
 author: dawholl
 manager: kellis
@@ -14,15 +14,15 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 90d3190d-1add-490f-bef2-10b528252a2e
-description: Microsoft Search é uma experiência de pesquisa empresarial que aumenta a produtividade e economiza tempo, fornecendo os resultados de pesquisa mais relevantes para a sua organização
+description: A Pesquisa da Microsoft é uma experiência de pesquisa corporativa que aumenta a produtividade e poupa tempo, fornecendo os resultados de pesquisa mais relevantes para sua organização
 ms.openlocfilehash: 1a50ff7a0ae3c2b86f3051ad4eeecb38a8a602a9
 ms.sourcegitcommit: 1c038d87efab4840d97b1f367b39e2b9ecdfee4a
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 01/29/2019
 ms.locfileid: "29612343"
 ---
-# <a name="microsoft-search"></a>Microsoft Search
+# <a name="microsoft-search"></a>Pesquisa da Microsoft
 
 <ul class="panelContent cardsW cols cols2">
     <li>
@@ -45,8 +45,8 @@ ms.locfileid: "29612343"
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h2>Por que a Microsoft pesquisa</h2>
-                        <p>Obter uma experiência de pesquisa empresarial que aumenta a produtividade e economiza tempo, fornecendo os resultados de pesquisa mais relevantes para a sua organização</p>
+                        <h2>Por que usar a Pesquisa da Microsoft?</h2>
+                        <p>Tenha uma experiência de pesquisa corporativa que aumenta a produtividade e poupa tempo, fornecendo os resultados de pesquisa mais relevantes para sua organização</p>
                         <p><a href="why-microsoft-search.md">Descubra como</a></p>
                     </div>
                 </div>
@@ -69,7 +69,7 @@ ms.locfileid: "29612343"
                     </div>
                     <div class="cardText">
                         <h3>Principais recursos</h3>
-                        <p>Saber quais recursos estão disponíveis para administradores e usuários, incluindo o que você encontrará ao pesquisar</p>
+                        <p>Veja quais recursos estão disponíveis para os administradores e usuários, incluindo o que você vai encontrar ao pesquisar</p>
                         <p><a href="features.md">Saiba mais</a></p>
                     </div>
                 </div>
@@ -86,9 +86,9 @@ ms.locfileid: "29612343"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Configurar Admin rápida</h3>
-                        <p>Descubra como ativar o Microsoft Search e configurá-lo para sua organização em quatro etapas simples</p>
-                        <p><a href="quick-set-up.md">Iniciar agora</a></p>
+                        <h3>Configuração rápida do administrador</h3>
+                        <p>Saiba como ativar a Pesquisa da Microsoft e configure-a na sua organização em quatro etapas fáceis</p>
+                        <p><a href="quick-set-up.md">Comece agora</a></p>
                     </div>
                 </div>
             </div>
@@ -105,8 +105,8 @@ ms.locfileid: "29612343"
                     </div>
                     <div class="cardText">
                         <h3>Perguntas frequentes</h3>
-                        <p>Obtenha respostas para algumas das perguntas frequentes sobre o Microsoft Search</p>
-                        <p><a href="faqs.md">Procure o FAQ</a></p>
+                        <p>Obtenha respostas para algumas perguntas frequentes comuns sobre a Pesquisa da Microsoft</p>
+                        <p><a href="faqs.md">Navegar nas perguntas frequentes</a></p>
                     </div>
                 </div>
             </div>
@@ -120,8 +120,8 @@ ms.locfileid: "29612343"
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h2>Usar a pesquisa da Microsoft</h2>
-                        <p>Microsoft Search é uma maneira simple, mais segura e rápida encontrar informações sejam mais produtivos e trabalhar de forma mais inteligente</p>
+                        <h2>Usar a Pesquisa da Microsoft</h2>
+                        <p>A Pesquisa da Microsoft é uma maneira simples, rápida e mais segura de encontrar informações, ser mais produtivo e trabalhar de modo mais inteligente</p>
                         <p><a href="use/about-microsoft-search.md">Descubra como</a></p>
                     </div>
                 </div>
@@ -167,7 +167,7 @@ ms.locfileid: "29612343"
                     <div class="cardText">
                         <p><a href="quick-set-up.md">Configuração rápida</a></p>
                         <p><a href="connected-services.md">Serviços conectados</a></p>
-                        <p><a href="set-up-microsoft-search.md">Configurar o Microsoft Search</a></p>
+                        <p><a href="set-up-microsoft-search.md">Configurar a Pesquisa da Microsoft</a></p>
                     </div>
                 </div>
             </div>
