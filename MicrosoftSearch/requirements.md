@@ -1,5 +1,5 @@
 ---
-title: Requisitos para o Microsoft Search
+title: Requisitos para a Pesquisa da Microsoft
 ms.author: dawholl
 author: dawholl
 manager: kellis
@@ -13,17 +13,17 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 41b9b33d-fcc4-470c-90ec-068211fbbb16
-description: Os requisitos do Office 365 e as assinaturas são necessárias para habilitar o Microsoft Search
+description: Assinaturas e requisitos do Office 365 para habilitar a Pesquisa da Microsoft
 ms.openlocfilehash: e90013eb2b76a4a4f4fff2e8b91f3bc6e48a4f2b
 ms.sourcegitcommit: 1c038d87efab4840d97b1f367b39e2b9ecdfee4a
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 01/29/2019
 ms.locfileid: "29612456"
 ---
-# <a name="requirements-for-microsoft-search"></a>Requisitos para o Microsoft Search
+# <a name="requirements-for-microsoft-search"></a>Requisitos para a Pesquisa da Microsoft
 
-Estes são os requisitos de Inquilino do Office 365 para habilitar o Microsoft Search: 
+Os requisitos de locatário do Office 365 para habilitar a Pesquisa da Microsoft são os seguintes: 
   
 - Azure Active Directory
     
@@ -31,29 +31,29 @@ Estes são os requisitos de Inquilino do Office 365 para habilitar o Microsoft S
     
 - Exchange Online
     
-- Assinatura do Office 365 para uma das SKUs do suportados abaixo. Somente as contas de usuário ativo com um dessas assinaturas podem usar o Microsoft Search:
+- Assinatura do Office 365 para um dos SKUs compatíveis abaixo. Apenas as contas de usuário ativas com uma das seguintes assinaturas podem usar a Pesquisa da Microsoft:
     
   - Business Essentials
     
   - Business Premium
     
-  - F1 do Office 365
+  - Office 365 F1
     
-  - O Office 365 E1/E2/E3/E5
+  - Office 365 E1/E2/E3/E5
     
   - Microsoft 365 Business
     
   - Microsoft 365 Enterprise F1/E3/E5
     
-  - Microsoft 365 educacional para Corpo Docente A3/A5
+  - Microsoft 365 Education para Docentes A3/A5
     
-  - Treinamento do Office 365 para Corpo Docente A1/A1 adição/A3/A5
+  - Microsoft 365 Education para Docentes A1/A1 Plus/A3/A5
     
-  - Treinamento do Office 365 para Corpo Docente E1/E3
+  - Microsoft 365 Education para Docentes E1/E3
     
-  - Office 365 para sem fins lucrativos NPBE/NPBP/NPE1/NPE3/NPE5
+  - Office 365 para organizações sem fins lucrativos NPBE/NPBP/NPE1/NPE3/NPE5
     
-Para habilitar o Microsoft Search para sua organização, o inquilino do Office 365 e o Administrador Global devem estar em um desses locais:
+Para habilitar a Pesquisa da Microsoft na organização, o locatário do Office 365 e o administrador global devem estar em um dos seguintes locais:
   
 - Estados Unidos
     
@@ -85,9 +85,9 @@ Para habilitar o Microsoft Search para sua organização, o inquilino do Office 
 
 - China
  
-Atualmente, o Microsoft Search é otimizado para o inglês. Suporte completo para outros idiomas estarão disponíveis em breve.
+Atualmente, a Pesquisa da Microsoft é otimizada para o idioma inglês. Em breve, disponibilizaremos suporte completo para outros idiomas.
 
-Depois que o produto está habilitado, não há nenhum requisito de local para usuários ou administradores do Microsoft Search. Consulte [rápida configuradas para a pesquisa da Microsoft](quick-set-up.md) para obter detalhes sobre como habilitar a ele. 
+Depois de habilitar o produto, não haverá requisito de local para administradores ou usuários da Pesquisa da Microsoft. Para ver detalhes sobre como habilitar o recurso, confira o artigo [Configuração rápida para a Pesquisa da Microsoft](quick-set-up.md). 
 
   
 

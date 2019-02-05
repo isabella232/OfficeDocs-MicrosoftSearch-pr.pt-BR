@@ -1,5 +1,5 @@
 ---
-title: Configuração de DNS avançada
+title: Configuração avançada de DNS
 ms.author: dawholl
 author: dawholl
 manager: kellis
@@ -13,17 +13,17 @@ search.appverid:
 - MOE150
 - MED150
 ms.assetid: 47eedbb9-6da9-47e0-aac5-078d34a7fd8f
-description: Certifique-se de uma experiência uniforme entrar para seus usuários, configurando o servidor DNS usando um registro CNAME
+description: Garanta uma experiência conexão perfeita para seus usuários ao configurar o servidor DNS usando um CNAME
 ms.openlocfilehash: fa797b95f346d6d03bd020da146bb330c715e392
 ms.sourcegitcommit: 1c038d87efab4840d97b1f367b39e2b9ecdfee4a
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 01/29/2019
 ms.locfileid: "29612427"
 ---
-# <a name="advanced-dns-configuration"></a>Configuração de DNS avançada
+# <a name="advanced-dns-configuration"></a>Configuração avançada de DNS
 
-Para garantir o Bing pode sempre identificar usuários dentro da sua organização e assiná-las com êxito suas contas de trabalho ou da escola, configure seu servidor DNS interno ou um servidor proxy para resolver de `www.bing.com` para `ms.bing.com`. Para fazer isso, crie uma entrada DNS para `www.bing.com` para ser um registro CNAME para `ms.bing.com`.
+Para garantir que o Bing sempre possa identificar usuários em sua organização e conectá-los com êxito em sua conta corporativa ou de estudante, configure seu servidor DNS interno ou servidor proxy para resolver de `www.bing.com` a `ms.bing.com`. Para fazer isso, crie uma entrada de DNS para `www.bing.com` para servir como um CNAME para `ms.bing.com`.
   
 ****
 
@@ -31,6 +31,6 @@ Para garantir o Bing pode sempre identificar usuários dentro da sua organizaç�
 |:-----|:-----|:-----|
 |`www.bing.com`  <br/> |CNAME  <br/> |`ms.bing.com`  <br/> |
    
-Usando um registro CNAME em vez do endereço IP é preferido, desde que um registro CNAME continuarão a funcionar se altera o endereço IP. Depois de fazer essa alteração DNS, resultados continuará apareça para os seus usuários, como se eles são provenientes `www.bing.com`. 
+É preferível usar um CNAME em vez do endereço IP já que um CNAME continuará a funcionar se o endereço IP mudar. Depois que você fizer essa alteração de DNS, os resultados continuarão aparecendo para seus usuários como se fossem provenientes de `www.bing.com`. 
   
-Isso requer nenhuma configuração adicional em computadores clientes e oferece uma experiência uniforme para seus usuários. Quando eles vão para `bing.com`, eles vai ser automaticamente conectados mais consistentemente e se eles não podem ser conectados automaticamente, serão solicitados a fazer isso.
+Isso não requer configuração adicional nas máquinas clientes e fornece uma experiência perfeita para seus usuários. Ao acessarem `bing.com`, eles serão automaticamente conectados de forma mais consistente e, se não puderem ser conectados automaticamente, serão solicitados a fazê-lo.

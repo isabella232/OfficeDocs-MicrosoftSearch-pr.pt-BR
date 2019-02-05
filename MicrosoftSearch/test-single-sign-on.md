@@ -1,5 +1,5 @@
 ---
-title: Testar logon único
+title: Testar o logon único
 ms.author: dawholl
 author: dawholl
 manager: kellis
@@ -13,31 +13,31 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: a220c1bf-7cee-448a-90a3-310284d03e81
-description: Reduzir o número de vezes que os usuários do Windows 10 for solicitados a entrar no Microsoft Search e o Office 365
+description: Reduza o número de vezes que seus usuários do Windows 10 são solicitados a entrar no Microsoft Search e no Office 365
 ms.openlocfilehash: 55d359edac36020ec8cf2aad6b64ca9737ee1066
 ms.sourcegitcommit: 1c038d87efab4840d97b1f367b39e2b9ecdfee4a
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 01/29/2019
 ms.locfileid: "29612344"
 ---
-# <a name="test-single-sign-on"></a>Testar logon único
+# <a name="test-single-sign-on"></a>Testar o logon único
 
-Logon único reduz o número de vezes que os usuários são solicitados a entrar. Testar o single sign-on com um pequeno grupo de usuários ajudará a identificar problemas de configuração de bloqueio. 
+O logon único reduz o número de vezes que os usuários são solicitados a entrar. O teste de logon único com um pequeno grupo de usuários ajudará a identificar problemas de configuração de bloqueio. 
   
-Para usuários do Chrome em Windows 10, sign-on único funcionará somente se o Windows 10 e AAD entrar extensão cromo está instalada. 
+Para usuários do Chrome no Windows 10, o logon único só funcionará se a extensão de logon do Windows 10 e do AAD para o Chrome estiver instalada. 
   
-## <a name="download-the-windows-10-and-aad-sign-in-extension-for-chrome"></a>Baixe o Windows 10 e AAD entrar extensão para Chrome
+## <a name="download-the-windows-10-and-aad-sign-in-extension-for-chrome"></a>Faça o download da extensão de logon do Windows 10 e do AAD para o Chrome
 
-Recomendamos que você crie uma diretiva de grupo para instalar automaticamente essa extensão.
+Recomendamos a criação de uma política de grupo para instalar automaticamente essa extensão.
   
-1. Vá para o portal de administração de pesquisa da Microsoft
+1. Acesse o Portal de Administração da Pesquisa da Microsoft
     
 2. No painel de navegação, clique em **Ferramentas**
     
-3. Na lista de ferramentas, baixe o **Windows 10 e AAD entrar extensão de cromo**
+3. Na lista Ferramentas, faça o download da **extensão de logon do Windows 10 e do AAD para o Chrome**
     
-4. Compartilhar a extensão com usuários de Chrome em Windows 10
+4. Compartilhe a extensão com usuários do Chrome no Windows 10
 
   
 

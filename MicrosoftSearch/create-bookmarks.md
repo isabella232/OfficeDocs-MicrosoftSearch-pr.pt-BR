@@ -13,76 +13,76 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 40a556e1-61c2-4bd3-b80e-5ad62af77454
-description: Criar indicadores ou usuário uma extensão de navegador para adicioná-los à suas resultados de trabalho do Microsoft Search
+description: Crie indicadores ou use uma extensão do navegador para adicioná-los aos seus resultados de trabalho da Pesquisa da Microsoft
 ms.openlocfilehash: 71e5ae48bb8812e5222a4d6075292f3b85bed441
 ms.sourcegitcommit: 1c038d87efab4840d97b1f367b39e2b9ecdfee4a
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 01/29/2019
 ms.locfileid: "29612406"
 ---
 # <a name="create-bookmarks"></a>Criar indicadores
 
-Indicadores ajudam as pessoas a localizar rapidamente as ferramentas, sites e recursos importantes. Cada indicador inclui um título, uma URL e um conjunto de palavras-chave que acionam a ele.
+Os indicadores ajudam as pessoas a encontrar rapidamente recursos, sites e ferramentas importantes. Cada indicador inclui um título, uma URL e um conjunto de palavras-chave para acioná-lo.
   
 ## <a name="create-a-bookmark"></a>Criar um indicador
 
-Para obter informações sobre a criação de títulos efetivos, descrições, palavras-chave e muito mais, consulte [Planejando o seu conteúdo](plan-your-content.md).
+Para saber mais sobre como criar de maneira eficaz títulos, descrições, palavras-chave e muito mais, confira [Planejar o conteúdo](plan-your-content.md).
   
-1. Vá para o portal de administração de pesquisa da Microsoft
+1. Acesse o Portal de Administração da Pesquisa da Microsoft
     
-2. No painel de navegação, clique em **Bookmarks**
+2. No painel de navegação, clique em **Indicadores**
     
 3. Na parte superior da página, clique em **Adicionar indicador**
     
-    A página do indicador de editar é exibida, com uma visualização da aparência do indicador em Bing. Conforme você adiciona as informações necessárias, a visualização será atualizado automaticamente.
+    A página Editar indicador é exibida, com uma visualização de como o indicador aparecerá no Bing. Conforme você adicionar as informações necessárias, a visualização será atualizada automaticamente.
     
-4. Digite um **título de indicador**
+4. Insira um **Título para o indicador**
     
-    O título é o título que aparece no resultado. Ele pode ter até 60 caracteres.
+    O título é o cabeçalho que é exibido no resultado. Pode ter até 60 caracteres.
     
-5. Insira a **URL** da página, site ou fará um link para o indicador de local 
+5. Insira a **URL** da página, site ou local na qual o indicador será vinculado 
     
-6. Insira uma **Descrição do indicador**
+6. Insira uma **Descrição para o indicador**
     
-    Uma descrição ajuda os usuários a entender o que o indicador é vincular a. Ele pode ter até 300 caracteres.
+    Uma descrição ajuda os usuários a entender a que o indicador está vinculado. A descrição pode ter até 300 caracteres.
     
-7. Insira **palavras-chave** que você deseja acionar este indicador 
+7. Insira as **Palavras-chave** desejadas para acionar este indicador 
     
-    Quando um usuário procura por qualquer uma das palavras-chave que já tiver incluído, este indicador será incluído em seus resultados de trabalho.
+    Quando um usuário pesquisa qualquer uma das palavras-chave incluídas, esse indicador será incluído em seus resultados de trabalho.
     
-8. Selecione **corresponder automaticamente palavras-chave semelhantes** para expandir seu conjunto de palavras-chave 
+8. Escolha **Corresponder automaticamente a palavras-chave semelhantes** para expandir seu conjunto de palavras-chave 
     
-    Isso permite que uma correspondência mais ampla de termos de pesquisa e ajuda a garantir que este indicador é incluído nos resultados de trabalho relevantes.
+    Isso permite uma correspondência maior dos termos de pesquisa e ajuda a garantir que esse indicador estará incluído nos resultados de trabalho relevantes.
     
-9. Insira **palavras-chave reservadas**
+9. Insira as **Palavras-chave reservadas**
     
-    Se uma palavra-chave acionar vários indicadores, Microsoft Search será aquele mais popular na parte superior de mostrar os outros como links relacionados. Use um ou mais palavras-chave reservadas para garantir que um indicador sempre aparece como o resultado de superior. Palavras-chave reservadas não podem ser compartilhadas entre indicadores.
+    Se uma palavra-chave acionar vários indicadores, a Pesquisa da Microsoft colocará o mais popular no topo e mostrará os outros como links relacionados. Use uma ou mais palavras-chave reservadas para garantir que o indicador sempre apareça como o melhor resultado. As palavras-chave reservadas não podem ser compartilhadas em indicadores.
     
-## <a name="add-bookmark-settings"></a>Adicionar configurações do indicador
+## <a name="add-bookmark-settings"></a>Adicionar configurações de indicador
 
-Configurações de indicador lhe oferece controle adicional sobre quando um indicador aparece e quem vê-lo.
+As configurações de indicador oferecem um controle adicional sobre quando um indicador aparece e quem o vê.
   
 - Datas
     
-    Defina uma data de início, bem como uma data de término opcional para controlar quando um indicador serão publicados ou expirar. 
+    Defina uma data de início e uma data de término opcional para controlar quando um indicador será publicado ou expirará. 
     
 - País/região
     
-    Se você selecionar países ou regiões, somente os usuários nesses locais verá que marcam.
+    Se você escolher países ou regiões, somente os usuários em um desses locais verão esse indicador.
     
 - Grupos
     
-    Use os grupos de configuração para disponibilizar um resultado de indicador somente aos membros de um grupo selecionado. Por exemplo, se você estiver criando indicadores que pertencem somente os funcionários do departamento de RH, você pode mapear essa configuração para o grupo de segurança de RH apropriado.
+    Use a configuração de Grupos para disponibilizar um resultado de indicador somente para membros de um grupo selecionado. Por exemplo, se você estiver criando um indicador que se aplica apenas aos funcionários no departamento de RH, é possível mapear essa configuração ao grupo de segurança de RH apropriado.
     
-- Dispositivo &amp; SO
+- SO &amp; dispositivo
     
-    Se você selecionar tipos de dispositivo ou sistemas operacionais, somente os usuários pesquisando nesses dispositivos ou usando aqueles sistemas verão que marcam.
+    Se você escolher os tipos de dispositivo ou sistemas operacionais, somente os usuários que realizam pesquisas nesses dispositivos ou que usam estes sistemas verão o indicador.
     
-- Variações direcionadas
+- Variações de destino
     
-    Use esta configuração para variar o conteúdo do indicador com base no dispositivo e o local de um usuário.
+    Use esta configuração para variar o conteúdo do indicador com base no dispositivo e no local do usuário.
     
-## <a name="use-a-browser-extension-to-create-content"></a>Usar uma extensão de navegador para criar conteúdo
+## <a name="use-a-browser-extension-to-create-content"></a>Use a extensão do navegador para criar conteúdo
 
-Na seção Ferramentas de portal de administração, baixe e instale a extensão de navegador do criador do conteúdo para a borda ou Chrome. Para usar a extensão, entrar e vá para um site ou página que você deseja adicionar como um indicador. Revise e altere o conteúdo sugerido, incluindo palavras-chave, adicionar qualquer conteúdo adicional e salvar o indicador.
+Na seção Ferramentas do Portal do administrador, faça o download e instale a extensão de navegador do criador de Conteúdo para o Edge ou Chrome. Para usar a extensão, faça logon e acesse um site ou uma página que você deseja adicionar como um indicador. Revise e altere o conteúdo sugerido, como palavras-chave, adicione qualquer conteúdo adicional e salve o indicador.

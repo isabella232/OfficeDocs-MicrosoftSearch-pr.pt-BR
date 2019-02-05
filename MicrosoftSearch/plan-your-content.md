@@ -13,131 +13,131 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: bb9d90b6-6c86-4b19-9235-3bd9b19826ab
-description: Fornecer o conteúdo de qualidade sem a necessidade de recursos adicionais quando você usa o Microsoft Search
+description: Forneça conteúdo de qualidade sem precisar de recursos adicionais quando usar a Pesquisa da Microsoft
 ms.openlocfilehash: 898ba99ebf4751c47da96b23d6cb9bac058f6ffd
 ms.sourcegitcommit: 1c038d87efab4840d97b1f367b39e2b9ecdfee4a
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 01/29/2019
 ms.locfileid: "29612478"
 ---
 # <a name="plan-your-content"></a>Planejar o conteúdo
 
-Antes de planejar seu conteúdo, Noções básicas sobre o que você pode adicionar ao Microsoft Search serão úteis:
+Para planejar o conteúdo, convém entender o que você pode adicionar à Pesquisa da Microsoft:
   
 - Indicadores
     
-    Rapidamente oferece aos usuários um link para um site interno, página ou ferramenta onde eles podem obter informações adicionais.
+    Fornece rapidamente aos usuários um link para um site, uma página ou ferramenta interna, onde eles podem obter informações adicionais.
     
-- Q&As
+- P e R
     
-    Forneça uma resposta ou info aos usuários, incluindo um link opcional. Idealmente, um Q&A inclui todos os detalhes de que os usuários estão procurando por isso, eles não precisam passar para a fonte. Você pode formatar seu conteúdo Q&A e incluir imagens, listas e tabelas.
+    Fornece uma resposta ou informações aos usuários, inclusive um link opcional. O ideal é que um P e R inclua todos os detalhes que os usuários estão procurando, para que eles não precisem ir até a fonte. É possível formatar o conteúdo de P e R e incluir imagens, listas e tabelas.
     
-## <a name="identify-information-your-users-need"></a>Identificar informações que seus usuários precisam
+## <a name="identify-information-your-users-need"></a>Identifique as informações de que os usuários precisam
 
-Considere essas ideias:
+Considere estas sugestões:
   
-- [Importação SharePoint promovidos principais consultas e resultados](import-sharepoint-promoted-results-and-top-queries.md) como marcadores 
+- [Importar principais consultas e resultados promovidos do SharePoint](import-sharepoint-promoted-results-and-top-queries.md) como indicadores 
     
-- Use a pesquisa de intranet logs para determinar os sites e páginas que terão a maior parte do tráfego
+- Usar os logs de pesquisa da intranet para identificar as páginas e os sites mais acessados
     
-- Determinar as ferramentas que são usadas em uma base diária ou semanal, sites e aplicativos
+- Identificar os aplicativos, os sites e as ferramentas usadas de forma diária ou semanal
     
-- Reunir informações sobre os benefícios de funcionários chave e link direto para acessá-los
+- Reunir informações sobre os principais benefícios para os funcionários e direcionar links para elas
     
-- Encontre os usuários de políticas e processos precisam estar ciente
+- Localizar políticas e processos que os usuários precisam conhecer
     
-- Decidir quem e como os usuários devem contatar o suporte
+- Determinar quem e de que maneira os usuários devem contatar o suporte
     
-- Obtenha informações que são necessárias em uma base recorrente, seja periodicamente ou com base em ciclos de negócios
+- Obter informações necessárias de forma recorrente, sazonalmente ou com base em ciclos de negócios
   
-Por exemplo, as pessoas procurando ferramentas até o momento de catálogo desativado ou atualizações financeiras trimestrais
+Por exemplo, pessoas que procuram ferramentas para marcar folgas ou fazer atualizações financeiras trimestrais
     
-- Coletar políticas para usuários móveis ou regionais como benefícios que variam de um local
+- Coletar políticas para usuários móveis ou regionais, como benefícios que variam por local
     
-- Determinar sites internos e informações de pesquisas comuns da web
+- Identificar informações e sites internos para pesquisas da Web comuns
   
-Por exemplo, o tráfego, informações de trânsito pública, clima local, discounts disponibilizados por parceiros corporativos e programas de integridade e adequação
+Por exemplo, informações sobre trânsito e transporte público, clima local, descontos disponíveis de parceiros corporativos e programas de saúde e bem-estar
     
-- Encontre informações sobre eventos patrocinado pela empresa, conferências ou se retira
+- Localizar informações sobre eventos, conferências ou retiros patrocinados pela empresa
     
-- Pesquisa comum TI, RH, problemas e perguntas frequentes e respostas e suporte
+- Pesquisar problemas comuns relacionados a TI, RH e suporte, bem como perguntas frequentes e respostas
     
-## <a name="build-a-support-team"></a>Crie uma equipe de suporte
+## <a name="build-a-support-team"></a>Criar uma equipe de suporte
 
- **Especialistas no assunto alavancar**
+ **Aproveite os Especialistas no Assunto**
   
-Crie uma equipe de suporte que inclui especialistas de RH, suporte, vendas e outras áreas principais. Para permitir que seu SMEs contribuir com conteúdo diretamente, adicioná-los como editores no portal de administração. Isso também permite que você escalone a quantidade de conteúdo disponível sem a necessidade de recursos da equipe adicionais.
+Crie uma equipe de suporte que inclua especialistas de RH, suporte, vendas e outras áreas importantes. Para permitir que os Especialistas no Assunto colaborem diretamente com o conteúdo, adicione-os como editores no Portal de Administração. Dessa forma, você pode também dimensionar a quantidade de conteúdo disponível, sem precisar adicionar mais recursos para a equipe.
   
- **Envolver os usuários**
+ **Envolva os usuários**
   
-Envolvendo usuários no processo de criação de conteúdo incentiva a usar o Microsoft Search. Pedir que use o link de comentários em resultados de trabalho ou a extensão de pesquisa de borda ou Chrome para sugerir indicadores e Q&As. Além de sugestão de conteúdo, eles possam relata os erros, como links quebrados ou inválido e outros comente.
+Quando você envolve os usuários no processo de criação de conteúdo, eles são incentivados a usar a Pesquisa da Microsoft. Oriente-os a usar o link de comentários nos resultados de trabalho e a extensão de pesquisa do Google Chrome ou do Microsoft Edge para sugerir indicadores e P e R. Além de sugerir conteúdo, eles podem relatar erros, como links desfeitos ou inválidos, e fornecer outros comentários.
   
 ## <a name="create-high-quality-content"></a>Criar conteúdo de alta qualidade
 
- **Descrições e títulos**
+ **Títulos e descrições**
   
-Pessoas usam indicadores ou Q&A títulos e descrições para determinar se eles seu intenção de pesquisa de endereços ou se precisarem tentar uma pesquisa diferente. Descrições e títulos devem refletir a finalidade principal do resultado.
+As pessoas usam marcadores ou títulos e descrições de P e R para determinar se abordam a intenção da pesquisa ou se devem experimentar uma pesquisa diferente. Os títulos e as descrições devem refletir o principal objetivo do resultado.
   
-Um bom exemplo de um título seria 'Tomar conta das crianças benefícios,' com uma descrição de 'Saiba mais sobre benefícios para ajudar a pagar filho dos custos com atendimento.' Isso informa os usuários que procurar 'tomar conta das crianças' que os benefícios de suporte monetários estão disponíveis e fornece a eles um link para obter mais informações.
+Um exemplo de título ideal seria "Benefícios de uma creche", com a descrição "Conheça benefícios para ajudar a pagar os custos de cuidados infantis". Dessa maneira, os usuários que pesquisam por "creche" são informados de que os benefícios de suporte monetário estão disponíveis e contam com um link para obter mais informações.
   
-Títulos de Q&A devem fazer uma pergunta e a descrição deve fornecer uma resposta, mas útil curta. Se não houver informações adicionais que seriam útil, um link para ele.
+Os títulos de P e R devem colocar uma questão, e a descrição deve fornecer uma resposta curta, porém útil. Se houver informações adicionais que sejam úteis, crie um link para elas.
   
  **Palavras-chave**
   
-Palavras-chave são as pessoas de termos na sua organização procura em Bing para descobrir os resultados de trabalho. Tornar os indicadores e o Q&As mais fácil de localizar, incluindo as palavras-chave direita. Para identificar essas palavras-chave, inicie respondendo essas perguntas:
+Palavras-chave são termos que as pessoas pesquisam no Bing para descobrir resultados de trabalho na organização. Torne os Indicadores e as seções de P e R mais fáceis de encontrar incluindo as palavras-chave certas. Para identificar essas palavras-chave, comece respondendo às seguintes perguntas:
   
-- Quais termos de pesquisa são usados para localizar as informações que você identificou?
+- Quais termos de pesquisa são usados para encontrar as informações que você identificou?
     
-    Aproveite qualquer sua organização usa, bem como variações relacionadas, acrônimos, assuntos e tópicos de taxonomia existente.
+    Aproveite a taxonomia existente que a organização usa, bem como variações, acrônimos, assuntos e tópicos relacionados.
     
-- Quais variações ou palavras a as pessoas usam para falar sobre essas informações?
+- Que outras variações ou palavras as pessoas usam para falar sobre essa informação?
     
-    Aproveite a equipe de suporte para determinar a essas palavras-chave.
+    Aproveite a equipe de suporte para identificar essas palavras-chave.
     
-Por exemplo, se você estiver criando um resultado que os links para uma ferramenta para enviar solicitações de férias, palavras-chave, como 'férias' e 'enviar a solicitação de férias' são boas opções a serem incluídas. Você também pode achar que as pessoas da sua organização usam 'feriado' ou 'tempo desativa' para descrever ou procurar informações relacionadas a férias. Adicionando palavras-chave, como 'feriado', 'períodos de folga' 'enviar a solicitação de feriados' e 'solicitar tempo desativa' como palavras-chave facilita para obter mais informações, os usuários para descobrir o resultado.
+Por exemplo, se estiver criando um resultado vinculado a uma ferramenta para envios de solicitações de férias, é uma ótima ideia incluir palavras-chave como "férias" e "enviar solicitação de férias". Talvez você descubra que as pessoas na organização usam os termos "feriado" ou "folga" para descrever ou pesquisar informações relacionadas a férias. Adicionando palavras-chave como "feriado", "folga", "enviar solicitação de férias" e "solicitar folga", mais usuários podem descobrir facilmente o resultado.
   
  **Palavras-chave reservadas**
   
-Microsoft Search determina quais indicadores aparecem como os resultados de trabalho superior com base no uso. Quando você precisar de um resultado específico apareça como resultado superior, use as palavras-chave reservadas. Uma palavra reservada é uma exclusiva palavra ou frase que identifica um indicador ou Q&A resultado. Quando um usuário digita uma palavra reservada na caixa Pesquisar, esse indicador ou Q&A será o primeiro resultado que aparece. Use as palavras-chave reservadas com moderação para permitir o Microsoft Search aprender com base em uso.
+A Pesquisa da Microsoft determina quais indicadores aparecem como principais resultados de trabalho com base no uso. Quando for necessário exibir um resultado específico como principal resultado, use palavras-chave reservadas. Uma palavra-chave reservada é uma palavra ou frase única que sinaliza um indicador ou um resultado de P e R. Quando o usuário inserir uma palavra-chave reservada na caixa de pesquisa, esse indicador ou P e R será o primeiro resultado exibido. Use palavras-chave reservadas com moderação para permitir que a Pesquisa da Microsoft aprenda com base no uso.
   
  **Palavras-chave sugeridas**
   
-Crie um conjunto inicial de palavras-chave para um resultado usando sugestões de palavra-chave automática. Essas sugestões se baseiam no título e a URL para seu indicador ou Q&A.
+Crie um conjunto inicial de palavras-chave para um resultado usando sugestões automáticas de palavras-chave. Estas sugestões se baseiam no título e na URL do indicador ou do P e R.
   
- **Tópicos de grupo**
+ **Agrupar tópicos**
   
-Se desejar que os usuários encontrem conjuntos de conteúdos relacionados quando eles pesquisam, tente usar a palavra-chave mesma para todos os indicadores e Q&As sobre esse tópico. Por exemplo, se você estiver adicionando resultados sobre processos e ferramentas de alteração de status de vida, seriam uma palavra-chave, como 'casamento' para acessá-los aos resultados juntas grupo sobre como atualizar os benefícios, informações sobre impostos e alterações de nome e o alias.
+Se quiser que os usuários encontrem conjuntos de conteúdo relacionado quando pesquisarem, tente usar a mesma palavra-chave para todos os indicadores e P e R sobre esse tópico. Por exemplo, se estiver adicionando resultados sobre processos e ferramentas sobre alterações no status social, poderá incluir uma palavra-chave como "casamento" para agrupar resultados sobre a atualização de benefícios, informações fiscais e alterações de nome e alias.
   
-## <a name="test-your-content-and-search-experience"></a>Testar a sua experiência de conteúdo e pesquisa
+## <a name="test-your-content-and-search-experience"></a>Testar o conteúdo e a experiência de pesquisa
 
-Após ter publicado resultados, é importante verificar:
+Depois de publicar os resultados, é importante verificar se:
   
-- O indicador correto ou Q&A é exibida como resultado superior
+- O indicador ou P e R correto é exibido como principal resultado
     
-- Indicadores todas relacionadas ou Q&As são relevantes
+- Todos os indicadores ou P e R são relevantes
     
-- Não há resultados inesperados são incluídos
+- Não há resultados inesperados incluídos
     
-- Descrições e títulos de resultados fornecem as informações e os detalhes de por que seus usuários estiver procurando
+- Os títulos e as descrições dos resultados fornecem as informações e os detalhes que os usuários estão procurando
     
-A equipe de suporte é um ótimo recurso para ajudar a testar e validar a experiência de pesquisa e de conteúdo.
+A equipe de suporte é um ótimo recurso para ajudar a testar e validar o conteúdo e a experiência de pesquisa.
   
-## <a name="review-and-update-periodically"></a>Analisar e atualizar periodicamente
+## <a name="review-and-update-periodically"></a>Revisar e atualizar periodicamente
 
-Manter a precisão e a atualização dos seus resultados é fundamental quando você está fornecendo informações autorizadas à sua organização. Conduza revisões periódicas para:
+Manter a precisão e a atualização dos resultados é fundamental quando você fornece informações autoritativas para a organização. Faça revisões periódicas para:
   
-- Corrigi-los ou remover URLs quebrados ou inválidos
+- Corrigir ou remover URLs desfeitas ou inválidas
     
-- Remover o conteúdo que não for mais relevante
+- Remover conteúdo que não seja mais relevante
     
-- Atualizar títulos imprecisos ou desatualizados e descrições, incluindo a ferramenta, site ou alterações de nome de equipe
+- Atualizar títulos e descrições imprecisos ou desatualizados, inclusive alterações de nome de equipe, ferramenta ou site
     
-- Revise consultas com taxas de Clickthrough baixos e determinar se o indicador ou o conteúdo de Q&A precisa ser atualizado
+- Revisar consultas com baixas taxas de cliques e determinar se o indicador ou conteúdo de P e R precisa ser atualizado
     
-- Revisão do SharePoint Online e consultas de pesquisa local, incluindo consultas populares ou superior, abandonados consultas e consultas sem compreender o que os usuários e, quando houver intervalos de pesquisa
+- Revisar as consultas de pesquisas locais e do SharePoint Online, inclusive as consultas principais ou mais populares, consultas abandonadas e ausentes para entender o que os usuários pesquisam e onde há falhas
     
-Para rapidamente em massa editar os resultados, use o exportar e importar recursos no portal de administração.
+Para editar os resultados em massa rapidamente, use os recursos de exportação e importação no Portal de Administração.
 
   
 

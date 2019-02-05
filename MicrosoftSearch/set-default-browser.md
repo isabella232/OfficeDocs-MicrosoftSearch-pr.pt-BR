@@ -1,5 +1,5 @@
 ---
-title: Definir navegador padrão
+title: Definir o navegador padrão
 ms.author: dawholl
 author: dawholl
 manager: kellis
@@ -13,25 +13,25 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 53e2b71a-348b-4dfe-a504-6e97d573effe
-description: Saiba como configurar um navegador padrão para sua empresa com o Microsoft Search.
+description: Saiba como configurar um navegador padrão para a empresa com a Pesquisa da Microsoft.
 ms.openlocfilehash: 160dbbef9981127b74c51f54f86428667ecd4471
 ms.sourcegitcommit: 1c038d87efab4840d97b1f367b39e2b9ecdfee4a
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 01/29/2019
 ms.locfileid: "29612470"
 ---
-# <a name="set-default-browser"></a>Definir navegador padrão
+# <a name="set-default-browser"></a>Definir o navegador padrão
 
-Configurar o navegador padrão, o mecanismo de pesquisa padrão e a página inicial padrão ajudarão os usuários Descubra os recursos do Microsoft Search, incentivar o uso de mais e fornecer uma experiência mais suave.
+Configurar o navegador, o mecanismo de pesquisa e a home page padrão ajuda os usuários a descobrir os recursos, promove o uso e proporciona uma experiência aprimorada da Pesquisa da Microsoft.
   
-Para definir o navegador padrão para sua organização, siga as etapas abaixo.
+Para definir o navegador padrão da organização, faça os procedimentos abaixo.
   
-## <a name="windows-8-and-above"></a>Windows 8 e acima
+## <a name="windows-8-and-above"></a>Windows 8 e versão posterior
 
-Para definir o Internet Explorer ou Microsoft Edge como o navegador padrão, siga estas etapas:
+Para configurar o Microsoft Edge ou Internet Explorer como navegador padrão, faça o seguinte:
   
-### <a name="create-default-associations-file"></a>Criar o arquivo de associações padrão
+### <a name="create-default-associations-file"></a>Criar um arquivo de associações padrão
 
 1. Abra um console administrativo do PowerShell.
     
@@ -41,13 +41,13 @@ Para definir o Internet Explorer ou Microsoft Edge como o navegador padrão, sig
     
 4.  `Start-Process Dism.exe -PassThru "/Online /Export-DefaultAppAssociations:$SettingsPath\AppAssoc.xml"`
     
-Estas etapas tente e criar o arquivo de associações padrão na pasta SYSVOL do controlador de domínio.
+Essas etapas se destinam a testar e criar o arquivo de associações padrão na pasta SYSVOL do controlador de domínio.
   
-### <a name="add-or-edit-the-default-associations-file"></a>Adicionar ou editar o arquivo de associações padrão
+### <a name="add-or-edit-the-default-associations-file"></a>Adicionar ou editar um arquivo de associações padrão
 
 1. `Notepad "$SettingsPath\AppAssoc.xml"`
     
-2. Editar as seguintes entradas (. htm,. HTML, http, https) e remover outras entradas se eles não sejam necessários.
+2. Edite as seguintes entradas (.htm, .html, http, https) e remova as outras entradas, caso elas não sejam necessárias.
     
   - **Microsoft Edge**
     
@@ -57,7 +57,7 @@ Estas etapas tente e criar o arquivo de associações padrão na pasta SYSVOL do
   
      `<Association Identifier="http" ProgId="AppXq0fevzme2pys62n3e0fbqa7peapykr8v" ApplicationName="Microsoft Edge" />`
     
-  - **Internet Explorer**
+  - **Internet Explorer**
     
      `<Association Identifier=".htm" ProgId="htmlfile" ApplicationName="Internet Explorer" />`
   
@@ -67,38 +67,38 @@ Estas etapas tente e criar o arquivo de associações padrão na pasta SYSVOL do
   
      `<Association Identifier="https" ProgId="IE.HTTPS" ApplicationName="Internet Explorer" />`
     
-3. Abra o Console de gerenciamento de diretiva de grupo (GPMC. msc) e alterne para a edição de qualquer política existente ou criar um novo.
+3. Abra o Console de Gerenciamento de Política de Grupo (gpmc.msc) e a opção para editar uma política existente ou criar uma nova.
     
-1. Navegue até o **computador \ Modelos Administrativos\Componentes do Components\File Explorer**
+1. Navegue para **Configuração do Computador\Modelos Administrativos\Componentes do Windows\Explorador de Arquivos**
     
-2. Clique duas vezes em **definir um arquivo de configuração de associações padrão**, defini-la como **habilitada**e digite o caminho para AppAssoc.xml (por exemplo, %USERDOMAIN%\SYSVOL\%USERDNSDOMAIN%\Settings\AppAssoc.xml)
+2. Clique duas vezes em **Definir um arquivo de configuração de associações padrão**, defina-o como **habilitado** e insira o caminho para AppAssoc.xml (por exemplo %USERDOMAIN%\SYSVOL\%USERDNSDOMAIN%\Settings\AppAssoc.xml)
     
-4. Impor o GPO resultante ao vinculá-lo ao domínio apropriado.
+4. Aplique o GPO resultante vinculando-o ao domínio apropriado.
     
-Os usuários poderão alterar o navegador após essa diretiva estiver definida.
+Os usuários poderão alterar o navegador, após a definição dessa política.
   
 ## <a name="windows-7"></a>Windows 7
 
-1. Configure a máquina local que será usada para definir o GPO.
+1. Configure o computador local que será usado para configurar o GPO.
     
-1. Abra **Programas padrão do controle Panel\Programs\Default Programs\Set** e defina o Internet Explorer como padrão. 
+1. Abra **Painel de Controle\Programas\Programas Padrão\Definir Programas Padrão** e defina o Internet Explorer como padrão. 
     
-2. Abra o Console de gerenciamento de diretiva de grupo (GPMC. msc) e alterne para a edição de qualquer política existente ou criar um novo.
+2. Abra o Console de Gerenciamento de Política de Grupo (gpmc.msc) e a opção para editar uma política existente ou criar uma nova.
     
-1. Navegue até ** \<usuário do computador\> Configuration\Policies\Preferences\Windows configurações**.
+1. Navegue para **\<Computador/Usuário\> Configuração\Políticas\Preferências\Configurações do Windows**.
     
-2. Com o botão direito em **Registry\New** e selecione **Assistente do registro**.
+2. Clique com o botão direito do mouse em **Registro/Novo** e selecione **Assistente do Registro**.
     
-3. Da janela do navegador do registro, selecione o **Computador Local** e clique em **Avançar**.
+3. Na janela do Navegador do Registro, selecione **Computador local** e clique em **Avançar**.
     
-4. Navegue até **HKEY_CURRENT_USER\Software\Microsoft\Windows\Shell\Associations\UrlAssociations\https** e selecione o valor ProgId. Verifique se que o valor parecido com aquele abaixo: 
+4. Navegue para **HKEY_CURRENT_USER\Software\Microsoft\Windows\Shell\Associations\UrlAssociations\https** e selecione o valor ProgID. Verifique se o valor tem a seguinte aparência, conforme exibido abaixo: 
     
-    ![Selecione o valor ProgID em Editar cadeia de caracteres](media/f6173dcc-b898-4967-8c40-4b0fe411a92b.png)
+    ![Selecione o valor ProgID em Editar Cadeia de Caracteres](media/f6173dcc-b898-4967-8c40-4b0fe411a92b.png)
   
-5. Navegue até **HKEY_CURRENT_USER\Software\Microsoft\Windows\Shell\Associations\UrlAssociations\https** e selecione o valor ProgId. Certifique-se que o valor parecido com aquele abaixo: 
+5. Navegue para **HKEY_CURRENT_USER\Software\Microsoft\Windows\Shell\Associations\UrlAssociations\https** e selecione o valor ProgID. Verifique se o valor tem a seguinte aparência, conforme exibido abaixo: 
     
-    ![Selecione ProgId para HTTPS na cadeia de caracteres de edição](media/3519e13b-4fe7-4d15-946c-82fd50fc49bb.png)
+    ![Selecione a ProgID para HTTPS em Editar Cadeia de Caracteres](media/3519e13b-4fe7-4d15-946c-82fd50fc49bb.png)
   
-3. Impor o GPO resultante ao vinculá-lo ao domínio apropriado.
+3. Aplique o GPO resultante vinculando-o ao domínio apropriado.
     
-Os usuários poderão alterar o navegador após essa diretiva estiver definida.
+Os usuários poderão alterar o navegador, após a definição dessa política.

@@ -1,5 +1,5 @@
 ---
-title: Por que a Microsoft pesquisa
+title: Por que a Pesquisa da Microsoft
 ms.author: dawholl
 author: dawholl
 manager: kellis
@@ -13,52 +13,52 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 38569f03-db18-49ab-96ef-213a1f410935
-description: Saiba por que o Microsoft Search é inteligente enterprise search para o local de trabalho moderno.
+description: Saiba por que a Pesquisa da Microsoft é uma busca corporativa inteligente para o ambiente de trabalho moderno.
 ms.openlocfilehash: f00622643aac867a83614fe613f8c8ef4bdb116b
 ms.sourcegitcommit: 1c038d87efab4840d97b1f367b39e2b9ecdfee4a
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 01/29/2019
 ms.locfileid: "29612369"
 ---
-# <a name="why-microsoft-search"></a>Por que a Microsoft pesquisa
+# <a name="why-microsoft-search"></a>Por que a Pesquisa da Microsoft
 
-Transforme as maneira como as pessoas de sua pesquisa de organização para obter informações com o Microsoft Search. 
+Transforme a forma como as pessoas na organização pesquisam informações com a Pesquisa da Microsoft. 
   
-Esta pesquisa corporativa experiência aumenta a produtividade e economiza tempo, fornecendo os resultados de pesquisa mais relevantes para o local de trabalho. Microsoft Search com segurança recupera informações de sua empresa, escola ou organização —, como arquivos, os dados da empresa, informações de pessoas e sites —, bem como os resultados da web públicos e os exibe em uma única experiência.
+Essa experiência de pesquisa corporativa aumenta a produtividade e economiza tempo ao fornecer resultados de pesquisa mais relevantes para o local de trabalho. A Pesquisa da Microsoft recupera com segurança as informações de sua empresa, escola ou organização, como arquivos, dados da empresa, informações de pessoas e sites, além de resultados públicos da Web, e os exibe em uma única experiência.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2EWQN?autoplay=false]
   
-## <a name="save-time-with-intelligent-search"></a>Economize tempo com a pesquisa inteligente
+## <a name="save-time-with-intelligent-search"></a>Economize tempo com a Pesquisa Inteligente
 
-Microsoft Search aproveita AI para fornecer contextual, limites e resultados relevantes, para trazer os melhores resultados de pesquisa de sua organização e a web em uma única experiência.
+A Pesquisa da Microsoft aproveita a IA para fornecer resultados contextuais, ilimitados e relevantes, para oferecer a você os melhores resultados de pesquisa da organização e da Web em uma única experiência.
   
 ## <a name="get-enterprise-grade-protection"></a>Obtenha proteção de nível empresarial
 
-Microsoft Search requer autenticação do Azure Active Directory para acessar os resultados da nuvem confiáveis. Usuários autenticados só ver o conteúdo que eles têm acesso ao. Consultas de pesquisa são identificadas desprovisionamento e logs são separados do tráfego de pesquisa Bing público. Esse nível de proteção não está disponível em qualquer lugar else do setor.
+A Pesquisa da Microsoft exige que a autenticação do Azure Active Directory acesse os resultados da Nuvem Confiável. Os usuários autenticados veem somente o conteúdo ao qual eles têm acesso. As consultas de pesquisa são desidentificadas e os logs são separados do tráfego público de pesquisa do Bing. Esse nível de proteção não está disponível em nenhum outro produto do setor.
   
 ## <a name="easy-to-administer-and-available-everywhere"></a>Fácil de administrar e está disponível em todos os lugares
 
-Implantar o Microsoft Search é simple — basta habilitá-lo a partir do Centro de administração do Microsoft 365 e personalizar configurações, inclusive seu logotipo, nome, cor e muito mais. Os usuários autorizados podem acessá-lo em qualquer dispositivo apenas entrando no Bing.
+A implantação da Pesquisa da Microsoft é simples, basta ativá-la no centro de administração do Microsoft 365 e personalizar as configurações, incluindo seu logotipo, nome, cor e demais itens. Para que os usuários autorizados possam acessá-la em qualquer dispositivo, basta entrar no Bing.
   
-## <a name="one-place-to-search-across-office-365-apps"></a>Um lugar para pesquisar em aplicativos do Office 365
+## <a name="one-place-to-search-across-office-365-apps"></a>Um lugar para pesquisar aplicativos do Office 365
 
-Microsoft Search agrupa os resultados de várias fontes de dados no Office 365, incluindo o SharePoint, OneDrive for Business, equipes, Yammer, grupos e muito mais. Encontrar resultados relevantes trabalho é tão simple quanto uma pesquisa.
+A Pesquisa da Microsoft reúne resultados de várias fontes de dados no Office 365, incluindo o SharePoint, o OneDrive for Business, o Teams, o Yammer, o Groups e muito mais. Encontre resultados de trabalho relevantes é tão simples quanto uma pesquisa.
   
-## <a name="share-authoritative-information-and-answer-questions"></a>Compartilhar perguntas de informações e resposta autoritativas
+## <a name="share-authoritative-information-and-answer-questions"></a>Compartilhe informações autoritativas e responda perguntas
 
-Forneça as informações e respostas de que seus usuários precisam para concluir as tarefas, como políticas, benefícios, recursos, ferramentas e muito mais no trabalho resultados. Também é possível direcionar grupos específicos, como novas contratações ou funcionários remotos.
+Forneça as informações e respostas que seus usuários precisam para concluir tarefas, como políticas, benefícios, recursos, ferramentas e muito mais nos resultados de trabalho. Você também pode segmentar grupos específicos, como novos contratados ou funcionários remotos.
   
-## <a name="find-shared-files"></a>Encontrar arquivos compartilhados
+## <a name="find-shared-files"></a>Localize arquivos compartilhados
 
-Microsoft Search usa Compreendendo para facilitar a localização de arquivos e documentos compartilhados simples de consulta avançada. Encontre documentos que você está colaborando e arquivos que você tem acesso ao. 
+A Pesquisa da Microsoft usa o entendimento avançado de consultas para facilitar a localização de documentos e arquivos compartilhados. Encontre os documentos com os quais você está colaborando e os arquivos aos quais você tem acesso. 
   
-## <a name="complete-tasks-faster"></a>Concluir tarefas mais rápidas
+## <a name="complete-tasks-faster"></a>Conclua tarefas com mais rapidez
 
-Integre PowerApps ao seu conteúdo para permitir a conclusão da tarefa nos resultados de trabalho.
+Integre o PowerApps ao seu conteúdo para permitir a conclusão da tarefa nos resultados do trabalho.
   
-## <a name="reduce-support-costs"></a>Reduzir custos de suporte
+## <a name="reduce-support-costs"></a>Reduza os custos de suporte
 
-Reduzir os custos e tornar os usuários auto-suficiente incorporando personalizadas respostas para perguntas comuns e minimiza a necessidade de eles entre em contato com seu help desk, o departamento de TI, ou a equipe de suporte.
+Reduza custos e torne os usuários auto-suficientes incorporando respostas personalizadas a perguntas comuns e minimizando a necessidade de contatar o suporte técnico, o departamento de TI ou a equipe de suporte.
   
 

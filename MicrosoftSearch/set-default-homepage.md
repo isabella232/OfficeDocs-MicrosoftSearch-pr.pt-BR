@@ -1,5 +1,5 @@
 ---
-title: Definir a página inicial padrão
+title: Definir a home page padrão
 ms.author: dawholl
 author: dawholl
 manager: kellis
@@ -13,101 +13,101 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: c020bd72-9906-4dfd-bc77-57287f5927ce
-description: Saiba como configurar o Bing como a página inicial padrão para sua empresa com o Microsoft Search.
+description: Saiba como definir o Bing como home page padrão para a empresa com a Pesquisa da Microsoft.
 ms.openlocfilehash: db0611ebd7f4a8344664825bbb42025f3bb36486
 ms.sourcegitcommit: 1c038d87efab4840d97b1f367b39e2b9ecdfee4a
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 01/29/2019
 ms.locfileid: "29612486"
 ---
-# <a name="set-default-homepage"></a>Definir a página inicial padrão
+# <a name="set-default-homepage"></a>Definir a home page padrão
 
-Configurar o navegador padrão, o mecanismo de pesquisa padrão e a página inicial padrão ajudarão os usuários Descubra os recursos do Microsoft Search, incentivar o uso de mais e fornecer uma experiência mais suave.
+Configurar o navegador, o mecanismo de pesquisa e a home page padrão ajuda os usuários a descobrir os recursos, promove o uso e proporciona uma experiência aprimorada da Pesquisa da Microsoft.
   
-Para definir a página inicial padrão para sua organização, siga as etapas abaixo.
+Para definir a home page padrão da organização, faça os procedimentos abaixo.
   
 ## <a name="internet-explorer"></a>Internet Explorer
 
 ### <a name="internet-explorer-50-or-later"></a>Internet Explorer 5.0 ou posterior
 
-1. Abra o Console de gerenciamento de diretiva de grupo (GPMC. msc) e alterne para a edição de qualquer política existente ou criar um novo.
+1. Abra o Console de Gerenciamento de Política de Grupo (gpmc.msc) e a opção para editar uma política existente ou criar uma nova.
     
-2. Navegue até **configurações do usuário Configuration\Preferences\Control painel Settings\Internet**.
+2. Navegue para **Configuração do Usuário\Preferências\Configurações do Painel de Controle\Configurações da Internet**.
     
-3. Com o botão direito em **Configurações da Internet** e selecione o **Internet Explorer 10**.
+3. Clique com o botão direito do mouse em **Configurações da Internet** e selecione **Internet Explorer 10**.
     
     > [!NOTE]
-    > Você precisa selecionar a opção do Internet Explorer 10 para aplicar as configurações para o Internet Explorer 11, conforme as mesmas configurações se aplicam ao Internet Explorer 11. 
+    > Selecione a opção do Internet Explorer 10 a fim de aplicar as configurações para o Internet Explorer 11, pois as mesmas configurações se aplicam à esta versão do programa. 
   
-4. Configurações que são sublinhadas em vermelho não são definidas na máquina de destino, enquanto as configurações sublinhadas em verde são definidas na máquina de destino. Para alterar o sublinhado, use as teclas de função a seguir:
+4. As configurações sublinhadas em vermelho não são configuradas na máquina de destino, exceto as sublinhadas em verde. Para alterar o sublinhado, use as seguintes teclas de função:
     
-    F5 - habilita todas as configurações na guia atual
+    F5 – Habilitar todas as configurações na guia atual
     
-    F6 - habilitar a configuração selecionada no momento
+    F6 – Habilitar a configuração atualmente selecionada
     
-    F7 - desabilitar a configuração selecionada no momento
+    F7 – Desabilitar a configuração atualmente selecionada
     
-    F8 - desabilita todas as configurações na guia atual
+    F8 – Desabilitar todas as configurações na guia atual
     
-5. Pressione **F8** para desabilitar todas as configurações antes de configurar nada. A tela deve ter esta aparência: 
+5. Pressione **F8** para desabilitar todas as configurações antes de configurar tudo. A tela deve ter a seguinte aparência: 
     
     ![Caixa de diálogo Propriedades do Internet Explorer 10](media/2fd55755-5007-4e33-a795-c42ce2fcef4a.jpg)
   
-6. Pressione a **tecla F6** na configuração da Home page e insira`https://www.bing.com/business?form=BFBSPR`
+6. Pressione **F6** na configuração da Página Inicial e insira `https://www.bing.com/business?form=BFBSPR`
     
-7. Impor o GPO resultante ao vinculá-lo ao domínio apropriado.
+7. Aplique o GPO resultante vinculando-o ao domínio apropriado.
     
 > [!NOTE]
-> Os usuários ainda podem alterar a página inicial após essa diretiva estiver definida. 
+> Os usuários ainda poderão alterar a home page, após a definição dessa política. 
   
 ## <a name="microsoft-edge"></a>Microsoft Edge
 
-### <a name="windows-10-version-1511-or-later"></a>Windows 10, versão 1511 ou posterior
+### <a name="windows-10-version-1511-or-later"></a>Windows 10, versão 1511 ou posterior.
 
-1. Abra o Console de gerenciamento de diretiva de grupo (GPMC. msc) e alterne para a edição de qualquer política existente ou criar um novo.
+1. Abra o Console de Gerenciamento de Política de Grupo (gpmc.msc) e a opção para editar uma política existente ou criar uma nova.
     
-2. Navegue até a **borda de Windows\Console Administrativos\Componentes administrativas**
+2. Navegue para **Modelos Administrativos\Componentes do Windows\Microsoft Edge**
     
-1. Clique duas vezes em **Configurar Start pages**, defini-la como **habilitada**e insira`https://www.bing.com/business`
+1. Clique duas vezes em **Configurar páginas iniciais**, defina como **Habilitado** e insira `https://www.bing.com/business`
     
-3. Impor o GPO resultante ao vinculá-lo ao domínio apropriado.
+3. Aplique o GPO resultante vinculando-o ao domínio apropriado.
     
 > [!CAUTION]
-> Os usuários não poderão alterar o provedor de pesquisa depois que essa diretiva estiver definida. 
+> Os usuários não poderão alterar o provedor de pesquisa, após a definição dessa política. 
   
 ## <a name="google-chrome"></a>Google Chrome
 
 ### <a name="windows-xp-sp2-or-later"></a>Windows XP SP2 ou posterior
 
-O artigo de suporte do Windows no gerenciamento de arquivos ADMX e os arquivos ADMX mais recentes para diferentes versões do Windows pode ser encontrado [no suporte da Microsoft](https://support.microsoft.com/en-us/help/3087759/how-to-create-and-manage-the-central-store-for-group-policy-administra).
+O artigo do Suporte do Windows sobre como gerenciar arquivos ADMX, bem como os arquivos ADMX mais recentes para as diversas versões do Windows estão disponíveis [no Suporte da Microsoft](https://support.microsoft.com/pt-BR/help/3087759/how-to-create-and-manage-the-central-store-for-group-policy-administra).
 
-Você também precisará o arquivo de diretiva mais recente do Google, que pode ser encontrado na [Ajuda do Google Chrome Enterprise](https://support.google.com/chrome/a/answer/187202).
+É necessário também o arquivo de política do Google mais recente, que está disponível na página de [Ajuda do Google Chrome Enterprise](https://support.google.com/chrome/a/answer/187202).
   
-Se as configurações descritas nesta seção não podem ser encontradas no GPMC, baixe o ADMX apropriado e copiá-los para o [repositório central](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-vista/cc748955%28v%3dws.10%29). Um repositório central no controlador de é uma pasta com a seguinte convenção de nomenclatura:
+Caso as configurações descritas nesta seção não estejam disponíveis no GPMC, baixe o arquivo ADMX apropriado e copie-o para o [Repositório Central](https://docs.microsoft.com/pt-BR/previous-versions/windows/it-pro/windows-vista/cc748955%28v%3dws.10%29). O Repositório Central no controlador é uma pasta com a seguinte convenção de nomenclatura:
   
  **%systemroot%\sysvol\\<domain\>\policies\PolicyDefinitions**
   
-Cada domínio seus identificadores de controlador devem obter uma pasta separada. O comando a seguir pode ser usado para copiar o arquivo ADMX no prompt de comando:
+Cada domínio processado pelo controlador deve ter uma pasta separada. O comando a seguir pode ser usado para copiar o arquivo ADMX do prompt de comando:
   
  `Copy <path_to_ADMX.ADMX> %systemroot%\sysvol\<domain>\policies\PolicyDefinitions`
   
-1. Abra o Console de gerenciamento de diretiva de grupo (GPMC. msc) e alterne para a edição de qualquer política existente ou criar um novo.
+1. Abra o Console de Gerenciamento de Política de Grupo (gpmc.msc) e a opção para editar uma política existente ou criar uma nova.
     
-2. Verifique se as seguintes pastas aparecem na seção **Modelos administrativos** de ambas as *Configuração do computador do usuário*: Google Chrome e Google Chrome - Default Settings (os usuários podem substituir).
+2. Verifique se as seguintes pastas estão exibidas na seção **Modelos Administrativos** da *Configuração do Computador e da Configuração do Usuário*: Google Chrome e Configurações Padrão do Google Chrome (os usuários podem substituir).
     
-   - As configurações da primeira seção corrigidas e o administrador local não será possível alterá-los.
+   - As configurações da primeira seção são permanentes e o administrador local não poderá alterá-las.
     
-   - As configurações da seção última das diretivas podem ser alteradas por usuários em suas configurações do navegador. Você deve decidir se os usuários podem substituir sua configuração padrão. Nas etapas a seguir, altere na configuração na pasta correspondente para suas necessidades e a política da organização. As etapas a seguir usam o Google Chrome - configurações padrão como o padrão.
+   - As configurações da última seção de políticas podem ser alteradas pelos usuários nas configurações do navegador. Você deve determinar se os usuários podem substituir a configuração padrão. Nas etapas a seguir, altere a configuração na pasta que corresponde à política e às necessidades da organização. As etapas abaixo usam as Configurações Padrão do Google Chrome.
     
-3. Navegue até ** &lt;configuração do usuário do computador&gt;\Administrative Templates\Google Chrome - página de Settings\Home padrão**.
+3. Navegue para **&lt;Computador/Configuração do Usuário&gt;\Modelos Administrativos\Google Chrome – Configurações Padrão\Home Page**.
     
-4. Clique duas vezes em **Nova página de guia uso como home page**e defina-o como **habilitada**.
+4. Clique duas vezes em **Usar página de nova guia como home page** e defina como **Habilitado**.
     
-5. Navegue até ** &lt;configuração do usuário do computador&gt;\Administrative Templates\Google Chrome - página da guia Settings\New padrão**.
+5. Navegue para **&lt;Computador/Configuração do Usuário&gt;\Modelos Administrativos\Google Chrome – Configurações Padrão\Página de Nova Guia**.
     
-6. Clique duas vezes em **Configure a URL da página nova guia**, defini-la como **habilitada**e insira`https://www.bing.com/business?form=BFBSPR`
+6. Clique duas vezes em **Configurar a URL da página de nova guia**, defina como **Habilitado** e insira `https://www.bing.com/business?form=BFBSPR`
     
-7. Impor o GPO resultante ao vinculá-lo ao domínio apropriado.
+7. Aplique o GPO resultante vinculando-o ao domínio apropriado.
     
-Os usuários poderão alterar a home page, depois que essa diretiva estiver definida.
+Os usuários poderão alterar a home page, após a definição dessa política.
