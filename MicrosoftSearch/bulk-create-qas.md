@@ -1,5 +1,5 @@
 ---
-title: Em massa criar Q&As
+title: Criar Q&As em massa
 ms.author: dawholl
 author: dawholl
 manager: kellis
@@ -13,40 +13,51 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 7bada218-8908-4956-aae3-6ffaeef384ca
-description: Adicionar rapidamente respostas a perguntas frequentes com as ferramentas de importação no portal de administração de pesquisa da Microsoft
-ms.openlocfilehash: 84cca87eada0c31f9c39a16b364fb399014a6a5b
-ms.sourcegitcommit: bf52cc63b75f2e0324a716fe65da47702956b722
+description: Adicionar rapidamente as respostas às perguntas frequentes com as ferramentas de importação no portal de administração de pesquisa da Microsoft
+ms.openlocfilehash: 53f1d167948f6b621ad139620553df51b0cb91c2
+ms.sourcegitcommit: 61b4b84e581d3df6045851fe6c9c1291853dea06
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "29378379"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "30068391"
 ---
-# <a name="bulk-create-qas"></a>Em massa criar Q&As
+# <a name="bulk-create-qas"></a>Criar Q&As em massa
 
-Baixar e usar o modelo em massa. csv criar ou em massa Editar Q&As. Também é uma maneira simples de em massa Salvar rascunho Q&As que precisam edições adicionais ou atualizações. Se você precisar editar existentes Q&As em massa, exportá-los a partir do portal de administração, faça as edições necessárias e importá-los.
+Baixe e use o modelo. csv para criar ou editar em massa Q&As. Também é uma maneira simples de salvar em massa as Q&As de rascunho que precisam de edições ou atualizações adicionais. Se você precisar editar em massa o Q&As existente, exporte-os do portal de administração, faça as edições necessárias e importe-as.
   
-1. No canto superior direito da seção Q&As, clique em **Importar**
+1. No canto superior direito da seção Q&As, clique em **importar**
     
-2. Clique em **Baixar Q&A modelo (. csv)**
+2. Clique em **baixar modelo do Q&A (. csv)**
     
 3. Salve e abra o arquivo. csv
     
-4. Adicionar o conteúdo de Q&A e as configurações e salve o arquivo
+4. Adicione o conteúdo e as configurações do Q&A e salve o arquivo
     
-5. No canto superior direito da seção Q&As, clique em **Importar**
+5. No canto superior direito da seção Q&As, clique em **importar**
     
-6. No painel Q&As importar, clique em **Procurar** e navegue até o arquivo. csv que você deseja importar 
+6. No painel importar Q&As, clique em **procurar** e navegue até o arquivo. csv que você deseja importar 
     
-7. Clique em **Importar**
-    
-Você receberá um erro se todos os dados necessários estão ausente ou inválido. Dependendo do erro, um arquivo de log pode ser gerado com mais informações sobre as linhas e colunas que precisam ser corrigido. Faça qualquer edições necessárias e tente importar o arquivo novamente.
-  
+7. Clique em **importar**
+
+# <a name="prevent-import-errors"></a>Impedir erros de importação      
+Você receberá um erro se os dados necessários estiverem ausentes ou forem inválidos. Dependendo do erro, um arquivo de log pode ser gerado com mais informações sobre as linhas e colunas que precisam ser corrigidas. Faça as edições necessárias e tente importar o arquivo novamente.
+
 > [!NOTE]
-> Até que todos os erros forem resolvidos, é possível criar ou editar qualquer Q&As. 
-  
-Os campos nos modelos de Q&A de importação e exportação são os mesmos. Você pode exportar, editar em massa e importar as edições ou iniciar com um modelo vazio para em massa criar novo Q&As.
-  
-Nem todos os campos são necessários e campos obrigatórios variam dependendo do estado de Q&A. Com base no campo de estado, as Q&As será salva como agendado de rascunho, sugerido, ou eles serão publicados automaticamente. Saiba mais sobre campos necessários e recomendados em [criar Q&As](create-qas.md).
+> Até que todos os erros sejam resolvidos, não será possível criar ou editar qualquer Q&As. 
+
+Para ajudar a evitar erros, certifique-se de que o arquivo de importação esteja formatado corretamente:
+- Inclui a linha de cabeçalho que estava no modelo de importação
+- Inclui todas as colunas que estavam no modelo de importação
+- A ordem da coluna é o mesmo que o modelo de importação
+- Essas colunas podem estar vazias: ID, última modificação e última modificação por
+- A coluna de estado não pode ficar vazia, essas informações são necessárias  
+Com base no campo Estado, Q&As será salvo como rascunho, sugerido, agendado ou será publicado automaticamente.
+
+Além disso, se você incluir a ID de um Q&A existente, ele será substituído pelas informações no arquivo de importação.
+
+Para organizações com vários locatários, você pode exportar seu Q&As de um locatário e importá-lo para outro. Mas você deve remover todos os dados na coluna ID antes de importar.
+
+Para saber mais sobre os campos obrigatórios e recomendados, consulte [criar Q&As](create-qas.md).
 
   
 

@@ -1,5 +1,5 @@
 ---
-title: Crie os locais em massa
+title: Criar locais em massa
 ms.author: dawholl
 author: dawholl
 manager: kellis
@@ -13,40 +13,54 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 15c9fada-f7a6-4210-aa6b-028b32217830
-description: Adicionar locais ao mesmo tempo, com muito importar ferramentas para o portal de administração de pesquisa da Microsoft
-ms.openlocfilehash: af91dbc4a0efdaabb2bf91672c0e665683d2a6ab
-ms.sourcegitcommit: bf52cc63b75f2e0324a716fe65da47702956b722
+description: Adicionar vários locais de uma só vez com as ferramentas de importação para o portal de administração de pesquisa da Microsoft
+ms.openlocfilehash: eb51b93ceaa560e5142ac46d316ba745c614fe34
+ms.sourcegitcommit: 61b4b84e581d3df6045851fe6c9c1291853dea06
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "29378415"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "30068407"
 ---
-# <a name="bulk-create-locations"></a>Crie os locais em massa
+# <a name="bulk-create-locations"></a>Criar locais em massa
 
-Fazer o download e usar o modelo em massa. csv criar, editar e salvar locais. Em massa de locais de editar existentes, exportá-los a partir do portal de administração, faça as edições necessárias e importá-los.
+Baixe e use o modelo. csv para criar, editar e salvar locais em massa. 
   
-1. No canto superior direito da seção locais, clique em **Importar**
+1. No canto superior direito da seção locais, clique em **importar**
     
-2. Clique em **baixar o modelo de locais (. csv)**
+2. Clique em **baixar locais modelo (. csv)**
     
 3. Salve e abra o arquivo. csv
     
-4. Adicione o conteúdo local e salve o arquivo
+4. Adicione o conteúdo do local e salve o arquivo
     
-5. No canto superior direito da seção locais, clique em **Importar**
+5. No canto superior direito da seção locais, clique em **importar**
     
-6. No painel de locais de importação, clique em **Procurar** e navegue até o arquivo. csv que você deseja importar 
+6. No painel importar locais, clique em **procurar** e navegue até o arquivo. csv que você deseja importar 
     
-7. Clique em **Importar**
-    
-Você receberá um erro se todos os dados necessários estão ausente ou inválido. Dependendo do erro, um arquivo de log pode ser gerado com mais informações sobre as linhas e colunas que precisam ser corrigido. Faça qualquer edições necessárias e tente importar o arquivo novamente.
+7. Clique em **importar**
+
+Os campos nos modelos de importação e exportação de locais são os mesmos. Você pode exportar, editar em massa e importar as edições ou começar com um modelo vazio para criar novos locais em massa. Para editar em massa locais existentes, exportá-los do portal de administração, fazer as edições necessárias e importá-las.
+
+# <a name="prevent-import-errors"></a>Impedir erros de importação  
+Você receberá um erro se os dados necessários estiverem ausentes ou forem inválidos. Dependendo do erro, um arquivo de log pode ser gerado com mais informações sobre as linhas e colunas que precisam ser corrigidas. Faça as edições necessárias e tente importar o arquivo novamente.
   
 > [!NOTE]
-> Até que todos os erros forem resolvidos, é possível criar ou editar qualquer locais. 
+> Até que todos os erros sejam resolvidos, não será possível criar ou editar nenhum local. 
+
+Para ajudar a evitar erros, certifique-se de que o arquivo de importação esteja formatado corretamente:
+- Inclui a linha de cabeçalho que estava no modelo de importação
+- Inclui todas as colunas que estavam no modelo de importação
+- A ordem da coluna é o mesmo que o modelo de importação
+- Essas colunas podem estar vazias: ID, última modificação, última modificação, e lat/long  
+Tentaremos determinar lat/long com base no endereço se esse campo estiver vazio
+- A coluna de estado não pode ficar vazia, essas informações são necessárias  
+Com base no campo Estado, os locais serão salvos como rascunho, sugerido, agendado ou serão publicados automaticamente.
+
+Além disso, se você incluir a ID de um local existente, ele será substituído pelas informações no arquivo de importação.
+
+Para organizações com vários locatários, você pode exportar seus locais de um locatário e importá-los para outro. Mas você deve remover todos os dados na coluna ID antes de importar.
   
-Os campos nos modelos de locais de importação e exportação são os mesmos. Você pode exportar, editar em massa e importar as edições ou iniciar com um modelo vazio para em massa criar novos locais.
-  
-Nem todos os campos são necessários e campos obrigatórios variam dependendo do estado de local. Com base no campo de estado, as locais serão salvas como rascunho, sugerido, agendadas ou eles serão publicados automaticamente. Para saber mais sobre campos necessários e recomendados, consulte [Gerenciar locais](manage-locations.md).
+Para saber mais sobre os campos obrigatórios e recomendados, confira [Adicionar um local](add-a-location.md).
 
   
 

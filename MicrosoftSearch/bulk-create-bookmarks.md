@@ -1,5 +1,5 @@
 ---
-title: Em massa criar indicadores
+title: Criar indicadores em massa
 ms.author: dawholl
 author: dawholl
 manager: kellis
@@ -13,39 +13,48 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: def300e7-103c-4e92-a062-28ffa27561d7
-description: Criar muitos de indicadores de uma só vez com as ferramentas de importação para o portal de administração de pesquisa da Microsoft
-ms.openlocfilehash: e5af84daf2619e58e2cb3299de1b9d9df9966673
-ms.sourcegitcommit: bf52cc63b75f2e0324a716fe65da47702956b722
+description: Criar muitos indicadores de uma vez com as ferramentas de importação para o portal de administração de pesquisa da Microsoft
+ms.openlocfilehash: 07694de1f546a1431f371fa24ffc5721ea66337c
+ms.sourcegitcommit: 61b4b84e581d3df6045851fe6c9c1291853dea06
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "29378375"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "30068399"
 ---
-# <a name="bulk-create-bookmarks"></a>Em massa criar indicadores
+# <a name="bulk-create-bookmarks"></a>Criar indicadores em massa
 
-Fazer o download e usar o modelo em massa. csv criar, editar e salvar indicadores. Em massa indicadores existentes de editar, exportá-los a partir do portal de administração, faça as edições necessárias e importá-los.
+Baixe e use o modelo. csv para criar, editar e salvar os indicadores em massa. Para editar em massa indicadores existentes, exporte-os do portal de administração, faça as edições necessárias e importe-as.
   
-1. No canto superior direito da seção indicadores, clique em **Importar**
+1. No canto superior direito da seção indicadores, clique em **importar**
     
-2. Clique em **baixar o modelo de indicadores (. csv)**
+2. Clique em **baixar indicadores de modelo (. csv)**
     
 3. Salve e abra o arquivo. csv
     
-4. Adicione o conteúdo do indicador e configurações e salve o arquivo
+4. Adicione o conteúdo e as configurações do indicador e salve o arquivo
     
-5. No canto superior direito da seção indicadores, clique em **Importar**
+5. No canto superior direito da seção indicadores, clique em **importar**
     
-6. No painel de indicadores de importação, clique em **Procurar** e navegue até o arquivo. csv que você deseja importar 
+6. No painel importar marcadores, clique em **procurar** e navegue até o arquivo. csv que você deseja importar 
     
-7. Clique em **Importar**
-    
-Você receberá um erro se todos os dados necessários estão ausente ou inválido. Dependendo do erro, um arquivo de log pode ser gerado com mais informações sobre as linhas e colunas que precisam ser corrigido. Faça qualquer edições necessárias e tente importar o arquivo novamente.
-  
-Observação: Até que todos os erros forem resolvidos, você não pode criar ou editar os indicadores.
-  
-Os campos nos modelos de indicador de importação e exportação são os mesmos. Você pode exportar, editar em massa e importar as edições ou iniciar com um modelo vazio para em massa criar novos indicadores.
-  
-Nem todos os campos são necessários e campos obrigatórios variam dependendo do estado do indicador. Com base no campo de estado, indicadores também são salvos como rascunho, sugerido, agendadas ou eles serão publicados automaticamente. Saiba mais sobre campos necessários e recomendados em [criar indicadores](create-bookmarks.md).
+7. Clique em **importar**
 
-  
+# <a name="prevent-import-errors"></a>Impedir erros de importação      
+Você receberá um erro se os dados necessários estiverem ausentes ou forem inválidos. Dependendo do erro, um arquivo de log pode ser gerado com mais informações sobre as linhas e colunas que precisam ser corrigidas. Faça as edições necessárias e tente importar o arquivo novamente.
 
+> [!NOTE]
+> Até que todos os erros sejam resolvidos, não será possível criar ou editar nenhum indicador. 
+
+Para ajudar a evitar erros, certifique-se de que o arquivo de importação esteja formatado corretamente:
+- Inclui a linha de cabeçalho que estava no modelo de importação
+- Inclui todas as colunas que estavam no modelo de importação
+- A ordem da coluna é o mesmo que o modelo de importação
+- Essas colunas podem estar vazias: ID, última modificação e última modificação por
+- A coluna de estado não pode ficar vazia, essas informações são necessárias  
+Com base no campo Estado, os indicadores serão salvos como rascunho, sugerido, agendado ou serão publicados automaticamente.
+
+Além disso, se você incluir a ID de um indicador existente, ele será substituído pelas informações no arquivo de importação.
+
+Para organizações com vários locatários, você pode exportar seus indicadores de um locatário e importá-los para outro. Mas você deve remover todos os dados na coluna ID antes de importar.
+
+Para saber mais sobre os campos obrigatórios e recomendados, confira [criar indicadores](create-bookmarks.md).
