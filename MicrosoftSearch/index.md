@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 ms.assetid: 90d3190d-1add-490f-bef2-10b528252a2e
 description: A Pesquisa da Microsoft é uma experiência de pesquisa corporativa que aumenta a produtividade e poupa tempo, fornecendo os resultados de pesquisa mais relevantes para sua organização
-ms.openlocfilehash: 1a50ff7a0ae3c2b86f3051ad4eeecb38a8a602a9
-ms.sourcegitcommit: 1c038d87efab4840d97b1f367b39e2b9ecdfee4a
+ms.openlocfilehash: 904a54998900e1c702d273dc71ceb605929269ed
+ms.sourcegitcommit: 1bc499c59b6ec9cbdf3db0fdcb8d1252e36cce0c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "29612343"
+ms.lasthandoff: 04/09/2019
+ms.locfileid: "31746379"
 ---
 # <a name="microsoft-search"></a>Pesquisa da Microsoft
 
@@ -154,7 +154,7 @@ ms.locfileid: "29612343"
                     <div class="cardText">
                         <p><a href="security.md">Segurança</a></p>
                         <p><a href="requirements.md">Requisitos</a></p>  
-                        <p><a href="about-the-admin-portal.md">Sobre o Portal de administração</a></p>
+                        <p><a href="about-the-admin-portal.md">Sobre o Portal de Administração</a></p>
                     </div>
                 </div>
             </div>
@@ -180,7 +180,7 @@ ms.locfileid: "29612343"
                     <div class="cardText">
                         <p><a href="create-bookmarks.md">Criar indicadores</a></p>
                         <p><a href="create-qas.md">Criar perguntas e respostas</a></p>
-                        <p><a href="add-users.md">Adicionar usuários</a></p>
+                        <p><a href="add-users.md">Gerenciamento de usuários</a></p>
                     </div>
                 </div>
             </div>
