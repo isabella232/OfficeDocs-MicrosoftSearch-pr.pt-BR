@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 ms.assetid: bc3d1d2a-a4d9-4a02-9d7d-deb492e79cd0
 description: Saiba mais sobre as quatro etapas fáceis necessárias para ativar e usar a Pesquisa da Microsoft.
-ms.openlocfilehash: fb5677a0acc896e593eae42c35111e0f744ef45d
-ms.sourcegitcommit: 1c038d87efab4840d97b1f367b39e2b9ecdfee4a
+ms.openlocfilehash: 2a113cf10d944aea54d3fe6342599934e4b5ac45
+ms.sourcegitcommit: 1bc499c59b6ec9cbdf3db0fdcb8d1252e36cce0c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "29612342"
+ms.lasthandoff: 04/09/2019
+ms.locfileid: "31746363"
 ---
 # <a name="quick-set-up-for-microsoft-search"></a>Configuração rápida da Pesquisa da Microsoft
 
@@ -73,7 +73,7 @@ Se sua organização tiver as Melhores Opções configuradas no SharePoint, voc�
     
 3. Para saber mais, confira [Ferramentas do Portal de Administração](admin-portal-tools.md)
     
-Depois de concluir essa configuração rápida e [adicionar usuários](add-users.md), eles poderão acessar o Bing.com e pesquisar os resultados de trabalho. 
+Depois de concluir essa configuração rápida, os usuários poderão acessar o Bing.com e pesquisar os resultados de trabalho. 
   
 ## <a name="how-do-i-get-to-the-microsoft-search-admin-portal"></a>Como acesso o Portal de Administração de Pesquisa da Microsoft?
 

@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 ms.assetid: 38569f03-db18-49ab-96ef-213a1f410935
 description: Saiba por que a Pesquisa da Microsoft é uma busca corporativa inteligente para o ambiente de trabalho moderno.
-ms.openlocfilehash: f00622643aac867a83614fe613f8c8ef4bdb116b
-ms.sourcegitcommit: 1c038d87efab4840d97b1f367b39e2b9ecdfee4a
+ms.openlocfilehash: f7c65e13f18f6ea4fd38bc406653a37f85659d3e
+ms.sourcegitcommit: 1bc499c59b6ec9cbdf3db0fdcb8d1252e36cce0c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "29612369"
+ms.lasthandoff: 04/09/2019
+ms.locfileid: "31746411"
 ---
 # <a name="why-microsoft-search"></a>Por que a Pesquisa da Microsoft
 
@@ -39,7 +39,7 @@ A Pesquisa da Microsoft exige que a autenticação do Azure Active Directory ace
   
 ## <a name="easy-to-administer-and-available-everywhere"></a>Fácil de administrar e está disponível em todos os lugares
 
-A implantação da Pesquisa da Microsoft é simples, basta ativá-la no centro de administração do Microsoft 365 e personalizar as configurações, incluindo seu logotipo, nome, cor e demais itens. Para que os usuários autorizados possam acessá-la em qualquer dispositivo, basta entrar no Bing.
+É muito fácil implantar a Pesquisa da Microsoft. Basta habilitá-la no centro de administração do Microsoft 365 e personalizar configurações, como logotipo, nome, cor e muito mais. Os usuários podem acessá-lo em qualquer dispositivo entrando no Bing.
   
 ## <a name="one-place-to-search-across-office-365-apps"></a>Um lugar para pesquisar aplicativos do Office 365
 

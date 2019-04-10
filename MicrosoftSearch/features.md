@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 ms.assetid: 5861e462-faed-4c3d-824d-ed3aafd80714
 description: Os principais recursos da Pesquisa da Microsoft para administradores e usuários finais incluem indicadores, perguntas e respostas e informações sobre gerenciamento e dados
-ms.openlocfilehash: ca2c0de9fbed075a822989ab8b3bf881d5626cee
-ms.sourcegitcommit: 1c038d87efab4840d97b1f367b39e2b9ecdfee4a
+ms.openlocfilehash: 983a882fd42ae6f76a4b3db4f0f87dd8fbe7974d
+ms.sourcegitcommit: 1bc499c59b6ec9cbdf3db0fdcb8d1252e36cce0c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "29612422"
+ms.lasthandoff: 04/09/2019
+ms.locfileid: "31746371"
 ---
 # <a name="features-of-microsoft-search"></a>Recursos da Pesquisa da Microsoft
 
@@ -31,7 +31,7 @@ ms.locfileid: "29612422"
     
 - [P e R corporativas](create-and-manage-qas.md)
     
-    Responda às perguntas frequentes da organização
+    Responder às perguntas frequentes da organização
     
 - Importe e exporte [indicadores](bulk-create-bookmarks.md) e as [P e Rs](bulk-create-qas.md)
     
@@ -47,7 +47,7 @@ ms.locfileid: "29612422"
     
 - [Usuários e permissões](add-users.md)
     
-    O administrador global ou o administrador da Pesquisa da Microsoft autoriza administradores adicionais que gerenciam a configuração da Pesquisa da Microsoft, editores que criam conteúdo e usuários finais que têm acesso à Pesquisa da Microsoft.
+    O administrador global ou o administrador da Pesquisa da Microsoft autoriza administradores adicionais que gerenciam a configuração da Pesquisa da Microsoft e editores que criam conteúdo
     
 - [Análise ](get-insights.md) 
     
@@ -59,7 +59,7 @@ ms.locfileid: "29612422"
     
     Encontre pessoas e entenda seu papel dentro da empresa, em que elas estão trabalhando e as formas de contatá-las
     
-- [Organogramas](use/find-people-and-groups.md)
+- [Gráficos organizacionais](use/find-people-and-groups.md)
     
     Entenda a posição de uma pessoa na empresa e navegue facilmente pelos colegas, pelo gerenciamento e pelos subordinados diretos
     

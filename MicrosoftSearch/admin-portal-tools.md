@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 ms.assetid: 4a824483-2407-4bbd-8f7f-5ebb47817c7e
 description: Visão geral das ferramentas da Pesquisa da Microsoft para criar e importar resultados, entrar automaticamente e pesquisar em qualquer lugar
-ms.openlocfilehash: 3b7064fbd0d8f66149a91057be00611e23928ccc
-ms.sourcegitcommit: 1c038d87efab4840d97b1f367b39e2b9ecdfee4a
+ms.openlocfilehash: cae2612979673e086820fec78e4c1e085e38a749
+ms.sourcegitcommit: 1bc499c59b6ec9cbdf3db0fdcb8d1252e36cce0c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "29612367"
+ms.lasthandoff: 04/09/2019
+ms.locfileid: "31746387"
 ---
 # <a name="admin-portal-tools"></a>Ferramentas do portal de administração
 
@@ -31,11 +31,11 @@ O portal de administração da Pesquisa da Microsoft inclui ferramentas e recurs
     
 - Pesquisa da Microsoft na extensão de pesquisa do Bing
     
-    Disponível para usuários autorizados, use a extensão do Chrome ou do Edge para acessar rapidamente a pesquisa corporativa da Pesquisa da Microsoft sem sair da página ou do site no qual você está.
+    Use a extensão do Chrome ou do Edge para acessar rapidamente a pesquisa corporativa da Pesquisa da Microsoft sem sair da página ou do site no qual você está.
     
 - Extensão de logon do Windows 10 e do AAD para o Chrome
     
-    Disponível para usuários autorizados, use a extensão do Chrome para autenticar facilmente com o Azure Active Directory ao entrar em sites compatíveis, incluindo o Office 365 e o Bing. Recomendamos implantar essa extensão ao [testar o logon único](test-single-sign-on.md).
+    Use a extensão do Chrome para autenticar facilmente com o Azure Active Directory, quando entrar em sites compatíveis, incluindo o Office 365 e o Bing. É recomendável implantar esta extensão quando você [testar o logon único](test-single-sign-on.md).
     
 - Importar as principais consultas do SharePoint como indicadores
     
