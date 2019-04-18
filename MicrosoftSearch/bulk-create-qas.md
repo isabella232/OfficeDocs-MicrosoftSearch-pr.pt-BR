@@ -1,5 +1,5 @@
 ---
-title: Criar Q&As em massa
+title: Criar perguntas e respostas em massa
 ms.author: dawholl
 author: dawholl
 manager: kellis
@@ -14,14 +14,14 @@ search.appverid:
 - MOE150
 ms.assetid: 7bada218-8908-4956-aae3-6ffaeef384ca
 description: Adicionar rapidamente as respostas às perguntas frequentes com as ferramentas de importação no portal de administração de pesquisa da Microsoft
-ms.openlocfilehash: 53f1d167948f6b621ad139620553df51b0cb91c2
-ms.sourcegitcommit: 61b4b84e581d3df6045851fe6c9c1291853dea06
+ms.openlocfilehash: 28fcf57c44f809e7f9b0c1b27042f4549067a0f8
+ms.sourcegitcommit: c70dd5eae43abb775acc6fc4522c2e6be4f0bb67
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "30068391"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "31901813"
 ---
-# <a name="bulk-create-qas"></a>Criar Q&As em massa
+# <a name="bulk-create-qas"></a>Criar perguntas e respostas em massa
 
 Baixe e use o modelo. csv para criar ou editar em massa Q&As. Também é uma maneira simples de salvar em massa as Q&As de rascunho que precisam de edições ou atualizações adicionais. Se você precisar editar em massa o Q&As existente, exporte-os do portal de administração, faça as edições necessárias e importe-as.
   
@@ -32,6 +32,8 @@ Baixe e use o modelo. csv para criar ou editar em massa Q&As. Também é uma man
 3. Salve e abra o arquivo. csv
     
 4. Adicione o conteúdo e as configurações do Q&A e salve o arquivo
+
+    O arquivo. csv deve ser salvo como um arquivo CSV UTF-8, outros tipos de arquivo e codificações podem causar erros de importação
     
 5. No canto superior direito da seção Q&As, clique em **importar**
     

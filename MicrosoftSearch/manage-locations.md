@@ -13,55 +13,55 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 8ab9aa00-cd74-405f-8410-9a1c3cfacdb9
-description: Ao longo do tempo, você pode precisar atualizar o status de um local e o conteúdo para mantê-la relevantes.
-ms.openlocfilehash: 614d265ff6cd68b767041d12c3261b7b76effd47
-ms.sourcegitcommit: bf52cc63b75f2e0324a716fe65da47702956b722
+description: Com o tempo, talvez seja necessário atualizar o status e o conteúdo de um local para mantê-lo relevante.
+ms.openlocfilehash: 69fa4fc86d80adf76aa2a5788bdde433dd827a4d
+ms.sourcegitcommit: c70dd5eae43abb775acc6fc4522c2e6be4f0bb67
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "29378409"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "31901821"
 ---
 # <a name="manage-locations"></a>Gerenciar locais
 
-Ao longo do tempo, você pode precisar atualizar o status de um local e o conteúdo para mantê-la relevantes. 
+Com o tempo, talvez seja necessário atualizar o status e o conteúdo de um local para mantê-lo relevante. 
   
-## <a name="filter-locations"></a>Locais de filtro
+## <a name="filter-locations"></a>Filtrar locais
 
-Use a opção de filtro no canto superior direito da página locais para encontrar locais por data e ver quem o modificou. Por exemplo, defina o controle deslizante de data para 30 dias e selecione um administrador ou um editor de ver a lista de locais, eles foram criados ou alterados durante esse horário.
+Use a opção filtro no canto superior direito da página locais para localizar locais por data e ver quem os modificou. Por exemplo, defina o controle deslizante de data como 30 dias e selecione um administrador ou editor para ver a lista de locais que eles criaram ou mudaram durante esse tempo.
   
-## <a name="change-location-content"></a>Alterar o local de conteúdo
+## <a name="change-location-content"></a>Alterar o conteúdo do local
 
-1. Vá para o portal de administração de pesquisa da Microsoft
+1. Acesse o Portal de Administração da Pesquisa da Microsoft
     
 2. No painel de navegação, clique em **locais**
     
-3. Para localizar um local, pesquisar, filtrar ou clique em um status de local para restringir os resultados
+3. Para localizar um local, Pesquisar, filtrar ou clique em um status de local para restringir os resultados
     
 4. Para alterar ou atualizar um local, clique no nome do local
     
-5. Fazer quaisquer alterações ou atualizações no conteúdo e como eles aparecerá de visualização 
+5. Faça as alterações ou atualizações no conteúdo e visualize como eles aparecerão 
     
 6. Clique em **Salvar**
     
-## <a name="bulk-export-and-edit-locations"></a>Exportação em massa e editar locais
+## <a name="bulk-export-and-edit-locations"></a>Locais de exportação e edição em massa
 
-Nunca edite dados nesses campos:
+Nunca edite dados nestes campos:
   
 - Id
     
-- Modificado pela última vez
+- Última modificação
     
-- Modificado pela última vez
+- Modificado pela última vez por
     
-ID é um identificador exclusivo para cada local e nunca deve ser editado. Os campos de última modificação e modificado por só devem ser usados para classificar e encontrar locais.
+ID é um identificador exclusivo para cada local e nunca deve ser editado. Os campos última modificação e modificado pela última vez por devem ser usados apenas para classificar e localizar locais.
   
-1. Se você deseja exportar um subconjunto dos seus locais, filtrá-los
+1. Se você deseja exportar um subconjunto de seus locais, filtre-os
     
 2. No canto superior direito da página locais, clique em **Exportar**
     
-3. Salvar ou abrir o arquivo. csv
+3. Salve ou abra o arquivo. csv
     
-4. Edite dados em qualquer um desses campos:
+4. Edite dados em qualquer um destes campos:
     
    - Nome
     
@@ -89,13 +89,15 @@ ID é um identificador exclusivo para cada local e nunca deve ser editado. Os ca
     
    - Estado
     
-5. Salve o arquivo. csv
+5. Salvar o arquivo. csv
+
+    O arquivo. csv deve ser salvo como um arquivo CSV UTF-8, outros tipos de arquivo e codificações podem causar erros de importação
     
-6. No canto superior direito da página locais, clique em **Importar**
+6. No canto superior direito da página locais, clique em **importar**
     
-7. No painel de locais de importação, clique em **Procurar** e selecione o arquivo. csv editadas 
+7. No painel importar locais, clique em **procurar** e selecione o arquivo. csv editado 
     
-8. Clique em **Importar**
+8. Clique em **importar**
 
   
 

@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 ms.assetid: 15c9fada-f7a6-4210-aa6b-028b32217830
 description: Adicionar vários locais de uma só vez com as ferramentas de importação para o portal de administração de pesquisa da Microsoft
-ms.openlocfilehash: eb51b93ceaa560e5142ac46d316ba745c614fe34
-ms.sourcegitcommit: 61b4b84e581d3df6045851fe6c9c1291853dea06
+ms.openlocfilehash: 3c7e43b03b97b46769d5e73f20ddae47b3459b59
+ms.sourcegitcommit: c70dd5eae43abb775acc6fc4522c2e6be4f0bb67
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "30068407"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "31901805"
 ---
 # <a name="bulk-create-locations"></a>Criar locais em massa
 
@@ -32,6 +32,8 @@ Baixe e use o modelo. csv para criar, editar e salvar locais em massa.
 3. Salve e abra o arquivo. csv
     
 4. Adicione o conteúdo do local e salve o arquivo
+
+    O arquivo. csv deve ser salvo como um arquivo CSV UTF-8, outros tipos de arquivo e codificações podem causar erros de importação
     
 5. No canto superior direito da seção locais, clique em **importar**
     

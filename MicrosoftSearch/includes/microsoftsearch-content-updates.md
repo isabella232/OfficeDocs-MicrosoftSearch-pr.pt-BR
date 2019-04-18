@@ -17,3 +17,18 @@
 | Publicado em |Título do tópico | Alteração |
 |------|------------|--------|
 | 3/25/2019 | [Sobre o Portal de Administração](/MicrosoftSearch/about-the-admin-portal) | modificado |
+
+
+## <a name="week-of-april-08-2019"></a>Semana de 08 de Abril de 2019
+
+
+| Publicado em |Título do tópico | Alteração |
+|------|------------|--------|
+| 4/9/2019 | [Gerenciamento de usuários](/MicrosoftSearch/add-users) | modificado |
+| 4/9/2019 | [Ferramentas do portal de administração](/MicrosoftSearch/admin-portal-tools) | modificado |
+| 4/9/2019 | [Recursos da Pesquisa da Microsoft](/MicrosoftSearch/features) | modificado |
+| 4/9/2019 | [Pesquisa da Microsoft](/MicrosoftSearch/index) | modificado |
+| 4/9/2019 | [Pesquisa da Microsoft](/MicrosoftSearch/microsoft-search) | modificado |
+| 4/9/2019 | [Configuração rápida da Pesquisa da Microsoft](/MicrosoftSearch/quick-set-up) | modificado |
+| 4/9/2019 | [Configurar a Pesquisa da Microsoft](/MicrosoftSearch/set-up-microsoft-search) | modificado |
+| 4/9/2019 | [Por que usar a Pesquisa da Microsoft?](/MicrosoftSearch/why-microsoft-search) | modificado |

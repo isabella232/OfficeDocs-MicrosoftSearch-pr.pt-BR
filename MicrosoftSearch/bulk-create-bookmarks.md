@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 ms.assetid: def300e7-103c-4e92-a062-28ffa27561d7
 description: Criar muitos indicadores de uma vez com as ferramentas de importação para o portal de administração de pesquisa da Microsoft
-ms.openlocfilehash: 07694de1f546a1431f371fa24ffc5721ea66337c
-ms.sourcegitcommit: 61b4b84e581d3df6045851fe6c9c1291853dea06
+ms.openlocfilehash: 7c134784f0ca0d4cc84d5bce3a98f7e75aa6f441
+ms.sourcegitcommit: c70dd5eae43abb775acc6fc4522c2e6be4f0bb67
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "30068399"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "31901789"
 ---
 # <a name="bulk-create-bookmarks"></a>Criar indicadores em massa
 
@@ -32,6 +32,8 @@ Baixe e use o modelo. csv para criar, editar e salvar os indicadores em massa. P
 3. Salve e abra o arquivo. csv
     
 4. Adicione o conteúdo e as configurações do indicador e salve o arquivo
+
+    O arquivo. csv deve ser salvo como um arquivo CSV UTF-8, outros tipos de arquivo e codificações podem causar erros de importação
     
 5. No canto superior direito da seção indicadores, clique em **importar**
     
