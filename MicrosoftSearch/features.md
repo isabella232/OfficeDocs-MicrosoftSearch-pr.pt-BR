@@ -15,11 +15,11 @@ search.appverid:
 ms.assetid: 5861e462-faed-4c3d-824d-ed3aafd80714
 description: Os principais recursos da Pesquisa da Microsoft para administradores e usuários finais incluem indicadores, perguntas e respostas e informações sobre gerenciamento e dados
 ms.openlocfilehash: 983a882fd42ae6f76a4b3db4f0f87dd8fbe7974d
-ms.sourcegitcommit: 1bc499c59b6ec9cbdf3db0fdcb8d1252e36cce0c
+ms.sourcegitcommit: a5fd9d4f46bbb7c539630735ac16e0c786939e5d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/09/2019
-ms.locfileid: "31746371"
+ms.lasthandoff: 05/01/2019
+ms.locfileid: "33508590"
 ---
 # <a name="features-of-microsoft-search"></a>Recursos da Pesquisa da Microsoft
 
@@ -31,7 +31,7 @@ ms.locfileid: "31746371"
     
 - [P e R corporativas](create-and-manage-qas.md)
     
-    Responder às perguntas frequentes da organização
+    Responda às perguntas frequentes da organização
     
 - Importe e exporte [indicadores](bulk-create-bookmarks.md) e as [P e Rs](bulk-create-qas.md)
     
@@ -59,7 +59,7 @@ ms.locfileid: "31746371"
     
     Encontre pessoas e entenda seu papel dentro da empresa, em que elas estão trabalhando e as formas de contatá-las
     
-- [Gráficos organizacionais](use/find-people-and-groups.md)
+- [Organogramas](use/find-people-and-groups.md)
     
     Entenda a posição de uma pessoa na empresa e navegue facilmente pelos colegas, pelo gerenciamento e pelos subordinados diretos
     

@@ -14,11 +14,11 @@ search.appverid:
 ms.assetid: b453e6f0-10cf-4384-9914-241f425cd5f9
 description: Obtenha uma visão geral de todas as informações que você pode encontrar ao usar a Pesquisa da Microsoft
 ms.openlocfilehash: f5a9656144efad8c6e146f6654ebc9f69f1b1843
-ms.sourcegitcommit: 1c038d87efab4840d97b1f367b39e2b9ecdfee4a
+ms.sourcegitcommit: a5fd9d4f46bbb7c539630735ac16e0c786939e5d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "29612366"
+ms.lasthandoff: 05/01/2019
+ms.locfileid: "33508940"
 ---
 # <a name="about-microsoft-search"></a>Sobre a Pesquisa da Microsoft
 

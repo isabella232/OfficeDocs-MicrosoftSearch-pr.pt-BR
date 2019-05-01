@@ -15,11 +15,11 @@ search.appverid:
 ms.assetid: f980b90f-95e2-4b66-8b21-69f601ff4b50
 description: Para ter acesso a sugestões de pesquisa relevantes e encontrar resultados de trabalho mais rapidamente, adicione uma caixa de pesquisa da Pesquisa da Microsoft a um site ou página da intranet.
 ms.openlocfilehash: a66c0cea71cf637209d298f49542864755e92ec9
-ms.sourcegitcommit: c18809f57f957de958a87e940dc3904061fe0bd0
+ms.sourcegitcommit: a5fd9d4f46bbb7c539630735ac16e0c786939e5d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2019
-ms.locfileid: "30789310"
+ms.lasthandoff: 05/01/2019
+ms.locfileid: "33508518"
 ---
 # <a name="add-a-search-box-to-your-intranet-site"></a>Adicionar uma caixa de pesquisa ao site de intranet
 

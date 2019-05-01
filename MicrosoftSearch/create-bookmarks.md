@@ -15,11 +15,11 @@ search.appverid:
 ms.assetid: 40a556e1-61c2-4bd3-b80e-5ad62af77454
 description: Crie indicadores ou use uma extensão do navegador para adicioná-los aos seus resultados de trabalho da Pesquisa da Microsoft
 ms.openlocfilehash: 71e5ae48bb8812e5222a4d6075292f3b85bed441
-ms.sourcegitcommit: 1c038d87efab4840d97b1f367b39e2b9ecdfee4a
+ms.sourcegitcommit: a5fd9d4f46bbb7c539630735ac16e0c786939e5d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "29612406"
+ms.lasthandoff: 05/01/2019
+ms.locfileid: "33508723"
 ---
 # <a name="create-bookmarks"></a>Criar indicadores
 
