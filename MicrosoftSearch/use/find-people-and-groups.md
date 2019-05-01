@@ -1,5 +1,5 @@
 ---
-title: Encontre pessoas e grupos
+title: Localizar pessoas e grupos
 ms.author: dawholl
 author: dawholl
 manager: kellis
@@ -12,39 +12,39 @@ search.appverid:
 - BFB160
 - MET150
 ms.assetid: 17c9982a-0fd9-4cf1-b010-69ae3440b41f
-description: Usar o Microsoft Search para encontrar qualquer pessoa na sua empresa e as informações que você verá
+description: Use o Microsoft Search para encontrar qualquer pessoa em sua empresa e as informações que você verá
 ms.openlocfilehash: c9b71b8353e5ebc6e876a837424de8b74a7c20d5
-ms.sourcegitcommit: bf52cc63b75f2e0324a716fe65da47702956b722
+ms.sourcegitcommit: a5fd9d4f46bbb7c539630735ac16e0c786939e5d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "29378395"
+ms.lasthandoff: 05/01/2019
+ms.locfileid: "33508910"
 ---
-# <a name="find-people-and-groups"></a><span data-ttu-id="96e2a-103">Encontre pessoas e grupos</span><span class="sxs-lookup"><span data-stu-id="96e2a-103">Find people and groups</span></span>
+# <a name="find-people-and-groups"></a><span data-ttu-id="b8064-103">Localizar pessoas e grupos</span><span class="sxs-lookup"><span data-stu-id="b8064-103">Find people and groups</span></span>
 
-<span data-ttu-id="96e2a-p101">É fácil encontrar informações sobre seus colegas de trabalho usando o Microsoft Search. Acabou de pesquisa Bing para o seu nome ou alias para encontrar informações de contato, futuras reuniões, que você tem juntos, detalhes de gráfico de organização, associações de grupo e arquivos que eles compartilhei com você.</span><span class="sxs-lookup"><span data-stu-id="96e2a-p101">It's easy to find information about your co-workers using Microsoft Search. Just search on Bing for their name or alias to find contact info, upcoming meetings you have together, org chart details, group memberships, and files they've shared with you.</span></span>
+<span data-ttu-id="b8064-104">É fácil encontrar informações sobre seus colegas de trabalho usando o Microsoft Search.</span><span class="sxs-lookup"><span data-stu-id="b8064-104">It's easy to find information about your co-workers using Microsoft Search.</span></span> <span data-ttu-id="b8064-105">Basta pesquisar no Bing por seu nome ou alias para encontrar informações de contato, reuniões futuras que você tem juntos, detalhes do organograma, associações de grupo e arquivos que eles compartilharam com você.</span><span class="sxs-lookup"><span data-stu-id="b8064-105">Just search on Bing for their name or alias to find contact info, upcoming meetings you have together, org chart details, group memberships, and files they've shared with you.</span></span>
   
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2AuTv?autoplay=false]
   
-## <a name="find-people"></a><span data-ttu-id="96e2a-106">Localizar pessoas</span><span class="sxs-lookup"><span data-stu-id="96e2a-106">Find people</span></span>
+## <a name="find-people"></a><span data-ttu-id="b8064-106">Localizar pessoas</span><span class="sxs-lookup"><span data-stu-id="b8064-106">Find people</span></span>
 
-<span data-ttu-id="96e2a-107">O departamento de TI determina o conteúdo que aparece nos resultados da Microsoft Search.</span><span class="sxs-lookup"><span data-stu-id="96e2a-107">Your IT department determines the content that appears in Microsoft Search results.</span></span>
+<span data-ttu-id="b8064-107">Seu departamento de ti determina o conteúdo que aparece nos resultados da pesquisa da Microsoft.</span><span class="sxs-lookup"><span data-stu-id="b8064-107">Your IT department determines the content that appears in Microsoft Search results.</span></span>
   
-1. <span data-ttu-id="96e2a-108">Inscreva-se à sua conta de trabalho ou da escola no Bing</span><span class="sxs-lookup"><span data-stu-id="96e2a-108">Sign in to your work or school account on Bing</span></span>
+1. <span data-ttu-id="b8064-108">Entre em sua conta corporativa ou de estudante no Bing</span><span class="sxs-lookup"><span data-stu-id="b8064-108">Sign in to your work or school account on Bing</span></span>
     
-2. <span data-ttu-id="96e2a-109">Procurar 'me,' seu nome ou alias, ou nome ou alias de um colega de trabalho</span><span class="sxs-lookup"><span data-stu-id="96e2a-109">Search for 'me,' your name or work alias, or a co-worker's name or alias</span></span>
+2. <span data-ttu-id="b8064-109">Procure por "mim", seu nome ou alias de trabalho ou o nome ou alias de um colega de trabalho</span><span class="sxs-lookup"><span data-stu-id="b8064-109">Search for 'me,' your name or work alias, or a co-worker's name or alias</span></span>
     
-    <span data-ttu-id="96e2a-110">Incluindo tanto um nome e sobrenome retornará o resultado melhor, mas, se você souber apenas parte do nome dele, Microsoft Search será mostram o resultado que corresponda melhor sua pesquisa e, se possível, oferecem mostrar os resultados mais.</span><span class="sxs-lookup"><span data-stu-id="96e2a-110">Including both a first and last name will return the best result, but, if you only know part of their name, Microsoft Search will show you the result that best matches your search and, if possible, offer to show more results.</span></span>
+    <span data-ttu-id="b8064-110">Incluir o nome e o sobrenome retornará o melhor resultado, mas, se você souber apenas parte de seu nome, o Microsoft Search mostrará o resultado que melhor corresponde à sua pesquisa e, se possível, oferece a exibição de mais resultados.</span><span class="sxs-lookup"><span data-stu-id="b8064-110">Including both a first and last name will return the best result, but, if you only know part of their name, Microsoft Search will show you the result that best matches your search and, if possible, offer to show more results.</span></span>
     
-3. <span data-ttu-id="96e2a-111">Um cartão de pessoas aparece na parte superior da página de resultados ou na parte superior da coluna à direita</span><span class="sxs-lookup"><span data-stu-id="96e2a-111">A people card appears at the top of the results page or at the top of the right column</span></span>
+3. <span data-ttu-id="b8064-111">Um cartão de pessoas aparece na parte superior da página de resultados ou na parte superior da coluna à direita</span><span class="sxs-lookup"><span data-stu-id="b8064-111">A people card appears at the top of the results page or at the top of the right column</span></span>
     
-    <span data-ttu-id="96e2a-112">Confira os detalhes e ações no cartão de e clique em por meio de ainda mais informações.</span><span class="sxs-lookup"><span data-stu-id="96e2a-112">Check out the details and actions on the card and click through for even more information.</span></span>
+    <span data-ttu-id="b8064-112">ConFira os detalhes e ações no cartão e clique para obter ainda mais informações.</span><span class="sxs-lookup"><span data-stu-id="b8064-112">Check out the details and actions on the card and click through for even more information.</span></span>
     
-<span data-ttu-id="96e2a-p102">Resultados da Web aparecem em seus resultados de trabalho. Esses resultados não são específicos à sua organização. Em alguns casos, por exemplo, quando um nome é uma pesquisa na web muito comum, o cartão de pessoas pode não aparecer automaticamente. Para ver os resultados de trabalho, talvez seja necessário clicar no link **mostram os resultados** ao lado do logotipo da sua organização.</span><span class="sxs-lookup"><span data-stu-id="96e2a-p102">Web results appear under your work results. These results aren't specific to your organization. In some cases, for example, when a name is a very common web search, the people card may not automatically appear. To see your work results you may need to click the **Show results from** link next to your organization's logo.</span></span> 
+<span data-ttu-id="b8064-113">Os resultados da Web aparecem em seus resultados de trabalho.</span><span class="sxs-lookup"><span data-stu-id="b8064-113">Web results appear under your work results.</span></span> <span data-ttu-id="b8064-114">Esses resultados não são específicos para sua organização.</span><span class="sxs-lookup"><span data-stu-id="b8064-114">These results aren't specific to your organization.</span></span> <span data-ttu-id="b8064-115">Em alguns casos, por exemplo, quando um nome é uma pesquisa da Web muito comum, o cartão de pessoas pode não aparecer automaticamente.</span><span class="sxs-lookup"><span data-stu-id="b8064-115">In some cases, for example, when a name is a very common web search, the people card may not automatically appear.</span></span> <span data-ttu-id="b8064-116">Para ver seus resultados de trabalho, talvez você precise clicar no link **Mostrar resultados de** ao lado do logotipo da sua organização.</span><span class="sxs-lookup"><span data-stu-id="b8064-116">To see your work results you may need to click the **Show results from** link next to your organization's logo.</span></span> 
   
-## <a name="find-groups"></a><span data-ttu-id="96e2a-117">Localizar grupos</span><span class="sxs-lookup"><span data-stu-id="96e2a-117">Find groups</span></span>
+## <a name="find-groups"></a><span data-ttu-id="b8064-117">Localizar grupos</span><span class="sxs-lookup"><span data-stu-id="b8064-117">Find groups</span></span>
 
-<span data-ttu-id="96e2a-118">Como pesquisar por si mesmo ou um colega de trabalho, digite o nome de um grupo ou alias de grupo para ver os detalhes do contato, o grupo proprietários, membros, arquivos eles compartilhei com você e conversas.</span><span class="sxs-lookup"><span data-stu-id="96e2a-118">Just like you search for yourself or a co-worker, enter the name of a group or group alias to see contact details, group owners, members, files they've shared with you, and conversations.</span></span>
+<span data-ttu-id="b8064-118">Da mesma forma que você pesquisa ou um colega de trabalho, insira o nome de um grupo ou alias de grupo para ver detalhes de contato, proprietários de grupo, membros, arquivos que eles compartilharam com você e conversas.</span><span class="sxs-lookup"><span data-stu-id="b8064-118">Just like you search for yourself or a co-worker, enter the name of a group or group alias to see contact details, group owners, members, files they've shared with you, and conversations.</span></span>
   
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2AA2V?autoplay=false]
   
