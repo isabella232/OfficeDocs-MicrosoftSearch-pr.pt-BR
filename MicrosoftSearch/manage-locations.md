@@ -15,11 +15,11 @@ search.appverid:
 ms.assetid: 8ab9aa00-cd74-405f-8410-9a1c3cfacdb9
 description: Com o tempo, talvez seja necessário atualizar o status e o conteúdo de um local para mantê-lo relevante.
 ms.openlocfilehash: 69fa4fc86d80adf76aa2a5788bdde433dd827a4d
-ms.sourcegitcommit: c70dd5eae43abb775acc6fc4522c2e6be4f0bb67
+ms.sourcegitcommit: a5fd9d4f46bbb7c539630735ac16e0c786939e5d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "31901821"
+ms.lasthandoff: 05/01/2019
+ms.locfileid: "33508662"
 ---
 # <a name="manage-locations"></a>Gerenciar locais
 

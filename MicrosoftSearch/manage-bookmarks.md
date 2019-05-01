@@ -15,11 +15,11 @@ search.appverid:
 ms.assetid: c0c814d0-f7e4-444e-b18e-09beb45c9322
 description: Localizar indicadores que precisam ser atualizados e maneiras de editar em massa resultados de indicadores para o Microsoft Search
 ms.openlocfilehash: f87176c645e127e20edd9e70a74efe05dd381236
-ms.sourcegitcommit: c70dd5eae43abb775acc6fc4522c2e6be4f0bb67
+ms.sourcegitcommit: a5fd9d4f46bbb7c539630735ac16e0c786939e5d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "31901797"
+ms.lasthandoff: 05/01/2019
+ms.locfileid: "33508606"
 ---
 # <a name="manage-bookmarks"></a>Gerenciar indicadores
 

@@ -15,11 +15,11 @@ search.appverid:
 ms.assetid: 7bada218-8908-4956-aae3-6ffaeef384ca
 description: Adicionar rapidamente as respostas às perguntas frequentes com as ferramentas de importação no portal de administração de pesquisa da Microsoft
 ms.openlocfilehash: 28fcf57c44f809e7f9b0c1b27042f4549067a0f8
-ms.sourcegitcommit: c70dd5eae43abb775acc6fc4522c2e6be4f0bb67
+ms.sourcegitcommit: a5fd9d4f46bbb7c539630735ac16e0c786939e5d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "31901813"
+ms.lasthandoff: 05/01/2019
+ms.locfileid: "33508668"
 ---
 # <a name="bulk-create-qas"></a>Criar perguntas e respostas em massa
 

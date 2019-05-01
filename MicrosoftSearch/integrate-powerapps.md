@@ -1,5 +1,5 @@
 ---
-title: Integrar PowerApps
+title: Integrar o PowerApps
 ms.author: dawholl
 author: dawholl
 manager: kellis
@@ -13,49 +13,49 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 1fadcba3-4a7f-4a55-8476-d4e64d49a15f
-description: Incluir aplicativos baseados em navegador nos resultados de indicadores para o Microsoft Search
+description: Incluir aplicativos baseados em navegador nos resultados dos indicadores da pesquisa da Microsoft
 ms.openlocfilehash: d8d9d099848e719c86e0f3cadee330263566d243
-ms.sourcegitcommit: bf52cc63b75f2e0324a716fe65da47702956b722
+ms.sourcegitcommit: a5fd9d4f46bbb7c539630735ac16e0c786939e5d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "29378401"
+ms.lasthandoff: 05/01/2019
+ms.locfileid: "33508822"
 ---
-# <a name="integrate-powerapps"></a>Integrar PowerApps
+# <a name="integrate-powerapps"></a>Integrar o PowerApps
 
-Ajuda seus usuários a concluir tarefas, como inserir o tempo de férias ou relatórios de despesas integrando PowerApps existente em seus indicadores. PowerApps integrados aparecem dentro de um resultado de indicador, eliminando a necessidade de ir para um site diferente ou abrir uma ferramenta separada, que os tempos de gravações e esforço.
+Ajudar os usuários a concluir tarefas, como inserir o tempo de férias ou relatar despesas integrando o PowerApps existente em seus indicadores. O PowerApps integrado aparece dentro de um resultado de indicador, eliminando a necessidade de acessar um site diferente ou abrir uma ferramenta separada, o que poupa tempo e esforço.
   
-## <a name="what-are-powerapps"></a>Cite PowerApps.
+## <a name="what-are-powerapps"></a>O que é PowerApps?
 
-PowerApps é um serviço que permite que você crie aplicativos de negócios que são executados em um navegador ou em um celular ou tablet com nenhuma experiência de codificação necessária. Saiba Mais:
+O PowerApps é um serviço que permite criar aplicativos de negócios que são executados em um navegador ou em um telefone ou Tablet sem nenhuma experiência de codificação necessária. Saiba mais:
   
-- [Aprendizado](https://docs.microsoft.com/en-us/learn/browse/?products=powerapps)
+- [Aprendizado guiado](https://docs.microsoft.com/en-us/learn/browse/?products=powerapps)
     
 - [Documentação](https://docs.microsoft.com/en-us/powerapps/)
     
-## <a name="add-a-powerapp-to-a-bookmark"></a>Adicionar um PowerApp para um indicador
+## <a name="add-a-powerapp-to-a-bookmark"></a>Adicionar um PowerApp a um indicador
 
-PowerApps trabalhar em qualquer navegador e em qualquer dispositivo e levar menos de um minuto para adicionar.
+O PowerApps funciona em qualquer navegador e em qualquer dispositivo e levar menos de um minuto para adicionar.
   
-1. [Localizar a identificação de aplicativo para o PowerApp](https://docs.microsoft.com/en-us/powerapps/maker/canvas-apps/get-sessionid#get-an-app-id) que você deseja integrar 
+1. [Encontre a ID do aplicativo para o PowerApp](https://docs.microsoft.com/en-us/powerapps/maker/canvas-apps/get-sessionid#get-an-app-id) que você deseja integrar 
     
 2. No portal do Microsoft SearchAdmin, vá para **indicadores**
     
-3. Adicionar um indicador ou localizar um indicador existente que você deseja adicionar um PowerApp para
+3. Adicione um indicador ou localize um indicador existente ao qual você deseja adicionar um PowerApp
     
-4. Nas configurações do indicador, clique em **Aplicativo Power**e, em seguida, clique em **Adicionar um aplicativo de alimentação**
+4. Nas configurações de indicador, clique em **aplicativo avançado**e em **Adicionar um aplicativo avançado**
     
-5. Digite ou cole a ID de aplicativo
+5. Insira ou cole a ID do aplicativo
     
-    A altura e largura são adicionados automaticamente. Indicadores podem suportar orientações retrato e paisagem, mas atualmente o tamanho não pode ser alterado.
+    A altura e a largura são automaticamente adicionadas. Os indicadores podem dar suporte a orientações retrato e paisagem, mas atualmente o tamanho não pode ser alterado.
     
-6. A visualização de indicador mostra como o PowerApp será exibido no resultado do indicador
+6. A visualização do indicador mostra como o PowerApp será exibido no resultado do indicador
     
-    O PowerApp na visualização é totalmente funcional para tornar mais fácil testar e usar.
+    O PowerApp na visualização é totalmente funcional para facilitar o teste e o uso.
     
-7. Clique em **Publicar**
+7. Clique em **publicar**
     
-Quando um usuário autorizado da Microsoft Search pesquisa em Bing para qualquer uma das palavras-chave ou palavras-chave reservadas do indicador, o PowerApp aparecerá no resultado do indicador.
+Quando um usuário autorizado da Microsoft Search pesquisa no Bing para qualquer uma das palavras-chave ou reservadas do indicador, o PowerApp aparecerá no resultado do indicador.
 
   
 

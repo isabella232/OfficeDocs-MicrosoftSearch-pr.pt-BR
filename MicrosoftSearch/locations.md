@@ -13,55 +13,55 @@ search.appverid:
 - MOE150
 - MED150
 ms.assetid: 2379e72c-a7da-4e3f-932a-12d431a0a284
-description: Visão geral de todas as maneiras que você pode incluir locais da sua organização em resultados de trabalho do Microsoft Search
+description: Visão geral de todas as maneiras de incluir os locais da sua organização nos resultados do trabalho de pesquisa da Microsoft
 ms.openlocfilehash: 4ff30d7e346d609e9fddaca70caa1a85652fad3c
-ms.sourcegitcommit: 98fd5dd37a5b753cfa2fb81fc4bd6497ecc8ed30
+ms.sourcegitcommit: a5fd9d4f46bbb7c539630735ac16e0c786939e5d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/01/2019
-ms.locfileid: "29690655"
+ms.lasthandoff: 05/01/2019
+ms.locfileid: "33508806"
 ---
 # <a name="locations"></a>Locais
 
 ## <a name="add-locations"></a>Adicionar locais
 
-Locais de ajudam os usuários a localização de endereços e localize prédios da sua organização, escritórios e outros espaços de trabalho em um mapa. Eles também podem usar o Bing Maps para obter instruções, consulte What's perto e muito mais.
+Os locais ajudam os usuários a localizar endereços e localizar os prédios, escritórios e outros espaços de trabalho de sua organização em um mapa. Eles também podem usar o Bing Maps para obter orientações, ver o que está próximo e muito mais.
   
 - [Adicionar um local](add-a-location.md)
     
-    Adicionar um edifício, office, campus ou outro espaço de trabalho
+    Adicionar um edifício, um escritório, um campus ou outro espaço de trabalho
     
 - [Criar locais em massa](bulk-create-locations.md)
     
-    Adicionar locais para um arquivo. csv e em massa importá-los
+    Adicionar locais a um arquivo. csv e importá-los em massa
     
 ## <a name="manage-locations"></a>Gerenciar locais
 
-Usar o status de local, a filtragem de ferramentas e ferramentas de importação/exportação para [Localizar e atualizar locais](manage-locations.md), incluindo o nome do endereço e o local de massa
+Use o status de local, as ferramentas de filtragem e as ferramentas de exportação/importação em massa para [encontrar e atualizar locais](manage-locations.md), incluindo o endereço e o nome do local
   
 ## <a name="location-status"></a>Status do local
 
-No portal do administrador, você pode exibir locais pelo status atual:
+No portal de administração, você pode exibir locais por seu status atual:
   
-- Publicado 
+- Published
     
-    Publicado locais aparecem nos resultados de pesquisa Bing quando um usuário autorizado procura uma palavra-chave.
+    Os locais publicados aparecem nos resultados de pesquisa do Bing quando um usuário autorizado procura uma palavra-chave.
     
-- Rascunho 
+- Rascunho
     
-    Se um local não está pronto para publicar, salve-o como um rascunho. Locais de rascunho não aparecerá em Bing.
+    Se um local não estiver pronto para publicar, salve-o como rascunho. Locais de rascunho não serão exibidos no Bing.
     
-- Agendado
+- Agendada
     
-    Agendada locais são automaticamente publicados em uma data futura.
+    Os locais agendados são publicados automaticamente em uma data futura.
     
 - Expirada
     
-    Locais expirados foram removidos automaticamente com base em suas datas de expiração de conteúdo publicado.
+    Os locais expirados foram automaticamente removidos do conteúdo publicado com base em suas datas de expiração.
     
-- Sugerido
+- Recomendado
     
-    Locais sugeridos se baseiam em comentários de usuários. Você também poderá ver as sugestões de padrão da Microsoft.
+    Os locais sugeridos são baseados nos comentários dos usuários. Você também pode ver sugestões padrão da Microsoft.
 
   
 

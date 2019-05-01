@@ -1,5 +1,5 @@
 ---
-title: Encontrar arquivos
+title: Localizar arquivos
 ms.author: dawholl
 author: dawholl
 manager: kellis
@@ -12,21 +12,21 @@ search.appverid:
 - BFB160
 - MET150
 ms.assetid: ff42d668-f721-4ada-b130-77e38508197c
-description: Usar o Microsoft Search para encontrar arquivos do Office e PDFs e as informações que você verá
+description: Use o Microsoft Search para localizar arquivos do Office e PDFs e as informações que você verá
 ms.openlocfilehash: f46796c015137a5bc1a24a52f7eb35cd2675a09d
-ms.sourcegitcommit: bf52cc63b75f2e0324a716fe65da47702956b722
+ms.sourcegitcommit: a5fd9d4f46bbb7c539630735ac16e0c786939e5d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "29378386"
+ms.lasthandoff: 05/01/2019
+ms.locfileid: "33508934"
 ---
-# <a name="find-files"></a>Encontrar arquivos
+# <a name="find-files"></a>Localizar arquivos
 
-Procurar por seus próprios arquivos ou procure o conteúdo criado por colegas de trabalho que você tem acesso ao. Os resultados incluem o nome do arquivo e o local e você também poderá ver um breve trecho do conteúdo, que ele modificou a última e quando.
+Pesquise seus próprios arquivos ou procure conteúdo criado por colegas de trabalho aos quais você tem acesso. Os resultados incluem o nome e o local do arquivo e você também pode ver um breve trecho do conteúdo, quem o modificou por último e quando.
   
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2AsoN?autoplay=false]
   
-Você pode encontrar o SharePoint e OneDrive para arquivos de negócios, incluindo:
+Você pode encontrar arquivos do SharePoint e do OneDrive for Business, incluindo:
   
 - Documentos do Word
     
@@ -38,14 +38,14 @@ Você pode encontrar o SharePoint e OneDrive para arquivos de negócios, incluin
     
 - PDFs
     
-1. Inscreva-se à sua conta de trabalho ou da escola no Bing
+1. Entre em sua conta corporativa ou de estudante no Bing
     
-2. Procurar 'Meus documentos,' 'Meus apresentações,' ou incluir um tópico ou nome de alguém
+2. Procure por "meus documentos," minhas apresentações "ou inclua um tópico ou nome de outra pessoa
     
-    Por exemplo, 'documentos sobre códigos de imposto' ou 'arquivos por John'.
+    Por exemplo, ' docs about tax codes ' ou ' files by John '.
     
-3. Resultados do arquivo aparece na parte superior da página de resultados
+3. Os resultados do arquivo aparecem na parte superior da página de resultados
     
-    Outros resultados web aparecem sob ele. Eles não são específicos à sua organização.
+    Outros resultados da Web aparecem abaixo dele. Eles não são específicos para sua organização.
 
 

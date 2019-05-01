@@ -1,5 +1,5 @@
 ---
-title: Como o Microsoft Search mantém sua informação de seguro
+title: Como a Pesquisa da Microsoft mantém suas informações seguras
 ms.author: dawholl
 author: dawholl
 manager: kellis
@@ -12,27 +12,27 @@ search.appverid:
 - BFB160
 - MET150
 ms.assetid: 5ab1234e-fbb2-4bf9-a907-fa83389a7dee
-description: Como seus arquivos e as informações são protegidos quando você usa o Microsoft Search
+description: Como suas informações e arquivos são protegidos quando você usa o Microsoft Search
 ms.openlocfilehash: 52dbf65d3c7414eaa2c4a3770def3f4f00edc40c
-ms.sourcegitcommit: bf52cc63b75f2e0324a716fe65da47702956b722
+ms.sourcegitcommit: a5fd9d4f46bbb7c539630735ac16e0c786939e5d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "29378392"
+ms.lasthandoff: 05/01/2019
+ms.locfileid: "33508846"
 ---
-# <a name="how-microsoft-search-keeps-your-info-secure"></a>Como o Microsoft Search mantém sua informação de seguro
+# <a name="how-microsoft-search-keeps-your-info-secure"></a>Como a Pesquisa da Microsoft mantém suas informações seguras
 
-Microsoft Search usa vários métodos para proteger seu conteúdo e as informações:
+O Microsoft Search usa vários métodos para proteger o conteúdo e as informações:
   
-- Microsoft Search resultados provém diretamente a mesma nuvem confiáveis usados pelo Office 365. Bing não armazena o conteúdo de trabalho ou informações no índice da web públicos.
+- Os resultados da pesquisa da Microsoft vêm diretamente da mesma nuvem confiável usada pelo Office 365. O Bing não armazena qualquer conteúdo de trabalho ou informações no índice público da Web.
     
-- Você só pode ver funcionam resultados quando você estiver conectado com a sua conta de trabalho ou da escola.
+- Você só poderá ver os resultados do trabalho quando estiver conectado com sua conta corporativa ou de estudante.
     
-- Microsoft Search retornará somente informações você tem permissão para ver. Talvez você tenha permissão porque você criou os arquivos ou informações, foram compartilhei com você ou com um grupo maior que inclui, ou eles são armazenados em pastas ou locais que você tem permissão para acessar.
+- A pesquisa da Microsoft só retornará informações que você tem permissão para ver. Você pode ter permissão porque criou os arquivos ou as informações, eles foram compartilhados com você ou com um grupo maior que inclui você, ou que estão armazenados em pastas ou locais que você tem permissão para acessar.
     
-- Microsoft Search não usa as pesquisas de trabalho para melhorar os resultados da web públicos ou para melhorar o Bing.
+- A pesquisa da Microsoft não usa suas pesquisas de trabalho para melhorar os resultados da Web pública ou para melhorar o Bing.
     
-- Microsoft Search não permite que os anunciantes você ou qualquer pessoa dentro da sua organização de destino.
+- A pesquisa da Microsoft não permite que anunciantes direcionem você ou qualquer pessoa dentro da sua organização.
 
   
 

@@ -15,11 +15,11 @@ search.appverid:
 ms.assetid: 15c9fada-f7a6-4210-aa6b-028b32217830
 description: Adicionar vários locais de uma só vez com as ferramentas de importação para o portal de administração de pesquisa da Microsoft
 ms.openlocfilehash: 3c7e43b03b97b46769d5e73f20ddae47b3459b59
-ms.sourcegitcommit: c70dd5eae43abb775acc6fc4522c2e6be4f0bb67
+ms.sourcegitcommit: a5fd9d4f46bbb7c539630735ac16e0c786939e5d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "31901805"
+ms.lasthandoff: 05/01/2019
+ms.locfileid: "33508558"
 ---
 # <a name="bulk-create-locations"></a>Criar locais em massa
 

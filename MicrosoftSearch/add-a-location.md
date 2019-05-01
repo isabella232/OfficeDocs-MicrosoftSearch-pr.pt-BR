@@ -13,45 +13,45 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: c37cf1b1-5915-4eb1-9f78-72c48cad3b4b
-description: Adicionar locais para que escritórios da sua organização, prédios e outros espaços de trabalho sejam exibidos na sua Microsoft Search funcionam resultados
+description: Adicionar locais para que os escritórios, prédios e outros espaços de trabalho da sua organização apareçam nos resultados do trabalho de pesquisa da Microsoft
 ms.openlocfilehash: ad9aa274e7934917a2c4fee05ad2c24af3d117f4
-ms.sourcegitcommit: bf52cc63b75f2e0324a716fe65da47702956b722
+ms.sourcegitcommit: a5fd9d4f46bbb7c539630735ac16e0c786939e5d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "29378397"
+ms.lasthandoff: 05/01/2019
+ms.locfileid: "33508542"
 ---
 # <a name="add-a-location"></a>Adicionar um local
 
-Adicione um local e quando os usuários pesquisam que eles verão o endereço do edifício, office, ou local e seu local em um mapa. Eles também podem usar o Bing Maps para obter instruções, consulte What's perto e muito mais.
+Adicione um local e, quando os usuários pesquisarem, verão o endereço do edifício, do Office ou do local e seu local em um mapa. Eles também podem usar o Bing Maps para obter orientações, ver o que está próximo e muito mais.
   
-1. Vá para o portal de administração de pesquisa da Microsoft
+1. Acesse o Portal de Administração da Pesquisa da Microsoft
     
 2. No painel de navegação, clique em **locais**
     
 3. Na parte superior da página, clique em **Adicionar local**
     
-    Página Editar local é exibida, com um mapa interativo.
+    A página Editar local é exibida com um mapa interativo.
     
-4. Escolha um **País/região**
+4. Escolha um **país/região**
     
 5. Insira o **endereço**
     
-    Você verá um indicador de local no mapa para o endereço. Este é o mapa que os usuários verão quando eles pesquisam para este local.
+    Você verá um indicador de local no mapa para o endereço. Este é o mapa que os usuários verão quando pesquisarem este local.
     
-6. Se necessário, insira qualquer informação de **Chão/de unidade de pacote** 
+6. Se necessário, insira as informações de **pacote/unidade/andar** 
     
 7. Insira um **nome de local**
     
-    Descreva este local a maneira como os usuários geralmente se referir a ele. Por exemplo, um nome de construção ou um número. Não repetir o endereço.
+    Descreva esse local da maneira que os usuários normalmente se referem a ele. Por exemplo, um nome ou número de edifício. Não repita o endereço.
     
-8. Insira **palavras-chave** que você deseja acionar este local 
+8. Insira **palavras-chave** que você deseja que disparem este local 
     
-    Incluir palavras ou frases pessoas usam para localizar esse local ou áreas dentro dele, por exemplo: matrizes, construção 9 ou em cafeterias Oeste.
+    Inclua palavras ou frases que as pessoas usarão para localizar este local ou áreas dentro dela, por exemplo: Headquarters, prédio 9 ou West Cafe.
     
-9. Insira **palavras-chave reservadas**
+9. Insira as **Palavras-chave reservadas**
     
-    Use um ou mais palavras-chave reservadas para garantir que um local sempre aparece como o resultado mais relevante. Palavras-chave reservadas não podem ser compartilhadas entre locais.
+    Use uma ou mais palavras-chave reservadas para garantir que um local sempre apareça como o resultado mais relevante. Palavras-chave reservadas não podem ser compartilhadas entre locais.
 
   
 

@@ -12,43 +12,43 @@ search.appverid:
 - BFB160
 - MET150
 ms.assetid: ecd31803-0b32-4ba3-8bb8-a0d1dfb8b856
-description: Usar o Microsoft Search para encontrar as equipes e conversas do Yammer e os detalhes que você verá
+description: Use o Microsoft Search para encontrar conversas sobre equipes e Yammer e os detalhes que você verá
 ms.openlocfilehash: b339242fbafc4cff0f6fe5960cb90b0d05493105
-ms.sourcegitcommit: bf52cc63b75f2e0324a716fe65da47702956b722
+ms.sourcegitcommit: a5fd9d4f46bbb7c539630735ac16e0c786939e5d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "29378403"
+ms.lasthandoff: 05/01/2019
+ms.locfileid: "33508854"
 ---
 # <a name="find-conversations"></a>Localizar conversas
 
-Pesquise seus próprios privada Teams da Microsoft ou Microsoft Yammer conversas ou conversas entre colegas de trabalho que você tem acesso ao.
+Procure suas próprias conversas privadas do Microsoft Teams ou Microsoft Yammer ou conversas entre colegas de trabalho aos quais você tem acesso.
   
-Os resultados de conversa incluem:
+Os resultados da conversa incluem:
   
-- O nome da pessoa que enviou a ele
+- O nome da pessoa que a enviou
     
-- Se for um equipes ou conversa do Yammer
+- Se for uma conversa do Microsoft Teams ou Yammer
     
 - Um trecho da mensagem
     
-- A data de conversa
+- A data da conversa
     
-- Anexos que você tem acesso ao
+- Anexos aos quais você tem acesso
     
-Os principais resultados da 30 conversa aparecem nos resultados de trabalho. Para obter mais informações ou resultados, basta clicar na mensagem. Nos resultados de trabalho, conversas do Yammer são classificadas por data, mas no cliente do Yammer, eles estão classificar por relevância.
+Os 30 principais resultados de conversa aparecem nos resultados do trabalho. Para obter mais informações ou resultados, basta clicar na mensagem. Nos resultados do trabalho, as conversas do Yammer são classificadas por data, mas no cliente Yammer, elas estão classificadas por relevância.
   
-Se sua organização não usa equipes ou Yammer ou o departamento de TI não ativar esses resultados, você não verá os resultados da conversa.
+Você não verá os resultados da conversa se sua organização não usar o Microsoft Teams ou o Yammer ou se o departamento de ti não ativar esses resultados.
   
-1. Inscreva-se à sua conta de trabalho ou da escola no Bing
+1. Entre em sua conta corporativa ou de estudante no Bing
     
-2. Procurar um tópico ou o nome de uma pessoa e clique na guia **conversas** 
+2. Procure um tópico ou o nome de uma pessoa e clique na guia **conversas** 
     
-    Por exemplo, 'Enviar-me o deck' ou 'Amy Turner'.
+    Por exemplo, "Envie-me o baralho" ou "Amy Turner".
     
-3. Conversas aparecem na parte superior da página de resultados
+3. As conversas aparecem na parte superior da página de resultados
     
-    Outros resultados web aparecem sob ele. Eles não são específicos à sua organização.
+    Outros resultados da Web aparecem abaixo dele. Eles não são específicos para sua organização.
     
 
 
