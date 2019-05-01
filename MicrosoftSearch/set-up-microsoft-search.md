@@ -15,11 +15,11 @@ search.appverid:
 ms.assetid: c989562e-525f-4922-b436-a885e7bf36ee
 description: Todas as informações necessárias para implantar a Pesquisa da Microsoft para sua organização
 ms.openlocfilehash: f4a6a5c6fa3765cd08935970178af8ac0d46421c
-ms.sourcegitcommit: 1bc499c59b6ec9cbdf3db0fdcb8d1252e36cce0c
+ms.sourcegitcommit: a5fd9d4f46bbb7c539630735ac16e0c786939e5d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/09/2019
-ms.locfileid: "31746347"
+ms.lasthandoff: 05/01/2019
+ms.locfileid: "33508949"
 ---
 # <a name="set-up-microsoft-search"></a>Configurar a Pesquisa da Microsoft
 
@@ -33,15 +33,15 @@ Como parte do Office 365, a Pesquisa da Microsoft pode ser implantada facilmente
     
     Controle a aparência dos resultados da Pesquisa da Microsoft
     
-- [Gerenciar usuários](add-users.md)
+- [Gerenciando usuários](add-users.md)
     
     Gerenciar o acesso ao portal para administradores e editores
     
 - [Ferramentas do portal de administração](admin-portal-tools.md)
     
-    Usar extensões e outras ferramentas do navegador para criar e importar conteúdo, reduzir o número de vezes que os usuários são solicitados a entrar e encontrar resultados de trabalho no Bing
+    Use extensões e outras ferramentas do navegador para criar e importar conteúdo, reduzir o número de vezes que os usuários são solicitados a entrar e encontrar resultados de trabalho no Bing
     
-- [Testar logon único](test-single-sign-on.md)
+- [Testar o logon único](test-single-sign-on.md)
     
     Reduza o número de vezes que seus usuários são solicitados a entrar
     
