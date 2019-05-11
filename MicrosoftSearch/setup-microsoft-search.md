@@ -3,7 +3,7 @@ title: Configurar a **Pesquisa da Microsoft**
 ms.author: anfowler
 author: adefowler
 manager: mnirkhe
-ms.date: 12/11/2018
+ms.date: 04/30/2019
 ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Configurar a Pesquisa da Microsoft pela primeira vez.
-ms.openlocfilehash: a83950f89258a0b3b376dac075684338552253b2
-ms.sourcegitcommit: a5fd9d4f46bbb7c539630735ac16e0c786939e5d
+ms.openlocfilehash: f4648988563245f6a61169d7e62b48c456dfa8fa
+ms.sourcegitcommit: 06f995ae7696a8cafcd12d19ed16a35d059b6abb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/01/2019
-ms.locfileid: "33511011"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33858269"
 ---
 # <a name="set-up-microsoft-search"></a>Configurar a Pesquisa da Microsoft
 
@@ -38,13 +38,17 @@ A **Pesquisa da Microsoft** respeita as configurações de segurança da fonte d
 
 Saiba mais sobre como [planejar permissões](https://docs.microsoft.com/pt-BR/sharepoint/plan-your-permissions-strategy) e [criar níveis de permissões](https://docs.microsoft.com/pt-BR/sharepoint/how-to-create-and-edit-permission-levels).
 
-### <a name="step-2-assign-search-administrator-and-search-editor"></a>Etapa 2: atribua o administrador de pesquisa e o editor de pesquisa
+### <a name="step-2-assign-search-admin-and-search-editor"></a>Etapa 2: atribua o administrador de pesquisa e o editor de pesquisa
+
+Há duas novas funções no **Centro de administração do Microsoft** – administrador de pesquisa e editor de pesquisa.  Administrador global, que tem privilégios completos, atribui as funções de administrador aos usuários com a função de administrador de pesquisa. Os administradores de pesquisa podem delegar as funções de administrador de pesquisa ou de editor de pesquisa para outros usuários. Para saber mais sobre as diferentes funções de administrador, consulte [Sobre as funções de administrador do Office 365](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles?view=o365-worldwide).
 
 Os administradores de pesquisa influenciam diretamente a experiência de pesquisa dos usuários finais. Isso inclui escolher os tipos de resultados que você deseja destacar para seus usuários. Pode ser difícil para uma pessoa escolher e criar conteúdo autoritativo em muitos tópicos diferentes pelos quais os usuários pesquisam em uma organização. Recomendamos que você aproveite a experiência e o conhecimento de especialistas no assunto (SMEs) e outros usuários adicionando-os como editores. 
 
 Na **Pesquisa da Microsoft**, você pode gerenciar as configurações de pesquisa e o conteúdo da sua organização usando duas novas funções:
-1. **Administrador de Pesquisa**: essa função pode criar e gerenciar conteúdo de resultados de pesquisa e definir configurações de consulta para melhorar os resultados de pesquisa na organização. O administrador de pesquisa gerencia a configuração da **Pesquisa da Microsoft** e designa editores de Pesquisa, os quais criam conteúdo.
+1. **Administrador de Pesquisa**: essa função pode criar e gerenciar conteúdo de resultados de pesquisa e definir configurações de consulta para melhorar os resultados de pesquisa na organização. O administrador de pesquisa gerencia a configuração da **Pesquisa da Microsoft** e designa editores de pesquisa para criarem conteúdo.
 2. **Editor de Pesquisa:** Cria, gerencia e exclui conteúdo para a **Pesquisa da Microsoft** no centro de administração do Microsoft 365. Essa função pode criar e gerenciar conteúdo editorial, como perguntas e respostas frequentes, lugares e locais importantes, sites e aplicativos pesquisados e usados com frequência, etc. Ela, no entanto, não garante acesso para gerenciar configurações de pesquisa.
+
+**Observação:** essas duas funções novas – administrador de pesquisa e editor de pesquisa – estão disponíveis somente no **Centro de administração do Microsoft 365**, e não no portal de administração herdado.
 
 Para atribuir funções de administrador, consulte [Atribuir direitos de administrador no Office 365 for business](https://docs.microsoft.com/en-us/office365/admin/add-users/assign-admin-roles?view=o365-worldwide).
 
