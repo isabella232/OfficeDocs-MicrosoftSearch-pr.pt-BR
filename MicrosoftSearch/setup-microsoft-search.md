@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Configurar a Pesquisa da Microsoft pela primeira vez.
-ms.openlocfilehash: f4648988563245f6a61169d7e62b48c456dfa8fa
-ms.sourcegitcommit: 06f995ae7696a8cafcd12d19ed16a35d059b6abb
+ms.openlocfilehash: 703b9c6ab1213fa06f3d959a0e29a9b757e2b2c9
+ms.sourcegitcommit: aeb44797427bd39c133fa899ab77277dd90fe47b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "33858269"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "33970127"
 ---
 # <a name="set-up-microsoft-search"></a>Configurar a Pesquisa da Microsoft
 
@@ -30,7 +30,11 @@ Para saber mais sobre os recursos da **Pesquisa da Microsoft**, consulte [Visão
 
 A **Pesquisa da Microsoft** está ativada por padrão para todos os aplicativos da Microsoft compatíveis, como parte do Microsoft 365. Tudo o que um usuário precisa fazer é entrar com uma conta de trabalho ou escola e usar um navegador com o Bing definido como o provedor de pesquisa padrão.
 
-No entanto, como administrador, você deve considerar algumas coisas que podem tornar a experiência da **Pesquisa da Microsoft** eficiente e amigável em sua organização.
+Você administra a **Pesquisa da Microsoft** a partir do **centro de administração do Microsoft 365**. Entre usando suas credenciais de administrador e selecione o bloco **Administrador** no **Inicializador de aplicativos**. No **centro de administração do Microsoft 365**, selecione **Pesquisa da Microsoft** em **Configurações** no painel de navegação esquerdo. 
+
+**Observação:** se você estiver vendo o portal de administração herdado e quiser mudar para o novo centro de administração, ative a opção **Experimentar a visualização**, no canto superior direito do centro de administração. 
+
+Como administrador, você deve considerar algumas coisas que podem tornar a experiência da **Pesquisa da Microsoft** eficiente e amigável em sua organização.
 
 ### <a name="step-1-check-access-level-of-your-users"></a>Etapa 1: verifique o nível de acesso de seus usuários
 
@@ -42,13 +46,13 @@ Saiba mais sobre como [planejar permissões](https://docs.microsoft.com/pt-BR/sh
 
 Há duas novas funções no **Centro de administração do Microsoft** – administrador de pesquisa e editor de pesquisa.  Administrador global, que tem privilégios completos, atribui as funções de administrador aos usuários com a função de administrador de pesquisa. Os administradores de pesquisa podem delegar as funções de administrador de pesquisa ou de editor de pesquisa para outros usuários. Para saber mais sobre as diferentes funções de administrador, consulte [Sobre as funções de administrador do Office 365](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles?view=o365-worldwide).
 
+**Observação:** essas duas funções novas – administrador de pesquisa e editor de pesquisa – estão disponíveis somente no **Centro de administração do Microsoft 365**, e não no portal de administração herdado. 
+
 Os administradores de pesquisa influenciam diretamente a experiência de pesquisa dos usuários finais. Isso inclui escolher os tipos de resultados que você deseja destacar para seus usuários. Pode ser difícil para uma pessoa escolher e criar conteúdo autoritativo em muitos tópicos diferentes pelos quais os usuários pesquisam em uma organização. Recomendamos que você aproveite a experiência e o conhecimento de especialistas no assunto (SMEs) e outros usuários adicionando-os como editores. 
 
 Na **Pesquisa da Microsoft**, você pode gerenciar as configurações de pesquisa e o conteúdo da sua organização usando duas novas funções:
 1. **Administrador de Pesquisa**: essa função pode criar e gerenciar conteúdo de resultados de pesquisa e definir configurações de consulta para melhorar os resultados de pesquisa na organização. O administrador de pesquisa gerencia a configuração da **Pesquisa da Microsoft** e designa editores de pesquisa para criarem conteúdo.
 2. **Editor de Pesquisa:** Cria, gerencia e exclui conteúdo para a **Pesquisa da Microsoft** no centro de administração do Microsoft 365. Essa função pode criar e gerenciar conteúdo editorial, como perguntas e respostas frequentes, lugares e locais importantes, sites e aplicativos pesquisados e usados com frequência, etc. Ela, no entanto, não garante acesso para gerenciar configurações de pesquisa.
-
-**Observação:** essas duas funções novas – administrador de pesquisa e editor de pesquisa – estão disponíveis somente no **Centro de administração do Microsoft 365**, e não no portal de administração herdado.
 
 Para atribuir funções de administrador, consulte [Atribuir direitos de administrador no Office 365 for business](https://docs.microsoft.com/en-us/office365/admin/add-users/assign-admin-roles?view=o365-worldwide).
 
