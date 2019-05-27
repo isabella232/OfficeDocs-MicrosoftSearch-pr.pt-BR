@@ -1,5 +1,5 @@
 ---
-title: Criar e gerenciar Q&As
+title: Criar e gerenciar P e R
 ms.author: dawholl
 author: dawholl
 manager: kellis
@@ -13,55 +13,58 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: b40a575d-7727-4bb0-80da-e25131315790
-description: Visão geral de todas as maneiras de criar respostas para perguntas frequentes no portal de administração de pesquisa da Microsoft
-ms.openlocfilehash: f30693b0943a34786c9e52859c8c5c680dc6e141
-ms.sourcegitcommit: a5fd9d4f46bbb7c539630735ac16e0c786939e5d
-ms.translationtype: MT
+description: Visão geral de todas as maneiras de criar respostas para perguntas frequentes no portal de administração da Pesquisa da Microsoft
+ms.openlocfilehash: 09c6747dafd5d2cf029f75fec210d308356c54fe
+ms.sourcegitcommit: 3e91a6e70b48a0100adfed1b62ba79f2fd1735d2
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/01/2019
-ms.locfileid: "33508742"
+ms.lasthandoff: 05/13/2019
+ms.locfileid: "33968427"
 ---
-# <a name="create-and-manage-qas"></a><span data-ttu-id="84896-103">Criar e gerenciar Q&As</span><span class="sxs-lookup"><span data-stu-id="84896-103">Create and manage Q&As</span></span>
+# <a name="create-and-manage-qas"></a><span data-ttu-id="6138a-103">Criar e gerenciar P e R</span><span class="sxs-lookup"><span data-stu-id="6138a-103">Create and manage notifications</span></span>
 
-## <a name="create-qas"></a><span data-ttu-id="84896-104">Criar perguntas e respostas</span><span class="sxs-lookup"><span data-stu-id="84896-104">Create Q&As</span></span>
+> [!IMPORTANT]
+> <span data-ttu-id="6138a-104">As configurações da Pesquisa da Microsoft no Bing agora estão disponíveis no centro de administração do Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="6138a-104">Microsoft Search in Bing settings are now available in the Microsoft 365 admin center.</span></span> <span data-ttu-id="6138a-105">Comece por [atribuir administradores de pesquisa](https://docs.microsoft.com/pt-BR/microsoftsearch/setup-microsoft-search#step-2-assign-search-admin-and-search-editor) ao seu centro de administração.</span><span class="sxs-lookup"><span data-stu-id="6138a-105">Get started by [assigning search admins](https://docs.microsoft.com/en-us/microsoftsearch/setup-microsoft-search#step-2-assign-search-admin-and-search-editor) in your admin center.</span></span>
+    
+## <a name="create-qas"></a><span data-ttu-id="6138a-106">Criar P e R</span><span class="sxs-lookup"><span data-stu-id="6138a-106">Create Q&As</span></span>
 
-<span data-ttu-id="84896-105">O Q&As oferece a melhor resposta possível para as perguntas relacionadas ao trabalho do usuário.</span><span class="sxs-lookup"><span data-stu-id="84896-105">Q&As provide the best possible answer for your user's work-related questions.</span></span> <span data-ttu-id="84896-106">Os usuários podem descobri-los facilmente quando inserem palavras-chave associadas a eles no Bing.</span><span class="sxs-lookup"><span data-stu-id="84896-106">Users can easily discover them when they enter keywords you've associated with them on Bing.</span></span>
+<span data-ttu-id="6138a-107">As P e R fornecem a melhor resposta possível para as perguntas de seu usuário relacionadas ao trabalho.</span><span class="sxs-lookup"><span data-stu-id="6138a-107">Q&As provide the best possible answer for your user's work-related questions.</span></span> <span data-ttu-id="6138a-108">Os usuários podem encontrá-las facilmente quando inserem palavras-chave associadas a elas no Bing.</span><span class="sxs-lookup"><span data-stu-id="6138a-108">Users can easily discover them when they enter keywords you've associated with them on Bing.</span></span>
   
-- [<span data-ttu-id="84896-107">Criar Q&As</span><span class="sxs-lookup"><span data-stu-id="84896-107">Create Q&As</span></span>](create-qas.md)
+- [<span data-ttu-id="6138a-109">Criar P e R</span><span class="sxs-lookup"><span data-stu-id="6138a-109">Create Q&As</span></span>](create-qas.md)
     
-    <span data-ttu-id="84896-108">Adicionar Q&As individuais.</span><span class="sxs-lookup"><span data-stu-id="84896-108">Add individual Q&As.</span></span>
+    <span data-ttu-id="6138a-110">Adicione P e R individuais.</span><span class="sxs-lookup"><span data-stu-id="6138a-110">Add individual Q&As.</span></span>
     
-- [<span data-ttu-id="84896-109">Criar e importar Q&As</span><span class="sxs-lookup"><span data-stu-id="84896-109">Bulk create and import Q&As</span></span>](bulk-create-qas.md)
+- [<span data-ttu-id="6138a-111">Criar e importar P e R em massa</span><span class="sxs-lookup"><span data-stu-id="6138a-111">Bulk create and import Q&As</span></span>](bulk-create-qas.md)
     
-    <span data-ttu-id="84896-110">Criar Q&As em um arquivo. csv e importá-los em massa.</span><span class="sxs-lookup"><span data-stu-id="84896-110">Create Q&As in a .csv file and bulk import them.</span></span>
+    <span data-ttu-id="6138a-112">Criar P e R em um arquivo. csv e importá-las em massa.</span><span class="sxs-lookup"><span data-stu-id="6138a-112">Create Q&As in a .csv file and bulk import them.</span></span>
     
-## <a name="manage-qas"></a><span data-ttu-id="84896-111">Gerenciar perguntas e respostas</span><span class="sxs-lookup"><span data-stu-id="84896-111">Manage Q&As</span></span>
+## <a name="manage-qas"></a><span data-ttu-id="6138a-113">Gerenciar Perguntas e Respostas</span><span class="sxs-lookup"><span data-stu-id="6138a-113">Manage Q&As</span></span>
 
-<span data-ttu-id="84896-112">Use o status Q&A, ferramentas de filtragem e ferramentas de exportação/importação em massa para [Localizar e atualizar o conteúdo do Q&A](manage-qas.md), incluindo título, resposta, palavras-chave e URLs.</span><span class="sxs-lookup"><span data-stu-id="84896-112">Use the Q&A status, filtering tools, and bulk export/import tools to [find and update Q&A content](manage-qas.md), including title, answer, keywords, and URLs.</span></span>
+<span data-ttu-id="6138a-114">Usar o status de perguntas e respostas, ferramentas de filtragem e ferramentas de exportação/importação em massa para [localizar e atualizar o conteúdo das perguntas e respostas](manage-qas.md), incluindo título, resposta, palavras-chave e URLs.</span><span class="sxs-lookup"><span data-stu-id="6138a-114">Use the Q&A status, filtering tools, and bulk export/import tools to [find and update Q&A content](manage-qas.md), including title, answer, keywords, and URLs.</span></span>
   
-## <a name="qa-status"></a><span data-ttu-id="84896-113">Status de Q&A</span><span class="sxs-lookup"><span data-stu-id="84896-113">Q&A status</span></span>
+## <a name="qa-status"></a><span data-ttu-id="6138a-115">Status das perguntas e respostas</span><span class="sxs-lookup"><span data-stu-id="6138a-115">Q&A status</span></span>
 
-<span data-ttu-id="84896-114">No portal de administração, você pode exibir Q&As por seu status atual:</span><span class="sxs-lookup"><span data-stu-id="84896-114">In the Admin portal, you can view Q&As by their current status:</span></span>
+<span data-ttu-id="6138a-116">No portal de administração, você pode exibir as P e R segundo seus status atual:</span><span class="sxs-lookup"><span data-stu-id="6138a-116">In the Admin portal, you can view Q&As by their current status:</span></span>
   
-- <span data-ttu-id="84896-115">Published</span><span class="sxs-lookup"><span data-stu-id="84896-115">Published</span></span>
+- <span data-ttu-id="6138a-117">Publicado</span><span class="sxs-lookup"><span data-stu-id="6138a-117">Published</span></span>
     
-    <span data-ttu-id="84896-116">As Q&As publicadas aparecem nos resultados de pesquisa do Bing quando um usuário autorizado procura uma palavra-chave.</span><span class="sxs-lookup"><span data-stu-id="84896-116">Published Q&As appear in Bing search results when an authorized user searches for a keyword.</span></span>
+    <span data-ttu-id="6138a-118">As P e R publicadas aparecem nos resultados da pesquisa do Bing quando um usuário autorizado pesquisa por uma palavra-chave.</span><span class="sxs-lookup"><span data-stu-id="6138a-118">Published Q&As appear in Bing search results when an authorized user searches for a keyword.</span></span>
     
-- <span data-ttu-id="84896-117">Rascunho</span><span class="sxs-lookup"><span data-stu-id="84896-117">Draft</span></span>
+- <span data-ttu-id="6138a-119">Rascunho</span><span class="sxs-lookup"><span data-stu-id="6138a-119">Draft</span></span>
     
-    <span data-ttu-id="84896-118">Se um Q&A não estiver pronto para publicar, salve-o como rascunho.</span><span class="sxs-lookup"><span data-stu-id="84896-118">If a Q&A isn't ready to publish, save it as a draft.</span></span> <span data-ttu-id="84896-119">O Q&As de rascunho não aparecerá no Bing.</span><span class="sxs-lookup"><span data-stu-id="84896-119">Draft Q&As will not appear on Bing.</span></span>
+    <span data-ttu-id="6138a-120">Se uma pergunta e resposta não estiver pronta para ser publicada, salve-a como rascunho.</span><span class="sxs-lookup"><span data-stu-id="6138a-120">If a Q&A isn't ready to publish, save it as a draft.</span></span> <span data-ttu-id="6138a-121">Rascunhos de P e R não aparecerão no Bing.</span><span class="sxs-lookup"><span data-stu-id="6138a-121">Draft Q&As will not appear on Bing.</span></span>
     
-- <span data-ttu-id="84896-120">Agendada</span><span class="sxs-lookup"><span data-stu-id="84896-120">Scheduled</span></span>
+- <span data-ttu-id="6138a-122">Agendado</span><span class="sxs-lookup"><span data-stu-id="6138a-122">Scheduled</span></span>
     
-    <span data-ttu-id="84896-121">Os Q&As agendados são publicados automaticamente em uma data futura.</span><span class="sxs-lookup"><span data-stu-id="84896-121">Scheduled Q&As are automatically published on a future date.</span></span>
+    <span data-ttu-id="6138a-123">As P e R agendadas são publicadas automaticamente em uma data futura.</span><span class="sxs-lookup"><span data-stu-id="6138a-123">Scheduled Q&As are automatically published on a future date.</span></span>
     
-- <span data-ttu-id="84896-122">Expirada</span><span class="sxs-lookup"><span data-stu-id="84896-122">Expired</span></span>
+- <span data-ttu-id="6138a-124">Expirado</span><span class="sxs-lookup"><span data-stu-id="6138a-124">Expired</span></span>
     
-    <span data-ttu-id="84896-123">Os Q&As expirados foram removidos automaticamente do conteúdo publicado com base na data de expiração.</span><span class="sxs-lookup"><span data-stu-id="84896-123">Expired Q&As were automatically removed from published content based on the expiration date.</span></span>
+    <span data-ttu-id="6138a-125">As P e R expiradas foram removidas automaticamente do conteúdo publicado com base na data de expiração.</span><span class="sxs-lookup"><span data-stu-id="6138a-125">Expired Q&As were automatically removed from published content based on the expiration date.</span></span>
     
-- <span data-ttu-id="84896-124">Recomendado</span><span class="sxs-lookup"><span data-stu-id="84896-124">Suggested</span></span>
+- <span data-ttu-id="6138a-126">Sugerido</span><span class="sxs-lookup"><span data-stu-id="6138a-126">Suggested Meetings</span></span>
     
-    <span data-ttu-id="84896-125">Os Q&As sugeridos são baseados nos comentários dos usuários.</span><span class="sxs-lookup"><span data-stu-id="84896-125">Suggested Q&As are based on feedback from users.</span></span>
+    <span data-ttu-id="6138a-127">As P e R sugeridas são baseadas nos comentários dos usuários.</span><span class="sxs-lookup"><span data-stu-id="6138a-127">Suggested Q&As are based on feedback from users.</span></span>
 
   
 

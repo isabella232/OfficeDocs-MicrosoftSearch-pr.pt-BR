@@ -13,45 +13,48 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: c37cf1b1-5915-4eb1-9f78-72c48cad3b4b
-description: Adicionar locais para que os escritórios, prédios e outros espaços de trabalho da sua organização apareçam nos resultados do trabalho de pesquisa da Microsoft
-ms.openlocfilehash: ad9aa274e7934917a2c4fee05ad2c24af3d117f4
-ms.sourcegitcommit: a5fd9d4f46bbb7c539630735ac16e0c786939e5d
-ms.translationtype: MT
+description: Adicione locais para que os escritórios, prédios e outros espaços de trabalho da sua organização apareçam nos resultados de trabalho do Microsoft Search
+ms.openlocfilehash: 37cc56a733bb6395325ab4baf7885084d956938b
+ms.sourcegitcommit: 3e91a6e70b48a0100adfed1b62ba79f2fd1735d2
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/01/2019
-ms.locfileid: "33508542"
+ms.lasthandoff: 05/13/2019
+ms.locfileid: "33968176"
 ---
-# <a name="add-a-location"></a><span data-ttu-id="77536-103">Adicionar um local</span><span class="sxs-lookup"><span data-stu-id="77536-103">Add a location</span></span>
+# <a name="add-a-location"></a><span data-ttu-id="1098e-103">Adicionar um local</span><span class="sxs-lookup"><span data-stu-id="1098e-103">Add a location</span></span>
 
-<span data-ttu-id="77536-104">Adicione um local e, quando os usuários pesquisarem, verão o endereço do edifício, do Office ou do local e seu local em um mapa.</span><span class="sxs-lookup"><span data-stu-id="77536-104">Add a location and when your users search they'll see the address of the building, office, or place and its location on a map.</span></span> <span data-ttu-id="77536-105">Eles também podem usar o Bing Maps para obter orientações, ver o que está próximo e muito mais.</span><span class="sxs-lookup"><span data-stu-id="77536-105">They can also use Bing Maps to get directions, see what's nearby, and more.</span></span>
+> [!IMPORTANT]
+> <span data-ttu-id="1098e-104">As configurações do Microsoft Search no Bing agora estão disponíveis no centro de administração do Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="1098e-104">Microsoft Search in Bing settings are now available in the Microsoft 365 admin center.</span></span> <span data-ttu-id="1098e-105">Comece por [atribuir administradores de pesquisa ](https://docs.microsoft.com/pt-BR/microsoftsearch/setup-microsoft-search#step-2-assign-search-admin-and-search-editor) ao seu centro de administração.</span><span class="sxs-lookup"><span data-stu-id="1098e-105">Get started by [assigning search admins](https://docs.microsoft.com/en-us/microsoftsearch/setup-microsoft-search#step-2-assign-search-admin-and-search-editor) in your admin center.</span></span>
+    
+<span data-ttu-id="1098e-106">Adicione um local e, quando os usuários pesquisarem, eles encontrarão o endereço do prédio, escritório ou local e a sua localização em um mapa. </span><span class="sxs-lookup"><span data-stu-id="1098e-106">Add a location and when your users search they'll see the address of the building, office, or place and its location on a map.</span></span> <span data-ttu-id="1098e-107">Os usuários podem usar o Bing Maps para obter direções, ver o que está por perto e muito mais.</span><span class="sxs-lookup"><span data-stu-id="1098e-107">They can also use Bing Maps to get directions, see what's nearby, and more.</span></span>
   
-1. <span data-ttu-id="77536-106">Acesse o Portal de Administração da Pesquisa da Microsoft</span><span class="sxs-lookup"><span data-stu-id="77536-106">Go to the Microsoft Search Admin portal</span></span>
+1. <span data-ttu-id="1098e-108">Acesse o Portal de Administração do Microsoft Search</span><span class="sxs-lookup"><span data-stu-id="1098e-108">Go to the Microsoft Search Admin portal</span></span>
     
-2. <span data-ttu-id="77536-107">No painel de navegação, clique em **locais**</span><span class="sxs-lookup"><span data-stu-id="77536-107">In the navigation pane, click **Locations**</span></span>
+2. <span data-ttu-id="1098e-109">No painel de navegação, clique em **Locais**</span><span class="sxs-lookup"><span data-stu-id="1098e-109">In the navigation pane, click **Tools**</span></span>
     
-3. <span data-ttu-id="77536-108">Na parte superior da página, clique em **Adicionar local**</span><span class="sxs-lookup"><span data-stu-id="77536-108">At the top of the page, click **Add location**</span></span>
+3. <span data-ttu-id="1098e-110">Na parte superior da página, clique em **Adicionar local**</span><span class="sxs-lookup"><span data-stu-id="1098e-110">At the top of the page, click **Add bookmark**</span></span>
     
-    <span data-ttu-id="77536-109">A página Editar local é exibida com um mapa interativo.</span><span class="sxs-lookup"><span data-stu-id="77536-109">The Edit location page appears, with an interactive map.</span></span>
+    <span data-ttu-id="1098e-111">A página de Editar local aparece com um mapa interativo.</span><span class="sxs-lookup"><span data-stu-id="1098e-111">The Edit location page appears, with an interactive map.</span></span>
     
-4. <span data-ttu-id="77536-110">Escolha um **país/região**</span><span class="sxs-lookup"><span data-stu-id="77536-110">Choose a **Country/Region**</span></span>
+4. <span data-ttu-id="1098e-112">Escolha um **País/Região**</span><span class="sxs-lookup"><span data-stu-id="1098e-112">Choose a **Country/Region**</span></span>
     
-5. <span data-ttu-id="77536-111">Insira o **endereço**</span><span class="sxs-lookup"><span data-stu-id="77536-111">Enter the **Address**</span></span>
+5. <span data-ttu-id="1098e-113">Insira o **Endereço**</span><span class="sxs-lookup"><span data-stu-id="1098e-113">Enter the **Address**</span></span>
     
-    <span data-ttu-id="77536-112">Você verá um indicador de local no mapa para o endereço.</span><span class="sxs-lookup"><span data-stu-id="77536-112">You'll see a location indicator on the map for the address.</span></span> <span data-ttu-id="77536-113">Este é o mapa que os usuários verão quando pesquisarem este local.</span><span class="sxs-lookup"><span data-stu-id="77536-113">This is the map users will see when they search for this location.</span></span>
+    <span data-ttu-id="1098e-114">O indicador de localização aparecerá no mapa para o endereço.</span><span class="sxs-lookup"><span data-stu-id="1098e-114">You'll see a location indicator on the map for the address.</span></span> <span data-ttu-id="1098e-115">Esse é o mapa que os usuários irão encontrar quando procurarem pelo local.</span><span class="sxs-lookup"><span data-stu-id="1098e-115">This is the map users will see when they search for this location.</span></span>
     
-6. <span data-ttu-id="77536-114">Se necessário, insira as informações de **pacote/unidade/andar**</span><span class="sxs-lookup"><span data-stu-id="77536-114">If needed, enter any **Suite/Unit/Floor** information</span></span> 
+6. <span data-ttu-id="1098e-116">Se necessário, insira qualquer informação de **Número/Bloco/Andar**</span><span class="sxs-lookup"><span data-stu-id="1098e-116">If needed, enter any **Suite/Unit/Floor** information</span></span> 
     
-7. <span data-ttu-id="77536-115">Insira um **nome de local**</span><span class="sxs-lookup"><span data-stu-id="77536-115">Enter a **Location name**</span></span>
+7. <span data-ttu-id="1098e-117">Insira um **Nome do Local**</span><span class="sxs-lookup"><span data-stu-id="1098e-117">**Enter a business name**</span></span>
     
-    <span data-ttu-id="77536-116">Descreva esse local da maneira que os usuários normalmente se referem a ele.</span><span class="sxs-lookup"><span data-stu-id="77536-116">Describe this location the way your users typically refer to it.</span></span> <span data-ttu-id="77536-117">Por exemplo, um nome ou número de edifício.</span><span class="sxs-lookup"><span data-stu-id="77536-117">For example, a building name or number.</span></span> <span data-ttu-id="77536-118">Não repita o endereço.</span><span class="sxs-lookup"><span data-stu-id="77536-118">Don't repeat the address.</span></span>
+    <span data-ttu-id="1098e-118">Descreva o local da maneira que os usuários normalmente se referem a ele.</span><span class="sxs-lookup"><span data-stu-id="1098e-118">Describe this location the way your users typically refer to it.</span></span> <span data-ttu-id="1098e-119">Por exemplo, um nome ou número de prédio.</span><span class="sxs-lookup"><span data-stu-id="1098e-119">For example, a building name or number.</span></span> <span data-ttu-id="1098e-120">Não repita o endereço.</span><span class="sxs-lookup"><span data-stu-id="1098e-120">Don't repeat the address.</span></span>
     
-8. <span data-ttu-id="77536-119">Insira **palavras-chave** que você deseja que disparem este local</span><span class="sxs-lookup"><span data-stu-id="77536-119">Enter **Keywords** you want to trigger this location</span></span> 
+8. <span data-ttu-id="1098e-121">Insira as **Palavras-chave** desejadas para acionar este indicador</span><span class="sxs-lookup"><span data-stu-id="1098e-121">Enter **Keywords** you want to trigger this bookmark</span></span> 
     
-    <span data-ttu-id="77536-120">Inclua palavras ou frases que as pessoas usarão para localizar este local ou áreas dentro dela, por exemplo: Headquarters, prédio 9 ou West Cafe.</span><span class="sxs-lookup"><span data-stu-id="77536-120">Include words or phrases people will use to find this location or areas within it, for example: Headquarters, Building 9, or West Cafe.</span></span>
+    <span data-ttu-id="1098e-122">Inclua palavras ou frases que as pessoas irão usar para encontrar esse local ou áreas dentro dele, por exemplo: Sede, Prédio 9 ou Café Oeste.</span><span class="sxs-lookup"><span data-stu-id="1098e-122">Include words or phrases people will use to find this location or areas within it, for example: Headquarters, Building 9, or West Cafe.</span></span>
     
-9. <span data-ttu-id="77536-121">Insira as **Palavras-chave reservadas**</span><span class="sxs-lookup"><span data-stu-id="77536-121">Enter **Reserved keywords**</span></span>
+9. <span data-ttu-id="1098e-123">Insira as **Palavras-chave reservadas**</span><span class="sxs-lookup"><span data-stu-id="1098e-123">Enter **Reserved keywords**</span></span>
     
-    <span data-ttu-id="77536-122">Use uma ou mais palavras-chave reservadas para garantir que um local sempre apareça como o resultado mais relevante.</span><span class="sxs-lookup"><span data-stu-id="77536-122">Use one or more reserved keywords to ensure that a location always appears as the most relevant result.</span></span> <span data-ttu-id="77536-123">Palavras-chave reservadas não podem ser compartilhadas entre locais.</span><span class="sxs-lookup"><span data-stu-id="77536-123">Reserved keywords can't be shared across locations.</span></span>
+    <span data-ttu-id="1098e-124">Use uma ou mais palavras-chave reservadas para garantir que a localização apareça sempre como resultado relevante.</span><span class="sxs-lookup"><span data-stu-id="1098e-124">Use one or more reserved keywords to ensure that a location always appears as the most relevant result.</span></span> <span data-ttu-id="1098e-125">Palavras-chave reservadas não podem ser compartilhadas entre localizações.</span><span class="sxs-lookup"><span data-stu-id="1098e-125">Reserved keywords can't be shared across locations.</span></span>
 
   
 
