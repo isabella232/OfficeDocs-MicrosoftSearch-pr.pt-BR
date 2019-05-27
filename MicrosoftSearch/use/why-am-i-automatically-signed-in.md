@@ -12,43 +12,43 @@ search.appverid:
 - BFB160
 - MET150
 ms.assetid: 94f6fa41-0570-4668-b2fe-d51ed177716c
-description: Saiba como a entrada automática no Microsoft Search pode ajudá-lo a encontrar resultados de trabalho de forma rápida e fácil
+description: Saiba como entrar automaticamente na Pesquisa da Microsoft pode ajudar você a encontrar resultados de trabalho com rapidez e facilidade
 ms.openlocfilehash: 999341f10c0b75009246451f7e48f9fc4706d86a
 ms.sourcegitcommit: a5fd9d4f46bbb7c539630735ac16e0c786939e5d
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 05/01/2019
 ms.locfileid: "33508830"
 ---
 # <a name="why-am-i-automatically-signed-in"></a>Por que entrei automaticamente?
 
-Para ajudá-lo a encontrar as informações de que você precisa com rapidez e facilidade, sua organização está configurada para entrar no Microsoft Search automaticamente.
+Para ajudar a encontrar as informações que você precisa com rapidez e facilidade, sua organização está configurada para fazer você se conectar automaticamente à Pesquisa da Microsoft.
   
 ## <a name="about-microsoft-search"></a>Sobre a Pesquisa da Microsoft
 
-O Microsoft Search oferece o conteúdo necessário de sua escola ou local de trabalho para o Bing. Saiba mais [sobre o Microsoft Search](about-microsoft-search.md).
+A Pesquisa da Microsoft traz o conteúdo que você precisa da sua escola ou local de trabalho para o Bing. Saiba mais [Sobre a Pesquisa da Microsoft](about-microsoft-search.md).
   
 ## <a name="privacy-and-security"></a>Privacidade e segurança
 
-Com o Microsoft Search, somente as pessoas às quais você concedeu acesso verão seus arquivos compartilhados. Outros resultados, como organogramas e informações de pessoas, só aparecerão para outras pessoas em sua organização.
+Com a Pesquisa da Microsoft, apenas as pessoas a quem você concedeu acesso verão os seus arquivos compartilhados. Outros resultados, como organogramas e informações de pessoas, só aparecerão para outras pessoas na sua organização.
   
-A pesquisa da Microsoft ajuda a proteger sua privacidade protegendo seu histórico de pesquisa. Seu histórico de pesquisa não é compartilhado com outras pessoas na sua organização, mesmo quando você está conectado e pesquisa por informações relacionadas ao trabalho ou escola.
+A Pesquisa da Microsoft ajuda a proteger a sua privacidade protegendo seu histórico de pesquisa. Seu histórico de pesquisa não é compartilhado com outras pessoas na sua organização, mesmo quando você está conectado e pesquisa informações relacionadas ao trabalho ou à escola.
   
-Para aprimorar sua experiência de pesquisa, o Bing relata pesquisas frequentes feitas por vários usuários nos administradores da sua organização. Somente os administradores podem exibir esses dados, não estão vinculados a usuários específicos e só aparecem quando vários usuários pesquisaram a mesma coisa.
+Para melhorar a sua experiência de pesquisa, o Bing informa pesquisas frequentes feitas por vários usuários aos administradores da sua organização. Somente administradores podem visualizar esses dados, eles não estão vinculados a usuários específicos e só aparecem quando vários usuários pesquisam a mesma coisa.
   
-Cada organização é diferente, e a Microsoft não pode garantir como as suas pesquisas e outros dados fora da pesquisa da Microsoft.
+Cada organização é diferente e a Microsoft não pode assegurar como você lida com as suas pesquisas e outros dados fora da Pesquisa da Microsoft.
   
-## <a name="sign-out-of-microsoft-search"></a>Sair da pesquisa da Microsoft
+## <a name="sign-out-of-microsoft-search"></a>Sair da Pesquisa da Microsoft
 
-Você pode sair do Bing a qualquer momento: no canto superior direito de qualquer página do Bing, clique em seu perfil e clique em **sair**.
+Você pode sair do Bing a qualquer momento: no canto superior direito de qualquer página do Bing, clique no seu perfil e clique em **Sair**.
   
-Você não será conectado automaticamente ao dispositivo. Se você tiver usado outros navegadores ou dispositivos para entrar no Microsoft Search, será necessário sair também. 
+Você não será conectado automaticamente a este dispositivo outra vez. Se você usou outros navegadores ou dispositivos para se conectar à Pesquisa da Microsoft, você precisará se desconectar deles também. 
   
-Quando você é desconectado, suas pesquisas não recebem proteção adicional. Eles são tratados como pesquisas padrão do Bing Consumer e são regidos pela [declaração de privacidade da Microsoft](https://privacy.microsoft.com/en-us/privacystatement).
+Quando você estiver desconectado, as suas pesquisas não receberão proteção adicional. Elas são tratadas como pesquisas padrão do consumidor Bing e são regidas pela [Política de Privacidade da Microsoft](https://privacy.microsoft.com/en-us/privacystatement).
   
-## <a name="view-your-search-history"></a>Exibir o histórico de pesquisa
+## <a name="view-your-search-history"></a>Exibir seu histórico de pesquisa
 
-Para ver o histórico de pesquisa da Microsoft nos últimos 30 dias, vá para o [histórico de pesquisa](https://ssl.bing.com/profile/history)e, em pesquisa da Microsoft no Bing, clique em **Exportar**. Pesquisas com mais de 30 dias são automaticamente apagadas do seu histórico.
+Para ver o seu histórico da Pesquisa da Microsoft dos últimos 30 dias, vá para o [histórico de pesquisa](https://ssl.bing.com/profile/history) e, em Pesquisa da Microsoft no Bing, clique em **Exportar**. Pesquisas com mais de 30 dias são apagadas automaticamente do seu histórico.
 
   
 

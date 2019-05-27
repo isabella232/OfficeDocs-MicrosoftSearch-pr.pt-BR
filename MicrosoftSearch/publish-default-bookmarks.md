@@ -13,47 +13,50 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: d49a0b97-e4ca-47cf-ad52-6113787b8402
-description: Indicadores padrão que estão disponíveis no portal de administração de pesquisa da Microsoft
-ms.openlocfilehash: 0105cf33fdf274a6a856615b992e5bc0e0cc02e8
-ms.sourcegitcommit: a5fd9d4f46bbb7c539630735ac16e0c786939e5d
-ms.translationtype: MT
+description: Indicadores padrão que estão disponíveis no portal de administração da Pesquisa da Microsoft
+ms.openlocfilehash: 03cc7030498558fd23375297504b0a33012e9b7d
+ms.sourcegitcommit: 3e91a6e70b48a0100adfed1b62ba79f2fd1735d2
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/01/2019
-ms.locfileid: "33508678"
+ms.lasthandoff: 05/13/2019
+ms.locfileid: "33968346"
 ---
 # <a name="publish-default-bookmarks"></a>Publicar indicadores padrão
 
-Para ver rapidamente como os indicadores aparecem no Bing, publique os padrões fornecidos. Use-as como referência para entender como nomear indicadores e criar boas palavras-chave.
+> [!IMPORTANT]
+> As configurações da Pesquisa da Microsoft no Bing agora estão disponíveis no centro de administração do Microsoft 365. Comece por [atribuir administradores de pesquisa](https://docs.microsoft.com/pt-BR/microsoftsearch/setup-microsoft-search#step-2-assign-search-admin-and-search-editor) ao seu centro de administração.
+    
+Para ver rapidamente como os indicadores aparecem no Bing, publique os padrões fornecidos. Use-os como referência para entender como nomear indicadores e criar boas palavras-chave.
   
-Sugerimos que você revise os dois conjuntos de indicadores padrão:
+É recomendável examinar os dois conjuntos de indicadores padrão:
   
-- Indicadores publicados padrão
+- Indicadores padrão publicados
     
-    Eles incluem os resultados da pesquisa da Microsoft e da ajuda para os aplicativos do Windows e do Office. Depois que a pesquisa da Microsoft estiver habilitada no centro de administração do Microsoft 365, elas serão publicadas automaticamente e aparecerão no Bing. Você pode editar ou excluí-los a qualquer momento.
+    Estes incluem resultados sobre a Pesquisa da Microsoft e ajuda para aplicativos do Windows e do Office. Depois que a Pesquisa da Microsoft estiver habilitado no centro de administração do Microsoft 365, estes serão publicados automaticamente e aparecerão no Bing. Você pode editá-los ou exclui-los a qualquer momento.
     
-- Indicadores sugeridos padrão
+- Indicadores padrão sugeridos
     
-    Eles incluem resultados para pesquisas comuns relacionadas ao trabalho, incluindo benefícios de funcionários, relatórios de horas e despesas, envio de pedidos de compra e obter ajuda dos serviços de ti.
+    Isso inclui os resultados de pesquisas comuns relacionadas a trabalho, incluindo os benefícios dos funcionários, relatórios de tempo e despesas, envio de pedidos de compra e obtenção de ajuda dos serviços de TI.
     
-Se encontrarmos um indicador existente com o mesmo título ou URL como um indicador padrão, o padrão será Descartado. Não modificaremos o indicador existente de forma alguma, publique o indicador padrão ou inclua o indicador padrão na lista sugerida.
+Se encontrarmos um indicador existente com o mesmo título ou URL que um indicador padrão, o padrão será descartado. Não modificaremos o indicador existente de nenhuma maneira, não publicaremos o indicador padrão nem incluiremos o indicador padrão na lista de sugeridos.
   
-## <a name="update-and-publish-a-default-suggested-bookmark"></a>Atualizar e publicar um indicador padrão sugerido
+## <a name="update-and-publish-a-default-suggested-bookmark"></a>Atualize e publique um indicador padrão sugerido
 
 1. Acesse o Portal de Administração da Pesquisa da Microsoft
     
 2. No painel de navegação, clique em **Indicadores**
     
-3. No Bookmarkspage, clique em **sugestão**
+3. Na página de indicadores, clique em **Sugerido**
     
-4. Selecionado um indicador sugerido e clique em **Editar**
+4. Escolha um indicador sugerido e clique em **Editar**
     
-5. Revise o conteúdo do indicador e faça as edições necessárias
+5. Examine o conteúdo do indicador e faça as edições necessárias
     
-6. Adicionar informações ausentes, como URL ou descrição
+6. Adicione informações ausentes, como uma URL ou descrição
     
-7. Clique em **publicar**
+7. Clique em **Publicar**
     
-Atualmente, os indicadores padrão estão disponíveis apenas em inglês. 
+No momento, os indicadores padrão só estão disponíveis em inglês. 
 
   
 

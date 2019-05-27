@@ -1,5 +1,5 @@
 ---
-title: Criar e gerenciar Q&As
+title: Criar e gerenciar P e R
 ms.author: dawholl
 author: dawholl
 manager: kellis
@@ -13,55 +13,58 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: b40a575d-7727-4bb0-80da-e25131315790
-description: Visão geral de todas as maneiras de criar respostas para perguntas frequentes no portal de administração de pesquisa da Microsoft
-ms.openlocfilehash: f30693b0943a34786c9e52859c8c5c680dc6e141
-ms.sourcegitcommit: a5fd9d4f46bbb7c539630735ac16e0c786939e5d
-ms.translationtype: MT
+description: Visão geral de todas as maneiras de criar respostas para perguntas frequentes no portal de administração da Pesquisa da Microsoft
+ms.openlocfilehash: 09c6747dafd5d2cf029f75fec210d308356c54fe
+ms.sourcegitcommit: 3e91a6e70b48a0100adfed1b62ba79f2fd1735d2
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/01/2019
-ms.locfileid: "33508742"
+ms.lasthandoff: 05/13/2019
+ms.locfileid: "33968427"
 ---
-# <a name="create-and-manage-qas"></a>Criar e gerenciar Q&As
+# <a name="create-and-manage-qas"></a>Criar e gerenciar P e R
 
-## <a name="create-qas"></a>Criar perguntas e respostas
+> [!IMPORTANT]
+> As configurações da Pesquisa da Microsoft no Bing agora estão disponíveis no centro de administração do Microsoft 365. Comece por [atribuir administradores de pesquisa](https://docs.microsoft.com/pt-BR/microsoftsearch/setup-microsoft-search#step-2-assign-search-admin-and-search-editor) ao seu centro de administração.
+    
+## <a name="create-qas"></a>Criar P e R
 
-O Q&As oferece a melhor resposta possível para as perguntas relacionadas ao trabalho do usuário. Os usuários podem descobri-los facilmente quando inserem palavras-chave associadas a eles no Bing.
+As P e R fornecem a melhor resposta possível para as perguntas de seu usuário relacionadas ao trabalho. Os usuários podem encontrá-las facilmente quando inserem palavras-chave associadas a elas no Bing.
   
-- [Criar Q&As](create-qas.md)
+- [Criar P e R](create-qas.md)
     
-    Adicionar Q&As individuais.
+    Adicione P e R individuais.
     
-- [Criar e importar Q&As](bulk-create-qas.md)
+- [Criar e importar P e R em massa](bulk-create-qas.md)
     
-    Criar Q&As em um arquivo. csv e importá-los em massa.
+    Criar P e R em um arquivo. csv e importá-las em massa.
     
-## <a name="manage-qas"></a>Gerenciar perguntas e respostas
+## <a name="manage-qas"></a>Gerenciar Perguntas e Respostas
 
-Use o status Q&A, ferramentas de filtragem e ferramentas de exportação/importação em massa para [Localizar e atualizar o conteúdo do Q&A](manage-qas.md), incluindo título, resposta, palavras-chave e URLs.
+Usar o status de perguntas e respostas, ferramentas de filtragem e ferramentas de exportação/importação em massa para [localizar e atualizar o conteúdo das perguntas e respostas](manage-qas.md), incluindo título, resposta, palavras-chave e URLs.
   
-## <a name="qa-status"></a>Status de Q&A
+## <a name="qa-status"></a>Status das perguntas e respostas
 
-No portal de administração, você pode exibir Q&As por seu status atual:
+No portal de administração, você pode exibir as P e R segundo seus status atual:
   
-- Published
+- Publicado
     
-    As Q&As publicadas aparecem nos resultados de pesquisa do Bing quando um usuário autorizado procura uma palavra-chave.
+    As P e R publicadas aparecem nos resultados da pesquisa do Bing quando um usuário autorizado pesquisa por uma palavra-chave.
     
 - Rascunho
     
-    Se um Q&A não estiver pronto para publicar, salve-o como rascunho. O Q&As de rascunho não aparecerá no Bing.
+    Se uma pergunta e resposta não estiver pronta para ser publicada, salve-a como rascunho. Rascunhos de P e R não aparecerão no Bing.
     
-- Agendada
+- Agendado
     
-    Os Q&As agendados são publicados automaticamente em uma data futura.
+    As P e R agendadas são publicadas automaticamente em uma data futura.
     
-- Expirada
+- Expirado
     
-    Os Q&As expirados foram removidos automaticamente do conteúdo publicado com base na data de expiração.
+    As P e R expiradas foram removidas automaticamente do conteúdo publicado com base na data de expiração.
     
-- Recomendado
+- Sugerido
     
-    Os Q&As sugeridos são baseados nos comentários dos usuários.
+    As P e R sugeridas são baseadas nos comentários dos usuários.
 
   
 

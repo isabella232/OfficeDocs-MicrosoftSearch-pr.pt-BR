@@ -1,5 +1,5 @@
 ---
-title: Criar e gerenciar marcadores
+title: Criar e gerenciar indicadores
 ms.author: dawholl
 author: dawholl
 manager: kellis
@@ -13,67 +13,70 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 5479dc34-3de0-41c5-94a7-ba87069e6b43
-description: Visão geral de todas as maneiras que você pode adicionar e criar indicadores para os resultados do trabalho de pesquisa da Microsoft
-ms.openlocfilehash: 306a7cb3b278556454c3050926fed93f2a6929ad
-ms.sourcegitcommit: a5fd9d4f46bbb7c539630735ac16e0c786939e5d
-ms.translationtype: MT
+description: Visão geral de todas as maneiras que você pode adicionar e criar indicadores para resultados de trabalho da Pesquisa da Microsoft
+ms.openlocfilehash: a7243d43eb5132c8096115852a4ebd8bd4dc3305
+ms.sourcegitcommit: 3e91a6e70b48a0100adfed1b62ba79f2fd1735d2
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/01/2019
-ms.locfileid: "33508654"
+ms.lasthandoff: 05/13/2019
+ms.locfileid: "33968368"
 ---
-# <a name="create-and-manage-bookmarks"></a>Criar e gerenciar marcadores
+# <a name="create-and-manage-bookmarks"></a>Criar e gerenciar indicadores
 
+> [!IMPORTANT]
+> As configurações da Pesquisa da Microsoft no Bing agora estão disponíveis no centro de administração do Microsoft 365. Comece por [atribuir administradores de pesquisa](https://docs.microsoft.com/pt-BR/microsoftsearch/setup-microsoft-search#step-2-assign-search-admin-and-search-editor) ao seu centro de administração.
+    
 ## <a name="create-bookmarks"></a>Criar indicadores
 
-Os indicadores ajudam a promover os melhores resultados possíveis para as consultas relacionadas ao trabalho do usuário. Quanto mais indicadores você publica, mais valor e benefício você adiciona para os usuários.
+Indicadores ajudam a promover os melhores resultados possíveis para consultas de usuários relacionadas ao trabalho. Quanto mais indicadores você publicar, mais valor e benefícios você estará adicionando para os usuários.
   
 - [Criar indicadores](create-bookmarks.md)
     
-    Adicionar indicadores individuais.
+    Adicione indicadores individuais.
     
 - [Publicar indicadores padrão](publish-default-bookmarks.md)
     
     Revise e adicione indicadores sugeridos que abordam pesquisas comuns.
     
-- [Importar resultados promovidos e principais consultas do SharePoint](import-sharepoint-promoted-results-and-top-queries.md)
+- [Importar principais consultas e resultados promovidos do SharePoint](import-sharepoint-promoted-results-and-top-queries.md)
     
-    Aproveite as consultas dos usuários e os resultados de melhor opção existentes para criar indicadores sugeridos.
+    Aproveite as consultas dos usuários e os resultados existentes de Melhor Opção para criar indicadores sugeridos.
     
 - [Criar indicadores em massa](bulk-create-bookmarks.md)
     
-    Criar indicadores em um arquivo. csv e importá-los em massa.
+    Crie P e R em um arquivo. csv e importe-as em massa.
     
 - [Integrar o PowerApps](integrate-powerapps.md)
     
-    Adicionar aplicativos de negócios aos seus indicadores.
+    Adicione aplicativos de negócios a seus indicadores.
     
 ## <a name="manage-bookmarks"></a>Gerenciar indicadores
 
-Use o favorito status, ferramentas de filtragem e ferramentas de exportação/importação em massa para [Localizar e atualizar o conteúdo do indicador](manage-bookmarks.md), incluindo título, palavras-chave e URLs.
+Use o status de perguntas e respostas, ferramentas de filtragem e ferramentas de exportação/importação em massa para [localizar e atualizar o conteúdo dos indicadores](manage-bookmarks.md), incluindo título, palavras-chave e URLs.
   
-## <a name="bookmark-status"></a>Status do indicador
+## <a name="bookmark-status"></a>Status dos indicadores
 
-No portal de administração, você pode exibir os indicadores por seu status atual:
+No portal de administração, você pode exibir indicadores segundo seus status atual:
   
-- Published
+- Publicado
     
-    Os indicadores publicados aparecem nos resultados de pesquisa do Bing quando um usuário autorizado procura uma palavra-chave.
+    Os indicadores publicados aparecem nos resultados da pesquisa do Bing quando um usuário autorizado pesquisa por uma palavra-chave.
     
 - Rascunho
     
-    Se um indicador não estiver pronto para publicar, salve-o como rascunho. Os indicadores de rascunho não aparecerão no Bing.
+    Se um indicador não estiver pronto para ser publicado, salve-o como um rascunho. Os rascunhos de indicadores não aparecerão no Bing.
     
-- Agendada
+- Agendado
     
     Os indicadores agendados são publicados automaticamente em uma data futura.
     
-- Expirada
+- Expirado
     
-    Os indicadores expirados foram removidos automaticamente do conteúdo publicado com base em suas datas de expiração.
+    Os indicadores expirados foram removidos automaticamente do conteúdo publicado com base na data de expiração.
     
-- Recomendado
+- Sugerido
     
-    Indicadores sugeridos são baseados nos comentários dos usuários. Você também pode ver sugestões padrão da Microsoft.
+    Os indicadores sugeridos são baseados nos comentários dos usuários. Você também verá sugestões padrão da Microsoft.
 
   
 
