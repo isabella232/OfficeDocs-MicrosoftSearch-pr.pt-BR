@@ -12,17 +12,18 @@ search.appverid:
 - BFB160
 - MET150
 ms.assetid: ff42d668-f721-4ada-b130-77e38508197c
-description: Use o Microsoft Search para encontrar arquivos do Office, PDFs e as informações que procura
-ms.openlocfilehash: f46796c015137a5bc1a24a52f7eb35cd2675a09d
-ms.sourcegitcommit: a5fd9d4f46bbb7c539630735ac16e0c786939e5d
-ms.translationtype: HT
+ROBOTS: NOINDEX
+description: Use o Microsoft Search para localizar arquivos do Office e PDFs e as informações que você verá
+ms.openlocfilehash: cd6d166c99f226b9182d9201866d936b58f7c57a
+ms.sourcegitcommit: be2e837d9b087bffe6ce40d72d7ae58a8fcdf3fe
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/01/2019
-ms.locfileid: "33508934"
+ms.lasthandoff: 05/30/2019
+ms.locfileid: "34590959"
 ---
 # <a name="find-files"></a>Localizar arquivos
 
-Pesquise seus próprios arquivos ou procure conteúdo criado por colegas de trabalho ao qual você tem acesso. Os resultados incluem o nome do arquivo e o local e você também pode ver um breve trecho do conteúdo, quem o modificou pela última vez e quando.
+Pesquise seus próprios arquivos ou procure conteúdo criado por colegas de trabalho aos quais você tem acesso. Os resultados incluem o nome e o local do arquivo e você também pode ver um breve trecho do conteúdo, quem o modificou por último e quando.
   
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2AsoN?autoplay=false]
   
@@ -38,14 +39,14 @@ Você pode encontrar arquivos do SharePoint e do OneDrive for Business, incluind
     
 - PDFs
     
-1. Entre com sua conta corporativa ou de estudante no Bing
+1. Entre em sua conta corporativa ou de estudante no Bing
     
-2. Pesquise por “meus documentos”, “minhas apresentações” ou inclua um tópico ou o nome de uma pessoa
+2. Procure por "meus documentos," minhas apresentações "ou inclua um tópico ou nome de outra pessoa
     
-    Por exemplo, “documentos sobre os códigos de impostos” ou “arquivos de Davi.”
+    Por exemplo, ' docs about tax codes ' ou ' files by John '.
     
 3. Os resultados do arquivo aparecem na parte superior da página de resultados
     
-    Outros resultados da web aparecem abaixo disso. Eles não são específicos para sua organização.
+    Outros resultados da Web aparecem abaixo dele. Eles não são específicos para sua organização.
 
 
