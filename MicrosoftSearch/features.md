@@ -13,15 +13,19 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 5861e462-faed-4c3d-824d-ed3aafd80714
+ROBOTS: NoIndex
 description: Os principais recursos da Pesquisa da Microsoft para administradores e usuários finais incluem indicadores, perguntas e respostas e informações sobre gerenciamento e dados
-ms.openlocfilehash: 983a882fd42ae6f76a4b3db4f0f87dd8fbe7974d
-ms.sourcegitcommit: a5fd9d4f46bbb7c539630735ac16e0c786939e5d
+ms.openlocfilehash: a0c9dc773ce7e11c446437cbcbcdc56014a4fe5e
+ms.sourcegitcommit: be2e837d9b087bffe6ce40d72d7ae58a8fcdf3fe
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/01/2019
-ms.locfileid: "33508590"
+ms.lasthandoff: 05/30/2019
+ms.locfileid: "34591481"
 ---
 # <a name="features-of-microsoft-search"></a>Recursos da Pesquisa da Microsoft
+
+> [!IMPORTANT]
+> Este artigo se aplica à Pesquisa da Microsoft no portal de administração do Bing. Estamos movendo o portal para o centro de administração do Microsoft 365 e, posteriormente, ele será removido. Recomendamos que você use o centro de administração do Microsoft 365 para começar. [Visão geral da Pesquisa da Microsoft.](overview-microsoft-search.md)
 
 ## <a name="key-admin-features-include"></a>Os principais recursos de administração incluem:
 

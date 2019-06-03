@@ -13,17 +13,21 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: cd3ee09d-58ab-4b8a-8822-fa11a1399672
+ROBOTS: NoIndex
 description: Obtenha respostas para perguntas frequentes comuns sobre o Enterprise Search e a Pesquisa da Microsoft
-ms.openlocfilehash: ed4179262dc20a441ce5e3acadc895bacb271fa9
-ms.sourcegitcommit: a5fd9d4f46bbb7c539630735ac16e0c786939e5d
+ms.openlocfilehash: 58fb45eec5cc354a6228fb552a3dcda28c2b2367
+ms.sourcegitcommit: be2e837d9b087bffe6ce40d72d7ae58a8fcdf3fe
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/01/2019
-ms.locfileid: "33508693"
+ms.lasthandoff: 05/30/2019
+ms.locfileid: "34591499"
 ---
 # <a name="faqs"></a>Perguntas frequentes
 
 Estas são as perguntas frequentes que as organizações e os usuários têm sobre a administração e uso da Pesquisa da Microsoft.
+
+> [!IMPORTANT]
+> Este artigo se aplica à Pesquisa da Microsoft no portal de administração do Bing. Estamos movendo o portal para o centro de administração do Microsoft 365 e, posteriormente, ele será removido. Recomendamos que você use o centro de administração do Microsoft 365 para começar. [Visão geral da Pesquisa da Microsoft.](overview-microsoft-search.md)
   
 ## <a name="whats-the-value-proposition-for-microsoft-search"></a>Qual é a proposta de valor da Pesquisa da Microsoft?
 

@@ -13,15 +13,19 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: d432b9d9-3792-47a0-9a13-30a1a83caabc
+ROBOTS: NoIndex
 description: Maneiras de criar respostas para perguntas frequentes em seus resultados de trabalho da Pesquisa da Microsoft
-ms.openlocfilehash: 9713608450688a0841aa64d1f3198183b10e05ee
-ms.sourcegitcommit: a5fd9d4f46bbb7c539630735ac16e0c786939e5d
+ms.openlocfilehash: 9b4d63490c95ec9d5468abbae281c9cc84ab25ca
+ms.sourcegitcommit: be2e837d9b087bffe6ce40d72d7ae58a8fcdf3fe
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/01/2019
-ms.locfileid: "33508615"
+ms.lasthandoff: 05/30/2019
+ms.locfileid: "34591490"
 ---
-# <a name="create-qas"></a>Criar perguntas e respostas
+# <a name="create-qas"></a>Criar P e R
+
+> [!IMPORTANT]
+> Este artigo se aplica à Pesquisa da Microsoft no portal de administração do Bing. Estamos movendo o portal para o centro de administração do Microsoft 365 e, posteriormente, ele será removido. Recomendamos que você use o centro de administração do Microsoft 365 para começar. [Visão geral da Pesquisa da Microsoft.](overview-microsoft-search.md)
 
 As perguntas e respostas fornecem uma resposta ou informações aos usuários, inclusive um link opcional. O ideal é que uma P e R inclua todos os detalhes que os usuários estão procurando para que eles não precisem ir até a fonte. É possível formatar o conteúdo da P e R e incluir imagens, listas e tabelas.
   
