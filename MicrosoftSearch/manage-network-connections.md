@@ -13,16 +13,20 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 8ad58820-69e0-4ee0-88a7-d207ffa790b7
+ROBOTS: NOINDEX
 description: Adicione essas URLs e domínios à lista de permissões do firewall para os usuários acessarem facilmente a Pesquisa da Microsoft
-ms.openlocfilehash: 87a650bd0db17fbede2483c5e117cb03841f6378
-ms.sourcegitcommit: a5fd9d4f46bbb7c539630735ac16e0c786939e5d
+ms.openlocfilehash: 08e98dbde4d9a32827ac000b0b922aab53abc681
+ms.sourcegitcommit: be2e837d9b087bffe6ce40d72d7ae58a8fcdf3fe
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/01/2019
-ms.locfileid: "33508727"
+ms.lasthandoff: 05/30/2019
+ms.locfileid: "34591526"
 ---
 # <a name="manage-network-connections"></a>Gerenciar conexões de rede
 
+> [!IMPORTANT]
+> Este artigo se aplica à Pesquisa do Microsoft no portal de administração do Bing. Estamos movendo o portal para o centro de administração do Microsoft 365 e, posteriormente, ele será removido. Recomendamos que você use o centro de administração do Microsoft 365 para começar. [Visão geral da Pesquisa da Microsoft.](overview-microsoft-search.md)
+    
 Para garantir que você e seus usuários podem se conectar aos pontos de extremidade da Pesquisa da Microsoft, adicione estas URLs nas listas de permissões do firewall.
   
 ## <a name="for-the-microsoft-search-admin-portal"></a>Para o Portal de Administração da Pesquisa da Microsoft:

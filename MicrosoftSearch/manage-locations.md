@@ -3,7 +3,7 @@ title: Gerenciar locais
 ms.author: dawholl
 author: dawholl
 manager: kellis
-ms.date: 11/08/2018
+ms.date: 05/30/2019
 ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
@@ -14,93 +14,51 @@ search.appverid:
 - MOE150
 ms.assetid: 8ab9aa00-cd74-405f-8410-9a1c3cfacdb9
 description: Com o tempo, você pode precisar atualizar o status e o conteúdo de um local para mantê-lo relevante.
-ms.openlocfilehash: 0e23cf3d3d3d05fe86cdc3e09ce808e54242d670
-ms.sourcegitcommit: 3e91a6e70b48a0100adfed1b62ba79f2fd1735d2
+ms.openlocfilehash: d026e518011f3b3739beb2b6aaa044f8a5e9c0d4
+ms.sourcegitcommit: be2e837d9b087bffe6ce40d72d7ae58a8fcdf3fe
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2019
-ms.locfileid: "33968423"
+ms.lasthandoff: 05/30/2019
+ms.locfileid: "34591553"
 ---
 # <a name="manage-locations"></a>Gerenciar locais
 
-> [!IMPORTANT]
-> As configurações da Pesquisa da Microsoft no Bing agora estão disponíveis no centro de administração do Microsoft 365. Comece por [atribuir administradores de pesquisa](https://docs.microsoft.com/pt-BR/microsoftsearch/setup-microsoft-search#step-2-assign-search-admin-and-search-editor) ao seu centro de administração.
-    
-Com o tempo, você pode precisar atualizar o status e o conteúdo de um local para mantê-lo relevante. 
-  
-## <a name="filter-locations"></a>Filtrar locais
+## <a name="location"></a>Localização
+Os Locais ajudam os usuários a encontrarem endereços e localizarem os edifícios da sua organização, fornecendo uma localização precisa para escritórios, campi e edifícios, além de trajetos e navegação. Os administradores devem adicionar todos os locais importantes da sua organização. Ao contrário dos indicadores e das P e R, o índice não é atualizado imediatamente e pode levar várias horas para que locais novos ou alterados apareçam nos resultados de pesquisa.
 
-Use a opção de filtro no canto superior direito da página "Locais" para encontrar locais por data e ver quem os modificou. Por exemplo, defina o controle deslizante de data para 30 dias e selecione um administrador ou editor para ver a lista de locais que eles criaram ou alteraram durante esse período.
-  
-## <a name="change-location-content"></a>Alterar o conteúdo do local
+### <a name="add-or-edit-a-single-location"></a>Adicionar ou editar um único local
+1. Vá para o **centro de administração do Microsoft 365**.
+1. No painel de navegação, vá para **Configurações** e selecione **Pesquisa da Microsoft**.
+1. Selecione a guia **Locais**. Por padrão, a guia **Indicadores** se encontra selecionada na página de **Pesquisa da Microsoft**.
+1. Para adicionar um novo local, selecione **Adicionar novo**.
+1. Para editar um local, selecione o local na lista de locais relevantes.
+1. À medida que você adiciona ou edita as informações, a visualização é atualizada automaticamente.
+1. Salve suas alterações.
 
-1. Acesse o Portal de Administração da Pesquisa da Microsoft
-    
-2. No painel de navegação, clique em **Locais**
-    
-3. Para encontrar um local, pesquise, filtre ou clique no status de um local para restringir seus resultados
-    
-4. Para alterar ou atualizar um local, clique no nome do local
-    
-5. Faça alterações ou atualizações no conteúdo e visualize como elas serão exibidas 
-    
-6. Clique em **Salvar**
-    
-## <a name="bulk-export-and-edit-locations"></a>Exportar e editar locais em massa
+### <a name="bulk-add-or-edit-locations"></a>Adicionar ou editar locais em massa
+Os administradores podem usar o recurso Importar ou Exportar para adicionar ou editar locais em massa. 
 
-Nunca edite dados nestes campos:
-  
-- Id
-    
-- Última Modificação
-    
-- Última Modificação Por
-    
-O Id é um identificador exclusivo para cada local e nunca deve ser editado. Os campos Última Modificação e Última Modificação Por só devem ser usados para classificar e encontrar locais.
-  
-1. Se você deseja exportar um subconjunto de seus locais, filtre-os
-    
-2. No canto superior direito da página Locais, clique em **Exportar**
-    
-3. Salve ou abra o arquivo .csv
-    
-4. Edite os dados em qualquer um destes campos:
-    
-   - Nome
-    
-   - Endereço linha 1
-    
-   - Endereço linha 2
-    
-   - Cidade
-    
-   - Estado do endereço
-    
-   - Código postal
-    
-   - País
-    
-   - Endereço completo
-    
-   - Latitude
-    
-   - Longitude
-    
-   - Palavras-chave
-    
-   - Palavras-chave Reservadas
-    
-   - Estado
-    
-5. Salve o arquivo .csv
+Use o recurso de importação/exportação para:
+1. Adicionar local em massa - Adicione detalhes no arquivo de modelo de local e, em seguida, importe-o. 
+1. Edição em massa de locais - exporte locais para um arquivo .csv, edite os detalhes do local no arquivo .csv exportado e importe o arquivo .csv atualizado.
+1. Backup de locais – exporte locais existentes para um arquivo .csv.
 
-    O arquivo .csv deve ser salvo como um arquivo CSV UTF-8; outros tipos de arquivo e/ou codificações podem causar erros de importação
-    
-6. No canto superior direito da página Locais, clique em **Importar**
-    
-7. No painel Importar Locais, clique em**Procurar** e selecione o arquivo .csv editado 
-    
-8. Clique em **Importar**
+Para exportar ou importar locais:
+1. No canto superior direito da guia **Locais**, selecione **Importar**.
+Selecione **Exportar** para baixar os locais existentes em um arquivo .csv.
+1. No painel direito, escolha a opção de importar usando um arquivo .csv. Faça o download do arquivo de modelo para obter uma lista dos campos e detalhes necessários.
+1. Adicione ou edite detalhes do local no arquivo de modelo e, em seguida, salve-o no seu computador. 
+1. No painel **Importar** locais, selecione **Procurar** e, em seguida, selecione o arquivo .csv que você deseja importar.
+1. Selecione **Importar**.
 
-  
+Aqui estão alguns pontos importantes sobre o arquivo de modelo:
+- Nunca edite os dados nesses campos: *Id*, *Última modificação* e *Última modificação por*
+- Se você incluir o *Id* de um indicador existente, ele será substituído pelas informações no arquivo de importação.
+- Se houver um indicador existente com o mesmo título ou URL, o indicador será atualizado com informações no arquivo de importação.
+- Nem todos os campos no arquivo de modelo são obrigatórios, e os campos obrigatórios variam dependendo do estado do indicador.
+- Com base no campo *Estado*, os indicadores serão salvos como rascunho, sugerido ou programado, ou serão publicados automaticamente.
+- Para organizações com vários locatários, você pode exportar seus indicadores de um locatário e importá-lo para outro. Mas você deve remover os dados na coluna *Id* antes de importar.
 
+**Observação:** Você não pode importar Locais se houver algum erro no arquivo de modelo. Para evitar erros, verifique se o arquivo de importação está formatado corretamente e inclua todas as informações necessárias. 
+
+Para obter mais informações sobre como evitar erros, consulte [Evite erros de importação](manage-bookmarks.md#prevent-import-errors).

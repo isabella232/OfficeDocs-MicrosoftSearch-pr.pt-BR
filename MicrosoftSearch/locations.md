@@ -13,18 +13,19 @@ search.appverid:
 - MOE150
 - MED150
 ms.assetid: 2379e72c-a7da-4e3f-932a-12d431a0a284
+ROBOTS: NOINDEX
 description: Visão geral de todas as maneiras de incluir os locais da sua organização nos resultados de trabalho da Pesquisa da Microsoft
-ms.openlocfilehash: bcda64315f85b9770f47d1b6c08fd90296063487
-ms.sourcegitcommit: 3e91a6e70b48a0100adfed1b62ba79f2fd1735d2
+ms.openlocfilehash: 9eb61d206852759ade3cb668a3d9c0dee83c424f
+ms.sourcegitcommit: be2e837d9b087bffe6ce40d72d7ae58a8fcdf3fe
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2019
-ms.locfileid: "33968456"
+ms.lasthandoff: 05/30/2019
+ms.locfileid: "34591571"
 ---
 # <a name="locations"></a>Locais
 
 > [!IMPORTANT]
-> As configurações da Pesquisa da Microsoft no Bing agora estão disponíveis no centro de administração do Microsoft 365. Comece por [atribuir administradores de pesquisa](https://docs.microsoft.com/pt-BR/microsoftsearch/setup-microsoft-search#step-2-assign-search-admin-and-search-editor) ao seu centro de administração.
+> Este artigo se aplica à Pesquisa do Microsoft no portal de administração do Bing. Estamos movendo o portal para o centro de administração do Microsoft 365 e, posteriormente, ele será removido. Recomendamos que você use o centro de administração do Microsoft 365 para começar. [Visão geral da Pesquisa da Microsoft.](overview-microsoft-search.md)
     
 ## <a name="add-locations"></a>Adicionar locais
 

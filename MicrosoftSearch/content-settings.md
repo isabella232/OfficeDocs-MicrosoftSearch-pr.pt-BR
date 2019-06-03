@@ -13,16 +13,20 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: d1432d64-7a97-4b1b-a99f-11291814d361
+ROBOTS: NoIndex
 description: Adicione o logotipo, o nome da empresa e muito mais aos resultados de trabalho da Pesquisa da Microsoft
-ms.openlocfilehash: 1ec90c5ad10fb1c3b494ccbe3ad1cd1c6497e0fb
-ms.sourcegitcommit: a5fd9d4f46bbb7c539630735ac16e0c786939e5d
+ms.openlocfilehash: d3989422c4bd38236241984c1f9beb67d12a0847
+ms.sourcegitcommit: be2e837d9b087bffe6ce40d72d7ae58a8fcdf3fe
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/01/2019
-ms.locfileid: "33508638"
+ms.lasthandoff: 05/30/2019
+ms.locfileid: "34591238"
 ---
 # <a name="content-settings"></a>Configurações de conteúdo
 
+> [!IMPORTANT]
+> Este artigo se aplica à Pesquisa do Microsoft no portal de administração do Bing. Estamos movendo o portal para o centro de administração do Microsoft 365 e, posteriormente, ele será removido. Recomendamos que você use o centro de administração do Microsoft 365 para começar. [Visão geral da Pesquisa da Microsoft.](overview-microsoft-search.md)
+    
 Com a Pesquisa da Microsoft, você pode garantir uma aparência conhecida para os resultados provenientes das fontes de conteúdo da organização, como o SharePoint, o OneDrive for Business ou a intranet da empresa. 
   
 - Nome da organização

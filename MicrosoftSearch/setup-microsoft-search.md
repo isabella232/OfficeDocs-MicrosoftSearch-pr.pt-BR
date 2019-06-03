@@ -3,7 +3,7 @@ title: Configurar a **Pesquisa da Microsoft**
 ms.author: anfowler
 author: adefowler
 manager: mnirkhe
-ms.date: 04/30/2019
+ms.date: 05/30/2019
 ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Configurar a Pesquisa da Microsoft pela primeira vez.
-ms.openlocfilehash: 703b9c6ab1213fa06f3d959a0e29a9b757e2b2c9
-ms.sourcegitcommit: aeb44797427bd39c133fa899ab77277dd90fe47b
+ms.openlocfilehash: 3b872370dc2058c56637b836f8f78b7ed8e6680e
+ms.sourcegitcommit: be2e837d9b087bffe6ce40d72d7ae58a8fcdf3fe
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/14/2019
-ms.locfileid: "33970127"
+ms.lasthandoff: 05/30/2019
+ms.locfileid: "34591049"
 ---
 # <a name="set-up-microsoft-search"></a>Configurar a Pesquisa da Microsoft
 
@@ -30,9 +30,9 @@ Para saber mais sobre os recursos da **Pesquisa da Microsoft**, consulte [Visão
 
 A **Pesquisa da Microsoft** está ativada por padrão para todos os aplicativos da Microsoft compatíveis, como parte do Microsoft 365. Tudo o que um usuário precisa fazer é entrar com uma conta de trabalho ou escola e usar um navegador com o Bing definido como o provedor de pesquisa padrão.
 
-Você administra a **Pesquisa da Microsoft** a partir do **centro de administração do Microsoft 365**. Entre usando suas credenciais de administrador e selecione o bloco **Administrador** no **Inicializador de aplicativos**. No **centro de administração do Microsoft 365**, selecione **Pesquisa da Microsoft** em **Configurações** no painel de navegação esquerdo. 
+Você administra a **Pesquisa da Microsoft** a partir do **centro de administração do Microsoft 365**. Entre usando seu logon com credenciais de administrador e escolha o bloco **Administrador** na lista de aplicativos do Office 365 (Clique no ícone do **Inicializador de aplicativos** no canto superior esquerdo da lista de aplicativos). No **centro de administração do Microsoft 365**, selecione **Pesquisa da Microsoft** em **Configurações** no painel de navegação esquerdo. 
 
-**Observação:** se você estiver vendo o portal de administração herdado e quiser mudar para o novo centro de administração, ative a opção **Experimentar a visualização**, no canto superior direito do centro de administração. 
+**Observação:** Se você estiver vendo a**Pesquisa da Microsoft** em**Configurações** no**centro de administração do Microsoft 365**, habilite a opção **Experimente a visualização** no canto superior direito do centro de administração. 
 
 Como administrador, você deve considerar algumas coisas que podem tornar a experiência da **Pesquisa da Microsoft** eficiente e amigável em sua organização.
 
@@ -54,7 +54,7 @@ Na **Pesquisa da Microsoft**, você pode gerenciar as configurações de pesquis
 1. **Administrador de Pesquisa**: essa função pode criar e gerenciar conteúdo de resultados de pesquisa e definir configurações de consulta para melhorar os resultados de pesquisa na organização. O administrador de pesquisa gerencia a configuração da **Pesquisa da Microsoft** e designa editores de pesquisa para criarem conteúdo.
 2. **Editor de Pesquisa:** Cria, gerencia e exclui conteúdo para a **Pesquisa da Microsoft** no centro de administração do Microsoft 365. Essa função pode criar e gerenciar conteúdo editorial, como perguntas e respostas frequentes, lugares e locais importantes, sites e aplicativos pesquisados e usados com frequência, etc. Ela, no entanto, não garante acesso para gerenciar configurações de pesquisa.
 
-Para atribuir funções de administrador, consulte [Atribuir direitos de administrador no Office 365 for business](https://docs.microsoft.com/en-us/office365/admin/add-users/assign-admin-roles?view=o365-worldwide).
+Para atribuir funções de administrador, consulte [Atribuir direitos de administrador no Office 365 for business](https://docs.microsoft.com/pt-BR/office365/admin/add-users/assign-admin-roles?view=o365-worldwide).
 
 ### <a name="step-3-make-content-easy-to-find"></a>Etapa 3: torne o conteúdo fácil de encontrar 
 
@@ -86,7 +86,7 @@ Estabeleça recursos de autoatendimento que os funcionários possam acessar faci
 - [Encontre o que você precisa com a Pesquisa da Microsoft no Office](https://support.office.com/article/find-what-you-need-with-microsoft-search-in-office-2457d4d8-48a8-4ad4-ab89-5a0657aa8446?ui=en-US&rs=en-US&ad=US)
 - [Centro de Treinamento do Office 365](https://support.office.com/office-training-center)
 - 
-  [Centro de pesquisa da Microsoft](https://support.office.com/en-us/article/-working-title-microsoft-search-center-b8bf5a2c-7515-40a9-9a6a-b8ed382c86bc?ui=en-US&rs=en-US&ad=US)
+  [Centro de pesquisa da Microsoft](https://support.office.com/pt-BR/article/-working-title-microsoft-search-center-b8bf5a2c-7515-40a9-9a6a-b8ed382c86bc?ui=en-US&rs=en-US&ad=US)
 
 ### <a name="trying-out-microsoft-search-in-bing"></a>Experimentando a **Pesquisa da Microsoft** no Bing 
 O administrador da **Pesquisa da Microsoft** pode desativar a **Pesquisa da Microsoft** no Bing. Se desativada, os usuários não verão o conteúdo da organização na pesquisa do Bing. Por padrão, a **Pesquisa da Microsoft** se encontra ativada no Bing. Recomendamos que você mantenha a **Pesquisa da Microsoft** ativada no Bing para ter uma melhor experiência do usuário. 

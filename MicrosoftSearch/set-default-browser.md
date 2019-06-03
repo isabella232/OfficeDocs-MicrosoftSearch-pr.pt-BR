@@ -13,16 +13,20 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 53e2b71a-348b-4dfe-a504-6e97d573effe
+ROBOTS: NOINDEX
 description: Saiba como configurar um navegador padrão para a empresa com a Pesquisa da Microsoft.
-ms.openlocfilehash: 160dbbef9981127b74c51f54f86428667ecd4471
-ms.sourcegitcommit: a5fd9d4f46bbb7c539630735ac16e0c786939e5d
+ms.openlocfilehash: daff7f66bd38bdd56179e44c36092a2c4fd42b42
+ms.sourcegitcommit: be2e837d9b087bffe6ce40d72d7ae58a8fcdf3fe
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/01/2019
-ms.locfileid: "33508984"
+ms.lasthandoff: 05/30/2019
+ms.locfileid: "34591157"
 ---
 # <a name="set-default-browser"></a>Definir o navegador padrão
 
+> [!IMPORTANT]
+> Este artigo se aplica à Pesquisa do Microsoft no portal de administração do Bing. Estamos movendo o portal para o centro de administração do Microsoft 365 e, posteriormente, ele será removido. Recomendamos que você use o centro de administração do Microsoft 365 para começar. [Visão geral da Pesquisa da Microsoft.](overview-microsoft-search.md)
+    
 Configurar o navegador, o mecanismo de pesquisa e a home page padrão ajuda os usuários a descobrir os recursos, promove o uso e proporciona uma experiência aprimorada da Pesquisa da Microsoft.
   
 Para definir o navegador padrão da organização, faça os procedimentos abaixo.

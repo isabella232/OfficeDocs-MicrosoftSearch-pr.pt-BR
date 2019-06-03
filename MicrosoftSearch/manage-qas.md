@@ -1,9 +1,9 @@
 ---
 title: Gerenciar P e R
-ms.author: dawholl
-author: dawholl
-manager: kellis
-ms.date: 12/18/2018
+ms.author: anfowler
+author: adefowler
+manager: mnirkhe
+ms.date: 05/30/2019
 ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
@@ -14,98 +14,70 @@ search.appverid:
 - MOE150
 ms.assetid: 7e3432e6-5317-4d63-90b0-52da6fddd343
 description: Encontre e atualize as respostas individualmente ou use as ferramentas da Pesquisa da Microsoft disponíveis para editar todas elas de uma só vez
-ms.openlocfilehash: ee239aa73d4e650289f39d33c63c3e2df4f100cc
-ms.sourcegitcommit: 3e91a6e70b48a0100adfed1b62ba79f2fd1735d2
+ms.openlocfilehash: 8620842e64a40eb32467c42a289bdec3b67d303b
+ms.sourcegitcommit: be2e837d9b087bffe6ce40d72d7ae58a8fcdf3fe
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2019
-ms.locfileid: "33968464"
+ms.lasthandoff: 05/30/2019
+ms.locfileid: "34591517"
 ---
 # <a name="manage-qas"></a>Gerenciar P e R
 
-> [!IMPORTANT]
-> As configurações da Pesquisa da Microsoft no Bing agora estão disponíveis no centro de administração do Microsoft 365. Comece por [atribuir administradores de pesquisa](https://docs.microsoft.com/pt-BR/microsoftsearch/setup-microsoft-search#step-2-assign-search-admin-and-search-editor) ao seu centro de administração.
-    
-Ao longo do tempo, talvez seja necessário atualizar o status e o conteúdo de um item de P e R para mantê-lo relevante.
-  
-## <a name="filter-qas"></a>Filtrar perguntas e respostas
+A criação de P e R é semelhante à criação de indicadores. As P e R permitem que você responda uma pergunta do usuário, em vez de apenas fornecer um link para uma página da Web. Você pode formatar a resposta em rich text usando as ferramentas disponíveis. Se um indicador e um P e R compartilham a mesma palavra-chave, o resultado do indicador é mostrado primeiro. Como os Indicadores, o índice de P e R é atualizado imediatamente depois que um P e R é adicionado ou alterado. 
 
-Use a opção de filtro no canto superior direito da página Perguntas e Respostas para localizar as perguntas e respostas por data e quem as modificou. Por exemplo, defina o controle deslizante para 30 dias e escolha um administrador ou editor para ver a lista de P e R que você criou ou modificou naquele momento.
-  
-## <a name="change-qa-content-or-settings"></a>Alterar o conteúdo e as configurações de P e R
+## <a name="add-or-edit-a-single-qa"></a>Adicione ou edite um único P e R
+1. Vá para o **centro de administração do Microsoft 365**.
+1. No painel de navegação, vá para **Configurações** e selecione **Pesquisa da Microsoft**.
+1. Selecione a guia **P e R**. Por padrão, a primeira guia (**Indicadores**) se encontra selecionada.
+1. Para adicionar P e R, selecione **Adicionar novo**.
+Para editar P e R, selecione o P e R na lista P e R relevante.
+1. À medida que você adiciona ou edita as informações, a visualização é atualizada automaticamente.
+1. Salve suas alterações.
 
-1. Acesse o Portal de Administração da Pesquisa da Microsoft
-    
-2. No painel de navegação, clique em **P e R**
-    
-3. Para localizar um item de perguntas e respostas, pesquise, filtre ou clique no status de um item de perguntas e respostas para restringir os resultados
-    
-4. Para alterar ou atualizar um item de perguntas e respostas, clique no título
-    
-5. Faça alterações ou atualizações no conteúdo ou configurações e visualize como ficará sua aparência
-    
-6. Clique em **Salvar**
-    
-## <a name="bulk-export-and-edit-qas"></a>Exporte e edite itens de perguntas e respostas em massa
+### <a name="supported-html-tags"></a>Tags HTML com suporte
+Você pode usar o conteúdo HTML existente ou adicionar tags HTML à sua resposta (descrição). Tags não compatíveis são ignoradas.  
+As seguintes tags HTML são compatíveis:
+- blockquote
+- div
+- em
+- h1, h2, h3 e h4
+- ol, ul e li
+- p
+- pre
+- span
+- strong
+- table, thead, tbody, tr, th e td
+- u
+- a
+- code
+- br
+- hr
+- img
 
-Nunca edite dados nesses campos:
-  
-- Id
-    
-- Última Modificação
-    
-- Última Modificação Por
-    
-ID é um identificador exclusivo para cada item de P e R e nunca deve ser editado. Os campos Última Modificação e Última Modificação Por só devem ser usados para classificar e localizar P e R.
-  
-1. Se quiser exportar um subconjunto de itens de P e R, filtre-os
-    
-2. No canto superior direito da página Perguntas e Respostas, clique em **Exportar**
-    
-3. Salve ou abra o arquivo .csv
-    
-4. Edite os dados em qualquer um destes campos:
-    
-   - Pergunta
-    
-   - URL
-      
-   - Palavras-chave
-    
-   - Estado
-    
-   - Descrição da resposta
-    
-   - Palavras-chave Reservadas
-    
-   - Data de Início
-    
-   - Data de Término
-    
-   - País/Região
-    
-   - Grupos
-    
-   - Sistema Operacional do dispositivo&amp;
-    
-   - Variações Direcionadas
-    
-5. Salve o arquivo .csv
+## <a name="bulk-add-or-edit-qas"></a>Adicionar ou editar P e R em massa
+Os administradores podem usar os recursos de importação e exportação para criar ou editar P e R em massa. Esse é um recurso útil quando os administradores precisam adicionar ou editar um grande número de P e R. 
 
-    O arquivo .csv deve ser salvo como um arquivo CSV UTF-8; outros tipos de arquivo e/ou codificações podem causar erros de importação
-    
-6. No canto superior direito da página P e R, clique em **Importar**
-    
-7. No painel Importar P e R, clique em **Procurar** e selecione o arquivo .csv editado 
-    
-8. Clique em **Importar**
-    
-Se os dados necessários estiverem ausentes ou forem inválidos, você receberá um erro. Dependendo do erro, pode ser gerado um arquivo de registro com mais informações sobre quais linhas e colunas precisam ser corrigidas. Faça as edições necessárias e tente importar o arquivo novamente.
-  
-> [!NOTE]
-> Até que todos os erros sejam resolvidos, não será possível criar ou editar nenhum item de P e R. 
-  
-Nem todos os campos são necessários e os campos necessários variam dependendo do estado das P e R. Com base no campo de estado, as P e R serão salvas como rascunho, sugeridas, programadas, ou serão publicadas automaticamente. Descubra mais sobre os campos necessários e recomendados em [Criar P e R](create-qas.md).
+Use o recurso de importação/exportação para:
+1. Adicionar P e R em massa - Adicione detalhes no arquivo de modelo P e R e importe-o.
+1. Edição em massa de P e R - Exporte P e R para um ficheiro .csv, edite os detalhes de P e R no ficheiro .csv exportado e, em seguida, importe o ficheiro .csv.
+1. Backup de P e R - Exporte P e R para um arquivo .csv.
 
-  
+Para importar ou exportar P e R:
+1. No canto superior direito da guia P e R, selecione **Importar**. Selecione **Exportar** para baixar todas as P e R existentes em um arquivo .csv.
+1. No painel direito, escolha a opção de importar usando um arquivo .csv.
+Faça o download do arquivo de modelo para obter uma lista dos campos e detalhes necessários. 
+1. Adicione ou edite os detalhes de P e R no arquivo de modelo e salve-o no seu computador. 
+1. No painel **Importar P e R**, selecione **Procurar** e, em seguida, o arquivo .csv que você deseja importar.
+1. Selecione **Importar**.
 
+Aqui estão alguns pontos importantes sobre o arquivo de modelo:
+- Nunca edite os dados nesses campos: *Id*, *Última modificação* e *Última modificação por*
+- Se você incluir o *Id* de um indicador existente, ele será substituído pelas informações no arquivo de importação.
+- Se houver um indicador existente com o mesmo título ou URL, o indicador será atualizado com informações no arquivo de importação.
+- Nem todos os campos no arquivo de modelo são obrigatórios, e os campos obrigatórios variam dependendo do estado do indicador.
+- Com base no campo Estado, os indicadores serão salvos como rascunho, sugerido ou programado, ou serão publicados automaticamente.
+- Para organizações com vários locatários, você pode exportar seus indicadores de um locatário e importá-lo para outro. Mas você deve remover os dados na coluna *Id* antes de importar.
+
+**Observação:** Você não pode importar P e R se houver algum erro no arquivo de modelo. Para evitar erros, verifique se o arquivo de importação está formatado corretamente e inclua todas as informações necessárias. 
+
+Para obter mais informações sobre como evitar erros, consulte [Evite erros de importação](manage-bookmarks.md#prevent-import-errors).

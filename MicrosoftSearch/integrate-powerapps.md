@@ -13,20 +13,21 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 1fadcba3-4a7f-4a55-8476-d4e64d49a15f
+ROBOTS: NOINDEX
 description: Incluir aplicativos baseados em navegador nos resultados de indicadores da Pesquisa da Microsoft
-ms.openlocfilehash: 96b409274e3fa06cef7dcc6f1c43360a3e6b9d34
-ms.sourcegitcommit: 3e91a6e70b48a0100adfed1b62ba79f2fd1735d2
+ms.openlocfilehash: 655b8c8c6f4a9729461447112b21ca7c6c7864f9
+ms.sourcegitcommit: be2e837d9b087bffe6ce40d72d7ae58a8fcdf3fe
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2019
-ms.locfileid: "33968370"
+ms.lasthandoff: 05/30/2019
+ms.locfileid: "34591607"
 ---
 # <a name="integrate-powerapps"></a>Integrar o PowerApps
 
 > [!IMPORTANT]
-> As configurações da Pesquisa da Microsoft no Bing agora estão disponíveis no centro de administração do Microsoft 365. Comece por [atribuir administradores de pesquisa](https://docs.microsoft.com/pt-BR/microsoftsearch/setup-microsoft-search#step-2-assign-search-admin-and-search-editor) ao seu centro de administração.
+> Este artigo se aplica à Pesquisa da Microsoft no portal de administração do Bing. Estamos movendo o portal para o centro de administração do Microsoft 365 e, posteriormente, ele será removido. Recomendamos que você use o centro de administração do Microsoft 365 para começar. [Visão geral da Pesquisa da Microsoft.](overview-microsoft-search.md)
     
-Ajude os usuários a concluir as tarefas, como inserir tempo de férias ou relatórios de despesas por meio da integração de PowerApps existentes com seus indicadores. PowerApps integrados aparecem em um resultado de indicador, eliminando a necessidade de ir para outro site ou de abrir uma ferramenta separada, o que economiza tempo e esforço.
+Ajude os usuários a concluir as tarefas, como inserir período de férias ou relatórios de despesas por meio da integração de PowerApps existentes em seus indicadores. PowerApps integrados aparecem em um resultado de indicador, eliminando a necessidade de ir para outro site ou de abrir uma ferramenta separada, o que economiza tempo e esforço.
   
 ## <a name="what-are-powerapps"></a>O que são PowerApps?
 

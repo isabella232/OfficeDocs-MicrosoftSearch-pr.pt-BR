@@ -1,9 +1,9 @@
 ---
 title: Gerenciar indicadores
-ms.author: dawholl
-author: dawholl
-manager: kellis
-ms.date: 09/08/2018
+ms.author: anfowler
+author: adefowler
+manager: mnirkhe
+ms.date: 05/30/2019
 ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
@@ -13,88 +13,86 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: c0c814d0-f7e4-444e-b18e-09beb45c9322
-description: Encontre indicadores que precisam ser atualizados e formas de editar em massa os resultados dos indicadores para a Pesquisa da Microsoft
-ms.openlocfilehash: d5cebbfd5779bc8a6aa25cdbcdedb6e9b18f242e
-ms.sourcegitcommit: 3e91a6e70b48a0100adfed1b62ba79f2fd1735d2
+description: Crie e atualize os indicadores e formas de editar em massa os resultados dos indicadores para a Pesquisa da Microsoft
+ms.openlocfilehash: fb1be0bc137891a54e370fef1e4b5628963c5ad9
+ms.sourcegitcommit: be2e837d9b087bffe6ce40d72d7ae58a8fcdf3fe
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2019
-ms.locfileid: "33968480"
+ms.lasthandoff: 05/30/2019
+ms.locfileid: "34591616"
 ---
 # <a name="manage-bookmarks"></a>Gerenciar indicadores
 
-> [!IMPORTANT]
-> As configurações da Pesquisa da Microsoft no Bing agora estão disponíveis no centro de administração do Microsoft 365. Comece por [atribuir administradores de pesquisa](https://docs.microsoft.com/pt-BR/microsoftsearch/setup-microsoft-search#step-2-assign-search-admin-and-search-editor) ao seu centro de administração.
-    
-Ao longo do tempo, talvez seja necessário atualizar o status e o conteúdo de um indicador para mantê-lo relevante. 
-  
-## <a name="filter-bookmarks"></a>Filtre indicadores
+Você pode criar um indicador em apenas algumas etapas. Cada indicador inclui um título, uma URL e um conjunto de palavras-chave que o acionam. Um indicador pode ter várias palavras-chave e vários indicadores podem compartilhar a mesma palavra-chave, mas a palavra-chave reservada não pode ser compartilhada. Quando um indicador é criado ou modificado, o índice de pesquisa é atualizado imediatamente e o indicador fica disponível para os usuários imediatamente.
 
-Use a opção de filtro no canto superior direito da página Indicadores para localizar indicadores por data e quem os modificou. Por exemplo, defina o controle deslizante para 30 dias e escolha um administrador ou editor para ver a lista de indicadores que você criou ou modificou naquele momento.
-  
-## <a name="change-bookmark-content-or-settings"></a>Alterar o conteúdo ou as configurações dos indicadores
+Se sua organização tiver Resultados Promovidos configurados no SharePoint, você poderá importar os Resultados Promovidos na **Pesquisa da Microsoft** e disponibilizar o conteúdo importado para os usuários. Essa é uma maneira fácil de preencher rapidamente os resultados da pesquisa assim que você configurar a **Pesquisa da Microsoft** e torná-la mais eficiente para os usuários. Recomendamos que você use os resultados promovidos do SharePoint como referência para entender como nomear e criar resultados de pesquisa relevantes. 
 
-1. Acesse o Portal de Administração da Pesquisa da Microsoft
-    
-2. No painel de navegação, clique em **Indicadores**
-    
-3. Para encontrar um indicador, pesquise, filtre ou clique no status de um indicador para restringir seus resultados
-    
-4. Para alterar ou atualizar um indicador, clique no título
-    
-5. Faça alterações ou atualizações no conteúdo ou configurações e visualize como ficará sua aparência 
-    
-6. Clique em **Salvar**
-    
-## <a name="bulk-export-and-edit-bookmarks"></a>Exporte e edite indicadores em massa
+## <a name="add-or-edit-a-single-bookmark"></a>Adicionar ou editar um único indicador
+1. Vá para o **centro de administração do Microsoft 365**.
+1. No painel de navegação, vá para **Configurações** e selecione **** Pesquisa da Microsoft ****.
+Por padrão, a guia **Indicadores** se encontra selecionada.
+1. Para adicionar um indicador, selecione **Adicionar novo**. Para editar um indicador, selecione o indicador na lista de indicador relevante. 
+1. À medida que você adiciona ou edita as informações, a visualização é atualizada automaticamente.
+1. Salve suas alterações.
 
-Nunca edite dados nesses campos:
-  
-- Id
-    
-- Última Modificação
-    
-- Última Modificação Por
-    
-ID é um identificador exclusivo para cada indicador e nunca deve ser editado. Os campos Última Modificação e Última Modificação Por devem ser usados somente para classificar e localizar indicadores.
-  
-1. Se quiser exportar um subconjunto de seus indicadores, filtre-os
-    
-2. No canto superior direito da página Indicadores, clique em **Exportar**
-    
-3. Salve ou abra o arquivo .csv
-    
-4. Edite os dados em qualquer um destes campos:
-   - Título
-    
-   - URL
-    
-   - Palavras-chave
-    
-   - Estado
-    
-   - Descrição
-    
-   - Palavras-chave Reservadas
-    
-   - Data de Início
-    
-   - Data de Término
-    
-   - País/Região
-    
-   - Grupos
-    
-   - Sistema Operacional do dispositivo&amp;
-    
-   - Variações Direcionadas
-    
-5. Salve o arquivo .csv
+## <a name="add-or-edit-bookmark-using-browser-extensions"></a>Adicionar ou editar indicador usando extensões de navegador
+Os administradores de pesquisa podem criar conteúdo de pesquisa facilmente usando extensões de navegador. Instale a extensão de navegador e, em seguida, vá para o site para o qual você deseja adicionar um indicador e adicione o indicador.
 
-    O arquivo .csv deve ser salvo como um arquivo CSV UTF-8; outros tipos de arquivo e/ou codificações podem causar erros de importação
-    
-6. No canto superior direito da página Indicadores, clique em **Importar**
-    
-7. No painel Importar indicadores, clique em **Procurar** e selecione o arquivo .csv editado 
-    
-8. Clique em **Importar**
+Atualmente, as extensões do navegador estão disponíveis para o Edge e o Chrome. 
+- Para baixar a extensão do Edge, vá para a [Loja da Microsoft](https://www.microsoft.com/en-us/p/microsoft-search-content-creator/9nrqdbcbwq55?activetab=pivot:overviewtab) e baixe o aplicativo.
+- Para baixar a extensão do Chrome, acesse a [Chrome Web Store](https://chrome.google.com/webstore/detail/microsoft-search-content/nocnablpaoeecfmfnjoheefkogmleipm) e faça o download do aplicativo.
+
+## <a name="bulk-add-or-edit-bookmarks"></a>Adicionar ou editar indicadores em massa
+O administrador de pesquisa pode usar os recursos Importar ou Exportar para criar ou editar indicadores em massa. Esse é um recurso muito útil quando um administrador deseja adicionar ou editar um grande número de indicadores. 
+
+Use o recurso de importação/exportação para:
+- Adicionar indicadores em massa - Adicione detalhes no arquivo de modelo de indicador e, em seguida, importe-o.
+- Edição em massa de indicadores - Exporte os indicadores para um arquivo .csv, edite os detalhes de indicador no arquivo .csv exportado e, em seguida, importe o arquivo .csv atualizado.
+- Importar sites promovidos do SharePoint.
+- Indicadores de backup - Exportar indicadores para um arquivo .csv.
+
+Para importar ou exportar indicadores:
+1. No canto superior direito da guia **Indicadores**, selecione **Importar**. Selecione **Exportar** para baixar todos os indicadores existentes em um arquivo .csv.
+1. No painel direito, escolha a opção de importar usando um arquivo .csv ou do SharePoint.
+Faça o download do arquivo de modelo para obter uma lista dos campos e detalhes necessários. 
+1. Adicione ou edite os detalhes do indicador no arquivo de modelo e salve-o no seu computador. 
+1. No painel **Importar indicadores**, selecione **Procurar** e, em seguida, selecione o arquivo .csv que você deseja importar.
+1. Selecione **Importar**.
+
+Aqui estão alguns pontos importantes a serem observados em relação ao arquivo de modelo:
+- Nunca edite os dados nesses campos: *Id*, *Última modificação* e *Última modificação por*
+- Se você incluir o *Id* de um indicador existente, ele será substituído pelas informações no arquivo de importação.
+- Se houver um indicador existente com o mesmo título ou URL, o indicador será atualizado com informações no arquivo de importação.
+- Nem todos os campos no arquivo de modelo são obrigatórios, e os campos obrigatórios variam dependendo do estado do indicador.
+- Com base no campo *Estado*, os indicadores serão salvos como rascunho, sugerido ou programado, ou serão publicados automaticamente.
+- Para organizações com vários locatários, você pode exportar seus indicadores de um locatário e importá-lo para outro. Mas você deve remover os dados na coluna *Id* antes de importar.
+
+### <a name="prevent-import-errors"></a>Evite erros de importação
+Você receberá um erro se algum dado necessário estiver faltando ou for inválido, e um arquivo de log será gerado com mais informações sobre as linhas e colunas a serem corrigidas. Faça as edições necessárias e tente importar o arquivo novamente. Você não pode importar ou salvar nenhum indicador até que todos os erros sejam resolvidos.
+
+Para evitar erros, certifique-se de que o arquivo de importação esteja formatado corretamente e:
+- Que ele inclua a linha de cabeçalho e todas as colunas que estavam no modelo de importação
+- Que a ordem das colunas seja igual ao modelo de importação
+- Todas as colunas têm valores, exceto as três que podem estar vazias: *Id*, *Última modificação* e *Última modificação por* 
+- A coluna *Estado* não está vazia, pois essa informação é necessária
+
+## <a name="powerapps"></a>PowerApps
+Ajude seus usuários a concluir tarefas, como inserir período de férias ou informar despesas, adicionando PowerApps existentes aos seus indicadores. 
+
+### <a name="what-are-powerapps"></a>O que são PowerApps?
+PowerApps é um serviço que permite criar aplicativos de negócios que são executados em um navegador, telefone ou tablet sem necessidade de nenhuma experiência de codificação. PowerApps funcionam em qualquer navegador e em qualquer dispositivo, e leva menos de um minuto para adicioná-los. Para mais informações sobre PowerApps, consulte:
+- 
+  [Aprendizagem Orientada](https://docs.microsoft.com/pt-BR/learn/browse/?products=powerapps)
+- 
+  [Documentação](https://docs.microsoft.com/pt-BR/powerapps/maker/canvas-apps/get-sessionid)
+- [Página inicial do PowerApps](https://make.preview.powerapps.com/environments/839eace6-59ab-4243-97ec-a5b8fcc104e4/home)
+
+### <a name="add-a-powerapp-to-a-bookmark"></a>Adicionar um PowerApp a um indicador
+1. Encontre o [ID do aplicativo para o PowerApp](https://docs.microsoft.com/pt-BR/powerapps/maker/canvas-apps/get-sessionid#get-an-app-id) que você deseja adicionar.
+1. Faça logon e vá para o **centro de administração do Microsoft 365**.
+1. No painel de navegação, vá para **Configurações** e selecione **Pesquisa da Microsoft**.
+1. Adicione um indicador ou encontre um indicador existente ao qual você deseja adicionar um **PowerApp**.
+1. Em **Configurações de indicadores**, selecione **Power App** e, em seguida, **Adicionar um Power App**.
+1. Insira ou cole o **ID do aplicativo**.
+    A altura e a largura são ajustadas automaticamente. Os indicadores são compatíveis com orientações tipo retrato e paisagem; porém, no momento, o tamanho não pode ser alterado. A visualização do indicador mostra um PowerApp totalmente funcional para facilitar o teste.
+1. Selecione **Publicar** ou **Salvar em Rascunhos**.

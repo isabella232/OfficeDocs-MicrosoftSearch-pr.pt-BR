@@ -13,17 +13,21 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 50461cb9-8707-46c1-935a-1b9608a98800
+ROBOTS: NOINDEX
 description: Proteja seus dados corporativos e dos usuários, além de fornecer informações aos usuários autorizados com a Pesquisa da Microsoft
-ms.openlocfilehash: 5f59e0e2969ef829d7c14b07ecb47d645cc63013
-ms.sourcegitcommit: a5fd9d4f46bbb7c539630735ac16e0c786939e5d
+ms.openlocfilehash: c8444c5c265e109d379fdfffbb033c703040a74c
+ms.sourcegitcommit: be2e837d9b087bffe6ce40d72d7ae58a8fcdf3fe
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/01/2019
-ms.locfileid: "33508703"
+ms.lasthandoff: 05/30/2019
+ms.locfileid: "34591193"
 ---
 # <a name="security-for-microsoft-search"></a>Segurança da Pesquisa da Microsoft
 
 Com a segurança de nível empresarial, a Pesquisa da Microsoft sempre mantém seus usuários e dados protegidos.
+
+> [!IMPORTANT]
+> Este artigo se aplica à Pesquisa do Microsoft no portal de administração do Bing. Estamos movendo o portal para o centro de administração do Microsoft 365 e, posteriormente, ele será removido. Recomendamos que você use o centro de administração do Microsoft 365 para começar. [Visão geral da Pesquisa da Microsoft.](overview-microsoft-search.md)
   
 ## <a name="secure-by-default"></a>Segurança por padrão
 
@@ -77,6 +81,6 @@ Independentemente da consulta do usuário conter um ou mais resultados de trabal
     
 ## <a name="gdpr"></a>RGPD
 
-Em [21 de maio de 2018, a postagem do blog](https://blogs.microsoft.com/on-the-issues/2018/05/21/microsofts-commitment-to-gdpr-privacy-and-putting-customers-in-control-of-their-own-data/) da Microsoft reflete o nosso compromisso com a conformidade com o RGDP e como a Microsoft ajuda empresas e organizações a cumprir suas próprias obrigações de conformidade com o RGDP. Você pode encontrar detalhes adicionais nas [Perguntas Frequentes da Central de Confiabilidade](https://www.microsoft.com/pt-BR/trustcenter/privacy/gdpr/gdpr-faqs) da Microsoft. As consultas da Pesquisa da Microsoft que operam com base em dados de clientes organizacionais dentro dos Serviços Online também atenderão às obrigações do processador descritas no artigo 28, bem como refletidos nas [Perguntas Frequentes da Central de Confiabilidade](https://www.microsoft.com/pt-BR/trustcenter/privacy/gdpr/gdpr-faqs). Com relação às consultas da Pesquisa da Microsoft que forem feitas no Bing público, a Microsoft é uma controladora de dados e implementou medidas para remover a identificação das consultas, como descrito no RGPD.
+Em [21 de maio de 2018, a postagem do blog](https://blogs.microsoft.com/on-the-issues/2018/05/21/microsofts-commitment-to-gdpr-privacy-and-putting-customers-in-control-of-their-own-data/) da Microsoft reflete o nosso compromisso com a conformidade com o RGDP e como a Microsoft ajuda empresas e organizações a cumprir suas próprias obrigações de conformidade com o RGDP. Você pode encontrar detalhes adicionais nas [Perguntas Frequentes da Central de Confiabilidade](https://www.microsoft.com/en-us/trustcenter/privacy/gdpr/gdpr-faqs) da Microsoft. As consultas da Pesquisa da Microsoft que operam com base em dados de clientes organizacionais dentro dos Serviços Online também atenderão às obrigações do processador descritas no artigo 28, bem como refletidos nas [Perguntas Frequentes da Central de Confiabilidade](https://www.microsoft.com/en-us/trustcenter/privacy/gdpr/gdpr-faqs). Com relação às consultas da Pesquisa da Microsoft que forem feitas no Bing público, a Microsoft é uma controladora de dados e implementou medidas para remover a identificação das consultas, como descrito no RGPD.
 
 
