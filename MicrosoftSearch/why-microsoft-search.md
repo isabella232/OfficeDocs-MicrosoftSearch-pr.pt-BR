@@ -13,17 +13,21 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 38569f03-db18-49ab-96ef-213a1f410935
+ROBOTS: NOINDEX
 description: Saiba por que a Pesquisa da Microsoft é uma busca corporativa inteligente para o ambiente de trabalho moderno.
-ms.openlocfilehash: f7c65e13f18f6ea4fd38bc406653a37f85659d3e
-ms.sourcegitcommit: a5fd9d4f46bbb7c539630735ac16e0c786939e5d
+ms.openlocfilehash: f2cf9c3e4d80bc17fd74bf0ae34b7886b4b69d33
+ms.sourcegitcommit: be2e837d9b087bffe6ce40d72d7ae58a8fcdf3fe
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/01/2019
-ms.locfileid: "33508870"
+ms.lasthandoff: 05/30/2019
+ms.locfileid: "34590743"
 ---
 # <a name="why-microsoft-search"></a>Por que a Pesquisa da Microsoft
 
 Transforme a forma como as pessoas na organização pesquisam informações com a Pesquisa da Microsoft. 
+
+> [!IMPORTANT]
+> Este artigo se aplica à Pesquisa do Microsoft no portal de administração do Bing. Estamos movendo o portal para o centro de administração do Microsoft 365 e, posteriormente, ele será removido. Recomendamos que você use o centro de administração do Microsoft 365 para começar. [Visão geral da Pesquisa da Microsoft.](overview-microsoft-search.md)
   
 Essa experiência de pesquisa corporativa aumenta a produtividade e economiza tempo ao fornecer resultados de pesquisa mais relevantes para o local de trabalho. A Pesquisa da Microsoft recupera com segurança as informações de sua empresa, escola ou organização, como arquivos, dados da empresa, informações de pessoas e sites, além de resultados públicos da Web, e os exibe em uma única experiência.
 

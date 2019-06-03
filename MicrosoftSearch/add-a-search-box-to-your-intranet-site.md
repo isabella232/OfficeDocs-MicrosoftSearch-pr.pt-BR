@@ -13,15 +13,19 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: f980b90f-95e2-4b66-8b21-69f601ff4b50
+ROBOTS: NoIndex
 description: Para ter acesso a sugestões de pesquisa relevantes e encontrar resultados de trabalho mais rapidamente, adicione uma caixa de pesquisa da Pesquisa da Microsoft a um site ou página da intranet.
-ms.openlocfilehash: a66c0cea71cf637209d298f49542864755e92ec9
-ms.sourcegitcommit: a5fd9d4f46bbb7c539630735ac16e0c786939e5d
+ms.openlocfilehash: 867282393c7a4bffa63363a3455e4f1543c7f8a1
+ms.sourcegitcommit: be2e837d9b087bffe6ce40d72d7ae58a8fcdf3fe
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/01/2019
-ms.locfileid: "33508518"
+ms.lasthandoff: 05/30/2019
+ms.locfileid: "34590689"
 ---
 # <a name="add-a-search-box-to-your-intranet-site"></a>Adicionar uma caixa de pesquisa ao site de intranet
+
+> [!IMPORTANT]
+> Este artigo se aplica ao Microsoft Search no portal de administração do Bing. Estamos movendo o portal para o centro de administração do Microsoft 365 e, posteriormente, ele será removido. Recomendamos que você use o centro de administração do Microsoft 365 para começar. [Visão geral do Microsoft Search.](overview-microsoft-search.md)
 
 Para ter acesso rápido a sugestões de pesquisa relevantes e encontrar resultados de trabalho mais rapidamente, adicione uma caixa de pesquisa da Pesquisa da Microsoft a um site ou página da intranet.
   

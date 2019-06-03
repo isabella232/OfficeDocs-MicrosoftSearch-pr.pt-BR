@@ -13,16 +13,20 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 40a556e1-61c2-4bd3-b80e-5ad62af77454
+ROBOTS: NoIndex
 description: Crie indicadores ou use uma extensão do navegador para adicioná-los aos seus resultados de trabalho da Pesquisa da Microsoft
-ms.openlocfilehash: 71e5ae48bb8812e5222a4d6075292f3b85bed441
-ms.sourcegitcommit: a5fd9d4f46bbb7c539630735ac16e0c786939e5d
+ms.openlocfilehash: 6f6efd10b360547bb0cde47f35510433bf6f90cc
+ms.sourcegitcommit: be2e837d9b087bffe6ce40d72d7ae58a8fcdf3fe
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/01/2019
-ms.locfileid: "33508723"
+ms.lasthandoff: 05/30/2019
+ms.locfileid: "34590707"
 ---
 # <a name="create-bookmarks"></a>Criar indicadores
 
+> [!IMPORTANT]
+> Este artigo se aplica ao Microsoft Search no portal de administração do Bing. Estamos movendo o portal para o centro de administração do Microsoft 365 e, posteriormente, ele será removido. Recomendamos que você use o centro de administração do Microsoft 365 para começar. [Visão geral do Microsoft Search.](overview-microsoft-search.md)
+    
 Os indicadores ajudam as pessoas a encontrar rapidamente recursos, sites e ferramentas importantes. Cada indicador inclui um título, uma URL e um conjunto de palavras-chave para acioná-lo.
   
 ## <a name="create-a-bookmark"></a>Criar um indicador
