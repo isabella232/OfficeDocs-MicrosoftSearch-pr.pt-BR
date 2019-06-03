@@ -3,7 +3,7 @@ title: Gerenciar locais
 ms.author: dawholl
 author: dawholl
 manager: kellis
-ms.date: 11/08/2018
+ms.date: 05/30/2019
 ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
@@ -14,93 +14,51 @@ search.appverid:
 - MOE150
 ms.assetid: 8ab9aa00-cd74-405f-8410-9a1c3cfacdb9
 description: Com o tempo, você pode precisar atualizar o status e o conteúdo de um local para mantê-lo relevante.
-ms.openlocfilehash: 0e23cf3d3d3d05fe86cdc3e09ce808e54242d670
-ms.sourcegitcommit: 3e91a6e70b48a0100adfed1b62ba79f2fd1735d2
+ms.openlocfilehash: d026e518011f3b3739beb2b6aaa044f8a5e9c0d4
+ms.sourcegitcommit: be2e837d9b087bffe6ce40d72d7ae58a8fcdf3fe
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2019
-ms.locfileid: "33968423"
+ms.lasthandoff: 05/30/2019
+ms.locfileid: "34591553"
 ---
-# <a name="manage-locations"></a><span data-ttu-id="36abd-103">Gerenciar locais</span><span class="sxs-lookup"><span data-stu-id="36abd-103">Manage locations</span></span>
+# <a name="manage-locations"></a><span data-ttu-id="62daf-103">Gerenciar locais</span><span class="sxs-lookup"><span data-stu-id="62daf-103">Manage locations</span></span>
 
-> [!IMPORTANT]
-> <span data-ttu-id="36abd-104">As configurações da Pesquisa da Microsoft no Bing agora estão disponíveis no centro de administração do Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="36abd-104">Microsoft Search in Bing settings are now available in the Microsoft 365 admin center.</span></span> <span data-ttu-id="36abd-105">Comece por [atribuir administradores de pesquisa](https://docs.microsoft.com/pt-BR/microsoftsearch/setup-microsoft-search#step-2-assign-search-admin-and-search-editor) ao seu centro de administração.</span><span class="sxs-lookup"><span data-stu-id="36abd-105">Get started by [assigning search admins](https://docs.microsoft.com/en-us/microsoftsearch/setup-microsoft-search#step-2-assign-search-admin-and-search-editor) in your admin center.</span></span>
-    
-<span data-ttu-id="36abd-106">Com o tempo, você pode precisar atualizar o status e o conteúdo de um local para mantê-lo relevante.</span><span class="sxs-lookup"><span data-stu-id="36abd-106">Over time, you may need to update a location's status and content to keep it relevant.</span></span> 
-  
-## <a name="filter-locations"></a><span data-ttu-id="36abd-107">Filtrar locais</span><span class="sxs-lookup"><span data-stu-id="36abd-107">Filter locations</span></span>
+## <a name="location"></a><span data-ttu-id="62daf-104">Localização</span><span class="sxs-lookup"><span data-stu-id="62daf-104">Location</span></span>
+<span data-ttu-id="62daf-105">Os Locais ajudam os usuários a encontrarem endereços e localizarem os edifícios da sua organização, fornecendo uma localização precisa para escritórios, campi e edifícios, além de trajetos e navegação.</span><span class="sxs-lookup"><span data-stu-id="62daf-105">Location helps your users find addresses and locate your organization's buildings by providing an accurate location for offices, campuses, and buildings, along with directions and navigation.</span></span> <span data-ttu-id="62daf-106">Os administradores devem adicionar todos os locais importantes da sua organização.</span><span class="sxs-lookup"><span data-stu-id="62daf-106">Administrators should add all important locations of your organization.</span></span> <span data-ttu-id="62daf-107">Ao contrário dos indicadores e das P e R, o índice não é atualizado imediatamente e pode levar várias horas para que locais novos ou alterados apareçam nos resultados de pesquisa.</span><span class="sxs-lookup"><span data-stu-id="62daf-107">Unlike Bookmarks and Q&A, the index is not refreshed immediately, and it can take several hours for new or changed locations to appear in search results.</span></span>
 
-<span data-ttu-id="36abd-108">Use a opção de filtro no canto superior direito da página "Locais" para encontrar locais por data e ver quem os modificou.</span><span class="sxs-lookup"><span data-stu-id="36abd-108">Use the filter option in the upper-right corner of the Locations page to find locations by date and see who modified them.</span></span> <span data-ttu-id="36abd-109">Por exemplo, defina o controle deslizante de data para 30 dias e selecione um administrador ou editor para ver a lista de locais que eles criaram ou alteraram durante esse período.</span><span class="sxs-lookup"><span data-stu-id="36abd-109">For example, set the date slider to 30 days and select an admin or editor to see the list of locations they've created or changed during that time.</span></span>
-  
-## <a name="change-location-content"></a><span data-ttu-id="36abd-110">Alterar o conteúdo do local</span><span class="sxs-lookup"><span data-stu-id="36abd-110">Change location content</span></span>
+### <a name="add-or-edit-a-single-location"></a><span data-ttu-id="62daf-108">Adicionar ou editar um único local</span><span class="sxs-lookup"><span data-stu-id="62daf-108">Add or edit a single location</span></span>
+1. <span data-ttu-id="62daf-109">Vá para o **centro de administração do Microsoft 365**.</span><span class="sxs-lookup"><span data-stu-id="62daf-109">Go to **Microsoft 365 admin center**.</span></span>
+1. <span data-ttu-id="62daf-110">No painel de navegação, vá para **Configurações** e selecione **Pesquisa da Microsoft**.</span><span class="sxs-lookup"><span data-stu-id="62daf-110">In the navigation pane, go to **Settings** and select **Microsoft Search**.</span></span>
+1. <span data-ttu-id="62daf-111">Selecione a guia **Locais**. Por padrão, a guia **Indicadores** se encontra selecionada na página de **Pesquisa da Microsoft**.</span><span class="sxs-lookup"><span data-stu-id="62daf-111">Select **Locations** tab. By default, the **Bookmarks** tab is selected on the **Microsoft Search** page.</span></span>
+1. <span data-ttu-id="62daf-112">Para adicionar um novo local, selecione **Adicionar novo**.</span><span class="sxs-lookup"><span data-stu-id="62daf-112">To add a new location, select **Add new**.</span></span>
+1. <span data-ttu-id="62daf-113">Para editar um local, selecione o local na lista de locais relevantes.</span><span class="sxs-lookup"><span data-stu-id="62daf-113">To edit a location, select the location in the relevant locations list.</span></span>
+1. <span data-ttu-id="62daf-114">À medida que você adiciona ou edita as informações, a visualização é atualizada automaticamente.</span><span class="sxs-lookup"><span data-stu-id="62daf-114">As you add or edit the information, the preview automatically updates.</span></span>
+1. <span data-ttu-id="62daf-115">Salve suas alterações.</span><span class="sxs-lookup"><span data-stu-id="62daf-115">Save your changes.</span></span>
 
-1. <span data-ttu-id="36abd-111">Acesse o Portal de Administração da Pesquisa da Microsoft</span><span class="sxs-lookup"><span data-stu-id="36abd-111">Go to the Microsoft Search Admin portal</span></span>
-    
-2. <span data-ttu-id="36abd-112">No painel de navegação, clique em **Locais**</span><span class="sxs-lookup"><span data-stu-id="36abd-112">In the navigation pane, click **Tools**</span></span>
-    
-3. <span data-ttu-id="36abd-113">Para encontrar um local, pesquise, filtre ou clique no status de um local para restringir seus resultados</span><span class="sxs-lookup"><span data-stu-id="36abd-113">To find a location, search, filter, or click a location status to narrow your results</span></span>
-    
-4. <span data-ttu-id="36abd-114">Para alterar ou atualizar um local, clique no nome do local</span><span class="sxs-lookup"><span data-stu-id="36abd-114">To change or update a location, click the location name</span></span>
-    
-5. <span data-ttu-id="36abd-115">Faça alterações ou atualizações no conteúdo e visualize como elas serão exibidas</span><span class="sxs-lookup"><span data-stu-id="36abd-115">Make any changes or updates to the content and preview how they'll appear</span></span> 
-    
-6. <span data-ttu-id="36abd-116">Clique em **Salvar**</span><span class="sxs-lookup"><span data-stu-id="36abd-116">Click **Save**</span></span>
-    
-## <a name="bulk-export-and-edit-locations"></a><span data-ttu-id="36abd-117">Exportar e editar locais em massa</span><span class="sxs-lookup"><span data-stu-id="36abd-117">Bulk export and edit locations</span></span>
+### <a name="bulk-add-or-edit-locations"></a><span data-ttu-id="62daf-116">Adicionar ou editar locais em massa</span><span class="sxs-lookup"><span data-stu-id="62daf-116">Bulk add or edit locations</span></span>
+<span data-ttu-id="62daf-117">Os administradores podem usar o recurso Importar ou Exportar para adicionar ou editar locais em massa.</span><span class="sxs-lookup"><span data-stu-id="62daf-117">Administrators can use the Import or Export feature to bulk add or edit locations.</span></span> 
 
-<span data-ttu-id="36abd-118">Nunca edite dados nestes campos:</span><span class="sxs-lookup"><span data-stu-id="36abd-118">Never edit data in these fields: Id, Last Modified, and Last Modified By</span></span>
-  
-- <span data-ttu-id="36abd-119">Id</span><span class="sxs-lookup"><span data-stu-id="36abd-119">Id</span></span>
-    
-- <span data-ttu-id="36abd-120">Última Modificação</span><span class="sxs-lookup"><span data-stu-id="36abd-120">Last modified</span></span>
-    
-- <span data-ttu-id="36abd-121">Última Modificação Por</span><span class="sxs-lookup"><span data-stu-id="36abd-121">Last modified by</span></span>
-    
-<span data-ttu-id="36abd-122">O Id é um identificador exclusivo para cada local e nunca deve ser editado.</span><span class="sxs-lookup"><span data-stu-id="36abd-122">Id is a unique identifier for each location and should never be edited.</span></span> <span data-ttu-id="36abd-123">Os campos Última Modificação e Última Modificação Por só devem ser usados para classificar e encontrar locais.</span><span class="sxs-lookup"><span data-stu-id="36abd-123">The Last Modified and Last Modified By fields should only be used to sort and find locations.</span></span>
-  
-1. <span data-ttu-id="36abd-124">Se você deseja exportar um subconjunto de seus locais, filtre-os</span><span class="sxs-lookup"><span data-stu-id="36abd-124">If you want to export a subset of your locations, filter them</span></span>
-    
-2. <span data-ttu-id="36abd-125">No canto superior direito da página Locais, clique em **Exportar**</span><span class="sxs-lookup"><span data-stu-id="36abd-125">In the upper-right corner of the Locations page, click **Export**</span></span>
-    
-3. <span data-ttu-id="36abd-126">Salve ou abra o arquivo .csv</span><span class="sxs-lookup"><span data-stu-id="36abd-126">Save or open the .csv file</span></span>
-    
-4. <span data-ttu-id="36abd-127">Edite os dados em qualquer um destes campos:</span><span class="sxs-lookup"><span data-stu-id="36abd-127">Edit data in any of these fields:</span></span>
-    
-   - <span data-ttu-id="36abd-128">Nome</span><span class="sxs-lookup"><span data-stu-id="36abd-128">Name</span></span>
-    
-   - <span data-ttu-id="36abd-129">Endereço linha 1</span><span class="sxs-lookup"><span data-stu-id="36abd-129">Address Line 1, City, State/Province, ZIP/Postal Code</span></span>
-    
-   - <span data-ttu-id="36abd-130">Endereço linha 2</span><span class="sxs-lookup"><span data-stu-id="36abd-130">Address Line 2</span></span>
-    
-   - <span data-ttu-id="36abd-131">Cidade</span><span class="sxs-lookup"><span data-stu-id="36abd-131">City</span></span>
-    
-   - <span data-ttu-id="36abd-132">Estado do endereço</span><span class="sxs-lookup"><span data-stu-id="36abd-132">Other Address State</span></span>
-    
-   - <span data-ttu-id="36abd-133">Código postal</span><span class="sxs-lookup"><span data-stu-id="36abd-133">Zip or Postal Code</span></span>
-    
-   - <span data-ttu-id="36abd-134">País</span><span class="sxs-lookup"><span data-stu-id="36abd-134">Country</span></span>
-    
-   - <span data-ttu-id="36abd-135">Endereço completo</span><span class="sxs-lookup"><span data-stu-id="36abd-135">Full Address</span></span>
-    
-   - <span data-ttu-id="36abd-136">Latitude</span><span class="sxs-lookup"><span data-stu-id="36abd-136">Latitude</span></span>
-    
-   - <span data-ttu-id="36abd-137">Longitude</span><span class="sxs-lookup"><span data-stu-id="36abd-137">Longitude</span></span>
-    
-   - <span data-ttu-id="36abd-138">Palavras-chave</span><span class="sxs-lookup"><span data-stu-id="36abd-138">Keywords</span></span>
-    
-   - <span data-ttu-id="36abd-139">Palavras-chave Reservadas</span><span class="sxs-lookup"><span data-stu-id="36abd-139">Reserved keywords</span></span>
-    
-   - <span data-ttu-id="36abd-140">Estado</span><span class="sxs-lookup"><span data-stu-id="36abd-140">State</span></span>
-    
-5. <span data-ttu-id="36abd-141">Salve o arquivo .csv</span><span class="sxs-lookup"><span data-stu-id="36abd-141">Save the file as a .csv or .txt file.</span></span>
+<span data-ttu-id="62daf-118">Use o recurso de importação/exportação para:</span><span class="sxs-lookup"><span data-stu-id="62daf-118">Use the import/export feature to:</span></span>
+1. <span data-ttu-id="62daf-119">Adicionar local em massa - Adicione detalhes no arquivo de modelo de local e, em seguida, importe-o.</span><span class="sxs-lookup"><span data-stu-id="62daf-119">Bulk add location - Add details in the location template file, and then import it.</span></span> 
+1. <span data-ttu-id="62daf-120">Edição em massa de locais - exporte locais para um arquivo .csv, edite os detalhes do local no arquivo .csv exportado e importe o arquivo .csv atualizado.</span><span class="sxs-lookup"><span data-stu-id="62daf-120">Bulk edit locations - Export locations to a .csv file, then edit the location details in the exported .csv file, and then import the updated .csv file.</span></span>
+1. <span data-ttu-id="62daf-121">Backup de locais – exporte locais existentes para um arquivo .csv.</span><span class="sxs-lookup"><span data-stu-id="62daf-121">Backups Locations – Export existing locations to a .csv file.</span></span>
 
-    <span data-ttu-id="36abd-142">O arquivo .csv deve ser salvo como um arquivo CSV UTF-8; outros tipos de arquivo e/ou codificações podem causar erros de importação</span><span class="sxs-lookup"><span data-stu-id="36abd-142">The .csv file should be saved as a CSV UTF-8 file, other file types and or encodings may cause import errors</span></span>
-    
-6. <span data-ttu-id="36abd-143">No canto superior direito da página Locais, clique em **Importar**</span><span class="sxs-lookup"><span data-stu-id="36abd-143">In the upper-right corner of the Locations tab, select **Import**.</span></span>
-    
-7. <span data-ttu-id="36abd-144">No painel Importar Locais, clique em**Procurar** e selecione o arquivo .csv editado</span><span class="sxs-lookup"><span data-stu-id="36abd-144">In the Import locations pane, click **Browse** and select the edited .csv file</span></span> 
-    
-8. <span data-ttu-id="36abd-145">Clique em **Importar**</span><span class="sxs-lookup"><span data-stu-id="36abd-145">Click **Import**.</span></span>
+<span data-ttu-id="62daf-122">Para exportar ou importar locais:</span><span class="sxs-lookup"><span data-stu-id="62daf-122">To export or import locations:</span></span>
+1. <span data-ttu-id="62daf-123">No canto superior direito da guia **Locais**, selecione **Importar**.</span><span class="sxs-lookup"><span data-stu-id="62daf-123">In the upper-right corner of the **Locations** tab, select **Import**.</span></span>
+<span data-ttu-id="62daf-124">Selecione **Exportar** para baixar os locais existentes em um arquivo .csv.</span><span class="sxs-lookup"><span data-stu-id="62daf-124">Select **Export** to download the existing locations in a .csv file.</span></span>
+1. <span data-ttu-id="62daf-125">No painel direito, escolha a opção de importar usando um arquivo .csv.</span><span class="sxs-lookup"><span data-stu-id="62daf-125">In the right pane, choose the option to import using a .csv file.</span></span> <span data-ttu-id="62daf-126">Faça o download do arquivo de modelo para obter uma lista dos campos e detalhes necessários.</span><span class="sxs-lookup"><span data-stu-id="62daf-126">Download ehe template file for a list of the required fields and details.</span></span>
+1. <span data-ttu-id="62daf-127">Adicione ou edite detalhes do local no arquivo de modelo e, em seguida, salve-o no seu computador.</span><span class="sxs-lookup"><span data-stu-id="62daf-127">Add or edit location details in the template file, and then save it on your computer.</span></span> 
+1. <span data-ttu-id="62daf-128">No painel **Importar** locais, selecione **Procurar** e, em seguida, selecione o arquivo .csv que você deseja importar.</span><span class="sxs-lookup"><span data-stu-id="62daf-128">In the **Import** locations pane, select **Browse**, and then the .csv file that you want to import.</span></span>
+1. <span data-ttu-id="62daf-129">Selecione **Importar**.</span><span class="sxs-lookup"><span data-stu-id="62daf-129">Select **Import**.</span></span>
 
-  
+<span data-ttu-id="62daf-130">Aqui estão alguns pontos importantes sobre o arquivo de modelo:</span><span class="sxs-lookup"><span data-stu-id="62daf-130">Here are some important points regarding the template file:</span></span>
+- <span data-ttu-id="62daf-131">Nunca edite os dados nesses campos: *Id*, *Última modificação* e *Última modificação por*</span><span class="sxs-lookup"><span data-stu-id="62daf-131">Never edit data in these fields: *Id*, *Last Modified*, and *Last Modified By*</span></span>
+- <span data-ttu-id="62daf-132">Se você incluir o *Id* de um indicador existente, ele será substituído pelas informações no arquivo de importação.</span><span class="sxs-lookup"><span data-stu-id="62daf-132">If you include the *Id* of an existing bookmark, it will be replaced with the information in the import file.</span></span>
+- <span data-ttu-id="62daf-133">Se houver um indicador existente com o mesmo título ou URL, o indicador será atualizado com informações no arquivo de importação.</span><span class="sxs-lookup"><span data-stu-id="62daf-133">If there is an existing bookmark with the same title or URL, the bookmark will be updated with information in the import file.</span></span>
+- <span data-ttu-id="62daf-134">Nem todos os campos no arquivo de modelo são obrigatórios, e os campos obrigatórios variam dependendo do estado do indicador.</span><span class="sxs-lookup"><span data-stu-id="62daf-134">Not all fields in the template file are required and required fields vary depending on the bookmark state.</span></span>
+- <span data-ttu-id="62daf-135">Com base no campo *Estado*, os indicadores serão salvos como rascunho, sugerido ou programado, ou serão publicados automaticamente.</span><span class="sxs-lookup"><span data-stu-id="62daf-135">Based on the *State* field, bookmarks will be saved as draft, suggested, scheduled, or they will be published automatically.</span></span>
+- <span data-ttu-id="62daf-136">Para organizações com vários locatários, você pode exportar seus indicadores de um locatário e importá-lo para outro.</span><span class="sxs-lookup"><span data-stu-id="62daf-136">For organizations with multiple tenants, you can export your bookmarks from one tenant and import it into another.</span></span> <span data-ttu-id="62daf-137">Mas você deve remover os dados na coluna *Id* antes de importar.</span><span class="sxs-lookup"><span data-stu-id="62daf-137">But you must remove the data in the *Id* column before you import.</span></span>
 
+<span data-ttu-id="62daf-138">**Observação:** Você não pode importar Locais se houver algum erro no arquivo de modelo.</span><span class="sxs-lookup"><span data-stu-id="62daf-138">**Note:** You cannot import Locations if there are any errors in the template file.</span></span> <span data-ttu-id="62daf-139">Para evitar erros, verifique se o arquivo de importação está formatado corretamente e inclua todas as informações necessárias.</span><span class="sxs-lookup"><span data-stu-id="62daf-139">To prevent errors, make sure your import file is properly formatted and include all the required information.</span></span> 
+
+<span data-ttu-id="62daf-140">Para obter mais informações sobre como evitar erros, consulte [Evite erros de importação](manage-bookmarks.md#prevent-import-errors).</span><span class="sxs-lookup"><span data-stu-id="62daf-140">For more information on how to prevent error, see [Prevent import errors](manage-bookmarks.md#prevent-import-errors).</span></span>

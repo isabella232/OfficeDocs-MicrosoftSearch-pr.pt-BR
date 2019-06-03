@@ -1,9 +1,9 @@
 ---
 title: Gerenciar indicadores
-ms.author: dawholl
-author: dawholl
-manager: kellis
-ms.date: 09/08/2018
+ms.author: anfowler
+author: adefowler
+manager: mnirkhe
+ms.date: 05/30/2019
 ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
@@ -13,88 +13,86 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: c0c814d0-f7e4-444e-b18e-09beb45c9322
-description: Encontre indicadores que precisam ser atualizados e formas de editar em massa os resultados dos indicadores para a Pesquisa da Microsoft
-ms.openlocfilehash: d5cebbfd5779bc8a6aa25cdbcdedb6e9b18f242e
-ms.sourcegitcommit: 3e91a6e70b48a0100adfed1b62ba79f2fd1735d2
+description: Crie e atualize os indicadores e formas de editar em massa os resultados dos indicadores para a Pesquisa da Microsoft
+ms.openlocfilehash: fb1be0bc137891a54e370fef1e4b5628963c5ad9
+ms.sourcegitcommit: be2e837d9b087bffe6ce40d72d7ae58a8fcdf3fe
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2019
-ms.locfileid: "33968480"
+ms.lasthandoff: 05/30/2019
+ms.locfileid: "34591616"
 ---
-# <a name="manage-bookmarks"></a><span data-ttu-id="9bfc0-103">Gerenciar indicadores</span><span class="sxs-lookup"><span data-stu-id="9bfc0-103">Manage bookmarks</span></span>
+# <a name="manage-bookmarks"></a><span data-ttu-id="8608c-103">Gerenciar indicadores</span><span class="sxs-lookup"><span data-stu-id="8608c-103">Manage bookmarks</span></span>
 
-> [!IMPORTANT]
-> <span data-ttu-id="9bfc0-104">As configurações da Pesquisa da Microsoft no Bing agora estão disponíveis no centro de administração do Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="9bfc0-104">Microsoft Search in Bing settings are now available in the Microsoft 365 admin center.</span></span> <span data-ttu-id="9bfc0-105">Comece por [atribuir administradores de pesquisa](https://docs.microsoft.com/pt-BR/microsoftsearch/setup-microsoft-search#step-2-assign-search-admin-and-search-editor) ao seu centro de administração.</span><span class="sxs-lookup"><span data-stu-id="9bfc0-105">Get started by [assigning search admins](https://docs.microsoft.com/en-us/microsoftsearch/setup-microsoft-search#step-2-assign-search-admin-and-search-editor) in your admin center.</span></span>
-    
-<span data-ttu-id="9bfc0-106">Ao longo do tempo, talvez seja necessário atualizar o status e o conteúdo de um indicador para mantê-lo relevante.</span><span class="sxs-lookup"><span data-stu-id="9bfc0-106">Over time, you may need to update a bookmark's status and content to keep it relevant.</span></span> 
-  
-## <a name="filter-bookmarks"></a><span data-ttu-id="9bfc0-107">Filtre indicadores</span><span class="sxs-lookup"><span data-stu-id="9bfc0-107">Filter bookmarks</span></span>
+<span data-ttu-id="8608c-104">Você pode criar um indicador em apenas algumas etapas.</span><span class="sxs-lookup"><span data-stu-id="8608c-104">You can create a bookmark in just a few steps.</span></span> <span data-ttu-id="8608c-105">Cada indicador inclui um título, uma URL e um conjunto de palavras-chave que o acionam.</span><span class="sxs-lookup"><span data-stu-id="8608c-105">Each bookmark includes a title, a URL, and a set of keywords that trigger it.</span></span> <span data-ttu-id="8608c-106">Um indicador pode ter várias palavras-chave e vários indicadores podem compartilhar a mesma palavra-chave, mas a palavra-chave reservada não pode ser compartilhada.</span><span class="sxs-lookup"><span data-stu-id="8608c-106">A bookmark can have several keywords and several bookmarks can share the same keyword, but reserved keyword can't be shared.</span></span> <span data-ttu-id="8608c-107">Quando um indicador é criado ou modificado, o índice de pesquisa é atualizado imediatamente e o indicador fica disponível para os usuários imediatamente.</span><span class="sxs-lookup"><span data-stu-id="8608c-107">When a Bookmark is created or modified, the search index is refreshed immediately, and the bookmark is available to users immediately.</span></span>
 
-<span data-ttu-id="9bfc0-108">Use a opção de filtro no canto superior direito da página Indicadores para localizar indicadores por data e quem os modificou.</span><span class="sxs-lookup"><span data-stu-id="9bfc0-108">Use the filter option in the upper-right corner of the Bookmarks page to find bookmarks by date and who modified them.</span></span> <span data-ttu-id="9bfc0-109">Por exemplo, defina o controle deslizante para 30 dias e escolha um administrador ou editor para ver a lista de indicadores que você criou ou modificou naquele momento.</span><span class="sxs-lookup"><span data-stu-id="9bfc0-109">For example, set the date slider to 30 days and select an admin or editor to see the list of bookmarks they've created or changed in that time.</span></span>
-  
-## <a name="change-bookmark-content-or-settings"></a><span data-ttu-id="9bfc0-110">Alterar o conteúdo ou as configurações dos indicadores</span><span class="sxs-lookup"><span data-stu-id="9bfc0-110">Change bookmark content or settings</span></span>
+<span data-ttu-id="8608c-108">Se sua organização tiver Resultados Promovidos configurados no SharePoint, você poderá importar os Resultados Promovidos na **Pesquisa da Microsoft** e disponibilizar o conteúdo importado para os usuários.</span><span class="sxs-lookup"><span data-stu-id="8608c-108">If your organization has Promoted Results set up in SharePoint, you can import the Promoted Results into**Microsoft Search** and make the imported content available to your users.</span></span> <span data-ttu-id="8608c-109">Essa é uma maneira fácil de preencher rapidamente os resultados da pesquisa assim que você configurar a **Pesquisa da Microsoft** e torná-la mais eficiente para os usuários.</span><span class="sxs-lookup"><span data-stu-id="8608c-109">This is an easy way to quickly populate search results as soon as you set up **Microsoft Search** and make it more effective for your users.</span></span> <span data-ttu-id="8608c-110">Recomendamos que você use os resultados promovidos do SharePoint como referência para entender como nomear e criar resultados de pesquisa relevantes.</span><span class="sxs-lookup"><span data-stu-id="8608c-110">We recommend that you use promoted results from SharePoint as a reference to understand how to name and create relevant search results.</span></span> 
 
-1. <span data-ttu-id="9bfc0-111">Acesse o Portal de Administração da Pesquisa da Microsoft</span><span class="sxs-lookup"><span data-stu-id="9bfc0-111">Go to the Microsoft Search Admin portal</span></span>
-    
-2. <span data-ttu-id="9bfc0-112">No painel de navegação, clique em **Indicadores**</span><span class="sxs-lookup"><span data-stu-id="9bfc0-112">In the navigation pane, click **Bookmarks**</span></span>
-    
-3. <span data-ttu-id="9bfc0-113">Para encontrar um indicador, pesquise, filtre ou clique no status de um indicador para restringir seus resultados</span><span class="sxs-lookup"><span data-stu-id="9bfc0-113">To find a bookmark, search, filter, or click a bookmark status to narrow your results</span></span>
-    
-4. <span data-ttu-id="9bfc0-114">Para alterar ou atualizar um indicador, clique no título</span><span class="sxs-lookup"><span data-stu-id="9bfc0-114">To change or update a bookmark, click the title</span></span>
-    
-5. <span data-ttu-id="9bfc0-115">Faça alterações ou atualizações no conteúdo ou configurações e visualize como ficará sua aparência</span><span class="sxs-lookup"><span data-stu-id="9bfc0-115">Make any changes or updates to the content or settings and preview how they'll appear</span></span> 
-    
-6. <span data-ttu-id="9bfc0-116">Clique em **Salvar**</span><span class="sxs-lookup"><span data-stu-id="9bfc0-116">Click **Save**</span></span>
-    
-## <a name="bulk-export-and-edit-bookmarks"></a><span data-ttu-id="9bfc0-117">Exporte e edite indicadores em massa</span><span class="sxs-lookup"><span data-stu-id="9bfc0-117">Bulk export and edit bookmarks</span></span>
+## <a name="add-or-edit-a-single-bookmark"></a><span data-ttu-id="8608c-111">Adicionar ou editar um único indicador</span><span class="sxs-lookup"><span data-stu-id="8608c-111">Add or edit a single bookmark</span></span>
+1. <span data-ttu-id="8608c-112">Vá para o **centro de administração do Microsoft 365**.</span><span class="sxs-lookup"><span data-stu-id="8608c-112">Go to **Microsoft 365 admin center**.</span></span>
+1. <span data-ttu-id="8608c-113">No painel de navegação, vá para **Configurações** e selecione \*\*\*\* Pesquisa da Microsoft \*\*\*\*.</span><span class="sxs-lookup"><span data-stu-id="8608c-113">In the navigation pane, go to **Settings**, and then select \*\*\*\*Microsoft Search\*\*\*\*.</span></span>
+<span data-ttu-id="8608c-114">Por padrão, a guia **Indicadores** se encontra selecionada.</span><span class="sxs-lookup"><span data-stu-id="8608c-114">By default, the **Bookmarks** tab is selected.</span></span>
+1. <span data-ttu-id="8608c-115">Para adicionar um indicador, selecione **Adicionar novo**.</span><span class="sxs-lookup"><span data-stu-id="8608c-115">To add a bookmark, select **Add new**.</span></span> <span data-ttu-id="8608c-116">Para editar um indicador, selecione o indicador na lista de indicador relevante.</span><span class="sxs-lookup"><span data-stu-id="8608c-116">To edit a bookmark, select the bookmark in the relevant bookmark list.</span></span> 
+1. <span data-ttu-id="8608c-117">À medida que você adiciona ou edita as informações, a visualização é atualizada automaticamente.</span><span class="sxs-lookup"><span data-stu-id="8608c-117">As you add or edit the information, the preview automatically updates.</span></span>
+1. <span data-ttu-id="8608c-118">Salve suas alterações.</span><span class="sxs-lookup"><span data-stu-id="8608c-118">Save your changes.</span></span>
 
-<span data-ttu-id="9bfc0-118">Nunca edite dados nesses campos:</span><span class="sxs-lookup"><span data-stu-id="9bfc0-118">Never edit data in these fields: Id, Last Modified, and Last Modified By</span></span>
-  
-- <span data-ttu-id="9bfc0-119">Id</span><span class="sxs-lookup"><span data-stu-id="9bfc0-119">Id</span></span>
-    
-- <span data-ttu-id="9bfc0-120">Última Modificação</span><span class="sxs-lookup"><span data-stu-id="9bfc0-120">Last modified</span></span>
-    
-- <span data-ttu-id="9bfc0-121">Última Modificação Por</span><span class="sxs-lookup"><span data-stu-id="9bfc0-121">Last modified by</span></span>
-    
-<span data-ttu-id="9bfc0-122">ID é um identificador exclusivo para cada indicador e nunca deve ser editado.</span><span class="sxs-lookup"><span data-stu-id="9bfc0-122">Id is a unique identifier for each bookmark and should never be edited.</span></span> <span data-ttu-id="9bfc0-123">Os campos Última Modificação e Última Modificação Por devem ser usados somente para classificar e localizar indicadores.</span><span class="sxs-lookup"><span data-stu-id="9bfc0-123">The Last Modified and Last Modified By fields should only be used to sort and find bookmarks.</span></span>
-  
-1. <span data-ttu-id="9bfc0-124">Se quiser exportar um subconjunto de seus indicadores, filtre-os</span><span class="sxs-lookup"><span data-stu-id="9bfc0-124">If you want to export a subset of your bookmarks, filter them</span></span>
-    
-2. <span data-ttu-id="9bfc0-125">No canto superior direito da página Indicadores, clique em **Exportar**</span><span class="sxs-lookup"><span data-stu-id="9bfc0-125">In the upper-right corner of the Bookmarks page, click **Export**</span></span>
-    
-3. <span data-ttu-id="9bfc0-126">Salve ou abra o arquivo .csv</span><span class="sxs-lookup"><span data-stu-id="9bfc0-126">Save or open the .csv file</span></span>
-    
-4. <span data-ttu-id="9bfc0-127">Edite os dados em qualquer um destes campos:</span><span class="sxs-lookup"><span data-stu-id="9bfc0-127">Edit data in any of these fields:</span></span>
-   - <span data-ttu-id="9bfc0-128">Título</span><span class="sxs-lookup"><span data-stu-id="9bfc0-128">Title</span></span>
-    
-   - <span data-ttu-id="9bfc0-129">URL</span><span class="sxs-lookup"><span data-stu-id="9bfc0-129">URL</span></span>
-    
-   - <span data-ttu-id="9bfc0-130">Palavras-chave</span><span class="sxs-lookup"><span data-stu-id="9bfc0-130">Keywords</span></span>
-    
-   - <span data-ttu-id="9bfc0-131">Estado</span><span class="sxs-lookup"><span data-stu-id="9bfc0-131">State</span></span>
-    
-   - <span data-ttu-id="9bfc0-132">Descrição</span><span class="sxs-lookup"><span data-stu-id="9bfc0-132">Description</span></span>
-    
-   - <span data-ttu-id="9bfc0-133">Palavras-chave Reservadas</span><span class="sxs-lookup"><span data-stu-id="9bfc0-133">Reserved keywords</span></span>
-    
-   - <span data-ttu-id="9bfc0-134">Data de Início</span><span class="sxs-lookup"><span data-stu-id="9bfc0-134">Start Date</span></span>
-    
-   - <span data-ttu-id="9bfc0-135">Data de Término</span><span class="sxs-lookup"><span data-stu-id="9bfc0-135">End date</span></span>
-    
-   - <span data-ttu-id="9bfc0-136">País/Região</span><span class="sxs-lookup"><span data-stu-id="9bfc0-136">Country/Region</span></span>
-    
-   - <span data-ttu-id="9bfc0-137">Grupos</span><span class="sxs-lookup"><span data-stu-id="9bfc0-137">Groups</span></span>
-    
-   - <span data-ttu-id="9bfc0-138">Sistema Operacional do dispositivo&amp;</span><span class="sxs-lookup"><span data-stu-id="9bfc0-138">Device&amp;OS</span></span>
-    
-   - <span data-ttu-id="9bfc0-139">Variações Direcionadas</span><span class="sxs-lookup"><span data-stu-id="9bfc0-139">Targeted variations</span></span>
-    
-5. <span data-ttu-id="9bfc0-140">Salve o arquivo .csv</span><span class="sxs-lookup"><span data-stu-id="9bfc0-140">Save the file as a .csv or .txt file.</span></span>
+## <a name="add-or-edit-bookmark-using-browser-extensions"></a><span data-ttu-id="8608c-119">Adicionar ou editar indicador usando extensões de navegador</span><span class="sxs-lookup"><span data-stu-id="8608c-119">Add or edit bookmark using browser extensions</span></span>
+<span data-ttu-id="8608c-120">Os administradores de pesquisa podem criar conteúdo de pesquisa facilmente usando extensões de navegador.</span><span class="sxs-lookup"><span data-stu-id="8608c-120">Search administrators can create search content easily by using browser extensions.</span></span> <span data-ttu-id="8608c-121">Instale a extensão de navegador e, em seguida, vá para o site para o qual você deseja adicionar um indicador e adicione o indicador.</span><span class="sxs-lookup"><span data-stu-id="8608c-121">Install the browser extension and then go to the site you want to add as bookmark and add the site as bookmark.</span></span>
 
-    <span data-ttu-id="9bfc0-141">O arquivo .csv deve ser salvo como um arquivo CSV UTF-8; outros tipos de arquivo e/ou codificações podem causar erros de importação</span><span class="sxs-lookup"><span data-stu-id="9bfc0-141">The .csv file should be saved as a CSV UTF-8 file, other file types and or encodings may cause import errors</span></span>
-    
-6. <span data-ttu-id="9bfc0-142">No canto superior direito da página Indicadores, clique em **Importar**</span><span class="sxs-lookup"><span data-stu-id="9bfc0-142">In the upper-right corner of the Bookmarks page, click **Import**</span></span>
-    
-7. <span data-ttu-id="9bfc0-143">No painel Importar indicadores, clique em **Procurar** e selecione o arquivo .csv editado</span><span class="sxs-lookup"><span data-stu-id="9bfc0-143">In the Import bookmarks pane, click **Browse** and select the edited .csv file</span></span> 
-    
-8. <span data-ttu-id="9bfc0-144">Clique em **Importar**</span><span class="sxs-lookup"><span data-stu-id="9bfc0-144">Click **Import**.</span></span>
+<span data-ttu-id="8608c-122">Atualmente, as extensões do navegador estão disponíveis para o Edge e o Chrome.</span><span class="sxs-lookup"><span data-stu-id="8608c-122">Currently, browser extensions are available for Edge and Chrome.</span></span> 
+- <span data-ttu-id="8608c-123">Para baixar a extensão do Edge, vá para a [Loja da Microsoft](https://www.microsoft.com/en-us/p/microsoft-search-content-creator/9nrqdbcbwq55?activetab=pivot:overviewtab) e baixe o aplicativo.</span><span class="sxs-lookup"><span data-stu-id="8608c-123">To download Edge extension, go to [Microsoft Store](https://www.microsoft.com/en-us/p/microsoft-search-content-creator/9nrqdbcbwq55?activetab=pivot:overviewtab) and download the app.</span></span>
+- <span data-ttu-id="8608c-124">Para baixar a extensão do Chrome, acesse a [Chrome Web Store](https://chrome.google.com/webstore/detail/microsoft-search-content/nocnablpaoeecfmfnjoheefkogmleipm) e faça o download do aplicativo.</span><span class="sxs-lookup"><span data-stu-id="8608c-124">To download Chrome extension, go to [Chrome web store](https://chrome.google.com/webstore/detail/microsoft-search-content/nocnablpaoeecfmfnjoheefkogmleipm) and download the app.</span></span>
+
+## <a name="bulk-add-or-edit-bookmarks"></a><span data-ttu-id="8608c-125">Adicionar ou editar indicadores em massa</span><span class="sxs-lookup"><span data-stu-id="8608c-125">Bulk add or edit bookmarks</span></span>
+<span data-ttu-id="8608c-126">O administrador de pesquisa pode usar os recursos Importar ou Exportar para criar ou editar indicadores em massa.</span><span class="sxs-lookup"><span data-stu-id="8608c-126">Search administrator can use the Import or Export features to bulk create or edit bookmarks.</span></span> <span data-ttu-id="8608c-127">Esse é um recurso muito útil quando um administrador deseja adicionar ou editar um grande número de indicadores.</span><span class="sxs-lookup"><span data-stu-id="8608c-127">This is a very useful feature when an administrator wants to add or edit a large number of bookmarks.</span></span> 
+
+<span data-ttu-id="8608c-128">Use o recurso de importação/exportação para:</span><span class="sxs-lookup"><span data-stu-id="8608c-128">Use the import/export feature to:</span></span>
+- <span data-ttu-id="8608c-129">Adicionar indicadores em massa - Adicione detalhes no arquivo de modelo de indicador e, em seguida, importe-o.</span><span class="sxs-lookup"><span data-stu-id="8608c-129">Bulk add bookmarks - Add details in the bookmark template file, and then import it.</span></span>
+- <span data-ttu-id="8608c-130">Edição em massa de indicadores - Exporte os indicadores para um arquivo .csv, edite os detalhes de indicador no arquivo .csv exportado e, em seguida, importe o arquivo .csv atualizado.</span><span class="sxs-lookup"><span data-stu-id="8608c-130">Bulk edit bookmarks - Export bookmarks to a .csv file, then edit the bookmark details in the exported .csv file, and then import the updated .csv file.</span></span>
+- <span data-ttu-id="8608c-131">Importar sites promovidos do SharePoint.</span><span class="sxs-lookup"><span data-stu-id="8608c-131">Import promoted sites from SharePoint.</span></span>
+- <span data-ttu-id="8608c-132">Indicadores de backup - Exportar indicadores para um arquivo .csv.</span><span class="sxs-lookup"><span data-stu-id="8608c-132">Backup bookmarks - Export bookmarks to a .csv file.</span></span>
+
+<span data-ttu-id="8608c-133">Para importar ou exportar indicadores:</span><span class="sxs-lookup"><span data-stu-id="8608c-133">To import or export bookmarks:</span></span>
+1. <span data-ttu-id="8608c-134">No canto superior direito da guia **Indicadores**, selecione **Importar**.</span><span class="sxs-lookup"><span data-stu-id="8608c-134">In the upper-right corner of **Bookmarks** tab, select **Import**.</span></span> <span data-ttu-id="8608c-135">Selecione **Exportar** para baixar todos os indicadores existentes em um arquivo .csv.</span><span class="sxs-lookup"><span data-stu-id="8608c-135">Select **Export** to download all the existing bookmarks in a .csv file.</span></span>
+1. <span data-ttu-id="8608c-136">No painel direito, escolha a opção de importar usando um arquivo .csv ou do SharePoint.</span><span class="sxs-lookup"><span data-stu-id="8608c-136">In the right pane, choose the option to import using a .csv file or from SharePoint.</span></span>
+<span data-ttu-id="8608c-137">Faça o download do arquivo de modelo para obter uma lista dos campos e detalhes necessários.</span><span class="sxs-lookup"><span data-stu-id="8608c-137">Download the template file for a list of the required fields and details.</span></span> 
+1. <span data-ttu-id="8608c-138">Adicione ou edite os detalhes do indicador no arquivo de modelo e salve-o no seu computador.</span><span class="sxs-lookup"><span data-stu-id="8608c-138">Add or edit bookmark details in the template file, and then save it on your computer.</span></span> 
+1. <span data-ttu-id="8608c-139">No painel **Importar indicadores**, selecione **Procurar** e, em seguida, selecione o arquivo .csv que você deseja importar.</span><span class="sxs-lookup"><span data-stu-id="8608c-139">In the **Import bookmarks** pane, select **Browse** and then the .csv file that you want to import.</span></span>
+1. <span data-ttu-id="8608c-140">Selecione **Importar**.</span><span class="sxs-lookup"><span data-stu-id="8608c-140">Select **Import**.</span></span>
+
+<span data-ttu-id="8608c-141">Aqui estão alguns pontos importantes a serem observados em relação ao arquivo de modelo:</span><span class="sxs-lookup"><span data-stu-id="8608c-141">Here are some important points to be noted regarding the template file:</span></span>
+- <span data-ttu-id="8608c-142">Nunca edite os dados nesses campos: *Id*, *Última modificação* e *Última modificação por*</span><span class="sxs-lookup"><span data-stu-id="8608c-142">Never edit data in these fields: *Id*, *Last Modified*, and *Last Modified By*</span></span>
+- <span data-ttu-id="8608c-143">Se você incluir o *Id* de um indicador existente, ele será substituído pelas informações no arquivo de importação.</span><span class="sxs-lookup"><span data-stu-id="8608c-143">If you include the *Id* of an existing bookmark, it will be replaced with the information in the import file.</span></span>
+- <span data-ttu-id="8608c-144">Se houver um indicador existente com o mesmo título ou URL, o indicador será atualizado com informações no arquivo de importação.</span><span class="sxs-lookup"><span data-stu-id="8608c-144">If there is an existing bookmark with the same title or URL, the bookmark will be updated with information in the import file.</span></span>
+- <span data-ttu-id="8608c-145">Nem todos os campos no arquivo de modelo são obrigatórios, e os campos obrigatórios variam dependendo do estado do indicador.</span><span class="sxs-lookup"><span data-stu-id="8608c-145">Not all fields in the template file are required and required fields vary depending on the bookmark state.</span></span>
+- <span data-ttu-id="8608c-146">Com base no campo *Estado*, os indicadores serão salvos como rascunho, sugerido ou programado, ou serão publicados automaticamente.</span><span class="sxs-lookup"><span data-stu-id="8608c-146">Based on the *State* field, bookmarks will be saved as draft, suggested, scheduled, or they will be published automatically.</span></span>
+- <span data-ttu-id="8608c-147">Para organizações com vários locatários, você pode exportar seus indicadores de um locatário e importá-lo para outro.</span><span class="sxs-lookup"><span data-stu-id="8608c-147">For organizations with multiple tenants, you can export your bookmarks from one tenant and import it into another.</span></span> <span data-ttu-id="8608c-148">Mas você deve remover os dados na coluna *Id* antes de importar.</span><span class="sxs-lookup"><span data-stu-id="8608c-148">But you must remove the data in the *Id* column before you import.</span></span>
+
+### <a name="prevent-import-errors"></a><span data-ttu-id="8608c-149">Evite erros de importação</span><span class="sxs-lookup"><span data-stu-id="8608c-149">Prevent import errors</span></span>
+<span data-ttu-id="8608c-150">Você receberá um erro se algum dado necessário estiver faltando ou for inválido, e um arquivo de log será gerado com mais informações sobre as linhas e colunas a serem corrigidas.</span><span class="sxs-lookup"><span data-stu-id="8608c-150">You'll get an error if any required data is missing or invalid, and a log file is generated with more information about the rows and columns to be corrected.</span></span> <span data-ttu-id="8608c-151">Faça as edições necessárias e tente importar o arquivo novamente.</span><span class="sxs-lookup"><span data-stu-id="8608c-151">Make necessary edits and try importing the file again.</span></span> <span data-ttu-id="8608c-152">Você não pode importar ou salvar nenhum indicador até que todos os erros sejam resolvidos.</span><span class="sxs-lookup"><span data-stu-id="8608c-152">You cannot import or save any bookmarks until all errors are resolved.</span></span>
+
+<span data-ttu-id="8608c-153">Para evitar erros, certifique-se de que o arquivo de importação esteja formatado corretamente e:</span><span class="sxs-lookup"><span data-stu-id="8608c-153">To prevent errors, make sure your import file is properly formatted and:</span></span>
+- <span data-ttu-id="8608c-154">Que ele inclua a linha de cabeçalho e todas as colunas que estavam no modelo de importação</span><span class="sxs-lookup"><span data-stu-id="8608c-154">Includes the header row and all the columns that were in the import template</span></span>
+- <span data-ttu-id="8608c-155">Que a ordem das colunas seja igual ao modelo de importação</span><span class="sxs-lookup"><span data-stu-id="8608c-155">The column order is the same as the import template</span></span>
+- <span data-ttu-id="8608c-156">Todas as colunas têm valores, exceto as três que podem estar vazias: *Id*, *Última modificação* e *Última modificação por*</span><span class="sxs-lookup"><span data-stu-id="8608c-156">All columns have values, except the three that can be empty: *Id*, *Last Modified*, and *Last Modified By*</span></span> 
+- <span data-ttu-id="8608c-157">A coluna *Estado* não está vazia, pois essa informação é necessária</span><span class="sxs-lookup"><span data-stu-id="8608c-157">The *State* column is not empty, as this information is required</span></span>
+
+## <a name="powerapps"></a><span data-ttu-id="8608c-158">PowerApps</span><span class="sxs-lookup"><span data-stu-id="8608c-158">PowerApps</span></span>
+<span data-ttu-id="8608c-159">Ajude seus usuários a concluir tarefas, como inserir período de férias ou informar despesas, adicionando PowerApps existentes aos seus indicadores.</span><span class="sxs-lookup"><span data-stu-id="8608c-159">Help your users complete tasks, such as entering vacation time or reporting expenses, by adding existing PowerApps to your bookmarks.</span></span> 
+
+### <a name="what-are-powerapps"></a><span data-ttu-id="8608c-160">O que são PowerApps?</span><span class="sxs-lookup"><span data-stu-id="8608c-160">What are PowerApps?</span></span>
+<span data-ttu-id="8608c-161">PowerApps é um serviço que permite criar aplicativos de negócios que são executados em um navegador, telefone ou tablet sem necessidade de nenhuma experiência de codificação.</span><span class="sxs-lookup"><span data-stu-id="8608c-161">PowerApps is a service that lets you build business apps that run in a browser or on a phone or tablet with no coding experience required.</span></span> <span data-ttu-id="8608c-162">PowerApps funcionam em qualquer navegador e em qualquer dispositivo, e leva menos de um minuto para adicioná-los.</span><span class="sxs-lookup"><span data-stu-id="8608c-162">PowerApps work in any browser and on any device and take less than a minute to add.</span></span> <span data-ttu-id="8608c-163">Para mais informações sobre PowerApps, consulte:</span><span class="sxs-lookup"><span data-stu-id="8608c-163">For more on PowerApps, see:</span></span>
+- <span data-ttu-id="8608c-164">
+  [Aprendizagem Orientada](https://docs.microsoft.com/pt-BR/learn/browse/?products=powerapps)</span><span class="sxs-lookup"><span data-stu-id="8608c-164">[Guided Learning](https://docs.microsoft.com/en-us/learn/browse/?products=powerapps)</span></span>
+- <span data-ttu-id="8608c-165">
+  [Documentação](https://docs.microsoft.com/pt-BR/powerapps/maker/canvas-apps/get-sessionid)</span><span class="sxs-lookup"><span data-stu-id="8608c-165">[Documentation](https://docs.microsoft.com/en-us/powerapps/maker/canvas-apps/get-sessionid)</span></span>
+- [<span data-ttu-id="8608c-166">Página inicial do PowerApps</span><span class="sxs-lookup"><span data-stu-id="8608c-166">PowerApps Home</span></span>](https://make.preview.powerapps.com/environments/839eace6-59ab-4243-97ec-a5b8fcc104e4/home)
+
+### <a name="add-a-powerapp-to-a-bookmark"></a><span data-ttu-id="8608c-167">Adicionar um PowerApp a um indicador</span><span class="sxs-lookup"><span data-stu-id="8608c-167">Add a PowerApp to a bookmark</span></span>
+1. <span data-ttu-id="8608c-168">Encontre o [ID do aplicativo para o PowerApp](https://docs.microsoft.com/pt-BR/powerapps/maker/canvas-apps/get-sessionid#get-an-app-id) que você deseja adicionar.</span><span class="sxs-lookup"><span data-stu-id="8608c-168">Find the [App ID for the PowerApp](https://docs.microsoft.com/en-us/powerapps/maker/canvas-apps/get-sessionid#get-an-app-id) that you want to add.</span></span>
+1. <span data-ttu-id="8608c-169">Faça logon e vá para o **centro de administração do Microsoft 365**.</span><span class="sxs-lookup"><span data-stu-id="8608c-169">Sign in and go to **Microsoft 365 admin center**.</span></span>
+1. <span data-ttu-id="8608c-170">No painel de navegação, vá para **Configurações** e selecione **Pesquisa da Microsoft**.</span><span class="sxs-lookup"><span data-stu-id="8608c-170">In the navigation pane, go to **Settings**, and then select **Microsoft Search**.</span></span>
+1. <span data-ttu-id="8608c-171">Adicione um indicador ou encontre um indicador existente ao qual você deseja adicionar um **PowerApp**.</span><span class="sxs-lookup"><span data-stu-id="8608c-171">Add a bookmark or find an existing bookmark that you want to add a **PowerApp** to.</span></span>
+1. <span data-ttu-id="8608c-172">Em **Configurações de indicadores**, selecione **Power App** e, em seguida, **Adicionar um Power App**.</span><span class="sxs-lookup"><span data-stu-id="8608c-172">In **Bookmark settings**, select **Power App**, and then **Add a Power App**.</span></span>
+1. <span data-ttu-id="8608c-173">Insira ou cole o **ID do aplicativo**.</span><span class="sxs-lookup"><span data-stu-id="8608c-173">Enter or paste the **App ID**.</span></span>
+    <span data-ttu-id="8608c-174">A altura e a largura são ajustadas automaticamente.</span><span class="sxs-lookup"><span data-stu-id="8608c-174">The height and width are automatically adjusted.</span></span> <span data-ttu-id="8608c-175">Os indicadores são compatíveis com orientações tipo retrato e paisagem; porém, no momento, o tamanho não pode ser alterado.</span><span class="sxs-lookup"><span data-stu-id="8608c-175">Bookmarks can support both portrait and landscape orientations, but currently the size can't be changed.</span></span> <span data-ttu-id="8608c-176">A visualização do indicador mostra um PowerApp totalmente funcional para facilitar o teste.</span><span class="sxs-lookup"><span data-stu-id="8608c-176">The bookmark preview shows a fully functional PowerApp to make it easy to test.</span></span>
+1. <span data-ttu-id="8608c-177">Selecione **Publicar** ou **Salvar em Rascunhos**.</span><span class="sxs-lookup"><span data-stu-id="8608c-177">Select **Publish** or **Save to Draft**.</span></span>
