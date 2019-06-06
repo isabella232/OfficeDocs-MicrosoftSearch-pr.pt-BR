@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Configurar a Pesquisa da Microsoft pela primeira vez.
-ms.openlocfilehash: 3b872370dc2058c56637b836f8f78b7ed8e6680e
-ms.sourcegitcommit: be2e837d9b087bffe6ce40d72d7ae58a8fcdf3fe
+ms.openlocfilehash: 5b686d34375453fd98bdb0915ee49016e71da20d
+ms.sourcegitcommit: fe7f3dae4edba97071a4d127e8a27bdf4fa00d81
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/30/2019
-ms.locfileid: "34591049"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "34728001"
 ---
 # <a name="set-up-microsoft-search"></a>Configurar a Pesquisa da Microsoft
 
@@ -36,13 +36,13 @@ Você administra a **Pesquisa da Microsoft** a partir do **centro de administra�
 
 Como administrador, você deve considerar algumas coisas que podem tornar a experiência da **Pesquisa da Microsoft** eficiente e amigável em sua organização.
 
-### <a name="step-1-check-access-level-of-your-users"></a>Etapa 1: verifique o nível de acesso de seus usuários
+## <a name="step-1-check-access-level-of-your-users"></a>Etapa 1: verifique o nível de acesso de seus usuários
 
 A **Pesquisa da Microsoft** respeita as configurações de segurança da fonte de conteúdo. O que os usuários veem nos resultados da pesquisa depende das permissões e dos níveis de acesso. Revise o nível de acesso dos usuários em sua organização para garantir que os usuários encontrem apenas conteúdo que eles possam acessar.
 
 Saiba mais sobre como [planejar permissões](https://docs.microsoft.com/pt-BR/sharepoint/plan-your-permissions-strategy) e [criar níveis de permissões](https://docs.microsoft.com/pt-BR/sharepoint/how-to-create-and-edit-permission-levels).
 
-### <a name="step-2-assign-search-admin-and-search-editor"></a>Etapa 2: atribua o administrador de pesquisa e o editor de pesquisa
+## <a name="step-2-assign-search-admin-and-search-editor"></a>Etapa 2: atribua o administrador de pesquisa e o editor de pesquisa
 
 Há duas novas funções no **Centro de administração do Microsoft** – administrador de pesquisa e editor de pesquisa.  Administrador global, que tem privilégios completos, atribui as funções de administrador aos usuários com a função de administrador de pesquisa. Os administradores de pesquisa podem delegar as funções de administrador de pesquisa ou de editor de pesquisa para outros usuários. Para saber mais sobre as diferentes funções de administrador, consulte [Sobre as funções de administrador do Office 365](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles?view=o365-worldwide).
 
@@ -56,7 +56,7 @@ Na **Pesquisa da Microsoft**, você pode gerenciar as configurações de pesquis
 
 Para atribuir funções de administrador, consulte [Atribuir direitos de administrador no Office 365 for business](https://docs.microsoft.com/pt-BR/office365/admin/add-users/assign-admin-roles?view=o365-worldwide).
 
-### <a name="step-3-make-content-easy-to-find"></a>Etapa 3: torne o conteúdo fácil de encontrar 
+## <a name="step-3-make-content-easy-to-find"></a>Etapa 3: torne o conteúdo fácil de encontrar 
 
 A **Pesquisa da Microsoft** fornece aos administradores ferramentas que eles podem usar para criar uma experiência de pesquisa robusta para seus usuários. Na **Pesquisa da Microsoft**, os administradores têm três conteúdos de pesquisa diferentes que podem ser criados para uma melhor experiência de pesquisa e para melhorar a localização do conteúdo:
 - **Indicador**: os indicadores são semelhantes aos resultados promovidos no SharePoint e ajudam a promover os melhores resultados possíveis para as consultas do usuário na parte superior dos resultados da pesquisa, facilitando a localização de sites internos importantes. 
@@ -72,7 +72,7 @@ Aqui estão alguns exemplos de conteúdo para os quais você deve considerar cri
 
 Para criar e gerenciar conteúdo de pesquisa, consulte [Como tornar o conteúdo fácil de encontrar](make-content-easy-to-find.md).
 
-### <a name="step-4-test-single-sign-on"></a>Etapa 4: testar o logon único
+## <a name="step-4-test-single-sign-on"></a>Etapa 4: testar o logon único
 A **Pesquisa da Microsoft** usa o Azure Active Directory (AAD) para autenticar e autorizar o acesso aos dados da sua organização.  Isso significa que seus usuários são automaticamente conectados à sua conta corporativa ou de estudante quando você faz logon em um aplicativo do Office 365 ou no Windows 10.
 
 Recomendamos que os usuários da **Pesquisa da Microsoft** usem o logon único, pois este reduz o número de vezes que os usuários são solicitados a fazer logon. Os administradores devem testar o logon único com um pequeno grupo de usuários para ajudar a identificar problemas de configuração de bloqueio. 
@@ -81,14 +81,14 @@ Para usuários do Chrome no Windows 10, o logon único funciona somente quando a
 
 Para baixar e instalar a extensão de logon do Windows 10 e AAD para o Chrome, acesse a [Chrome Web Store](https://go.microsoft.com/fwlink/?linkid=2090961).
 
-### <a name="step-5-training-and-communication"></a>Etapa 5: Treinamento e comunicação
+## <a name="step-5-training-and-communication"></a>Etapa 5: Treinamento e comunicação
 Estabeleça recursos de autoatendimento que os funcionários possam acessar facilmente por conta própria. Isso ajudará a reduzir a carga total sobre você e sua equipe para impulsionar constantemente as comunicações e auxiliar no autotreinamento e na educação dos funcionários. Forneça aos seus usuários comunicações, perguntas frequentes, vídeos e treinamentos ou webinars gravados. Aqui estão alguns links úteis para começar:
 - [Encontre o que você precisa com a Pesquisa da Microsoft no Office](https://support.office.com/article/find-what-you-need-with-microsoft-search-in-office-2457d4d8-48a8-4ad4-ab89-5a0657aa8446?ui=en-US&rs=en-US&ad=US)
 - [Centro de Treinamento do Office 365](https://support.office.com/office-training-center)
 - 
   [Centro de pesquisa da Microsoft](https://support.office.com/pt-BR/article/-working-title-microsoft-search-center-b8bf5a2c-7515-40a9-9a6a-b8ed382c86bc?ui=en-US&rs=en-US&ad=US)
 
-### <a name="trying-out-microsoft-search-in-bing"></a>Experimentando a **Pesquisa da Microsoft** no Bing 
+## <a name="trying-out-microsoft-search-in-bing"></a>Experimentando a **Pesquisa da Microsoft** no Bing 
 O administrador da **Pesquisa da Microsoft** pode desativar a **Pesquisa da Microsoft** no Bing. Se desativada, os usuários não verão o conteúdo da organização na pesquisa do Bing. Por padrão, a **Pesquisa da Microsoft** se encontra ativada no Bing. Recomendamos que você mantenha a **Pesquisa da Microsoft** ativada no Bing para ter uma melhor experiência do usuário. 
 
 Se você quiser testar a **Pesquisa da Microsoft** em um locatário de teste ou quiser testar a experiência de pesquisa antes de disponibilizá-la para todos os usuários, desative a **Pesquisa da Microsoft**.
