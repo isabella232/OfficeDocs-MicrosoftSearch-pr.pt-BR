@@ -15,17 +15,14 @@ search.appverid:
 ms.assetid: 9e8c9323-4ff9-42dd-8052-2bc9e0d6d0e7
 ROBOTS: NOINDEX
 description: Saiba mais sobre métodos e processos para ajudá-lo a distribuir com êxito a pesquisa da Microsoft para sua organização
-ms.openlocfilehash: 967c5876fe1a559041ec88d5d038d5739fd77280
-ms.sourcegitcommit: be2e837d9b087bffe6ce40d72d7ae58a8fcdf3fe
+ms.openlocfilehash: 8fd7003426ad10e105ef427db5688b2a459d4f01
+ms.sourcegitcommit: fe7f3dae4edba97071a4d127e8a27bdf4fa00d81
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/30/2019
-ms.locfileid: "34590833"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "34727902"
 ---
 # <a name="user-adoption-guide"></a>Guia de adoção do usuário
-
-> [!IMPORTANT]
-> Este artigo aplica-se à pesquisa da Microsoft no portal de administração do Bing. Estamos movendo o portal para o centro de administração do Microsoft 365 e, em seguida, ele será removido. Recomendamos que você use o centro de administração do Microsoft 365 para começar. [Visão geral da pesquisa da Microsoft](overview-microsoft-search.md).
 
 Essas informações se destinam a administradores de pesquisa da Microsoft, líderes de gerenciamento de mudanças e proprietários de negócios.
   
@@ -88,9 +85,9 @@ O tempo de inpreparação para a implantação do Microsoft Search resultará em
   
 Os administradores influenciam diretamente a experiência de pesquisa para usuários finais e determinam como a pesquisa da Microsoft procura pela organização. Isso inclui escolher os tipos de resultados que você deseja destacar para seus usuários. Controle isso ativando ou desativando resultados para documentos, sites, pessoas, grupos ou conversas.
   
-Para obter mais informações, consulte [Configurar a pesquisa da Microsoft](set-up-microsoft-search.md).
+Para obter mais informações, consulte [Configurar a pesquisa da Microsoft](setup-microsoft-search.md).
   
-Os editores são especialistas no assunto que ajudam a gerenciar indicadores e Q&As dentro de suas áreas de especialização. Editores devem criar conteúdo que atenda aos cenários de usuário identificados anteriormente.
+Os editores são especialistas no assunto que ajudam a gerenciar indicadores e Q&como em suas áreas de especialização. Editores devem criar conteúdo que atenda aos cenários de usuário identificados anteriormente.
   
 Para obter mais informações, consulte [Plan Your Content](plan-your-content.md).
   
@@ -188,7 +185,7 @@ Enviar comunicações contínuas que realçam recursos e pesquisas para tentar, 
   
 Dê suporte aos usuários e informe-o de que você está ouvindo a eles e agindo com seus comentários.
   
-Use o painel do insights para ver como o produto e o conteúdo estão sendo executados. Aproveite essas informações para atualizar indicadores, Q&As e outras comunicações. Isso também ajudará você a:
+Use o painel do insights para ver como o produto e o conteúdo estão sendo executados. Aproveite essas informações para atualizar indicadores, p&como e outras comunicações. Isso também ajudará você a:
   
 1. Melhorar a qualidade do conteúdo: revisar títulos, descrições e URLs, otimizar palavras-chave, remover informações obsoletas e adicionar novas informações
     
@@ -196,7 +193,4 @@ Use o painel do insights para ver como o produto e o conteúdo estão sendo exec
     
 3. Conduzir pesquisas, grupos de foco e sessões de comentários para entender o que os usuários pensam na pesquisa da Microsoft, aumentar a adoção e identificar áreas de aperfeiçoamento
     
-Education and feedback é um processo interativo. Talvez seja necessário fazer alterações no conteúdo e nas comunicações à medida que os usuários adotarem a pesquisa da Microsoft. 
-
-  
-
+Education and feedback é um processo interativo. Talvez seja necessário fazer alterações no conteúdo e nas comunicações à medida que os usuários adotarem a pesquisa da Microsoft.
