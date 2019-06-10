@@ -14,14 +14,14 @@ search.appverid:
 ms.assetid: b453e6f0-10cf-4384-9914-241f425cd5f9
 ROBOTS: NOINDEX
 description: Obtenha uma visão geral de todas as informações que você pode encontrar ao usar a Pesquisa da Microsoft
-ms.openlocfilehash: bc8d53610d125aba57b2c2c8a8c6d1077e2f012a
-ms.sourcegitcommit: be2e837d9b087bffe6ce40d72d7ae58a8fcdf3fe
+ms.openlocfilehash: a6bda23da00ac302287787b1c48a3e578f0bb335
+ms.sourcegitcommit: fe7f3dae4edba97071a4d127e8a27bdf4fa00d81
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/30/2019
-ms.locfileid: "34590977"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "34727929"
 ---
-# <a name="about-microsoft-search"></a>Sobre a Pesquisa da Microsoft
+# <a name="using-microsoft-search"></a>Usando a Pesquisa da Microsoft
 
 A Pesquisa da Microsoft une facilmente o trabalho de pesquisa e a Web em uma única experiência. Use a Pesquisa da Microsoft para ter acesso a uma maneira simples, rápida, poderosa e segura de obter as informações certas no momento certo em qualquer navegador e em qualquer dispositivo.
   
