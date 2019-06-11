@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Obtenha uma visão geral do que é o Microsoft Search, quais são seus benefícios e quais aplicativos possuem o Microsoft Search atualmente.
-ms.openlocfilehash: 7fc58204b17fbe8274655756bd8e041c921a063e
-ms.sourcegitcommit: be2e837d9b087bffe6ce40d72d7ae58a8fcdf3fe
+ms.openlocfilehash: c60ece3778db4696437d8ed0c5cefd0bfaa39142
+ms.sourcegitcommit: 9345523f0143f613c702cd3dcc084b5f7bd6a0b5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/30/2019
-ms.locfileid: "34591301"
+ms.lasthandoff: 06/07/2019
+ms.locfileid: "34767186"
 ---
 # <a name="overview-of-microsoft-search"></a>Visão geral da Pesquisa da Microsoft
 
@@ -26,7 +26,7 @@ A Pesquisa da Microsoft é o recurso de pesquisa unificada nos aplicativos de pr
 
 A Pesquisa da Microsoft ajuda os usuários a encontrarem as respostas, pessoas e conteúdo certos para concluir suas tarefas no aplicativo em que já estão trabalhando.
 
-- Os usuários obtêm resultados relevantes no **contexto** do aplicativo a partir do qual pesquisam. Por exemplo, quando a pesquisa é feita no Outlook, emails são encontrados, ao invés de sites no SharePoint. Quando a pesquisa é feita no SharePoint, sites, páginas e arquivos são encontrados, ao invés de emails.
+- Os usuários obtêm resultados relevantes no **contexto** do aplicativo a partir do qual pesquisam. Por exemplo, quando a pesquisa é feita no Outlook, emails são encontrados, ao invés de sites no SharePoint. Quando a pesquisa é feita no SharePoint, sites, páginas e arquivos são encontrados.
 - Seja qual for o aplicativo em que os usuários estejam trabalhando; A pesquisa da Microsoft é **pessoal**.  A Pesquisa da Microsoft usa informações do Microsoft Graph para mostrar os resultados relevantes para cada usuário. Cada usuário pode ver resultados diferentes, mesmo que eles pesquisem pelas mesmas palavras. Eles só veem resultados aos quais já têm acesso, a Pesquisa da Microsoft não altera as permissões.
 - Os usuários não precisam se lembrar de onde as informações estão localizadas. Por exemplo, um usuário está trabalhando no Word e deseja reutilizar informações de uma apresentação que um colega compartilhou do seu OneDrive. Não é necessário alternar para o OneDrive e pesquisar por essa apresentação, eles podem simplesmente pesquisar no Word.  
 - Quando no Bing, os usuários encontram resultados de dentro de sua organização e públicos da web.
@@ -58,12 +58,11 @@ Se as sugestões na caixa de pesquisa não correspondem ao que está sendo pesqu
 
 **A Pesquisa da Microsoft evolui** - o conjunto de tipos de conteúdo pelos quais os usuários podem pesquisar e a inteligência da caixa de pesquisa aumentará com o tempo.
 
-**Administrar em todos os aplicativos** - a Pesquisa da Microsoft está ativada por padrão e qualquer administração feita por você é aplicada à Pesquisa da Microsoft em todos os aplicativos.
+**Administrar em todos os aplicativos** - a Pesquisa da Microsoft se encontra **ativada** por padrão, e qualquer ação de administração se aplica à Pesquisa da Microsoft em todos os aplicativos.
 
-## <a name="apps-that-currently-have-microsoft-search"></a>Aplicativos que possuem o Microsoft Search atualmente
+## <a name="apps-that-currently-have-microsoft-search"></a>Aplicativos que possuem a Pesquisa da Microsoft atualmente
 
-
-Com o tempo, a Pesquisa da Microsoft estará disponível em mais e mais aplicativos no Microsoft 365. Os seguintes aplicativos do Office 365 oferecem atualmente a Pesquisa da Microsoft:
+ Os seguintes aplicativos do Office 365 oferecem atualmente a Pesquisa da Microsoft:
 
 - SharePoint Online
 - OneDrive for Business
@@ -105,7 +104,7 @@ Como administrador, você pode facilitar que os usuários obtenham bons resultad
 
 ## <a name="what-content-is-searched"></a>Qual conteúdo é pesquisado?
 
-O Microsoft Search pesquisa por conteúdo armazenado no SharePoint Online, no Onedrive for Business e no Exchange, incluindo pessoas da lista de endereços global e grupos do Office 365. Se a sua organização tiver configurado um ambiente híbrido do SharePoint usando a pesquisa híbrida na nuvem, os usuários do Microsoft Search também poderão obter resultados do conteúdo local do SharePoint, incluindo qualquer conteúdo externo que você tenha conectado ao seu ambiente do SharePoint Server. [Saiba mais sobre os ambientes de pesquisa híbrida](https://docs.microsoft.com/sharepoint/hybrid/learn-about-cloud-hybrid-search-for-sharepoint).
+A Pesquisa da Microsoft pesquisa conteúdo armazenado no SharePoint Online, no OneDrive for Business e no Exchange, incluindo pessoas da lista de endereços global e grupos do Office 365. Se a sua organização tiver configurado um ambiente híbrido do SharePoint usando a pesquisa híbrida na nuvem, a Pesquisa da Microsoft retornará resultados de pesquisa do conteúdo do SharePoint online e no local, incluindo qualquer conteúdo externo que você tenha conectado ao seu ambiente do SharePoint Server. [Saiba mais sobre os ambientes de pesquisa híbrida](https://docs.microsoft.com/sharepoint/hybrid/learn-about-cloud-hybrid-search-for-sharepoint).
 
 Quando os usuários pesquisam na página inicial do SharePoint ou no Office.com, o Microsoft Search pesquisa todo o conteúdo de sua organização e apresenta todos os resultados encontrados. Isso é conhecido como o **escopo de pesquisa global**.
 

@@ -13,14 +13,14 @@ search.appverid:
 - MET150
 - MOE150
 description: Comece a usar a Pesquisa da Microsoft no SharePoint Online em sua organização
-ms.openlocfilehash: 4b68d27a44559ac5afed7899f7bc8d01cf8a0a75
-ms.sourcegitcommit: be2e837d9b087bffe6ce40d72d7ae58a8fcdf3fe
+ms.openlocfilehash: cff89b29b06d1592db15642a697cd414c011ecbc
+ms.sourcegitcommit: 9345523f0143f613c702cd3dcc084b5f7bd6a0b5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/30/2019
-ms.locfileid: "34591544"
+ms.lasthandoff: 06/07/2019
+ms.locfileid: "34767177"
 ---
-# <a name="get-started-with-microsoft-search-in-sharepoint-online"></a>Comece a usar a Pesquisa da Microsoft no SharePoint Online
+# <a name="get-started-with-microsoft-search-in-sharepoint"></a>Comece a usar a Pesquisa da Microsoft no SharePoint
 
 A Pesquisa da Microsoft no Sharepoint é a experiência de pesquisa moderna no SharePoint Online. O SharePoint Online também oferece uma experiência de pesquisa clássica. Como administrador de pesquisa, não é possível ativar ou desativar essas experiências de pesquisa. Ambas estão ativadas por padrão. A experiência de pesquisa dos seus usuários depende de a partir de onde eles pesquisam:
 
@@ -28,11 +28,26 @@ A Pesquisa da Microsoft no Sharepoint é a experiência de pesquisa moderna no S
 - Os usuários veem a caixa de pesquisa clássica em sites de publicação e sites de equipe clássicos, bem como no Centro de Pesquisa.
 
 Siga estas etapas para adaptar a sua organização à Pesquisa do Microsoft no SharePoint Online:
-## <a name="step-1-get-your-organization-to-adopt-modern-sites"></a>Etapa 1: faça com que sua organização adote sites modernos
+
+## <a name="step-1-prepare-for-microsoft-search-in-sharepoint"></a>Etapa 1: preparar a pesquisa da Microsoft no SharePoint
+
+Os usuários só podem encontrar conteúdo do SharePoint indexado. A Pesquisa da Microsoft usa o mesmo índice para conteúdo do SharePoint que a pesquisa clássica, e o conteúdo do SharePoint é rastreado e indexado automaticamente. Se a sua organização usar a pesquisa clássica e a Pesquisa da Microsoft no SharePoint, [saiba como evitar o impacto das configurações de pesquisa clássicas na Pesquisa da Microsoft no SharePoint](https://docs.microsoft.com/sharepoint/differences-classic-modern-search).
+
+Siga as diretrizes para [configurar a Pesquisa da Microsoft](set-up-microsoft-search.md) em geral.
+
+
+## <a name="step-2-get-your-organization-to-adopt-modern-sites"></a>Etapa 2: faça sua organização adotar sites modernos
+
 Influencie sua organização a começar a usar sites modernos em vez de sites clássicos. [Aprenda sobre a experiência moderna no SharePoint](https://support.office.com/article/SharePoint-classic-and-modern-experiences-5725c103-505d-4a6e-9350-300d3ec7d73f).
 
-## <a name="step-2-promote-searching-from-the-sharepoint-start-page"></a>Etapa 2: Promova a pesquisa a partir da página inicial do SharePoint
-Ensine seus usuários a pesquisar a partir do aplicativo em que já estão trabalhando quando precisarem encontrar algo ou pesquisar na página inicial do SharePoint, em vez de acessar o Centro de Pesquisa clássico. Considere ocultar seu Centro de Pesquisa clássico dos usuários.
+## <a name="step-3-promote-searching-from-the-sharepoint-start-page"></a>Etapa 3: promova a pesquisa na página inicial do SharePoint
+
+Ensine seus usuários a pesquisar na página inicial do SharePoint e não no Centro de Pesquisa clássico. Considere ocultar seu Centro de Pesquisa clássico dos usuários.
 
 ## <a name="see-also"></a>Confira também
 [Visão geral da Pesquisa da Microsoft](overview-microsoft-search.md)
+
+
+  [Saiba mais sobre as experiências de pesquisa no SharePoint](https://docs.microsoft.com/pt-BR/sharepoint/overview-of-search)
+
+[Quando usar a experiência de pesquisa no SharePoint](https://docs.microsoft.com/sharepoint/get-started-with-modern-search-experience)
