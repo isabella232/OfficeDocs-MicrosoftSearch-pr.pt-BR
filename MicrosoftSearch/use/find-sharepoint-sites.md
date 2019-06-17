@@ -14,12 +14,12 @@ search.appverid:
 ms.assetid: 3388bdc7-1ee0-497e-b110-fba4a082eb08
 ROBOTS: NOINDEX
 description: Use o Microsoft Search para encontrar sites do SharePoint e os detalhes que você verá
-ms.openlocfilehash: 821391635b9cb304f46fde8cabadfa29510631bb
-ms.sourcegitcommit: be2e837d9b087bffe6ce40d72d7ae58a8fcdf3fe
+ms.openlocfilehash: f88422d1df54b9750d91b584c026c35ff0e67736
+ms.sourcegitcommit: a7ca4c38d37fbdec58e002e42d865188939d0483
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/30/2019
-ms.locfileid: "34590914"
+ms.lasthandoff: 06/15/2019
+ms.locfileid: "35003124"
 ---
 # <a name="find-sharepoint-sites"></a>Localizar sites do SharePoint
 
@@ -34,6 +34,3 @@ Procure sites do SharePoint que você possui ou procure aqueles criados por grup
     Para ver apenas os resultados do site, clique na guia **sites** . 
     
 Os resultados da Web aparecem em seus resultados de trabalho. Eles não são específicos para sua organização.
-
-  
-
