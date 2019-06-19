@@ -15,12 +15,12 @@ search.appverid:
 ms.assetid: 50461cb9-8707-46c1-935a-1b9608a98800
 ROBOTS: NOINDEX
 description: Proteja seus dados corporativos e dos usuários, além de fornecer informações aos usuários autorizados com a Pesquisa da Microsoft
-ms.openlocfilehash: 72f45097ebdc97a03d6016d4cac9a19327c68f30
-ms.sourcegitcommit: a7ca4c38d37fbdec58e002e42d865188939d0483
+ms.openlocfilehash: b079a693f7289977c9f7545ec049828f76939ee0
+ms.sourcegitcommit: 6f4756d2887c66030c5e7b81fb936d673bb594a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/15/2019
-ms.locfileid: "35003106"
+ms.lasthandoff: 06/17/2019
+ms.locfileid: "35009091"
 ---
 # <a name="security-for-microsoft-search"></a>Segurança da Pesquisa da Microsoft
 
@@ -33,7 +33,7 @@ A Pesquisa da Microsoft garante que as solicitações sempre sejam feitas via HT
   
 ## <a name="authentication-and-authorization-with-azure-active-directory"></a>Autenticação e autorização com o Azure Active Directory
 
-A autenticação da Pesquisa da Microsoft está vinculada ao Azure Active Directory. Quando os usuários da Pesquisa da Microsoft acessam o Bing, o cabeçalho do Bing exibe as opções de entrada para uma conta Microsoft, bem como uma conta corporativa ou de estudante. Se o Bing não conseguir determinar se um usuário é um participante qualificado, os usuários podem acessar a página [Explorar Pesquisa da Microsoft](https://www.bing.com/business/explore), na qual serão redirecionados automaticamente para a página de entrada da sua organização. 
+A autenticação da Pesquisa da Microsoft está vinculada ao Azure Active Directory. Quando os usuários da Pesquisa da Microsoft acessam o Bing, o cabeçalho do Bing exibe as opções de entrada para uma conta Microsoft, bem como uma conta corporativa ou de estudante. Se o Bing não conseguir determinar se um usuário é um participante qualificado, os usuários podem acessar a página [Explorar Pesquisa da Microsoft](https://www.bing.com/business/explore), na qual serão redirecionados automaticamente para a página de entrada da sua organização.
   
 Os usuários podem acessar a Pesquisa da Microsoft com uma conta corporativa ou de estudante. Eles precisam entrar com as mesmas credenciais que usam para acessar os serviços do Office 365, como o SharePoint ou o Outlook. Não é possível usar uma conta Microsoft pessoal para entrar na Pesquisa da Microsoft.
   
@@ -57,14 +57,14 @@ Como as pesquisas relacionadas ao trabalho podem ser confidenciais, a Pesquisa d
   
 Independentemente da consulta do usuário conter um ou mais resultados de trabalho na resposta retornada, as seguintes medidas são executadas:
   
-- Registro em log
-    
+- Registro em log 
   - Todos os logs de pesquisa relacionados ao tráfego da Pesquisa da Microsoft são anonimizados. Eles são retidos por 18 meses.
   - As consultas armazenadas nesses registros do sistema só serão usadas para modelar e treinar recursos públicos, como pesquisas de sugestão automática ou pesquisas relacionadas para resultados públicos da Web quando um conjunto de restrições e limites de frequência forem atendidos, o que nos dá confiança de que essas consultas são comuns e não específicas a uma organização particular. A consulta deve aparecer uma quantidade significativa de vezes para correlacionar dados de usuários não da Pesquisa da Microsoft, e a consulta não deve acionar exclusivamente os resultados da pesquisa corporativa. As consultas que não atenderem a esses requisitos serão armazenadas separadamente do tráfego público, não da Pesquisa da Microsoft.
-  - O acesso restrito é gerenciado através de vários mecanismos seguros, incluindo grupos de segurança e outras camadas dentro do sistema de engenharia.
-    
-- Publicidade
-    
+  - O acesso restrito é gerenciado por vários mecanismos seguros, incluindo os grupos de segurança e outras camadas no sistema de engenharia.
+- Pesquisar o histórico    
+  - Ao fazer login com uma conta corporativa ou de estudante, o histórico de pesquisa de um usuário não estará disponível em outros computadores ou dispositivos.
+ 
+- Publicidade   
   - As consultas de pesquisa corporativa nunca são compartilhadas com ou sugeridas para anunciantes.
   - Os anúncios nunca são direcionados para um usuário com base na sua identidade de trabalho ou da organização.
     
