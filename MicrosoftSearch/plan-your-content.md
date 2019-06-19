@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 ms.assetid: bb9d90b6-6c86-4b19-9235-3bd9b19826ab
 description: Forneça conteúdo de qualidade sem precisar de recursos adicionais quando usar a Pesquisa da Microsoft
-ms.openlocfilehash: 88c2af543be02f8e17937e36a81fd28d862e8fb0
-ms.sourcegitcommit: be2e837d9b087bffe6ce40d72d7ae58a8fcdf3fe
+ms.openlocfilehash: 90774f8606f5582338c12b4f123153b6f3f4de74
+ms.sourcegitcommit: 9df9b1a5f83c9fbe62900df183bee239a8ea6d91
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/30/2019
-ms.locfileid: "34591202"
+ms.lasthandoff: 06/14/2019
+ms.locfileid: "34947748"
 ---
 # <a name="plan-your-content"></a>Planejar o conteúdo
 
@@ -91,7 +91,7 @@ Depois de criar os indicadores e as P e R, é importante verificar se:
 
 Usuários e especialistas no assunto (SMEs) que contribuíram para a criação de conteúdo podem ajudar a testar e validar o resultado de pesquisa.
 
-## <a name="step-5-review-and-update-periodically"></a>Etapa 5: revise e atualize periodicamente
+## <a name="step-5-use-insights-to-review-and-update-periodically"></a>Etapa 5: use insights para revisar e atualizar periodicamente
 É importante que informações autoritativas, como Indicadores e P e R, estejam atualizadas. Regularmente:
 - Corrija ou remova URL desfeita ou inválida.
 - Remova Indicadores ou P e R que já não são relevantes.

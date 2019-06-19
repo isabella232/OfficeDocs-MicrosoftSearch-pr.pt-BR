@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Configurar a Pesquisa da Microsoft pela primeira vez.
-ms.openlocfilehash: 5b686d34375453fd98bdb0915ee49016e71da20d
-ms.sourcegitcommit: fe7f3dae4edba97071a4d127e8a27bdf4fa00d81
+ms.openlocfilehash: c95cc0d11d60e3d4d9a509dc691c01858ede7262
+ms.sourcegitcommit: 9df9b1a5f83c9fbe62900df183bee239a8ea6d91
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "34728001"
+ms.lasthandoff: 06/14/2019
+ms.locfileid: "34947739"
 ---
 # <a name="set-up-microsoft-search"></a>Configurar a Pesquisa da Microsoft
 
@@ -32,7 +32,7 @@ A **Pesquisa da Microsoft** está ativada por padrão para todos os aplicativos 
 
 Você administra a **Pesquisa da Microsoft** a partir do **centro de administração do Microsoft 365**. Entre usando seu logon com credenciais de administrador e escolha o bloco **Administrador** na lista de aplicativos do Office 365 (Clique no ícone do **Inicializador de aplicativos** no canto superior esquerdo da lista de aplicativos). No **centro de administração do Microsoft 365**, selecione **Pesquisa da Microsoft** em **Configurações** no painel de navegação esquerdo. 
 
-**Observação:** Se você estiver vendo a**Pesquisa da Microsoft** em**Configurações** no**centro de administração do Microsoft 365**, habilite a opção **Experimente a visualização** no canto superior direito do centro de administração. 
+**Observação:** se você NÃO estiver vendo a **Pesquisa da Microsoft** sob **Configurações** no **Centro de administração do Microsoft 365**, ative a opção **Experimentar a visualização**, no canto superior direito do centro de administração. 
 
 Como administrador, você deve considerar algumas coisas que podem tornar a experiência da **Pesquisa da Microsoft** eficiente e amigável em sua organização.
 

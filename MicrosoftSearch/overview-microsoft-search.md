@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Obtenha uma visão geral do que é o Microsoft Search, quais são seus benefícios e quais aplicativos possuem o Microsoft Search atualmente.
-ms.openlocfilehash: c60ece3778db4696437d8ed0c5cefd0bfaa39142
-ms.sourcegitcommit: 9345523f0143f613c702cd3dcc084b5f7bd6a0b5
+ms.openlocfilehash: d16066c941bb5c3619d7fd50e9cf33952216fb87
+ms.sourcegitcommit: a7ca4c38d37fbdec58e002e42d865188939d0483
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/07/2019
-ms.locfileid: "34767186"
+ms.lasthandoff: 06/15/2019
+ms.locfileid: "35003133"
 ---
 # <a name="overview-of-microsoft-search"></a>Visão geral da Pesquisa da Microsoft
 
@@ -147,12 +147,11 @@ Como as pesquisas relacionadas ao trabalho podem ser confidenciais, o Microsoft 
 
 Independentemente de uma consulta do usuário conter um ou mais resultados relacionados ao trabalho na resposta retornada, as seguintes medidas são tomadas:
 
-**Registro em log** - Todos os registros de pesquisa relacionados ao tráfego da Pesquisa da Microsoft são anonimizados e armazenados separadamente do tráfego público, sem Pesquisa da Microsoft. Esses registros são mantidos por 18 meses e o acesso a eles é restrito a apenas para fins de depuração. As consultas nesses logs não são usadas para modelar ou treinar recursos públicos, como sugestão automática ou pesquisas relacionadas na web pública. O acesso restrito é gerenciado por vários mecanismos seguros, incluindo os grupos de segurança e outras camadas no sistema de engenharia.
+**Registro em log** - Todos os logs de pesquisa relacionados ao tráfego da Pesquisa da Microsoft são anonimizados e retidos por 18 meses. As consultas armazenadas nesses registros do sistema só serão usadas para modelar e treinar recursos públicos, como pesquisas de sugestão automática ou pesquisas relacionadas para resultados públicos da Web quando um conjunto de restrições e limites de frequência forem atendidos, o que nos dá confiança de que essas consultas são comuns e não específicas a uma organização particular. A consulta deve aparecer uma quantidade significativa de vezes para correlacionar dados de usuários não da Pesquisa da Microsoft, e a consulta não deve acionar exclusivamente os resultados da pesquisa corporativa. As consultas que não atenderem a esses requisitos serão armazenadas separadamente do tráfego público, não da Pesquisa da Microsoft. O acesso restrito é gerenciado por vários mecanismos seguros, incluindo os grupos de segurança e outras camadas no sistema de engenharia.
 
 **Histórico de pesquisas** quando você faz logon com uma conta corporativa ou de estudante, o histórico de pesquisa do usuário não fica disponível em outros computadores ou dispositivos.
 
 **Publicidade** - as consultas de pesquisa corporativa nunca são compartilhadas ou sugeridas aos anunciantes.
-Os logs de pesquisa de anúncios referentes à Pesquisa da Microsoft são armazenados separadamente do tráfego público.
 Os anúncios nunca são direcionados para um usuário com base na sua identidade de trabalho ou da organização.
 
 ## <a name="see-also"></a>Confira também
