@@ -15,12 +15,12 @@ search.appverid:
 ms.assetid: 9e8c9323-4ff9-42dd-8052-2bc9e0d6d0e7
 ROBOTS: NOINDEX
 description: Saiba mais sobre métodos e processos para ajudá-lo a distribuir com êxito a pesquisa da Microsoft para sua organização
-ms.openlocfilehash: 8fd7003426ad10e105ef427db5688b2a459d4f01
-ms.sourcegitcommit: fe7f3dae4edba97071a4d127e8a27bdf4fa00d81
+ms.openlocfilehash: 2b4dafa4168dfd4c3bbb78ba40e860186ff3d9e3
+ms.sourcegitcommit: f9760d027637cc0d2e5c3a9e47928422cb6e452a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "34727902"
+ms.lasthandoff: 08/03/2019
+ms.locfileid: "36170307"
 ---
 # <a name="user-adoption-guide"></a>Guia de adoção do usuário
 
@@ -79,11 +79,11 @@ Para ajudá-lo a atender às suas metas de distribuição e mostrar um impacto p
     
 ## <a name="stage-3-readiness"></a>Etapa 3: preparação
 
-O tempo de inpreparação para a implantação do Microsoft Search resultará em um impacto positivo na sua organização. 
+O tempo de inpreparação para a implantação do Microsoft Search resultará em um impacto positivo na sua organização. A Microsoft fornece um <a href="https://aka.ms/MicrosoftSearch/Adoption">Kit de adoção</a> que contém diretrizes de planejamento, anúncios de email personalizáveis, modelos de pesquisa, apresentações executivas e muito mais. Há também uma <a href="https://resources.techcommunity.microsoft.com/microsoft-search/#adoption">central de recursos de pesquisa da Microsoft</a> onde os implementadores de ti podem encontrar outros recursos de treinamento e adoção projetados para ajudar a tornar o seu Microsoft Search migrar bem-sucedido.
   
  **Preparação do conteúdo e do produto**
   
-Os administradores influenciam diretamente a experiência de pesquisa para usuários finais e determinam como a pesquisa da Microsoft procura pela organização. Isso inclui escolher os tipos de resultados que você deseja destacar para seus usuários. Controle isso ativando ou desativando resultados para documentos, sites, pessoas, grupos ou conversas.
+Os administradores influenciam diretamente a experiência de pesquisa para usuários finais e determinam como a pesquisa da Microsoft procura pela organização. Isso inclui escolher os tipos de resultados que você deseja destacar para seus usuários. Esses resultados podem incluir links, também conhecidos como marcadores, em documentos, sites, pessoas, grupos, locais, conversas e outros recursos de área de trabalho.
   
 Para obter mais informações, consulte [Configurar a pesquisa da Microsoft](setup-microsoft-search.md).
   
