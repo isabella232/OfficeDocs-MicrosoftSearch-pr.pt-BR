@@ -14,22 +14,22 @@ search.appverid:
 - MOE150
 ms.assetid: c0c814d0-f7e4-444e-b18e-09beb45c9322
 description: Crie e atualize os indicadores e formas de editar em massa os resultados dos indicadores para a Pesquisa da Microsoft
-ms.openlocfilehash: fb1be0bc137891a54e370fef1e4b5628963c5ad9
-ms.sourcegitcommit: be2e837d9b087bffe6ce40d72d7ae58a8fcdf3fe
+ms.openlocfilehash: 0cd37ebcd7cd3ea7bbe55064fd41a3c42b2e4725
+ms.sourcegitcommit: f9760d027637cc0d2e5c3a9e47928422cb6e452a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/30/2019
-ms.locfileid: "34591616"
+ms.lasthandoff: 08/03/2019
+ms.locfileid: "36170316"
 ---
 # <a name="manage-bookmarks"></a>Gerenciar indicadores
 
 Você pode criar um indicador em apenas algumas etapas. Cada indicador inclui um título, uma URL e um conjunto de palavras-chave que o acionam. Um indicador pode ter várias palavras-chave e vários indicadores podem compartilhar a mesma palavra-chave, mas a palavra-chave reservada não pode ser compartilhada. Quando um indicador é criado ou modificado, o índice de pesquisa é atualizado imediatamente e o indicador fica disponível para os usuários imediatamente.
 
-Se sua organização tiver Resultados Promovidos configurados no SharePoint, você poderá importar os Resultados Promovidos na **Pesquisa da Microsoft** e disponibilizar o conteúdo importado para os usuários. Essa é uma maneira fácil de preencher rapidamente os resultados da pesquisa assim que você configurar a **Pesquisa da Microsoft** e torná-la mais eficiente para os usuários. Recomendamos que você use os resultados promovidos do SharePoint como referência para entender como nomear e criar resultados de pesquisa relevantes. 
+Se sua organização tiver Resultados Promovidos configurados no SharePoint, você poderá importar os Resultados Promovidos na **Pesquisa da Microsoft** e disponibilizar o conteúdo importado aos usuários. Essa é uma maneira fácil de preencher rapidamente os resultados da pesquisa assim que você configurar a **Pesquisa da Microsoft** e torná-la mais eficiente para os usuários. Recomendamos que você use os resultados promovidos do SharePoint como referência para entender como nomear e criar resultados de pesquisa relevantes. 
 
 ## <a name="add-or-edit-a-single-bookmark"></a>Adicionar ou editar um único indicador
 1. Vá para o **centro de administração do Microsoft 365**.
-1. No painel de navegação, vá para **Configurações** e selecione **** Pesquisa da Microsoft ****.
+1. No painel de navegação, vá para **Configurações** e selecione **Pesquisa da Microsoft**.
 Por padrão, a guia **Indicadores** se encontra selecionada.
 1. Para adicionar um indicador, selecione **Adicionar novo**. Para editar um indicador, selecione o indicador na lista de indicador relevante. 
 1. À medida que você adiciona ou edita as informações, a visualização é atualizada automaticamente.
