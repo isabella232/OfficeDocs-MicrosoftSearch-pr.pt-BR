@@ -24,7 +24,7 @@ ms.locfileid: "35917574"
 
 A Pesquisa da Microsoft fornece uma interface amigável para ajudar os usuários a encontrarem informações, como arquivos e documentos, sites internos e ferramentas de negócios, pessoas e grupos, locais e trajetos, conversas e respostas, acessando com segurança todas as fontes de dados, incluindo emails, arquivos e arquivos do SharePoint, Conteúdo do OneDrive e outros recursos compartilhados, bem como a Internet na organização do usuário.
 
-Para saber mais sobre os recursos da Pesquisa da Microsoft, consulte[Visão Geral da Pesquisa da Microsoft](overview-microsoft-search.md).
+Para saber mais sobre os recursos da Pesquisa da Microsoft, confira [Visão Geral da Pesquisa da Microsoft](overview-microsoft-search.md).
 
 ## <a name="get-started"></a>Introdução
 
@@ -45,7 +45,7 @@ A Pesquisa da Microsoft respeita as configurações de segurança da fonte de co
 | Serviço         | Descrição                                                                                                                                                                                                                                         |
 | --------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Grupos          | [Adicionar ou remover membros dos grupos](https://docs.microsoft.com/office365/admin/create-groups/add-or-remove-members-from-groups)                                                                                                                     |
-| Pessoas          | Você pode ocultar que determinados usuários sejam pesquisados em sua lista de endereços, configurando o parâmetro `HiddenFromAddressListEnabled` para `true` usando o cmdlet [Set-User](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/set-user). |
+| Pessoas          | Você pode ocultar que determinados usuários sejam pesquisados em sua lista de endereços, configurando o parâmetro `HiddenFromAddressListEnabled` para `true`, usando o cmdlet [Set-User](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/set-user). |
 | Microsoft Teams | [Gerenciar o acesso de usuários ao Microsoft Teams](https://docs.microsoft.com/microsoftteams/user-access)                                                                                                                                                      |
 | OneDrive        | [Gerenciar o compartilhamento](https://docs.microsoft.com/OneDrive/manage-sharing)                                                                                                                                                                                |
 | SharePoint      | 
@@ -63,12 +63,12 @@ Há duas funções de administrador limitadas para ajudá-lo a oferecer suporte 
 
 Os administradores da Pesquisa influenciam diretamente a experiência de pesquisa para usuários finais. Isso inclui escolher os tipos de resultados que você deseja destacar para seus usuários. Pode ser difícil para uma pessoa escolher e criar conteúdo autoritativo em muitos tópicos diferentes pelos quais os usuários pesquisam em uma organização. Recomendamos que você aproveite a experiência e o conhecimento dos especialistas no assunto (SME) e de outros usuários, adicionando-os como editores da Pesquisa.
 
-Na Pesquisa da Microsoft, você pode gerenciar as configurações de pesquisa e o conteúdo da sua organização atribuindo estas duas funções aos usuários:
+Na Pesquisa da Microsoft, você pode gerenciar as configurações de pesquisa e o conteúdo da sua organização, atribuindo estas duas funções aos usuários:
 
 1. **Administrador de Pesquisa**: Essa função pode criar e gerenciar conteúdo de resultados de pesquisa e definir configurações de consulta para melhorar os resultados de pesquisa na organização. O administrador de Pesquisa gerencia a configuração da Pesquisa da Microsoft e pode realizar todas as tarefas de gerenciamento de conteúdo que um editor de Pesquisa pode.
 2. **Editor de Pesquisa:** Cria, gerencia e exclui conteúdo para a Pesquisa da Microsoft no centro de administração do Microsoft 365. Essa função pode criar e gerenciar conteúdos editoriais, como perguntas frequentes e respostas, locais importantes e localizações, sites e aplicativos pesquisados e usados com frequência.
 
-Atualmente, as funções de administrador e de editor de Pesquisa devem ser atribuídas por um administrador global. Para saber mais, confira [Atribuir funções de administrador](https://docs.microsoft.com/pt-BR/office365/admin/add-users/assign-admin-roles?view=o365-worldwide).
+Atualmente, as funções de administrador e de Editor de Pesquisa devem ser atribuídas por um administrador global. Para saber mais, confira [Atribuir funções de administrador](https://docs.microsoft.com/pt-BR/office365/admin/add-users/assign-admin-roles?view=o365-worldwide).
 
 ## <a name="step-3-make-content-easy-to-find"></a>Etapa 3: Torne o conteúdo fácil de encontrar
 
@@ -109,6 +109,6 @@ Estabeleça recursos de autoatendimento que os funcionários possam acessar faci
 
 ## <a name="trying-out-microsoft-search-in-bing"></a>Experimentando a Pesquisa da Microsoft no Bing
 
-Você pode desativar a **Pesquisa da Microsoft no Bing**. Se desativada, os usuários não verão o conteúdo da organização na pesquisa do Bing. Por padrão, a Pesquisa da Microsoft no Bing está habilitada. Recomendamos que você mantenha a Pesquisa da Microsoft ativada no Bing para obter uma melhor experiência de usuário.
+Você pode desativar a **Pesquisa da Microsoft no Bing**. Se desativada, os usuários não verão o conteúdo da organização na pesquisa do Bing. Por padrão, a Pesquisa da Microsoft no Bing está ativada. Recomendamos que você mantenha a Pesquisa da Microsoft ativada no Bing para obter uma melhor experiência de usuário.
 
-Vá até **Configurações** > **Serviços & suplementos** > **Pesquisa da Microsoft no Bing** para ativá-la ou desativá-la.
+Vá até **Configurações** > **Serviços e suplementos** > **Pesquisa da Microsoft no Bing** para ativá-la ou desativá-la.
