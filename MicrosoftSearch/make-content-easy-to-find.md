@@ -14,20 +14,22 @@ search.appverid:
 - MET150
 - MOE150
 description: Crie indicadores, locais e itens de P e R para facilitar a localização do conteúdo da sua organização.
-ms.openlocfilehash: 851f88206d7f8e0330497c9706b02ad98e0f8e6c
-ms.sourcegitcommit: be2e837d9b087bffe6ce40d72d7ae58a8fcdf3fe
+ms.openlocfilehash: a2f8018a85d792473f268a735abb368babfc582c
+ms.sourcegitcommit: c2c9e66af1038efd2849d578f846680851f9e5d2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/30/2019
-ms.locfileid: "34591562"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "36639852"
 ---
 # <a name="make-content-easy-to-find"></a>Tornar o conteúdo fácil de encontrar
-A **** Pesquisa da Microsoft **** ajuda os usuários a encontrar conteúdo relevante. A **Pesquisa da Microsoft** é uma maneira segura de pesquisar tanto na intranet quanto no conteúdo da Web. Esse tipo de integração em toda a Web e organização está disponível somente na Microsoft. 
+
+A Pesquisa da Microsoft ajuda os usuários a encontrar conteúdo relevante. A Pesquisa da Microsoft é uma maneira segura de pesquisar tanto o conteúdo da intranet quanto da Web. Esse tipo de integração em toda a Web e organização está disponível somente na Microsoft. 
 
 Os administradores de pesquisa usam seu conhecimento da organização e de seus usuários para tornar mais fácil para os usuários encontrarem conteúdo relevante. 
 
 ## <a name="step-1-identify-information-your-users-need"></a>Etapa 1: identifique as informações que seus usuários precisam
 Descubra o que seus usuários estão procurando e torne-o facilmente detectável. Aqui estão algumas ideias para descobrir de quais informações os usuários precisam: 
+
 - Use os registros de pesquisa da intranet para saber quais sites e páginas recebem mais tráfego.
 - Saiba quais aplicativos, sites e ferramentas são usados diariamente ou semanalmente.
 - Encontre links diretos para benefícios dos funcionários.
@@ -49,13 +51,13 @@ Aproveite os especialistas no assunto (SMEs) na organização, incluindo especia
 Peça aos usuários para sugerir recursos para os quais criar indicadores. Além de sugerir conteúdo, peça aos usuários que relatem erros, como links desfeitos ou inválidos.
 
 ## <a name="step-3-improve-findability-of-content"></a>Etapa 3: melhore a capacidade de localização do conteúdo 
-Na **Pesquisa da Microsoft**, o administrador de pesquisa cria indicadores, P e R, locais e PowerApps para melhorar a capacidade de localização do conteúdo. Cada um desses componentes de pesquisa inclui um título, uma URL e um conjunto de palavras-chave que o acionam.
+Na Pesquisa da Microsoft, o administrador de pesquisa cria indicadores, P e R, locais e PowerApps para melhorar a capacidade de localização do conteúdo. Cada um desses componentes de pesquisa inclui um título, uma URL e um conjunto de palavras-chave que o acionam.
 
 ### <a name="titles-and-descriptions"></a>Títulos e descrições
 As pessoas usam títulos e descrições para determinar se o resultado responde à consulta de pesquisa ou se é necessário tentar uma pesquisa diferente. Os títulos e descrições devem refletir o objetivo principal do resultado. Um bom exemplo de um título pode ser "Auxílio para custear cuidados infantis", com uma descrição - "Saiba mais sobre auxílios para ajudar a pagar os custos de cuidados infantis". Isso informa aos usuários que pesquisam por "babá" que há benefícios de auxílio monetário disponíveis, e fornece um link para descobrir mais. 
 
 ### <a name="keywords"></a>Palavras-chave
-Palavras-chave são os termos que as pessoas na sua organização usam para encontrar conteúdo relevante. Associar adequadamente as palavras-chave aos resultados de pesquisa facilita a localização de conteúdo relevante. A **Pesquisa da Microsoft** sugere palavras-chave com base no título e na URL do seu conteúdo. Para identificar palavras-chave adicionais, comece respondendo a estas perguntas:
+Palavras-chave são os termos que as pessoas na sua organização usam para encontrar conteúdo relevante. Associar adequadamente as palavras-chave aos resultados de pesquisa facilita a localização de conteúdo relevante. A Pesquisa da Microsoft sugere palavras-chave com base no título e na URL do seu conteúdo. Para identificar palavras-chave adicionais, comece respondendo a estas perguntas:
 
 1. Quais termos de pesquisa são usados para encontrar as informações que você identificou?
 1. Aproveite a taxonomia existente que a organização usa, bem como variações, acrônimos, assuntos e tópicos relacionados.
@@ -65,15 +67,15 @@ Palavras-chave são os termos que as pessoas na sua organização usam para enco
 Por exemplo, se você estiver criando um resultado com um link para uma ferramenta para enviar solicitações de férias, palavras-chave como "férias" e "enviar solicitação de férias" são boas opções para incluir. Você também pode descobrir que as pessoas em sua organização usam "feriado" ou "folga" para descrever ou pesquisar por informações relacionadas a férias. Adicionar palavras-chave como "feriado", "folga", "enviar solicitação de férias" e "solicitar folga" facilitará que mais usuários encontrem o conteúdo relevante.
 
 ### <a name="reserved-keywords"></a>Palavras-chave reservadas
- Uma palavra-chave reservada é um termo ou frase única que aciona um resultado. Ao contrário de outras palavras-chave, uma palavra-chave reservada pode ser associada a apenas um resultado. Use as palavras-chave reservadas com parcimônia, para permitir que a **Pesquisa da Microsoft** aprenda com base no uso.
+ Uma palavra-chave reservada é um termo ou frase única que aciona um resultado. Ao contrário de outras palavras-chave, uma palavra-chave reservada pode ser associada a apenas um resultado. Use as palavras-chave reservadas com parcimônia, para permitir que a Pesquisa da Microsoft aprenda com base no uso.
 
-Por exemplo, se você criar um indicador para um site para enviar suas horas e adicionar "registrar horas" como uma palavra-chave reservada, os usuários em sua organização que pesquisarem por "registrar horas" verão o site como o único indicador na caixa de **Pesquisa da Microsoft**. 
+Por exemplo, se você criar um indicador para um site para enviar suas horas e adicionar "registrar horas" como uma palavra-chave reservada, os usuários em sua organização que pesquisarem por "registrar horas" verão o site como o único indicador na caixa de Pesquisa da Microsoft. 
 
 ### <a name="using-keyword-to-group-related-content"></a>Usando palavras-chave para agrupar conteúdo relacionado
 Se você quiser que os usuários encontrem conjuntos de conteúdo relacionado quando pesquisarem por um termo, tente usar a mesma palavra-chave para todo o conteúdo relacionado. Por exemplo, se você estiver adicionando resultados sobre processos e ferramentas relacionadas a alterações em status de vida, inclua uma palavra-chave como "casamento" para agrupar os resultados sobre atualização de benefícios, informações fiscais e alterações de nome e alias.
 
 ### <a name="search-settings"></a>Configurações de pesquisa
-Use as configurações de pesquisa para adaptar seu conteúdo e alcançar grupos específicos de usuários. A **Pesquisa da Microsoft** possui as seguintes configurações que oferecem controle adicional sobre quando um resultado de pesquisa é exibido e quem o vê.
+Use as configurações de pesquisa para adaptar seu conteúdo e alcançar grupos específicos de usuários. A Pesquisa da Microsoft possui as seguintes configurações que oferecem controle adicional sobre quando um resultado de pesquisa é exibido e quem o vê.
 
 - **Datas:** defina uma data de início e uma data de término para controlar quando o conteúdo será disponibilizado ou indisponibilizado. Por exemplo, materiais sensíveis ao tempo aparecem no resultado da pesquisa quando é relevante.
 - **País/região:** selecione países ou regiões para que apenas os usuários nesses locais vejam o conteúdo. Por exemplo, informações específicas de um país aparecem nos resultados de pesquisa somente em seus respectivos países.
@@ -100,11 +102,11 @@ Usuários e especialistas no assunto (SMEs) que contribuíram para a criação d
 ## <a name="bookmarks"></a>Indicadores
 Você pode criar um indicador em apenas algumas etapas. Cada indicador inclui um título, uma URL e um conjunto de palavras-chave que o acionam. Um indicador pode ter várias palavras-chave e vários indicadores podem compartilhar a mesma palavra-chave, mas a palavra-chave reservada não pode ser compartilhada. Quando um indicador é criado ou modificado, o índice de pesquisa é atualizado imediatamente e o indicador fica disponível para os usuários imediatamente.
 
-Se sua organização tiver Resultados Promovidos configurados no SharePoint, você poderá importar os Resultados Promovidos na **Pesquisa da Microsoft** e disponibilizar o conteúdo importado para os usuários. Essa é uma maneira fácil de preencher rapidamente os resultados da pesquisa assim que você configurar a **Pesquisa da Microsoft** e torná-la mais eficiente para os usuários. Recomendamos que você use os resultados promovidos do SharePoint como referência para entender como nomear e criar resultados de pesquisa relevantes. 
+Se sua organização tiver Resultados Promovidos configurados no SharePoint, você poderá importar os Resultados Promovidos na Pesquisa da Microsoft e disponibilizar o conteúdo importado aos usuários. Essa é uma maneira fácil de preencher rapidamente os resultados da pesquisa assim que você configurar a Pesquisa da Microsoft e torná-la mais eficiente para os usuários. Recomendamos que você use os resultados promovidos do SharePoint como referência para entender como nomear e criar resultados de pesquisa relevantes. 
 
 ### <a name="add-or-edit-a-single-bookmark"></a>Adicionar ou editar um único indicador
 1. Vá para o **centro de administração do Microsoft 365**.
-1. No painel de navegação, vá para **Configurações** e selecione **** Pesquisa da Microsoft ****.
+1. No painel de navegação, vá para **Configurações** e selecione **Pesquisa da Microsoft**.
 Por padrão, a guia **Indicadores** se encontra selecionada.
 1. Para adicionar um indicador, selecione **Adicionar novo**. Para editar um indicador, selecione o indicador na lista de indicador relevante. 
 1. À medida que você adiciona ou edita as informações, a visualização é atualizada automaticamente.
@@ -143,6 +145,7 @@ Aqui estão alguns pontos importantes a serem observados em relação ao arquivo
 - Para organizações com vários locatários, você pode exportar seus indicadores de um locatário e importá-lo para outro. Mas você deve remover os dados na coluna *Id* antes de importar.
 
 #### <a name="prevent-import-errors"></a>Evite erros de importação
+
 Você receberá um erro se algum dado necessário estiver faltando ou for inválido, e um arquivo de log será gerado com mais informações sobre as linhas e colunas a serem corrigidas. Faça as edições necessárias e tente importar o arquivo novamente. Você não pode importar ou salvar nenhum indicador até que todos os erros sejam resolvidos.
 
 Para evitar erros, certifique-se de que o arquivo de importação esteja formatado corretamente e:
@@ -152,9 +155,11 @@ Para evitar erros, certifique-se de que o arquivo de importação esteja formata
 - A coluna *Estado* não está vazia, pois essa informação é necessária
 
 ### <a name="powerapps"></a>PowerApps
+
 Ajude seus usuários a concluir tarefas, como inserir período de férias ou informar despesas, adicionando PowerApps existentes aos seus indicadores. 
 
 #### <a name="what-are-powerapps"></a>O que são PowerApps?
+
 PowerApps é um serviço que permite criar aplicativos de negócios que são executados em um navegador, telefone ou tablet sem necessidade de nenhuma experiência de codificação. PowerApps funcionam em qualquer navegador e em qualquer dispositivo, e leva menos de um minuto para adicioná-los. Para mais informações sobre PowerApps, consulte:
 - 
   [Aprendizagem Orientada](https://docs.microsoft.com/pt-BR/learn/browse/?products=powerapps)
@@ -163,6 +168,7 @@ PowerApps é um serviço que permite criar aplicativos de negócios que são exe
 - [Página inicial do PowerApps](https://make.preview.powerapps.com/environments/839eace6-59ab-4243-97ec-a5b8fcc104e4/home)
 
 #### <a name="add-a-powerapp-to-a-bookmark"></a>Adicionar um PowerApp a um indicador
+
 1. Encontre o [ID do aplicativo para o PowerApp](https://docs.microsoft.com/pt-BR/powerapps/maker/canvas-apps/get-sessionid#get-an-app-id) que você deseja adicionar.
 1. Faça logon e vá para o **centro de administração do Microsoft 365**.
 1. No painel de navegação, vá para **Configurações** e selecione **Pesquisa da Microsoft**.
@@ -173,9 +179,11 @@ PowerApps é um serviço que permite criar aplicativos de negócios que são exe
 1. Selecione **Publicar** ou **Salvar em Rascunhos**.
 
 ## <a name="qa"></a>P e R
+
 A criação de P e R é semelhante à criação de indicadores. As P e R permitem que você responda uma pergunta do usuário, em vez de apenas fornecer um link para uma página da Web. Você pode formatar a resposta em rich text usando as ferramentas disponíveis. Se um indicador e um P e R compartilham a mesma palavra-chave, o resultado do indicador é mostrado primeiro. Como os Indicadores, o índice de P e R é atualizado imediatamente depois que um P e R é adicionado ou alterado. 
 
 ### <a name="add-or-edit-a-single-qa"></a>Adicione ou edite um único P e R
+
 1. Vá para o **centro de administração do Microsoft 365**.
 1. No painel de navegação, vá para **Configurações** e selecione **Pesquisa da Microsoft**.
 1. Selecione a guia **P e R**. Por padrão, a primeira guia (**Indicadores**) se encontra selecionada.
@@ -185,8 +193,9 @@ Para editar P e R, selecione o P e R na lista P e R relevante.
 1. Salve suas alterações.
 
 #### <a name="supported-html-tags"></a>Tags HTML com suporte
-Você pode usar o conteúdo HTML existente ou adicionar tags HTML à sua resposta (descrição). Tags não compatíveis são ignoradas.  
-As seguintes tags HTML são compatíveis:
+
+Você pode usar o conteúdo HTML ou adicionar marcas HTML à sua resposta (descrição). Damos suporte a essas marcas HTML:
+ 
 - blockquote
 - div
 - em
@@ -204,15 +213,20 @@ As seguintes tags HTML são compatíveis:
 - hr
 - img
 
+As marcas sem suporte serão ignoradas ou exibidas como texto. Certifique-se de visualizar seus cartões.
+
 ### <a name="bulk-add-or-edit-qa"></a>Adicionar ou editar P e R em massa
+
 Os administradores podem usar os recursos de importação e exportação para criar ou editar P e R em massa. Esse é um recurso útil quando os administradores precisam adicionar ou editar um grande número de P e R. 
 
-Use o recurso de importação/exportação para:
-1. Adicionar P e R em massa - Adicione detalhes no arquivo de modelo P e R e importe-o.
-1. Edição em massa de P e R - Exporte P e R para um ficheiro .csv, edite os detalhes de P e R no ficheiro .csv exportado e, em seguida, importe o ficheiro .csv.
-1. Backup de P e R - Exporte P e R para um arquivo .csv.
+Use os recursos de importação e exportação para:
+
+- Adicionar itens de P e R em massa - Adicione detalhes no arquivo de modelo P e R e importe-o.
+- Edição em massa de itens de P e R - Exporte P e R para um ficheiro .csv, edite os detalhes de P e R no ficheiro .csv exportado e, em seguida, importe o ficheiro .csv.
+- Backup de itens de P e R - Exporte P e R para um arquivo .csv.
 
 Para importar ou exportar P e R:
+
 1. No canto superior direito da guia P e R, selecione **Importar**. Selecione **Exportar** para baixar todas as P e R existentes em um arquivo .csv.
 1. No painel direito, escolha a opção de importar usando um arquivo .csv.
 Faça o download do arquivo de modelo para obter uma lista dos campos e detalhes necessários. 
@@ -221,6 +235,7 @@ Faça o download do arquivo de modelo para obter uma lista dos campos e detalhes
 1. Selecione **Importar**.
 
 Aqui estão alguns pontos importantes sobre o arquivo de modelo:
+
 - Nunca edite os dados nesses campos: *Id*, *Última modificação* e *Última modificação por*
 - Se você incluir o *Id* de um indicador existente, ele será substituído pelas informações no arquivo de importação.
 - Se houver um indicador existente com o mesmo título ou URL, o indicador será atualizado com informações no arquivo de importação.
@@ -232,10 +247,12 @@ Aqui estão alguns pontos importantes sobre o arquivo de modelo:
 
 Para obter mais informações sobre como evitar erros, consulte [Evite erros de importação](#prevent-import-errors).
 
-## <a name="location"></a>Locais
-Os Locais ajudam os usuários a encontrarem endereços e localizarem os edifícios da sua organização, fornecendo uma localização precisa para escritórios, campi e edifícios, além de trajetos e navegação. Os administradores devem adicionar todos os locais importantes da sua organização. Ao contrário dos indicadores e das P e R, o índice não é atualizado imediatamente e pode levar várias horas para que locais novos ou alterados apareçam nos resultados de pesquisa.
+## <a name="locations"></a>Locais
+
+Os Locais ajudam os usuários a encontrarem endereços e localizarem os edifícios de sua organização, fornecendo uma localização precisa para escritórios, campi e edifícios, além de trajetos e navegação. Os administradores devem adicionar todos os locais importantes da sua organização. Ao contrário dos indicadores e das P e R, o índice não é atualizado imediatamente e pode levar várias horas para que locais novos ou alterados apareçam nos resultados de pesquisa.
 
 ### <a name="add-or-edit-a-single-location"></a>Adicionar ou editar um único local
+
 1. Vá para o **centro de administração do Microsoft 365**.
 1. No painel de navegação, vá para **Configurações** e selecione **Pesquisa da Microsoft**.
 1. Selecione a guia **Locais**. Por padrão, a guia **Indicadores** se encontra selecionada na página de **Pesquisa da Microsoft**.
@@ -245,14 +262,17 @@ Os Locais ajudam os usuários a encontrarem endereços e localizarem os edifíci
 1. Salve suas alterações.
 
 ### <a name="bulk-add-or-edit-locations"></a>Adicionar ou editar locais em massa
+
 Os administradores podem usar o recurso Importar ou Exportar para adicionar ou editar locais em massa. 
 
 Use o recurso de importação/exportação para:
-1. Adicionar local em massa - Adicione detalhes no arquivo de modelo de local e, em seguida, importe-o. 
-1. Edição em massa de locais - exporte locais para um arquivo .csv, edite os detalhes do local no arquivo .csv exportado e importe o arquivo .csv atualizado.
-1. Backup de locais – exporte locais existentes para um arquivo .csv.
+
+- Adicionar local em massa - Adicione detalhes no arquivo de modelo de local e, em seguida, importe-o. 
+- Edição em massa de locais - exporte locais para um arquivo .csv, edite os detalhes do local no arquivo .csv exportado e importe o arquivo .csv atualizado.
+- Backup de locais – exporte locais existentes para um arquivo .csv.
 
 Para exportar ou importar locais:
+
 1. No canto superior direito da guia **Locais**, selecione **Importar**.
 Selecione **Exportar** para baixar os locais existentes em um arquivo .csv.
 1. No painel direito, escolha a opção de importar usando um arquivo .csv. Faça o download do arquivo de modelo para obter uma lista dos campos e detalhes necessários.
@@ -261,6 +281,7 @@ Selecione **Exportar** para baixar os locais existentes em um arquivo .csv.
 1. Selecione **Importar**.
 
 Aqui estão alguns pontos importantes sobre o arquivo de modelo:
+
 - Nunca edite os dados nesses campos: *Id*, *Última modificação* e *Última modificação por*
 - Se você incluir o *Id* de um indicador existente, ele será substituído pelas informações no arquivo de importação.
 - Se houver um indicador existente com o mesmo título ou URL, o indicador será atualizado com informações no arquivo de importação.
@@ -273,10 +294,13 @@ Aqui estão alguns pontos importantes sobre o arquivo de modelo:
 Para obter mais informações sobre como evitar erros, consulte [Evitar erros de importação.](#prevent-import-errors)
 
 ## <a name="review-and-update-bookmarks-qa-and-locations"></a>Revise e atualize Indicadores, P e R e Locais
-A **Pesquisa da Microsoft** fornece estatísticas de uso para Indicadores, P e R e Locais. As estatísticas de uso mostram como os usuários estão interagindo com seus resultados de pesquisa e se os usuários estão encontrando o que estão procurando ou se há alguma lacuna no conteúdo disponível? Elas ajudam o administrador a monitorar o desempenho e tomar as ações apropriadas para ajustar os resultados da pesquisa. 
+
+ A Pesquisa da Microsoft fornece estatísticas de uso para Indicadores, P e R e Locais. As estatísticas de uso mostram como os usuários estão interagindo com seus resultados de pesquisa e se os usuários estão encontrando o que estão procurando ou se há alguma lacuna no conteúdo disponível? Elas ajudam o administrador a monitorar o desempenho e tomar as ações apropriadas para ajustar os resultados da pesquisa. 
 
 ### <a name="get-details-about-bookmarks-qa-and-locations"></a>Obter detalhes sobre Indicadores, P e R e Locais
+
 Veja quantos Indicadores, P e R e Locais foram publicados, programados ou sugeridos. Use o painel para ver os totais de Indicadores, P e R ou Locais por status:
+
 - **Publicado:** o número de resultados publicados que estão disponíveis para os usuários.
 - **Agendado:** o número de resultados agendados no pipeline de publicação.
 - **Sugerido:** o número de sugestões dos usuários.
@@ -284,11 +308,13 @@ Veja quantos Indicadores, P e R e Locais foram publicados, programados ou sugeri
 Indicadores, P e R e Locais sugeridos são bons indicadores de lacunas no seu conteúdo. Isso ajudará você a entender o que os usuários estão procurando e não encontrando. Isso pode indicar que você precisa criar mais Indicadores, P e R ou Locais, ou precisa atualizar seu conteúdo existente usando palavras-chave melhores, palavras-chave reservadas e cadeias de caracteres de pesquisa para melhorar a capacidade de descoberta do conteúdo.
 
 ### <a name="review-top-search-queries"></a>Examine as principais consultas de pesquisa
+
 Descubra quais pesquisas geraram mais impressões nos últimos 90 dias. Impressão refere-se a quantas vezes uma página foi visualizada no resultado de pesquisa. O cartão **Principais Consultas** mostra as 25 principais pesquisas de usuários para cada tipo de resultado, com o número total de pesquisas e sua taxa de cliques (CTR). Use esse relatório para identificar o volume da consulta de pesquisa e determinar consultas com atividade de pesquisa alta e baixa. 
 
 A baixa contagem de pesquisas pode indicar insatisfação do usuário, porque os usuários não estão procurando por esse conteúdo de pesquisa ou estão usando palavras-chave diferentes para encontrar esse conteúdo. A CTR mostra com que frequência os usuários selecionam os resultados promovidos e indica qual a utilidade das suas regras e resultados de consulta para os usuários. Uma CTR baixa indica que os usuários estão encontrando o conteúdo, mas estão determinando que o conteúdo não atende à pesquisa. Nesses casos, os administradores podem decidir revisar o conteúdo e garantir que corresponda à pesquisa do usuário, atualizando títulos, descrições e palavras-chave para alinhá-lo às consultas de pesquisa do usuário. 
 
 ### <a name="analyze-impressions-by-result-type"></a>Analise impressões por tipo de resultado
+
 Os gráficos fáceis de ler no cartão **Distribuição de Impressões por Tipo de Resultado** mostram impressões ao longo de vários períodos de tempo. A linha do tempo mostra o número de diário de impressões para um tipo de resultado. Determine qual tipo de resultado é mais frequentemente ou raramente usado. O uso pouco frequente de determinado tipo de resultado não significa necessariamente que os tipos de resultado não sejam bons. Apenas mostra como os usuários estão usando o resultado da pesquisa.
 
 Use este relatório para entender quais tipos de resultados os usuários estão usando e quaisquer alterações no comportamento dos usuários durante um período de tempo. Se um determinado tipo de resultado for preferido pelos usuários, os administradores podem decidir criar mais resultados de pesquisa do mesmo tipo ou revisar as palavras-chave de tipos de resultados não usados pelos usuários para garantir que as estas sejam apropriadas.

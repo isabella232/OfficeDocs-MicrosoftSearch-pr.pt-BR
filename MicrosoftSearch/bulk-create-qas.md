@@ -15,17 +15,17 @@ search.appverid:
 ms.assetid: 7bada218-8908-4956-aae3-6ffaeef384ca
 ROBOTS: NoIndex
 description: Adicione respostas a perguntas frequentes rapidamente com ferramentas de importação no portal de administração da Pesquisa da Microsoft
-ms.openlocfilehash: 7368014f3bc2f21a788625f0bf826af963366e1b
-ms.sourcegitcommit: be2e837d9b087bffe6ce40d72d7ae58a8fcdf3fe
+ms.openlocfilehash: c0ec4aaa0ee93e94c8569dc383456018ccc6679d
+ms.sourcegitcommit: c2c9e66af1038efd2849d578f846680851f9e5d2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/30/2019
-ms.locfileid: "34591364"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "36639771"
 ---
 # <a name="bulk-create-qas"></a>Criar P e R em massa
 
 > [!IMPORTANT]
-> Este artigo se aplica à Pesquisa da Microsoft no portal de administração do Bing. Estamos movendo o portal para o centro de administração do Microsoft 365 e, posteriormente, ele será removido. Recomendamos que você use o centro de administração do Microsoft 365 para começar. [Visão geral da Pesquisa da Microsoft.](overview-microsoft-search.md)
+> Este artigo se aplica à Pesquisa da Microsoft no portal de administração do Bing. Estamos movendo o portal para o centro de administração do Microsoft 365 e, em seguida, a Pesquisa da Microsoft no portal do Bing será removida. Recomendamos que você use o centro de administração do Microsoft 365 para começar. [Visão geral da Pesquisa da Microsoft.](overview-microsoft-search.md)
     
 Baixe e use o modelo .csv para criar e editar P e R em massa. Também é uma maneira simples de salvar em massa rascunhos de perguntas e respostas que precisam de edições e atualizações adicionais. Para editar perguntas e respostas existentes em massa, exporte-as do portal de administração, faça as edições necessárias e depois importe-as.
   

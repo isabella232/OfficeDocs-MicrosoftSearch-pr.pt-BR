@@ -1,8 +1,8 @@
 ---
 title: Definir mecanismo de pesquisa padrão
-ms.author: dawholl
-author: dawholl
-manager: kellis
+ms.author: anfowler
+author: adefowler
+manager: shohara
 ms.date: 12/20/2018
 ms.audience: Admin
 ms.topic: article
@@ -15,86 +15,20 @@ search.appverid:
 ms.assetid: ee40010e-5d7f-4ba8-a3f8-d240dab3af6d
 ROBOTS: NOINDEX
 description: Saiba como configurar o Bing como o mecanismo de pesquisa padrão da sua empresa usando a Pesquisa da Microsoft.
-ms.openlocfilehash: 36e8a50a7b6acda553b82d4b95a57a378818f7ec
-ms.sourcegitcommit: fe7f3dae4edba97071a4d127e8a27bdf4fa00d81
+ms.openlocfilehash: cc03e3aa280ea621702ce99c2cc8eb530b310251
+ms.sourcegitcommit: c2c9e66af1038efd2849d578f846680851f9e5d2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "34727983"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "36639834"
 ---
-# <a name="set-default-search-engine"></a>Definir mecanismo de pesquisa padrão
+# <a name="make-bing-the-default-search-engine"></a>Definir o Bing como mecanismo de pesquisa padrão
+  
+Este artigo explica como tornar o Bing o mecanismo de pesquisa padrão para o Microsoft Edge, Google Chrome e Internet Explorer. 
+  
+## <a name="microsoft-edge-on-windows-10-version-1703-or-later"></a>Microsoft Edge no Windows 10, Versão 1703 ou posterior
 
-  
-Configurar o navegador, o mecanismo de pesquisa e a home page padrão ajuda os usuários a descobrir os recursos, promove o uso e proporciona uma experiência aprimorada da Pesquisa da Microsoft.
-  
-Para definir o mecanismo de pesquisa padrão da organização, execute os procedimentos abaixo.
-  
-## <a name="internet-explorer"></a>Internet Explorer
-
-### <a name="internet-explorer-11"></a>Internet Explorer 11
-
-Os usuários poderão alterar o provedor de pesquisa após a definição dessa política.
-  
-#### <a name="1-configure-the-local-machine-that-will-be-used-to-set-the-gpo"></a>1. Configure o computador local que será usado para configurar o GPO.
-
-Cole o texto a seguir em um arquivo reg (\*.reg).
-  
-Editor do Registro do Windows Versão 5.00
-  
-<pre>[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\SearchScopes]
-"DefaultScope"="{D54CD0C8-C007-4BC4-B2DD-1E4896B8406D}"
-[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\SearchScopes\{D54CD0C8-C007-4BC4-B2DD-1E4896B8406D}]
-"Codepage"=dword:0000fde9
-"DisplayName"="Microsoft Search in Bing"
-"OSDFileURL"="https://www.bing.com/sa/osd/bfb.xml"
-"FaviconURL"="https://www.bing.com/sa/simg/bb.ico"
-"SuggestionsURL_JSON"="https://business.ing.com/api/v2/browser/suggest?q={searchTerms}&amp;form=BFBSPA"
-"ShowSearchSuggestions"=dword:00000001
-"URL"="https://www.bing.com/business/search?q={searchTerms}&amp;form=BFBSPR"</pre>
-  
-Clique duas vezes no arquivo criado e siga as etapas para importar o arquivo. Uma importação bem-sucedida deve resultar na seguinte caixa de diálogo:
-  
-![Mensagem de importação bem-sucedida do Editor do registro](media/ea3686b9-f6d7-481e-9a0d-2c96891bc501.png)
-  
-#### <a name="2-open-the-group-policy-management-console-gpmcmsc-and-switch-to-editing-an-existing-policy-or-creating-a-new-one"></a>2. Abra o Console de Gerenciamento de Política de Grupo (gpmc.msc) e a opção para editar uma política existente ou criar uma nova
-
-1. Navegue até **Usuário Configuração\Políticas\Preferências\Configurações do Windows**.
-    
-2. Clique com botão direito em **Registro\Novo** e selecione **Assistente do registro**. Na janela do Navegador do registro, selecione **Computador local** e clique em **Próximo**.
-    
-3. Navegue até **HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer\SearchScopes**.
-    
-4. Nesta chave, certifique-se de selecionar DefaultScope.
-    
-    ![Navegador de registro com DefaultScope selecionado](media/ec5a450d-0cba-4e9c-acba-1a09e8e90bad.png)
-  
-5. Marque todas as subchaves com a GUID da Pesquisa da Microsoft no Bing e todos os valores na chave, exceto qualquer caminho ao perfil do usuário. Role para baixo para escolher outros itens.
-    
-    ![Navegador de registro com outros valores selecionados](media/7eef7690-8bc5-46cf-9cd8-bd134fc77a02.png)
-  
-6. Clique em Concluir para finalizar essa configuração.
-    
-#### <a name="3-set-up-user-preferences-to-help-eliminate-a-warning-the-user-may-get-when-defaultscope-search-is-enforced"></a>3. Configure as Preferências do usuário para ajudar a eliminar um aviso que o usuário pode receber quando a pesquisa DefaultScope for aplicada
-
-Este aviso é projetado e avisa os usuários que um programa está tentando modificar suas configurações.
-  
-1. Dentro do mesmo GPO, clique com o botão direito do mouse em **Registro\Novo** e selecione **Assistente do Registro**.
-    
-2. Navegue até **HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer\User Preferences**.
-    
-3. Selecione a chave **User Preference**.
-    
-4. Clique em **Concluir**.
-    
-5. Clique no objeto recém-criado. No painel do lado direito, clique duas vezes no objeto Preferências do usuário, altere a **Ação** para **Excluir e salvar**.
-    
-Aplique o GPO resultante ao vinculá-lo ao domínio apropriado.
-  
-## <a name="microsoft-edge"></a>Microsoft Edge
-
-### <a name="windows-10-version-1703-or-later"></a>Windows 10, versão 1703 ou posterior.
-
-Os usuários poderão alterar o provedor de pesquisa após a definição dessa política.
+Embora você defina o Bing como mecanismo de pesquisa padrão, o Microsoft Edge permite que os usuários alterem as configurações para usar um mecanismo de pesquisa diferente.
   
 Para obter os arquivos ADMX mais recentes para várias versões do Windows, confira [Como criar e gerenciar um Repositório central para modelos administrativos de política de grupo do Windows](https://support.microsoft.com/pt-BR/help/3087759/how-to-create-and-manage-the-central-store-for-group-policy-administra).
   
@@ -112,13 +46,12 @@ Cada domínio processado pelo controlador deve ter uma pasta separada. O comando
     
 1. Clique duas vezes em **Definir mecanismo de pesquisa padrão**, defina como **Habilitado** e insira `https://www.bing.com/sa/osd/bfb.xml`
     
-3. Aplique o GPO resultante ao vinculá-lo ao domínio apropriado.
-    
-## <a name="google-chrome"></a>Google Chrome
+3. Aplique o GPO resultante vinculando-o ao domínio apropriado.
 
-### <a name="windows-xp-sp2-or-later"></a>Windows XP SP2 ou posterior
 
-Os usuários não poderão alterar o provedor de pesquisa após a definição dessa política.
+## <a name="google-chrome-on-windows-xp-sp2-or-later"></a>Google Chrome no Windows XP SP2 ou posterior
+
+Os usuários não poderão alternar o mecanismo de pesquisa padrão após a definição dessa política.
   
 O Chrome vem com seu próprio conjunto de configurações de políticas de grupo que pode ser baixado na forma de um arquivo ADMX em [Ajuda do Google Chrome Enterprise](https://support.google.com/chrome/a/answer/187202). Se forem usados os sistemas operacionais Windows Vista/Server 2008 ou posteriores para gerenciar o GPO do domínio, o arquivo ADMX incluído neste pacote cuida das configurações do Chrome no Windows XP SP2 ou posterior.
   
@@ -155,3 +88,61 @@ Cada domínio processado pelo controlador deve ter uma pasta separada. O comando
 10. Aplique o GPO resultante ao vinculá-lo ao domínio apropriado.
     
 Configure o mecanismo de pesquisa padrão para adicionar o recurso de sugestões da Pesquisa da Microsoft na barra de endereços do navegador. Atualmente há suporte apenas para indicadores. Os usuários verão as duas principais sugestões de indicadores acima das sugestões da web pública conforme digitam na barra de endereço.
+
+## <a name="internet-explorer-11-or-later"></a>Internet Explorer 11 ou posterior
+
+Os usuários poderão alterar o provedor de pesquisa após a definição dessa política.
+  
+### <a name="step-1-configure-the-local-machine-that-will-be-used-to-set-the-gpo"></a>ETAPA 1. Configure o computador local que será usado para configurar o GPO
+
+Cole o texto a seguir em um arquivo reg (\*.reg).
+  
+Editor do Registro do Windows Versão 5.00
+  
+<pre>[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\SearchScopes]
+"DefaultScope"="{D54CD0C8-C007-4BC4-B2DD-1E4896B8406D}"
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\SearchScopes\{D54CD0C8-C007-4BC4-B2DD-1E4896B8406D}]
+"Codepage"=dword:0000fde9
+"DisplayName"="Microsoft Search in Bing"
+"OSDFileURL"="https://www.bing.com/sa/osd/bfb.xml"
+"FaviconURL"="https://www.bing.com/sa/simg/bb.ico"
+"SuggestionsURL_JSON"="https://business.ing.com/api/v2/browser/suggest?q={searchTerms}&amp;form=BFBSPA"
+"ShowSearchSuggestions"=dword:00000001
+"URL"="https://www.bing.com/business/search?q={searchTerms}&amp;form=BFBSPR"</pre>
+  
+Clique duas vezes no arquivo criado e siga as etapas para importar o arquivo. Uma importação bem-sucedida deve resultar na seguinte caixa de diálogo:
+  
+![Mensagem de importação bem-sucedida do Editor do registro](media/ea3686b9-f6d7-481e-9a0d-2c96891bc501.png)
+  
+### <a name="step-2-open-the-group-policy-management-console-gpmcmsc-and-switch-to-editing-an-existing-policy-or-creating-a-new-one"></a>ETAPA 2. Abra o Console de Gerenciamento de Política de Grupo (gpmc.msc) e alterne para editar uma política existente ou criar uma nova.
+
+1. Navegue até **Usuário Configuração\Políticas\Preferências\Configurações do Windows**.
+    
+2. Clique com botão direito em **Registro\Novo** e selecione **Assistente do registro**. Na janela do Navegador do registro, selecione **Computador local** e clique em **Próximo**.
+    
+3. Navegue até **HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer\SearchScopes**.
+    
+4. Nesta chave, certifique-se de selecionar DefaultScope.
+    
+    ![Navegador de registro com DefaultScope selecionado](media/ec5a450d-0cba-4e9c-acba-1a09e8e90bad.png)
+  
+5. Marque todas as subchaves com a GUID da Pesquisa da Microsoft no Bing e todos os valores na chave, exceto qualquer caminho ao perfil do usuário. Role para baixo para escolher outros itens.
+    
+    ![Navegador de registro com outros valores selecionados](media/7eef7690-8bc5-46cf-9cd8-bd134fc77a02.png)
+  
+6. Clique em Concluir para finalizar essa configuração.
+    
+### <a name="step-3-set-up-user-preferences-to-help-eliminate-a-warning-the-user-may-get-when-defaultscope-search-is-enforced"></a>ETAPA 3. Configurar as Preferências do usuário para ajudar a eliminar o aviso que o usuário pode receber quando a pesquisa DefaultScope for aplicada
+
+Este aviso é projetado e avisa os usuários que um programa está tentando modificar suas configurações.
+  
+1. Dentro do mesmo GPO, clique com o botão direito do mouse em **Registro\Novo** e selecione **Assistente do Registro**.
+    
+2. Navegue até **HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer\User Preferences**.
+    
+3. Selecione a chave **User Preference**.
+    
+4. Clique em **Concluir**.
+    
+5. Clique no objeto recém-criado. No painel do lado direito, clique duas vezes no objeto Preferências do usuário, altere a **Ação** para **Excluir e salvar**.
+1. Aplique o GPO resultante vinculando-o ao domínio apropriado.

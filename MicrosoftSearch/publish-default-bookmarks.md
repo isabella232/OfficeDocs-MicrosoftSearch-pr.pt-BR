@@ -15,17 +15,17 @@ search.appverid:
 ms.assetid: d49a0b97-e4ca-47cf-ad52-6113787b8402
 ROBOTS: NOINDEX
 description: Indicadores padrão que estão disponíveis no portal de administração da Pesquisa da Microsoft
-ms.openlocfilehash: 06d4ee1eccacc288982d3824c5c0aab7bcfdbe55
-ms.sourcegitcommit: be2e837d9b087bffe6ce40d72d7ae58a8fcdf3fe
+ms.openlocfilehash: f158912993a2e127c1c3a25bcad3513be05874e0
+ms.sourcegitcommit: c2c9e66af1038efd2849d578f846680851f9e5d2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/30/2019
-ms.locfileid: "34591184"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "36639885"
 ---
 # <a name="publish-default-bookmarks"></a>Publicar indicadores padrão
 
 > [!IMPORTANT]
-> Este artigo se aplica à Pesquisa da Microsoft no portal de administração do Bing. Estamos movendo o portal para o centro de administração do Microsoft 365 e, em seguida, ele será removido. Recomendamos que você use o centro de administração do Microsoft 365 para começar. [Visão geral da Pesquisa da Microsoft.](overview-microsoft-search.md)
+> Este artigo se aplica à Pesquisa da Microsoft no portal de administração do Bing. Estamos movendo o portal para o centro de administração do Microsoft 365 e, em seguida, a Pesquisa da Microsoft no portal do Bing será removida. Recomendamos que você use o centro de administração do Microsoft 365 para começar. [Visão geral da Pesquisa da Microsoft.](overview-microsoft-search.md)
 
 Para ver rapidamente como os indicadores aparecem no Bing, publique os padrões fornecidos. Use-os como referência para entender como nomear indicadores e criar boas palavras-chave.
   

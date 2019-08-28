@@ -15,17 +15,17 @@ search.appverid:
 ms.assetid: 41b9b33d-fcc4-470c-90ec-068211fbbb16
 ROBOTS: NOINDEX
 description: Assinaturas e requisitos do Office 365 para habilitar a Pesquisa da Microsoft
-ms.openlocfilehash: 029bab5b88a800786f137941df1077b28d4398b7
-ms.sourcegitcommit: be2e837d9b087bffe6ce40d72d7ae58a8fcdf3fe
+ms.openlocfilehash: 5fbdd306c4ed34ff4dea14cd1b53ad1d55715e32
+ms.sourcegitcommit: c2c9e66af1038efd2849d578f846680851f9e5d2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/30/2019
-ms.locfileid: "34591211"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "36639870"
 ---
 # <a name="requirements-for-microsoft-search"></a>Requisitos para a Pesquisa da Microsoft
 
 > [!IMPORTANT]
-> Este artigo se aplica à Pesquisa do Microsoft no portal de administração do Bing. Estamos movendo o portal para o centro de administração do Microsoft 365 e, posteriormente, ele será removido. Recomendamos que você use o centro de administração do Microsoft 365 para começar. [Visão geral da Pesquisa da Microsoft.](overview-microsoft-search.md)
+> Este artigo se aplica à Pesquisa da Microsoft no portal de administração do Bing. Estamos movendo o portal para o centro de administração do Microsoft 365 e, em seguida, a Pesquisa da Microsoft no portal do Bing será removida. Recomendamos que você use o centro de administração do Microsoft 365 para começar. [Visão geral da Pesquisa da Microsoft.](overview-microsoft-search.md)
 
 Os requisitos de locatário do Office 365 para habilitar a Pesquisa da Microsoft são os seguintes: 
   

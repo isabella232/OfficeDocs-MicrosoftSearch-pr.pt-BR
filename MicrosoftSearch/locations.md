@@ -15,17 +15,17 @@ search.appverid:
 ms.assetid: 2379e72c-a7da-4e3f-932a-12d431a0a284
 ROBOTS: NOINDEX
 description: Visão geral de todas as maneiras de incluir os locais da sua organização nos resultados de trabalho da Pesquisa da Microsoft
-ms.openlocfilehash: 9eb61d206852759ade3cb668a3d9c0dee83c424f
-ms.sourcegitcommit: be2e837d9b087bffe6ce40d72d7ae58a8fcdf3fe
+ms.openlocfilehash: 1c8aed7931eb3586bbf2b79251afa94152656cd3
+ms.sourcegitcommit: c2c9e66af1038efd2849d578f846680851f9e5d2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/30/2019
-ms.locfileid: "34591571"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "36639861"
 ---
 # <a name="locations"></a>Locais
 
 > [!IMPORTANT]
-> Este artigo se aplica à Pesquisa do Microsoft no portal de administração do Bing. Estamos movendo o portal para o centro de administração do Microsoft 365 e, posteriormente, ele será removido. Recomendamos que você use o centro de administração do Microsoft 365 para começar. [Visão geral da Pesquisa da Microsoft.](overview-microsoft-search.md)
+> Este artigo se aplica à Pesquisa da Microsoft no portal de administração do Bing. Estamos movendo o portal para o centro de administração do Microsoft 365 e, em seguida, a Pesquisa da Microsoft no portal do Bing será removida. Recomendamos que você use o centro de administração do Microsoft 365 para começar. [Visão geral da Pesquisa da Microsoft.](overview-microsoft-search.md)
     
 ## <a name="add-locations"></a>Adicionar locais
 

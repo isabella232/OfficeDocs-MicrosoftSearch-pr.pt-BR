@@ -15,17 +15,17 @@ search.appverid:
 ms.assetid: 41723aec-435c-400e-a818-6b1e8a1324c0
 ROBOTS: NoIndex
 description: Atribua permissões e funções a administradores e editores da Pesquisa da Microsoft
-ms.openlocfilehash: e29de1b38c0014d282168b4771f8400b2deb6ee3
-ms.sourcegitcommit: be2e837d9b087bffe6ce40d72d7ae58a8fcdf3fe
+ms.openlocfilehash: af89aa2d536baa64f16b0c2b2ff316200c83cbc0
+ms.sourcegitcommit: c2c9e66af1038efd2849d578f846680851f9e5d2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/30/2019
-ms.locfileid: "34591373"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "36639645"
 ---
 # <a name="manage-users"></a>Gerenciamento de usuários
 
 > [!IMPORTANT]
-> Este artigo se aplica à Pesquisa da Microsoft no portal de administração do Bing. Estamos movendo o portal para o centro de administração do Microsoft 365 e, posteriormente, ele será removido. Recomendamos que você use o centro de administração do Microsoft 365 para começar. [Visão geral da Pesquisa da Microsoft.](overview-microsoft-search.md)
+> Este artigo se aplica à Pesquisa da Microsoft no portal de administração do Bing. Estamos movendo o portal para o centro de administração do Microsoft 365 e, em seguida, a Pesquisa da Microsoft no portal do Bing será removida. Recomendamos que você use o centro de administração do Microsoft 365 para começar. [Visão geral da Pesquisa da Microsoft.](overview-microsoft-search.md)
     
 Os editores podem adicionar conteúdo, mas não podem alterar as configurações
   

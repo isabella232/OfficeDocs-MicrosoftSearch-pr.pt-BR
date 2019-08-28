@@ -15,17 +15,17 @@ search.appverid:
 ms.assetid: bc3d1d2a-a4d9-4a02-9d7d-deb492e79cd0
 ROBOTS: NOINDEX
 description: Saiba mais sobre as quatro etapas fáceis necessárias para ativar e usar a Pesquisa da Microsoft.
-ms.openlocfilehash: fe6e01c866ca99357ce8bdd5e9cb1b6cee1a2333
-ms.sourcegitcommit: be2e837d9b087bffe6ce40d72d7ae58a8fcdf3fe
+ms.openlocfilehash: 170f798273dae51f447d32f98f458d0154ea9c86
+ms.sourcegitcommit: c2c9e66af1038efd2849d578f846680851f9e5d2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/30/2019
-ms.locfileid: "34591535"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "36639753"
 ---
 # <a name="quick-set-up-for-microsoft-search"></a>Configuração rápida da Pesquisa da Microsoft
 
 > [!IMPORTANT]
-> Este artigo se aplica à Pesquisa do Microsoft no portal de administração do Bing. Estamos movendo o portal para o centro de administração do Microsoft 365 e, posteriormente, ele será removido. Recomendamos que você use o centro de administração do Microsoft 365 para começar. [Visão geral da Pesquisa da Microsoft.](overview-microsoft-search.md)
+> Este artigo se aplica à Pesquisa da Microsoft no portal de administração do Bing. Estamos movendo o portal para o centro de administração do Microsoft 365 e, em seguida, a Pesquisa da Microsoft no portal do Bing será removida. Recomendamos que você use o centro de administração do Microsoft 365 para começar. [Visão geral da Pesquisa da Microsoft.](overview-microsoft-search.md)
     
 Economize tempo, trazendo o melhor da web e trabalho para sua organização.
   

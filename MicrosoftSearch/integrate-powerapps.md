@@ -15,29 +15,24 @@ search.appverid:
 ms.assetid: 1fadcba3-4a7f-4a55-8476-d4e64d49a15f
 ROBOTS: NOINDEX
 description: Incluir aplicativos baseados em navegador nos resultados de indicadores da Pesquisa da Microsoft
-ms.openlocfilehash: d818ab8149032b4664adb90098700d4432a6fbb7
-ms.sourcegitcommit: a7ca4c38d37fbdec58e002e42d865188939d0483
+ms.openlocfilehash: f68b3c2b74f0a5c1712f0e86e86826e1f2c94b58
+ms.sourcegitcommit: c2c9e66af1038efd2849d578f846680851f9e5d2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/15/2019
-ms.locfileid: "35003115"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "36639843"
 ---
 # <a name="integrate-powerapps"></a>Integrar o PowerApps
-
-> [!IMPORTANT]
-> Este artigo se aplica à Pesquisa da Microsoft no portal de administração do Bing. Estamos movendo o portal para o centro de administração do Microsoft 365 e, em seguida, ele será removido. Recomendamos que você use o centro de administração do Microsoft 365 para começar. [Visão geral da Pesquisa da Microsoft.](overview-microsoft-search.md)
-    
+   
 Ajude os usuários a concluir as tarefas, como inserir período de férias ou relatórios de despesas por meio da integração de PowerApps existentes em seus indicadores. PowerApps integrados aparecem em um resultado de indicador, eliminando a necessidade de ir para outro site ou de abrir uma ferramenta separada, o que economiza tempo e esforço.
   
 ## <a name="what-are-powerapps"></a>O que são PowerApps?
 
 PowerApps é um serviço que permite criar aplicativos de negócios que são executados em um navegador, um telefone ou tablet sem necessidade de nenhuma experiência de codificação. Saiba mais:
   
-- 
-  [Aprendizagem Orientada](https://docs.microsoft.com/pt-BR/learn/browse/?products=powerapps)
+- [Aprendizagem Orientada](https://docs.microsoft.com/learn/browse/?products=powerapps)
     
-- 
-  [Documentação](https://docs.microsoft.com/pt-BR/powerapps/)
+- [Documentação](https://docs.microsoft.com/powerapps/)
     
 ## <a name="add-a-powerapp-to-a-bookmark"></a>Adicionar um PowerApp a um indicador
 

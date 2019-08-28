@@ -14,14 +14,17 @@ search.appverid:
 - MOE150
 ms.assetid: 50461cb9-8707-46c1-935a-1b9608a98800
 description: Proteja seus dados corporativos e dos usuários, além de fornecer informações aos usuários autorizados com a Pesquisa da Microsoft
-ms.openlocfilehash: b7b62173dc61d271a4953adbf20a6cf48b122694
-ms.sourcegitcommit: 4eeb78066fd13e906daed3add003398bd9d0f6ca
+ms.openlocfilehash: 7aef4acad9f387e50fb03478a7c00d57fa451c00
+ms.sourcegitcommit: c2c9e66af1038efd2849d578f846680851f9e5d2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/27/2019
-ms.locfileid: "35917565"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "36639609"
 ---
 # <a name="security-for-microsoft-search"></a>Segurança da Pesquisa da Microsoft
+
+> [!IMPORTANT]
+> Este artigo se aplica à Pesquisa da Microsoft no portal de administração do Bing. Estamos movendo o portal para o centro de administração do Microsoft 365 e, em seguida, a Pesquisa da Microsoft no portal do Bing será removida. Recomendamos que você use o centro de administração do Microsoft 365 para começar. [Visão geral da Pesquisa da Microsoft.](overview-microsoft-search.md)
 
 Com a segurança de nível empresarial, a Pesquisa da Microsoft sempre mantém seus usuários e dados protegidos.
 

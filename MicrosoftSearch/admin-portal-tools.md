@@ -15,17 +15,17 @@ search.appverid:
 ms.assetid: 4a824483-2407-4bbd-8f7f-5ebb47817c7e
 ROBOTS: NoIndex
 description: Visão geral das ferramentas da Pesquisa da Microsoft para criar e importar resultados, entrar automaticamente e pesquisar em qualquer lugar
-ms.openlocfilehash: 16beaf5ae2945df19b32b65ae4e65b4989217f9f
-ms.sourcegitcommit: be2e837d9b087bffe6ce40d72d7ae58a8fcdf3fe
+ms.openlocfilehash: d8c725841e70dc90b5ae17fa992a933b8cb3e8c3
+ms.sourcegitcommit: c2c9e66af1038efd2849d578f846680851f9e5d2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/30/2019
-ms.locfileid: "34591346"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "36639627"
 ---
 # <a name="admin-portal-tools"></a>Ferramentas do portal de administração
 
 > [!IMPORTANT]
-> Este artigo se aplica à Pesquisa da Microsoft no portal de administração do Bing. Estamos movendo o portal para o centro de administração do Microsoft 365 e, posteriormente, ele será removido. Recomendamos que você use o centro de administração do Microsoft 365 para começar. [Visão geral da Pesquisa da Microsoft.](overview-microsoft-search.md)
+> Este artigo se aplica à Pesquisa da Microsoft no portal de administração do Bing. Estamos movendo o portal para o centro de administração do Microsoft 365 e, em seguida, a Pesquisa da Microsoft no portal do Bing será removida. Recomendamos que você use o centro de administração do Microsoft 365 para começar. [Visão geral da Pesquisa da Microsoft.](overview-microsoft-search.md)
     
 O portal de administração da Pesquisa da Microsoft inclui ferramentas e recursos criados para administradores, editores e usuários, incluindo:
   
