@@ -3,7 +3,7 @@ title: Configurar a Pesquisa da Microsoft
 ms.author: anfowler
 author: adefowler
 manager: mnirkhe
-ms.date: 05/30/2019
+ms.date: 08/06/2019
 ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Configurar a Pesquisa da Microsoft pela primeira vez.
-ms.openlocfilehash: 55ff009a17f63bfdaa1edf1e14fddfe132e20000
-ms.sourcegitcommit: 4eeb78066fd13e906daed3add003398bd9d0f6ca
+ms.openlocfilehash: 7c80701e83fea7b9b93e4e01f98fd1eeedbfa749
+ms.sourcegitcommit: c2c9e66af1038efd2849d578f846680851f9e5d2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/27/2019
-ms.locfileid: "35917574"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "36639492"
 ---
 # <a name="set-up-microsoft-search"></a>Configurar a Pesquisa da Microsoft
 
@@ -54,21 +54,16 @@ A Pesquisa da Microsoft respeita as configurações de segurança da fonte de co
 | OneNote         | Não é possível pesquisar arquivos inseridos no OneNote. [Alterar as permissões de um bloco de anotações no OneDrive](https://support.office.com/article/B9600CCF-045A-40E6-9913-4A7EB02869A5)                                                                    |
 | Yammer          | [Configurações de segurança do Yammer](https://docs.microsoft.com/Yammer/manage-security-and-compliance/yammer-security-settings)                                                                                                                               |
 
-## <a name="step-2-assign-search-admin-and-search-editor"></a>Etapa 2: Atribua o administrador e editor da Pesquisa da Microsoft
-
-Há duas funções de administrador limitadas para ajudá-lo a oferecer suporte à Pesquisa da Microsoft - **Administrador de Pesquisa** e **Editor de Pesquisa**.
-
-> [!NOTE]
-> A função do administrador e do editor da Pesquisa só concedem permissões ao centro de administração do Microsoft 365, não à **Pesquisa da Microsoft herdada no portal de administração do Bing**. É necessário ser um administrador global para gerenciar a Pesquisa da Microsoft no portal herdado.
-
-Os administradores da Pesquisa influenciam diretamente a experiência de pesquisa para usuários finais. Isso inclui escolher os tipos de resultados que você deseja destacar para seus usuários. Pode ser difícil para uma pessoa escolher e criar conteúdo autoritativo em muitos tópicos diferentes pelos quais os usuários pesquisam em uma organização. Recomendamos que você aproveite a experiência e o conhecimento dos especialistas no assunto (SME) e de outros usuários, adicionando-os como editores da Pesquisa.
+## <a name="step-2-assign-search-admin-and-search-editor"></a>Etapa 2: Atribua o administrador e editor da Pesquisa 
 
 Na Pesquisa da Microsoft, você pode gerenciar as configurações de pesquisa e o conteúdo da sua organização, atribuindo estas duas funções aos usuários:
 
 1. **Administrador de Pesquisa**: Essa função pode criar e gerenciar conteúdo de resultados de pesquisa e definir configurações de consulta para melhorar os resultados de pesquisa na organização. O administrador de Pesquisa gerencia a configuração da Pesquisa da Microsoft e pode realizar todas as tarefas de gerenciamento de conteúdo que um editor de Pesquisa pode.
 2. **Editor de Pesquisa:** Cria, gerencia e exclui conteúdo para a Pesquisa da Microsoft no centro de administração do Microsoft 365. Essa função pode criar e gerenciar conteúdos editoriais, como perguntas frequentes e respostas, locais importantes e localizações, sites e aplicativos pesquisados e usados com frequência.
 
-Atualmente, as funções de administrador e de Editor de Pesquisa devem ser atribuídas por um administrador global. Para saber mais, confira [Atribuir funções de administrador](https://docs.microsoft.com/pt-BR/office365/admin/add-users/assign-admin-roles?view=o365-worldwide).
+Atualmente, as funções de administrador e de editor de Pesquisa devem ser atribuídas por um administrador global. Para saber mais, confira [Atribuir funções de administrador](https://docs.microsoft.com/pt-BR/office365/admin/add-users/assign-admin-roles?view=o365-worldwide).
+
+Os administradores de pesquisa influenciam diretamente a experiência de pesquisa dos usuários finais. Isso inclui escolher os tipos de resultados que você deseja destacar para seus usuários. Pode ser difícil para uma pessoa escolher e criar conteúdo autoritativo em muitos tópicos diferentes pelos quais os usuários pesquisam em uma organização. Recomendamos que você aproveite a experiência e o conhecimento dos especialistas no assunto (SME) e de outros usuários, adicionando-os como editores da Pesquisa.
 
 ## <a name="step-3-make-content-easy-to-find"></a>Etapa 3: Torne o conteúdo fácil de encontrar
 
@@ -86,19 +81,9 @@ Aqui estão alguns exemplos de conteúdo para os quais você deve considerar cri
 - Conteúdo informativo que está disponível para todos; por exemplo, informações sobre a empresa, ajuda para aplicativos do Windows e do Office, etc.
 - Conteúdo que as pessoas na organização geralmente pesquisam no trabalho cotidiano. Pesquisas comuns relacionadas ao trabalho incluem benefícios de funcionários, relatórios de tempo e despesas, envio de pedidos de compras e obtenção de ajuda de serviços de TI.
 
-Para criar e gerenciar conteúdo de pesquisa, consulte [Tornar o conteúdo fácil de encontrar](make-content-easy-to-find.md).
+Para criar e gerenciar conteúdo de pesquisa, confira [Tornar o conteúdo fácil de encontrar](make-content-easy-to-find.md).
 
-## <a name="step-4-test-single-sign-on"></a>Etapa 4: Testar o logon único
-
-A Pesquisa da Microsoft usa o Azure Active Directory (AAD) para autenticar e autorizar o acesso aos dados da sua organização. Isso significa que seus usuários são automaticamente conectados à sua conta corporativa ou de estudante quando você faz logon em um aplicativo do Office 365 ou no Windows 10.
-
-Recomendamos que os usuários da Pesquisa da Microsoft usem o logon único, pois este reduz o número de vezes que os usuários são solicitados a fazer logon. Os administradores devem testar o logon único com um pequeno grupo de usuários para ajudar a identificar problemas de configuração de bloqueio.
-
-Para usuários do Chrome no Windows 10, o logon único funciona somente quando a extensão de logon do Windows 10 e AAD para o Chrome está instalada. Depois de instalada, você pode usar a extensão do Chrome para autenticar facilmente com AAD ao fazer logon em sites compatíveis, incluindo o Office 365 e o Bing. Esta funcionalidade está disponível apenas para usuários autorizados.
-
-Para baixar e instalar a extensão de logon do Windows 10 e AAD para o Chrome, acesse a [Chrome Web Store](https://go.microsoft.com/fwlink/?linkid=2090961).
-
-## <a name="step-5-training-and-communication"></a>Etapa 5: Treinamento e comunicação
+## <a name="step-4-training-and-communication"></a>Etapa 4: Treinamento e comunicação
 
 Estabeleça recursos de autoatendimento que os funcionários possam acessar facilmente por conta própria. Isso ajudará a reduzir a carga total sobre você e sua equipe para impulsionar constantemente as comunicações e auxiliar no autotreinamento e na educação dos funcionários. Forneça aos seus usuários comunicações, perguntas frequentes, vídeos e treinamentos ou webinars gravados. Aqui estão alguns links úteis para começar:
 
@@ -106,9 +91,3 @@ Estabeleça recursos de autoatendimento que os funcionários possam acessar faci
 - [Centro de Treinamento do Office 365](https://support.office.com/office-training-center)
 - 
   [Centro de pesquisa da Microsoft](https://support.office.com/pt-BR/article/-working-title-microsoft-search-center-b8bf5a2c-7515-40a9-9a6a-b8ed382c86bc?ui=en-US&rs=en-US&ad=US)
-
-## <a name="trying-out-microsoft-search-in-bing"></a>Experimentando a Pesquisa da Microsoft no Bing
-
-Você pode desativar a **Pesquisa da Microsoft no Bing**. Se desativada, os usuários não verão o conteúdo da organização na pesquisa do Bing. Por padrão, a Pesquisa da Microsoft no Bing está ativada. Recomendamos que você mantenha a Pesquisa da Microsoft ativada no Bing para obter uma melhor experiência de usuário.
-
-Vá até **Configurações** > **Serviços e suplementos** > **Pesquisa da Microsoft no Bing** para ativá-la ou desativá-la.
