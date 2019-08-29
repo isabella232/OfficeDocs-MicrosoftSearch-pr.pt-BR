@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Obtenha uma visão geral do que é o Microsoft Search, quais são seus benefícios e quais aplicativos possuem o Microsoft Search atualmente.
-ms.openlocfilehash: d16066c941bb5c3619d7fd50e9cf33952216fb87
-ms.sourcegitcommit: a7ca4c38d37fbdec58e002e42d865188939d0483
+ms.openlocfilehash: 339b3d6350fa059ddc4dc24685e18739777bf932
+ms.sourcegitcommit: c2c9e66af1038efd2849d578f846680851f9e5d2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/15/2019
-ms.locfileid: "35003133"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "36639582"
 ---
 # <a name="overview-of-microsoft-search"></a>Visão geral da Pesquisa da Microsoft
 
@@ -60,26 +60,27 @@ Se as sugestões na caixa de pesquisa não correspondem ao que está sendo pesqu
 
 **Administrar em todos os aplicativos** - a Pesquisa da Microsoft se encontra **ativada** por padrão, e qualquer ação de administração se aplica à Pesquisa da Microsoft em todos os aplicativos.
 
-## <a name="apps-that-currently-have-microsoft-search"></a>Aplicativos que possuem a Pesquisa da Microsoft atualmente
+## <a name="apps-that-currently-have-microsoft-search"></a>Aplicativos que atualmente possuem a Pesquisa da Microsoft 
 
- Os seguintes aplicativos do Office 365 oferecem atualmente a Pesquisa da Microsoft:
+ A Pesquisa da Microsoft está ativada por padrão para todos os aplicativos da Microsoft compatíveis. Tudo o que um usuário precisa fazer é entrar com uma conta de corporativa ou de estudante.
 
+Os seguintes aplicativos atualmente oferecem a Pesquisa da Microsoft:
 - SharePoint Online
 - OneDrive for Business
 - Outlook na Web
 - Aplicativos do Office no Windows
 
-Além disso, os usuários encontram a Pesquisa da Microsoft em:
+Além disso, os usuários conectados encontram a Pesquisa da Microsoft em:
 
-- Bing
+- Página inicial do Bing
 - Office.com
 - Páginas iniciais do Word, Excel e PowerPoint Online
 
-Os usuários também podem iniciar uma pesquisa no Bing a partir da barra de endereços do Edge.
+Os usuários também podem iniciar uma pesquisa no Bing a partir da barra de endereços do Microsoft Edge, caso estejam usando o Bing como mecanismo de pesquisa padrão.
 
 ## <a name="requirements"></a>Requisitos
 
-Sua organização deve ter um locatário do Office 365 com uma das seguintes assinaturas:
+É necessário ter uma das seguintes assinaturas do Office 365 ou do Microsoft 365:
 
 - Office 365 Business Essentials e Business Premium
 - Office 365 A1/A3/A5
@@ -90,11 +91,11 @@ Sua organização deve ter um locatário do Office 365 com uma das seguintes ass
 - Microsoft 365 A3/A5
 - Microsoft 365 F1/E3/E5
 
-Tanto os usuários quanto os administradores de pesquisa devem estar licenciados com uma dessas assinaturas. Somente usuários com contas ativas podem usar o Microsoft Search e eles devem estar **conectados**.
+Os usuários e os administradores de pesquisa devem ser atribuídos a essas licenças. Somente usuários com contas ativas podem usar a Pesquisa da Microsoft e devem estar **conectados**, porque a Pesquisa da Microsoft requer o Azure Active Directory
 
 ## <a name="tailoring-microsoft-search-to-your-organization"></a>Personalizar a pesquisa da Microsoft na sua organização
 
-Como administrador, você pode facilitar que os usuários obtenham bons resultados específicos da organização quando eles pesquisarem a partir de sua página inicial do SharePoint, Office.com ou Bing. O Microsoft Search é administrado a partir do centro de administração do Microsoft 365.
+Como administrador, você pode facilitar que os usuários obtenham bons resultados específicos da organização quando eles pesquisarem a partir de sua página inicial do SharePoint, Office.com ou Bing. Para isso, defina as respostas que a Pesquisa da Microsoft deve exibir em resposta a determinadas palavras-chave nas consultas. Existem vários tipos de respostas que você pode escolher: 
 
 **Mostrar conteúdo útil** - Ajude os usuários a encontrar ferramentas e recursos importantes em sua organização adicionando indicadores. Assim como você pode criar um indicador para uma página da Web pública, você pode criar um indicador para qualquer página da Web interna, pela qual os usuários podem pesquisar. Você também pode integrar um Power App no indicador para que os usuários possam concluir suas tarefas diretamente do indicador.
 
@@ -102,11 +103,15 @@ Como administrador, você pode facilitar que os usuários obtenham bons resultad
 
 **Mostrar locais úteis** - Mostre os resultados do mapa e as informações de endereço dos edifícios, escritórios e outros espaços de trabalho da sua organização em um mapa. Os usuários podem usar os mapas para ver rotas, ver o que está por perto e muito mais.
 
+Você pode ver as estatísticas de uso que mostram como os usuários estão interagindo com suas respostas e se estão encontrando o que procuram. Com base nisso, você pode ajustar as respostas ou adicionar novas.
+
+Para obter mais informações sobre as palavras-chave e as palavras-chave reservadas, confira [Tornar o conteúdo acessível](make-content-easy-to-find.md).
+
 ## <a name="what-content-is-searched"></a>Qual conteúdo é pesquisado?
 
-A Pesquisa da Microsoft pesquisa conteúdo armazenado no SharePoint Online, no OneDrive for Business e no Exchange, incluindo pessoas da lista de endereços global e grupos do Office 365. Se a sua organização tiver configurado um ambiente híbrido do SharePoint usando a pesquisa híbrida na nuvem, a Pesquisa da Microsoft retornará resultados de pesquisa do conteúdo do SharePoint online e no local, incluindo qualquer conteúdo externo que você tenha conectado ao seu ambiente do SharePoint Server. [Saiba mais sobre os ambientes de pesquisa híbrida](https://docs.microsoft.com/sharepoint/hybrid/learn-about-cloud-hybrid-search-for-sharepoint).
+A Pesquisa da Microsoft pesquisa conteúdo armazenado pela organização no SharePoint Online, no OneDrive for Business e no Exchange, incluindo a lista de endereços global e grupos do Office 365. O Pesquisa da Microsoft não pesquisa nos locatários ou mostra resultados de conteúdo compartilhados pelas organizações. Se a sua organização tiver configurado um ambiente híbrido do SharePoint usando a pesquisa híbrida na nuvem, a Pesquisa da Microsoft retornará resultados de pesquisa do conteúdo do SharePoint online e no local, incluindo qualquer conteúdo externo que você tenha conectado ao seu ambiente do SharePoint Server. [Saiba mais sobre os ambientes de pesquisa híbrida](https://docs.microsoft.com/sharepoint/hybrid/learn-about-cloud-hybrid-search-for-sharepoint).
 
-Quando os usuários pesquisam na página inicial do SharePoint ou no Office.com, o Microsoft Search pesquisa todo o conteúdo de sua organização e apresenta todos os resultados encontrados. Isso é conhecido como o **escopo de pesquisa global**.
+Quando os usuários pesquisam na página inicial do SharePoint ou no Office.com, a Pesquisa da Microsoft procura todo o conteúdo da organização e apresenta os resultados que o usuário tem permissão de ver. Isso é conhecido como o **escopo de pesquisa global**.
 
 Quando os usuários pesquisam do Bing, eles obtêm os resultados mais relevantes de todo o conteúdo na organização inserida na lista de resultados do **site**. Se for necessário ver **todos** os resultados organizacionais, o escopo da pesquisa global pode ser encontrado com um clique.
 
@@ -130,6 +135,8 @@ Os usuários encontram os seguintes tipos de resultados ao pesquisar:
 
 Quando um usuário efetua uma pesquisa, a Pesquisa da Microsoft processa a consulta e analisa a intenção de pesquisa de frases maiores, usando Inteligência Artificial (AI) para aprender frases supérfluas comuns que os usuários adicionam às consultas e que não afetam a intenção de pesquisa. Por exemplo, quando um usuário pesquisa "como alterar minha senha", as palavras menos importantes são extraídas da consulta, se baseando nas palavras relevantes, como "alterar senha".  
 
+A Pesquisa da Microsoft não cria um novo índice, ela pesquisa os índices existentes do SharePoint Online, do OneDrive for Business e do conteúdo do Exchange.
+
 Os resultados da pesquisa que o usuário tem **permissão** para ver são apresentados na página de resultados da pesquisa. A Pesquisa da Microsoft usa algoritmos de classificação inteligentes para ordenar resultados com base na relevância.
 
 ## <a name="microsoft-search-in-sharepoint"></a>Pesquisa da Microsoft no SharePoint
@@ -143,7 +150,9 @@ Você pode personalizar a experiência de pesquisa clássica, por exemplo, adici
 
 ## <a name="microsoft-search-in-bing"></a>Microsoft Search no Bing
 
-Como as pesquisas relacionadas ao trabalho podem ser confidenciais, o Microsoft Search usa um conjunto de medidas de confiança sobre como essas pesquisas são manipuladas pela parte do Bing em sites públicos.
+Como as pesquisas relacionadas ao trabalho podem ser confidenciais, a Pesquisa da Microsoft usa um conjunto de medidas de confiança sobre como essas pesquisas são manipuladas pela parte do Bing em sites públicos.
+
+As solicitações da Pesquisa da Microsoft sejam feitas por HTTPS. Isso garante que a conexão seja criptografada de ponta a ponta para uma melhor segurança. Adicionalmente, todos os registros de pesquisa relacionados ao tráfego da Pesquisa da Microsoft não são identificados e armazenados separadamente do tráfego público, sem Pesquisa da Microsoft.
 
 Independentemente de uma consulta do usuário conter um ou mais resultados relacionados ao trabalho na resposta retornada, as seguintes medidas são tomadas:
 
