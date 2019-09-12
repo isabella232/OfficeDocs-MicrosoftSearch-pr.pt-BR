@@ -47,7 +47,6 @@ Ensine seus usuários a pesquisar na página inicial do SharePoint e não no Cen
 ## <a name="see-also"></a>Confira também
 [Visão geral da Pesquisa da Microsoft](overview-microsoft-search.md)
 
-
-  [Saiba mais sobre as experiências de pesquisa no SharePoint](https://docs.microsoft.com/pt-BR/sharepoint/overview-of-search)
+[Saiba mais sobre as experiências de pesquisa no SharePoint](https://docs.microsoft.com/pt-BR/sharepoint/overview-of-search)
 
 [Quando usar a experiência de pesquisa no SharePoint](https://docs.microsoft.com/sharepoint/get-started-with-modern-search-experience)
