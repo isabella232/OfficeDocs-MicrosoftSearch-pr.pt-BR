@@ -14,12 +14,12 @@ search.appverid:
 ms.assetid: 94f6fa41-0570-4668-b2fe-d51ed177716c
 ROBOTS: NOINDEX
 description: Saiba como a entrada automática no Microsoft Search pode ajudá-lo a encontrar resultados de trabalho de forma rápida e fácil
-ms.openlocfilehash: a52cc9c88202e662b8598efa451b2bb964a861dc
-ms.sourcegitcommit: be2e837d9b087bffe6ce40d72d7ae58a8fcdf3fe
+ms.openlocfilehash: 31177e8a6c565cbb002a69ac50e16de3056008b4
+ms.sourcegitcommit: 3da22a2e09830672ebf199e05a32fa89b75c083b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/30/2019
-ms.locfileid: "34591031"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "37288960"
 ---
 # <a name="why-am-i-automatically-signed-in"></a>Por que entrei automaticamente?
 
@@ -45,7 +45,7 @@ Você pode sair do Bing a qualquer momento: no canto superior direito de qualque
   
 Você não será conectado automaticamente ao dispositivo. Se você tiver usado outros navegadores ou dispositivos para entrar no Microsoft Search, será necessário sair também. 
   
-Quando você é desconectado, suas pesquisas não recebem proteção adicional. Eles são tratados como pesquisas padrão do Bing Consumer e são regidos pela [declaração de privacidade da Microsoft](https://privacy.microsoft.com/en-us/privacystatement).
+Quando você é desconectado, suas pesquisas não recebem proteção adicional. Eles são tratados como pesquisas padrão do Bing Consumer e são regidos pela [declaração de privacidade da Microsoft](https://privacy.microsoft.com/privacystatement).
   
 ## <a name="view-your-search-history"></a>Exibir o histórico de pesquisa
 

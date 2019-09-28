@@ -14,6 +14,6 @@ Microsoft, Windows, Microsoft Azure e/ou outros produtos e serviços da Microsof
 As licenças para este projeto não concedem direitos de uso de nomes, logotipos ou marcas da Microsoft.
 As diretrizes gerais de marca registrada da Microsoft http://go.microsoft.com/fwlink/?LinkID=254653podem ser encontradas em.
 
-As informações de privacidade podem ser encontradas emhttps://privacy.microsoft.com/en-us/
+As informações de privacidade podem ser encontradas emhttps://privacy.microsoft.com/en-us
 
 A Microsoft e qualquer colaborador reservam todos os outros direitos, seja por meio de seus respectivos direitos autorais, patentes ou marcas comerciais, seja por implicação, embargo ou de outra forma.

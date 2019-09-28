@@ -14,23 +14,24 @@ search.appverid:
 - MOE150
 ms.assetid: 1fadcba3-4a7f-4a55-8476-d4e64d49a15f
 ROBOTS: NOINDEX
-description: Incluir aplicativos baseados em navegador nos resultados de indicadores da Pesquisa da Microsoft
-ms.openlocfilehash: f68b3c2b74f0a5c1712f0e86e86826e1f2c94b58
-ms.sourcegitcommit: c2c9e66af1038efd2849d578f846680851f9e5d2
-ms.translationtype: HT
+description: Incluir aplicativos baseados em navegador nos resultados dos indicadores da pesquisa da Microsoft
+ms.openlocfilehash: 36389a8b53390c7dd18cf98285b0faa6df73c8b4
+ms.sourcegitcommit: 3da22a2e09830672ebf199e05a32fa89b75c083b
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/27/2019
-ms.locfileid: "36639843"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "37288924"
 ---
 # <a name="integrate-powerapps"></a>Integrar o PowerApps
    
-Ajude os usuários a concluir as tarefas, como inserir período de férias ou relatórios de despesas por meio da integração de PowerApps existentes em seus indicadores. PowerApps integrados aparecem em um resultado de indicador, eliminando a necessidade de ir para outro site ou de abrir uma ferramenta separada, o que economiza tempo e esforço.
+Ajudar os usuários a concluir tarefas, como inserir o tempo de férias ou relatar despesas integrando o PowerApps existente em seus indicadores. O PowerApps integrado aparece dentro de um resultado de indicador, eliminando a necessidade de acessar um site diferente ou abrir uma ferramenta separada, o que poupa tempo e esforço.
   
 ## <a name="what-are-powerapps"></a>O que são PowerApps?
 
-PowerApps é um serviço que permite criar aplicativos de negócios que são executados em um navegador, um telefone ou tablet sem necessidade de nenhuma experiência de codificação. Saiba mais:
+PowerApps é um serviço que permite criar aplicativos de negócios que são executados em um navegador, telefone ou tablet sem necessidade de nenhuma experiência de codificação. Saiba mais:
   
-- [Aprendizagem Orientada](https://docs.microsoft.com/learn/browse/?products=powerapps)
+- 
+  [Aprendizagem Orientada](https://docs.microsoft.com/learn/browse/?products=powerapps)
     
 - [Documentação](https://docs.microsoft.com/powerapps/)
     
@@ -38,22 +39,22 @@ PowerApps é um serviço que permite criar aplicativos de negócios que são exe
 
 PowerApps funcionam em qualquer navegador e em qualquer dispositivo, e leva menos de um minuto para adicioná-los.
   
-1. [Encontre o ID do aplicativo para o PowerApp](https://docs.microsoft.com/pt-BR/powerapps/maker/canvas-apps/get-sessionid#get-an-app-id) que você deseja integrar 
+1. [Encontre a ID do aplicativo para o PowerApp](https://docs.microsoft.com/powerapps/maker/canvas-apps/get-sessionid#get-an-app-id) que você deseja integrar.
     
-2. No portal de administração da Pesquisa da Microsoft, vá para **Indicadores**
+2. No portal de administração de pesquisa da Microsoft, acesse **indicadores**
     
-3. Adicionar um indicador ou encontrar um indicador existente ao qual você deseja adicionar um PowerApp
+3. Adicione um indicador ou localize um indicador existente ao qual você deseja adicionar um PowerApp
     
-4. Nas configurações de indicador, clique em **PowerApp**e, em seguida, em **Adicionar um PowerApp**
+4. Nas configurações de indicador, clique em **aplicativo avançado**e em **Adicionar um aplicativo avançado**
     
-5. Insira ou cole o ID do aplicativo
+5. Insira ou cole a ID do aplicativo
     
-    A altura e largura são adicionadas automaticamente. Os indicadores são compatíveis com orientações tipo retrato e paisagem; porém, no momento, o tamanho não pode ser alterado.
+    A altura e a largura são automaticamente adicionadas. Os indicadores são compatíveis com orientações tipo retrato e paisagem; porém, no momento, o tamanho não pode ser alterado.
     
-6. A visualização do indicador mostra como o PowerApp aparecerá no resultado do indicador
+6. A visualização do indicador mostra como o PowerApp será exibido no resultado do indicador
     
     O PowerApp na visualização é totalmente funcional para facilitar o teste e o uso.
     
-7. Clique em **Publicar**
+7. Clique em **publicar**
     
-Quando um usuário autorizado da Pesquisa da Microsoft pesquisa no Bing por qualquer uma das palavras-chave do indicador ou palavras-chave reservadas, o PowerApp aparecerá no resultado do indicador.
+Quando um usuário autorizado da Microsoft Search pesquisa no Bing para qualquer uma das palavras-chave ou reservadas do indicador, o PowerApp aparecerá no resultado do indicador.
