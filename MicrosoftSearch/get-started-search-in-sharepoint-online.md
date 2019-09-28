@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Comece a usar a Pesquisa da Microsoft no SharePoint Online em sua organização
-ms.openlocfilehash: cff89b29b06d1592db15642a697cd414c011ecbc
-ms.sourcegitcommit: 9345523f0143f613c702cd3dcc084b5f7bd6a0b5
+ms.openlocfilehash: 7651339d4c531139522d844cef238d6dc90a2496
+ms.sourcegitcommit: 3da22a2e09830672ebf199e05a32fa89b75c083b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/07/2019
-ms.locfileid: "34767177"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "37288978"
 ---
 # <a name="get-started-with-microsoft-search-in-sharepoint"></a>Comece a usar a Pesquisa da Microsoft no SharePoint
 
@@ -47,6 +47,6 @@ Ensine seus usuários a pesquisar na página inicial do SharePoint e não no Cen
 ## <a name="see-also"></a>Confira também
 [Visão geral da Pesquisa da Microsoft](overview-microsoft-search.md)
 
-[Saiba mais sobre as experiências de pesquisa no SharePoint](https://docs.microsoft.com/pt-BR/sharepoint/overview-of-search)
+[Saiba mais sobre as experiências de pesquisa no SharePoint](https://docs.microsoft.com/sharepoint/overview-of-search)
 
 [Quando usar a experiência de pesquisa no SharePoint](https://docs.microsoft.com/sharepoint/get-started-with-modern-search-experience)

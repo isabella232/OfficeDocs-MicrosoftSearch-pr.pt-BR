@@ -15,12 +15,12 @@ search.appverid:
 ms.assetid: ee40010e-5d7f-4ba8-a3f8-d240dab3af6d
 ROBOTS: NOINDEX
 description: Saiba como configurar o Bing como o mecanismo de pesquisa padrão da sua empresa usando a Pesquisa da Microsoft.
-ms.openlocfilehash: cc03e3aa280ea621702ce99c2cc8eb530b310251
-ms.sourcegitcommit: c2c9e66af1038efd2849d578f846680851f9e5d2
+ms.openlocfilehash: 7c7ec8be726f2ac12a0e07f3d70c4b6515366bf3
+ms.sourcegitcommit: 3da22a2e09830672ebf199e05a32fa89b75c083b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/27/2019
-ms.locfileid: "36639834"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "37289014"
 ---
 # <a name="make-bing-the-default-search-engine"></a>Definir o Bing como mecanismo de pesquisa padrão
   
@@ -30,9 +30,9 @@ Este artigo explica como tornar o Bing o mecanismo de pesquisa padrão para o Mi
 
 Embora você defina o Bing como mecanismo de pesquisa padrão, o Microsoft Edge permite que os usuários alterem as configurações para usar um mecanismo de pesquisa diferente.
   
-Para obter os arquivos ADMX mais recentes para várias versões do Windows, confira [Como criar e gerenciar um Repositório central para modelos administrativos de política de grupo do Windows](https://support.microsoft.com/pt-BR/help/3087759/how-to-create-and-manage-the-central-store-for-group-policy-administra).
+Para obter os arquivos ADMX mais recentes para várias versões do Windows, confira [Como criar e gerenciar um Repositório central para modelos administrativos de política de grupo do Windows](https://support.microsoft.com/help/3087759/how-to-create-and-manage-the-central-store-for-group-policy-administra).
   
-Se a configuração descrita nesta seção não for encontrada dentro do GPMC, baixe o ADMX apropriado e o copie para o repositório central. Para saber mais, confira [Editar GPOs baseados em domínio usando arquivos ADMX](https://docs.microsoft.com/pt-BR/previous-versions/windows/it-pro/windows-vista/cc748955%28v%3dws.10%29). O Repositório central no controlador é uma pasta com a seguinte convenção de nomenclatura:
+Se a configuração descrita nesta seção não for encontrada dentro do GPMC, baixe o ADMX apropriado e o copie para o repositório central. Para saber mais, confira [Editar GPOs baseados em domínio usando arquivos ADMX](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-vista/cc748955%28v%3dws.10%29). O Repositório central no controlador é uma pasta com a seguinte convenção de nomenclatura:
   
  **%systemroot%\sysvol\\<domain\>\policies\PolicyDefinitions**
   
@@ -55,7 +55,7 @@ Os usuários não poderão alternar o mecanismo de pesquisa padrão após a defi
   
 O Chrome vem com seu próprio conjunto de configurações de políticas de grupo que pode ser baixado na forma de um arquivo ADMX em [Ajuda do Google Chrome Enterprise](https://support.google.com/chrome/a/answer/187202). Se forem usados os sistemas operacionais Windows Vista/Server 2008 ou posteriores para gerenciar o GPO do domínio, o arquivo ADMX incluído neste pacote cuida das configurações do Chrome no Windows XP SP2 ou posterior.
   
-Copie o arquivo de modelo em um repositório central para arquivos ADMX no controlador de domínio. Para saber mais, confira [Editando GPOs baseados em domínio usando arquivos ADMX](https://docs.microsoft.com/pt-BR/previous-versions/windows/it-pro/windows-vista/cc748955%28v%3dws.10%29). O repositório central no controlador é uma pasta com a seguinte convenção de nomenclatura:
+Copie o arquivo de modelo em um repositório central para arquivos ADMX no controlador de domínio. Para saber mais, confira [Editando GPOs baseados em domínio usando arquivos ADMX](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-vista/cc748955%28v%3dws.10%29). O repositório central no controlador é uma pasta com a seguinte convenção de nomenclatura:
   
  **%systemroot%\sysvol\\<domain\>\policies\PolicyDefinitions**
   

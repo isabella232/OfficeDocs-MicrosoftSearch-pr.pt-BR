@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Crie indicadores, locais e itens de P e R para facilitar a localização do conteúdo da sua organização.
-ms.openlocfilehash: a2f8018a85d792473f268a735abb368babfc582c
-ms.sourcegitcommit: c2c9e66af1038efd2849d578f846680851f9e5d2
+ms.openlocfilehash: 2ed18cf8dcb855725a7cf3d51737e767000e9e83
+ms.sourcegitcommit: 3da22a2e09830672ebf199e05a32fa89b75c083b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/27/2019
-ms.locfileid: "36639852"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "37288915"
 ---
 # <a name="make-content-easy-to-find"></a>Tornar o conteúdo fácil de encontrar
 
@@ -116,7 +116,7 @@ Por padrão, a guia **Indicadores** se encontra selecionada.
 Os administradores de pesquisa podem criar conteúdo de pesquisa facilmente usando extensões de navegador. Instale a extensão de navegador e, em seguida, vá para o site para o qual você deseja adicionar um indicador e adicione o indicador.
 
 Atualmente, as extensões do navegador estão disponíveis para o Edge e o Chrome. 
-- Para baixar a extensão do Edge, vá para a [Loja da Microsoft](https://www.microsoft.com/en-us/p/microsoft-search-content-creator/9nrqdbcbwq55?activetab=pivot:overviewtab) e baixe o aplicativo.
+- Para baixar a extensão do Edge, vá para a [Loja da Microsoft](https://www.microsoft.com/p/microsoft-search-content-creator/9nrqdbcbwq55?activetab=pivot:overviewtab) e baixe o aplicativo.
 - Para baixar a extensão do Chrome, acesse a [Chrome Web Store](https://chrome.google.com/webstore/detail/microsoft-search-content/nocnablpaoeecfmfnjoheefkogmleipm) e faça o download do aplicativo.
 
 ### <a name="bulk-add-or-edit-bookmarks"></a>Adicionar ou editar indicadores em massa
@@ -161,13 +161,13 @@ Ajude seus usuários a concluir tarefas, como inserir período de férias ou inf
 #### <a name="what-are-powerapps"></a>O que são PowerApps?
 
 PowerApps é um serviço que permite criar aplicativos de negócios que são executados em um navegador, telefone ou tablet sem necessidade de nenhuma experiência de codificação. PowerApps funcionam em qualquer navegador e em qualquer dispositivo, e leva menos de um minuto para adicioná-los. Para mais informações sobre PowerApps, consulte:
-- [Aprendizagem Orientada](https://docs.microsoft.com/pt-BR/learn/browse/?products=powerapps)
-- [Documentação](https://docs.microsoft.com/pt-BR/powerapps/maker/canvas-apps/get-sessionid)
+- [Aprendizagem Orientada](https://docs.microsoft.com/learn/browse/?products=powerapps)
+- [Documentação](https://docs.microsoft.com/powerapps/maker/canvas-apps/get-sessionid)
 - [Página inicial do PowerApps](https://make.preview.powerapps.com/environments/839eace6-59ab-4243-97ec-a5b8fcc104e4/home)
 
 #### <a name="add-a-powerapp-to-a-bookmark"></a>Adicionar um PowerApp a um indicador
 
-1. Encontre o [ID do aplicativo para o PowerApp](https://docs.microsoft.com/pt-BR/powerapps/maker/canvas-apps/get-sessionid#get-an-app-id) que você deseja adicionar.
+1. Encontre o [ID do aplicativo para o PowerApp](https://docs.microsoft.com/powerapps/maker/canvas-apps/get-sessionid#get-an-app-id) que você deseja adicionar.
 1. Faça logon e vá para o **centro de administração do Microsoft 365**.
 1. No painel de navegação, vá para **Configurações** e selecione **Pesquisa da Microsoft**.
 1. Adicione um indicador ou encontre um indicador existente ao qual você deseja adicionar um **PowerApp**.
