@@ -10,6 +10,7 @@
 ##[Gerenciar indicadores](manage-bookmarks.md)
 ##[Gerenciar perguntas e respostas](manage-qas.md)
 ##[Gerenciar locais](manage-locations.md)
+##[Gerenciar plantas baixas](manage-floorplans.md)
 #[Guia de adoção do usuário](user-adoption-guide.md)
 #[Perguntas frequentes](faqs.md)
 #[Usar a Pesquisa da Microsoft](use/about-microsoft-search.md)
