@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Configurar a Pesquisa da Microsoft pela primeira vez.
-ms.openlocfilehash: 7c80701e83fea7b9b93e4e01f98fd1eeedbfa749
-ms.sourcegitcommit: c2c9e66af1038efd2849d578f846680851f9e5d2
+ms.openlocfilehash: 3b3df3e3b3cb3e94abdf57bbb2c7e2db5f174898
+ms.sourcegitcommit: 3da22a2e09830672ebf199e05a32fa89b75c083b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/27/2019
-ms.locfileid: "36639492"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "37288987"
 ---
 # <a name="set-up-microsoft-search"></a>Configurar a Pesquisa da Microsoft
 
@@ -32,7 +32,7 @@ A Pesquisa da Microsoft está ativada por padrão para todos os aplicativos da M
 
 Você administra a Pesquisa da Microsoft a partir do centro de administração do Microsoft 365.
 
-1. No centro de administração do Microsoft 365, acesse **Configurações** > **Microsoft**.
+1. No centro de administração do Microsoft 365, acesse **Configurações** > **Pesquisa da Microsoft**.
 
 **Observação:** se você NÃO estiver vendo a Pesquisa da Microsoft em **Configurações**, habilite a opção**Experimente a visualização** no canto superior direito de qualquer página do centro de administração.
 
@@ -48,7 +48,7 @@ A Pesquisa da Microsoft respeita as configurações de segurança da fonte de co
 | Pessoas          | Você pode ocultar que determinados usuários sejam pesquisados em sua lista de endereços, configurando o parâmetro `HiddenFromAddressListEnabled` para `true`, usando o cmdlet [Set-User](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/set-user). |
 | Microsoft Teams | [Gerenciar o acesso de usuários ao Microsoft Teams](https://docs.microsoft.com/microsoftteams/user-access)                                                                                                                                                      |
 | OneDrive        | [Gerenciar o compartilhamento](https://docs.microsoft.com/OneDrive/manage-sharing)                                                                                                                                                                                |
-| SharePoint      | [Permissões de planejamento](https://docs.microsoft.com/pt-BR/sharepoint/plan-your-permissions-strategy)<br> [Criar níveis de permissões](https://docs.microsoft.com/pt-BR/sharepoint/how-to-create-and-edit-permission-levels)                          |
+| SharePoint      | [Permissões de planejamento](https://docs.microsoft.com/sharepoint/plan-your-permissions-strategy)<br> [Criar níveis de permissões](https://docs.microsoft.com/sharepoint/how-to-create-and-edit-permission-levels)                          |
 | OneNote         | Não é possível pesquisar arquivos inseridos no OneNote. [Alterar as permissões de um bloco de anotações no OneDrive](https://support.office.com/article/B9600CCF-045A-40E6-9913-4A7EB02869A5)                                                                    |
 | Yammer          | [Configurações de segurança do Yammer](https://docs.microsoft.com/Yammer/manage-security-and-compliance/yammer-security-settings)                                                                                                                               |
 
@@ -59,7 +59,7 @@ Na Pesquisa da Microsoft, você pode gerenciar as configurações de pesquisa e 
 1. **Administrador de Pesquisa**: Essa função pode criar e gerenciar conteúdo de resultados de pesquisa e definir configurações de consulta para melhorar os resultados de pesquisa na organização. O administrador de Pesquisa gerencia a configuração da Pesquisa da Microsoft e pode realizar todas as tarefas de gerenciamento de conteúdo que um editor de Pesquisa pode.
 2. **Editor de Pesquisa:** Cria, gerencia e exclui conteúdo para a Pesquisa da Microsoft no centro de administração do Microsoft 365. Essa função pode criar e gerenciar conteúdos editoriais, como perguntas frequentes e respostas, locais importantes e localizações, sites e aplicativos pesquisados e usados com frequência.
 
-Atualmente, as funções de administrador e de editor de Pesquisa devem ser atribuídas por um administrador global. Para saber mais, confira [Atribuir funções de administrador](https://docs.microsoft.com/pt-BR/office365/admin/add-users/assign-admin-roles?view=o365-worldwide).
+Atualmente, as funções de administrador e de editor de Pesquisa devem ser atribuídas por um administrador global. Para saber mais, confira [Atribuir funções de administrador](https://docs.microsoft.com/office365/admin/add-users/assign-admin-roles?view=o365-worldwide).
 
 Os administradores de pesquisa influenciam diretamente a experiência de pesquisa dos usuários finais. Isso inclui escolher os tipos de resultados que você deseja destacar para seus usuários. Pode ser difícil para uma pessoa escolher e criar conteúdo autoritativo em muitos tópicos diferentes pelos quais os usuários pesquisam em uma organização. Recomendamos que você aproveite a experiência e o conhecimento dos especialistas no assunto (SME) e de outros usuários, adicionando-os como editores da Pesquisa.
 
@@ -85,6 +85,6 @@ Para criar e gerenciar conteúdo de pesquisa, confira [Tornar o conteúdo fácil
 
 Estabeleça recursos de autoatendimento que os funcionários possam acessar facilmente por conta própria. Isso ajudará a reduzir a carga total sobre você e sua equipe para impulsionar constantemente as comunicações e auxiliar no autotreinamento e na educação dos funcionários. Forneça aos seus usuários comunicações, perguntas frequentes, vídeos e treinamentos ou webinars gravados. Aqui estão alguns links úteis para começar:
 
-- [Encontre o que você precisa com a Pesquisa da Microsoft no Office](https://support.office.com/article/find-what-you-need-with-microsoft-search-in-office-2457d4d8-48a8-4ad4-ab89-5a0657aa8446?ui=en-US&rs=en-US&ad=US)
+- [Encontre o que você precisa com a Pesquisa da Microsoft no Office](https://support.office.com/article/find-what-you-need-with-microsoft-search-in-office-2457d4d8-48a8-4ad4-ab89-5a0657aa8446)
 - [Centro de Treinamento do Office 365](https://support.office.com/office-training-center)
-- [Centro de pesquisa da Microsoft](https://support.office.com/pt-BR/article/-working-title-microsoft-search-center-b8bf5a2c-7515-40a9-9a6a-b8ed382c86bc?ui=en-US&rs=en-US&ad=US)
+- [Centro de pesquisa da Microsoft](https://support.office.com/article/-working-title-microsoft-search-center-b8bf5a2c-7515-40a9-9a6a-b8ed382c86bc)

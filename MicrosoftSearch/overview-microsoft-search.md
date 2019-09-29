@@ -12,13 +12,13 @@ search.appverid:
 - BFB160
 - MET150
 - MOE150
-description: Obtenha uma visão geral do que é o Microsoft Search, quais são seus benefícios e quais aplicativos possuem o Microsoft Search atualmente.
-ms.openlocfilehash: 339b3d6350fa059ddc4dc24685e18739777bf932
-ms.sourcegitcommit: c2c9e66af1038efd2849d578f846680851f9e5d2
+description: Obtenha uma visão geral do que é a Pesquisa da Microsoft, seus benefícios e quais aplicativos que possuem a Pesquisa da Microsoft atualmente.
+ms.openlocfilehash: 55b6cad9f871eb1eb8d103c51e7cfeda02e6a452
+ms.sourcegitcommit: 3da22a2e09830672ebf199e05a32fa89b75c083b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/27/2019
-ms.locfileid: "36639582"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "37289041"
 ---
 # <a name="overview-of-microsoft-search"></a>Visão geral da Pesquisa da Microsoft
 
@@ -29,7 +29,7 @@ A Pesquisa da Microsoft ajuda os usuários a encontrarem as respostas, pessoas e
 - Os usuários obtêm resultados relevantes no **contexto** do aplicativo a partir do qual pesquisam. Por exemplo, quando a pesquisa é feita no Outlook, emails são encontrados, ao invés de sites no SharePoint. Quando a pesquisa é feita no SharePoint, sites, páginas e arquivos são encontrados.
 - Seja qual for o aplicativo em que os usuários estejam trabalhando; A pesquisa da Microsoft é **pessoal**.  A Pesquisa da Microsoft usa informações do Microsoft Graph para mostrar os resultados relevantes para cada usuário. Cada usuário pode ver resultados diferentes, mesmo que eles pesquisem pelas mesmas palavras. Eles só veem resultados aos quais já têm acesso, a Pesquisa da Microsoft não altera as permissões.
 - Os usuários não precisam se lembrar de onde as informações estão localizadas. Por exemplo, um usuário está trabalhando no Word e deseja reutilizar informações de uma apresentação que um colega compartilhou do seu OneDrive. Não é necessário alternar para o OneDrive e pesquisar por essa apresentação, eles podem simplesmente pesquisar no Word.  
-- Quando no Bing, os usuários encontram resultados de dentro de sua organização e públicos da web.
+- Quando no Bing, os usuários encontram resultados de dentro de sua organização, além dos resultados públicos da web.
 
 ## <a name="what-users-see"></a>O que os usuários visualizam
 
@@ -48,21 +48,21 @@ Se as sugestões na caixa de pesquisa não correspondem ao que está sendo pesqu
 
 ## <a name="benefits-of-microsoft-search"></a>Benefícios do Microsoft Search
 
-**Pesquise no Microsoft 365 a partir de qualquer caixa de Pesquisa da Microsoft** – Os usuários podem pesquisar em qualquer caixa da Pesquisa da Microsoft e voltar rapidamente ao que estavam fazendo. O Microsoft Search reúne resultados de fontes de dados no Office 365, incluindo o SharePoint, o OneDrive for Business e o Exchange.
+**Pesquise no Microsoft 365 a partir de qualquer caixa de Pesquisa da Microsoft** – Os usuários podem pesquisar em qualquer caixa da Pesquisa da Microsoft e voltar rapidamente ao que estavam fazendo. A Pesquisa da Microsoft reúne resultados de fontes de dados no Office 365, incluindo o SharePoint, o OneDrive for Business e o Exchange.
 
 **Fácil de pesquisar** - a Pesquisa da Microsoft sugere resultados com base na atividade anterior dos usuários no Office 365, diretamente na caixa de pesquisa.
 
-**Encontrar arquivos compartilhados** - a Pesquisa da Microsoft usa compreensão avançada de consultas para facilitar a localização de arquivos compartilhados. Os usuários podem encontrar facilmente os arquivos com os quais estão colaborando.
+**Encontrar arquivos compartilhados** - a Pesquisa da Microsoft usa a compreensão avançada de consultas para facilitar a localização de arquivos compartilhados. Os usuários podem encontrar facilmente os arquivos com os quais estão colaborando.
 
 **Mostrar conteúdo relevante** - Promova as informações e respostas que seus usuários precisam para concluir tarefas; por exemplo, políticas, benefícios, recursos, ferramentas e muito mais. Você pode também definir grupos específicos, como novos contratados ou funcionários remotos.
 
 **A Pesquisa da Microsoft evolui** - o conjunto de tipos de conteúdo pelos quais os usuários podem pesquisar e a inteligência da caixa de pesquisa aumentará com o tempo.
 
-**Administrar em todos os aplicativos** - a Pesquisa da Microsoft se encontra **ativada** por padrão, e qualquer ação de administração se aplica à Pesquisa da Microsoft em todos os aplicativos.
+**Administrar em todos os aplicativos** - a Pesquisa da Microsoft está **habilitada** por padrão, e qualquer ação de administração se aplica à Pesquisa da Microsoft em todos os aplicativos.
 
 ## <a name="apps-that-currently-have-microsoft-search"></a>Aplicativos que atualmente possuem a Pesquisa da Microsoft 
 
- A Pesquisa da Microsoft está ativada por padrão para todos os aplicativos da Microsoft compatíveis. Tudo o que um usuário precisa fazer é entrar com uma conta de corporativa ou de estudante.
+ A Pesquisa da Microsoft está habilitada por padrão em todos os aplicativos da Microsoft compatíveis. Tudo o que o usuário precisa fazer é entrar com uma conta de corporativa ou de estudante.
 
 Os seguintes aplicativos atualmente oferecem a Pesquisa da Microsoft:
 - SharePoint Online
@@ -118,7 +118,7 @@ Quando os usuários pesquisam do Bing, eles obtêm os resultados mais relevantes
 ## <a name="what-types-of-results-can-users-find"></a>Quais tipos de resultados os usuários podem encontrar?
 Os usuários encontram os seguintes tipos de resultados ao pesquisar:
 
-**SharePoint**: Arquivos, pastas, pessoas em sua organização, organogramas, sites, páginas de site, notícias, listas e itens de lista. Se definido, respostas a perguntas comuns, indicadores que levam a informações autoritativas, locais de mapa e ferramentas. [Saiba quais tipos de arquivos você pode encontrar](https://docs.microsoft.com/pt-BR/SharePoint/technical-reference/default-crawled-file-name-extensions-and-parsed-file-types).
+**SharePoint**: Arquivos, pastas, pessoas em sua organização, organogramas, sites, páginas de site, notícias, listas e itens de lista. Se definido, respostas a perguntas comuns, indicadores que levam a informações autoritativas, locais de mapa e ferramentas. [Saiba quais tipos de arquivos você pode encontrar](https://docs.microsoft.com/SharePoint/technical-reference/default-crawled-file-name-extensions-and-parsed-file-types).
 
 **As páginas iniciais do Office.com e do Word, Excel e PowerPoint Online**: Aplicativos, arquivos, pastas, pessoas, organogramas, sites do SharePoint, páginas de site, listas e itens de lista. Se definido, respostas a perguntas comuns, indicadores que levam a informações autoritativas, locais de mapa e ferramentas. Arquivos do mesmo tipo que no SharePoint podem ser encontrados.
 
@@ -145,7 +145,7 @@ O Microsoft Search no Sharepoint é a experiência de pesquisa moderna no ShareP
 - Os usuários obtêm a caixa Pesquisa da Microsoft na página inicial do SharePoint, nos sites de hub, nos sites de comunicação e nos sites de equipe modernos.
 - Os usuários veem a caixa de pesquisa clássica em sites de publicação e sites de equipe clássicos, bem como no Centro de Pesquisa.
 
-Você pode personalizar a experiência de pesquisa clássica, por exemplo, adicionando refinadores personalizados à página de resultados de pesquisa ou exibindo um determinado tipo de resultado de maneira diferente. Você não pode personalizar a experiência do Microsoft Search no SharePoint. Algumas das personalizações feitas para a pesquisa clássica podem afetar o Microsoft Search no SharePoint. Se a sua organização for usar os dois tipos de experiências de pesquisa no SharePoint, [saiba mais sobre as diferenças e como evitar que afetem o Microsoft Search no SharePoint](https://docs.microsoft.com/pt-BR/sharepoint/differences-classic-modern-search).
+Você pode personalizar a experiência de pesquisa clássica, por exemplo, adicionando refinadores personalizados à página de resultados de pesquisa ou exibindo um determinado tipo de resultado de maneira diferente. Você não pode personalizar a experiência do Microsoft Search no SharePoint. Algumas das personalizações feitas para a pesquisa clássica podem afetar o Microsoft Search no SharePoint. Se a sua organização for usar os dois tipos de experiências de pesquisa no SharePoint, [saiba mais sobre as diferenças e como evitar que afetem o Microsoft Search no SharePoint](https://docs.microsoft.com/sharepoint/differences-classic-modern-search).
 
 ## <a name="microsoft-search-in-bing"></a>Microsoft Search no Bing
 
@@ -153,13 +153,13 @@ Como as pesquisas relacionadas ao trabalho podem ser confidenciais, a Pesquisa d
 
 As solicitações da Pesquisa da Microsoft sejam feitas por HTTPS. Isso garante que a conexão seja criptografada de ponta a ponta para uma melhor segurança. Adicionalmente, todos os registros de pesquisa relacionados ao tráfego da Pesquisa da Microsoft não são identificados e armazenados separadamente do tráfego público, sem Pesquisa da Microsoft.
 
-Independentemente de uma consulta do usuário conter um ou mais resultados relacionados ao trabalho na resposta retornada, as seguintes medidas são tomadas:
+Independentemente da consulta do usuário conter um ou mais resultados relacionados ao trabalho na resposta retornada, as seguintes medidas são tomadas:
 
 **Registro em log** - Todos os logs de pesquisa relacionados ao tráfego da Pesquisa da Microsoft são anonimizados e retidos por 18 meses. As consultas armazenadas nesses registros do sistema só serão usadas para modelar e treinar recursos públicos, como pesquisas de sugestão automática ou pesquisas relacionadas para resultados públicos da Web quando um conjunto de restrições e limites de frequência forem atendidos, o que nos dá confiança de que essas consultas são comuns e não específicas a uma organização particular. A consulta deve aparecer uma quantidade significativa de vezes para correlacionar dados de usuários não da Pesquisa da Microsoft, e a consulta não deve acionar exclusivamente os resultados da pesquisa corporativa. As consultas que não atenderem a esses requisitos serão armazenadas separadamente do tráfego público, não da Pesquisa da Microsoft. O acesso restrito é gerenciado por vários mecanismos seguros, incluindo os grupos de segurança e outras camadas no sistema de engenharia.
 
-**Histórico de pesquisas** quando você faz logon com uma conta corporativa ou de estudante, o histórico de pesquisa do usuário não fica disponível em outros computadores ou dispositivos.
+**Histórico de pesquisa** - Quando você faz logon com uma conta corporativa ou de estudante, o histórico de pesquisa do usuário não fica disponível em outros computadores ou dispositivos.
 
-**Publicidade** - as consultas de pesquisa corporativa nunca são compartilhadas ou sugeridas aos anunciantes.
+**Publicidade** - As consultas de pesquisa corporativa nunca são compartilhadas ou sugeridas aos anunciantes.
 Os anúncios nunca são direcionados para um usuário com base na sua identidade de trabalho ou da organização.
 
 ## <a name="see-also"></a>Confira também
