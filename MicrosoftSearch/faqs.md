@@ -12,15 +12,14 @@ search.appverid:
 - BFB160
 - MET150
 - MOE150
-ms.assetid: cd3ee09d-58ab-4b8a-8822-fa11a1399672
 ROBOTS: NoIndex
 description: Obtenha respostas para perguntas frequentes comuns sobre o Enterprise Search e a Pesquisa da Microsoft
-ms.openlocfilehash: 3b30980c76915405767381fb3b6397468bdd1b68
-ms.sourcegitcommit: c2c9e66af1038efd2849d578f846680851f9e5d2
+ms.openlocfilehash: d3cf7e4a6f252711f94e90a4e6561c8f25769c27
+ms.sourcegitcommit: 5204b3c85e2fc190a8807d5268fb87145624a969
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/27/2019
-ms.locfileid: "36639493"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "37502925"
 ---
 # <a name="frequently-asked-questions"></a>Perguntas frequentes
 
@@ -59,3 +58,8 @@ Não.
 ## <a name="where-can-i-get-info-about-office-365-and-microsoft-365-compliance-tiers-and-categories"></a>Onde posso obter informações sobre os níveis e categorias de conformidade do Office 365 e do Microsoft 365?
 
 Os detalhes podem ser encontrados em [Estrutura de Conformidade para Padrões e Regulamentações do Setor](https://download.microsoft.com/download/B/2/7/B27B3EF3-8849-4C18-8BA4-5AD755728620/Compliance%20Framework_customer%20guidance.pdf) (baixar o PDF).
+
+## <a name="can-users-earn-microsoft-rewards-points-with-their-work-or-school-account"></a>Os usuários podem ganhar pontos do Microsoft Rewards com uma conta corporativa ou de estudante?
+
+O Microsoft Search exige que os usuários corporativos entrem com uma conta corporativa ou de estudante. No entanto, os usuários não podem participar do Microsoft Rewards ou entrar nele com essas contas. No entanto, há uma situação em que um usuário corporativo pode ver os pontos acumulados. Isso pode acontecer quando um usuário do Microsoft Search tem uma conta Rewards que foi criada com uma <a href="https://www.microsoft.com/en-us/welcome?rtc=1">conta da Microsoft</a>. (O endereço de email associado a uma conta da Microsoft pode ser de Outlook.com, Hotmail.com, Gmail, Yahoo ou outros provedores). Se os usuários entrarem com a conta de trabalho e com a conta da Microsoft na mesma sessão do navegador, eles poderão acumular pontos para a sua conta Rewards. Os usuários podem parar de acumular pontos quando usarem o Microsoft Search limpando os cookies. 
+
