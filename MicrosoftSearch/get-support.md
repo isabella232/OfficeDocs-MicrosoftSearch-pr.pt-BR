@@ -22,9 +22,9 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 05/30/2019
 ms.locfileid: "34591589"
 ---
-# <a name="get-support"></a><span data-ttu-id="626cd-103">Obter suporte</span><span class="sxs-lookup"><span data-stu-id="626cd-103">Get support</span></span>
+# <a name="get-support"></a><span data-ttu-id="4dbef-103">Obter suporte</span><span class="sxs-lookup"><span data-stu-id="4dbef-103">Get support</span></span>
 
-<span data-ttu-id="626cd-104">Tenha acesso ao conhecimento coletivo de outros administradores do Microsoft Search, aprenda com os outros e com especialistas e compartilhe suas experiências na seção do Microsoft Search no [site da Microsoft Tech Community](https://techcommunity.microsoft.com/t5/Microsoft-Search/ct-p/MicrosoftSearch).</span><span class="sxs-lookup"><span data-stu-id="626cd-104">Tap into the collective wisdom of other Microsoft Search admins, learn from each other and experts, and share your experiences on the Microsoft Search section of the [Microsoft Tech Community site](https://techcommunity.microsoft.com/t5/Microsoft-Search/ct-p/MicrosoftSearch).</span></span>
+<span data-ttu-id="4dbef-104">Tenha acesso ao conhecimento coletivo de outros administradores do Microsoft Search, aprenda com os outros e com especialistas e compartilhe suas experiências na seção do Microsoft Search no [site da Microsoft Tech Community](https://techcommunity.microsoft.com/t5/Microsoft-Search/ct-p/MicrosoftSearch).</span><span class="sxs-lookup"><span data-stu-id="4dbef-104">Tap into the collective wisdom of other Microsoft Search admins, learn from each other and experts, and share your experiences on the Microsoft Search section of the [Microsoft Tech Community site](https://techcommunity.microsoft.com/t5/Microsoft-Search/ct-p/MicrosoftSearch).</span></span>
 
   
 
