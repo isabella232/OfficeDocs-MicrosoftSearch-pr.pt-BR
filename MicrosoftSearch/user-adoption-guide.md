@@ -15,12 +15,12 @@ search.appverid:
 ms.assetid: 9e8c9323-4ff9-42dd-8052-2bc9e0d6d0e7
 ROBOTS: NOINDEX
 description: Saiba mais sobre métodos e processos para ajudá-lo a distribuir com êxito a pesquisa da Microsoft para sua organização
-ms.openlocfilehash: 3bca460fe4d764fd1fee1eac16faa467c66cd4b9
-ms.sourcegitcommit: c2c9e66af1038efd2849d578f846680851f9e5d2
+ms.openlocfilehash: 439c7a8e9fbfdeb5b2bc42276dccb2377f3f0dac
+ms.sourcegitcommit: bfcab9d42e93addccd1e3875b41bc9cc1b6986cc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/27/2019
-ms.locfileid: "36639879"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "37949352"
 ---
 # <a name="user-adoption-guide"></a>Guia de adoção do usuário
 
@@ -43,7 +43,7 @@ A tabela mostra a hierarquia da equipe e o que cada pessoa contribui.
 |Equipe de gerenciamento de mudanças  <br/> |Garantir que o valor do produto seja fácil de entender  <br/> Criar um plano para a implantação  <br/> |IT  <br/> |
 |Defensores  <br/> |Evangelize o produto a colegas e equipes  <br/> |Qualquer (equipe)  <br/> |
 |Administrador de pesquisa  <br/> |Identificar membros da equipe principais de adoção do usuário  <br/> Administrar a pesquisa da Microsoft, incluindo a aparência da experiência e o gerenciamento contínuo  <br/> Conduzir discussões para mostrar o valor da pesquisa da Microsoft  <br/> |IT  <br/> |
-|Editores  <br/> |Criar conteúdo no portal de administração  <br/> |TI/qualquer  <br/> |
+|Editores  <br/> |Criar conteúdo no centro de administração  <br/> |TI/qualquer  <br/> |
    
 ## <a name="stage-2-scenarios"></a>Estágio 2: cenários
 
@@ -71,7 +71,7 @@ Para ajudá-lo a atender às suas metas de distribuição e mostrar um impacto p
   
 1. **Gerenciamento de alterações:** Determine como você medirá a conscientização da pesquisa da Microsoft e o sucesso das comunicações sobre ele. 
     
-2. **Uso:** Você pode aproveitar os dados do seu painel do insights, incluindo usuários ativos diários e mensais (DAU e MAU), os tipos de conteúdo que estão obtendo a maioria dos modos de exibição e palavras-chave de pesquisa principais para medir o uso com o passar do tempo. Para obter mais informações, consulte [usar o painel do](get-insights.md)insights.
+2. **Uso:** Você pode aproveitar os dados do seu painel do insights, incluindo usuários ativos diários e mensais (DAU e MAU), os tipos de conteúdo que estão obtendo a maioria dos modos de exibição e palavras-chave de pesquisa principais para medir o uso com o passar do tempo. Para obter mais informações, consulte [usar o painel do insights](get-insights.md).
     
 3. **Satisfação do usuário:** Use os dados coletados de pesquisas e grupos de foco de usuário para determinar a linha de base. A satisfação líquida (NSAT) e as pontuações do NET promovar (NPS) também podem fornecer medidas úteis. Independentemente do método usado, mantenha-o consistente para que você possa ver o impacto ao longo do tempo. 
     
@@ -121,7 +121,7 @@ Todas as comunicações devem informar os usuários sobre como eles podem entrar
   
  **Contratar equipes de parceiros**
   
-Como parte integrante do Microsoft 365, a pesquisa da Microsoft obedece às diretrizes RGPD e Tier-C. Dependendo da sua organização, talvez seja necessário compartilhar informações sobre a pesquisa da Microsoft com suas equipes de privacidade e segurança. Para obter mais informações, consulte [segurança para o Microsoft Search](security.md).
+Como parte integrante do Microsoft 365, a pesquisa da Microsoft obedece às diretrizes RGPD e Tier-C. Dependendo da sua organização, talvez seja necessário compartilhar informações sobre a pesquisa da Microsoft com suas equipes de privacidade e segurança. Para obter mais informações, consulte [segurança para o Microsoft Search](overview-microsoft-search.md#microsoft-search-in-bing-protects-enterprise-searches).
   
 Certifique-se de que seu suporte técnico sabe sobre os recursos e a funcionalidade da pesquisa da Microsoft, bem como os requisitos do usuário para entrar, para que eles possam oferecer suporte de usuários com mais eficiência. Para obter mais informações, consulte [usar a pesquisa](use/about-microsoft-search.md) e [perguntas frequentes](faqs.md)da Microsoft.
   

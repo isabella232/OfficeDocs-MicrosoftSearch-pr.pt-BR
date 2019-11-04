@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 ms.assetid: c0c814d0-f7e4-444e-b18e-09beb45c9322
 description: Criar e atualizar marcadores e maneiras de editar em massa resultados de indicadores para o Microsoft Search
-ms.openlocfilehash: 02b9bfecd97210ba8cd5b46bf3bc108bf66b6f01
-ms.sourcegitcommit: 3da22a2e09830672ebf199e05a32fa89b75c083b
+ms.openlocfilehash: fa1da7d120522ea76d68c1a84f7bee7590701c88
+ms.sourcegitcommit: bfcab9d42e93addccd1e3875b41bc9cc1b6986cc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "37288968"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "37949217"
 ---
 # <a name="manage-bookmarks"></a>Gerenciar indicadores
 
@@ -65,7 +65,7 @@ Aqui estão alguns pontos importantes a serem observados em relação ao arquivo
 - Se houver um indicador existente com o mesmo título ou URL, o indicador será atualizado com informações no arquivo de importação.
 - Nem todos os campos no arquivo de modelo são obrigatórios, e os campos obrigatórios variam dependendo do estado do indicador.
 - Com base no campo *Estado*, os indicadores serão salvos como rascunho, sugerido ou programado, ou serão publicados automaticamente.
-- Para organizações com vários locatários, você pode exportar seus indicadores de um locatário e importá-lo para outro. Mas você deve remover os dados na coluna *Id* antes de importar.
+- Para parceiros que gerenciam várias organizações, você pode exportar seus indicadores de uma organização e importá-los para outro. Mas você deve remover os dados na coluna *Id* antes de importar.
 
 ### <a name="prevent-import-errors"></a>Evite erros de importação
 Você receberá um erro se algum dado necessário estiver faltando ou for inválido, e um arquivo de log será gerado com mais informações sobre as linhas e colunas a serem corrigidas. Faça as edições necessárias e tente importar o arquivo novamente. Você não pode importar ou salvar nenhum indicador até que todos os erros sejam resolvidos.
@@ -81,8 +81,7 @@ Ajude seus usuários a concluir tarefas, como inserir período de férias ou inf
 
 ### <a name="what-are-powerapps"></a>O que são PowerApps?
 PowerApps é um serviço que permite criar aplicativos de negócios que são executados em um navegador, telefone ou tablet sem necessidade de nenhuma experiência de codificação. PowerApps funcionam em qualquer navegador e em qualquer dispositivo, e leva menos de um minuto para adicioná-los. Para mais informações sobre PowerApps, consulte:
-- 
-  [Aprendizagem Orientada](https://docs.microsoft.com/learn/browse/?products=powerapps)
+- [Aprendizagem Orientada](https://docs.microsoft.com/learn/browse/?products=powerapps)
 - [Documentação](https://docs.microsoft.com/powerapps/maker/canvas-apps/get-sessionid)
 - [Página inicial do PowerApps](https://make.preview.powerapps.com/environments/839eace6-59ab-4243-97ec-a5b8fcc104e4/home)
 

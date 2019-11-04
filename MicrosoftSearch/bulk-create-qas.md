@@ -15,12 +15,12 @@ search.appverid:
 ms.assetid: 7bada218-8908-4956-aae3-6ffaeef384ca
 ROBOTS: NoIndex
 description: Adicione respostas a perguntas frequentes rapidamente com ferramentas de importação no portal de administração da Pesquisa da Microsoft
-ms.openlocfilehash: c0ec4aaa0ee93e94c8569dc383456018ccc6679d
-ms.sourcegitcommit: c2c9e66af1038efd2849d578f846680851f9e5d2
-ms.translationtype: HT
+ms.openlocfilehash: 660f5663ff6238f4ab59dab36d51f1311d5c7260
+ms.sourcegitcommit: bfcab9d42e93addccd1e3875b41bc9cc1b6986cc
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/27/2019
-ms.locfileid: "36639771"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "37949028"
 ---
 # <a name="bulk-create-qas"></a>Criar P e R em massa
 
@@ -45,7 +45,7 @@ Baixe e use o modelo .csv para criar e editar P e R em massa. Também é uma man
     
 7. Clique em **Importar**
 
-# <a name="prevent-import-errors"></a>Evite erros de importação      
+## <a name="prevent-import-errors"></a>Evite erros de importação      
 Se os dados necessários estiverem ausentes ou forem inválidos, você receberá um erro. Dependendo do erro, pode ser gerado um arquivo de registro com mais informações sobre quais linhas e colunas precisam ser corrigidas. Faça as edições necessárias e tente importar o arquivo novamente.
 
 > [!NOTE]
@@ -61,7 +61,7 @@ Com base no campo Estado, as P e R serão salvas como rascunho, sugerido, progra
 
 Além disso, se você incluir o Id de uma pergunta e resposta existente, ele será substituído pelas informações no arquivo de importação.
 
-Para organizações com vários locatários, você pode exportar suas P e R de um locatário e importá-las para outro. Mas você deve remover todos os dados na coluna Id antes de importar.
+Para parceiros que gerenciam várias organizações, você pode exportar seus Q&como de um org e importá-los para outro. Mas você deve remover todos os dados na coluna Id antes de importar.
 
 Para saber mais sobre os campos obrigatórios e recomendados, consulte [Criar P e R](create-qas.md).
 

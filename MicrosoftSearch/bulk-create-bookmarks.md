@@ -14,24 +14,24 @@ search.appverid:
 - MOE150
 ms.assetid: def300e7-103c-4e92-a062-28ffa27561d7
 ROBOTS: NoIndex
-description: Crie vários indicadores de uma só vez com ferramentas de importação para o portal de administração da Pesquisa da Microsoft
-ms.openlocfilehash: 1b3922215534391c65547a4ece22310261626036
-ms.sourcegitcommit: be2e837d9b087bffe6ce40d72d7ae58a8fcdf3fe
-ms.translationtype: HT
+description: Criar muitos indicadores de uma vez com as ferramentas de importação para o portal de administração de pesquisa da Microsoft
+ms.openlocfilehash: 2983a47a8761a2463b25497911024f9bfd069369
+ms.sourcegitcommit: bfcab9d42e93addccd1e3875b41bc9cc1b6986cc
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/30/2019
-ms.locfileid: "34591418"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "37948920"
 ---
 # <a name="bulk-create-bookmarks"></a>Criar indicadores em massa
 
 > [!IMPORTANT]
-> Este artigo se aplica à Pesquisa da Microsoft no portal de administração do Bing. Estamos movendo o portal para o centro de administração do Microsoft 365 e, posteriormente, ele será removido. Recomendamos que você use o centro de administração do Microsoft 365 para começar. [Visão geral da Pesquisa da Microsoft.](overview-microsoft-search.md)
+> Este artigo se aplica à Pesquisa da Microsoft no portal de administração do Bing. Estamos movendo o portal para o centro de administração do Microsoft 365 e, em seguida, a Pesquisa da Microsoft no portal do Bing será removida. Recomendamos que você use o centro de administração do Microsoft 365 para começar. [Visão geral da Pesquisa da Microsoft.](overview-microsoft-search.md)
     
-Baixe e use o modelo .csv para criar, editar e salvar indicadores em massa. Para editar indicadores existentes em massa, exportá-los do portal de administração, fazer as edições necessárias e depois importá-los.
+Baixe e use o modelo. csv para criar, editar e salvar os indicadores em massa. Para editar em massa indicadores existentes, exporte-os do portal de administração, faça as edições necessárias e importe-as.
   
-1. No canto superior direito da página Indicadores, clique em **Importar**
+1. No canto superior direito da seção indicadores, clique em **importar**
     
-2. Clique em **Baixar modelo indicadores (.csv)**
+2. Clique em **baixar indicadores de modelo (. csv)**
     
 3. Salve e abra o arquivo .csv
     
@@ -39,13 +39,13 @@ Baixe e use o modelo .csv para criar, editar e salvar indicadores em massa. Para
 
     O arquivo .csv deve ser salvo como um arquivo CSV UTF-8; outros tipos de arquivo e/ou codificações podem causar erros de importação
     
-5. No canto superior direito da seção Indicadores, clique em **Importar**
+5. No canto superior direito da seção indicadores, clique em **importar**
     
-6. No painel Importar indicadores, clique em **Procurar** e navegue até o arquivo .csv que você deseja importar 
+6. No painel importar marcadores, clique em **procurar** e navegue até o arquivo. csv que você deseja importar 
     
 7. Clique em **Importar**
 
-# <a name="prevent-import-errors"></a>Evite erros de importação      
+## <a name="prevent-import-errors"></a>Evite erros de importação      
 Se os dados necessários estiverem ausentes ou forem inválidos, você receberá um erro. Dependendo do erro, pode ser gerado um arquivo de registro com mais informações sobre quais linhas e colunas precisam ser corrigidas. Faça as edições necessárias e tente importar o arquivo novamente.
 
 > [!NOTE]
@@ -59,8 +59,8 @@ Para ajudar a evitar erros, verifique se o arquivo de importação está formata
 - A coluna Estado não pode estar vazia, essa informação é necessária  
 Com base no campo Estado, os indicadores serão salvos como rascunho, sugerido ou programado, ou serão publicados automaticamente.
 
-Além disso, se você incluir o ID de um indicador existente, ele será substituído pelas informações no arquivo de importação.
+Além disso, se você incluir a ID de um indicador existente, ele será substituído pelas informações no arquivo de importação.
 
-Para organizações com vários locatários, você pode exportar seus indicadores de um locatário e importá-los para outro. Mas você deve remover todos os dados na coluna Id antes de importar.
+Para parceiros que gerenciam várias organizações, você pode exportar seus indicadores de uma organização e importá-los para outro. Mas você deve remover todos os dados na coluna Id antes de importar.
 
-Para saber mais sobre campos obrigatórios e recomendados, consulte [Criar indicadores](create-bookmarks.md).
+Para saber mais sobre os campos obrigatórios e recomendados, confira [criar indicadores](create-bookmarks.md).
