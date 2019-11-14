@@ -3,7 +3,6 @@ title: Conector de compartilhamento de arquivos para o Microsoft Search
 ms.author: v-pamcn
 author: TrishaMc1
 manager: mnirkhe
-ms.date: 10/08/2019
 ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
@@ -13,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Configure o conector de compartilhamento de arquivos para o Microsoft Search.
-ms.openlocfilehash: d5fbc1af2868ce7baa70017f617a9731340fb19a
-ms.sourcegitcommit: bfcab9d42e93addccd1e3875b41bc9cc1b6986cc
+ms.openlocfilehash: 9791ee3460eb174fd7a478baa6a9beb45f1b1aab
+ms.sourcegitcommit: 6b531b2ce7253c16251c7089795dedf1d2f3fc33
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "37949535"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "38310712"
 ---
 # <a name="file-share-connector"></a>Conector de compartilhamento de arquivos
 
@@ -27,13 +26,15 @@ Com o conector de compartilhamento de arquivos, os usuários da sua organizaçã
 Este artigo é para os administradores do Microsoft 365 ou qualquer pessoa que configure, execute e monitore um conector de compartilhamento de arquivos. Ele explica como configurar seus recursos de conector e conector, limitações e técnicas de solução de problemas.
 
 ## <a name="install-a-data-gateway"></a>Instalar um data gateway
-Para acessar seus dados de terceiros, você deve instalar e configurar um gateway do Microsoft Power BI. Consulte [Install and local gateway on-premises](https://docs.microsoft.com/data-integration/gateway/service-gateway-install) para saber mais.  
+Para acessar seus dados de terceiros, você deve instalar e configurar um gateway do Microsoft Power BI. Confira [instalar um gateway local](https://docs.microsoft.com/data-integration/gateway/service-gateway-install) para saber mais.  
+
+## <a name="content-requirements"></a>Requisitos de conteúdo
+**Tipos de arquivo**. Somente arquivos nestes formatos podem ser indexados e pesquisados: DOC, DOCM, DOCX, DOT, DOTX, EML, GIF, HTML, JPEG, MHT, MHTML, NWS, OBT, OBD,, PPS, ODS, ODT, a, PDF, POT e PPS, o e o formato. XLS, o, o, o XML e o formato ZIP do. Somente o conteúdo textual desses formatos é indexado. Todo o conteúdo multimídia é ignorado.
+ 
+**Limites de tamanho de arquivo**. O tamanho máximo de arquivo com suporte é de 100 MB. Arquivos que excedem 100 MB são ignorados da indexação. O limite máximo de tamanho processado é de 4 MB. O processamento pára quando o tamanho de um arquivo atinge 4 MB. Como resultado, algumas frases presentes no arquivo podem não funcionar para pesquisa.
 
 ## <a name="connect-to-a-data-source"></a>Conectar-se a uma fonte de dados
-Na página **conectar-se à fonte de dados** , crie uma pasta e forneça um caminho para o compartilhamento de arquivos. Em seguida, selecione o gateway instalado anteriormente. Insira as credenciais de uma conta de usuário do Windows com **acesso de leitura** para todos os arquivos no compartilhamento. Em seguida, você pode verificar os arquivos presentes no compartilhamento e ver todos os metadados buscados.
-
-## <a name="manage-search-permissions"></a>Gerenciar permissões de pesquisa
-O conector de compartilhamento de arquivos só oferece suporte a permissões de pesquisa visíveis para **todos**. Dados indexados aparecem nos resultados da pesquisa e são visíveis para todos os usuários da organização.
+Na página **conectar-se à fonte de dados** , selecione **compartilhamento de arquivos** e forneça o nome, a ID de conexão e a descrição. Na próxima página, forneça o caminho para o compartilhamento de arquivo e selecione seu gateway instalado anteriormente. Insira as credenciais de uma conta de usuário do Windows com acesso de leitura para todos os arquivos no compartilhamento. Passe o resto das configurações e publique a conexão.
 
 ## <a name="set-the-refresh-schedule"></a>Definir o agendamento de atualização
 O intervalo de agendamento de atualização padrão recomendado é de 15 minutos, mas você pode alterá-lo para outro intervalo de sua preferência.
@@ -111,5 +112,5 @@ Se algo estiver muito errado com uma conexão, seu status será exibido como **f
 ## <a name="limitations"></a>Limitações
 O conector de compartilhamento de arquivos tem estas limitações na versão prévia:
 * Você só pode indexar arquivos com propriedades fixas, não arquivos com propriedades personalizadas.
-* As listas de controle de acesso (ACLs) do compartilhamento de arquivos não são suportadas atualmente.
+* As listas de controle de acesso (ACLs) do compartilhamento de arquivos não são suportadas atualmente. Só há suporte para ACLs de NTFS de arquivo.
 * Identidades externas não são suportadas. Eles devem ser mapeados para identidades do Azure Active Directory.
