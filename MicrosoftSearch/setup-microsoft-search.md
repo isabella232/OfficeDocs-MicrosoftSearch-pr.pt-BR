@@ -3,22 +3,21 @@ title: Configurar a Pesquisa da Microsoft
 ms.author: anfowler
 author: adefowler
 manager: mnirkhe
-ms.date: 08/06/2019
 ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
-localization_priority: Priority
+localization_priority: Normal
 search.appverid:
 - BFB160
 - MET150
 - MOE150
 description: Configurar a Pesquisa da Microsoft pela primeira vez.
-ms.openlocfilehash: 3b3df3e3b3cb3e94abdf57bbb2c7e2db5f174898
-ms.sourcegitcommit: 3da22a2e09830672ebf199e05a32fa89b75c083b
-ms.translationtype: HT
+ms.openlocfilehash: 94ee7ece8a56d599778b151d5b836240d8832762
+ms.sourcegitcommit: 21361af7c244ffd6ff8689fd0ff0daa359bf4129
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "37288987"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38626905"
 ---
 # <a name="set-up-microsoft-search"></a>Configurar a Pesquisa da Microsoft
 
@@ -28,7 +27,7 @@ Para saber mais sobre os recursos da Pesquisa da Microsoft, confira [Visão Gera
 
 ## <a name="get-started"></a>Introdução
 
-A Pesquisa da Microsoft está ativada por padrão para todos os aplicativos da Microsoft compatíveis, como parte do Microsoft 365. Tudo o que um usuário precisa fazer é entrar com uma conta de trabalho ou escola e usar um navegador com o Bing definido como o provedor de pesquisa padrão.
+A Pesquisa da Microsoft está ativada por padrão para todos os aplicativos da Microsoft compatíveis, como parte do Microsoft 365. Não há necessidade de configuração, mas você pode melhorar a experiência de pesquisa geral da Microsoft por meio de algumas tarefas administrativas básicas.
 
 Você administra a Pesquisa da Microsoft a partir do centro de administração do Microsoft 365.
 
@@ -38,21 +37,7 @@ Você administra a Pesquisa da Microsoft a partir do centro de administração d
 
 Como administrador, você deve considerar algumas coisas que podem tornar a experiência da Pesquisa da Microsoft eficiente e amigável em sua organização.
 
-## <a name="step-1-check-access-level-of-your-users"></a>Etapa 1: Verifique o nível de acesso de seus usuários
-
-A Pesquisa da Microsoft respeita as configurações de segurança da fonte de conteúdo. O que os usuários veem nos resultados da pesquisa depende das permissões e dos níveis de acesso. Revise o nível de acesso dos usuários em sua organização para garantir que os usuários encontrem apenas conteúdo que eles possam acessar.
-
-| Serviço         | Descrição                                                                                                                                                                                                                                         |
-| --------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Grupos          | [Adicionar ou remover membros dos grupos](https://docs.microsoft.com/office365/admin/create-groups/add-or-remove-members-from-groups)                                                                                                                     |
-| Pessoas          | Você pode ocultar que determinados usuários sejam pesquisados em sua lista de endereços, configurando o parâmetro `HiddenFromAddressListEnabled` para `true`, usando o cmdlet [Set-User](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/set-user). |
-| Microsoft Teams | [Gerenciar o acesso de usuários ao Microsoft Teams](https://docs.microsoft.com/microsoftteams/user-access)                                                                                                                                                      |
-| OneDrive        | [Gerenciar o compartilhamento](https://docs.microsoft.com/OneDrive/manage-sharing)                                                                                                                                                                                |
-| SharePoint      | [Permissões de planejamento](https://docs.microsoft.com/sharepoint/plan-your-permissions-strategy)<br> [Criar níveis de permissões](https://docs.microsoft.com/sharepoint/how-to-create-and-edit-permission-levels)                          |
-| OneNote         | Não é possível pesquisar arquivos inseridos no OneNote. [Alterar as permissões de um bloco de anotações no OneDrive](https://support.office.com/article/B9600CCF-045A-40E6-9913-4A7EB02869A5)                                                                    |
-| Yammer          | [Configurações de segurança do Yammer](https://docs.microsoft.com/Yammer/manage-security-and-compliance/yammer-security-settings)                                                                                                                               |
-
-## <a name="step-2-assign-search-admin-and-search-editor"></a>Etapa 2: Atribua o administrador e editor da Pesquisa 
+## <a name="step-1-assign-search-admin-and-search-editor"></a>Etapa 1: atribuir o administrador de pesquisa e o editor de pesquisa
 
 Na Pesquisa da Microsoft, você pode gerenciar as configurações de pesquisa e o conteúdo da sua organização, atribuindo estas duas funções aos usuários:
 
@@ -63,27 +48,18 @@ Atualmente, as funções de administrador e de editor de Pesquisa devem ser atri
 
 Os administradores de pesquisa influenciam diretamente a experiência de pesquisa dos usuários finais. Isso inclui escolher os tipos de resultados que você deseja destacar para seus usuários. Pode ser difícil para uma pessoa escolher e criar conteúdo autoritativo em muitos tópicos diferentes pelos quais os usuários pesquisam em uma organização. Recomendamos que você aproveite a experiência e o conhecimento dos especialistas no assunto (SME) e de outros usuários, adicionando-os como editores da Pesquisa.
 
-## <a name="step-3-make-content-easy-to-find"></a>Etapa 3: Torne o conteúdo fácil de encontrar
+## <a name="step-2-create-answers"></a>Etapa 2: criar respostas
 
-A Pesquisa da Microsoft fornece aos administradores ferramentas que eles podem usar para criar uma experiência de pesquisa robusta para seus usuários. Na Pesquisa da Microsoft, os administradores têm três conteúdos de pesquisa diferentes que podem ser criados para uma melhor experiência de pesquisa e para melhorar a localização do conteúdo:
+A Pesquisa da Microsoft fornece aos administradores ferramentas que eles podem usar para criar uma experiência de pesquisa robusta para seus usuários. No Microsoft Search, os administradores têm três conteúdos de pesquisa diferentes que podem ser criados para uma melhor experiência de pesquisa e aprimorar a "localização" do conteúdo:
 
-- **Indicadores:** Os indicadores são semelhantes aos resultados promovidos no SharePoint e ajudam a promover os melhores resultados possíveis para as consultas do usuário na parte superior dos resultados da pesquisa, facilitando a localização de sites internos importantes.
-- **Perguntas e Respostas:** as P e R são semelhantes às perguntas frequentes, e geralmente estão em formato de pergunta e resposta. Elas fornecem as melhores respostas possíveis para perguntas relacionadas ao trabalho do usuário.
-- **Localizações:** Localizações são endereços que ajudam os usuários a localizarem os edifícios, escritórios e campi de sua organização.
+Os indicadores são o tipo de resposta mais comumente usado. Eles promovem os melhores resultados possíveis para as consultas dos seus usuários na parte superior dos resultados da pesquisa e facilitam a localização dos usuários para localizar o que estão procurando.
+Conteúdo informativo disponível para todos; por exemplo, informações sobre a empresa, ajuda para aplicativos do Windows e do Office, etc. Conteúdo que as pessoas na organização geralmente pesquisam em seus trabalhos diários. Pesquisas comuns relacionadas ao trabalho incluem benefícios de funcionários, relatórios de tempo e despesas, envio de pedidos de compras e obtenção de ajuda de serviços de TI.
 
-Quanto mais Indicadores, P e R e Locais você tiver, mais valor e benefício os usuários terão. No entanto, um excesso destes pode acarretar uma sobrecarga de gerenciamento substancial, pois eles devem ser revisados e atualizados periodicamente para manter os resultados relevantes.
+Para criar e gerenciar respostas, consulte [Plan Your Content](plan-your-content.md).
 
-Aqui estão alguns exemplos de conteúdo para os quais você deve considerar criar indicadores para os seus usuários:
+## <a name="next-steps"></a>Próximas etapas
 
-- Informações sobre a organização, produtos ou serviços.
-- Conteúdo informativo que está disponível para todos; por exemplo, informações sobre a empresa, ajuda para aplicativos do Windows e do Office, etc.
-- Conteúdo que as pessoas na organização geralmente pesquisam no trabalho cotidiano. Pesquisas comuns relacionadas ao trabalho incluem benefícios de funcionários, relatórios de tempo e despesas, envio de pedidos de compras e obtenção de ajuda de serviços de TI.
-
-Para criar e gerenciar conteúdo de pesquisa, confira [Tornar o conteúdo fácil de encontrar](make-content-easy-to-find.md).
-
-## <a name="step-4-training-and-communication"></a>Etapa 4: Treinamento e comunicação
-
-Estabeleça recursos de autoatendimento que os funcionários possam acessar facilmente por conta própria. Isso ajudará a reduzir a carga total sobre você e sua equipe para impulsionar constantemente as comunicações e auxiliar no autotreinamento e na educação dos funcionários. Forneça aos seus usuários comunicações, perguntas frequentes, vídeos e treinamentos ou webinars gravados. Aqui estão alguns links úteis para começar:
+Se quiser saber mais sobre como os usuários usarão o Microsoft Search, consulte os seguintes artigos:
 
 - [Encontre o que você precisa com a Pesquisa da Microsoft no Office](https://support.office.com/article/find-what-you-need-with-microsoft-search-in-office-2457d4d8-48a8-4ad4-ab89-5a0657aa8446)
 - [Centro de Treinamento do Office 365](https://support.office.com/office-training-center)

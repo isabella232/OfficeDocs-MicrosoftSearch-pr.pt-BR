@@ -3,7 +3,6 @@ title: Gerenciar as respostas de acrônimo no Microsoft Search
 ms.author: v-pamcna
 author: TrishaMc1
 manager: mnirkhe
-ms.date: 10/28/2019
 ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
@@ -13,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Criar e atualizar respostas de acrônimos no Microsoft Search
-ms.openlocfilehash: 8ff48f1eaa4ef8dab83411fad2f0ee4367158cd1
-ms.sourcegitcommit: bfcab9d42e93addccd1e3875b41bc9cc1b6986cc
+ms.openlocfilehash: 4f47d5b743709657459ccbc6b03897c29a51e109
+ms.sourcegitcommit: 21361af7c244ffd6ff8689fd0ff0daa359bf4129
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "37949584"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38626815"
 ---
 # <a name="manage-acronyms-answers-in-microsoft-search"></a>Gerenciar as respostas de acrônimos no Microsoft Search
 

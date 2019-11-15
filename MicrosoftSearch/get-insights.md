@@ -1,9 +1,8 @@
 ---
-title: Usar o Painel de Ideias
-ms.author: dawholl
-author: dawholl
-manager: kellis
-ms.date: 9/11/2018
+title: Relatórios do painel do insights do Microsoft Search
+ms.author: anfowler
+author: adefowler
+manager: shohara
 ms.audience: Admin
 ms.topic: reference
 ms.service: mssearch
@@ -13,65 +12,43 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: ebce7fdc-e89b-473c-8131-67e659bb3f73
-ROBOTS: NOINDEX
-description: Analise as métricas e gerencie o conteúdo a partir do painel de controle fácil de usar no portal de administração da Pesquisa da Microsoft
-ms.openlocfilehash: 9323ad97a2baffc3bdc1794049f6933335b298b2
-ms.sourcegitcommit: c2c9e66af1038efd2849d578f846680851f9e5d2
-ms.translationtype: HT
+description: Analisar métricas e gerenciar conteúdo do painel do insights no Microsoft Search
+ms.openlocfilehash: d75622ad8c414f225615ea14082c8197e2947dd4
+ms.sourcegitcommit: 21361af7c244ffd6ff8689fd0ff0daa359bf4129
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/27/2019
-ms.locfileid: "36639816"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38626869"
 ---
-# <a name="use-the-insights-dashboard"></a>Usar o Painel de Ideias
+# <a name="microsoft-search-insights-dashboard-reports"></a>Relatórios do painel do insights do Microsoft Search
 
-> [!IMPORTANT]
-> Este artigo se aplica à Pesquisa da Microsoft no portal de administração do Bing. Estamos movendo o portal para o centro de administração do Microsoft 365 e, em seguida, a Pesquisa da Microsoft no portal do Bing será removida. Recomendamos que você use o centro de administração do Microsoft 365 para começar. [Visão geral da Pesquisa da Microsoft.](overview-microsoft-search.md)
-    
-Obtenha percepções de dados e veja como os usuários estão se envolvendo com seus resultados. Use o Painel do Portal de Administração para:
-  
-- Ver quantos indicadores e P e R foram publicados, agendados ou sugeridos
-    
-- Veja as impressões para as principais consultas de pesquisa que mostram resultados de trabalho
-    
-- Analisar as distribuições de impressão para indicadores e P e R
-    
-## <a name="get-details-about-bookmarks-and-qas"></a>Obter detalhes sobre indicadores e P e R
+Você pode usar o painel do Microsoft Search insights para gerenciar os dados do Bing de suas respostas publicadas. Essa é apenas uma das etapas necessárias para facilitar [a localização de conteúdo](make-content-easy-to-find.md) para seus usuários.
 
-Use o painel para ver os totais por status de indicadores ou P e R:
-  
-- Publicados: O número de resultados publicados que estão disponíveis para os usuários
-    
-- Agendado: o número de resultados agendados no pipeline de publicação
-    
-- Sugerido: o número de sugestões dos usuários
-    
-Os cartões de percepções de indicadores e P e R no painel também fornecem acesso fácil para tarefas comuns:
-  
-- Para exibir os resultados de indicadores ou perguntas e respostas, clique em Indicadores ou Perguntas e Respostas no título do cartão
-    
-- Para adicionar um indicador ou item de perguntas e respostas, clique na opção criar
-    
-- Para adicionar indicadores ou perguntas e respostas em massa, clique na opção importar
-    
-## <a name="review-top-search-queries"></a>Examine as principais consultas de pesquisa
+Ao navegar pela primeira vez para o Microsoft Search no centro de administração do Microsoft 365, você irá inserir no painel do insights.
 
-Descubra quais pesquisas geraram mais impressões nos últimos 90 dias. As 25 principais pesquisas para cada tipo de resultados são exibidas juntamente com o número total de impressões e suas taxas de cliques (CTR). No cartão das principais consultas de pesquisa, é possível:
-  
-- Para filtrar por tipo de resultado, clique em Todos os resultados no menu e selecione um tipo de resultado diferente
-    
-- Para ver como um resultado aparece no Bing, clique em uma consulta e a página de resultados da pesquisa será aberta em uma nova guia
-    
-- Para ver as consultas de pesquisa adicionais, clique nas setas direcionais na parte inferior do cartão
-    
-## <a name="analyze-impressions-by-result-type"></a>Analise impressões por tipo de resultado
+![Insights-Dashboard. png](media/Insights-dashboard.png)
 
-De fácil leitura, os gráficos no cartão de distribuição de impressões por tipo de resultado mostram dados em vários intervalos de tempo. O resumo mostra o número de impressões com uma porcentagem de cálculo para a distribuição (número de impressões de tipo de resultado número x 100/total de impressões). A linha do tempo mostra o número de diário de impressões para um tipo de resultado. Você também pode alterar o intervalo de tempo para os dois modos de exibição e obter mais detalhes:
-  
-- Na parte superior do cartão, clique em 7 dias, 30 dias ou 90 dias
-    
-- Para ver um intervalo personalizado entre 0 e 90 dias, clique em Intervalo Personalizado e insira as datas de início e término
-    
-- Na linha do tempo, passe o mouse sobre um ponto de dados para obter impressões por tipo de resultado para um único dia
+Estes são os relatórios disponíveis no painel do insights.
 
-  
+> [!NOTE]
+> Os dados nos relatórios representam apenas os dados do Bing.
 
+## <a name="top-queries"></a>Principais consultas
+
+Este relatório fornece detalhes sobre as principais consultas de pesquisa de 2000 Bing que os usuários executam. Para que uma consulta apareça nas **principais consultas**, a consulta deve ter pelo menos três cliques.
+
+![Relatório de principais consultas com cabeçalhos de tabela: consulta, total de consultas e taxa de cliques.](media/Insights-topqueries.png)
+
+Uma taxa de clique baixo (CTR) significa que os usuários não estão encontrando o que estão procurando.
+
+Você pode escolher modos de exibição diferentes do relatório filtrando o tipo de resposta. Por exemplo, se você quiser apenas exibir as principais consultas de indicadores, selecione a lista suspensa no canto superior direito do relatório e, em seguida, selecione **marcadores**. Por padrão, **todos os** tipos de resposta são exibidos.
+
+![Filtrar o relatório de principais consultas por indicadores, pessoas, Q&A, arquivos, grupos, locais, conversas e sites](media/Insights-topqueries-dropdown.png)
+
+## <a name="impression-distribution"></a>Distribuição de impressão
+
+Este relatório mostra a distribuição de impressão no Bing ao longo do tempo para várias respostas. Os exemplos são indicadores, pessoas, Q&A, arquivos, locais, sites de arquivos, grupos e conversas. 
+
+![Relatórios de impressões com 90 dias selecionados como o período de tempo.](media/Insights-impressions.png)
+
+A distribuição de impressão pode ajudar os administradores a entender o que os usuários procuram durante um período específico.

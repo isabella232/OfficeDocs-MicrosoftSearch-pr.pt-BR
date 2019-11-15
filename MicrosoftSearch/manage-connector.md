@@ -1,9 +1,8 @@
 ---
 title: Gerenciar conectores do Microsoft Graph para o Microsoft Search
-ms.author: v-pamcn
+ms.author: mounika.narayanan
 author: monaray
 manager: mnirkhe
-ms.date: 11/04/2019
 ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
@@ -13,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Gerenciar conectores do Microsoft Graph para o Microsoft Search.
-ms.openlocfilehash: 5aab310a05d073221918a8aaa80ea1e06c818e51
-ms.sourcegitcommit: bfcab9d42e93addccd1e3875b41bc9cc1b6986cc
+ms.openlocfilehash: c74dc8f6d08519860e757b0ebe19e83dcf42159b
+ms.sourcegitcommit: 21361af7c244ffd6ff8689fd0ff0daa359bf4129
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "37949575"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38626797"
 ---
 # <a name="manage-your-connector-for-microsoft-search"></a>Gerenciar seu conector para a pesquisa da Microsoft
 
@@ -34,9 +33,9 @@ Para cada tipo de conector, o [centro de administração do Microsoft 365](https
 **Operação** | **Conector integrado da Microsoft** | **Parceiro ou conector criado de forma personalizada**
 --- | --- | ---
 Adicionar uma conexão | : heavy_check_mark: (consulte [Configurar o conector integrado da Microsoft](configure-connector.md)) | : x: (consulte seu parceiro ou UX de administração de conector criado para personalizar)
-Exclua uma conexão | :heavy_check_mark: | :heavy_check_mark:
-Editar uma conexão publicada | : heavy_check_mark: nome<br></br> : heavy_check_mark: Descrição<br></br> : heavy_check_mark: credenciais de autenticação para sua fonte de dados externa<br></br> : heavy_check_mark: credenciais de gateway para sua fonte de dados local<br></br> : heavy_check_mark: atualizar agendamento<br></br> | : heavy_check_mark: nome<br></br> : heavy_check_mark: Descrição
-Editar uma conexão de rascunho | :heavy_check_mark: | x
+Excluir uma conexão | : heavy_check_mark: | : heavy_check_mark:
+Editar uma conexão publicada | : heavy_check_mark: nome<br></br> : heavy_check_mark: Descrição<br></br> : heavy_check_mark: credenciais de autenticação para sua fonte de dados externa<br></br> : heavy_check_mark: credenciais de gateway para sua fonte de dados local<br></br> : heavy_check_mark: Agenda de atualização<br></br> | : heavy_check_mark: nome<br></br> : heavy_check_mark: Descrição
+Editar uma conexão de rascunho | : heavy_check_mark: | x
 
 ## <a name="monitor-your-connection-status"></a>Monitorar o status da conexão
 Após criar uma conexão, o número de itens processados é exibido na guia **conectores** da página de **pesquisa da Microsoft** . Depois que o rastreamento completo inicial for concluído com êxito, o progresso dos rastreamentos incrementais periódicos é exibido. Esta página fornece informações sobre as operações diárias do conector e uma visão geral dos logs e histórico de erros.

@@ -3,7 +3,6 @@ title: Gerenciar plantas baixas
 ms.author: rasrivas
 author: rasrivas
 manager: tonytha
-ms.date: 11/01/2019
 ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
@@ -13,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: O recurso plantas baixas no Microsoft Search ajuda os usuários a encontrar pessoas, escritórios e outros amenities dentro de um edifício.
-ms.openlocfilehash: 68912a8f440443c14cbc27019c7b30dc2d7a34c6
-ms.sourcegitcommit: bfcab9d42e93addccd1e3875b41bc9cc1b6986cc
+ms.openlocfilehash: 9871cda3790f210dc0c406d1d29abe2c571c1085
+ms.sourcegitcommit: 21361af7c244ffd6ff8689fd0ff0daa359bf4129
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "37949556"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38626788"
 ---
 # <a name="manage-floor-plans"></a>Gerenciar plantas baixas
 
@@ -90,7 +89,7 @@ Para ser mapeado para plantas baixas, todos os locais do Office e os dados do es
 
 ## <a name="troubleshoot-errors"></a>Erros de solução de problemas
 
-Você não pode ir para a próxima etapa de definir informações de piso, de asa e de sala até que todos os erros sejam corrigidos. As seguintes mensagens de erro de upload de arquivo de tabela e ações para corrigir os problemas.
+Você não pode ir para a próxima etapa de definir informações de piso, de asa e de sala até que todos os erros sejam corrigidos. A tabela a seguir lista as mensagens de erro de upload de arquivo e as ações para corrigir os problemas.
 
 | Mensagem de erro   | Tipo    | Action       |
 |:----------------| :--------- | :-------------- |

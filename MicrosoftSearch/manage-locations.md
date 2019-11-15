@@ -3,7 +3,6 @@ title: Gerenciar locais
 ms.author: dawholl
 author: dawholl
 manager: kellis
-ms.date: 05/30/2019
 ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
@@ -14,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: 8ab9aa00-cd74-405f-8410-9a1c3cfacdb9
 description: Com o tempo, você pode precisar atualizar o status e o conteúdo de um local para mantê-lo relevante.
-ms.openlocfilehash: d026e518011f3b3739beb2b6aaa044f8a5e9c0d4
-ms.sourcegitcommit: be2e837d9b087bffe6ce40d72d7ae58a8fcdf3fe
-ms.translationtype: HT
+ms.openlocfilehash: 25fa6fdb8f95c04332e8df16c7589286ecaefdb0
+ms.sourcegitcommit: 21361af7c244ffd6ff8689fd0ff0daa359bf4129
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/30/2019
-ms.locfileid: "34591553"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38626779"
 ---
 # <a name="manage-locations"></a>Gerenciar locais
 
@@ -57,7 +56,7 @@ Aqui estão alguns pontos importantes sobre o arquivo de modelo:
 - Se houver um indicador existente com o mesmo título ou URL, o indicador será atualizado com informações no arquivo de importação.
 - Nem todos os campos no arquivo de modelo são obrigatórios, e os campos obrigatórios variam dependendo do estado do indicador.
 - Com base no campo *Estado*, os indicadores serão salvos como rascunho, sugerido ou programado, ou serão publicados automaticamente.
-- Para organizações com vários locatários, você pode exportar seus indicadores de um locatário e importá-lo para outro. Mas você deve remover os dados na coluna *Id* antes de importar.
+- Para parceiros que gerenciam várias organizações, você pode exportar seus indicadores de uma organização e importá-los para outro. Mas você deve remover os dados na coluna *Id* antes de importar.
 
 **Observação:** Você não pode importar Locais se houver algum erro no arquivo de modelo. Para evitar erros, verifique se o arquivo de importação está formatado corretamente e inclua todas as informações necessárias. 
 

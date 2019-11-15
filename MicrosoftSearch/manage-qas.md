@@ -3,7 +3,6 @@ title: Gerenciar P e R
 ms.author: anfowler
 author: adefowler
 manager: mnirkhe
-ms.date: 05/30/2019
 ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
@@ -14,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: 7e3432e6-5317-4d63-90b0-52da6fddd343
 description: Encontre e atualize as respostas individualmente ou use as ferramentas da Pesquisa da Microsoft disponíveis para editar todas elas de uma só vez
-ms.openlocfilehash: 8620842e64a40eb32467c42a289bdec3b67d303b
-ms.sourcegitcommit: be2e837d9b087bffe6ce40d72d7ae58a8fcdf3fe
-ms.translationtype: HT
+ms.openlocfilehash: 903aab52e8d51e45588a390b5ccdccbaae2cf04a
+ms.sourcegitcommit: 21361af7c244ffd6ff8689fd0ff0daa359bf4129
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/30/2019
-ms.locfileid: "34591517"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38626770"
 ---
 # <a name="manage-qas"></a>Gerenciar P e R
 
@@ -76,7 +75,7 @@ Aqui estão alguns pontos importantes sobre o arquivo de modelo:
 - Se houver um indicador existente com o mesmo título ou URL, o indicador será atualizado com informações no arquivo de importação.
 - Nem todos os campos no arquivo de modelo são obrigatórios, e os campos obrigatórios variam dependendo do estado do indicador.
 - Com base no campo Estado, os indicadores serão salvos como rascunho, sugerido ou programado, ou serão publicados automaticamente.
-- Para organizações com vários locatários, você pode exportar seus indicadores de um locatário e importá-lo para outro. Mas você deve remover os dados na coluna *Id* antes de importar.
+- Para parceiros que gerenciam várias organizações, você pode exportar seus indicadores de uma organização e importá-los para outro. Mas você deve remover os dados na coluna *Id* antes de importar.
 
 **Observação:** Você não pode importar P e R se houver algum erro no arquivo de modelo. Para evitar erros, verifique se o arquivo de importação está formatado corretamente e inclua todas as informações necessárias. 
 
