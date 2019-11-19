@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Saiba mais sobre a visualização de conectores do Microsoft Graph para o Microsoft Search.
-ms.openlocfilehash: 3ac27bd1e859f9ffc825e5e77d96f0de56b13647
-ms.sourcegitcommit: 21361af7c244ffd6ff8689fd0ff0daa359bf4129
+ms.openlocfilehash: 6080674e1a6b789cbe5b3492f93f5f932b536e53
+ms.sourcegitcommit: 68087149c769a7cdde80944dd9c9933d2bf4a23f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38626260"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "38699364"
 ---
 # <a name="microsoft-graph-connectors-preview"></a>Visualização de conectores do Microsoft Graph
 
@@ -37,5 +37,5 @@ A versão prévia tem as seguintes limitações:
 * O throughput da inclusão é limitado em cerca de quatro itens por segundo.
 * Não há suporte para atualizações de esquema. Após criar uma configuração de conexão, não há como atualizar o esquema. Você só pode excluir e recriar a conexão.
 * O conteúdo indexado aparece na página de resultados de pesquisa em uma vertical personalizada. Essa restrição se aplica ao conteúdo com tipos personalizados.
-* Antes da disponibilidade geral, qualquer conexão que você configurou durante o período de visualização pode precisar ser excluída e recriada. Essas conexões não funcionarão mais se forem incompatíveis com as alterações feitas para melhorar o produto.
-* Limite de conexões. Cada locatário pode criar até 10 conexões.
+* Antes da disponibilidade geral, qualquer conexão que você configurou durante o período de visualização pode precisar ser excluída e recriada. Essas conexões não funcionarão mais se não forem compatíveis com as alterações feitas para melhorar o produto.
+* Há um limite de conexões. Cada locatário pode criar até 10 conexões.
