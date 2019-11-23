@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Gerenciar conectores do Microsoft Graph para o Microsoft Search.
-ms.openlocfilehash: c74dc8f6d08519860e757b0ebe19e83dcf42159b
-ms.sourcegitcommit: 21361af7c244ffd6ff8689fd0ff0daa359bf4129
+ms.openlocfilehash: 962ceb488fa308eb31a98a8fad33d628f3590e89
+ms.sourcegitcommit: 1255c2612aec290ae117bdc24c3b4dabd1e5ca11
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38626797"
+ms.lasthandoff: 11/23/2019
+ms.locfileid: "39205863"
 ---
 # <a name="manage-your-connector-for-microsoft-search"></a>Gerenciar seu conector para a pesquisa da Microsoft
 
@@ -54,6 +54,23 @@ Para cada **conector ativo** na guia **conectores** , qualquer erro de rastreame
 Para exibir os detalhes específicos de um erro, selecione seu código de erro. Uma tela aparece com detalhes do erro e um link. Os erros mais recentes aparecem na parte superior. Confira o exemplo na tabela a seguir.
 
 ![Lista de conectores com um conector selecionado e o painel de detalhes, mostrando a lista de erros do conector. ](media/errormonitoring2.png)
+
+Veja a seguir a lista de erros diferentes que podem aparecer em qualquer conexão. Se essas soluções não funcionarem, entre em contato com o suporte ou envie-nos (comentários) [Connectors-feedback.md]. 
+
+**Código de erro** | **Mensagem de erro** | **Solução**
+--- | --- | ---
+1000 | A fonte de dados não está disponível. Verifique a conexão com a Internet ou certifique-se de que a fonte de dados ainda seja acessível pelo conector. | Esse erro ocorre quando a fonte de dados não está acessível devido a um problema de rede ou quando a própria fonte de dados é excluída, movida ou renomeada. Verifique se os detalhes da fonte de dados fornecidos ainda são válidos.
+1001 | O não pode atualizar os dados, pois a fonte de dados está limitando o conector. | Para desacelerar a fonte de dados, verifique se seus limites de escala podem ser aumentados ou espere até um tráfego menos pesado do dia.
+1002 | Não é possível autenticar com a fonte de dados. Verifique se as credenciais associadas a essa fonte de dados estão corretas. | Clique em **Editar** para atualizar as credenciais de autenticação.
+1003 | A conta associada ao conector não tem permissão para acessar o item. |  Verifique se a conta adequada tem acesso ao item que você deseja indexar.
+1004 | Não é possível acessar o gateway de dados local. Verifique se o serviço de gateway está em execução. | Vá para a máquina que tem o gateway e verifique se o gateway do Power BI está sendo executado abrindo o aplicativo de gateway do Power BI. Verifique se o gateway está conectado com a conta de administrador usada para o Microsoft Search. 
+1005 | As credenciais associadas a essa fonte de dados expiraram. Renovar as credenciais e atualizar a conexão. | Clique em **Editar** para atualizar as credenciais de autenticação. 
+1006 | Sua versão de gateway está desatualizada e não dá mais suporte a esse conector. Será necessário atualizar o gateway. | Visite (instale um gateway de dados local) [https://docs.microsoft.com/en-us/data-integration/gateway/service-gateway-install] para baixar e instalar a versão mais recente do gateway do Power bi no computador que contém o gateway.
+2001 | A indexação é limitada por causa de um grande número de atualizações na fila. Dependendo da fila, pode levar algum tempo para que as atualizações sejam concluídas. | Aguarde até que a fila seja limpa.
+2002 | Falha na indexação devido à formatação de item sem suporte. | Consulte a documentação específica do conector para obter mais informações.
+2003 | Falha na indexação devido a conteúdo do item não suportado. | Consulte a documentação específica do conector para obter mais informações. 
+2004 | O [tamanho do arquivo](https://docs.microsoft.com/en-us/microsoftsearch/file-share-connector#content-requirements) é muito grande para ser indexado. Ele deve ter 100 MB ou menos antes do processamento e não mais de 4 MB após o processamento. O arquivo é indexado parcialmente neste caso. Algumas frases presentes no arquivo podem não retornar um resultado de pesquisa. |  
+5000 | Algo deu errado. Se isso persistir, entre em contato com o suporte. | 
 
 ## <a name="preview-limitations"></a>Limitações de visualização
 * Quando você **publica** um conector criado pela Microsoft, pode levar alguns minutos até que a conexão seja criada. Durante esse tempo, a conexão mostrará seu status como pendente. Além disso, não há atualização automática, portanto, você precisa atualizar manualmente.

@@ -12,16 +12,16 @@ search.appverid:
 - MET150
 - MOE150
 description: Saiba mais sobre a visualização de conectores do Microsoft Graph para o Microsoft Search.
-ms.openlocfilehash: 6080674e1a6b789cbe5b3492f93f5f932b536e53
-ms.sourcegitcommit: 68087149c769a7cdde80944dd9c9933d2bf4a23f
+ms.openlocfilehash: 054dc00bcb5cc0c110858fd329fbf2dbf16fb38b
+ms.sourcegitcommit: 1255c2612aec290ae117bdc24c3b4dabd1e5ca11
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "38699364"
+ms.lasthandoff: 11/23/2019
+ms.locfileid: "39205872"
 ---
 # <a name="microsoft-graph-connectors-preview"></a>Visualização de conectores do Microsoft Graph
 
-Conectores do Microsoft Graph, APIs de indexação e APIs de pesquisa estão atualmente em versão prévia. Para obter acesso à funcionalidade de conectores, você deve solicitar para participar do programa de visualização enviando o <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbRxWYgu82J_RFnMMATAS6_chUNVYwNU1CMDNZUDBSSDZKWVo2RDJDRjRLQi4u" target="_blank">formulário de inscrição para visualização do conector do Microsoft Graph</a>. Esta é uma visualização inicial e não há garantia de nível de serviço. Incentivamos os clientes a experimentar a funcionalidade de conectores e a fornecer comentários. Não recomendamos o uso de conectores para fins de produção durante o período de visualização.
+Os conectores do Microsoft Graph e as APIs de pesquisa da Microsoft (consulta e índice) estão atualmente no status de visualização. Para obter acesso à funcionalidade de conectores, você deve solicitar para participar do programa de visualização enviando o <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbRxWYgu82J_RFnMMATAS6_chUNVYwNU1CMDNZUDBSSDZKWVo2RDJDRjRLQi4u" target="_blank">formulário de inscrição para visualização do conector do Microsoft Graph</a>. Esta é uma visualização inicial e não há garantia de nível de serviço. Incentivamos os clientes a experimentar a funcionalidade de conectores e a fornecer comentários. Não recomendamos o uso de conectores para fins de produção durante o período de visualização.
 
 ## <a name="set-up-targeted-release"></a>Configurar lançamento direcionado
 Para experimentar os conectores, você deve ter a opção de **lançamento direcionada** definida para todos os usuários em sua organização. O requisito de lançamento direcionado se aplica independentemente dos seguintes ambientes de visualização que você escolher.
