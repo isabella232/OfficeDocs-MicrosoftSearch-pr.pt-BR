@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: c0c814d0-f7e4-444e-b18e-09beb45c9322
 description: Criar e atualizar marcadores e maneiras de editar em massa resultados de indicadores para o Microsoft Search
-ms.openlocfilehash: 94e24db6643307a83ffae21e03b2ea354e209f53
-ms.sourcegitcommit: 21361af7c244ffd6ff8689fd0ff0daa359bf4129
+ms.openlocfilehash: a50be90e9590086762df7c6b0fd2e0ad3349ec5d
+ms.sourcegitcommit: 897b92bae1b905d7c47566e31c4c07cd16d44b17
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38626806"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "39254735"
 ---
 # <a name="manage-bookmarks"></a>Gerenciar indicadores
 
@@ -70,10 +70,17 @@ Aqui estão alguns pontos importantes a serem observados em relação ao arquivo
 Você receberá um erro se algum dado necessário estiver faltando ou for inválido, e um arquivo de log será gerado com mais informações sobre as linhas e colunas a serem corrigidas. Faça as edições necessárias e tente importar o arquivo novamente. Você não pode importar ou salvar nenhum indicador até que todos os erros sejam resolvidos.
 
 Para evitar erros, certifique-se de que o arquivo de importação esteja formatado corretamente e:
+
 - Que ele inclua a linha de cabeçalho e todas as colunas que estavam no modelo de importação
 - Que a ordem das colunas seja igual ao modelo de importação
 - Todas as colunas têm valores, exceto as três que podem estar vazias: *Id*, *Última modificação* e *Última modificação por* 
 - A coluna *Estado* não está vazia, pois essa informação é necessária
+
+Para evitar erros de duplicação de indicador a indicador, siga estas práticas recomendadas:
+
+- Não use URLS duplicadas para indicadores diferentes. Se uma URL já estiver atribuída a outro indicador e você a adicionar novamente a partir de um arquivo de importação, você receberá um erro. Isso também se aplica a URLs duplicadas para outros tipos de respostas.
+- Use a coluna ID do indicador ao atualizar indicadores existentes. Você pode atualizar qualquer outra propriedade de um indicador existente, como palavra-chave ou descrição, mas você deve verificar a ID do indicador na coluna apropriada do arquivo de importação. Se a ID do indicador estiver presente, o serviço não o considerará como nova adição e processará um erro.
+
 
 ## <a name="powerapps"></a>PowerApps
 Ajude seus usuários a concluir tarefas, como inserir período de férias ou informar despesas, adicionando PowerApps existentes aos seus indicadores. 

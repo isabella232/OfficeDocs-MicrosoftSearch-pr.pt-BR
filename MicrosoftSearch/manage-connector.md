@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Gerenciar conectores do Microsoft Graph para o Microsoft Search.
-ms.openlocfilehash: 962ceb488fa308eb31a98a8fad33d628f3590e89
-ms.sourcegitcommit: 1255c2612aec290ae117bdc24c3b4dabd1e5ca11
+ms.openlocfilehash: d7bd094fdc5cea521d1ee600eea3cd70067a0386
+ms.sourcegitcommit: 897b92bae1b905d7c47566e31c4c07cd16d44b17
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "39205863"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "39254717"
 ---
 # <a name="manage-your-connector-for-microsoft-search"></a>Gerenciar seu conector para a pesquisa da Microsoft
 
@@ -65,11 +65,11 @@ Veja a seguir a lista de erros diferentes que podem aparecer em qualquer conexã
 1003 | A conta associada ao conector não tem permissão para acessar o item. |  Verifique se a conta adequada tem acesso ao item que você deseja indexar.
 1004 | Não é possível acessar o gateway de dados local. Verifique se o serviço de gateway está em execução. | Vá para a máquina que tem o gateway e verifique se o gateway do Power BI está sendo executado abrindo o aplicativo de gateway do Power BI. Verifique se o gateway está conectado com a conta de administrador usada para o Microsoft Search. 
 1005 | As credenciais associadas a essa fonte de dados expiraram. Renovar as credenciais e atualizar a conexão. | Clique em **Editar** para atualizar as credenciais de autenticação. 
-1006 | Sua versão de gateway está desatualizada e não dá mais suporte a esse conector. Será necessário atualizar o gateway. | Visite (instale um gateway de dados local) [https://docs.microsoft.com/en-us/data-integration/gateway/service-gateway-install] para baixar e instalar a versão mais recente do gateway do Power bi no computador que contém o gateway.
+1006 | Sua versão de gateway está desatualizada e não dá mais suporte a esse conector. Será necessário atualizar o gateway. | Visite (instale um gateway de dados local) [https://docs.microsoft.com/data-integration/gateway/service-gateway-install] para baixar e instalar a versão mais recente do gateway do Power bi no computador que contém o gateway.
 2001 | A indexação é limitada por causa de um grande número de atualizações na fila. Dependendo da fila, pode levar algum tempo para que as atualizações sejam concluídas. | Aguarde até que a fila seja limpa.
 2002 | Falha na indexação devido à formatação de item sem suporte. | Consulte a documentação específica do conector para obter mais informações.
 2003 | Falha na indexação devido a conteúdo do item não suportado. | Consulte a documentação específica do conector para obter mais informações. 
-2004 | O [tamanho do arquivo](https://docs.microsoft.com/en-us/microsoftsearch/file-share-connector#content-requirements) é muito grande para ser indexado. Ele deve ter 100 MB ou menos antes do processamento e não mais de 4 MB após o processamento. O arquivo é indexado parcialmente neste caso. Algumas frases presentes no arquivo podem não retornar um resultado de pesquisa. |  
+2004 | O [tamanho do arquivo](https://docs.microsoft.com/microsoftsearch/file-share-connector#content-requirements) é muito grande para ser indexado. Ele deve ter 100 MB ou menos antes do processamento e não mais de 4 MB após o processamento. O arquivo é indexado parcialmente neste caso. Algumas frases presentes no arquivo podem não retornar um resultado de pesquisa. |  
 5000 | Algo deu errado. Se isso persistir, entre em contato com o suporte. | 
 
 ## <a name="preview-limitations"></a>Limitações de visualização
