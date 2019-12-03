@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Obtenha uma visão geral da pesquisa da Microsoft, seus benefícios e quais aplicativos dão suporte à pesquisa da Microsoft.
-ms.openlocfilehash: 28bd561e53bb1878c601a08e919e37f524a6470c
-ms.sourcegitcommit: 21361af7c244ffd6ff8689fd0ff0daa359bf4129
+ms.openlocfilehash: 938cf8875d9cc707041b950c6c13bab27e366670
+ms.sourcegitcommit: ef1eb2bdf31dccd34f0fdc4aa7a0841ebd44f211
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38626968"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "39663065"
 ---
 # <a name="overview-of-microsoft-search"></a>Visão geral da Pesquisa da Microsoft
 
@@ -46,7 +46,7 @@ Se as sugestões na caixa de pesquisa não forem quais usuários estão procuran
 
 ## <a name="benefits-of-microsoft-search"></a>Benefícios do Microsoft Search
 
-**Pesquise no Microsoft 365 a partir de qualquer caixa de Pesquisa da Microsoft** – Os usuários podem pesquisar em qualquer caixa da Pesquisa da Microsoft e voltar rapidamente ao que estavam fazendo. O Microsoft Search reúne resultados de fontes de dados no Office 365, incluindo o [SharePoint](http://sharepoint.com/), [o Microsoft onedrive for Business](https://onedrive.live.com/about/en-us/business/)e [o Microsoft Exchange Server](https://products.office.com/en-us/exchange/microsoft-exchange-server).
+**Pesquise no Microsoft 365 a partir de qualquer caixa de Pesquisa da Microsoft** – Os usuários podem pesquisar em qualquer caixa da Pesquisa da Microsoft e voltar rapidamente ao que estavam fazendo. O Microsoft Search reúne resultados de fontes de dados no Office 365, incluindo o [SharePoint](http://sharepoint.com/), [o Microsoft onedrive for Business](https://onedrive.live.com/about/business/)e [o Microsoft Exchange Server](https://products.office.com/exchange/microsoft-exchange-server).
 
 **Fácil de Pesquisar** – a pesquisa da Microsoft sugere resultados com base na atividade anterior dos usuários no Office 365, diretamente na caixa de **pesquisa** .
 
@@ -58,13 +58,13 @@ Se as sugestões na caixa de pesquisa não forem quais usuários estão procuran
 
 ## <a name="tailoring-microsoft-search-to-your-organization"></a>Personalizar a pesquisa da Microsoft na sua organização
 
-Como administrador, você pode criar uma experiência de pesquisa incrível da Microsoft para seus usuários. 
+Como administrador, você pode criar uma experiência incrível de pesquisa da Microsoft para seus usuários. 
 
 **Mostrar conteúdo útil** – as respostas fornecem resultados autoritativos rápidos para consultas de pesquisa com base em palavras-chave. Facilitar [a localização do conteúdo](make-content-easy-to-find.md).
 
-**Adicionar conteúdo externo** -os conectores do Microsoft Graph permitem que você coloque conteúdo externo no índice. Use conectores para enriquecer a experiência de pesquisa com dados e arquivos de fora do Microsoft 365. [Visão geral dos conectores do Microsoft Graph](connectors-overview.md)
+**Adicionar conteúdo externo** – os conectores do Microsoft Graph permitem que você coloque conteúdo externo no índice. Use conectores para enriquecer a experiência de pesquisa com dados e arquivos de fora do Microsoft 365. [Visão geral dos conectores do Microsoft Graph](connectors-overview.md)
 
-**Personalizar a experiência do usuário** -você pode personalizar a experiência do usuário por meio do uso de verticais e outras configurações. [Personalizar a página de pesquisa da Microsoft](customize-search-page.md)
+**Personalizar a experiência do usuário** – você pode personalizar a experiência do usuário por meio do uso de verticais e outras configurações. [Personalizar a página de pesquisa da Microsoft](customize-search-page.md)
 
 ## <a name="what-content-is-searched"></a>Qual conteúdo é pesquisado?
 
@@ -87,7 +87,7 @@ Quando um usuário insere uma consulta de pesquisa no Microsoft Search no Bing, 
 Como as pesquisas corporativas podem ser confidenciais, a pesquisa da Microsoft implementou um conjunto de medidas de confiança que descrevem como a pesquisa `Bing.com` separada de resultados públicos é manipulada.
 
 ### <a name="logging"></a>Registro em log
- - Todos `Bing.com` os logs de pesquisa que pertencem à pesquisa da Microsoft no tráfego do Bing são desassociados da sua identidade de local de trabalho.
+- Todos `Bing.com` os logs de pesquisa que pertencem à pesquisa da Microsoft no tráfego do Bing são desassociados da sua identidade de local de trabalho.
 - Se um conjunto de restrições ou limites de frequência forem atingidos, o que nos concede a confiança de que a consulta não é específica para uma determinada organização, a consulta será tratada conforme descrito na seção serviços do Bing da [Declaração de Privacidade](https://privacy.microsoft.com/privacystatement). Por exemplo, essas consultas serão usadas para modelar e treinar recursos públicos, como sugestão automática ou pesquisas relacionadas.
 - As consultas que não atenderem o conjunto de restrições ou limites de frequência serão armazenadas separadamente do tráfego público, não do Microsoft Search.
 ### <a name="advertising"></a>Publicidade 

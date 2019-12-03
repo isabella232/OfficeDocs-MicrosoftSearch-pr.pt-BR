@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: c0c814d0-f7e4-444e-b18e-09beb45c9322
 description: Criar e atualizar marcadores e maneiras de editar em massa resultados de indicadores para o Microsoft Search
-ms.openlocfilehash: a50be90e9590086762df7c6b0fd2e0ad3349ec5d
-ms.sourcegitcommit: 897b92bae1b905d7c47566e31c4c07cd16d44b17
+ms.openlocfilehash: b65e61e4435e36fad5760f0a8d34bf444b51178b
+ms.sourcegitcommit: ef1eb2bdf31dccd34f0fdc4aa7a0841ebd44f211
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "39254735"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "39663140"
 ---
 # <a name="manage-bookmarks"></a>Gerenciar indicadores
 
@@ -77,10 +77,8 @@ Para evitar erros, certifique-se de que o arquivo de importação esteja formata
 - A coluna *Estado* não está vazia, pois essa informação é necessária
 
 Para evitar erros de duplicação de indicador a indicador, siga estas práticas recomendadas:
-
 - Não use URLS duplicadas para indicadores diferentes. Se uma URL já estiver atribuída a outro indicador e você a adicionar novamente a partir de um arquivo de importação, você receberá um erro. Isso também se aplica a URLs duplicadas para outros tipos de respostas.
-- Use a coluna ID do indicador ao atualizar indicadores existentes. Você pode atualizar qualquer outra propriedade de um indicador existente, como palavra-chave ou descrição, mas você deve verificar a ID do indicador na coluna apropriada do arquivo de importação. Se a ID do indicador estiver presente, o serviço não o considerará como nova adição e processará um erro.
-
+- Use a coluna *ID do indicador* ao atualizar indicadores existentes. Você pode atualizar qualquer outra propriedade de um indicador existente, como palavra-chave ou descrição, mas você deve certificar-se de que a *ID do indicador* está na coluna apropriada do arquivo de importação. Se a *ID do indicador* estiver presente, o serviço não o considerará como nova adição e não será processado como um erro.
 
 ## <a name="powerapps"></a>PowerApps
 Ajude seus usuários a concluir tarefas, como inserir período de férias ou informar despesas, adicionando PowerApps existentes aos seus indicadores. 

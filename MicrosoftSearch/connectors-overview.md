@@ -12,19 +12,19 @@ search.appverid:
 - MET150
 - MOE150
 description: Visão geral dos conectores do Microsoft Graph para o Microsoft Search
-ms.openlocfilehash: f08393d5696466af72ed7b8f3e141c62adb61728
-ms.sourcegitcommit: 1255c2612aec290ae117bdc24c3b4dabd1e5ca11
+ms.openlocfilehash: 8b02eadac099d75174fe849f7f2f97c26bf6c3af
+ms.sourcegitcommit: ef1eb2bdf31dccd34f0fdc4aa7a0841ebd44f211
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "39205854"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "39663131"
 ---
 # <a name="overview-of-microsoft-graph-connectors"></a>Visão geral dos conectores do Microsoft Graph
 
 O Microsoft Search indexa todos os seus dados do [microsoft 365](https://www.microsoft.com/microsoft-365) para torná-los pesquisáveis para os usuários. Com os conectores do Microsoft Graph, sua organização pode indexar dados de terceiros para serem exibidos nos resultados da pesquisa da Microsoft. Os dados de terceiros podem ser hospedados no local ou nas nuvens públicas ou privadas. Os conectores expandem os tipos de fontes de conteúdo que podem ser pesquisados em seus aplicativos de produtividade do Microsoft 365 e no ecossistema mais amplo da Microsoft.
 
 > [!IMPORTANT]
-> **Isenção de responsabilidade**: os conectores do Microsoft Graph e as APIs de pesquisa da Microsoft (consulta e índice) estão atualmente em versão prévia. Para saber mais sobre o programa de visualização, confira [visualização dos conectores do Microsoft Graph](connectors-preview.md). Para participar do programa de visualização, envie o [formulário de inscrição do Microsoft Graph Connector Preview](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbRxWYgu82J_RFnMMATAS6_chUNVYwNU1CMDNZUDBSSDZKWVo2RDJDRjRLQi4u).
+> **Isenção de responsabilidade**: os conectores do Microsoft Graph e as APIs de pesquisa da Microsoft (consulta e índice) estão atualmente no status de visualização. Para usar conectores com o Microsoft Search ou para criar conectores, você deve se inscrever no [programa de visualização de conectores](connectors-preview.md). Para participar do programa de visualização, envie o [formulário de inscrição do Microsoft Graph Connector Preview](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbRxWYgu82J_RFnMMATAS6_chUNVYwNU1CMDNZUDBSSDZKWVo2RDJDRjRLQi4u).
 
 ## <a name="architecture"></a>Arquitetura
 O seguinte diagrama de arquitetura da plataforma do Microsoft Graph mostra como o conteúdo do conector flui através da indexação de conteúdo para os resultados do usuário nos clientes de [pesquisa da Microsoft](https://docs.microsoft.com/microsoftsearch/overview-microsoft-search) . Este artigo explica cada um dos principais blocos de construção no processo de fluxo de dados de conectores do Microsoft Graph.
