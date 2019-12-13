@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9e8c9323-4ff9-42dd-8052-2bc9e0d6d0e7
 description: Saiba mais sobre métodos e processos para ajudá-lo a distribuir com êxito a pesquisa da Microsoft para sua organização
-ms.openlocfilehash: 135b07b7dd4e26eaaebd0c09d0d94689b83f2b16
-ms.sourcegitcommit: 68087149c769a7cdde80944dd9c9933d2bf4a23f
+ms.openlocfilehash: 4c40013297b8b7a91e589137e70716bd8e4fd326
+ms.sourcegitcommit: f4cb37fdf85b895337caee827fb72b5b7fcaa8ad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "38699526"
+ms.lasthandoff: 12/12/2019
+ms.locfileid: "39995001"
 ---
 # <a name="user-adoption-guide"></a>Guia de adoção do usuário
 
@@ -119,7 +119,7 @@ Todas as comunicações devem informar os usuários sobre como eles podem entrar
   
 ### <a name="engage-partner-teams"></a>Contratar equipes de parceiros
   
-Como parte integrante do [microsoft 365](https://www.microsoft.com/microsoft-365), a pesquisa da Microsoft obedece às diretrizes Rgpd e Tier-C. Dependendo da sua organização, talvez seja necessário compartilhar informações sobre a pesquisa da Microsoft com suas equipes de privacidade e segurança. Para obter mais informações, consulte [segurança para o Microsoft Search](overview-microsoft-search.md#microsoft-search-in-bing-protects-enterprise-searches).
+Como parte integrante do [microsoft 365](https://www.microsoft.com/microsoft-365), a pesquisa da Microsoft obedece às diretrizes Rgpd e Tier-C. Dependendo da sua organização, talvez seja necessário compartilhar informações sobre a pesquisa da Microsoft com suas equipes de privacidade e segurança. Para obter mais informações, consulte [segurança e privacidade do Microsoft Search no Bing](security-for-search.md).
   
 Certifique-se de que seu suporte técnico sabe sobre os recursos e a funcionalidade da pesquisa da Microsoft, bem como os requisitos do usuário para entrar, para que eles possam oferecer suporte de usuários com mais eficiência. Para obter mais informações, consulte [saiba mais sobre o Microsoft Search no microsoft 365](https://support.office.com/article/Learn-about-Microsoft-Search-in-Microsoft-365-b8bf5a2c-7515-40a9-9a6a-b8ed382c86bc) e [perguntas frequentes](faqs.md).
   

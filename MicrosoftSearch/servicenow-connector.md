@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Configurar o conector do ServiceNow para pesquisa da Microsoft
-ms.openlocfilehash: 78b2831e9a52b6bf0204b5a6b2aba147b529b3f5
-ms.sourcegitcommit: 21361af7c244ffd6ff8689fd0ff0daa359bf4129
+ms.openlocfilehash: 75e07eb82dd63e95ce17a0506f96c853a7bcea2f
+ms.sourcegitcommit: 398b9847e3041732c32af9e6087d8e6c2e96c1cf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38626950"
+ms.lasthandoff: 12/12/2019
+ms.locfileid: "39998562"
 ---
 # <a name="servicenow-connector"></a>Conector do ServiceNow
 
@@ -42,10 +42,10 @@ A tabela a seguir fornece orientação sobre como preencher o formulário de cri
 **Field** | **Descrição** | **Valor recomendado**
 --- | --- | ---
 Nome | Esse valor exclusivo identifica o aplicativo para o qual você precisa de acesso OAuth. | Pesquisa da Microsoft
-ID do cliente | Uma ID exclusiva somente leitura, gerada automaticamente, para o aplicativo. A instância usa a ID do cliente quando ele solicita um token de acesso. | N/D
+ID do cliente | Uma ID exclusiva somente leitura, gerada automaticamente, para o aplicativo. A instância usa a ID do cliente quando ele solicita um token de acesso. | NA
 Segredo do cliente | Com essa cadeia de caracteres secreta compartilhada, a instância do ServiceNow e a pesquisa da Microsoft autorizam comunicações entre si. | Siga as práticas recomendadas de segurança tratando isso como uma senha.
-URL de redirecionamento | Uma URL de retorno de chamada necessária para a qual o servidor de autorização é redirecionado. | Confira o [retorno de chamada OAuth](https://gcs.office.com/v1.0/admin/oauth/callback).
-URL do Logotipo | Uma URL que contém a imagem do logotipo do aplicativo. | N/D
+URL de redirecionamento | Uma URL de retorno de chamada necessária para a qual o servidor de autorização é redirecionado. | https://gcs.office.com/v1.0/admin/oauth/callback
+URL do Logotipo | Uma URL que contém a imagem do logotipo do aplicativo. | NA
 Ativo | Marque a caixa de seleção para tornar o registro de aplicativo ativo. | Definido como ativo
 Duração do token de atualização | O número de segundos que um token de atualização é válido. Por padrão, os tokens de atualização expiram em 100 dias (8640000 segundos). | 31.536.000 (1 ano)
 Vida útil do token de acesso | O número de segundos que um token de acesso é válido. | 43.200 (12 horas)
