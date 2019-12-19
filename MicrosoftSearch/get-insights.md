@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: ebce7fdc-e89b-473c-8131-67e659bb3f73
 description: Analisar métricas e gerenciar conteúdo do painel do insights no Microsoft Search
-ms.openlocfilehash: bbfc8b230690eeef1f7a23d70d7af29b88924e7d
-ms.sourcegitcommit: 68087149c769a7cdde80944dd9c9933d2bf4a23f
+ms.openlocfilehash: 8ed0e13b53f61c699e8cf5628341adba3b96be9c
+ms.sourcegitcommit: 26481c00963d836de4ed64a454fb6c5b49c5075d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "38699858"
+ms.lasthandoff: 12/18/2019
+ms.locfileid: "40738049"
 ---
 # <a name="microsoft-search-insights-dashboard-reports"></a>Relatórios do painel do insights do Microsoft Search
 
@@ -47,7 +47,7 @@ Você pode escolher modos de exibição diferentes do relatório filtrando o tip
 
 ## <a name="impression-distribution"></a>Distribuição de impressão
 
-Este relatório mostra a distribuição de impressão no [Bing](https://Bing.com) ao longo do tempo para várias respostas. Os exemplos são indicadores, pessoas, Q&A, arquivos, locais, sites de arquivos, grupos e conversas. 
+Este relatório mostra a distribuição de impressão no [Bing](https://Bing.com) ao longo do tempo para várias respostas. Os exemplos são indicadores, pessoas, Q&A, arquivos, locais, sites de arquivos, grupos e conversas.
 
 ![Relatórios de impressões com 90 dias selecionados como o período de tempo.](media/Insights-impressions.png)
 
