@@ -12,14 +12,14 @@ search.appverid:
 - MET150
 - MOE150
 description: Adicionar verticais de pesquisa e personalizar os resultados da pesquisa
-ms.openlocfilehash: 28e8fdc7fe7f08abe265c53772a161b8a7095503
-ms.sourcegitcommit: 68087149c769a7cdde80944dd9c9933d2bf4a23f
+ms.openlocfilehash: 852622c0c66afb996f941c609980a0d792af7364
+ms.sourcegitcommit: c41334350654daef3a4cd45b5b18ea4401286997
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "38699553"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "40947022"
 ---
-# <a name="customize-the-microsoft-search-page"></a>Personalizar a página de pesquisa da Microsoft
+# <a name="customize-the-search-results-page"></a>Personalizar a página de resultados de pesquisa
 
 Criando verticais de pesquisa e tipos de resultados, você pode personalizar os resultados de pesquisa que são mostrados para os usuários quando eles pesquisam no [SharePoint](http://sharepoint.com/), no [Microsoft Office](https://Office.com)e no Microsoft Search no [Bing](https://Bing.com). Os verticais facilitam para os usuários a localização das informações que têm permissão para ver. Por exemplo, você pode criar uma pesquisa vertical para dados de análise de marketing do software de terceiros para seus usuários no departamento de marketing. Você também pode definir tipos de resultados e personalizar o layout desses dados.  
 
