@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Adicionar verticais de pesquisa e personalizar os resultados da pesquisa
-ms.openlocfilehash: 852622c0c66afb996f941c609980a0d792af7364
-ms.sourcegitcommit: c41334350654daef3a4cd45b5b18ea4401286997
+ms.openlocfilehash: 198e5c85c1544b05cdc622f7b617e8bddbcd6a00
+ms.sourcegitcommit: 78dc72e99e148898455e016b4ccb110d16b3d81c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "40947022"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40987672"
 ---
 # <a name="customize-the-search-results-page"></a>Personalizar a página de resultados de pesquisa
 
@@ -101,7 +101,7 @@ Depois de iniciar o assistente, você é orientado pelas etapas para definir o n
 ### <a name="view-the-vertical-after-enabling"></a>Exibir a vertical após habilitar
 
 Depois de habilitar a vertical, poderá demorar um pouco antes de poder visualizá-la.
-Se você quiser aguardar depois de habilitá-lo, você pode acrescentar **cacheClear = true** à URL no [SharePoint](http://sharepoint.com/) e no [Office](https://Office.com) para exibir a vertical imediatamente.
+Se você não quiser esperar depois de habilitá-lo, é possível acrescentar **cacheClear = true** à URL no [SharePoint](http://sharepoint.com/) e no [Office](https://Office.com) para exibir a vertical imediatamente.
 
 ## <a name="troubleshooting"></a>Solução de problemas
 
