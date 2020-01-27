@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: 8ab9aa00-cd74-405f-8410-9a1c3cfacdb9
 description: Com o tempo, você pode precisar atualizar o status e o conteúdo de um local para mantê-lo relevante.
-ms.openlocfilehash: 25fa6fdb8f95c04332e8df16c7589286ecaefdb0
-ms.sourcegitcommit: 21361af7c244ffd6ff8689fd0ff0daa359bf4129
+ms.openlocfilehash: 44214cc1be22c5e9e49276c69c6c4132559f7c8d
+ms.sourcegitcommit: 9784c8a99138c2f333a9fed8b71df9c4f28b2bee
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38626779"
+ms.lasthandoff: 01/24/2020
+ms.locfileid: "41519131"
 ---
 # <a name="manage-locations"></a>Gerenciar locais
 
@@ -40,7 +40,7 @@ Os administradores podem usar o recurso Importar ou Exportar para adicionar ou e
 Use o recurso de importação/exportação para:
 1. Adicionar local em massa - Adicione detalhes no arquivo de modelo de local e, em seguida, importe-o. 
 1. Edição em massa de locais - exporte locais para um arquivo .csv, edite os detalhes do local no arquivo .csv exportado e importe o arquivo .csv atualizado.
-1. Backup de locais – exporte locais existentes para um arquivo .csv.
+1. Locais de backup – exportar locais existentes para um arquivo. csv.
 
 Para exportar ou importar locais:
 1. No canto superior direito da guia **Locais**, selecione **Importar**.
