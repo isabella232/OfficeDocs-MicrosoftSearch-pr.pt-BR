@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: 7e3432e6-5317-4d63-90b0-52da6fddd343
 description: Encontre e atualize as respostas individualmente ou use as ferramentas da Pesquisa da Microsoft disponíveis para editar todas elas de uma só vez
-ms.openlocfilehash: af5f12e759179d7a00d682575a51286e607149b2
-ms.sourcegitcommit: 5946fe6aad2331c023bedda8faf826c0248651f8
+ms.openlocfilehash: 0877de027b68589e5ba15cd8109ea7edeeae8725
+ms.sourcegitcommit: c22e8c3dcc53857da677db98a1a2b7d5ca2c6170
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 02/04/2020
-ms.locfileid: "41711748"
+ms.locfileid: "41721737"
 ---
 # <a name="manage-qas"></a>Gerenciar P e R
 
@@ -62,8 +62,8 @@ Os administradores de pesquisa podem criar conteúdo de pesquisa facilmente usan
 
 Atualmente, as extensões do navegador estão disponíveis para o Edge e o Chrome.
 
-- Para baixar a extensão do Edge, vá para a [Loja da Microsoft](https://www.microsoft.com/p/microsoft-search-content-creator/9nrqdbcbwq55?activetab=pivot:overviewtab) e baixe o aplicativo.
-- Para baixar a extensão do Chrome, acesse a [Chrome Web Store](https://chrome.google.com/webstore/detail/microsoft-search-content/nocnablpaoeecfmfnjoheefkogmleipm) e faça o download do aplicativo.
+- Para baixar extensões de borda, vá para a [Microsoft Store](https://www.microsoft.com/p/microsoft-search-content-creator/9nrqdbcbwq55?activetab=pivot:overviewtab) e baixe o aplicativo.
+- Para baixar as extensões Chrome, vá para o [Chrome Web Store](https://chrome.google.com/webstore/detail/microsoft-search-content/nocnablpaoeecfmfnjoheefkogmleipm) e baixe o aplicativo.
 
 ## <a name="bulk-add-or-edit-qas"></a>Adicionar ou editar P e R em massa
 
