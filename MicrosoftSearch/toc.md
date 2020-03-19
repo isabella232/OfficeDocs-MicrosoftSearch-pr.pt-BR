@@ -8,7 +8,6 @@
 ## [Acrônimos](manage-acronyms.md)
 ## [Bookmarks](manage-bookmarks.md)
 ## [Plantas baixas](manage-floorplans.md)
-### [Práticas recomendadas](floorplans-bestpractices.md)
 ## [Locais](manage-locations.md)
 ## [P e R](manage-qas.md)
 # Conectores (visualização)
