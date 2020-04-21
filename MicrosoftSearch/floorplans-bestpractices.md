@@ -1,8 +1,8 @@
 ---
 title: Práticas recomendadas para planos de piso de pesquisa da Microsoft
-ms.author: anfowler
-author: adefowler
-manager: shohara
+ms.author: jeffkizn
+author: jeffkizn
+manager: parulm
 ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
@@ -12,13 +12,14 @@ search.appverid:
 - MET150
 - MOE150
 description: Práticas recomendadas para planos de piso de pesquisa da Microsoft
-ms.openlocfilehash: ddad671592ab3cf05400faa1261ee7258f3868bb
-ms.sourcegitcommit: 68087149c769a7cdde80944dd9c9933d2bf4a23f
+ms.openlocfilehash: 47eb46df48f1871f6d34d4b00787cf11ccbac1ea
+ms.sourcegitcommit: 6b1c6a4e502d95b42a030a963f9452c387d8a5cd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "38699848"
+ms.lasthandoff: 04/20/2020
+ms.locfileid: "43571010"
 ---
+<!-- markdownlint-disable no-inline-html -->
 # <a name="best-practices-for-microsoft-search-floor-plans"></a>Práticas recomendadas para planos de piso de pesquisa da Microsoft
 
 Para implementar com êxito os planos do Microsoft Search Floor, você precisa coordenar três partes de dados:
@@ -30,6 +31,7 @@ Para implementar com êxito os planos do Microsoft Search Floor, você precisa c
 As práticas recomendadas para a implantação de planos do Microsoft Search Floor também são descritas nas seções a seguir.
 
 ## <a name="building-location-data"></a>Criação de dados de local
+
 Antes de adicionar planos de piso, você precisa adicionar seus prédios aos locais de pesquisa da Microsoft. Forneça os seguintes dados de criação necessários:
 
 |Dados de construção necessários  |Exemplo  |
@@ -42,7 +44,8 @@ Antes de adicionar planos de piso, você precisa adicionar seus prédios aos loc
 Você pode adicionar vários edifícios por vez usando o recurso **importar** na guia **locais** , em vez de adicionar locais um de cada vez. Com o recurso de **importação** , você pode especificar o latitude-longitude. Para obter mais informações, consulte [Manage Locations](manage-locations.md).
 
 ## <a name="floor-plan-map-in-dwg-format"></a>Mapa de planta baixa no formato DWG
-Para criar mapas no Microsoft Search, você precisa carregar planos de piso no formato DWG com informações específicas. Para saber como criar e exibir arquivos em formato DWG, confira [visualizadores do DWG](https://www.autodesk.in/products/dwg). 
+
+Para criar mapas no Microsoft Search, você precisa carregar planos de piso no formato DWG com informações específicas. Para saber como criar e exibir arquivos em formato DWG, confira [visualizadores do DWG](https://www.autodesk.in/products/dwg).
 
 Os mapas de planta baixa exibem quatro elementos:
 
@@ -60,6 +63,7 @@ Neste diagrama, os números de sala são o item mais importante. Eles são mapea
 Essas informações são armazenadas no [Azure ad](https://azure.microsoft.com/services/active-directory/) na propriedade **PhysicalDeliveryOfficeName** . No [centro de administração](https://admin.microsoft.com)do Microsoft 365, ele é chamado de Propriedade do **Office** e pode ser adicionado a **usuários ativos**.
 
 ### <a name="dwg-files"></a>Arquivos DWG
+
 O Microsoft Search requer arquivos de planta baixa no DWG, que é um formato de desenho do [AutoCAD](https://www.autodesk.com/autocad) . Os arquivos devem conter dados de **layout** e **rótulo** . Os **números de sala** são os rótulos mais importantes para os planos de piso.
 
 Recomendamos que você crie seu sistema de numeração do Office com o método de correspondência exata mostrado na tabela a seguir. Mas você não está limitado a esse rótulo. Por exemplo, se o local do escritório do usuário no [Azure ad](https://azure.microsoft.com/services/active-directory/) for **B1 1001**, você poderá rotular o número da sala no arquivo DWG com qualquer uma das opções a seguir.
@@ -71,6 +75,7 @@ Recomendamos que você crie seu sistema de numeração do Office com o método d
 |Apenas o número de sala de correspondência <br> **1**<br>Número da sala: 1        |    ![Mapa de piso do escritório único com o número "1" do Office](media/floorplans-layoutroomonly.png)     |
 
 ## <a name="user-account-office-location"></a>Local do escritório da conta de usuário
+
 Para mapear o local de um funcionário, os números de sala nos arquivos DWG são mapeados para locais do Office na conta do usuário no [Azure ad](https://azure.microsoft.com/services/active-directory/). A propriedade **Location do Office** precisa corresponder às informações de local do Office no arquivo DWG.
 
 A tabela a seguir explica as práticas recomendadas para o mapeamento de dados de local:
@@ -83,5 +88,6 @@ A tabela a seguir explica as práticas recomendadas para o mapeamento de dados d
 |
 
 ## <a name="next-steps"></a>Próximas etapas
+
 [Gerenciar locais](manage-locations.md)<br>
 [Gerenciar plantas baixas](manage-floorplans.md)
