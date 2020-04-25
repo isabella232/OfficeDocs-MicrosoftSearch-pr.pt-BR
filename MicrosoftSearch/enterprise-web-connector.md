@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Configurar o conector de sites da empresa para o Microsoft Search
-ms.openlocfilehash: de466d4cc1156f520bb6a5fe3117389bd29f3e78
-ms.sourcegitcommit: 8ccbf0ea4463d17f810c2f5b484882869a74a996
+ms.openlocfilehash: 4ed926cfdacca66d90854147afdc3c7932d1bd5f
+ms.sourcegitcommit: 49659ecd2ac47c85acc297b21e9e34701213862c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2020
-ms.locfileid: "43793545"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "43803948"
 ---
 # <a name="enterprise-websites-connector"></a>Conector de sites corporativos
 
@@ -60,7 +60,7 @@ Não há suporte para listas de controle de acesso (ACLs). Portanto, recomendamo
 O conector de sites corporativos suporta apenas um rastreamento completo. Isso significa que o conector lê todo o conteúdo do site em todos os rastreamentos. Para garantir que o conector tenha tempo suficiente para ler o conteúdo, recomendamos que você defina um intervalo grande de agendamento de atualização. Recomendamos uma atualização agendada entre três dias e duas semanas. 
 
 ## <a name="troubleshooting"></a>Solução de problemas
-Se algo estiver muito errado com uma conexão, seu status será exibido como falha. Para obter mais informações sobre os tipos de erros, acesse a página de detalhes do erro depois de selecionar a conexão com falha.  Clique no código de erro para ver erros mais detalhados. Consulte também [gerenciar o conector](https://docs.microsoft.com/microsoftsearch/manage-connector) para saber mais.
+Ao ler o conteúdo do site, o rastreamento pode encontrar alguns erros de origem que são representados pelos códigos de erro detalhados abaixo. Para obter mais informações sobre os tipos de erros, acesse a página de **detalhes do erro** depois de selecionar a conexão. Clique no **código de erro** para ver erros mais detalhados. Consulte também [gerenciar o conector](https://docs.microsoft.com/microsoftsearch/manage-connector) para saber mais.
 
  **Código de erro Detalhado** | **Mensagem de erro**
  --- | --- 
@@ -75,7 +75,7 @@ Se algo estiver muito errado com uma conexão, seu status será exibido como fal
  6024 | A página de origem que está tentando indexação tem conteúdo sem suporte.
 
 * Os erros 6001-6013 ocorrem quando a fonte de dados não está acessível devido a um problema de rede ou quando a própria fonte de dados é excluída, movida ou renomeada. Verifique se os detalhes da fonte de dados fornecidos ainda são válidos.
-* Erros 6021-24 o erro ocorre quando a fonte de dados contém conteúdo não textual na página ou quando a página não é um HTML. Verifique a fonte de dados e adicione esta página na lista de exclusão ou ignore o erro.
+* Erros 6021-6024 o erro ocorre quando a fonte de dados contém conteúdo não textual na página ou quando a página não é um HTML. Verifique a fonte de dados e adicione esta página na lista de exclusão ou ignore o erro.
 
 ## <a name="limitations"></a>Limitações
-O conector de sites corporativos não dá suporte à pesquisa de dados em páginas da Web dinâmicas. Exemplos de páginas da Web em sistemas de gerenciamento de conteúdo, como o [Confluence](https://www.atlassian.com/software/confluence) e o [Unily](https://www.unily.com/) ou os bancos de dados que armazenam o conteúdo do site.
+O conector de sites corporativos não dá suporte à pesquisa de dados em **páginas da Web dinâmicas**. Exemplos de páginas da Web em sistemas de gerenciamento de conteúdo, como o [Confluence](https://www.atlassian.com/software/confluence) e o [Unily](https://www.unily.com/) ou os bancos de dados que armazenam o conteúdo do site.
