@@ -1,8 +1,8 @@
 ---
 title: Visão geral da Pesquisa da Microsoft
-ms.author: anfowler
-author: adefowler
-manager: shohara
+ms.author: jeffkizn
+author: jeffkizn
+manager: parulm
 ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Obtenha uma visão geral da pesquisa da Microsoft, seus benefícios e quais aplicativos dão suporte à pesquisa da Microsoft.
-ms.openlocfilehash: 4acc3b9fcb7453f84db256cc20e839066dc94af5
-ms.sourcegitcommit: f4cb37fdf85b895337caee827fb72b5b7fcaa8ad
+ms.openlocfilehash: fc21328f9a72ac77e37ae366bd138770509d6080
+ms.sourcegitcommit: d40d44d01b27dfed92577446fe7a30008b28deb4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/12/2019
-ms.locfileid: "39995028"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "43914485"
 ---
 # <a name="overview-of-microsoft-search"></a>Visão geral da Pesquisa da Microsoft
 
@@ -58,31 +58,29 @@ Se as sugestões na caixa de pesquisa não forem quais usuários estão procuran
 
 ## <a name="tailoring-microsoft-search-to-your-organization"></a>Personalizar a pesquisa da Microsoft na sua organização
 
-Como administrador, você pode criar uma experiência incrível de pesquisa da Microsoft para seus usuários. 
+Como administrador, você pode criar uma experiência incrível de pesquisa da Microsoft para seus usuários.
 
-**Mostrar conteúdo útil** – as respostas fornecem resultados autoritativos rápidos para consultas de pesquisa com base em palavras-chave. Facilitar [a localização do conteúdo](make-content-easy-to-find.md).
+**Mostrar conteúdo útil** – as respostas fornecem resultados autoritativos rápidos para consultas de pesquisa com base em palavras-chave. [Planejar o conteúdo](plan-your-content.md).
 
 **Adicionar conteúdo externo** – os conectores do Microsoft Graph permitem que você coloque conteúdo externo no índice. Use conectores para enriquecer a experiência de pesquisa com dados e arquivos de fora do Microsoft 365. [Visão geral dos conectores do Microsoft Graph](connectors-overview.md)
 
 **Personalizar a experiência do usuário** – você pode personalizar a experiência do usuário por meio do uso de verticais e outras configurações. [Personalizar a página de pesquisa da Microsoft](customize-search-page.md)
 
-## <a name="what-content-is-searched"></a>Qual conteúdo é pesquisado?
+## <a name="what-content-is-searched"></a>Qual conteúdo é pesquisado
 
 A pesquisa da Microsoft mostra o conteúdo que sua organização armazenou no Microsoft 365 ou indexado por meio de conectores. O Microsoft Search não pesquisa nos locatários ou mostra os resultados do conteúdo compartilhado por outras organizações. Se a sua organização tiver configurado um ambiente híbrido do SharePoint usando a pesquisa híbrida na nuvem, a Pesquisa da Microsoft retornará resultados de pesquisa do conteúdo do SharePoint online e no local, incluindo qualquer conteúdo externo que você tenha conectado ao seu ambiente do SharePoint Server. [Saiba mais sobre os ambientes de pesquisa híbrida](https://docs.microsoft.com/sharepoint/hybrid/learn-about-cloud-hybrid-search-for-sharepoint).
 
 Os usuários receberão os mesmos resultados de pesquisa obtidos de outros locais e também receberão resultados da Internet.
 
-## <a name="how-does-microsoft-search-work"></a>Como o Microsoft Search funciona?
+## <a name="how-microsoft-search-works"></a>Como o Microsoft Search funciona
 
 Quando um usuário efetua uma pesquisa, a Pesquisa da Microsoft processa a consulta e analisa a intenção de pesquisa de frases maiores, usando Inteligência Artificial (AI) para aprender frases supérfluas comuns que os usuários adicionam às consultas e que não afetam a intenção de pesquisa. Por exemplo, quando um usuário pesquisa "como alterar minha senha", as palavras menos importantes são extraídas da consulta, se baseando nas palavras relevantes, como "alterar senha".  
 Os resultados da pesquisa que o usuário tem **permissão** para ver são apresentados na página de resultados da pesquisa. A Pesquisa da Microsoft usa algoritmos de classificação inteligentes para ordenar resultados com base na relevância.
 
-## <a name="how-does-microsoft-search-in-bing-help-protect-my-company-data"></a>Como a Microsoft pesquisa no Bing ajuda a proteger os dados da empresa?
+## <a name="how-microsoft-search-in-bing-protects-your-company-data"></a>Como a pesquisa da Microsoft no Bing protege os dados da sua empresa
 
 [Segurança e privacidade para o Microsoft Search no Bing](security-for-search.md)
 
 ## <a name="see-also"></a>Confira também
 
 [Configurar a Pesquisa da Microsoft](setup-microsoft-search.md)
-
-[Tornar o conteúdo fácil de encontrar](make-content-easy-to-find.md)
