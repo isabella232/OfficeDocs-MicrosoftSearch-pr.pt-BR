@@ -12,89 +12,157 @@ search.appverid:
 - MET150
 - MOE150
 description: O recurso plantas baixas no Microsoft Search ajuda os usuários a encontrar pessoas, escritórios e outros amenities dentro de um edifício.
-ms.openlocfilehash: 9871cda3790f210dc0c406d1d29abe2c571c1085
-ms.sourcegitcommit: 21361af7c244ffd6ff8689fd0ff0daa359bf4129
+ms.openlocfilehash: c2b148ab1bdb7ff425d5f2b4524e9770f489a92a
+ms.sourcegitcommit: d40d44d01b27dfed92577446fe7a30008b28deb4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38626788"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "42824773"
 ---
 # <a name="manage-floor-plans"></a>Gerenciar plantas baixas
 
-Os planos do Microsoft Search Floor ajudam os usuários a encontrar pessoas e salas de reunião dentro de um edifício. Plantas baixas respondam a estas perguntas:
+Os planos de piso no **Microsoft Search** ajudam os usuários a encontrar pessoas e salas de reunião dentro de um edifício. Os planos de piso respondem às seguintes perguntas:
+
 - Onde está o Office do Allan?
-- Onde está a sala de reunião C1?
+- Edifício 2 andar 3
+- Localizar 2/11173
 
-![Mapa de planta baixa que aponta o local do escritório do usuário dentro do edifício.](media/floorplans-officelocation.png)
+## <a name="add-floor-plans"></a>Adicionar plantas baixas
 
-Para facilitar a localização de respostas a perguntas como essas, as informações sobre os prédios, escritórios e instalações de uma organização precisam estar disponíveis e ser pesquisadas. Organizações maiores normalmente têm equipes de gerenciamento de instalações ou de espaço e podem já ter essas informações disponíveis. Em uma organização menor, o administrador de pesquisa pode ter que criar e adicioná-lo.
+Siga estas etapas para configurar as respostas de plantas baixas no **Microsoft Search**.
 
-## <a name="48-hours-before-you-begin"></a>48 horas antes de começar
-Antes de começar a carregar planos de piso, você precisa indexar os locais do Office dos usuários. Dependendo do tamanho da sua organização, pode levar até 48 horas para ser concluída. Se você ignorar esta etapa, receberá erros ao executar o procedimento.
+### <a name="step-1-determine-your-building-codes"></a>Etapa 1: determinar seus códigos de construção
 
-![Captura de tela da página de plantas de piso com "a Microsoft precisa reunir e organizar locais do Office antes de carregar planos de piso".](media/floorplans_hydrationstep.png)
+Os códigos de construção são usados como parte do local do escritório de um usuário. Você usará esses códigos ao atualizar os perfis de usuário. Digamos que sua organização tenha um edifício neste local: *prédio 2, 350 quinta Avenida, Nova York City, NY 10016*
 
-No [centro de administração](https://admin.microsoft.com)do Microsoft 365, vá para **configurações** > **do Microsoft Search** > **Floor Plan**e selecione **introdução**.
+Aqui estão alguns exemplos bons para o código desse edifício: 2, B2, Building2, prédio 2 ou NYCB2. Cada edifício deve ter um código exclusivo.
 
-Se você não vir este aviso, então você ou alguém em sua organização já iniciou esta etapa.
+### <a name="step-2-review-your-floor-plans"></a>Etapa 2: revisar seus planos de piso
 
-## <a name="things-to-consider"></a>Itens a considerar
-Para ajudar os usuários a encontrar informações sobre escritórios e criar instalações, você precisa adicionar:
+Os arquivos de plantas baixas devem estar no formato DWG; Os arquivos DWG podem conter rótulos de texto. Quando um rótulo de texto marca uma sala, ele é chamado de rótulo de sala. O arquivo DWG deve ter **pelo menos 10 salas** marcadas com rótulos. Estes são alguns exemplos de arquivos DWG com tipos de rótulo diferentes:
 
-|Relação     |Por que isso é importante?  |
-|---------|---------|
-|Local do edifício    |    Você precisará adicionar cada prédio aos locais de pesquisa da Microsoft. Você deve ter um formato de nomenclatura padrão para cada edifício. Você pode adicionar o edifício usando um endereço de rua ou coordenadas de mapa.     |
-|Propriedade **Office** em todas as contas de usuário     |    Cada conta de usuário precisa ter a propriedade do **Office** com o local do escritório. E os locais do Office devem seguir um formato padrão e incluir informações de edifício, chão e sala.   <br> No Azure AD, essa propriedade é chamada de **PhysicalDeliveryOfficeName**.    |
-|Arquivo de planta baixa no formato DWG     |   Você precisa de um planta comercial separado para cada andar ou asa da sua construção e incluir as informações do Office no mesmo formato que você usou na Propriedade do Office do usuário. O arquivo precisa estar no formato DWG de desenho do AutoCAD. |
+|**Rótulos de texto incluindo rótulos de sala**|**Rótulos de texto, mas sem rótulos de sala**|**Nenhum rótulo de texto**|
+|:-----:|:-----:|:-----:|
+|![floorplans-textandroomlabels. png](media/floorplans-textandroomlabels.png)|![floorplans-textnoroomlabels. png](media/floorplans-textnoroomlabels.png)|![floorplans-nolabels. png](media/floorplans-nolabels.png)|
 
-Para obter mais informações, consulte [Best Practices for Microsoft Search Floor Plans](floorplans-bestpractices.md).
+Consulte a seção [perguntas frequentes](#frequently-asked-questions) para obter informações sobre como exibir e atualizar arquivos DWG.
 
-## <a name="building-location"></a>Local do edifício
+### <a name="step-3-update-office-locations-on-user-profiles"></a>Etapa 3: atualizar os locais do Office em perfis de usuário
 
-Identificar os edifícios que precisam ser adicionados como locais. O endereço local e as coordenadas de mapa de um edifício são o primeiro ponto de identificação. Se o edifício ainda não for adicionado como um local, o administrador precisará adicioná-lo. Consulte [Manage Locations](manage-locations.md) para obter mais detalhes.
+O local do escritório de um usuário é uma combinação de um código de construção e um rótulo de sala. Por exemplo, se o código de construção for *2* e o rótulo de sala for *1173*, o local do escritório será *2/1173*.
 
-## <a name="floor-plans-files"></a>Arquivos de plantas baixas
+Adicione ou atualize os locais do Office para cada usuário em sua organização. Você pode alterar o local do Office no perfil de usuário no [centro de administração](https://admin.microsoft.com) do Microsoft 365 ou pode alterar o seu Active Directory local para sincronizar com o Azure Active Directory. *PhysicalDeliveryOfficeName* é o campo usado para o local do escritório. Se os rótulos de sala não incluírem números de piso, Confira as dicas sobre perguntas frequentes.
 
-Após a identificação de um edifício, você pode adicionar seus planos de piso. Todos os arquivos de planta baixa devem estar no formato DWG. Se sua organização ainda não as tiver, você precisará criar os planos de piso em um aplicativo compatível com DWG. Os planos de piso devem mapear corretamente todas as salas, incluindo salas de conferência ou reuniões, banheiros, cozinhas, salas de email e outras facilidades em cada andar do edifício para habilitar a pesquisa.
+Neste exemplo, o Office da Allan está na sala 1173 no piso 1 da construção 2.
+![floorplans-userlestview. png](media/floorplans-userlistview.png)
 
-### <a name="office-locations"></a>Locais do Office
+> [!NOTE]
+> Para ver os locais atualizados do Office durante a pesquisa de plantas baixas, você deve atualizar os locais do Office para **pelo menos 10 pessoas** em cada andar.
 
-Para ser mapeado para plantas baixas, todos os locais do Office e os dados do escritório do funcionário devem estar na conta do usuário. Na planta baixa, os locais do Office devem ser exclusivos e não podem ser repetidos. Por exemplo, se duas pessoas compartilharem o Office 2/1173, **2/1173** só poderão ter uma única instância em seus planos de piso, mas as contas de usuário no Azure ad terão o mesmo local do Office.
+### <a name="step-4-verify-office-location"></a>Etapa 4: verificar o local do Office
+
+Use **o Microsoft Search** para localizar um usuário e verificar se o local do escritório está aparecendo corretamente. Se você acabou de atualizar os locais, talvez seja necessário aguardar até **72 horas** para que as atualizações apareçam nos resultados da pesquisa.
 
 ![floorplans-peoplecard. png](media/floorplans-peoplecard.png)
 
- > [!Note] 
- > Quando um usuário procura uma sala ou um local do escritório de um colega, os números de sala em plantas baixas são correspondidos com os locais do Office no Azure AD. Se uma correspondência for encontrada, o mapa será exibido.
+### <a name="step-5-add-building-locations"></a>Etapa 5: Adicionar locais de construção
 
-## <a name="add-floor-plan"></a>Adicionar planta baixa
+Plantas baixas usa [locais](manage-locations.md) para definir seus prédios. No [centro de administração](https://admin.microsoft.com)do Microsoft 365, vá para **configurações**  >  locais de**pesquisa da Microsoft**  >  **Locations**e selecione **Adicionar**. Insira o nome, o endereço e as palavras-chave para o edifício. Adicione quantos edifícios forem necessários.
 
- Na primeira vez que você passa para os planos de piso, você pode ver uma observação na parte superior da página que diz, *a Microsoft precisa reunir e organizar os locais do Office para que você possa carregar planos de piso*. Selecione **introdução** para indexar seus locais do Microsoft Azure AD. 
+![floorplans-Locations. png](media/floorplans-locations.png)
 
-1. No [centro de administração](https://admin.microsoft.com), vá para **configurações** > **do Microsoft Search** >**Floor Plan**e selecione **Adicionar plantas baixas**.
-4. Selecione o edifício no menu suspenso e selecione **Avançar**. Se o edifício não estiver listado, você precisará adicioná-lo em locais. Consulte [gerenciar locais](manage-locations.md) para obter mais informações.
-6. Selecione **carregar arquivos**e, em seguida, selecione a planta baixa que você deseja carregar. 
-1. Após o carregamento do arquivo ter êxito, você precisará identificar como o número de chão ou o asa será representado. 
-7. Insira o código que identifica o edifício. O código de construção pode ser encontrado na conta do usuário na propriedade **local do escritório** . Por exemplo, se o local do escritório do usuário é **2/1173**, o código de construção é **2**. 
-9. Revise e identifique os padrões de local para todos os planos de piso carregados e selecione **Avançar**.
-10. Quando estiver pronto, selecione **publicar** para tornar o plano de planta baixa pesquisável.
+Para obter mais detalhes sobre locais, consulte [Manage Locations](manage-locations.md)
 
-> [!Note] 
-> Quando uma planta baixa estiver em um estado de rascunho, ela estará incompleta. Um rascunho permite que os stakeholders coordenem o carregamento e a criação de plantas baixas. Também permite implantar plantas baixas em estágios.
+### <a name="step-6-gather-and-organize-office-locations"></a>Etapa 6: reunir e organizar locais do Office
+
+Para que você possa usar os planos de piso, os locais do Office devem ser indexados. Esta é uma operação única que pode levar até 48 horas para ser concluída. O tempo total dependerá do tamanho da sua organização.
+
+No [centro de administração](https://admin.microsoft.com), vá para **configurações**  >  **do Microsoft Search**  >  **Floor Plans**e selecione **introdução**. Se você não vir este aviso, esta etapa já foi concluída para sua organização
+
+![floorplans_hydrationstep. png](media/floorplans_hydrationstep.png)
+
+### <a name="step-7-upload-floor-plans"></a>Etapa 7: carregar planos de piso
+
+1. No [centro de administração](https://admin.microsoft.com), vá para **configurações**  >  planos de piso de**pesquisa da Microsoft**  >  **Floor plans**e selecione **Adicionar**.
+2. Selecione um edifício na lista suspensa e selecione **Avançar**. Se o edifício não estiver listado, volte e [adicione locais de construção](#step-5-add-building-locations).
+3. Selecione **carregar arquivos**e, em seguida, escolha a planta baixa que você está carregando.
+4. Quando o upload estiver concluído, você deve inserir o número de chão que é representado no arquivo de planta baixa. Em seguida, selecione **Avançar**.
+5. Opcion Se seu piso tiver asas ou zonas, insira esses detalhes.
+6. Insira o código de construção para esta planta baixa. O código de construção pode ser encontrado na propriedade local do Office dos usuários. Por exemplo, se o local do escritório de um usuário for **2/1173**, o código de construção será **2**.
+7. Opcion Revise e identifique os padrões de local para todos os planos de piso carregados e selecione **Avançar**.
+8. Você verá uma tela de revisão, listando quantos locais de escritório foram mapeados para os planos de piso. Selecione **detalhes** para garantir que o mapeamento esteja correto.
+9. Quando estiver pronto, selecione **publicar** para tornar o plano de planta disponível na **pesquisa da Microsoft**.
+
+> [!NOTE]
+> **Leva 48 horas para que os planos de piso sejam publicados.** Depois que seus usuários verão os resultados da planta baixa, semelhante ao que é mostrado abaixo, quando pesquisarem o escritório de um colega de trabalho.
+
+![floorplans-OfficeLocation. png](media/floorplans-officelocation.png)
+
+### <a name="step-8-optional-specify-location-patterns"></a>Etapa 8: (opcional) especificar padrões de local
+
+Após carregar uma planta baixa, os rótulos de texto serão comparados aos locais do Office nos perfis dos seus usuários. Se houver menos de 10 correspondências, a tela **especificar padrões de localização** será exibida. Os padrões de local são usados para extrair informações de piso, de asa e de sala dos locais do Office.
+
+![floorplans-locationpattern. png](media/floorplans-locationpattern.png)
+
+Somente a sala é necessária, piso e asa são opcionais, e você pode ignorar locais conforme necessário.
 
 ## <a name="edit-floor-plans"></a>Editar plantas baixas
 
-1. No [centro de administração](https://admin.microsoft.com), vá para **configurações** > **planos de piso**de pesquisa > da**Microsoft**. 
-1. Selecione **publicado** ou **rascunho**, selecione a planta baixa que você deseja alterar e, em seguida, selecione **Editar**.
-5. Faça as alterações e selecione **salvar**.
+Para atualizar um plano de planta baixa existente, selecione o plano de piso que você deseja alterar e, em seguida, selecione **Editar**. Faça suas alterações e salve-as.
 
-## <a name="troubleshoot-errors"></a>Erros de solução de problemas
+## <a name="troubleshooting"></a>Solução de problemas
 
-Você não pode ir para a próxima etapa de definir informações de piso, de asa e de sala até que todos os erros sejam corrigidos. A tabela a seguir lista as mensagens de erro de upload de arquivo e as ações para corrigir os problemas.
+|**Etapa**|**Mensagem de erro**|**Tipo**|**Action**|
+|:-----|:-----|:-----|:-----|
+|Carregar planos de piso|Não é possível ler CC_1. dwg. Carregue novamente ou exclua a planta baixa.|Error|Tente carregar o arquivo novamente. Se isso não funcionar, exclua o arquivo e tente novamente.|
+|Carregar planos de piso|Há dois arquivos chamados CC_1. dwg. Exclua um deles ou recarregue com outro nome.|Error|Se o nome do arquivo estiver incorreto, torne o nome do arquivo exclusivo adicionando informações de chão ou asa e, em seguida, carregue o arquivo novamente. Se você tiver adicionado acidentalmente o mesmo arquivo duas vezes, exclua-o.|
+|Carregar planos de piso|Nenhum dado encontrado.|Error|Verifique o arquivo para se certificar de que ele está correto e, em seguida, carregue-o novamente ou exclua-o.|
+|Carregar planos de piso|As referências externas estão ausentes neste arquivo. Carregue o CC_1_furniture. DWG ou exclua este arquivo.|Aviso|Carregar arquivos de referência externa ou excluir.|
+|Carregar planos de piso|Não foi possível ler números ou marcas de sala no arquivo DWG. Exclua esse arquivo.|Aviso|Verifique o arquivo DWG para certificar-se de que os dados estão incluídos e exclua o arquivo e tente novamente.|
+|Vincular locais do Office|Nenhum local do Office encontrado no AAD. Adicione dados de local ao AAD antes de configurar os planos de piso.|Error|[Atualizar locais do Office em perfis de usuário](#step-3-update-office-locations-on-user-profiles) |
 
-| Mensagem de erro   | Tipo    | Action       |
-|:----------------| :--------- | :-------------- |
-| Não é possível ler CC_1. dwg. Carregue novamente ou exclua a planta baixa. | Error |  Tente carregar o arquivo novamente. Se isso não funcionar, exclua o arquivo e tente novamente. |
-| Há dois arquivos chamados CC_1. dwg. Exclua um deles ou recarregue com outro nome.| Error | Se o nome do arquivo estiver incorreto, torne o nome do arquivo exclusivo adicionando informações de chão ou de asa e, em seguida, carregue o arquivo novamente. <br><br>Se você adicionou acidentalmente o mesmo arquivo duas vezes, basta excluí-lo. |
-| Nenhum dado encontrado. | Error | Verifique seu arquivo para certificar-se de que ele é o correto e, em seguida, carregue-o novamente ou exclua-o. |
-| As referências externas estão ausentes neste arquivo. Carregue o "CC_1_furniture. dwg" ou exclua esse arquivo. | Aviso | Carregar arquivos de referência externa ou excluir.|
-| Não foi possível ler números ou marcas de sala no arquivo DWG. Exclua esse arquivo. | Aviso | Verifique o arquivo DWG para certificar-se de que os dados estão incluídos e, em seguida, exclua o arquivo e tente novamente. |
+## <a name="frequently-asked-questions"></a>Perguntas frequentes
+
+**P:** Como exibir e editar arquivos DWG?
+
+**A:** Use qualquer uma destas opções para exibir arquivos DWG:
+
+- Carregue o arquivo no SharePoint e abra-o.
+- Abra o arquivo no [Microsoft Visio](https://support.office.com/article/Open-insert-convert-and-save-DWG-and-DXF-AutoCAD-drawings-60cab691-0f4c-4fc9-b775-583273c8dac5) ou [Autodesk DWG TrueView](https://www.autodesk.com/products/dwg).
+- Carregue o arquivo para o [Visualizador do Autodesk online](https://viewer.autodesk.com/).
+
+**P:** Como adiciono rótulos de texto a salas desmarcadas?
+
+**A:** Abra o arquivo DWG em um editor e [adicione rótulos de sala](https://knowledge.autodesk.com/support/autocad-map-3d/learn-explore/caas/CloudHelp/cloudhelp/2019/ENU/MAP3D-Learn/files/GUID-4854F184-6279-4E0C-9487-34A4759017F6-htm.html).
+
+**P:** Como criar ou editar arquivos DWG para fins de teste?
+
+**A:** Criar um arquivo DWG no Microsoft Visio, Autodesk AutoCAD ou qualquer outro editor DWG. Certifique-se de que 10 ou mais salas estejam rotuladas no arquivo.
+
+**P:** * * qual é o melhor formato para rótulos de texto nos arquivos DWG?
+
+**A:** Para obter os melhores resultados, os rótulos de texto devem conter números de piso e de sala. Os exemplos abaixo usam 2 ou SC para o código de construção.
+<!-- markdownlint-disable no-inline-html -->
+|Tipos de rótulo de sala|ArredMultB|Sala|Rótulo de texto de exemplo|Local do Office (código de construção/rótulo de texto)|
+|:-----|:-----|:-----|:-----|:-----|
+|Tem piso e número de sala|1 |173|1173|2/1173|
+|| 21 |45|21045|2/21045|
+||23|100|23 mil|2/23-100.000|
+||1 |G06-07|1G06-07|2/1G06-07|
+||2 |1.024|02.1024 a|2/02.1024 a|
+||2 |1.024|02.1024 a|2/02.1024 a|
+||2 |105, 1|2105, 1|2/2105.01|
+|Tem código de compilação, base e número de sala|,0|X-11-M-12|2-0-X-11-M-12|2/2 -0-X-11-M-12<br/>2-0-X-11-M-12|
+||2 |128A|22128A|2/22128A<br/>22128A|
+||1 |B2-11|21-B2-11|2/21-B2-11<br/>21-B2-11|
+||2 |45|SC2045|SC/SC2045<br/>SC2045|
+
+**P:** Posso usar um arquivo DWG que não inclui os números de piso?
+
+**A:** Sim, você pode. Quando você atualiza os locais do Office no perfil AAD do usuário, inclua o número do andar como parte do número da sala, mesmo que ele não esteja no arquivo DWG. Depois que você carregar o arquivo, a tela especificar padrões de local aparecerá e você poderá indicar ambos os valores.
+
+Por exemplo, um arquivo DWG que inclui números de sala, mas sem números de piso, pode ser semelhante a este:
+
+![floorplans-nofloors. png](media/floorplans-nofloors.png)
+
+O local do escritório no perfil do usuário deve ser 2/1175 em que ' 2 ' é o código de construção, ' 1 ' é o número do andar e ' 175 ' é o número da sala.
