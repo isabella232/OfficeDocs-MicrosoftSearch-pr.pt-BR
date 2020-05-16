@@ -1,8 +1,8 @@
 ---
 title: Configurar a Pesquisa da Microsoft
-ms.author: anfowler
-author: adefowler
-manager: mnirkhe
+ms.author: jeffkizn
+author: jeffkizn
+manager: parulm
 ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
@@ -12,16 +12,16 @@ search.appverid:
 - MET150
 - MOE150
 description: Configurar a Pesquisa da Microsoft pela primeira vez.
-ms.openlocfilehash: d8b796e0ff61972f3e244c1a5af98319884769dc
-ms.sourcegitcommit: ef1eb2bdf31dccd34f0fdc4aa7a0841ebd44f211
+ms.openlocfilehash: 37b5f33fe7b49a11c4558debac5b9acae4cc40cd
+ms.sourcegitcommit: aa48b6510883e1617aa13a50b1056fb149c47586
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "39663056"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "44256633"
 ---
 # <a name="set-up-microsoft-search"></a>Configurar a Pesquisa da Microsoft
 
-O Microsoft Search fornece uma interface amigável para ajudar os usuários a localizar informações como arquivos e documentos, sites internos e ferramentas de negócios, pessoas e grupos, locais e direções, conversas e respostas. Ele faz isso acessando com segurança todas as fontes de dados, incluindo emails, arquivos, arquivos do SharePoint, conteúdo do OneDrive e outros recursos compartilhados, bem como a Internet na organização do usuário.
+O Microsoft Search fornece uma interface amigável para ajudar os usuários a localizar informações como arquivos e documentos, sites internos e ferramentas de negócios, pessoas e grupos, locais e direções, conversas e respostas. Ele faz isso acessando com segurança todas as fontes de dados, incluindo emails, arquivos, arquivos do SharePoint, conteúdo do OneDrive e outros recursos compartilhados também. Com o Microsoft Search no Bing, você também pode obter resultados de pesquisa da Internet.
 
 Para saber mais sobre os recursos da Pesquisa da Microsoft, confira [Visão Geral da Pesquisa da Microsoft](overview-microsoft-search.md).
 
