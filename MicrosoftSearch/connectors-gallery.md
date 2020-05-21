@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Lista todos os conectores do Microsoft Graph para o Microsoft Search
-ms.openlocfilehash: b1b2c99c57d0a5d2df909f24019446c0ee07b7a4
-ms.sourcegitcommit: 37fc4a833885c2f3329b729cc3c79ccbb9213a77
+ms.openlocfilehash: a5c3cb0090361e16456b01646b2a0dec46602d88
+ms.sourcegitcommit: 924bcf4dd1b4bfa5684d43a3f8e784d869c659e7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43097475"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44326835"
 ---
 # <a name="microsoft-graph-connectors-gallery"></a>Galeria de conectores do Microsoft Graph
 
@@ -413,7 +413,7 @@ ms.locfileid: "43097475"
             <div class="cardPadding">
                 <div class="card" style="min-height:240px;">
                     <div class="cardText">
-                        <h3>Armazenamento de Blob do Azure</h3>
+                        <h3>Armazenamento de BLOBs do Microsoft Azure</h3>
                         <p>por <a href="https://www.accenture.com">Accenture</a></p>
                         <p>O Azure Blob Storage Connector rastreará o conteúdo do contêiner de blob do Azure. Cada blob é enviado com seus metadados (tamanho, local, acessado por último, etc.). As atualizações são descobertas automaticamente.</p>
                         <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
@@ -1995,6 +1995,25 @@ ms.locfileid: "43097475"
             <div class="cardPadding">
                 <div class="card" style="min-height:240px;">
                     <div class="cardText">
+                       <h3>Atraso</h3>
+                        <p>por <a href="https://www.raytion.com">raytion</a></p>
+                        <p>O conector para margem de atraso de forma eficiente e sincroniza o conteúdo da margem de atraso com o Microsoft Search. Ele indexa com eficiência mensagens, segmentos e arquivos compartilhados de todos os canais públicos. Tudo isso quase em tempo real. O conector garante que todos os documentos vêm com um conjunto abrangente de metadados, o que permite desenvolver a melhor experiência de pesquisa. Mesmo em ambientes vibrantes, o conector de margem de atraso controla todas as alterações e garante um índice de pesquisa atualizado.</p>
+                        <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
+                            <a href="https://www.raytion.com/connectors/raytion-slack-connector"><font color="0065BA">Mais detalhes</font></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li>
+</ul>
+<!--- 37 ROW --->
+<ul class="panelContent cardsZ">
+    <li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card" style="min-height:240px;">
+                    <div class="cardText">
                         <h3>SMB</h3>
                         <p>por <a href="https://www.accenture.com">Accenture</a></p>
                         <p>O conector SMB Rastreia arquivos e diretórios através de unidades compartilhadas. Ele gera uma assinatura para cada item para permitir atualizações incrementais de apenas itens alterados. Cada arquivo é enviado com seus metadados (tamanho, local, último acesso, etc.) e listas de controle de acesso.</p>
@@ -2006,9 +2025,6 @@ ms.locfileid: "43097475"
             </div>
         </div>
     </li>
-</ul>
-<!--- 37 ROW --->
-<ul class="panelContent cardsZ">
     <li>
         <div class="cardSize">
             <div class="cardPadding">
@@ -2041,6 +2057,9 @@ ms.locfileid: "43097475"
             </div>
         </div>
     </li>
+</ul>
+<!--- 38 ROW --->
+<ul class="panelContent cardsZ">
     <li>
         <div class="cardSize">
             <div class="cardPadding">
@@ -2057,10 +2076,6 @@ ms.locfileid: "43097475"
             </div>
         </div>
     </li>
-
-</ul>
-<!--- 38 ROW --->
-<ul class="panelContent cardsZ">
     <li>
         <div class="cardSize">
             <div class="cardPadding">
@@ -2093,6 +2108,9 @@ ms.locfileid: "43097475"
             </div>
         </div>
     </li>
+</ul>
+<!--- 39 ROW --->
+<ul class="panelContent cardsZ">
     <li>
         <div class="cardSize">
             <div class="cardPadding">
@@ -2109,9 +2127,6 @@ ms.locfileid: "43097475"
             </div>
         </div>
     </li>
-</ul>
-<!--- 39 ROW --->
-<ul class="panelContent cardsZ">
     <li>
         <div class="cardSize">
             <div class="cardPadding">
@@ -2144,6 +2159,9 @@ ms.locfileid: "43097475"
             </div>
         </div>
     </li>
+</ul>
+<!--- 40 ROW --->
+<ul class="panelContent cardsZ">
     <li>
         <div class="cardSize">
             <div class="cardPadding">
@@ -2160,9 +2178,6 @@ ms.locfileid: "43097475"
             </div>
         </div>
     </li>
-</ul>
-<!--- 40 ROW --->
-<ul class="panelContent cardsZ">
     <li>
         <div class="cardSize">
             <div class="cardPadding">
@@ -2195,6 +2210,9 @@ ms.locfileid: "43097475"
             </div>
         </div>
     </li>
+</ul>
+<!--- 41 ROW --->
+<ul class="panelContent cardsZ">
         <li>
         <div class="cardSize">
             <div class="cardPadding">
@@ -2211,9 +2229,6 @@ ms.locfileid: "43097475"
             </div>
         </div>
     </li>
-</ul>
-<!--- 41 ROW --->
-<ul class="panelContent cardsZ">
     <li>
         <div class="cardSize">
             <div class="cardPadding">
@@ -2246,6 +2261,9 @@ ms.locfileid: "43097475"
             </div>
         </div>
     </li>
+</ul>
+<!--- 42 ROW --->
+<ul class="panelContent cardsZ">
     <li>
         <div class="cardSize">
             <div class="cardPadding">
@@ -2262,9 +2280,6 @@ ms.locfileid: "43097475"
             </div>
         </div>
     </li>
-</ul>
-<!--- 42 ROW --->
-<ul class="panelContent cardsZ">
     <li>
         <div class="cardSize">
             <div class="cardPadding">
@@ -2298,4 +2313,3 @@ ms.locfileid: "43097475"
         </div>
     </li>
 </ul>
-
