@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Configurar o conector de sites da empresa para o Microsoft Search
-ms.openlocfilehash: 66fd0804bf26d70208cdaca519f91dba3a1ba166
-ms.sourcegitcommit: 924bcf4dd1b4bfa5684d43a3f8e784d869c659e7
+ms.openlocfilehash: c4b799a3127a4a302e3f07953a59ea0319a09052
+ms.sourcegitcommit: c186be143164f21a3fecdb3037acd90a26c0fcf3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44326826"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44374331"
 ---
 # <a name="enterprise-websites-connector"></a>Conector de sites corporativos
 
@@ -33,22 +33,6 @@ A URL raiz é o que inicia o rastreamento e é usado para autenticação. Você 
 
 ### <a name="authentication"></a>Autenticação 
 A autenticação básica exige um nome de usuário e uma senha. Crie essa conta de bot usando o centro de [Administração](https://admin.microsoft.com)do Microsoft 365.
-
-O OAuth 2,0 com o [Azure ad](https://docs.microsoft.com/azure/active-directory/) requer uma ID de locatário, ID de recurso, ID de cliente e segredo do cliente.
-Para obter mais informações, consulte [autorizar o acesso aos aplicativos Web do Azure Active Directory usando o fluxo de concessão de código OAuth 2,0](https://docs.microsoft.com/azure/active-directory/develop/v1-protocols-oauth-code). Registre-se com os seguintes valores:
-* **Nome:** Pesquisa da Microsoft
-* **Redirect_URI:**`https://gcs.office.com/v1.0/admin/oauth/callback`
-
-Para obter os valores de Tenant, Resource, client_id e client_secret nomeados, acesse **usar o código de autorização para solicitar um token de acesso** na página da Web URL de redirecionamento.
-
-Para obter mais informações, consulte [QuickStart: registrar um aplicativo com a plataforma de identidade da Microsoft](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app).
-
-### <a name="reverse-proxy-url"></a>URL de proxy reverso 
-O conector de sites da empresa é baseado em nuvem, portanto, não acessa o conteúdo local. Para fornecer esse acesso, instale um proxy reverso. Um proxy reverso fornece acesso seguro e confiável a sites locais. Recomendamos o [proxy de aplicativo do Azure](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy).
-
-O requisito de proxy reverso para a URL raiz e a autenticação é o mesmo que o conteúdo baseado em nuvem, exceto pelo fato de a URL raiz e a autenticação serem fornecidas pelo servidor de proxy reverso.
-
-Veja [considerações de segurança para acessar aplicativos remotamente com o proxy de aplicativo do Azure ad](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-security).
 
 ## <a name="select-the-source-properties"></a>Selecionar as propriedades de origem 
 As propriedades de origem são definidas com base no formato de dados do site da empresa. No entanto, você pode criar uma **lista de exclusão** para excluir algumas URLs de serem rastreadas se esse conteúdo for confidencial ou não valer para o rastreamento. Para criar uma lista de exclusão, navegue pela URL raiz. Você tem a opção de adicionar as URLs excluídas à lista durante o processo de configuração.
