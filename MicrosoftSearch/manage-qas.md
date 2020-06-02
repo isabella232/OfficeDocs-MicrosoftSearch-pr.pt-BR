@@ -12,31 +12,31 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 7e3432e6-5317-4d63-90b0-52da6fddd343
-description: Encontre e atualize as respostas individualmente ou use as ferramentas da Pesquisa da Microsoft disponíveis para editar todas elas de uma só vez
-ms.openlocfilehash: 0877de027b68589e5ba15cd8109ea7edeeae8725
-ms.sourcegitcommit: c22e8c3dcc53857da677db98a1a2b7d5ca2c6170
+description: Encontre e atualize as respostas individualmente ou use as ferramentas de pesquisa da Microsoft disponíveis para editar Q&todas ao mesmo tempo.
+ms.openlocfilehash: af966cfaae6680a063feb25d2736303106c19978
+ms.sourcegitcommit: 0050e113517a36e3ca26028a04ac5c236caaf524
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41721737"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44470268"
 ---
 # <a name="manage-qas"></a>Gerenciar P e R
 
-A criação de P e R é semelhante à criação de indicadores. As P e R permitem que você responda uma pergunta do usuário, em vez de apenas fornecer um link para uma página da Web. Você pode formatar a resposta em rich text usando as ferramentas disponíveis. Se um indicador e um P e R compartilham a mesma palavra-chave, o resultado do indicador é mostrado primeiro. Como os Indicadores, o índice de P e R é atualizado imediatamente depois que um P e R é adicionado ou alterado.
+A criação de P e R é semelhante à criação de indicadores. P&como permitir que você responda às perguntas do usuário em vez de apenas fornecer um link para uma página da Web. Você também pode formatar a resposta em Rich Text. Se um indicador e um Q&um compartilham a mesma palavra-chave, o resultado do indicador será mostrado primeiro. Como indicadores, o Q&um índice é atualizado imediatamente após um Q&A é adicionado ou alterado.
 
 ## <a name="add-or-edit-a-single-qa"></a>Adicione ou edite um único P e R
 
 1. Vá para o **centro de administração do Microsoft 365**.
 1. No painel de navegação, vá para **Configurações** e selecione **Pesquisa da Microsoft**.
-1. Selecione a guia **P e R**. Por padrão, a primeira guia (**Indicadores**) se encontra selecionada.
+1. Selecione a guia **Q&uma** .
 1. Para adicionar P e R, selecione **Adicionar novo**.
-Para editar P e R, selecione o P e R na lista P e R relevante.
-1. À medida que você adiciona ou edita as informações, a visualização é atualizada automaticamente.
+Para editar P e R, selecione o P e R na lista P e R relevante. À medida que você adiciona ou edita as informações, a visualização é atualizada automaticamente.
 1. Salve suas alterações.
 
 ### <a name="supported-html-tags"></a>Tags HTML com suporte
 
-Você pode usar o conteúdo HTML existente ou adicionar tags HTML à sua resposta (descrição). Tags não compatíveis são ignoradas.  
+Você pode usar o conteúdo HTML existente ou adicionar tags HTML à sua resposta (descrição). Tags não compatíveis são ignoradas.
+
 As seguintes tags HTML são compatíveis:
 
 - blockquote
@@ -60,40 +60,40 @@ As seguintes tags HTML são compatíveis:
 
 Os administradores de pesquisa podem criar conteúdo de pesquisa facilmente usando extensões de navegador. Instale a extensão do navegador e vá para o site do qual você deseja gerar um p&A. Você pode criar o Q&A e incluir um link para o site de origem.
 
-Atualmente, as extensões do navegador estão disponíveis para o Edge e o Chrome.
+No momento, as extensões do navegador estão disponíveis para o Microsoft Edge e o Chrome.
 
-- Para baixar extensões de borda, vá para a [Microsoft Store](https://www.microsoft.com/p/microsoft-search-content-creator/9nrqdbcbwq55?activetab=pivot:overviewtab) e baixe o aplicativo.
-- Para baixar as extensões Chrome, vá para o [Chrome Web Store](https://chrome.google.com/webstore/detail/microsoft-search-content/nocnablpaoeecfmfnjoheefkogmleipm) e baixe o aplicativo.
+- Para baixar extensões de borda, vá para a [Microsoft Store](https://www.microsoft.com/p/microsoft-search-content-creator/9nrqdbcbwq55?activetab=pivot:overviewtab).
+- Para baixar as extensões do Chrome, vá para o [repositório da Web do Chrome](https://chrome.google.com/webstore/detail/microsoft-search-content/nocnablpaoeecfmfnjoheefkogmleipm).
 
 ## <a name="bulk-add-or-edit-qas"></a>Adicionar ou editar P e R em massa
 
-Os administradores podem usar os recursos de importação e exportação para criar ou editar P e R em massa. Esse é um recurso útil quando os administradores precisam adicionar ou editar um grande número de P e R.
+Os administradores podem usar os recursos de importação e exportação para criar ou editar em massa&como.
 
-Use o recurso de importação/exportação para:
+Use o recurso importar/exportar para:
 
-1. Adicionar P e R em massa - Adicione detalhes no arquivo de modelo P e R e importe-o.
-1. Edição em massa de P e R - Exporte P e R para um ficheiro .csv, edite os detalhes de P e R no ficheiro .csv exportado e, em seguida, importe o ficheiro .csv.
-1. Backup de P e R - Exporte P e R para um arquivo .csv.
+- Adição em massa&como: adicionar detalhes no arquivo de modelo Q&um e, em seguida, importá-lo.
+- Editar em massa&como-Export Q&como em um arquivo. csv, edite os detalhes do&a no arquivo exportado e, em seguida, importe o arquivo.
+- Faça backup de p&como exportar Q&como em um arquivo. csv.
 
-Para importar ou exportar P e R:
+Para importar ou exportar Q&como:
 
 1. No canto superior direito da guia P e R, selecione **Importar**.
-Selecione **Exportar** para baixar todas as P e R existentes em um arquivo .csv.
-1. No painel direito, escolha a opção de importar usando um arquivo .csv.
-Faça o download do arquivo de modelo para obter uma lista dos campos e detalhes necessários.
-1. Adicione ou edite os detalhes de P e R no arquivo de modelo e salve-o no seu computador.
-1. No painel **Importar P e R**, selecione **Procurar** e, em seguida, o arquivo .csv que você deseja importar.
+Selecione **Exportar** para baixar todos os Q&existentes como em um arquivo. csv.
+1. No painel direito, selecione a opção para importar usando um arquivo. csv. Baixe o arquivo de modelo para obter uma lista dos campos e detalhes necessários.
+1. Adicione ou edite Q&um detalhes no arquivo de modelo e salve-o no computador.
+1. No painel **importar p&um** , selecione **procurar**e selecione o arquivo. csv que você deseja importar.
 1. Selecione **Importar**.
 
-Aqui estão alguns pontos importantes sobre o arquivo de modelo:
+Dicas importantes de arquivos de modelo:
 
-- Nunca edite os dados nesses campos: *Id*, *Última modificação* e *Última modificação por*
-- Se você incluir o *Id* de um indicador existente, ele será substituído pelas informações no arquivo de importação.
+- Nunca edite os dados nesses campos: **Id**, **Última modificação** e **Última modificação por**
+- Se você incluir o **Id** de um indicador existente, ele será substituído pelas informações no arquivo de importação.
 - Se houver um indicador existente com o mesmo título ou URL, o indicador será atualizado com informações no arquivo de importação.
-- Nem todos os campos no arquivo de modelo são obrigatórios, e os campos obrigatórios variam dependendo do estado do indicador.
-- Com base no campo Estado, os indicadores serão salvos como rascunho, sugerido ou programado, ou serão publicados automaticamente.
-- Para parceiros que gerenciam várias organizações, você pode exportar seus indicadores de uma organização e importá-los para outro. Mas você deve remover os dados na coluna *Id* antes de importar.
+- Nem todos os campos no arquivo de modelo são necessários e os campos obrigatórios variam dependendo do estado do indicador.
+- Com base no campo **estado** , os indicadores são salvos como *rascunho*, *sugerido*ou *agendado*ou são publicados automaticamente.
+- Para parceiros que gerenciam várias organizações: você pode exportar seus indicadores de uma organização e importá-los para outro. Mas você deve remover os dados na coluna **Id** antes de importar.
 
-**Observação:** Você não pode importar P e R se houver algum erro no arquivo de modelo. Para evitar erros, verifique se o arquivo de importação está formatado corretamente e inclua todas as informações necessárias.
+> [!NOTE]
+> Não é possível importar Q&como se há erros no arquivo de modelo. Para evitar erros, certifique-se de que o arquivo de importação esteja formatado corretamente e inclua todas as informações necessárias.
 
-Para obter mais informações sobre como evitar erros, consulte [Evite erros de importação](manage-bookmarks.md#prevent-import-errors).
+Para obter mais informações sobre como evitar erros, consulte [evitar erros de importação](manage-bookmarks.md#prevent-import-errors).
