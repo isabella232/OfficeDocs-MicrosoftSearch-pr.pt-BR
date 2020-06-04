@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Criar e atualizar respostas de acrônimos no Microsoft Search
-ms.openlocfilehash: af5b82aa2c578fde67a36980cfceef131f605b4e
-ms.sourcegitcommit: d4f49d51fa7d07b3bfd9ba93ed14f4c46d310154
+ms.openlocfilehash: cd9e1a48288e6df8f5746d937684a3f2eedd65df
+ms.sourcegitcommit: 46303c60e905c89c133278fa41e87055f81a8637
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "44412671"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44535352"
 ---
 # <a name="manage-acronyms-answers-in-microsoft-search"></a>Gerenciar as respostas de acrônimos no Microsoft Search
 
@@ -26,6 +26,7 @@ Geralmente, os usuários podem ter acrônimos e abreviaturas desconhecidos usado
 As organizações nem sempre têm uma única referência para sua terminologia padrão. A falta de uma única referência dificulta a localização de definições ou expansões desses acrônimos. O Microsoft Search resolve esse problema com acrônimos.
 
 ## <a name="what-users-experience"></a>O que os usuários experimentam
+
 Os usuários de pesquisa da Microsoft podem obter definições com acrônimos no [Bing](https://Bing.com). Na caixa de **pesquisa** , os usuários inserem consultas como estes exemplos:
 
 - *O que é* DNN
@@ -39,17 +40,19 @@ Os usuários de pesquisa da Microsoft podem obter definições com acrônimos no
 O resultado inclui todos os significados do DNN que estão presentes na organização do usuário.
 
 > [!NOTE]
-> Os usuários devem inserir uma consulta que inclua as *palavras-chave* especificadas pelo acrônimo para disparar suas respostas correspondentes. As consultas de acrônimos não diferenciam maiúsculas de minúsculas. 
+> Os usuários devem inserir uma consulta que inclua as *palavras-chave* especificadas pelo acrônimo para disparar suas respostas correspondentes. As consultas de acrônimos não diferenciam maiúsculas de minúsculas.
 
 ## <a name="set-up-acronyms-answers"></a>Configurar respostas de acrônimos
-No [centro de administração](https://admin.microsoft.com)do Microsoft 365, vá para **configurações**  >  **Microsoft Search**  > **acrônimos**de pesquisa da Microsoft e selecione **Adicionar acrônimos**. 
+
+No [centro de administração](https://admin.microsoft.com)do Microsoft 365, vá para **configurações**  >  **Microsoft Search**  > **acrônimos**de pesquisa da Microsoft e selecione **Adicionar acrônimos**.
 
 O Microsoft Search consulta duas fontes de dados para fornecer respostas de acrônimos às pesquisas dos usuários:
 
-1.  **Acrônimos editoriais**. Fornecido por administradores de ti no [centro de administração](https://admin.microsoft.com).
-2.  **Acrônimos minados**. O Microsoft Search dos emails e dos documentos pessoais do usuário e dos dados publicamente disponíveis dentro da organização.
+1. **Acrônimos editoriais**. Fornecido por administradores de ti no [centro de administração](https://admin.microsoft.com).
+2. **Acrônimos minados**. O Microsoft Search dos emails e dos documentos pessoais do usuário e dos dados publicamente disponíveis dentro da organização.
 
 ### <a name="set-up-editorial-acronyms"></a>Configurar acrônimos editoriais
+
 Os administradores de pesquisa podem configurar acrônimos editoriais na [guia acrônimos](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch) no [centro de administração do Microsoft 365]( https://admin.microsoft.com). Você pode adicionar acrônimos de qualquer site ou repositório interno ao centro de administração. Acrônimos editoriais podem ser adicionados ao estado **publicado** ou de **rascunho** :
 
 **Estado publicado**. Os acrônimos estão disponíveis para os funcionários da organização através da pesquisa da Microsoft.
@@ -61,11 +64,12 @@ Os administradores de pesquisa podem configurar acrônimos editoriais na [guia a
 
 Os administradores podem adicionar acrônimos individualmente ou importá-los em massa em um arquivo CSV. Carregue um arquivo CSV com os campos mostrados na tabela a seguir:
 
-| Sigla (obrigatório) | Expansão (obrigatória) | Descrição  | Source | Estado (obrigatório) |
+| Sigla (obrigatório) | Expansão (obrigatória) | Descrição  | Origem | Estado (obrigatório) |
 | --------- | --------- | ---------- | --------- |--------- |
 | *XXX* | *Abreviatura de abreviação* |  | *URL* | *Publicado ou rascunho* |
 
 ### <a name="csv-fields"></a>Campos CSV
+
 **Sigla**. Contém a forma curta ou sigla real. Um exemplo é *DNN*.
 
 **Expansão**. Contém a expansão do acrônimo. Um exemplo é uma *rede neural profunda*.
@@ -80,6 +84,7 @@ Os administradores podem adicionar acrônimos individualmente ou importá-los em
 - **Publicado**. Adiciona a sigla ao estado publicado e a disponibiliza no Microsoft Search.
 
 ### <a name="mined-acronyms"></a>Acrônimos minados
+
 Pode ser um desafio para os administradores adicionarem todos os acrônimos usados dentro de uma organização para responder. Esse recurso pode encontrar acrônimos que os administradores de pesquisa nem são compatíveis. Para fazer isso, a pesquisa da Microsoft também extrai acrônimos dessas fontes:
 
 - Emails dos usuários.
@@ -92,13 +97,14 @@ A pesquisa da Microsoft garante que apenas usuários com acesso e permissões a 
 > Nenhuma configuração é necessária para acrônimos minados.
 
 ## <a name="frequently-asked-questions"></a>Perguntas frequentes
+
 **P: como os dados de editorial e minados são classificados?**
 
 **A:** O recurso atualmente classifica os acrônimos editoriais acima de acrônimos minados.
 
 **P: quanto tempo demora para que os acrônimos editoriais fiquem visíveis na pesquisa da Microsoft após serem publicados?**
 
-**A:**  É necessário até três dias para que os acrônimos adicionados ao estado publicado sejam disponibilizados na pesquisa da Microsoft. 
+**A:**  É necessário até três dias para que os acrônimos adicionados ao estado publicado sejam disponibilizados na pesquisa da Microsoft.
 
 **P: como os usuários acionam as respostas de acrônimos?**
 
@@ -118,8 +124,8 @@ A pesquisa da Microsoft garante que apenas usuários com acesso e permissões a 
 
 **P: e se minha organização não quiser mostrar acrônimos minados? Posso parar de mostrar acrônimos minados nos resultados da pesquisa?**
 
-**A**: para desativar a exibição de acrônimos minados nos resultados da pesquisa, crie um tíquete de suporte ao cliente seguindo as instruções em [contato com o suporte para produtos de negócios](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?redirectSourcePath=%252fen-us%252farticle%252fContact-Office-365-for-business-support-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b&view=o365-worldwide&tabs=online#BKMK_call_support).
-Depois de criar um tíquete de suporte, serão necessários até 48 horas para que os acrônimos minados parem de aparecer nos resultados da pesquisa. 
+**A**: para desativar a exibição de acrônimos minados nos resultados da pesquisa, crie um tíquete de suporte ao cliente seguindo as instruções em [contato com o suporte para produtos de negócios](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?redirectSourcePath=%252f%252farticle%252fContact-Office-365-for-business-support-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b&view=o365-worldwide&tabs=online#BKMK_call_support).
+Depois de criar um tíquete de suporte, serão necessários até 48 horas para que os acrônimos minados parem de aparecer nos resultados da pesquisa.
 
 **P: Quando verá as respostas de acrônimos no [Office 365](https://Office.com) e no [SharePoint Online](https://products.office.com/sharepoint/collaboration)?**
 

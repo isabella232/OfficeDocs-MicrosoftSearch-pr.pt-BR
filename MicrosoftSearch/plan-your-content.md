@@ -1,8 +1,8 @@
 ---
 title: Planejar o conteúdo
-ms.author: anfowler
-author: adefowler
-manager: mnirkhe
+ms.author: jeffkizn
+author: jeffkizn
+manager: parulm
 ms.audience: Admin
 ms.topic: reference
 ms.service: mssearch
@@ -13,18 +13,18 @@ search.appverid:
 - MOE150
 ms.assetid: bb9d90b6-6c86-4b19-9235-3bd9b19826ab
 description: Forneça conteúdo de qualidade sem precisar de recursos adicionais quando usar a Pesquisa da Microsoft
-ms.openlocfilehash: d51fb15199a4c1aedd4af0932ce9bb5683d8abc6
-ms.sourcegitcommit: 21361af7c244ffd6ff8689fd0ff0daa359bf4129
+ms.openlocfilehash: 65cc9fbec655ec849e32d7b6e14c6947ab30bbc2
+ms.sourcegitcommit: 46303c60e905c89c133278fa41e87055f81a8637
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38626941"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44535343"
 ---
 # <a name="plan-your-content"></a>Planejar o conteúdo
 
-**O Microsoft Search** ajuda os usuários a localizar conteúdo relevante. A **Pesquisa da Microsoft** é uma maneira segura de pesquisar tanto na intranet quanto no conteúdo da Web. Esse tipo de integração em toda a Web e organização está disponível somente na Microsoft. 
+**O Microsoft Search** ajuda os usuários a localizar conteúdo relevante. A **Pesquisa da Microsoft** é uma maneira segura de pesquisar tanto na intranet quanto no conteúdo da Web. Esse tipo de integração em toda a Web e organização está disponível somente na Microsoft.
 
-Os administradores de pesquisa usam seu conhecimento da organização e de seus usuários para tornar mais fácil para os usuários encontrarem conteúdo relevante. 
+Os administradores de pesquisa usam seu conhecimento da organização e de seus usuários para tornar mais fácil para os usuários encontrarem conteúdo relevante.
 
 ## <a name="step-1-identify-information-your-users-need"></a>Etapa 1: identifique as informações que seus usuários precisam
 
@@ -47,19 +47,19 @@ Em uma organização, os usuários pesquisam por uma ampla variedade de tópicos
 
 ### <a name="leverage-smes"></a>Aproveite os especialistas no assunto (SMEs)
 
-Aproveite os especialistas no assunto (SMEs) na organização, incluindo especialistas de RH, suporte, vendas, tecnologia e outras áreas importantes. Para permitir que seus especialistas no assunto (SMEs) contribuam com conteúdo diretamente, adicione-os como editores de pesquisa. 
+Aproveite os especialistas no assunto (SMEs) na organização, incluindo especialistas de RH, suporte, vendas, tecnologia e outras áreas importantes. Para permitir que seus especialistas no assunto (SMEs) contribuam com conteúdo diretamente, adicione-os como editores de pesquisa.
 
 ### <a name="involve-your-users"></a>Envolva seus usuários
 
 Peça aos usuários para sugerir recursos para os quais criar indicadores. Além de sugerir conteúdo, peça aos usuários que relatem erros, como links desfeitos ou inválidos.
 
-## <a name="step-3-improve-findability-of-content"></a>Etapa 3: melhore a capacidade de localização do conteúdo 
+## <a name="step-3-improve-findability-of-content"></a>Etapa 3: melhore a capacidade de localização do conteúdo
 
 Na **Pesquisa da Microsoft**, o administrador de pesquisa cria indicadores, P e R, locais e PowerApps para melhorar a capacidade de localização do conteúdo. Cada um desses componentes de pesquisa inclui um título, uma URL e um conjunto de palavras-chave que o acionam.
 
 ### <a name="titles-and-descriptions"></a>Títulos e descrições
 
-As pessoas usam títulos e descrições para determinar se o resultado responde à consulta de pesquisa ou se é necessário tentar uma pesquisa diferente. Os títulos e descrições devem refletir o objetivo principal do resultado. Um bom exemplo de um título pode ser "Auxílio para custear cuidados infantis", com uma descrição - "Saiba mais sobre auxílios para ajudar a pagar os custos de cuidados infantis". Isso informa aos usuários que pesquisam por "babá" que há benefícios de auxílio monetário disponíveis, e fornece um link para descobrir mais. 
+As pessoas usam títulos e descrições para determinar se o resultado responde à consulta de pesquisa ou se é necessário tentar uma pesquisa diferente. Os títulos e descrições devem refletir o objetivo principal do resultado. Um bom exemplo de um título pode ser "Auxílio para custear cuidados infantis", com uma descrição - "Saiba mais sobre auxílios para ajudar a pagar os custos de cuidados infantis". Isso informa aos usuários que pesquisam por "babá" que há benefícios de auxílio monetário disponíveis, e fornece um link para descobrir mais.
 
 ### <a name="keywords"></a>Palavras-chave
 
@@ -112,7 +112,7 @@ Usuários e especialistas no assunto (SMEs) que contribuíram para a criação d
 - Verifique se há alterações na ferramenta, no nome do site ou no nome da equipe.
 - Considere se o Indicador ou P e R é suficientemente autoritativo ou precisa de uma descrição mais clara.
 
-A **Pesquisa da Microsoft** fornece estatísticas de uso para Indicadores, P e R e Locais. As estatísticas de uso mostram como os usuários estão interagindo com seus resultados de pesquisa e se os usuários estão encontrando o que estão procurando ou se há alguma lacuna no conteúdo disponível? Elas ajudam o administrador a monitorar o desempenho e tomar as ações apropriadas para ajustar os resultados da pesquisa. 
+A **Pesquisa da Microsoft** fornece estatísticas de uso para Indicadores, P e R e Locais. As estatísticas de uso mostram como os usuários estão interagindo com seus resultados de pesquisa e se os usuários estão encontrando o que estão procurando ou se há alguma lacuna no conteúdo disponível? Elas ajudam o administrador a monitorar o desempenho e tomar as ações apropriadas para ajustar os resultados da pesquisa.
 
 ### <a name="get-details-about-bookmarks-qa-and-locations"></a>Obter detalhes sobre Indicadores, P e R e Locais
 
@@ -126,9 +126,9 @@ Indicadores, P e R e Locais sugeridos são bons indicadores de lacunas no seu co
 
 ### <a name="review-top-search-queries"></a>Examine as principais consultas de pesquisa
 
-Descubra quais pesquisas geraram mais impressões nos últimos 90 dias. Impressão refere-se a quantas vezes uma página foi visualizada no resultado de pesquisa. O cartão **Principais Consultas** mostra as 25 principais pesquisas de usuários para cada tipo de resultado, com o número total de pesquisas e sua taxa de cliques (CTR). Use esse relatório para identificar o volume da consulta de pesquisa e determinar consultas com atividade de pesquisa alta e baixa. 
+Descubra quais pesquisas geraram mais impressões nos últimos 90 dias. Impressão refere-se a quantas vezes uma página foi visualizada no resultado de pesquisa. O cartão **Principais Consultas** mostra as 25 principais pesquisas de usuários para cada tipo de resultado, com o número total de pesquisas e sua taxa de cliques (CTR). Use esse relatório para identificar o volume da consulta de pesquisa e determinar consultas com atividade de pesquisa alta e baixa.
 
-A baixa contagem de pesquisas pode indicar insatisfação do usuário, porque os usuários não estão procurando por esse conteúdo de pesquisa ou estão usando palavras-chave diferentes para encontrar esse conteúdo. A CTR mostra com que frequência os usuários selecionam os resultados promovidos e indica qual a utilidade das suas regras e resultados de consulta para os usuários. Uma CTR baixa indica que os usuários estão encontrando o conteúdo, mas estão determinando que o conteúdo não atende à pesquisa. Nesses casos, os administradores podem decidir revisar o conteúdo e garantir que corresponda à pesquisa do usuário, atualizando títulos, descrições e palavras-chave para alinhá-lo às consultas de pesquisa do usuário. 
+A baixa contagem de pesquisas pode indicar insatisfação do usuário, porque os usuários não estão procurando por esse conteúdo de pesquisa ou estão usando palavras-chave diferentes para encontrar esse conteúdo. A CTR mostra com que frequência os usuários selecionam os resultados promovidos e indica qual a utilidade das suas regras e resultados de consulta para os usuários. Uma CTR baixa indica que os usuários estão encontrando o conteúdo, mas estão determinando que o conteúdo não atende à pesquisa. Nesses casos, os administradores podem decidir revisar o conteúdo e garantir que corresponda à pesquisa do usuário, atualizando títulos, descrições e palavras-chave para alinhá-lo às consultas de pesquisa do usuário.
 
 ### <a name="analyze-impressions-by-result-type"></a>Analise impressões por tipo de resultado
 
