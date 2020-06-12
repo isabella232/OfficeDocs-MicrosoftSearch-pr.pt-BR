@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Configurar seu conector criado pela Microsoft para a pesquisa da Microsoft
-ms.openlocfilehash: 3c54f04c1ac6cc42eef2e27a2b40b6ce92357630
-ms.sourcegitcommit: 46303c60e905c89c133278fa41e87055f81a8637
+ms.openlocfilehash: eb81f9cdc9caf2020bae64984f11ae7e1b87dae9
+ms.sourcegitcommit: a8a6c949f249d106f37103e127d2ea7df730f7a3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44535305"
+ms.lasthandoff: 06/11/2020
+ms.locfileid: "44702754"
 ---
 <!-- markdownlint-disable no-trailing-punctuation -->
 
@@ -34,10 +34,10 @@ Este artigo orienta você pelas etapas de configuração de um conector criado p
 
 ## <a name="set-up"></a>Configurar
 
-Para configurar qualquer um dos conectores criados pela Microsoft, vá para o [centro de administração](https://admin.microsoft.com):
+Conclua as seguintes etapas para configurar qualquer um dos conectores criados pela Microsoft.
 
-1. Entre em sua conta com as credenciais do [Microsoft 365](https://www.microsoft.com/microsoft-365) Test locatário.
-2. Vá até **configurações**  >  **Microsoft Search**  >  **conectores**de pesquisa da Microsoft.
+1. Vá até a [guia conectores](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/Connectors) no [centro de administração do Microsoft 365](https://admin.microsoft.com).
+2. Entre em sua conta com as credenciais do [Microsoft 365](https://www.microsoft.com/microsoft-365) locatário.
 3. Selecione **Adicionar um conector**.
 4. Na lista de conectores disponíveis, selecione o conector de sua escolha.
 
@@ -67,7 +67,7 @@ Os administradores podem definir os atributos de esquema de pesquisa para contro
 
 Os atributos de esquema de pesquisa incluem **pesquisáveis**, **consultáveis**e **recuperáveis**. A tabela a seguir lista cada um dos atributos aos quais os conectores do Microsoft Graph dão suporte e explica suas funções.
 
-**Atributo de esquema de pesquisa** | **Function** | **Exemplo**
+Atributo de esquema de pesquisa | Função | Exemplo
 --- | --- | ---
 PESQUISÁVEIS | Torna o conteúdo de texto de uma propriedade pesquisável. O conteúdo da propriedade está incluído no índice de texto completo. | Se a propriedade for **título**, uma consulta de **empresa** retornará as respostas que contenham a palavra **Enterprise** em qualquer texto ou título.
 Question | Pesquisa por consulta para uma correspondência de uma determinada propriedade. O nome da propriedade pode ser especificado na consulta de forma programática ou textual. |  Se a propriedade **title** for consultável, o título da consulta **: Enterprise** será suportado.
