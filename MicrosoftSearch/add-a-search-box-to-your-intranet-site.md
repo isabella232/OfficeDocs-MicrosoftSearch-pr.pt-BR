@@ -15,16 +15,22 @@ search.appverid:
 ms.assetid: f980b90f-95e2-4b66-8b21-69f601ff4b50
 ROBOTS: NoIndex
 description: Para ter acesso a sugestões de pesquisa relevantes e encontrar resultados de trabalho mais rapidamente, adicione uma caixa de pesquisa da Pesquisa da Microsoft a um site ou página da intranet.
-ms.openlocfilehash: bcf1c6890415fdd9ae22f28cdf6d3dec1ffcaac4
-ms.sourcegitcommit: bfcab9d42e93addccd1e3875b41bc9cc1b6986cc
+ms.openlocfilehash: af12ce4d17c2695e196f8e4d79ccd515f002f238
+ms.sourcegitcommit: 92206ea179ec00b22496f6fd2866b5406449cf40
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "37948902"
+ms.lasthandoff: 06/18/2020
+ms.locfileid: "44798221"
 ---
 # <a name="add-a-search-box-to-your-intranet-site"></a>Adicionar uma caixa de pesquisa ao site de intranet
 
-Para ter acesso rápido a sugestões de pesquisa relevantes e encontrar resultados de trabalho mais rapidamente, adicione uma caixa de pesquisa da Pesquisa da Microsoft a um site ou página da intranet.
+Para permitir que seus usuários tenham acesso fácil aos resultados da sua organização, adicione uma pesquisa da Microsoft na caixa de pesquisa do Bing a qualquer site da intranet ou página. Estes são alguns dos benefícios:
+
+- Uma caixa de pesquisa em seu portal do SharePoint ou intranet fornece um ponto de entrada confiável e familiar para iniciar a pesquisa
+- Dá suporte a todos os principais navegadores da Web, incluindo o Google Chrome e o Microsoft Edge
+- Somente as sugestões de pesquisa de sua organização são exibidas, as sugestões da Web nunca são incluídas
+- Leva os usuários para uma pesquisa da Microsoft na página de resultados de trabalho do Bing, que exclui anúncios e resultados da Web
+- Você controla a aparência e o comportamento da caixa de pesquisa
   
 ## <a name="add-a-search-box-to-an-intranet-page"></a>Adicionar uma caixa de pesquisa à página de intranet
 
@@ -88,8 +94,8 @@ Para ajudar a caixa de pesquisa se ajustar melhor ao estilo da sua intranet, exi
         dropShadow: true,                       // default: true
         iconColor: "#067FA6",                   // default: #067FA6
         companyNameInGhostText: "Contoso"       // default: not specified
-                                                // when absent, ghost text will be "Search work and the web"
-                                                // when specified, text will be "Search the web and [Contoso]"
+                                                // when absent, ghost text will be "Search work"
+                                                // when specified, text will be "Search <companyNameInGhostText>"
     };
 </script>
 <script async src="https://www.bing.com/business/s?k=sb"></script>
