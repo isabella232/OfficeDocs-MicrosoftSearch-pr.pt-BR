@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Lista todos os conectores do Microsoft Graph para o Microsoft Search
-ms.openlocfilehash: a5c3cb0090361e16456b01646b2a0dec46602d88
-ms.sourcegitcommit: 924bcf4dd1b4bfa5684d43a3f8e784d869c659e7
+ms.openlocfilehash: 949a7dfcf25c51c706d2a141071d7a0e5cad2133
+ms.sourcegitcommit: f189c83c0b82e822d65cda4ac69ba9c80a1a9c33
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44326835"
+ms.lasthandoff: 06/22/2020
+ms.locfileid: "44838035"
 ---
 # <a name="microsoft-graph-connectors-gallery"></a>Galeria de conectores do Microsoft Graph
 
@@ -101,7 +101,7 @@ ms.locfileid: "44326835"
                     <div class="cardText">
                         <h3>MediaWiki</h3>
                         <p>pela <a href="https://www.microsoft.com">Microsoft</a></p>
-                        <p>Com esse conector do Microsoft Graph, os usuários podem pesquisar artigos da base de conhecimento em sites wiki que sua organização cria com o MediaWiki.</p>
+                        <p>Com esse conector do Microsoft Graph, os usuários podem pesquisar artigos baseados em conhecimento em sites wiki criados por sua organização com o MediaWiki.</p>
                         <div style="margin-top:20px;bottom:15px;position:absolute;display:block">
                             <div style="font-weight:500;width:150px;display:inline">
                                 <a href="mediawiki-connector.md" target="_blank" data-linktype="relative-path" style="font-weight:500;width:150px;display:inline">
@@ -143,7 +143,7 @@ ms.locfileid: "44326835"
                     <div class="cardText">
                         <h3>ServiceNow</h3>
                         <p>pela <a href="https://www.microsoft.com">Microsoft</a></p>
-                        <p>Com esse conector do Microsoft Graph, os usuários da sua organização podem pesquisar artigos da base de conhecimento da sua instância do ServiceNow.</p>
+                        <p>Com esse conector do Microsoft Graph, os usuários da sua organização podem pesquisar artigos baseados em conhecimento de sua instância do ServiceNow.</p>
                         <div style="margin-top:20px;bottom:15px;position:absolute;display:block">
                             <div style="font-weight:500;width:150px;display:inline">
                                 <a href="servicenow-connector.md" target="_blank" data-linktype="relative-path" style="font-weight:500;width:150px;display:inline">
@@ -211,7 +211,7 @@ ms.locfileid: "44326835"
                     <div class="cardText">
                         <h3>Gerenciador de experiência da Adobe</h3>
                         <p>por <a href="https://www.accenture.com">Accenture</a></p>
-                        <p>O conector do Gerenciador de experiência da Adobe (AEM) rastreará o conteúdo de um servidor do Adobe Experience Manager. O conector FETC. hes listas de controle de acesso para segurança no nível do documento (atualmente, apenas grupos de usuários fechados). Ele pode filtrar o conteúdo com base em propriedades usando valores esperados ou base de páginas ou padrões no horário agendado para e fora.</p>
+                        <p>O conector do Gerenciador de experiência da Adobe (AEM) rastreará o conteúdo de um servidor do Adobe Experience Manager. O conector busca listas de controle de acesso para segurança de nível de documento (atualmente, apenas grupos de usuários fechados). Ele pode filtrar o conteúdo com base em propriedades usando valores esperados ou padrões ou páginas com base no tempo programado ativado e desativado.</p>
                         <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
                             <a href="https://contentanalytics.digital.accenture.com/display/aspire40/AEM+Connector"><font color="0065BA">Mais detalhes</font></a>
                         </p>
@@ -230,7 +230,7 @@ ms.locfileid: "44326835"
                     <div class="cardText">
                         <h3>Alfresco</h3>
                         <p>pela <a href="https://www.bainsight.com">BA visão</a></p>
-                        <p>O conector Alfresco é criado na estrutura de conector do BAI, que é a plataforma usada para compilar todos os nossos conectores e fornece conectividade segura para sistemas corporativos.</p>
+                        <p>O conector Alfresco é construído sobre a estrutura do conector do BAI, que é a plataforma usada para criar todos os nossos conectores e fornece conectividade segura para sistemas corporativos.</p>
                         <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
                             <a href="https://www.bainsight.com/connectors/alfresco-connector-sharepoint-azure-elasticsearch/"><font color="0065BA">Mais detalhes</font></a>
                         </p>
@@ -297,7 +297,7 @@ ms.locfileid: "44326835"
                     <div class="cardText">
                         <h3>Amazon S3</h3>
                         <p>por <a href="https://www.accenture.com">Accenture</a></p>
-                        <p>O conector S3 da Amazon rastreará o conteúdo de qualquer serviço de armazenamento simples da Amazon.Cada arquivo é enviado com seus metadados (tamanho, local, acessado por último, etc.). As atualizações são descobertas automaticamente.</p>
+                        <p>O conector S3 da Amazon rastreará o conteúdo de qualquer serviço de armazenamento simples da Amazon.Cada arquivo é enviado com seus metadados (tamanho, local, acessado pela última vez, etc.). As atualizações são descobertas automaticamente.</p>
                         <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
                             <a href="https://contentanalytics.digital.accenture.com/display/aspire40/Amazon+S3+Connector"><font color="0065BA">Mais detalhes</font></a>
                         </p>
@@ -313,7 +313,7 @@ ms.locfileid: "44326835"
                     <div class="cardText">
                         <h3>Amazon S3</h3>
                         <p>pela <a href="https://www.bainsight.com">BA visão</a></p>
-                        <p>O conector S3 da Amazon funciona com todo o conteúdo armazenado na S3.A organização pode usar o conector para o conector de modo seguro para S3 e indexar o conteúdo de buckets S3. Recursos avançados de filtragem fornecem ao controle da organização o que o conteúdo encontrado no S3 deve ser indexado.</p>
+                        <p>O conector S3 da Amazon funciona com todo o conteúdo armazenado na S3.Sua organização pode usar o conector para se conectar com segurança a S3 e indexar o conteúdo de buckets S3. Recursos avançados de filtragem fornecem ao seu controle da organização sobre qual conteúdo encontrado no S3 deve ser indexado.</p>
                         <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
                             <a href="https://www.bainsight.com/connectors/amazon-s3-connector-sharepoint-azure-elasticsearch/"><font color="0065BA">Mais detalhes</font></a>
                         </p>
@@ -332,7 +332,7 @@ ms.locfileid: "44326835"
                     <div class="cardText">
                         <h3>Atlassian Confluence</h3>
                         <p>por <a href="https://www.accenture.com">Accenture</a></p>
-                        <p>O conector Confluence rastreará o conteúdo de qualquer repositório de conteúdo do Confluence. O conector recuperará espaços, páginas, Blogs, anexos e comentários. O conector usa a API REST do Confluence para rastrear o conteúdo do Confluence.</p>
+                        <p>O conector Confluence rastreará o conteúdo de qualquer repositório de conteúdo do Confluence. O conector recupera espaços, páginas, Blogs, anexos e comentários. O conector usa a API REST do Confluence para rastrear o conteúdo do Confluence.</p>
                         <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
                             <a href="https://contentanalytics.digital.accenture.com/display/aspire40/Atlassian+Confluence+Connector"><font color="0065BA">Mais detalhes</font></a>
                         </p>
@@ -413,9 +413,9 @@ ms.locfileid: "44326835"
             <div class="cardPadding">
                 <div class="card" style="min-height:240px;">
                     <div class="cardText">
-                        <h3>Armazenamento de BLOBs do Microsoft Azure</h3>
+                        <h3>Armazenamento de Blob do Azure</h3>
                         <p>por <a href="https://www.accenture.com">Accenture</a></p>
-                        <p>O Azure Blob Storage Connector rastreará o conteúdo do contêiner de blob do Azure. Cada blob é enviado com seus metadados (tamanho, local, acessado por último, etc.). As atualizações são descobertas automaticamente.</p>
+                        <p>O Azure Blob Storage Connector rastreará o conteúdo do contêiner de blob do Azure. Cada blob é enviado com seus metadados (tamanho, local, último acesso, etc.). As atualizações são descobertas automaticamente.</p>
                         <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
                             <a href="https://contentanalytics.digital.accenture.com/display/aspire40/Azure+Blob+Storage+Connector"><font color="0065BA">Mais detalhes</font></a>
                         </p>
@@ -434,7 +434,7 @@ ms.locfileid: "44326835"
                     <div class="cardText">
                         <h3>Azure data Lake</h3>
                         <p>por <a href="https://www.accenture.com">Accenture</a></p>
-                        <p>O Azure data Lake Connector rastreará o conteúdo da nuvem do Azure data Lake Store em caminhos raiz ou especificados. Cada arquivo é enviado com seus metadados (tamanho, local, acessado por último, etc.). As atualizações são descobertas automaticamente.</p>
+                        <p>O Azure data Lake Connector rastreará o conteúdo da nuvem do Azure data Lake Store em caminhos raiz ou especificados. Cada arquivo é enviado com seus metadados (tamanho, local, acessado pela última vez, etc.). As atualizações são descobertas automaticamente.</p>
                         <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
                             <a href="https://contentanalytics.digital.accenture.com/display/aspire40/Azure+Data+Lake+Connector"><font color="0065BA">Mais detalhes</font></a>
                         </p>
@@ -450,7 +450,7 @@ ms.locfileid: "44326835"
                     <div class="cardText">
                         <h3>Hub de eventos do Azure</h3>
                         <p>por <a href="https://www.accenture.com">Accenture</a></p>
-                        <p>O conector do hub de eventos FETC. hes eventos do Azure streams e os envia após a execução de uma transformação opcional.</p>
+                        <p>O conector de Hub de eventos busca eventos do Azure streams e os envia após a execução de uma transformação opcional.</p>
                         <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
                             <a href="https://contentanalytics.digital.accenture.com/display/aspire40/Azure+Events+Hub+Connector"><font color="0065BA">Mais detalhes</font></a>
                         </p>
@@ -517,7 +517,7 @@ ms.locfileid: "44326835"
                     <div class="cardText">
                         <h3>Caixa</h3>
                         <p>por <a href="https://www.accenture.com">Accenture</a></p>
-                        <p>O conector de caixa rastreará o conteúdo do repositório de caixa. O conector recuperará os elementos com suporte usando a API RESTful (versão 2,0 do Content API Basics), para que a autenticação use a API de caixa (que usa OAuth 2). Cada arquivo é enviado com seus metadados (tamanho, local, acessado por último, etc.). As atualizações são descobertas automaticamente.</p>
+                        <p>O conector de caixa rastreará o conteúdo de um repositório de caixa. O conector recuperará os elementos com suporte usando a API RESTful (versão 2,0 do Content API Basics); para a autenticação, usa a API de caixa (que usa OAuth 2). Cada arquivo é enviado com seus metadados (tamanho, local, acessado pela última vez, etc.). As atualizações são descobertas automaticamente.</p>
                         <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
                             <a href="https://contentanalytics.digital.accenture.com/display/aspire40/Box++Connector"><font color="0065BA">Mais detalhes</font></a>
                         </p>
@@ -568,7 +568,7 @@ ms.locfileid: "44326835"
                     <div class="cardText">
                         <h3>Deltek</h3>
                         <p>pela <a href="https://www.bainsight.com">BA visão</a></p>
-                        <p>O conector de visão do Deltek honra a segurança do sistema de origem e fornece rastreamentos completos e incrementais para que os usuários tenham as informações mais recentes disponíveis a eles o tempo todo. Ele indexa o conteúdo da visão do Deltek no Azure, no SharePoint Online ou no SharePoint 2016/2013, revelar o SmartHub do BA Insight para fornecer aos usuários resultados de pesquisa integrados.</p>
+                        <p>O conector da visão do Deltek honra a segurança do sistema de origem e fornece rastreamentos completos e incrementais, de forma que os usuários sempre tenham as informações mais recentes disponíveis para eles. Ele indexa o conteúdo da visão do Deltek no Azure, no SharePoint Online ou no SharePoint 2016/2013, revelar por meio do SmartHub da BA visão para fornecer aos usuários resultados de pesquisa integrados.</p>
                         <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
                             <a href="https://www.bainsight.com/connectors/deltek-connector-sharepoint-azure-elasticsearch/"><font color="0065BA">Mais detalhes</font></a>
                         </p>
@@ -670,7 +670,7 @@ ms.locfileid: "44326835"
                     <div class="cardText">
                        <h3>FirstSpirit e-espírito</h3>
                         <p>por <a href="https://www.raytion.com">raytion</a></p>
-                        <p>Conector para FirstSpirit. Indexa páginas, anexos e outros tipos de documentos gerados de FirstSpirit quase em tempo real. O conector é totalmente compatível com o usuário interno, o grupo e o gerenciamento de permissões do FirstSpirit, bem como instalações do FirstSpirit com base no Active Directory e em outros serviços de diretório. sexto conector de pesquisa raytion de geração.</p>
+                        <p>Conector para FirstSpirit. Indexa páginas, anexos e outros tipos de documentos gerados do FirstSpirit quase em tempo real. O conector é totalmente compatível com o usuário interno, o grupo e o gerenciamento de permissões do FirstSpirit, bem como instalações do FirstSpirit com base no Active Directory e em outros serviços de diretório. sexto conector de pesquisa raytion de geração.</p>
                         <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
                             <a href="https://www.raytion.com/connectors/raytion-firstspirit-connector"><font color="0065BA">Mais detalhes</font></a>
                         </p>
@@ -772,7 +772,7 @@ ms.locfileid: "44326835"
                     <div class="cardText">
                         <h3>FTP</h3>
                         <p>por <a href="https://www.accenture.com">Accenture</a></p>
-                        <p>O conector do protocolo de transferência de arquivos (FTP) do Aspire fornece acesso a arquivos e pastas em um servidor FTP.Cada arquivo é enviado com seus metadados (tamanho, local, acessado por último, etc.). As atualizações são descobertas automaticamente.</p>
+                        <p>O conector do protocolo de transferência de arquivos (FTP) do Aspire fornece acesso a arquivos e pastas em um servidor FTP.Cada arquivo é enviado com seus metadados (tamanho, local, acessado pela última vez, etc.). As atualizações são descobertas automaticamente.</p>
                         <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
                             <a href="https://contentanalytics.digital.accenture.com/display/aspire40/FTP+Connector"><font color="0065BA">Mais detalhes</font></a>
                         </p>
@@ -791,7 +791,7 @@ ms.locfileid: "44326835"
                     <div class="cardText">
                        <h3>GitLab</h3>
                         <p>por <a href="https://www.raytion.com">raytion</a></p>
-                        <p>Conector para GitLab. Indexa projetos, arquivos, pastas, mensagens de confirmação, problemas e páginas wiki do GitLab, quase em tempo real a partir do GitLab. O conector suporta totalmente o gerenciamento interno de usuários e grupos do GitLab. sexto conector de pesquisa raytion de geração.</p>
+                        <p>Conector para GitLab. Indexa projetos, arquivos, pastas, mensagens de confirmação, problemas e páginas wiki de GitLab quase em tempo real. O conector suporta totalmente o gerenciamento interno de usuários e grupos do GitLab. sexto conector de pesquisa raytion de geração.</p>
                         <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
                             <a href="https://www.raytion.com/connectors/raytion-gitlab-connector"><font color="0065BA">Mais detalhes</font></a>
                         </p>
@@ -909,7 +909,7 @@ ms.locfileid: "44326835"
                     <div class="cardText">
                         <h3>Conexões IBM</h3>
                         <p>pela <a href="https://www.bainsight.com">BA visão</a></p>
-                        <p>O conector de conexões IBM foi desenvolvido especificamente para conexões IBM, estabelecendo uma conexão segura com o aplicativo conexões e mapeando o conteúdo, incluindo metadados e anexos do esquema de conexões para o esquema do mecanismo de pesquisa. Em seguida, ele extrai o conteúdo e o alimenta para o mecanismo de pesquisa em um processo chamado rastreamento.</p>
+                        <p>O conector de conexões IBM foi desenvolvido especificamente para conexões IBM, estabelecendo uma conexão segura com o aplicativo conexões e mapeando o conteúdo, incluindo metadados e anexos, do esquema de conexões para o esquema do mecanismo de pesquisa. Em seguida, ele extrai o conteúdo e o alimenta para o mecanismo de pesquisa em um processo chamado rastreamento.</p>
                         <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
                             <a href="https://www.bainsight.com/connectors/ibm-connections-connector-sharepoint-azure-elasticsearch/"><font color="0065BA">Mais detalhes</font></a>
                         </p>
@@ -960,7 +960,7 @@ ms.locfileid: "44326835"
                     <div class="cardText">
                         <h3>Gerenciador de conteúdo IBM</h3>
                         <p>pela <a href="https://www.bainsight.com">BA visão</a></p>
-                        <p>O conector do IBM Content Manager honra a segurança do aplicativo de origem e fornece rastreamentos completos e incrementais para que os usuários tenham as informações mais recentes disponíveis a eles o tempo todo.</p>
+                        <p>O conector do IBM Content Manager honra a segurança dos aplicativos de origem e fornece rastreamentos completos e incrementais, de forma que os usuários sempre tenham as informações mais recentes disponíveis para eles.</p>
                         <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
                             <a href="https://www.bainsight.com/connectors/ibm-content-manager-connector-sharepoint-azure-elasticsearch/"><font color="0065BA">Mais detalhes</font></a>
                         </p>
@@ -976,7 +976,7 @@ ms.locfileid: "44326835"
                     <div class="cardText">
                         <h3>IBM DB2</h3>
                         <p>pela <a href="https://www.bainsight.com">BA visão</a></p>
-                        <p>O conector DB2 permite que as organizações aproveitem a riqueza de dados armazenados em bancos de dados e aplicativos DB2, e torne esses dados acionáveis instantaneamente aos usuários por meio da pesquisa.</p>
+                        <p>O conector DB2 permite que as organizações aproveitem a riqueza de dados armazenados em bancos de dados e aplicativos DB2 e tornar esses dados acionáveis instantaneamente aos usuários por meio da pesquisa.</p>
                         <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
                             <a href="https://www.bainsight.com/connectors/ibm-db2-connector-sharepoint-azure-elasticsearch/"><font color="0065BA">Mais detalhes</font></a>
                         </p>
@@ -995,7 +995,7 @@ ms.locfileid: "44326835"
                     <div class="cardText">
                         <h3>IBM FileNet P8</h3>
                         <p>pela <a href="https://www.bainsight.com">BA visão</a></p>
-                        <p>O conector IBM FileNet Content Manager permite que o SharePoint, bem como outros usuários do portal, pesquisem com segurança o conteúdo armazenado nos repositórios do FileNet.O acesso ao conteúdo é determinado pela segurança estabelecida no FileNet, garantindo que o conteúdo seja tão seguro quando acessado por meio de qualquer outro portal, pois ele está diretamente dentro do FileNet.</p>
+                        <p>O conector IBM FileNet Content Manager permite que o SharePoint, bem como outros usuários do portal, pesquisem com segurança o conteúdo armazenado nos repositórios do FileNet. O acesso ao conteúdo é determinado pela segurança estabelecida no FileNet, garantindo que o conteúdo seja tão seguro quando acessado por meio de qualquer outro portal, pois ele está diretamente dentro do FileNet.</p>
                         <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
                             <a href="https://www.bainsight.com/connectors/ibm-filenet-sharepoint-azure-elasticsearch/"><font color="0065BA">Mais detalhes</font></a>
                         </p>
@@ -1097,7 +1097,7 @@ ms.locfileid: "44326835"
                     <div class="cardText">
                         <h3>Jive</h3>
                         <p>por <a href="https://www.accenture.com">Accenture</a></p>
-                        <p>O conector do JIVE rastreará o conteúdo de qualquer comunidade JIVE com uma API REST habilitada. O conector irá recuperar documentos armazenados em espaços, grupos, projetos e Blogs e quaisquer subpastas nele contidas.</p>
+                        <p>O conector do JIVE rastreará o conteúdo de qualquer comunidade JIVE com uma API REST habilitada. O conector recuperará documentos armazenados em espaços, grupos, projetos e Blogs e quaisquer subpastas contidos nele.</p>
                         <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
                             <a href="https://contentanalytics.digital.accenture.com/display/aspire40/Jive+Connector"><font color="0065BA">Mais detalhes</font></a>
                         </p>
@@ -1129,7 +1129,7 @@ ms.locfileid: "44326835"
                     <div class="cardText">
                        <h3>Jive</h3>
                         <p>por <a href="https://www.raytion.com">raytion</a></p>
-                        <p>Conector para jive. Indexa discussões, pesquisas, arquivos, Blogs, espaços, grupos, projetos, tarefas, vídeos, mensagens, ideias, perfis e atualizações de status das instâncias do Jive no local e hospedado na nuvem, praticamente em tempo real. O conector suporta totalmente o gerenciamento interno de usuários e grupos do Jive e oferece suporte aos modelos de autenticação nativa do Jive, OAuth e autenticação básica. sexto conector de pesquisa raytion de geração.</p>
+                        <p>Conector para jive. Indexa discussões, pesquisas, arquivos, Blogs, espaços, grupos, projetos, tarefas, vídeos, mensagens, ideias, perfis e atualizações de status das instâncias do Jive no local e hospedado na nuvem, praticamente em tempo real. O conector suporta totalmente o gerenciamento interno de usuários e grupos do Jive e oferece suporte a modelos de autenticação nativa do Jive, OAuth e autenticação básica. sexto conector de pesquisa raytion de geração.</p>
                         <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
                             <a href="https://www.raytion.com/connectors/raytion-jive-connector"><font color="0065BA">Mais detalhes</font></a>
                         </p>
@@ -1148,7 +1148,7 @@ ms.locfileid: "44326835"
                     <div class="cardText">
                         <h3>Kafka</h3>
                         <p>por <a href="https://www.accenture.com">Accenture</a></p>
-                        <p>O conector Kafka FETC. hes de um fluxo de mensagens do Kafka e os envia após a execução de uma transformação opcional.</p>
+                        <p>O conector Kafka busca mensagens de um fluxo de mensagens do Kafka e as envia após a execução de uma transformação opcional.</p>
                         <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
                             <a href="https://contentanalytics.digital.accenture.com/display/aspire40/Kafka+Connector"><font color="0065BA">Mais detalhes</font></a>
                         </p>
@@ -1164,7 +1164,7 @@ ms.locfileid: "44326835"
                     <div class="cardText">
                         <h3>Kinesis</h3>
                         <p>por <a href="https://www.accenture.com">Accenture</a></p>
-                        <p>Os dados do conector Kinesis FETC. hes da Amazon Kinesis data streams e os envia após a execução de uma transformação opcional.</p>
+                        <p>O conector Kinesis busca dados de fluxos de dados do Amazon Kinesis e os envia após a execução de uma transformação opcional.</p>
                         <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
                             <a href="https://contentanalytics.digital.accenture.com/display/aspire40/Kinesis+Connector"><font color="0065BA">Mais detalhes</font></a>
                         </p>
@@ -1180,7 +1180,7 @@ ms.locfileid: "44326835"
                     <div class="cardText">
                         <h3>LDAP</h3>
                         <p>pela <a href="https://www.bainsight.com">BA visão</a></p>
-                        <p>O conector LDAP permite que as organizações se conectem a qualquer diretório compatível com LDAP e indexe qualquer registro dele. As organizações podem filtrar em subconjuntos específicos do diretório e recuperar apenas campos específicos, tornando simples a pesquisa de usuários, contratos ou grupos armazenados em qualquer lugar no seu diretório.</p>
+                        <p>O conector LDAP permite que as organizações se conectem a qualquer diretório compatível com LDAP e indexe qualquer registro dele. As organizações podem filtrar em subconjuntos específicos do diretório e recuperar apenas campos específicos, tornando simples a pesquisa de usuários, contatos ou grupos armazenados em qualquer lugar no seu diretório.</p>
                         <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
                             <a href="https://www.bainsight.com/indexing-connectors/1/"><font color="0065BA">Mais detalhes</font></a>
                         </p>
@@ -1199,7 +1199,7 @@ ms.locfileid: "44326835"
                     <div class="cardText">
                        <h3>LDAP</h3>
                         <p>por <a href="https://www.raytion.com">raytion</a></p>
-                        <p>Conector para serviços de diretório compatíveis com LDAP. Indexa objetos LDAP do Active Directory, Novell E-Directory e outros serviços de diretório compatíveis com LDAP, quase em tempo real. O conector pode ser usado para a inclusão de entidades de segurança na pesquisa da Microsoft para casos de uso, como pesquisas de equipamento e local, ou para implementar a filtragem de segurança para fontes de dados personalizadas. O conector oferece suporte a LDAP sobre SSL. sexto conector de pesquisa raytion de geração.</p>
+                        <p>Conector para serviços de diretório compatíveis com LDAP. Indexa objetos LDAP do Active Directory, Novell E-Directory e outros serviços de diretório compatíveis com LDAP, quase em tempo real. O conector pode ser usado para a inclusão de entidades no Microsoft Search para casos de uso, como especialistas, equipamentos e pesquisas de local, ou para implementar a filtragem de segurança para fontes de dados personalizadas. O conector oferece suporte a LDAP sobre SSL. sexto conector de pesquisa raytion de geração.</p>
                         <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
                             <a href="https://www.raytion.com/connectors/raytion-ldap-connector"><font color="0065BA">Mais detalhes</font></a>
                         </p>
@@ -1317,7 +1317,7 @@ ms.locfileid: "44326835"
                     <div class="cardText">
                         <h3>Gerenciador de conteúdo micro Focus (HPE Records Manager/HP TRIM)</h3>
                         <p>pela <a href="https://www.bainsight.com">BA visão</a></p>
-                        <p>O conector de preparo da HP foi desenvolvido especificamente para o HP Records Manager, estabelecendo uma conexão segura com o aplicativo apara e mapeando o conteúdo, incluindo metadados e anexos do esquema de corte para o esquema do mecanismo de pesquisa. Em seguida, ele extrai o conteúdo e o alimenta para o mecanismo de pesquisa em um processo chamado rastreamento.</p>
+                        <p>O conector de preparo da HP foi desenvolvido especificamente para o gerente de registros da HP, estabelecendo uma conexão segura com o aplicativo apara e mapeando o conteúdo, incluindo metadados e anexos, do esquema de corte para o esquema do mecanismo de pesquisa. Em seguida, ele extrai o conteúdo e o alimenta para o mecanismo de pesquisa em um processo chamado rastreamento.</p>
                         <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
                             <a href="https://www.bainsight.com/connectors/hp-trim-connector-sharepoint-azure-elasticsearch"><font color="0065BA">Mais detalhes</font></a>
                         </p>
@@ -1333,7 +1333,7 @@ ms.locfileid: "44326835"
                     <div class="cardText">
                        <h3>Microsoft Azure AD</h3>
                         <p>por <a href="https://www.raytion.com">raytion</a></p>
-                        <p>O conector indexa objetos do Active Directory do Azure por meio da API do Graph. O conector pode ser usado para a inclusão de entidades no Microsoft Search em tempo quase real para casos de uso, como pesquisas de equipamento e de local, ou para implementar a filtragem de segurança de ligação inicial em conjunto com fontes de dados personalizadas. O conector oferece suporte à autenticação federada no O365. sexto conector de pesquisa raytion de geração.</p>
+                        <p>O conector indexa objetos do Active Directory do Azure por meio da API do Graph. O conector pode ser usado para a inclusão de entidades no Microsoft Search em tempo quase real para casos de uso, como pesquisas especializadas, de equipamento e de local, ou para implementar a filtragem de segurança de ligação antecipada em conjunto com fontes de dados personalizadas. O conector oferece suporte à autenticação federada no O365. sexto conector de pesquisa raytion de geração.</p>
                         <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
                             <a href="https://www.raytion.com/connectors/raytion-azure-ad-connector"><font color="0065BA">Mais detalhes</font></a>
                         </p>
@@ -1352,7 +1352,7 @@ ms.locfileid: "44326835"
                     <div class="cardText">
                        <h3>Microsoft SharePoint</h3>
                         <p>por <a href="https://www.raytion.com">raytion</a></p>
-                        <p>Conector para instâncias locais do SharePoint. Indexes sites, Webs, modernos (SharePoint 2016 e posteriores) e páginas clássicas, páginas wiki, documentos do OneNote, itens de lista, tarefas, itens de calendário, anexos e arquivos, quase em tempo real. O conector suporta totalmente o gerenciamento interno de usuários e grupos do SharePoint, bem como instalações com o Active Directory, mas também provedores OAuth como o SiteMinder e o Okta. O conector é fornecido com suporte para autenticação básica, NTLM e Kerberos. sexto conector de pesquisa raytion de geração.</p>
+                        <p>Conector para instâncias locais do SharePoint. Indexa sites, Webs, modernos (SharePoint 2016 e posteriores) e páginas clássicas, páginas wiki, documentos do OneNote, itens de lista, tarefas, itens de calendário, anexos e arquivos, quase em tempo real. O conector suporta totalmente o gerenciamento interno de usuários e grupos do SharePoint, bem como instalações com o Active Directory, mas também provedores OAuth como o SiteMinder e o Okta. O conector é fornecido com suporte para autenticação básica, NTLM e Kerberos. sexto conector de pesquisa raytion de geração.</p>
                         <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
                             <a href="https://www.raytion.com/connectors/raytion-sharepoint-connector"><font color="0065BA">Mais detalhes</font></a>
                         </p>
@@ -1368,7 +1368,7 @@ ms.locfileid: "44326835"
                     <div class="cardText">
                         <h3>Microsoft SQL Server</h3>
                         <p>pela <a href="https://www.bainsight.com">BA visão</a></p>
-                        <p>O conector de banco de dados é criado com base nos métodos de acesso de banco de dados padrão do setor, para que possa oferecer suporte igualmente aos bancos de dados de outros sistemas, como Oracle, MySQL e IBM DB2.  Ele honra a segurança do banco de dados de origem e fornece rastreamentos completos e incrementais, de forma que os usuários tenham as informações mais recentes disponíveis a eles o tempo todo.</p>
+                        <p>O conector de banco de dados é criado com base nos métodos de acesso de banco de dados padrão do setor, para que possa oferecer suporte igualmente aos bancos de dados de outros sistemas, como Oracle, MySQL e IBM DB2. Ele honra a segurança do banco de dados de origem e fornece rastreamentos completos e incrementais, de forma que os usuários sempre tenham as informações mais recentes disponíveis para eles.</p>
                         <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
                             <a href="https://www.bainsight.com/connectors/sql-connector-sharepoint-azure-elasticsearch"><font color="0065BA">Mais detalhes</font></a>
                         </p>
@@ -1420,7 +1420,7 @@ ms.locfileid: "44326835"
                     <div class="cardText">
                         <h3>MySQL</h3>
                         <p>pela <a href="https://www.bainsight.com">BA visão</a></p>
-                        <p>O conector MySQL foi criado com base nos métodos de acesso de banco de dados padrão do setor, para que ele possa suportar igualmente bancos de dados de outros sistemas, como Oracle, MySQL e IBM DB2.  Ele honra a segurança do banco de dados de origem e fornece rastreamentos completos e incrementais, de forma que os usuários tenham as informações mais recentes disponíveis a eles o tempo todo.</p>
+                        <p>O conector MySQL foi criado com base nos métodos de acesso de banco de dados padrão do setor, para que ele possa suportar igualmente bancos de dados de outros sistemas, como Oracle, MySQL e IBM DB2. Ele honra a segurança do banco de dados de origem e fornece rastreamentos completos e incrementais, de forma que os usuários sempre tenham as informações mais recentes disponíveis para eles.</p>
                         <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
                             <a href="https://www.bainsight.com/connectors/mysql-connector-sharepoint-azure-elasticsearch/"><font color="0065BA">Mais detalhes</font></a>
                         </p>
@@ -1436,7 +1436,7 @@ ms.locfileid: "44326835"
                     <div class="cardText">
                         <h3>Netdocuments</h3>
                         <p>pela <a href="https://www.bainsight.com">BA visão</a></p>
-                        <p>O conector de netdocuments indexa o conteúdo armazenado no NetDocs para que os usuários possam Pesquisar e recuperar o conteúdo de um netdocuments diretamente de dentro do Portal.  O conector aplica a segurança do documento no NetDocs ao Microsoft Search automaticamente, de modo que as informações do usuário permaneçam seguras.  Os metadados armazenados em um netdocuments podem ser mapeados para termos equivalentes para que os usuários tenham uma experiência de pesquisa sem interrupções.</p>
+                        <p>O conector de netdocuments indexa o conteúdo armazenado no NetDocs para que os usuários possam Pesquisar e recuperar o conteúdo de um netdocuments diretamente de dentro do Portal. O conector aplica a segurança do documento no NetDocs ao Microsoft Search automaticamente, de modo que as informações do usuário permaneçam seguras. Os metadados armazenados em um netdocuments podem ser mapeados para termos equivalentes para que os usuários tenham uma experiência de pesquisa sem interrupções.</p>
                         <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
                             <a href="https://www.bainsight.com/connectors/netdocuments-connector-sharepoint-azure-elasticsearch"><font color="0065BA">Mais detalhes</font></a>
                         </p>
@@ -1455,7 +1455,7 @@ ms.locfileid: "44326835"
                     <div class="cardText">
                         <h3>Nuxeo</h3>
                         <p>pela <a href="https://www.bainsight.com">BA visão</a></p>
-                        <p>O conector Nuxeo permite que a organização indexe o conteúdo do Nuxeo, incluindo informações de segurança e metadados padrão e personalizados definidos no conteúdo da pesquisa da Microsoft no conteúdo lado presente no Office 365. Em última análise, os usuários podem encontrar tudo o que precisam em um só lugar.</p>
+                        <p>O conector Nuxeo permite que as organizações indexem seu conteúdo do Nuxeo, incluindo informações de segurança e metadados padrão e personalizados definidos no conteúdo da pesquisa da Microsoft junto com o conteúdo presente no Office 365. Em última análise, os usuários podem encontrar tudo o que precisam em um só lugar.</p>
                         <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
                             <a href="https://www.bainsight.com/indexing-connectors/2/"><font color="0065BA">Mais detalhes</font></a>
                         </p>
@@ -1487,7 +1487,7 @@ ms.locfileid: "44326835"
                     <div class="cardText">
                         <h3>OneDrive</h3>
                         <p>por <a href="https://www.accenture.com">Accenture</a></p>
-                        <p>O conector do OneDrive rastreará o conteúdo do Microsoft OneDrive, atravessando pastas para localizar arquivos. Ele gera uma assinatura para cada item para permitir atualizações incrementais de apenas itens alterados. Cada arquivo é enviado com seus metadados (tamanho, local, acessado pela última vez etc.) e listas de controle de acesso.</p>
+                        <p>O conector do OneDrive rastreará o conteúdo do Microsoft OneDrive, atravessando pastas para localizar arquivos. Ele gera uma assinatura para cada item para permitir atualizações incrementais de apenas itens alterados. Cada arquivo é enviado com seus metadados (tamanho, local, último acesso, etc.) e listas de controle de acesso.</p>
                         <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
                             <a href="https://contentanalytics.digital.accenture.com/display/aspire40/OneDrive+Connector"><font color="0065BA">Mais detalhes</font></a>
                         </p>
@@ -1538,7 +1538,7 @@ ms.locfileid: "44326835"
                     <div class="cardText">
                        <h3>OpenText Documentum</h3>
                         <p>por <a href="https://www.raytion.com">raytion</a></p>
-                        <p>Conector para Documentum. Indexa repositórios, pastas e arquivos em conjunto com seus metadados e propriedades do Documentum, quase em tempo real. O conector suporta totalmente o gerenciamento interno de usuários e grupos do Documentum. sexto conector de pesquisa raytion de geração.</p>
+                        <p>Conector para Documentum. Indexa os repositórios, pastas e arquivos em conjunto com seus metadados e propriedades do Documentum, quase em tempo real. O conector suporta totalmente o gerenciamento interno de usuários e grupos do Documentum. sexto conector de pesquisa raytion de geração.</p>
                         <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
                             <a href="https://www.raytion.com/connectors/raytion-documentum-connector"><font color="0065BA">Mais detalhes</font></a>
                         </p>
@@ -1557,7 +1557,7 @@ ms.locfileid: "44326835"
                     <div class="cardText">
                         <h3>OpenText eDOCS DM</h3>
                         <p>pela <a href="https://www.bainsight.com">BA visão</a></p>
-                        <p>Os usuários do conector DM eDOCS da OpenText podem pesquisar conteúdo hospedado em repositórios do eDOCS diretamente de dentro do Microsoft Search, eliminando a necessidade de realizar várias pesquisas para localizar o conteúdo necessário.  A segurança estabelecida no eDOCS é mantida pelo conector para garantir que o conteúdo seja visto apenas por aqueles com acesso concedido.</p>
+                        <p>Os usuários do conector DM eDOCS da OpenText podem pesquisar conteúdo hospedado em repositórios do eDOCS diretamente de dentro do Microsoft Search, eliminando a necessidade de realizar várias pesquisas para localizar o conteúdo necessário. A segurança estabelecida no eDOCS é mantida pelo conector para garantir que o conteúdo seja visto apenas por aqueles com acesso concedido.</p>
                         <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
                             <a href="https://www.bainsight.com/connectors/edocs-dm-connector-sharepoint-azure-elasticsearch"><font color="0065BA">Mais detalhes</font></a>
                         </p>
@@ -1573,7 +1573,7 @@ ms.locfileid: "44326835"
                     <div class="cardText">
                         <h3>OpenText Livelink/RM</h3>
                         <p>pela <a href="https://www.bainsight.com">BA visão</a></p>
-                        <p>Com o conector da OpenText Livelink, os usuários podem pesquisar os dados do LiveLink e da Microsoft com uma única consulta.  A segurança definida no LiveLink é automaticamente refletida na experiência de pesquisa, que garante que os usuários vejam apenas o conteúdo para o qual eles estão autorizados. Em última análise, os usuários podem encontrar tudo o que precisam em um só lugar.</p>
+                        <p>Com o conector da OpenText Livelink, os usuários podem pesquisar os dados do LiveLink e da Microsoft com uma única consulta. A segurança definida no LiveLink é automaticamente refletida na experiência de pesquisa, que garante que os usuários vejam apenas o conteúdo para o qual eles estão autorizados. Em última análise, os usuários podem encontrar tudo o que precisam em um só lugar.</p>
                         <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
                             <a href="https://www.bainsight.com/connectors/livelink-connector-sharepoint-azure-elasticsearch"><font color="0065BA">Mais detalhes</font></a>
                         </p>
@@ -1624,7 +1624,7 @@ ms.locfileid: "44326835"
                     <div class="cardText">
                         <h3>Oracle WebCenter</h3>
                         <p>pela <a href="https://www.bainsight.com">BA visão</a></p>
-                        <p>O conector do WebCenter integra o WebCenter à pesquisa da Microsoft torna mais fácil para os usuários em toda a organização encontrarem informações importantes armazenadas no WebCenter sem a necessidade de fazer logon diretamente e realizar uma pesquisa separada.</p>
+                        <p>O conector do WebCenter integra o WebCenter à Microsoft Search, tornando mais fácil para os usuários em toda a organização encontrarem informações importantes armazenadas no WebCenter sem a necessidade de fazer logon diretamente e realizar uma pesquisa separada.</p>
                         <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
                             <a href="https://www.bainsight.com/connectors/oracle-webcenter-connector-sharepoint-azure-elasticsearch"><font color="0065BA">Mais detalhes</font></a>
                         </p>
@@ -1675,7 +1675,7 @@ ms.locfileid: "44326835"
                     <div class="cardText">
                         <h3>PostgreSQL</h3>
                         <p>pela <a href="https://www.bainsight.com">BA visão</a></p>
-                        <p>O conector PostgreSQL da BA Sight honra a segurança do banco de dados de origem e fornece rastreamentos completos e incrementais para que os usuários tenham as informações mais recentes disponíveis todo o tempo. Ele indexa o conteúdo do PostgreSQL no Microsoft Search, revelar-lo através do SmartHub da BA percepção para fornecer aos usuários resultados de pesquisa integrados.</p>
+                        <p>O conector PostgreSQL da BA visão honra a segurança do banco de dados de origem e fornece rastreamentos completos e incrementais, para que os usuários sempre tenham as informações mais recentes disponíveis. Ele indexa o conteúdo do PostgreSQL no Microsoft Search, revelar-lo através do SmartHub da BA percepção para fornecer aos usuários resultados de pesquisa integrados.</p>
                         <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
                             <a href="https://www.bainsight.com/connectors/postgresql-connector-connector-sharepoint-azure-elasticsearch"><font color="0065BA">Mais detalhes</font></a>
                         </p>
@@ -1710,7 +1710,7 @@ ms.locfileid: "44326835"
                     <div class="cardText">
                         <h3>Bancos de dados relacionais</h3>
                         <p>por <a href="https://www.accenture.com">Accenture</a></p>
-                        <p>Rastreia o conteúdo de bancos de dados relacionais usando drivers JDBC de terceiros. As atualizações são identificadas automaticamente ou usam uma tabela de atualização. Uma instrução SQL SELECT é usada para controlar os dados enviados. Listas de controle de acesso podem ser extraídas de uma coluna retornada</p>
+                        <p>Rastreia o conteúdo de bancos de dados relacionais usando drivers JDBC de terceiros. As atualizações são identificadas automaticamente ou usam uma tabela de atualização. Uma instrução SQL SELECT é usada para controlar os dados enviados. As listas de controle de acesso podem ser extraídas de uma coluna retornada.</p>
                         <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
                             <a href="https://contentanalytics.digital.accenture.com/display/aspire40/Relational+Databases"><font color="0065BA">Mais detalhes</font></a>
                         </p>
@@ -1742,7 +1742,7 @@ ms.locfileid: "44326835"
                     <div class="cardText">
                         <h3>Salesforce</h3>
                         <p>por <a href="https://www.accenture.com">Accenture</a></p>
-                        <p>O conector Salesforce rastreará o conteúdo de qualquer verão de Salesforce ' 16 (versão 37). O conector recuperará os elementos com suporte usando a API SOAP e os feeds de Salesforce do usuário que usam a API REST.</p>
+                        <p>O conector Salesforce rastreará o conteúdo de qualquer verão de Salesforce ' 16 (versão 37). O conector recuperará os elementos com suporte usando a API SOAP e os feeds de Salesforce do usuário, usando a API REST.</p>
                         <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
                             <a href="https://contentanalytics.digital.accenture.com/display/aspire40/Salesforce+Connector"><font color="0065BA">Mais detalhes</font></a>
                         </p>
@@ -1793,7 +1793,7 @@ ms.locfileid: "44326835"
                     <div class="cardText">
                         <h3>SAP ERP</h3>
                         <p>pela <a href="https://www.bainsight.com">BA visão</a></p>
-                        <p>O conector de ERP SAP da BA visão foi projetado para trazer itens do SAP para um índice de pesquisa.  Isso, por sua vez, acende a interface do usuário e permite uma visão unificada entre as informações do SAP, do SharePoint e de outros sistemas.</p>
+                        <p>O conector de ERP SAP da BA visão foi projetado para trazer itens do SAP para um índice de pesquisa. Isso, por sua vez, acende a interface do usuário e permite uma visão unificada entre as informações do SAP, do SharePoint e de outros sistemas.</p>
                         <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
                             <a href="https://www.bainsight.com/connectors/sap-erp-connector-sharepoint-azure-elasticsearch"><font color="0065BA">Mais detalhes</font></a>
                         </p>
@@ -1812,7 +1812,7 @@ ms.locfileid: "44326835"
                     <div class="cardText">
                         <h3>SAP HANA</h3>
                         <p>pela <a href="https://www.bainsight.com">BA visão</a></p>
-                        <p>O conector SAP HANA honra a segurança do banco de dados de origem e fornece rastreamentos completos e incrementais para que os usuários tenham as informações mais recentes disponíveis a todos os horários. Ele indexa o conteúdo do SAP HANA no Microsoft Search, revelar-lo através do SmartHub da BA percepção para fornecer aos usuários resultados de pesquisa integrados.</p>
+                        <p>O conector SAP HANA honra a segurança do banco de dados de origem e fornece rastreamentos completos e incrementais, de forma que os usuários sempre tenham as informações mais recentes disponíveis para eles. Ele indexa o conteúdo do SAP HANA no Microsoft Search, revelar-lo através do SmartHub da BA percepção para fornecer aos usuários resultados de pesquisa integrados.</p>
                         <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
                             <a href="https://www.bainsight.com/connectors/sap-hana-connector-sharepoint-azure-elasticsearch"><font color="0065BA">Mais detalhes</font></a>
                         </p>
@@ -1828,7 +1828,7 @@ ms.locfileid: "44326835"
                     <div class="cardText">
                        <h3>Portal do SAP NetWeaver</h3>
                         <p>por <a href="https://www.raytion.com">raytion</a></p>
-                        <p>Conector para o portal do SAP NetWeaver. Indexa páginas, anexos e outros tipos de documentos de áreas SAP NetWeaver Portal, KMC e PDC, quase em tempo real. O conector suporta totalmente o gerenciamento interno de usuários e grupos do NWP SAP, bem como instalações do NWP com base no Active Directory e em outros serviços de diretório. sexto conector de pesquisa raytion de geração.</p>
+                        <p>Conector para o portal do SAP NetWeaver. Indexa páginas, anexos e outros tipos de documento de áreas SAP NetWeaver Portal, KMC e PDC, praticamente em tempo real. O conector suporta totalmente o gerenciamento interno de usuários e grupos do NWP SAP, bem como instalações do NWP com base no Active Directory e em outros serviços de diretório. sexto conector de pesquisa raytion de geração.</p>
                         <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
                             <a href="https://www.raytion.com/connectors/raytion-sap-netweaver-portal-connector"><font color="0065BA">Mais detalhes</font></a>
                         </p>
@@ -1879,7 +1879,7 @@ ms.locfileid: "44326835"
                     <div class="cardText">
                         <h3>ServiceNow</h3>
                         <p>pela <a href="https://www.bainsight.com">BA visão</a></p>
-                        <p>O conector do ServiceNow honra a segurança do sistema de origem e fornece rastreamentos completos e incrementais para que os usuários tenham as informações mais recentes disponíveis a eles o tempo todo.</p>
+                        <p>O conector do ServiceNow honra a segurança do sistema de origem e fornece rastreamentos completos e incrementais, de forma que os usuários sempre tenham as informações mais recentes disponíveis para eles.</p>
                         <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
                             <a href="https://www.bainsight.com/connectors/servicenow-connector-sharepoint-azure-elasticsearch"><font color="0065BA">Mais detalhes</font></a>
                         </p>
@@ -1895,7 +1895,7 @@ ms.locfileid: "44326835"
                     <div class="cardText">
                        <h3>ServiceNow</h3>
                         <p>por <a href="https://www.raytion.com">raytion</a></p>
-                        <p>Conector para ServiceNow. Indexa problemas, tarefas, anexos, artigos de KM, páginas, entre outros do ServiceNow, quase em tempo real. O conector oferece suporte ao gerenciamento interno de usuários e grupos do ServiceNow. sexto conector de pesquisa raytion de geração.</p>
+                        <p>Conector para ServiceNow. Indexa problemas, tarefas, anexos, artigos de KM e páginas, entre outros usuários do ServiceNow, quase em tempo real. O conector oferece suporte ao gerenciamento interno de usuários e grupos do ServiceNow. sexto conector de pesquisa raytion de geração.</p>
                         <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
                             <a href="https://www.raytion.com/connectors/raytion-servicenow-connector"><font color="0065BA">Mais detalhes</font></a>
                         </p>
@@ -1914,7 +1914,7 @@ ms.locfileid: "44326835"
                     <div class="cardText">
                         <h3>SharePoint 2013</h3>
                         <p>por <a href="https://www.accenture.com">Accenture</a></p>
-                        <p>O conector do SharePoint 2013 rastreará o conteúdo de qualquer URL de conjunto de sites do SharePoint 2013.O conector suporta listas, páginas e sites e atualizações são identificados automaticamente ou por meio do log de alterações do SharePoint.</p>
+                        <p>O conector do SharePoint 2013 rastreará o conteúdo de qualquer URL de conjunto de sites do SharePoint 2013.O conector oferece suporte a listas, páginas e sites, e as atualizações são identificadas automaticamente ou por meio do log de alterações do SharePoint.</p>
                         <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
                             <a href="https://contentanalytics.digital.accenture.com/display/aspire40/SharePoint+2013+Connector"><font color="0065BA">Mais detalhes</font></a>
                         </p>
@@ -1930,7 +1930,7 @@ ms.locfileid: "44326835"
                     <div class="cardText">
                         <h3>SharePoint 2016</h3>
                         <p>por <a href="https://www.accenture.com">Accenture</a></p>
-                        <p>O conector do SharePoint 2016 rastreará o conteúdo de qualquer URL de conjunto de sites do SharePoint 2016.O conector suporta listas, páginas e sites e atualizações são identificados automaticamente ou por meio do log de alterações do SharePoint</p>
+                        <p>O conector do SharePoint 2016 rastreará o conteúdo de qualquer URL de conjunto de sites do SharePoint 2016.O conector oferece suporte a listas, páginas e sites, e as atualizações são identificadas automaticamente ou por meio do log de alterações do SharePoint.</p>
                         <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
                             <a href="https://contentanalytics.digital.accenture.com/display/aspire40/SharePoint+2016+Connector"><font color="0065BA">Mais detalhes</font></a>
                         </p>
@@ -1965,7 +1965,7 @@ ms.locfileid: "44326835"
                     <div class="cardText">
                         <h3>Sitecore</h3>
                         <p>pela <a href="https://www.bainsight.com">BA visão</a></p>
-                        <p>O conector Sitecore honra a segurança do sistema de origem e fornece rastreamentos completos e incrementais, de forma que os usuários tenham as informações mais recentes disponíveis a eles o tempo todo.</p>
+                        <p>O conector Sitecore honra a segurança do sistema de origem e fornece rastreamentos completos e incrementais, de forma que os usuários sempre tenham as informações mais recentes disponíveis para eles.</p>
                         <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
                             <a href="https://www.bainsight.com/connectors/sitecore-connector-sharepoint-azure-elasticsearch"><font color="0065BA">Mais detalhes</font></a>
                         </p>
@@ -1997,7 +1997,7 @@ ms.locfileid: "44326835"
                     <div class="cardText">
                        <h3>Atraso</h3>
                         <p>por <a href="https://www.raytion.com">raytion</a></p>
-                        <p>O conector para margem de atraso de forma eficiente e sincroniza o conteúdo da margem de atraso com o Microsoft Search. Ele indexa com eficiência mensagens, segmentos e arquivos compartilhados de todos os canais públicos. Tudo isso quase em tempo real. O conector garante que todos os documentos vêm com um conjunto abrangente de metadados, o que permite desenvolver a melhor experiência de pesquisa. Mesmo em ambientes vibrantes, o conector de margem de atraso controla todas as alterações e garante um índice de pesquisa atualizado.</p>
+                        <p>O conector para margem de atraso de forma eficiente e sincroniza o conteúdo da margem de atraso com o Microsoft Search. Ele indexa com eficiência mensagens, segmentos e arquivos compartilhados de todos os canais públicos, quase em tempo real. O conector garante que todos os documentos vêm com um conjunto abrangente de metadados, o que permite o desenvolvimento da melhor experiência de pesquisa. Mesmo em ambientes vibrantes, o conector de margem de atraso controla todas as alterações e garante um índice de pesquisa atualizado.</p>
                         <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
                             <a href="https://www.raytion.com/connectors/raytion-slack-connector"><font color="0065BA">Mais detalhes</font></a>
                         </p>
@@ -2048,7 +2048,7 @@ ms.locfileid: "44326835"
                     <div class="cardText">
                         <h3>SMTP</h3>
                         <p>por <a href="https://www.accenture.com">Accenture</a></p>
-                        <p>O conector SMTP processará emails enviados para ele. O email e os anexos são enviados com metadados como, de, assunto, etc.</p>
+                        <p>O conector SMTP processará os emails enviados para ele. Os emails e anexos são enviados com metadados como para, de e assunto.</p>
                         <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
                             <a href="https://contentanalytics.digital.accenture.com/"><font color="0065BA">Mais detalhes</font></a>
                         </p>
@@ -2083,7 +2083,7 @@ ms.locfileid: "44326835"
                     <div class="cardText">
                         <h3>Qualquer sistema CRM baseado em SQL</h3>
                         <p>pela <a href="https://www.bainsight.com">BA visão</a></p>
-                        <p>O SQL Server Connector foi criado com base nos métodos de acesso de banco de dados padrão do setor, para que ele possa oferecer suporte igualmente a bancos de dados de outros sistemas, como Oracle, MySQL e IBM DB2.  Ele honra a segurança do banco de dados de origem e fornece rastreamentos completos e incrementais, de forma que os usuários tenham as informações mais recentes disponíveis a eles o tempo todo.</p>
+                        <p>O SQL Server Connector foi criado com base nos métodos de acesso de banco de dados padrão do setor, para que ele possa oferecer suporte igualmente a bancos de dados de outros sistemas, como Oracle, MySQL e IBM DB2. Ele honra a segurança do banco de dados de origem e fornece rastreamentos completos e incrementais, de forma que os usuários sempre tenham as informações mais recentes disponíveis para eles.</p>
                         <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
                             <a href="https://www.bainsight.com/connectors/sql-connector-sharepoint-azure-elasticsearch"><font color="0065BA">Mais detalhes</font></a>
                         </p>
@@ -2118,7 +2118,7 @@ ms.locfileid: "44326835"
                     <div class="cardText">
                        <h3>Symantec Enterprise Vault</h3>
                         <p>por <a href="https://www.raytion.com">raytion</a></p>
-                        <p>Conector para o Enterprise Vault. Indexa dados arquivados, como emails, anexos, arquivos, itens de calendário e contatos quase em tempo real. O conector suporta totalmente os modelos de autenticação do Enterprise Vault, autenticação básica, NTLM e Kerberos. sexto conector de pesquisa raytion de geração.</p>
+                        <p>Conector para o Enterprise Vault. Indexa dados arquivados, como emails, anexos, arquivos, itens de calendário e contatos quase em tempo real. O conector oferece suporte completo aos modelos de autenticação do Enterprise Vault, autenticação básica, NTLM e Kerberos. sexto conector de pesquisa raytion de geração.</p>
                         <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
                             <a href="https://www.raytion.com/connectors/raytion-enterprise-vault-connector-2"><font color="0065BA">Mais detalhes</font></a>
                         </p>
@@ -2134,7 +2134,7 @@ ms.locfileid: "44326835"
                     <div class="cardText">
                         <h3>TeamForge</h3>
                         <p>por <a href="https://www.accenture.com">Accenture</a></p>
-                        <p>O conector TeamForge rastreará o conteúdo do servidor TeamForge por meio de seus serviços SOAP.</p>
+                        <p>O conector TeamForge rastreará o conteúdo de um servidor do TeamForge por meio de seus serviços SOAP.</p>
                         <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
                             <a href="https://contentanalytics.digital.accenture.com/display/aspire40/TeamForge+Connector"><font color="0065BA">Mais detalhes</font></a>
                         </p>
@@ -2150,7 +2150,7 @@ ms.locfileid: "44326835"
                     <div class="cardText">
                         <h3>Twitter</h3>
                         <p>por <a href="https://www.accenture.com">Accenture</a></p>
-                        <p>O conector do Twitter rastreará o conteúdo de feeds do Twitter. Ele coleta o texto de tweet e metadados, incluindo links de URL, localização geográfica, hashtags</p>
+                        <p>O conector do Twitter rastreará o conteúdo de feeds do Twitter. Ele coleta o texto de tweet e metadados, incluindo links de URL, localização geográfica e hashtags</p>
                         <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
                             <a href="https://contentanalytics.digital.accenture.com/display/aspire40/Twitter+Connector"><font color="0065BA">Mais detalhes</font></a>
                         </p>
@@ -2185,7 +2185,7 @@ ms.locfileid: "44326835"
                     <div class="cardText">
                        <h3>Veritas Enterprise Vault</h3>
                         <p>por <a href="https://www.raytion.com">raytion</a></p>
-                        <p>Conector para o Enterprise Vault. Indexa dados arquivados, como emails, anexos, arquivos, itens de calendário e contatos quase em tempo real. O conector suporta totalmente os modelos de autenticação do Enterprise Vault, autenticação básica, NTLM e Kerberos. sexto conector de pesquisa raytion de geração.</p>
+                        <p>Conector para o Enterprise Vault. Indexa dados arquivados, como emails, anexos, arquivos, itens de calendário e contatos quase em tempo real. O conector oferece suporte completo aos modelos de autenticação do Enterprise Vault, autenticação básica, NTLM e Kerberos. sexto conector de pesquisa raytion de geração.</p>
                         <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
                             <a href="https://www.raytion.com/connectors/raytion-enterprise-vault-connector"><font color="0065BA">Mais detalhes</font></a>
                         </p>
@@ -2201,7 +2201,7 @@ ms.locfileid: "44326835"
                     <div class="cardText">
                         <h3>Veritas Enterprise Vault (Symantec eVault)</h3>
                         <p>pela <a href="https://www.bainsight.com">BA visão</a></p>
-                        <p>O conector do Veritas Enterprise Vault honra a segurança do sistema de origem e fornece rastreamentos completos e incrementais para que os usuários tenham as informações mais recentes disponíveis a eles o tempo todo.</p>
+                        <p>O conector do Veritas Enterprise Vault honra a segurança do sistema de origem e fornece rastreamentos completos e incrementais, de forma que os usuários sempre tenham as informações mais recentes disponíveis para eles.</p>
                         <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
                             <a href="https://www.bainsight.com/connectors/enterprise-vault-connector-sharepoint-azure-elasticsearch"><font color="0065BA">Mais detalhes</font></a>
                         </p>
@@ -2220,7 +2220,7 @@ ms.locfileid: "44326835"
                     <div class="cardText">
                         <h3>Rastreador da Web</h3>
                         <p>por <a href="https://www.accenture.com">Accenture</a></p>
-                        <p>O conector Aspider Web crawler rastreará o conteúdo de um ou mais sites. O conteúdo é enviado junto com todos os metadados fornecidos pelo servidor </p>
+                        <p>O conector Aspider Web crawler rastreará o conteúdo de um ou mais sites. O conteúdo é enviado junto com todos os metadados fornecidos pelo servidor.</p>
                         <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
                             <a href="https://contentanalytics.digital.accenture.com/display/aspire40/Aspider+Web+Crawler"><font color="0065BA">Mais detalhes</font></a>
                         </p>
@@ -2287,7 +2287,7 @@ ms.locfileid: "44326835"
                     <div class="cardText">
                         <h3>Yammer</h3>
                         <p>por <a href="https://www.accenture.com">Accenture</a></p>
-                        <p>O conector Yammer rastreará o conteúdo de mensagens e metadados do Yammer, incluindo os detalhes do remetente, do grupo e do thread. Ele é executado em qualquer máquina com acesso ao fornecido ao servidor do AEM e, opcionalmente, oferece suporte à FETC de conteúdo. dobradiça e limitação de conexão.</p>
+                        <p>O conector Yammer rastreará o conteúdo de mensagens e metadados do Yammer, incluindo os detalhes do remetente, do grupo e do thread. Ele é executado em qualquer máquina com acesso ao servidor do AEM e, opcionalmente, oferece suporte à busca de conteúdo e à limitação de conexão.</p>
                         <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
                             <a href="https://contentanalytics.digital.accenture.com/display/aspire40/Yammer+Connector"><font color="0065BA">Mais detalhes</font></a>
                         </p>
