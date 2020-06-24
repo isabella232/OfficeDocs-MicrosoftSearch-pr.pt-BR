@@ -12,14 +12,14 @@ search.appverid:
 - MET150
 - MOE150
 description: Configure o conector de compartilhamento de arquivos para o Microsoft Search.
-ms.openlocfilehash: ece8997138182c1cd4ac7230aa2a3501af912933
-ms.sourcegitcommit: 68087149c769a7cdde80944dd9c9933d2bf4a23f
+ms.openlocfilehash: 2349ad753508d5f19a70648d9cbf1df495b27108
+ms.sourcegitcommit: 7eda9b621def0659d7e7bc8b989f8adc929cce93
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "38699771"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44861090"
 ---
-# <a name="the-file-share-connector-for-microsoft-search"></a>O conector de compartilhamento de arquivos da pesquisa da Microsoft
+# <a name="file-share-connector"></a>Conector de compartilhamento de arquivos
 
 Com o conector de compartilhamento de arquivos, os usuários da sua organização podem pesquisar em compartilhamentos de arquivos locais. Os resultados da pesquisa desses compartilhamentos são mesclados com os resultados do [SharePoint](http://sharepoint.com/) e do [Microsoft onedrive for Business](https://onedrive.live.com/about/business/).
 
@@ -50,7 +50,7 @@ Para configurar a página de resultados da pesquisa, siga estas etapas:
 
 2. Instale um [Shell de gerenciamento do SharePoint Online](https://www.microsoft.com/download/details.aspx?id=35588).
 
-3. Abra o Shell de gerenciamento do SharePoint Online como administrador e importe o módulo **Microsoft. SharePoint. Client. dll** presente em `C:\Windows\Microsoft.NET\assembly\GAC_MSIL\Microsoft.SharePoint.Client\v4.0_16.0.0.0__71e9bce111e9429c\Microsoft.SharePoint.Client.dll`.
+3. Abra o Shell de gerenciamento do SharePoint Online como administrador e importe o módulo **Microsoft.SharePoint.Client.dll** presente em `C:\Windows\Microsoft.NET\assembly\GAC_MSIL\Microsoft.SharePoint.Client\v4.0_16.0.0.0__71e9bce111e9429c\Microsoft.SharePoint.Client.dll` .
 
 > [!NOTE]
 > Esse caminho pode não ser o mesmo para todos os usuários.
@@ -89,7 +89,7 @@ Write-Host "Success" -ForegroundColor Cyan
 Read-Host -Prompt 'Press enter to exit'
 ```
 
-5. Insira os valores necessários no [Microsoft PowerShell](https://microsoft.com/powershell), como nome da organização, nome de usuário, senha e URL do site. Por **exemplo**, se suas credenciais de administrador são `admin@a830edad9050849823J19081300.onmicrosoft.com`, o nome da sua organização é **a830edad9050849823J19081300**e a URL do site `https:// a830edad9050849823J19081300.sharepoint.com`é.
+5. Insira os valores necessários no [Microsoft PowerShell](https://microsoft.com/powershell), como nome da organização, nome de usuário, senha e URL do site. Por **exemplo**, se suas credenciais de administrador são `admin@a830edad9050849823J19081300.onmicrosoft.com` , o nome da sua organização é **a830edad9050849823J19081300**e a URL do site é `https:// a830edad9050849823J19081300.sharepoint.com` .
 
 > [!NOTE]
 > A configuração de **propriedadeproperties** só pode ser feita em um nível de conjunto de sites (site de equipe/comms).

@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Visão geral dos conectores do Microsoft Graph para o Microsoft Search
-ms.openlocfilehash: 0b5420eb4eb93eb257fab30f3e56a20e6456e1b3
-ms.sourcegitcommit: 64eea81f8c1db9ee955013462a7b51612fb7d0b7
+ms.openlocfilehash: 08ddb8e61606007c706134242e865459f0399b86
+ms.sourcegitcommit: 68cd28a84df120473270f27e4eb62de9eae455f9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "44604388"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "44850867"
 ---
 # <a name="overview-of-microsoft-graph-connectors"></a>Visão geral dos conectores do Microsoft Graph
 
@@ -55,6 +55,12 @@ As seções a seguir fornecem descrições breves para esses conectores criados 
 - **[Gen2 de armazenamento do Azure data Lake](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-introduction)**. Com esse conector do Microsoft Graph, os usuários em sua organização podem pesquisar arquivos e conteúdo armazenados em contêineres de blob do Azure. O conector do Gen2 de armazenamento do Azure data Lake também indexa pastas habilitadas por hierarquia nas contas do Gen2 de armazenamento do Azure data Lake que você especificar.
 Saiba mais sobre o [conector do Gen2 de armazenamento do Azure data Lake](azure-data-lake-connector.md).
 
+- **[DevOps do Azure](https://azure.microsoft.com/services/devops)**. Com esse conector do Microsoft Graph, os usuários em sua organização podem pesquisar itens de trabalho de sua instância do DevOps do Azure.
+Saiba mais sobre o [conector DevOps do Azure](azure-devops-connector.md).
+
+- **[Azure SQL](https://azure.microsoft.com/services/sql-database)**. Com esse conector do Microsoft Graph, os usuários em sua organização podem pesquisar dados de seu banco de dados SQL do Azure.
+Saiba mais sobre o [Azure SQL Connector](MSSQL-connector.md).
+
 - **Sites corporativos**. Com esse conector do Microsoft Graph, os usuários da sua organização podem Pesquisar nas páginas de qualquer site que não seja do SharePoint Enterprise.
 Saiba mais sobre o [conector de sites da empresa](enterprise-web-connector.md).
 
@@ -85,8 +91,8 @@ Após a indexação dos dados personalizados, os desenvolvedores podem [consulta
 
 ## <a name="license-requirements"></a>Requisitos de licença
 
-Para exibir dados de conectores nos resultados da pesquisa, os usuários devem ter uma das seguintes assinaturas do Microsoft 365:
+Para exibir dados de conectores nos resultados da pesquisa, os usuários devem ter uma das seguintes assinaturas do Microsoft 365 ou do Office 365:
 
-- [Microsoft 365 para Enterprise E3 ou e5](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-plans)
+- [Microsoft 365 ou Office 365 Enterprise E3 ou e5](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-plans)
 
-- [Microsoft 365 Education a3 ou a5](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans?activetab=tab:primaryr1)
+- [Microsoft 365 ou Office 365 educação a3 ou a5](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans?activetab=tab:primaryr1)
