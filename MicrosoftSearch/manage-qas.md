@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: 7e3432e6-5317-4d63-90b0-52da6fddd343
 description: Encontre e atualize as respostas individualmente ou use as ferramentas de pesquisa da Microsoft disponíveis para editar Q&todas ao mesmo tempo.
-ms.openlocfilehash: af966cfaae6680a063feb25d2736303106c19978
-ms.sourcegitcommit: 0050e113517a36e3ca26028a04ac5c236caaf524
+ms.openlocfilehash: 2ec06fb0940172621255946283290450c1f2e036
+ms.sourcegitcommit: 7ad6f4b0ab6cd7b912862273a8b4d48a6507bc29
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "44470268"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "44878229"
 ---
 # <a name="manage-qas"></a>Gerenciar P e R
 
@@ -62,8 +62,8 @@ Os administradores de pesquisa podem criar conteúdo de pesquisa facilmente usan
 
 No momento, as extensões do navegador estão disponíveis para o Microsoft Edge e o Chrome.
 
-- Para baixar extensões de borda, vá para a [Microsoft Store](https://www.microsoft.com/p/microsoft-search-content-creator/9nrqdbcbwq55?activetab=pivot:overviewtab).
-- Para baixar as extensões do Chrome, vá para o [repositório da Web do Chrome](https://chrome.google.com/webstore/detail/microsoft-search-content/nocnablpaoeecfmfnjoheefkogmleipm).
+- Para baixar extensões para borda (herdadas), acesse [Microsoft Store](https://www.microsoft.com/p/microsoft-search-content-creator/9nrqdbcbwq55?activetab=pivot:overviewtab).
+- Para baixar as extensões Chrome ou Edge (Chromium), vá para o [repositório da Web do Chrome](https://chrome.google.com/webstore/detail/microsoft-search-content/nocnablpaoeecfmfnjoheefkogmleipm).
 
 ## <a name="bulk-add-or-edit-qas"></a>Adicionar ou editar P e R em massa
 
