@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: O recurso plantas baixas no Microsoft Search ajuda os usuários a encontrar pessoas, escritórios e outros amenities dentro de um edifício.
-ms.openlocfilehash: e005767c255cb899793b6b4849882c7ec0561256
-ms.sourcegitcommit: 7ad6f4b0ab6cd7b912862273a8b4d48a6507bc29
+ms.openlocfilehash: 95941e57946f49de3a0558dc2d2c59b999151b37
+ms.sourcegitcommit: 9ba062f8b632a74e56ad7ec4dffaa1d8dab57614
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "44878238"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "44996108"
 ---
 # <a name="manage-floor-plans"></a>Gerenciar plantas baixas
 
@@ -67,7 +67,7 @@ Use **o Microsoft Search** para localizar um usuário e verificar se o local do 
 
 ### <a name="step-5-add-building-locations"></a>Etapa 5: Adicionar locais de construção
 
-Plantas baixas usa [locais](manage-locations.md) para definir seus prédios. No [centro de administração](https://admin.microsoft.com)do Microsoft 365, vá para **configurações**  >  locais de**pesquisa da Microsoft**  >  **Locations**e selecione **Adicionar**. Insira o nome, o endereço e as palavras-chave para o edifício. Adicione quantos edifícios forem necessários.
+Plantas baixas usa [locais](manage-locations.md) para definir seus prédios. No [centro de administração](https://admin.microsoft.com)do Microsoft 365, vá para **configurações**  >  locais de respostas da**Microsoft Search**  >  **Answers**  >  [**Locations**](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/locations)e selecione **Adicionar**. Insira o nome, o endereço e as palavras-chave para o edifício. Adicione quantos edifícios forem necessários.
 
 ![floorplans-locations.png](media/floorplans-locations.png)
 
@@ -77,13 +77,13 @@ Para obter mais detalhes sobre locais, consulte [Manage Locations](manage-locati
 
 Para que você possa usar os planos de piso, os locais do Office devem ser indexados. Esta é uma operação única que pode levar até 48 horas para ser concluída. O tempo total dependerá do tamanho da sua organização.
 
-No [centro de administração](https://admin.microsoft.com), vá para **configurações**  >  **do Microsoft Search**  >  **Floor Plans**e selecione **introdução**. Se você não vir este aviso, esta etapa já foi concluída para sua organização
+No [centro de administração](https://admin.microsoft.com), vá até **configurações**  >  **Microsoft Search**  >  **Answers**  >  [**Plans Floor**](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/floorplans)e selecione **introdução**. Se você não vir este aviso, esta etapa já foi concluída para sua organização
 
 ![floorplans_hydrationstep.png](media/floorplans_hydrationstep.png)
 
 ### <a name="step-7-upload-floor-plans"></a>Etapa 7: carregar planos de piso
 
-1. No [centro de administração](https://admin.microsoft.com), vá para **configurações**  >  planos de piso de**pesquisa da Microsoft**  >  **Floor plans**e selecione **Adicionar**.
+1. No [centro de administração](https://admin.microsoft.com), vá para **configurações**  >  **Microsoft Search**  >  **Answers**  >  [**Plans Floor**](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/floorplans).
 2. Selecione um edifício na lista suspensa e selecione **Avançar**. Se o edifício não estiver listado, volte e [adicione locais de construção](#step-5-add-building-locations).
 3. Selecione **carregar arquivos**e, em seguida, escolha a planta baixa que você está carregando.
 4. Quando o upload estiver concluído, você deve inserir o número de chão que é representado no arquivo de planta baixa. Em seguida, selecione **Avançar**.
@@ -142,7 +142,7 @@ Para atualizar um plano de planta baixa existente, selecione o plano de piso que
 
 **A:** Criar um arquivo DWG no Microsoft Visio, Autodesk AutoCAD ou qualquer outro editor DWG. Certifique-se de que 10 ou mais salas estejam rotuladas no arquivo.
 
-**P:** * * qual é o melhor formato para rótulos de texto nos arquivos DWG?
+**P:** Qual é o melhor formato para rótulos de texto em arquivos DWG?
 
 **A:** Para obter os melhores resultados, os rótulos de texto devem conter números de piso e de sala. Os exemplos abaixo usam 2 ou SC para o código de construção.
 <!-- markdownlint-disable no-inline-html -->

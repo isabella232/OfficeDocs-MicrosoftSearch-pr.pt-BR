@@ -12,45 +12,44 @@ search.appverid:
 - MET150
 - MOE150
 description: Configurar o conector do Gen2 de armazenamento do Azure data Lake para o Microsoft Search
-ms.openlocfilehash: f8cb94e806e619d6dae7258b6c2d708d93afb9a8
-ms.sourcegitcommit: 7eda9b621def0659d7e7bc8b989f8adc929cce93
+ms.openlocfilehash: d6adabc6ea40b4385059f80375f49fb73e63e65b
+ms.sourcegitcommit: 9ba062f8b632a74e56ad7ec4dffaa1d8dab57614
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44861072"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "44996090"
 ---
 # <a name="azure-data-lake-storage-gen2-connector"></a>Conector Gen2 de armazenamento do Azure data Lake
 
-Com o conector [Gen2 de armazenamento do Azure data Lake](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-introduction) , os usuários em sua organização podem pesquisar arquivos e seu conteúdo. Esse conector acessa os dados armazenados em contêineres de blob do Azure e pastas habilitadas para hierarquia dentro de uma conta do Azure data Lake Storage Gen 2.
+Com o conector Gen2 de armazenamento do Azure data Lake, os usuários em sua organização podem pesquisar arquivos armazenados no [Azure Blob Storage](https://docs.microsoft.com/azure/storage/blobs/storage-blobs-introduction) e nas contas de [armazenamento do Azure data Lake Gen 2](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-introduction) .
 
-Este artigo é para os administradores do [Microsoft 365](https://www.microsoft.com/microsoft-365) ou qualquer pessoa que configure, execute e monitore um conector de Gen2 de armazenamento do Azure data Lake. Ele explica como configurar seus recursos de conector e conector, limitações e técnicas de solução de problemas.
+Este artigo é para os administradores do [Microsoft 365](https://www.microsoft.com/microsoft-365) ou qualquer pessoa que configure, execute e monitore um conector de Gen2 de armazenamento do Azure data Lake. Ele oferece uma visão geral da configuração do conector, recursos, limitações e técnicas de solução de problemas. No artigo, usamos o *armazenamento do Azure* como um termo genérico para o [armazenamento de blob do Azure](https://docs.microsoft.com/azure/storage/blobs/storage-blobs-introduction) e o [armazenamento do Azure data Lake Gen 2](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-introduction).
 
 ## <a name="connect-to-a-data-source"></a>Conectar-se a uma fonte de dados
-
 ### <a name="primary-storage-connection-string"></a>Cadeia de conexão de armazenamento principal 
-Na tela **autenticação e configuração** , forneça a cadeia de conexão de armazenamento principal. Essa cadeia de caracteres é necessária para permitir o acesso à sua conta de armazenamento. Para encontrar a cadeia de conexão, vá para o [portal do Azure](https://ms.portal.azure.com/#home) e navegue até a seção **chaves** da conta do [Gen2 de armazenamento do Azure data Lake](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-introduction) . Copie e cole a cadeia de conexão no campo apropriado na tela.
+Na tela **autenticação e configuração** , forneça a cadeia de conexão de armazenamento principal. Essa cadeia de caracteres é necessária para permitir o acesso à sua conta de armazenamento. Para encontrar a cadeia de conexão, vá para o [portal do Azure](https://ms.portal.azure.com/#home) e navegue até a seção **chaves** da conta de armazenamento do Azure relevante. Copie e cole a cadeia de conexão no campo apropriado na tela.
 
-Se não quiser fornecer o **AccountKey** (um parâmetro na cadeia de conexão de armazenamento principal), você terá que conceder acesso de leitura ao nosso serviço de conectores do Graph. Na guia **controle de acesso** de sua conta do Gen2 de armazenamento do Azure data Lake, siga as instruções nessa página para conceder acesso ao seguinte aplicativo:
+Se você não preferir fornecer **AccountKey** (um parâmetro na cadeia de conexão de armazenamento principal), será necessário conceder acesso de leitura ao nosso serviço de conectores do Graph. Navegue até a guia **controle de acesso** de sua conta de armazenamento do Azure e siga as instruções para conceder acesso ao seguinte aplicativo:
 * **ID do aplicativo de terceiros:** 56c1da01-2129-48f7-9355-af6d59d42766
 * **Nome do aplicativo de parte inicial:** Serviço do conector do Graph
 
 ### <a name="storage-account-and-queue-notifications-optional"></a>Notificações de conta e fila de armazenamento (opcional)
-O suporte para processar alterações em tempo real no serviço de conectores do Graph pode ser adicionado no futuro. Nesse caso, monitoraremos as notificações de alteração [do Gen2 de armazenamento do Azure data Lake](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-introduction) armazenadas em uma fila. Você precisará criar uma fila na mesma conta que seu Gen2 de armazenamento do Azure data Lake ou em outra conta de armazenamento.
+O suporte para processar alterações em tempo real no serviço de conectores do Graph pode ser adicionado no futuro. Nesse caso, monitoraremos as notificações de alteração de armazenamento do Azure armazenadas em uma fila. Você precisará criar uma fila na mesma conta que sua conta de armazenamento do Azure.
 
-Depois de criar uma fila, vá para a guia **eventos** na página fila para configurar a **assinatura do evento**. Escolha todos os eventos BLOB que a fila receberá e conecte a fila à conta do Gen2 de armazenamento do Azure data Lake.
+Depois de criar uma fila, vá para a guia **eventos** na página fila para configurar a **assinatura do evento**. Escolha todos os eventos BLOB que a fila receberá e conecte a fila à conta de armazenamento do Azure.
 
 ## <a name="manage-the-search-schema"></a>Gerenciar o esquema de pesquisa
-Na tela **gerenciar esquema** , você tem a opção de alterar os atributos de esquema (**consultável**, **pesquisável**e **recuperável**) associados às propriedades gerenciadas. Esses atributos de propriedade gerenciada são dados indexados de sua conta [do Gen2 de armazenamento do Azure data Lake](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-introduction) .
+Na tela **gerenciar esquema** , você tem a opção de alterar os atributos de esquema (**consultável**, **pesquisável**e **recuperável**) associados às propriedades gerenciadas. Esses atributos de propriedade gerenciada são dados indexados de sua conta de armazenamento de dados do Azure.
 
 ## <a name="manage-search-permissions"></a>Gerenciar permissões de pesquisa
-Na tela **gerenciar permissões de pesquisa** , você pode optar por absorver as listas de controle de acesso (ACLs) da conta de armazenamento. Quando essas permissões de pesquisa são definidas, o conteúdo da pesquisa é cortado com base nas permissões atribuídas ao usuário conectado do [Azure Active Directory](https://docs.microsoft.com/azure/active-directory/) que está pesquisando o conteúdo. Como alternativa, você pode escolher tornar todo o conteúdo indexado da conta de armazenamento visível para todos em sua organização. Nesse caso, todos em sua organização terão acesso a todos os dados em sua conta de armazenamento.
- 
+### <a name="azure-data-lake-gen-2"></a>Azure data Lake Gen 2
+Na tela **gerenciar permissões de pesquisa** , você pode optar por absorver as listas de controle de acesso (ACLs) da conta de [armazenamento do Azure data Lake Gen 2](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-introduction) . Quando essas permissões de pesquisa são definidas, o conteúdo da pesquisa é cortado com base nas permissões atribuídas ao usuário conectado do [Azure Active Directory](https://docs.microsoft.com/azure/active-directory/) que está pesquisando o conteúdo. Como alternativa, você pode escolher tornar todo o conteúdo indexado da conta de armazenamento visível para todos em sua organização. Nesse caso, todos em sua organização terão acesso a todos os dados em sua conta de armazenamento.
+
+### <a name="azure-blob-storage"></a>Armazenamento de Blob do Azure
+Para uma conexão com o [armazenamento de blob do Azure](https://docs.microsoft.com/azure/storage/blobs/storage-blobs-introduction), todo o conteúdo indexado da fonte configurada é visível para todos em sua organização. Não há suporte para listas de controle de acesso em nível de blob no armazenamento de blob do Azure.
+
 ## <a name="set-the-refresh-schedule"></a>Definir o agendamento de atualização
-Na tela **configurações de atualização** , você pode definir o intervalo de rastreamento incremental e o intervalo de rastreamento completo. Os intervalos padrão para o conector do [Gen2 de armazenamento do Azure data Lake](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-introduction) são 15 minutos para um rastreamento incremental e uma semana para um rastreamento completo.
- 
+Na tela **configurações de atualização** , você pode definir o intervalo de rastreamento incremental e o intervalo de rastreamento completo. Os intervalos padrão para o conector do Gen2 de armazenamento do Azure data Lake são 15 minutos para um rastreamento incremental e uma semana para um rastreamento completo.
+
 ## <a name="limitations"></a>Limitações
-Atualmente, o acesso multiprotocolo [do Gen2 de armazenamento do data Lake do Azure](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-introduction) está disponível somente no centro dos Estados Unidos, oeste dos EUA, Canadá, leste dos EUA, leste da Ásia, nordeste da Europa, leste da Ásia, sudoeste da Europa, oeste da Austrália, oeste leste, leste asiático, West US2 e Brasil Sul.
-
-Para obter atualizações e mais informações, consulte [acesso multiprotocolo no Azure data Lake Storage (versão prévia)](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-multi-protocol-access).
-
-
+Uma conexão publicada para o armazenamento de blob do Azure não pode ser reconfigurada para a fonte Gen2 de armazenamento do Azure data Lake e vice-versa. Nesses cenários, é recomendável configurar uma nova conexão.

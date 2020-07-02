@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: 8ab9aa00-cd74-405f-8410-9a1c3cfacdb9
 description: Com o tempo, você pode precisar atualizar o status e o conteúdo de um local para mantê-lo relevante.
-ms.openlocfilehash: bb229086f7dd8c1b8d17a0b8335bb618850106be
-ms.sourcegitcommit: 063fec4a336b6b3118d4769a4bd0cc2d568ea7e2
+ms.openlocfilehash: a5d3209e2b6e9269ff2e5986cf81de705ae1cc4d
+ms.sourcegitcommit: 9ba062f8b632a74e56ad7ec4dffaa1d8dab57614
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/25/2020
-ms.locfileid: "42276984"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "44996063"
 ---
 # <a name="manage-locations"></a>Gerenciar locais
 
@@ -29,8 +29,7 @@ Os Locais ajudam os usuários a encontrarem endereços e localizarem os edifíci
 ### <a name="add-or-edit-a-single-location"></a>Adicionar ou editar um único local
 
 1. Vá para o **centro de administração do Microsoft 365**.
-1. No painel de navegação, vá para **Configurações** e selecione **Pesquisa da Microsoft**.
-1. Selecione a guia **Locais**. Por padrão, a guia **Indicadores** se encontra selecionada na página de **Pesquisa da Microsoft**.
+1. No painel de navegação, vá para **configurações**  >  **Microsoft Search**  >  **Answers**  >  [**locais**](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/locations) de respostas da pesquisa da Microsoft
 1. Para adicionar um novo local, selecione **Adicionar novo**.
 1. Para editar um local, selecione o local na lista de locais relevantes.
 1. À medida que você adiciona ou edita as informações, a visualização é atualizada automaticamente.
@@ -65,6 +64,7 @@ Aqui estão alguns pontos importantes sobre o arquivo de modelo:
 - Com base no campo *estado* , os locais serão salvos como rascunho, sugerido, agendado ou serão publicados automaticamente.
 - Para parceiros que gerenciam várias organizações, você pode exportar seus locais de uma organização e importá-los para outro. Mas você deve remover os dados na coluna *Id* antes de importar.
 
-**Observação:** Você não pode importar Locais se houver algum erro no arquivo de modelo. Para evitar erros, verifique se o arquivo de importação está formatado corretamente e inclua todas as informações necessárias.
+> [!NOTE]
+> Você não pode importar locais se houver algum erro no arquivo de modelo. Para evitar erros, verifique se o arquivo de importação está formatado corretamente e inclua todas as informações necessárias.
 
 Para obter mais informações sobre como evitar erros, consulte [Evite erros de importação](manage-bookmarks.md#prevent-import-errors).

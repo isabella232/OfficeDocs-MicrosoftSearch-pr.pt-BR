@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: 7e3432e6-5317-4d63-90b0-52da6fddd343
 description: Encontre e atualize as respostas individualmente ou use as ferramentas de pesquisa da Microsoft disponíveis para editar Q&todas ao mesmo tempo.
-ms.openlocfilehash: 2ec06fb0940172621255946283290450c1f2e036
-ms.sourcegitcommit: 7ad6f4b0ab6cd7b912862273a8b4d48a6507bc29
+ms.openlocfilehash: 78a6ee0ff14f3347b0b2e2a65cc1ee0f68500981
+ms.sourcegitcommit: 9ba062f8b632a74e56ad7ec4dffaa1d8dab57614
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "44878229"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "44996081"
 ---
 # <a name="manage-qas"></a>Gerenciar P e R
 
@@ -27,8 +27,7 @@ A criação de P e R é semelhante à criação de indicadores. P&como permitir 
 ## <a name="add-or-edit-a-single-qa"></a>Adicione ou edite um único P e R
 
 1. Vá para o **centro de administração do Microsoft 365**.
-1. No painel de navegação, vá para **Configurações** e selecione **Pesquisa da Microsoft**.
-1. Selecione a guia **Q&uma** .
+1. No painel de navegação, acesse **configurações**  >  respostas da**pesquisa da Microsoft**  >  **Answers**  >  [**Q&A**](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/qnas)
 1. Para adicionar P e R, selecione **Adicionar novo**.
 Para editar P e R, selecione o P e R na lista P e R relevante. À medida que você adiciona ou edita as informações, a visualização é atualizada automaticamente.
 1. Salve suas alterações.
