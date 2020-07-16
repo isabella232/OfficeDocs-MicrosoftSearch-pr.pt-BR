@@ -12,22 +12,22 @@ search.appverid:
 - MET150
 - MOE150
 description: Criar e atualizar respostas de acrônimos no Microsoft Search
-ms.openlocfilehash: 9d58306751f735cef77eba4404597c73c0528c11
-ms.sourcegitcommit: 9ba062f8b632a74e56ad7ec4dffaa1d8dab57614
+ms.openlocfilehash: bbdd27b00be323db8d80994fe9ff6ab7fac17416
+ms.sourcegitcommit: b5142052ed17cd430b4c193b67d8f3d90d94ba6e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "44996072"
+ms.lasthandoff: 07/15/2020
+ms.locfileid: "45143861"
 ---
 # <a name="manage-acronyms-answers-in-microsoft-search"></a>Gerenciar as respostas de acrônimos no Microsoft Search
 
-Geralmente, os usuários podem ter acrônimos e abreviaturas desconhecidos usados por sua organização ou equipe. Os termos específicos para organizações ou equipes podem ser novos para pessoas que se movem de uma equipe para outra, aqueles que trabalham com equipes de parceiros internas ou que são novos na organização.
+Geralmente, os usuários podem ter acrônimos e abreviaturas desconhecidos usados por sua organização ou equipe. Os termos específicos para organizações ou equipes podem ser novos para pessoas que se movem de uma equipe para outra, trabalham com equipes de parceiros internas ou que são novos na organização.
 
 As organizações nem sempre têm uma única referência para sua terminologia padrão. A falta de uma única referência dificulta a localização de definições ou expansões desses acrônimos. O Microsoft Search resolve esse problema com acrônimos.
 
 ## <a name="what-users-experience"></a>O que os usuários experimentam
 
-Os usuários de pesquisa da Microsoft podem obter definições com acrônimos no [Bing](https://Bing.com). Na caixa de **pesquisa** , os usuários inserem consultas como estes exemplos:
+Os usuários de pesquisa da Microsoft podem obter definições com acrônimos no [Bing](https://Bing.com) e no [SharePoint](https://products.office.com/sharepoint/collaboration). Na caixa de **pesquisa** , os usuários inserem consultas como estes exemplos:
 
 - *O que é* DNN
 - *Definir* DNN
@@ -74,7 +74,7 @@ Os administradores podem adicionar acrônimos individualmente ou importá-los em
 
 **Expansão**. Contém a expansão do acrônimo. Um exemplo é uma *rede neural profunda*.
 
-**Descrição**. Uma breve descrição do acrônimo que oferece aos usuários uma percepção rápida sobre o que o acrônimo e sua média de expansão. Por exemplo, *uma rede neural profunda é uma rede neural com um determinado nível de complexidade, uma rede neural com mais de duas camadas*.
+**Descrição**. Uma breve descrição do acrônimo que oferece aos usuários mais informações sobre o acrônimo e sua expansão. Por exemplo, *uma rede neural profunda é uma rede neural com um determinado nível de complexidade, uma rede neural com mais de duas camadas*.
 
 **Fonte**. A URL da página ou site onde você deseja que os usuários vá para obter mais informações sobre o acrônimo.
 
@@ -88,7 +88,7 @@ Os administradores podem adicionar acrônimos individualmente ou importá-los em
 Pode ser um desafio para os administradores adicionarem todos os acrônimos usados dentro de uma organização para responder. Esse recurso pode encontrar acrônimos que os administradores de pesquisa nem são compatíveis. Para fazer isso, a pesquisa da Microsoft também extrai acrônimos dessas fontes:
 
 - Emails dos usuários.
-- Documentos no [SharePoint](https://products.office.com/sharepoint/collaboration), [Microsoft onedrive]( https://onedrive.live.com/about/) e [Microsoft OneNote](http://www.onenote.com/).
+- Documentos no [SharePoint](https://products.office.com/sharepoint/collaboration), [Microsoft onedrive]( https://onedrive.live.com/about/)e [Microsoft OneNote](https://www.onenote.com/).
 - Documentos públicos dentro da organização aos quais os usuários têm acesso no SharePoint, no OneDrive ou no OneNote.
 
 A pesquisa da Microsoft garante que apenas usuários com acesso e permissões a um documento possam ver os acrônimos que são minados. Quando um acrônimo é minado da caixa de correio de um usuário, apenas esse usuário pode ver esse acrônimo.
@@ -108,7 +108,7 @@ A pesquisa da Microsoft garante que apenas usuários com acesso e permissões a 
 
 **P: como os usuários acionam as respostas de acrônimos?**
 
-**A**: para obter respostas de acrônimos, os usuários devem inserir padrões de consulta específicos em uma caixa de **pesquisa** do [Bing](https://bing.com) . No momento, as respostas de acrônimo não estão disponíveis no [Office 365](https://Office.com) ou [SharePoint](https://products.office.com/sharepoint/collaboration).
+**A**: para obter respostas de acrônimos, os usuários devem inserir padrões de consulta específicos em uma caixa de **pesquisa** [Bing](https://bing.com) ou [SharePoint](https://products.office.com/sharepoint/collaboration) . No momento, as respostas de acrônimo não estão disponíveis no [Office 365](https://Office.com).
 
 **P: quanto tempo leva para que acrônimos minados apareçam após você receber ou enviar um novo email ou documento?**
 
@@ -127,6 +127,6 @@ A pesquisa da Microsoft garante que apenas usuários com acesso e permissões a 
 **A**: para desativar a exibição de acrônimos minados nos resultados da pesquisa, crie um tíquete de suporte ao cliente seguindo as instruções em [contato com o suporte para produtos de negócios](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?redirectSourcePath=%252f%252farticle%252fContact-Office-365-for-business-support-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b&view=o365-worldwide&tabs=online#BKMK_call_support).
 Depois de criar um tíquete de suporte, serão necessários até 48 horas para que os acrônimos minados parem de aparecer nos resultados da pesquisa.
 
-**P: Quando verá as respostas de acrônimos no [Office 365](https://Office.com) e no [SharePoint Online](https://products.office.com/sharepoint/collaboration)?**
+**P: Quando verá as respostas de acrônimos no [Office 365](https://Office.com)?**
 
-**A**: as respostas de acrônimos no Office 365 e no SharePoint Online fazem parte do nosso roteiro de produtos, mas não é possível fornecer uma data ou um prazo.
+**A**: as respostas dos acrônimos no Office 365 fazem parte do nosso roteiro de produtos, mas não é possível fornecer uma data ou um prazo.
