@@ -77,7 +77,7 @@ Lembre-se de que as verticais são criadas em um estado desabilitado. Eles devem
 
 Você pode definir como os resultados são exibidos na vertical criando o layout usando tipos de resultados. O layout do resultado permite que você mostre informações importantes diretamente nos resultados da pesquisa, para que os usuários não precisem selecionar cada resultado para ver se encontraram o que estão procurando.
 
-A search result type is a rule that causes distinct kinds of search results to be displayed in different ways. It consists of the following:
+O tipo do resultado de pesquisa é uma função que faz com que diferentes tipos de resultados de pesquisa sejam exibidos de diferentes maneiras. Ele consiste no seguinte:
 
 - **Uma ou mais condições** para comparar cada resultado de pesquisa, como a fonte de conteúdo do resultado da pesquisa.  
 - Um **layout de resultado** a ser usado para resultados de pesquisa que atendam às condições. O layout de resultado controla o modo como todos os resultados que atendem às condições aparecem e se comportam em uma página de resultados de pesquisa.
