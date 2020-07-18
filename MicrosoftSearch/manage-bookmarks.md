@@ -13,16 +13,16 @@ search.appverid:
 - MOE150
 ms.assetid: c0c814d0-f7e4-444e-b18e-09beb45c9322
 description: Criar e atualizar marcadores e maneiras de editar em massa resultados de indicadores para o Microsoft Search
-ms.openlocfilehash: 64e430309ef1969ab804e8d757b987332f0a6006
-ms.sourcegitcommit: 9ba062f8b632a74e56ad7ec4dffaa1d8dab57614
+ms.openlocfilehash: 926fae2a4bd6bb6a436a3b5ea46f21077a23dcab
+ms.sourcegitcommit: 996b2c0538e28b71441461a371a62339cb6d476f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "44996099"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45167453"
 ---
 # <a name="manage-bookmarks"></a>Gerenciar indicadores
 
-Você pode criar um indicador em apenas algumas etapas. Cada indicador inclui um título, uma URL e um conjunto de palavras-chave que o acionam. Um indicador pode ter várias palavras-chave e vários indicadores podem compartilhar a mesma palavra-chave, mas a palavra-chave reservada não pode ser compartilhada. Quando um indicador é criado ou modificado, o índice de pesquisa é atualizado imediatamente e o indicador fica disponível para os usuários imediatamente.
+Você pode criar um indicador em apenas algumas etapas. Cada indicador inclui um título, uma URL e um conjunto de palavras-chave que o acionam. Você também pode adicionar categorias a um indicador que pode ser usado para classificação e filtragem no portal de administração. Um indicador pode ter várias palavras-chave e vários indicadores podem compartilhar a mesma palavra-chave, mas a palavra-chave reservada não pode ser compartilhada. Quando um indicador é criado ou modificado, o índice de pesquisa é atualizado imediatamente e o indicador fica disponível para os usuários imediatamente.
 
 Se sua organização promoveu os resultados configurados no SharePoint, você pode importar os resultados promovidos para a **pesquisa da Microsoft** e disponibilizar o conteúdo importado para seus usuários. Essa é uma maneira fácil de preencher rapidamente os resultados da pesquisa assim que você configurar a **Pesquisa da Microsoft** e torná-la mais eficiente para os usuários. Recomendamos que você use os resultados promovidos do SharePoint como referência para entender como nomear e criar resultados de pesquisa relevantes.
 
