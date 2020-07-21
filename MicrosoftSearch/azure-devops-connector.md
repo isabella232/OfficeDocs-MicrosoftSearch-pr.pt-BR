@@ -14,7 +14,7 @@ search.appverid:
 description: Configurar o conector do Azure DevOps para o Microsoft Search
 ms.openlocfilehash: e2698d7d4a50c15bf765aa4eeada20fbc7328772
 ms.sourcegitcommit: 7eda9b621def0659d7e7bc8b989f8adc929cce93
-ms.translationtype: MT
+ms.translationtype: Auto
 ms.contentlocale: pt-BR
 ms.lasthandoff: 06/24/2020
 ms.locfileid: "44861099"
