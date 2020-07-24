@@ -12,24 +12,23 @@ search.appverid:
 - MET150
 - MOE150
 description: Configurar seu conector criado pela Microsoft para a pesquisa da Microsoft
-ms.openlocfilehash: e5b40326bdd83f461e7ce9a45889ad82245e20aa
-ms.sourcegitcommit: 68cd28a84df120473270f27e4eb62de9eae455f9
+ms.openlocfilehash: 30c60e94e8e633bce90bbc1984eee35d3ceda771
+ms.sourcegitcommit: f2323c43fc732890213223efac32006df5b92c28
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "44850885"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "45387963"
 ---
 <!-- markdownlint-disable no-trailing-punctuation -->
 
 # <a name="set-up-your-microsoft-built-connector-for-microsoft-search"></a>Configurar seu conector criado pela Microsoft para a pesquisa da Microsoft
 
-Este artigo orienta você pelas etapas de configuração de um conector criado pela Microsoft. Descreve o fluxo de configurar uma conexão no [centro de administração](https://admin.microsoft.com)do Microsoft 365. Para obter mais detalhes sobre como configurar conectores criados específicos da Microsoft, consulte estes artigos:
+Este artigo orienta você pelas etapas de configuração de um conector criado pela Microsoft. Descreve o fluxo de configurar uma conexão no [centro de administração](https://admin.microsoft.com)do Microsoft 365. Para obter mais informações sobre como configurar conectores criados específicos da Microsoft, consulte estes artigos:
 
 * [Azure Data Lake Storage Gen2](azure-data-lake-connector.md)
 * [Azure DevOps](azure-devops-connector.md)
 * [Azure SQL](MSSQL-connector.md)
 * [Sites empresariais](enterprise-web-connector.md)
-* [Compartilhamento de arquivos](file-share-connector.md)
 * [MediaWiki](mediawiki-connector.md)
 * [Microsoft SQL server](MSSQL-connector.md)
 * [ServiceNow](servicenow-connector.md)
@@ -43,7 +42,7 @@ Conclua as seguintes etapas para configurar qualquer um dos conectores criados p
 3. Selecione **Adicionar um conector**.
 4. Na lista de conectores disponíveis, selecione o conector de sua escolha.
 
-![As fontes de dados disponíveis incluem: ADLS Gen2 Connector, Enterprise sites, ServiceNow, compartilhamento de arquivos, Microsoft SQL Server e MediaWiki.](media/addconnector_final.png)
+![As fontes de dados disponíveis incluem: Azure DevOps Connector, ServiceNow, ADLS Gen2, sites corporativos, MediaWiki, Microsoft SQL Server e Azure SQL.](media/add_connector.png)
 
 ### <a name="name-the-connector"></a>Nomear o conector
 
@@ -75,7 +74,7 @@ PESQUISÁVEIS | Torna o conteúdo de texto de uma propriedade pesquisável. O co
 Question | Pesquisa por consulta para uma correspondência de uma determinada propriedade. O nome da propriedade pode ser especificado na consulta de forma programática ou textual. |  Se a propriedade **title** for consultável, o título da consulta **: Enterprise** será suportado.
 RECUPERÁVEIS | Somente as propriedades recuperáveis podem ser usadas no tipo de resultado e no resultado da pesquisa. |
 
-Para todos os conectores, exceto o conector de compartilhamento de arquivos, os tipos personalizados devem ser definidos manualmente. Para ativar os recursos de pesquisa para cada campo, você precisa de um esquema de pesquisa mapeado para uma lista de propriedades. O assistente de conexão seleciona automaticamente um esquema de pesquisa com base no conjunto de propriedades de origem que você escolher. Você pode modificar esse esquema marcando as caixas de seleção de cada propriedade e atributo na página de esquema de pesquisa.
+Para todos os conectores, tipos personalizados devem ser definidos manualmente. Para ativar os recursos de pesquisa para cada campo, você precisa de um esquema de pesquisa mapeado para uma lista de propriedades. O assistente de conexão seleciona automaticamente um esquema de pesquisa com base no conjunto de propriedades de origem que você escolher. Você pode modificar esse esquema marcando as caixas de seleção de cada propriedade e atributo na página de esquema de pesquisa.
 
 ![O esquema de um conector pode ser personalizado adicionando ou removendo funções de consulta, pesquisa e recuperação.](media/manageschema.png)
 
@@ -90,7 +89,7 @@ Essas restrições e recomendações se aplicam às configurações de esquema d
 
 ### <a name="manage-search-permissions"></a>Gerenciar permissões de pesquisa
 
-As listas de controle de acesso (ACLs) determinam quais usuários em sua organização podem acessar cada item de dados. O conector de compartilhamento de arquivos suporta apenas as ACLs que podem ser mapeadas para o [Azure Active Directory (Azure AD)](https://docs.microsoft.com/azure/active-directory/). Todos os outros conectores dão suporte a permissões de pesquisa que são visíveis para todos os usuários.
+As listas de controle de acesso (ACLs) determinam quais usuários em sua organização podem acessar cada item de dados. Todos os conectores dão suporte a permissões de pesquisa que são visíveis para todos os usuários.
 
 ### <a name="set-the-refresh-schedule"></a>Definir o agendamento de atualização
 
@@ -98,11 +97,11 @@ O agendamento de atualização determina com que frequência seus dados serão s
 
 Com um **rastreamento completo**, o mecanismo de pesquisa processa e indexa todos os itens na fonte de conteúdo, independentemente dos rastreamentos anteriores. O rastreamento completo funciona melhor nessas situações:
 
-* É necessário detectar exclusões de dados.
+* Detectar exclusões de dados.
 * O rastreamento incremental não pôde rastrear o conteúdo para erros.
-* É necessária uma atualização de software para o Microsoft Search. As atualizações modificam o esquema de pesquisa.
 * ACLs foram modificadas.
 * As regras de rastreamento foram modificadas.
+* É necessária uma atualização de software para o Microsoft Search. As atualizações modificam o esquema de pesquisa.
 
 Com um **rastreamento incremental**, o mecanismo de pesquisa pode processar e indexar somente os itens que foram criados ou modificados desde o último rastreamento bem-sucedido. Portanto, nem todos os dados na fonte de conteúdo são re-indexados. Os rastreamentos incrementais funcionam melhor para detectar conteúdo, metadados, permissões e outras atualizações.
 
@@ -120,10 +119,10 @@ Depois de configurar seu conector, o [centro de administração](https://admin.m
 
 Com a interface de usuário do Microsoft Search (UI), os usuários finais podem pesquisar conteúdo de seus aplicativos de produtividade do [microsoft 365](https://www.microsoft.com/microsoft-365) e do ecossistema mais amplo da Microsoft. Uma vertical de pesquisa refere-se às guias mostradas quando um usuário exibe seus resultados de pesquisa no [SharePoint](https://sharepoint.com/), no [Microsoft Office](https://Office.com)e no Microsoft Search no [Bing](https://Bing.com). Você pode personalizar os verticais de pesquisa para restringir os resultados, de modo que apenas um determinado tipo de resultados de pesquisa seja exibido. Essas verticais aparecem como uma guia na parte superior da página de resultados da pesquisa. Um tipo de resultado moderno (MRT) é a interface do usuário que designa como os resultados são apresentados.
 
-Você deve criar seus próprios tipos de resultados e verticais, de modo que os usuários finais possam exibir os resultados de pesquisa de novas conexões. Sem esta etapa, os dados da sua conexão não aparecerão na página de resultados da pesquisa.
+Crie seus próprios tipos de resultados e verticais para que os usuários finais possam exibir os resultados de pesquisa de novas conexões. Sem esta etapa, os dados da sua conexão não aparecerão na página de resultados da pesquisa.
 
 Para saber mais sobre como criar seus verticais e MRTs, confira [personalização da página de resultados da pesquisa](customize-search-page.md).
 
-## <a name="how-do-i-know-this-worked"></a>Como saber se funcionou?
+## <a name="how-do-i-know-the-connection-setup-worked"></a>Como saber se a configuração de conexão funcionou?
 
 Vá para a lista de suas conexões publicadas na guia **conectores** do [centro de administração](https://admin.microsoft.com). Para saber como fazer atualizações e exclusões, confira [gerenciar o conector](manage-connector.md).

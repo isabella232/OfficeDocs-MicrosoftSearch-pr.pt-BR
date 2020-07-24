@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Gerenciar conectores do Microsoft Graph para o Microsoft Search.
-ms.openlocfilehash: 3e652b9afad78f784ff4c726ecab34bef883d4c3
-ms.sourcegitcommit: a8a6c949f249d106f37103e127d2ea7df730f7a3
+ms.openlocfilehash: dfbc58d7e51fca0491dc7e4452ba4312ff3dfd69
+ms.sourcegitcommit: f2323c43fc732890213223efac32006df5b92c28
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2020
-ms.locfileid: "44702763"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "45387999"
 ---
 # <a name="manage-your-connector-for-microsoft-search"></a>Gerenciar seu conector para a pesquisa da Microsoft
 
@@ -76,7 +76,6 @@ Código de erro | Mensagem de erro | Solução
 2001 | A indexação é limitada por causa de um grande número de atualizações na fila. Dependendo da fila, pode levar algum tempo para que as atualizações sejam concluídas. | Aguarde até que a fila seja limpa.
 2002 | Falha na indexação devido à formatação de item sem suporte. | Consulte a documentação específica do conector para obter mais informações.
 2003 | Falha na indexação devido a conteúdo do item não suportado. | Consulte a documentação específica do conector para obter mais informações.
-2004 | O [tamanho do arquivo](https://docs.microsoft.com/microsoftsearch/file-share-connector#content-requirements) é muito grande para ser indexado. Ele deve ter 100 MB ou menos antes do processamento e não mais de 4 MB após o processamento. O arquivo é indexado parcialmente neste caso. Algumas frases presentes no arquivo podem não retornar um resultado de pesquisa. | Consulte [documentação específica do compartilhamento de arquivos](https://docs.microsoft.com/MicrosoftSearch/file-share-connector#content-requirements) para obter mais informações.
 5000 | Algo deu errado. Se isso persistir, entre em contato com o suporte. |
 
 ## <a name="preview-limitations"></a>Limitações de visualização
