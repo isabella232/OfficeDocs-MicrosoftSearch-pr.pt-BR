@@ -13,21 +13,21 @@ search.appverid:
 - MET150
 - MOE150
 description: Lista todos os conectores do Microsoft Graph para o Microsoft Search
-ms.openlocfilehash: 47782a9a429bf3ad75cffaadf6f67402638fd3a6
-ms.sourcegitcommit: 68cd28a84df120473270f27e4eb62de9eae455f9
+ms.openlocfilehash: 82718cdadc57bf9133b61183cdbd912e269fdc70
+ms.sourcegitcommit: f2323c43fc732890213223efac32006df5b92c28
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "44850917"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "45388008"
 ---
 # <a name="microsoft-graph-connectors-gallery"></a>Galeria de conectores do Microsoft Graph
 
 
 #### <a name="in-this-article"></a>Neste artigo
-* <a href="#Microsoft">Conectores da Microsoft</a>
-* <a href="#Partners">Conectores por nossos parceiros</a>
+* <a href="#Microsoft">Conectores criados pela Microsoft</a>
+* <a href="#Partners">Conectores criados por nossos parceiros</a>
 
-<h2 id="Microsoft">Conectores da Microsoft</h2>
+<h2 id="Microsoft">Conectores criados pela Microsoft</h2>
 <ul class="panelContent cardsZ">
     <li>
         <div class="cardSize">
@@ -120,27 +120,6 @@ ms.locfileid: "44850917"
             <div class="cardPadding">
                 <div class="card" style="overflow: hidden; height: 235px;">
                     <div class="cardText">
-                        <h3>Compartilhamento de arquivos</h3>
-                        <p>pela <a href="https://www.microsoft.com">Microsoft</a></p>
-                        <p>Com esse conector do Microsoft Graph, os usuários em sua organização podem pesquisar arquivos armazenados em compartilhamentos de arquivos do Windows no local.</p>
-                        <div style="margin-top:20px;bottom:15px;position:absolute;display:block">
-                            <div style="font-weight:500;width:150px;display:inline">
-                                <a href="file-share-connector.md" target="_blank" data-linktype="relative-path" style="font-weight:500;width:150px;display:inline">
-                                    <font color="0065BA">Mais detalhes</font>
-                                </a>
-                             <img src="media/FileConnectorLogo_Small.png" alt="File share" width="35" height="35" align="right" style="display:inline; margin-left:210px" data-linktype="relative-path"  />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-    <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card" style="overflow: hidden; height: 235px;">
-                    <div class="cardText">
                         <h3>MediaWiki</h3>
                         <p>pela <a href="https://www.microsoft.com">Microsoft</a></p>
                         <p>Com esse conector do Microsoft Graph, os usuários podem pesquisar artigos baseados em conhecimento em sites wiki criados por sua organização com o MediaWiki.</p>
@@ -157,8 +136,6 @@ ms.locfileid: "44850917"
             </div>
         </div>
     </li>
-</ul>
-<ul class="panelContent cardsZ">
     <li>
         <div class="cardSize">
             <div class="cardPadding">
@@ -180,6 +157,8 @@ ms.locfileid: "44850917"
             </div>
         </div>
     </li>
+</ul>
+<ul class="panelContent cardsZ">
     <li>
         <div class="cardSize">
             <div class="cardPadding">
@@ -205,7 +184,7 @@ ms.locfileid: "44850917"
 
 ---
 
-<h2 id="Partners">Conectores por nossos parceiros</h2>
+<h2 id="Partners">Conectores criados por nossos parceiros</h2>
 <!--- 1 ROW --->
 <h3 id="A"></h3>
 <ul class="panelContent cardsZ">
@@ -476,7 +455,7 @@ ms.locfileid: "44850917"
                     <div class="cardText">
                         <h3>Azure data Lake</h3>
                         <p>por <a href="https://www.accenture.com">Accenture</a></p>
-                        <p>O Azure data Lake Connector rastreará o conteúdo da nuvem do Azure data Lake Store em caminhos raiz ou especificados. Cada arquivo é enviado com seus metadados (tamanho, local, acessado pela última vez, etc.). As atualizações são descobertas automaticamente.</p>
+                        <p>O Azure data Lake Connector rastreará o conteúdo da nuvem do ADLS em caminhos raiz ou específicos. Cada arquivo é enviado com seus metadados (tamanho, local, acessado pela última vez, etc.). As atualizações são descobertas automaticamente.</p>
                         <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
                             <a href="https://contentanalytics.digital.accenture.com/display/aspire40/Azure+Data+Lake+Connector"><font color="0065BA">Mais detalhes</font></a>
                         </p>
@@ -1476,7 +1455,7 @@ ms.locfileid: "44850917"
             <div class="cardPadding">
                 <div class="card" style="min-height:240px;">
                     <div class="cardText">
-                        <h3>Netdocuments</h3>
+                        <h3>NetDocuments</h3>
                         <p>pela <a href="https://www.bainsight.com">BA visão</a></p>
                         <p>O conector de netdocuments indexa o conteúdo armazenado no NetDocs para que os usuários possam Pesquisar e recuperar o conteúdo de um netdocuments diretamente de dentro do Portal. O conector aplica a segurança do documento no NetDocs ao Microsoft Search automaticamente, de modo que as informações do usuário permaneçam seguras. Os metadados armazenados em um netdocuments podem ser mapeados para termos equivalentes para que os usuários tenham uma experiência de pesquisa sem interrupções.</p>
                         <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
@@ -1511,7 +1490,7 @@ ms.locfileid: "44850917"
             <div class="cardPadding">
                 <div class="card" style="min-height:240px;">
                     <div class="cardText">
-                        <h3>Objetiva</h3>
+                        <h3>Objetivo</h3>
                         <p>pela <a href="https://www.bainsight.com">BA visão</a></p>
                         <p>O conector objetivo foi desenvolvido especificamente para o objetivo, estabelecendo uma conexão segura com o objetivo e mapeando o conteúdo, incluindo metadados do esquema objetivo para o esquema do mecanismo de pesquisa. Em seguida, ele extrai o conteúdo e o alimenta para o mecanismo de pesquisa em um processo chamado rastreamento.</p>
                         <p style="margin-top:20px;margin-bottom:20px;font-weight:500">
