@@ -27,8 +27,10 @@
 ## [Termos de uso](terms-of-use.md)
 # Personalizar e configurar
 ## [Gerenciar verticais e tipos de resultados](customize-search-page.md)
-## [Layouts de resultados de pesquisa](customize-results-layout.md)
-## [Pesquisa da Microsoft no SharePoint](get-started-search-in-sharepoint-online.md)
+## [Gerenciar layouts de resultados de pesquisa](customize-results-layout.md)
+## Pesquisa da Microsoft no SharePoint
+### [Visão Geral](get-started-search-in-sharepoint-online.md)
+### [Criar uma página de resultados de pesquisa personalizada](create-search-results-pages.md)
 ## Microsoft Search no Bing
 ### [Segurança e Privacidade](security-for-search.md)
 ### [Adicionar uma caixa de pesquisa ao seu site de intranet](add-a-search-box-to-your-intranet-site.md)
