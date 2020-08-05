@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Gerenciar conectores do Microsoft Graph para o Microsoft Search.
-ms.openlocfilehash: dfbc58d7e51fca0491dc7e4452ba4312ff3dfd69
-ms.sourcegitcommit: f2323c43fc732890213223efac32006df5b92c28
+ms.openlocfilehash: adf98bccab703e2ae5ecd99b059e1426a50609c5
+ms.sourcegitcommit: 89484fec9af755240d5d1bc399501d51ee40571d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "45387999"
+ms.lasthandoff: 08/05/2020
+ms.locfileid: "46563881"
 ---
 # <a name="manage-your-connector-for-microsoft-search"></a>Gerenciar seu conector para a pesquisa da Microsoft
 
@@ -58,7 +58,7 @@ Para cada **conector ativo** na guia **conectores** , qualquer erro de rastreame
 
 Para exibir os detalhes específicos de um erro, selecione seu código de erro. Uma tela aparece com detalhes do erro e um link. Os erros mais recentes aparecem na parte superior. Confira o exemplo na tabela a seguir.
 
-![Lista de conectores com um conector selecionado e o painel de detalhes, mostrando a lista de erros do conector. ](media/errormonitoring2.png)
+![Lista de conectores com um conector selecionado e o painel de detalhes, mostrando a lista de erros do conector.](media/errormonitoring2.png)
 
 Veja a seguir a lista de erros diferentes que podem aparecer em qualquer conexão. Se essas soluções não funcionarem, entre em contato com o suporte ou envie-nos [seus comentários](connectors-feedback.md).
 
@@ -78,6 +78,35 @@ Código de erro | Mensagem de erro | Solução
 2003 | Falha na indexação devido a conteúdo do item não suportado. | Consulte a documentação específica do conector para obter mais informações.
 5000 | Algo deu errado. Se isso persistir, entre em contato com o suporte. |
 
+## <a name="monitor-your-index-quota-utilization"></a>Monitorar a utilização de cota de índice 
+Durante o período de visualização, cada organização tem uma cota fixa de até 2 milhões itens para indexação de conteúdo de sistemas externos em todas as conexões.
+
+> [!NOTE]
+> A cota de conectores do Graph está disponível gratuitamente para a duração da visualização. Isso será alterado em disponibilidade geral. 
+
+A cota de índice disponível e o consumo serão exibidos na página inicial dos conectores.
+
+![Barra de utilização de cota de índice.](media/quota_utilization.png)
+
+A barra de utilização de cota indicará vários Estados com base no consumo da cota por sua organização:
+
+State | Consumo de cota
+--- | ---
+Normal | 1-69%
+Alto | 70-89%
+Crítico | 90% a 99%
+Completo | 100%
+
+O número de itens indexados também será exibido com cada conexão. O número de itens indexados por cada conexão contribui para a cota total disponível para sua organização.
+
+Quando a cota de índice for excedida para sua organização, todas as conexões ativas serão afetadas e as conexões pararão a inclusão de conteúdo. Para corrigir isso, você pode fazer o seguinte:
+
+* Identifique as conexões que possuem muito conteúdo sendo ingerido e atualize-as para indexar menos itens para liberar espaço para a cota. Para atualizar a conexão, você deve excluir e criar uma nova conexão com um novo filtro de inclusão, que apresenta menos itens.
+
+* Excluir permanentemente uma ou mais conexões
+
+* Contate a Microsoft se você precisar aumentar o limite de cota de índice para sua organização.
+
 ## <a name="preview-limitations"></a>Limitações de visualização
 
 * Quando você **publica** um conector criado pela Microsoft, pode levar alguns minutos até que a conexão seja criada. Durante esse tempo, a conexão mostrará seu status como pendente. Além disso, não há atualização automática, portanto, você precisa atualizar manualmente.
@@ -85,3 +114,5 @@ Código de erro | Mensagem de erro | Solução
 * O [centro de administração do Microsoft 365](https://admin.microsoft.com) não dá suporte à exibição e edição do **esquema de pesquisa** após a publicação de uma conexão. Para editar o esquema de pesquisa, exclua sua conexão e crie uma nova.
 
 * Quando você gerencia a agenda de **atualização**da sua conexão, o número de itens que sincroniza durante cada sessão é exibido. No entanto, o histórico de sincronização não está disponível.
+
+* Quando a utilização de cotas para sua organização atinge limites críticos ou superiores, você **não** será notificado por meio do centro de mensagens.  Verifique periodicamente a página de gerenciamento de conectores para garantir que as conexões configuradas não excedam os limites de cota geral para sua organização.
