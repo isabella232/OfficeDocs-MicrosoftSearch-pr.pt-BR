@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9e8c9323-4ff9-42dd-8052-2bc9e0d6d0e7
 description: Saiba mais sobre métodos e processos para ajudá-lo a distribuir com êxito a pesquisa da Microsoft para sua organização
-ms.openlocfilehash: 4c40013297b8b7a91e589137e70716bd8e4fd326
-ms.sourcegitcommit: f4cb37fdf85b895337caee827fb72b5b7fcaa8ad
+ms.openlocfilehash: 76079dd2db378185a999acf9cc49cd04a7f97bbe
+ms.sourcegitcommit: b3738f5ab02bfba9dedf099e035f3850607be480
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/12/2019
-ms.locfileid: "39995001"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "46591513"
 ---
 # <a name="user-adoption-guide"></a>Guia de adoção do usuário
 
@@ -36,10 +36,10 @@ A tabela mostra a hierarquia da equipe e o que cada pessoa contribui.
   
 |**Função**|**Responsabilidades**|**Departamento**|
 |:-----|:-----|:-----|
-|Patrocinador executivo  <br/> |Entenda a visão e o valor de alto nível da pesquisa da Microsoft para sua organização.  <br/> Fornecer suporte à liderança para a equipe de ti/negócios.  <br/> Alocar recursos.  <br/> Comunique-se diretamente com os funcionários.  <br/> |Liderança executiva  <br/> |
-|Proprietário da empresa  <br/> |Identificar cenários de produto e de usuário.  <br/> Determinar as métricas de sucesso para departamentos e a organização.  <br/> |Qualquer tamanho  <br/> |
+|Apoio executivo  <br/> |Entenda a visão e o valor de alto nível da pesquisa da Microsoft para sua organização.  <br/> Fornecer suporte à liderança para a equipe de ti/negócios.  <br/> Alocar recursos.  <br/> Comunique-se diretamente com os funcionários.  <br/> |Liderança executiva  <br/> |
+|Proprietário da empresa  <br/> |Identificar cenários de produto e de usuário.  <br/> Determinar as métricas de sucesso para departamentos e a organização.  <br/> |Qualquer  <br/> |
 |Equipe de gerenciamento de mudanças  <br/> |Assegure-se de que o valor do produto seja fácil de entender.  <br/> Crie um plano para a implantação.  <br/> |IT  <br/> |
-|Defensores  <br/> |Evangelize o produto a colegas e equipes.  <br/> |Qualquer (equipe)  <br/> |
+|Campeões  <br/> |Evangelize o produto a colegas e equipes.  <br/> |Qualquer (equipe)  <br/> |
 |Administrador de pesquisa  <br/> |Identificar membros da equipe principais de adoção do usuário.  <br/> Administrar a pesquisa da Microsoft, incluindo a aparência da experiência e o gerenciamento contínuo.  <br/> Conduzir discussões para mostrar o valor da pesquisa da Microsoft.  <br/> |IT  <br/> |
 |Editores  <br/> |Criar conteúdo no [centro de administração](https://admin.microsoft.com)do Microsoft 365.  <br/> |TI/qualquer  <br/> |
    
@@ -77,7 +77,7 @@ Para ajudá-lo a atender às suas metas de distribuição e mostrar um impacto p
     
 ## <a name="stage-3-readiness"></a>Etapa 3: preparação
 
-O tempo de inpreparação para a implantação do Microsoft Search resultará em um impacto positivo na sua organização. A Microsoft fornece um <a href="https://resources.techcommunity.microsoft.com/microsoft-search-in-bing-adoption-kit/">Kit de adoção</a> que contém diretrizes de planejamento, anúncios de email personalizáveis, modelos de pesquisa, apresentações executivas e muito mais. Há também uma <a href="https://resources.techcommunity.microsoft.com/microsoft-search/#adoption">central de recursos de pesquisa da Microsoft</a> onde os implementadores de ti podem encontrar outros recursos de treinamento e adoção projetados para ajudar a tornar o seu Microsoft Search migrar bem-sucedido.
+O tempo de inpreparação para a implantação do Microsoft Search resultará em um impacto positivo na sua organização. A Microsoft fornece um <a href="https://go.microsoft.com/fwlink/?linkid=2114710">Kit de adoção</a> que contém um modelo de email de comunicado, leve, conteúdo visual criado para compartilhamento em seus sites de comunicação interna e uma apresentação de treinamento. Há também uma <a href="https://resources.techcommunity.microsoft.com/microsoft-search/#adoption">central de recursos de pesquisa da Microsoft</a> onde você pode encontrar outros recursos de treinamento e adoção projetados para ajudar a tornar o seu Microsoft Search migrar bem-sucedido.
   
 ### <a name="product-and-content-readiness"></a>Preparação do conteúdo e do produto
   

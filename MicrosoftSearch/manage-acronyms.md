@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Criar e atualizar respostas de acrônimos no Microsoft Search
-ms.openlocfilehash: bbdd27b00be323db8d80994fe9ff6ab7fac17416
-ms.sourcegitcommit: b5142052ed17cd430b4c193b67d8f3d90d94ba6e
+ms.openlocfilehash: 68e62884898e3aa081fc32438ad9a80068092738
+ms.sourcegitcommit: b3738f5ab02bfba9dedf099e035f3850607be480
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/15/2020
-ms.locfileid: "45143861"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "46591504"
 ---
 # <a name="manage-acronyms-answers-in-microsoft-search"></a>Gerenciar as respostas de acrônimos no Microsoft Search
 
@@ -27,7 +27,7 @@ As organizações nem sempre têm uma única referência para sua terminologia p
 
 ## <a name="what-users-experience"></a>O que os usuários experimentam
 
-Os usuários de pesquisa da Microsoft podem obter definições com acrônimos no [Bing](https://Bing.com) e no [SharePoint](https://products.office.com/sharepoint/collaboration). Na caixa de **pesquisa** , os usuários inserem consultas como estes exemplos:
+Os usuários de pesquisa da Microsoft podem obter definições com acrônimos no [Bing](https://Bing.com), [SharePoint](https://products.office.com/sharepoint/collaboration)e [Office 365](https://Office.com). Na caixa de **pesquisa** , os usuários inserem consultas como estes exemplos:
 
 - *O que é* DNN
 - *Definir* DNN
@@ -108,7 +108,7 @@ A pesquisa da Microsoft garante que apenas usuários com acesso e permissões a 
 
 **P: como os usuários acionam as respostas de acrônimos?**
 
-**A**: para obter respostas de acrônimos, os usuários devem inserir padrões de consulta específicos em uma caixa de **pesquisa** [Bing](https://bing.com) ou [SharePoint](https://products.office.com/sharepoint/collaboration) . No momento, as respostas de acrônimo não estão disponíveis no [Office 365](https://Office.com).
+**A**: para obter respostas de acrônimos, os usuários devem inserir padrões de consulta específicos em uma caixa de **pesquisa** [Bing](https://bing.com), [SharePoint](https://products.office.com/sharepoint/collaboration)ou [Office 365](https://Office.com) .
 
 **P: quanto tempo leva para que acrônimos minados apareçam após você receber ou enviar um novo email ou documento?**
 
@@ -126,7 +126,3 @@ A pesquisa da Microsoft garante que apenas usuários com acesso e permissões a 
 
 **A**: para desativar a exibição de acrônimos minados nos resultados da pesquisa, crie um tíquete de suporte ao cliente seguindo as instruções em [contato com o suporte para produtos de negócios](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?redirectSourcePath=%252f%252farticle%252fContact-Office-365-for-business-support-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b&view=o365-worldwide&tabs=online#BKMK_call_support).
 Depois de criar um tíquete de suporte, serão necessários até 48 horas para que os acrônimos minados parem de aparecer nos resultados da pesquisa.
-
-**P: Quando verá as respostas de acrônimos no [Office 365](https://Office.com)?**
-
-**A**: as respostas dos acrônimos no Office 365 fazem parte do nosso roteiro de produtos, mas não é possível fornecer uma data ou um prazo.
