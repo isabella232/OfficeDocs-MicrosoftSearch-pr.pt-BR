@@ -1,7 +1,7 @@
 ---
 title: Gerenciar conectores do Microsoft Graph para o Microsoft Search
-ms.author: mounika.narayanan
-author: monaray
+ms.author: monaray
+author: monaray97
 manager: mnirkhe
 ms.audience: Admin
 ms.topic: article
@@ -12,13 +12,14 @@ search.appverid:
 - MET150
 - MOE150
 description: Gerenciar conectores do Microsoft Graph para o Microsoft Search.
-ms.openlocfilehash: adf98bccab703e2ae5ecd99b059e1426a50609c5
-ms.sourcegitcommit: 89484fec9af755240d5d1bc399501d51ee40571d
+ms.openlocfilehash: f836d3efc6e52028f2b38c5131fa369f1c9e630f
+ms.sourcegitcommit: 988c37610e71f9784b486660400aecaa7bed40b0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "46563881"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47422933"
 ---
+<!-- markdownlint-disable no-inline-html -->
 # <a name="manage-your-connector-for-microsoft-search"></a>Gerenciar seu conector para a pesquisa da Microsoft
 
 Para acessar e gerenciar seus conectores, você deve ser designado como um administrador de pesquisa para o seu locatário. Entre em contato com o administrador de locatários para provisionar a função de administrador de pesquisa.
@@ -29,7 +30,7 @@ Navegue até a [guia conectores](https://admin.microsoft.com/Adminportal/Home#/M
 
 Para cada tipo de conector, o [centro de administração do Microsoft 365](https://admin.microsoft.com) suporta as operações mostradas na tabela a seguir:
 
-Operation | Conector integrado da Microsoft | Parceiro ou conector criado de forma personalizada
+Operação | Conector integrado da Microsoft | Parceiro ou conector criado de forma personalizada
 --- | --- | ---
 Adicionar uma conexão | : heavy_check_mark: (consulte [Configurar o conector integrado da Microsoft](configure-connector.md)) | : x: (consulte seu parceiro ou UX de administração de conector criado para personalizar)
 Excluir uma conexão | : heavy_check_mark: | : heavy_check_mark:
@@ -78,11 +79,12 @@ Código de erro | Mensagem de erro | Solução
 2003 | Falha na indexação devido a conteúdo do item não suportado. | Consulte a documentação específica do conector para obter mais informações.
 5000 | Algo deu errado. Se isso persistir, entre em contato com o suporte. |
 
-## <a name="monitor-your-index-quota-utilization"></a>Monitorar a utilização de cota de índice 
+## <a name="monitor-your-index-quota-utilization"></a>Monitorar a utilização de cota de índice
+
 Durante o período de visualização, cada organização tem uma cota fixa de até 2 milhões itens para indexação de conteúdo de sistemas externos em todas as conexões.
 
 > [!NOTE]
-> A cota de conectores do Graph está disponível gratuitamente para a duração da visualização. Isso será alterado em disponibilidade geral. 
+> A cota de conectores do Graph está disponível gratuitamente para a duração da visualização. Isso será alterado em disponibilidade geral.
 
 A cota de índice disponível e o consumo serão exibidos na página inicial dos conectores.
 
@@ -90,7 +92,7 @@ A cota de índice disponível e o consumo serão exibidos na página inicial dos
 
 A barra de utilização de cota indicará vários Estados com base no consumo da cota por sua organização:
 
-State | Consumo de cota
+Estado | Consumo de cota
 --- | ---
 Normal | 1-69%
 Alto | 70-89%

@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: O recurso plantas baixas no Microsoft Search ajuda os usuários a encontrar pessoas, escritórios e outros amenities dentro de um edifício.
-ms.openlocfilehash: 95941e57946f49de3a0558dc2d2c59b999151b37
-ms.sourcegitcommit: 9ba062f8b632a74e56ad7ec4dffaa1d8dab57614
+ms.openlocfilehash: c1a3c30f98408a6d98f34c41f4132bcca0bd316e
+ms.sourcegitcommit: 988c37610e71f9784b486660400aecaa7bed40b0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "44996108"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47422915"
 ---
 # <a name="manage-floor-plans"></a>Gerenciar plantas baixas
 
@@ -51,7 +51,7 @@ Consulte a seção [perguntas frequentes](#frequently-asked-questions) para obte
 
 O local do escritório de um usuário é uma combinação de um código de construção e um rótulo de sala. Por exemplo, se o código de construção for *2* e o rótulo de sala for *1173*, o local do escritório será *2/1173*.
 
-Adicione ou atualize os locais do Office para cada usuário em sua organização. Você pode alterar o local do Office no perfil de usuário no [centro de administração](https://admin.microsoft.com) do Microsoft 365 ou pode alterar o seu Active Directory local para sincronizar com o Azure Active Directory. *PhysicalDeliveryOfficeName* é o campo usado para o local do escritório. Se os rótulos de sala não incluírem números de piso, Confira as dicas sobre perguntas frequentes.
+Adicione ou atualize os locais do Office para cada usuário em sua organização. Você pode alterar o local do Office no perfil de usuário no [centro de administração do Microsoft 365](https://admin.microsoft.com) ou pode alterar o seu Active Directory local para sincronizar com o Azure Active Directory. *PhysicalDeliveryOfficeName* é o campo usado para o local do escritório. Se os rótulos de sala não incluírem números de piso, Confira as dicas sobre perguntas frequentes.
 
 Neste exemplo, o Office da Allan está na sala 1173 no piso 1 da construção 2.
 ![floorplans-userlestview.png](media/floorplans-userlistview.png)
@@ -67,7 +67,7 @@ Use **o Microsoft Search** para localizar um usuário e verificar se o local do 
 
 ### <a name="step-5-add-building-locations"></a>Etapa 5: Adicionar locais de construção
 
-Plantas baixas usa [locais](manage-locations.md) para definir seus prédios. No [centro de administração](https://admin.microsoft.com)do Microsoft 365, vá para **configurações**  >  locais de respostas da**Microsoft Search**  >  **Answers**  >  [**Locations**](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/locations)e selecione **Adicionar**. Insira o nome, o endereço e as palavras-chave para o edifício. Adicione quantos edifícios forem necessários.
+Plantas baixas usa [locais](manage-locations.md) para definir seus prédios. No [centro de administração do Microsoft 365](https://admin.microsoft.com), vá para [**locais**](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/locations)e selecione **Adicionar**. Insira o nome, o endereço e as palavras-chave para o edifício. Adicione quantos edifícios forem necessários.
 
 ![floorplans-locations.png](media/floorplans-locations.png)
 
@@ -77,13 +77,13 @@ Para obter mais detalhes sobre locais, consulte [Manage Locations](manage-locati
 
 Para que você possa usar os planos de piso, os locais do Office devem ser indexados. Esta é uma operação única que pode levar até 48 horas para ser concluída. O tempo total dependerá do tamanho da sua organização.
 
-No [centro de administração](https://admin.microsoft.com), vá até **configurações**  >  **Microsoft Search**  >  **Answers**  >  [**Plans Floor**](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/floorplans)e selecione **introdução**. Se você não vir este aviso, esta etapa já foi concluída para sua organização
+No [centro de administração](https://admin.microsoft.com), vá para [**plantas baixas**](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/floorplans)e selecione **introdução**. Se você não vir este aviso, esta etapa já foi concluída para sua organização
 
 ![floorplans_hydrationstep.png](media/floorplans_hydrationstep.png)
 
 ### <a name="step-7-upload-floor-plans"></a>Etapa 7: carregar planos de piso
 
-1. No [centro de administração](https://admin.microsoft.com), vá para **configurações**  >  **Microsoft Search**  >  **Answers**  >  [**Plans Floor**](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/floorplans).
+1. No [centro de administração](https://admin.microsoft.com), vá para [**plantas baixas**](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/floorplans).
 2. Selecione um edifício na lista suspensa e selecione **Avançar**. Se o edifício não estiver listado, volte e [adicione locais de construção](#step-5-add-building-locations).
 3. Selecione **carregar arquivos**e, em seguida, escolha a planta baixa que você está carregando.
 4. Quando o upload estiver concluído, você deve inserir o número de chão que é representado no arquivo de planta baixa. Em seguida, selecione **Avançar**.
@@ -115,14 +115,14 @@ Para atualizar um plano de planta baixa existente, selecione o plano de piso que
 
 ## <a name="troubleshooting"></a>Solução de problemas
 
-|**Etapa**|**Mensagem de erro**|**Tipo**|**Action**|
+|**Etapa**|**Mensagem de erro**|**Tipo**|**Ação**|
 |:-----|:-----|:-----|:-----|
-|Carregar planos de piso|Não é possível ler CC_1. dwg. Carregue novamente ou exclua a planta baixa.|Erro|Tente carregar o arquivo novamente. Se isso não funcionar, exclua o arquivo e tente novamente.|
-|Carregar planos de piso|Há dois arquivos chamados CC_1. dwg. Exclua um deles ou recarregue com outro nome.|Erro|Se o nome do arquivo estiver incorreto, torne o nome do arquivo exclusivo adicionando informações de chão ou asa e, em seguida, carregue o arquivo novamente. Se você tiver adicionado acidentalmente o mesmo arquivo duas vezes, exclua-o.|
-|Carregar planos de piso|Nenhum dado encontrado.|Erro|Verifique o arquivo para se certificar de que ele está correto e, em seguida, carregue-o novamente ou exclua-o.|
+|Carregar planos de piso|Não é possível ler CC_1. dwg. Carregue novamente ou exclua a planta baixa.|Error|Tente carregar o arquivo novamente. Se isso não funcionar, exclua o arquivo e tente novamente.|
+|Carregar planos de piso|Há dois arquivos chamados CC_1. dwg. Exclua um deles ou recarregue com outro nome.|Error|Se o nome do arquivo estiver incorreto, torne o nome do arquivo exclusivo adicionando informações de chão ou asa e, em seguida, carregue o arquivo novamente. Se você tiver adicionado acidentalmente o mesmo arquivo duas vezes, exclua-o.|
+|Carregar planos de piso|Nenhum dado encontrado.|Error|Verifique o arquivo para se certificar de que ele está correto e, em seguida, carregue-o novamente ou exclua-o.|
 |Carregar planos de piso|As referências externas estão ausentes neste arquivo. Carregue o CC_1_furniture. DWG ou exclua este arquivo.|Aviso|Carregar arquivos de referência externa ou excluir.|
 |Carregar planos de piso|Não foi possível ler números ou marcas de sala no arquivo DWG. Exclua esse arquivo.|Aviso|Verifique o arquivo DWG para certificar-se de que os dados estão incluídos e exclua o arquivo e tente novamente.|
-|Vincular locais do Office|Nenhum local do Office encontrado no Azure Active Directory. Adicione dados de local ao Azure Active Directory antes de configurar planos de piso.|Erro|[Atualizar locais do Office em perfis de usuário](#step-3-update-office-locations-on-user-profiles) |
+|Vincular locais do Office|Nenhum local do Office encontrado no Azure Active Directory. Adicione dados de local ao Azure Active Directory antes de configurar planos de piso.|Error|[Atualizar locais do Office em perfis de usuário](#step-3-update-office-locations-on-user-profiles) |
 
 ## <a name="frequently-asked-questions"></a>Perguntas frequentes
 
@@ -148,17 +148,17 @@ Para atualizar um plano de planta baixa existente, selecione o plano de piso que
 <!-- markdownlint-disable no-inline-html -->
 |Tipos de rótulo de sala|ArredMultB|Room|Rótulo de texto de exemplo|Local do Office (código de construção/rótulo de texto)|
 |:-----|:-----|:-----|:-----|:-----|
-|Tem piso e número de sala|1 |173|1173|2/1173|
+|Tem piso e número de sala|1|173|1173|2/1173|
 || 21 |45|21045|2/21045|
 ||23|100|23 mil|2/23-100.000|
-||1 |G06-07|1G06-07|2/1G06-07|
-||2 |1.024|02.1024 a|2/02.1024 a|
-||2 |1.024|02.1024 a|2/02.1024 a|
-||2 |105, 1|2105, 1|2/2105.01|
+||1|G06-07|1G06-07|2/1G06-07|
+||duas|1.024|02.1024 a|2/02.1024 a|
+||duas|1.024|02.1024 a|2/02.1024 a|
+||duas|105, 1|2105, 1|2/2105.01|
 |Tem código de compilação, base e número de sala|,0|X-11-M-12|2-0-X-11-M-12|2/2 -0-X-11-M-12<br/>2-0-X-11-M-12|
-||2 |128A|22128A|2/22128A<br/>22128A|
-||1 |B2-11|21-B2-11|2/21-B2-11<br/>21-B2-11|
-||2 |45|SC2045|SC/SC2045<br/>SC2045|
+||duas|128A|22128A|2/22128A<br/>22128A|
+||1|B2-11|21-B2-11|2/21-B2-11<br/>21-B2-11|
+||duas|45|SC2045|SC/SC2045<br/>SC2045|
 
 **P:** Posso usar um arquivo DWG que não inclui os números de piso?
 

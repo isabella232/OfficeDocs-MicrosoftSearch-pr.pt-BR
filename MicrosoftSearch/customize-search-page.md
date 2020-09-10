@@ -1,7 +1,7 @@
 ---
 title: Personalizar a página de pesquisa da Microsoft
-ms.author: jypal6
-author: jypal
+ms.author: jypal
+author: jypal6
 manager: jeffkizn
 ms.audience: Admin
 ms.topic: article
@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Adicionar verticais de pesquisa e personalizar os resultados da pesquisa
-ms.openlocfilehash: 9bc0448c1105c26b0e083316db04887327d8db41
-ms.sourcegitcommit: f2323c43fc732890213223efac32006df5b92c28
+ms.openlocfilehash: f9ecaa0c7aaaf75b40ed87db45f6ec4921488212
+ms.sourcegitcommit: 988c37610e71f9784b486660400aecaa7bed40b0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "45387981"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47422978"
 ---
 # <a name="customize-the-search-results-page"></a>Personalizar a página de resultados de pesquisa
 
@@ -59,7 +59,7 @@ Você pode usar um conjunto limitado de [idioma de consulta de palavra-chave (KQ
 
 Para criar o vertical no Microsoft Search no [SharePoint](https://sharepoint.com/) Home, [Office](https://office.com)ou [Bing](https://bing.com), siga estas etapas:
 
-1. No [centro de administração](https://admin.microsoft.com)do Microsoft 365, vá para **configurações**   > verticais de personalização **do Microsoft Search**   >  **Customization**  >  [**Verticals**](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/verticals).
+1. No [centro de administração do Microsoft 365](https://admin.microsoft.com), acesse [**verticalmente**](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/verticals).
 1. Selecione **Adicionar** para começar.  
 
 ### <a name="create-a-vertical-at-the-site-level"></a>Criar uma vertical no nível do site
@@ -88,7 +88,7 @@ Depois de iniciar o assistente, você é orientado pelas etapas para definir o n
   
 ### <a name="create-a-result-type-at-the-organization-level"></a>Criar um tipo de resultado no nível da organização
 
-1. No [centro de administração](https://admin.microsoft.com), vá para **configuração**de tipos de  >  **Microsoft Search**  >  resultados das**personalizações**de pesquisa da Microsoft  >  [**Result types**](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/resulttypes).
+1. No [centro de administração do Microsoft 365](https://admin.microsoft.com), vá para [**tipos de resultados**](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/resulttypes).
 1. Para adicionar um **tipo de resultado**, selecione **Adicionar**. Para editar um tipo de resultado, selecione o tipo de resultado na lista relevante.
 
 ### <a name="create-a-results-type-at-the-site-level"></a>Criar um tipo de resultados no nível do site
@@ -97,7 +97,7 @@ Depois de iniciar o assistente, você é orientado pelas etapas para definir o n
 1. Selecione **informações do site** e, em seguida, **exiba todas as configurações do site**.
 1. Procure a seção Microsoft Search e, em seguida, selecione **Configurar a pesquisa da Microsoft para este conjunto de sites**.
 1. No painel de navegação, vá para **experiência personalizada**e selecione guia **tipo de resultado** .
-2. Para adicionar um tipo de resultado, selecione **Adicionar**.  Ou, para editar um tipo de resultado, selecione o tipo de resultado na lista.
+1. Para adicionar um tipo de resultado, selecione **Adicionar**.  Ou, para editar um tipo de resultado, selecione o tipo de resultado na lista.
 
 ### <a name="view-the-vertical-after-its-enabled"></a>Exibir a vertical após a habilitação
 

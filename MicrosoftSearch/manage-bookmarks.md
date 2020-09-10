@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: c0c814d0-f7e4-444e-b18e-09beb45c9322
 description: Criar e atualizar marcadores e maneiras de editar em massa resultados de indicadores para o Microsoft Search
-ms.openlocfilehash: 926fae2a4bd6bb6a436a3b5ea46f21077a23dcab
-ms.sourcegitcommit: 996b2c0538e28b71441461a371a62339cb6d476f
+ms.openlocfilehash: 2c0b42e4be1307aa45e4cab3f5c923a7808375e4
+ms.sourcegitcommit: 988c37610e71f9784b486660400aecaa7bed40b0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "45167453"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47422870"
 ---
 # <a name="manage-bookmarks"></a>Gerenciar indicadores
 
@@ -28,9 +28,8 @@ Se sua organização promoveu os resultados configurados no SharePoint, você po
 
 ## <a name="add-or-edit-a-single-bookmark"></a>Adicionar ou editar um único indicador
 
-1. Vá para o **centro de administração do Microsoft 365**.
-1. No painel de navegação, vá para **configurações**  >  indicadores de respostas da**pesquisa da Microsoft**  >  **Answers**  >  [**Bookmarks**](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/bookmarks).
-1. Para adicionar um indicador, selecione **Adicionar novo**.
+1. No [centro de administração do Microsoft 365](https://admin.microsoft.com), acesse [**indicadores**](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/bookmarks).
+1. Para adicionar um indicador, selecione **Adicionar**.
 Para editar um indicador, selecione o indicador na lista de indicador relevante.
 1. À medida que você adiciona ou edita as informações, a visualização é atualizada automaticamente.
 1. Salve suas alterações.
@@ -105,8 +104,7 @@ O aplicativos de energia é um serviço que permite criar aplicativos de negóci
 ### <a name="add-a-power-app-to-a-bookmark"></a>Adicionar um aplicativo de alimentação a um indicador
 
 1. Encontre a [ID do aplicativo para o aplicativo de energia](https://docs.microsoft.com/powerapps/maker/canvas-apps/get-sessionid#get-an-app-id) que você deseja adicionar.
-1. Entre no centro de [**Administração do Microsoft 365**](https://admin.microsoft.com).
-1. No painel de navegação, vá para **configurações**  >  indicadores de respostas da**pesquisa da Microsoft**  >  **Answers**  >  [**Bookmarks**](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/bookmarks).
+1. No [centro de administração do Microsoft 365](https://admin.microsoft.com), acesse [**indicadores**](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/bookmarks).
 1. Adicione um indicador ou encontre um indicador existente ao qual você deseja adicionar um **PowerApp**.
 1. Em **Configurações de indicadores**, selecione **Power App** e, em seguida, **Adicionar um Power App**.
 1. Insira ou cole o **ID do aplicativo**.

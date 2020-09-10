@@ -13,20 +13,20 @@ search.appverid:
 - MOE150
 ms.assetid: ebce7fdc-e89b-473c-8131-67e659bb3f73
 description: Analisar métricas e gerenciar conteúdo do painel do insights no Microsoft Search
-ms.openlocfilehash: 230c1cdec9c1f6e94adf7123bc9a3ad048dee892
-ms.sourcegitcommit: 6b1c6a4e502d95b42a030a963f9452c387d8a5cd
+ms.openlocfilehash: a107be18900f1b68270e5afbeb0966eea04d656f
+ms.sourcegitcommit: 988c37610e71f9784b486660400aecaa7bed40b0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/20/2020
-ms.locfileid: "43571001"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47422987"
 ---
 # <a name="microsoft-search-insights-dashboard-reports"></a>Relatórios do painel do insights do Microsoft Search
 
 Você pode usar o painel do Microsoft Search insights para gerenciar dados do [Bing](https://Bing.com) para suas respostas publicadas. Essa é apenas uma das etapas necessárias para facilitar [a localização de conteúdo](make-content-easy-to-find.md) para seus usuários.
 
-Quando você acessa pela primeira vez o Microsoft Search no [centro de administração](https://admin.microsoft.com)do Microsoft 365, você insere no painel do insights.
+Quando você acessa pela primeira vez o Microsoft Search no [centro de administração do microsoft 365](https://admin.microsoft.com), você insere no painel do insights.
 
-![Insights-Dashboard. png](media/Insights-dashboard.png)
+![Insights-dashboard.png](media/Insights-dashboard.png)
 
 Os seguintes relatórios estão disponíveis no painel do insights.
 

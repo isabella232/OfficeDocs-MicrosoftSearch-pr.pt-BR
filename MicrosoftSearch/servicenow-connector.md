@@ -1,8 +1,8 @@
 ---
 title: Conector do ServiceNow para pesquisa da Microsoft
-ms.author: v-pamcn
-author: TrishaMc1
-manager: mnirkhe
+ms.author: monaray
+author: monaray97
+manager: jameslau
 ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Configurar o conector do ServiceNow para pesquisa da Microsoft
-ms.openlocfilehash: 75e07eb82dd63e95ce17a0506f96c853a7bcea2f
-ms.sourcegitcommit: 398b9847e3041732c32af9e6087d8e6c2e96c1cf
+ms.openlocfilehash: 29e8e490f114ce8537ddb973ed16ccb34f24f82f
+ms.sourcegitcommit: 988c37610e71f9784b486660400aecaa7bed40b0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/12/2019
-ms.locfileid: "39998562"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47422861"
 ---
 # <a name="servicenow-connector"></a>Conector do ServiceNow
 
@@ -26,12 +26,14 @@ Com o conector do ServiceNow, sua organização pode indexar artigos de base de 
 Este artigo é para os administradores do Microsoft 365 ou qualquer pessoa que configure, execute e monitore um conector do ServiceNow. Ele explica como configurar seus recursos de conector e conector, limitações e técnicas de solução de problemas.
 
 ## <a name="connect-to-a-data-source"></a>Conectar-se a uma fonte de dados
+
 Para se conectar aos seus dados do ServiceNow, você precisa da **URL de instância do servicenow**da sua organização, as credenciais dessa conta e a ID do cliente e o segredo do cliente para autenticação OAuth.  
 
-A URL da **instância do ServiceNow** da sua organização normalmente parece **https://&lt;seu-organization-Domain>. Service-Now.com**. Juntamente com esta URL, você precisará de uma conta para configurar a conexão com o ServiceNow, bem como para permitir que a pesquisa da Microsoft atualize periodicamente os artigos do ServiceNow com base no agendamento de atualização.
+A URL da **instância do ServiceNow** da sua organização normalmente parece **https:// &lt; seu-Organization-Domain>. Service-Now.com**. Juntamente com esta URL, você precisará de uma conta para configurar a conexão com o ServiceNow, bem como para permitir que a pesquisa da Microsoft atualize periodicamente os artigos do ServiceNow com base no agendamento de atualização.
 
-Para autenticar e sincronizar o conteúdo do ServiceNow, escolha um dos dois métodos com suporte: 
-1. Autenticação básica 
+Para autenticar e sincronizar o conteúdo do ServiceNow, escolha um dos dois métodos com suporte:
+
+1. Autenticação básica
 2. OAuth (recomendado)
 
 > [!Note]
@@ -50,16 +52,20 @@ Ativo | Marque a caixa de seleção para tornar o registro de aplicativo ativo. 
 Duração do token de atualização | O número de segundos que um token de atualização é válido. Por padrão, os tokens de atualização expiram em 100 dias (8640000 segundos). | 31.536.000 (1 ano)
 Vida útil do token de acesso | O número de segundos que um token de acesso é válido. | 43.200 (12 horas)
 
-## <a name="set-a-sync-filter"></a>Definir um filtro de sincronização 
+## <a name="set-a-sync-filter"></a>Definir um filtro de sincronização
+
 Com um filtro de sincronização, você pode especificar condições para sincronizar artigos. É como uma cláusula **Where** em uma instrução **SQL SELECT** . Por exemplo, você pode optar por indexar apenas artigos publicados e ativos. A página de configuração do SyncNow descreve como capturar e definir um filtro de sincronização.
 
 ## <a name="manage-the-search-schema"></a>Gerenciar o esquema de pesquisa
+
 Após a conexão bem-sucedida, configure o mapeamento de esquema de pesquisa. Você pode escolher quais propriedades tornar **consultáveis**, **pesquisáveis**e **recuperáveis**.
 
 ## <a name="manage-search-permissions"></a>Gerenciar permissões de pesquisa
+
 O conector do ServiceNow oferece suporte apenas às permissões de pesquisa visíveis para **todos**. Dados indexados aparecem nos resultados da pesquisa e são visíveis para todos os usuários da organização.
- 
-## <a name="set-the-refresh-schedule"></a>Definir o agendamento de atualização 
+
+## <a name="set-the-refresh-schedule"></a>Definir o agendamento de atualização
+
 O conector do ServiceNow suporta agendas de atualização para rastreamentos completos e incrementais. Recomendamos que você defina ambas.
 
 Um cronograma de rastreamento completo localiza artigos excluídos que foram previamente sincronizados com o índice de pesquisa da Microsoft e quaisquer artigos que tenham sido movidos do filtro de sincronização. Quando você se conecta pela primeira vez ao ServiceNow, um rastreamento completo é executado para sincronizar todos os artigos da base de conhecimento. Para sincronizar novos itens e fazer atualizações, você precisa agendar rastreamentos incrementais.

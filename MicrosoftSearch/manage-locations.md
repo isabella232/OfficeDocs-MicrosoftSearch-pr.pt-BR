@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: 8ab9aa00-cd74-405f-8410-9a1c3cfacdb9
 description: Com o tempo, você pode precisar atualizar o status e o conteúdo de um local para mantê-lo relevante.
-ms.openlocfilehash: a5d3209e2b6e9269ff2e5986cf81de705ae1cc4d
-ms.sourcegitcommit: 9ba062f8b632a74e56ad7ec4dffaa1d8dab57614
+ms.openlocfilehash: ab093cca1c340268b2fd43f7594eb48eddf32208
+ms.sourcegitcommit: 988c37610e71f9784b486660400aecaa7bed40b0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "44996063"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47422879"
 ---
 # <a name="manage-locations"></a>Gerenciar locais
 
@@ -28,9 +28,8 @@ Os Locais ajudam os usuários a encontrarem endereços e localizarem os edifíci
 
 ### <a name="add-or-edit-a-single-location"></a>Adicionar ou editar um único local
 
-1. Vá para o **centro de administração do Microsoft 365**.
-1. No painel de navegação, vá para **configurações**  >  **Microsoft Search**  >  **Answers**  >  [**locais**](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/locations) de respostas da pesquisa da Microsoft
-1. Para adicionar um novo local, selecione **Adicionar novo**.
+1. No [centro de administração do Microsoft 365](https://admin.microsoft.com), vá para [**locais**](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/locations)
+1. Para adicionar um novo local, selecione **Adicionar**.
 1. Para editar um local, selecione o local na lista de locais relevantes.
 1. À medida que você adiciona ou edita as informações, a visualização é atualizada automaticamente.
 1. Salve suas alterações.
