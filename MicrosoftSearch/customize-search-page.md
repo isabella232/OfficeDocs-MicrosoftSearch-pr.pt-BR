@@ -1,7 +1,7 @@
 ---
 title: Personalizar a página de pesquisa da Microsoft
-ms.author: jypal
-author: jypal6
+ms.author: jeffkizn
+author: jypal
 manager: jeffkizn
 ms.audience: Admin
 ms.topic: article
@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Adicionar verticais de pesquisa e personalizar os resultados da pesquisa
-ms.openlocfilehash: f9ecaa0c7aaaf75b40ed87db45f6ec4921488212
-ms.sourcegitcommit: 988c37610e71f9784b486660400aecaa7bed40b0
+ms.openlocfilehash: 8b212f385d126b4f6c3513b066936db28387377f
+ms.sourcegitcommit: be0c64845477127d73ee24dc727e4583ced3d0e6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47422978"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48206964"
 ---
 # <a name="customize-the-search-results-page"></a>Personalizar a página de resultados de pesquisa
 
@@ -107,7 +107,7 @@ Depois de habilitar a vertical, poderá demorar um pouco antes de poder visualiz
 
 Veja a seguir uma lista de problemas comuns que você pode encontrar e ações para corrigi-los.
 
-|Error  |Action  |
+|Erro  |Action  |
 |---------|---------|
 | Vejo uma mensagem de erro "algo deu errado" na vertical. | Os tipos vertical e resultado são necessários para concluir a configuração. Verifique se você criou ambos para a mesma fonte de conteúdo. |
 | Não vejo o layout do resultado, embora eu tenha criado um. | Isso leva alguns minutos porque essas configurações geralmente são armazenadas em cache. Aguarde alguns minutos e tente novamente.        |

@@ -1,8 +1,8 @@
 ---
 title: Conector do ServiceNow para pesquisa da Microsoft
-ms.author: monaray
-author: monaray97
-manager: jameslau
+ms.author: mnirkhe
+author: TrishaMc1
+manager: mnirkhe
 ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Configurar o conector do ServiceNow para pesquisa da Microsoft
-ms.openlocfilehash: 29e8e490f114ce8537ddb973ed16ccb34f24f82f
-ms.sourcegitcommit: 988c37610e71f9784b486660400aecaa7bed40b0
+ms.openlocfilehash: 357722f83e7f276615d231c8d3e56016bc17ba6e
+ms.sourcegitcommit: be0c64845477127d73ee24dc727e4583ced3d0e6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47422861"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48206955"
 ---
 # <a name="servicenow-connector"></a>Conector do ServiceNow
 
@@ -33,15 +33,15 @@ A URL da **instância do ServiceNow** da sua organização normalmente parece **
 
 Para autenticar e sincronizar o conteúdo do ServiceNow, escolha um dos dois métodos com suporte:
 
-1. Autenticação básica
-2. OAuth (recomendado)
+ - Autenticação básica
+ - OAuth (recomendado)
 
 > [!Note]
 > Para usar o OAuth para autenticação, um administrador do ServiceNow precisa provisionar um ponto de extremidade na sua instância do ServiceNow, para que o aplicativo de pesquisa da Microsoft possa acessar a instância. Para saber mais, confira [criar um ponto de extremidade para os clientes acessar a instância](https://docs.servicenow.com/bundle/newyork-platform-administration/page/administer/security/task/t_CreateEndpointforExternalClients.html) na documentação do ServiceNow.
 
 A tabela a seguir fornece orientação sobre como preencher o formulário de criação de ponto de extremidade:
 
-**Field** | **Descrição** | **Valor recomendado**
+Campo | Descrição | Valor recomendado
 --- | --- | ---
 Nome | Esse valor exclusivo identifica o aplicativo para o qual você precisa de acesso OAuth. | Pesquisa da Microsoft
 ID do cliente | Uma ID exclusiva somente leitura, gerada automaticamente, para o aplicativo. A instância usa a ID do cliente quando ele solicita um token de acesso. | NA

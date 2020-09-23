@@ -2,7 +2,7 @@
 title: Azure data Lake Connector para Microsoft Search
 ms.author: monaray
 author: monaray97
-manager: jameslau
+manager: shohara
 ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Configurar o conector do Gen2 de armazenamento do Azure data Lake para o Microsoft Search
-ms.openlocfilehash: 788b7106c15cd9773c86f46f91ba0e91e38028f3
-ms.sourcegitcommit: 988c37610e71f9784b486660400aecaa7bed40b0
+ms.openlocfilehash: 01fea60e91af5ba321ceb00578ea2b0745c9c394
+ms.sourcegitcommit: be0c64845477127d73ee24dc727e4583ced3d0e6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47422924"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48206928"
 ---
 # <a name="azure-data-lake-storage-gen2-connector"></a>Conector Gen2 de armazenamento do Azure data Lake
 
@@ -29,7 +29,12 @@ Este artigo é para os administradores do [Microsoft 365](https://www.microsoft.
 ### <a name="primary-storage-connection-string"></a>Cadeia de conexão de armazenamento principal 
 Na tela **autenticação e configuração** , forneça a cadeia de conexão de armazenamento principal. Essa cadeia de caracteres é necessária para permitir o acesso à sua conta de armazenamento. Para encontrar a cadeia de conexão, vá para o [portal do Azure](https://ms.portal.azure.com/#home) e navegue até a seção **chaves** da conta de armazenamento do Azure relevante. Copie e cole a cadeia de conexão no campo apropriado na tela.
 
-Se você não preferir fornecer **AccountKey** (um parâmetro na cadeia de conexão de armazenamento principal), será necessário conceder acesso de leitura ao nosso serviço de conectores do Graph. Navegue até a guia **controle de acesso** de sua conta de armazenamento do Azure e siga as instruções para conceder acesso ao seguinte aplicativo:
+Se você não preferir fornecer **AccountKey** (um parâmetro na cadeia de conexão de armazenamento principal), será necessário conceder acesso ao nosso serviço de conectores de gráfico para as seguintes funções. 
+* Leitor de dados de blob de armazenamento
+* Colaborador de dados da fila de armazenamento
+* Delegante de blob de armazenamento (somente para armazenamento hierárquico)
+
+Navegue até a guia **controle de acesso** de sua conta de armazenamento do Azure e siga as instruções para conceder acesso ao seguinte aplicativo:
 * **ID do aplicativo de terceiros:** 56c1da01-2129-48f7-9355-af6d59d42766
 * **Nome do aplicativo de parte inicial:** Serviço do conector do Graph
 
