@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Obtenha respostas para perguntas frequentes comuns sobre o Enterprise Search e a Pesquisa da Microsoft
-ms.openlocfilehash: c4b0d888e7765cf965832c252a79bdcf8aa5f6cf
-ms.sourcegitcommit: 988c37610e71f9784b486660400aecaa7bed40b0
+ms.openlocfilehash: 5a134116c98b4feea0c04909349ce4b972c59ffe
+ms.sourcegitcommit: 0b8c3c57384cecaa93c5cbaf3b3b30f8e20d1a69
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47422960"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48408434"
 ---
 <!-- markdownlint-disable no-trailing-punctuation -->
 # <a name="frequently-asked-questions"></a>Perguntas frequentes
@@ -60,3 +60,7 @@ Os detalhes podem ser encontrados nas [páginas da central de confiabilidade do 
 ## <a name="can-users-earn-microsoft-rewards-points-with-their-work-or-school-account"></a>Os usuários podem ganhar pontos do Microsoft Rewards com uma conta corporativa ou de estudante?
 
 O Microsoft Search exige que os usuários corporativos entrem com uma conta corporativa ou de estudante. No entanto, os usuários não podem participar do Microsoft Rewards ou entrar nele com essas contas. No entanto, há uma situação em que um usuário corporativo pode ver os pontos acumulados. Isso pode acontecer quando um usuário do Microsoft Search tem uma conta Rewards que foi criada com uma [conta da Microsoft](https://www.microsoft.com/welcome?rtc=1). (O endereço de email associado a uma conta da Microsoft pode ser de Outlook.com, Hotmail.com, Gmail, Yahoo ou outros provedores). Se os usuários entrarem com a conta de trabalho e com a conta da Microsoft na mesma sessão do navegador, eles poderão acumular pontos para a sua conta Rewards. Os usuários podem parar de acumular pontos quando usarem o Microsoft Search limpando os cookies.
+
+## <a name="can-guest-users-leverage-microsoft-search-in-my-organization"></a>Os usuários convidados podem aproveitar a pesquisa da Microsoft em minha organização?
+
+A Microsoft 365 permite colaboração avançada com pessoas de fora da sua organização por meio de [acesso de convidados.](https://docs.microsoft.com/microsoft-365/solutions/collaborate-with-people-outside-your-organization) Esses usuários poderão executar operações de pesquisa em documentos, sites, grupos, listas e bibliotecas. No entanto, os usuários convidados não terão a experiência completa, personalizada e de pesquisa da Microsoft e talvez precisem aproveitar a caixa de pesquisa na página, em vez da caixa de pesquisa da Microsoft unificada no cabeçalho.
