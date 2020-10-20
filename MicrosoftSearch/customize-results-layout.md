@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Usando cartões adaptáveis, crie um layout para exibir seus resultados de pesquisa personalizados
-ms.openlocfilehash: e31be1f9c1602fcd696c99d584388facee22df74
-ms.sourcegitcommit: c22e8c3dcc53857da677db98a1a2b7d5ca2c6170
+ms.openlocfilehash: 0856adfd85a921cf026cd59a8ca2c5beea2ffcf2
+ms.sourcegitcommit: 7ceefb7a96ae6886145b929791c7448c139366b4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41721773"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "48595269"
 ---
 <!-- markdownlint-disable no-hard-tabs -->
 # <a name="create-a-layout-to-customize-search-results"></a>Criar um layout para personalizar os resultados da pesquisa
@@ -176,6 +176,10 @@ Você deve mapear cada campo do layout para uma propriedade Result ou uma propri
 
 Selecione um campo no layout para realçar as variáveis que precisam ser mapeadas. Você pode usar várias variáveis para um único campo, e todos os campos devem ser mapeados para as propriedades do resultado.
 
+### <a name="show-snippet-on-search-result"></a>Mostrar trecho no resultado da pesquisa  
+
+Trechos dinâmicos gerados na propriedade de **conteúdo** do resultado do conector podem ser mostrados no resultado da pesquisa. **ResultSnippet** é a propriedade do sistema que atua como uma propriedade de espaço reservado para os trechos gerados para cada resultado do conector. Para mostrar os trechos de código no layout do resultado, a propriedade do sistema **ResultSnippet** deve ser mapeada para um campo apropriado, por exemplo, descrição, no layout do resultado da pesquisa. Os trechos de código gerados em cada resultado também realçam as correspondências no trecho de código com o termo de consulta inserido pelo usuário. 
+
 ## <a name="things-to-consider"></a>Itens a considerar
 
 Antes de começar, há algumas coisas que você deve fazer e algumas coisas que você deve evitar para garantir que seus layouts serão bem-sucedidos.
@@ -184,9 +188,9 @@ Antes de começar, há algumas coisas que você deve fazer e algumas coisas que 
 
 - Edite um modelo para fornecer o link de logotipo no layout se você estiver usando links estáticos para logotipos e não resultados de propriedades.
 - Validar o layout do resultado para cenários em que nenhum dado é retornado para uma propriedade Result usada no resultado JSON. Use a `$when` condição para ocultar um elemento se a propriedade não contiver dados.  
-- Certifique-se de que os tipos `$when` de dados da condição e a propriedade Result correspondam. Por exemplo, não compare `Number` com `Text` na `$when` condição.  
+- Certifique-se de que os tipos de dados da `$when` condição e a propriedade Result correspondam. Por exemplo, não compare `Number` com `Text` na `$when` condição.  
 - Considere os requisitos de temas ao criar um layout de resultados.  
-- Certifique-se de `Textblock`  que o elemento pode lidar com conteúdo dinâmico. Você pode usar as `wrap` propriedades `maxLines` de elemento e para essa finalidade.
+- Certifique-se de que o `Textblock`   elemento pode lidar com conteúdo dinâmico. Você pode usar as `wrap` `maxLines` Propriedades de elemento e para essa finalidade.
 - Formatar corretamente a data ao usar `{DATE()}` na redução.  
 
 ### <a name="dont"></a>Não fazer
@@ -194,6 +198,7 @@ Antes de começar, há algumas coisas que você deve fazer e algumas coisas que 
 - Não defina tipos de dados inválidos ao vincular valores. Para obter mais informações sobre tipos de dados, consulte [Manage The Search Schema](https://docs.microsoft.com/sharepoint/search/manage-the-search-schema).
 - Evite cortar o resultado na página de resultados seguindo a altura máxima do JSON de layout de resultados. Se você exceder a altura máxima do layout do resultado, o resultado será cortado na página de resultados.
 - Não use `px` valores nas propriedades do elemento.
+- Não use redução quando tiver a propriedade **ResultSnippet** no layout do resultado para realçar a correspondência da consulta no resultado da pesquisa. 
 
 ## <a name="resources"></a>Recursos
 
