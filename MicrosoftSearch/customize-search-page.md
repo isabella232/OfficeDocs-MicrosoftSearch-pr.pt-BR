@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Adicionar verticais de pesquisa e personalizar os resultados da pesquisa
-ms.openlocfilehash: 8b212f385d126b4f6c3513b066936db28387377f
-ms.sourcegitcommit: be0c64845477127d73ee24dc727e4583ced3d0e6
+ms.openlocfilehash: 8999a811b6ed0e04963a87ff0170869b38dba727
+ms.sourcegitcommit: 995ce23d4e47a3456a02dba0ba7c9cd0de64528a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48206964"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "48919497"
 ---
 # <a name="customize-the-search-results-page"></a>Personalizar a página de resultados de pesquisa
 
@@ -30,18 +30,16 @@ Você pode criar verticais e tipos de resultado nesses níveis:
 
 ## <a name="search-verticals-explained"></a>Explicação vertical de pesquisa explicada
 
-Na parte superior da página de resultados da pesquisa da Microsoft, há uma linha de guias. Estes são os verticais de pesquisa. Uma vertical de pesquisa mostra os resultados de um determinado tipo ou de determinado conteúdo. Os exemplos são **arquivos** ou **notícias**. Por padrão, o Microsoft Search mostra os verticais **todos**, **pessoas**, **arquivos**, **sites**e **notícias**.  
+Na parte superior da página de resultados da pesquisa da Microsoft, há uma linha de guias. Estes são os verticais de pesquisa. Uma vertical de pesquisa mostra os resultados de um determinado tipo ou de determinado conteúdo. Os exemplos são **arquivos** ou **notícias**. Por padrão, o Microsoft Search mostra os verticais **todos** , **pessoas** , **arquivos** , **sites** e **notícias**.  
 
 Você pode adicionar verticais de pesquisa que são relevantes para sua organização. Eles serão exibidos na página de resultados da pesquisa da Microsoft no [SharePoint](https://sharepoint.com/), no [Office](https://Office.com)e no [Bing](https://bing.com). Por exemplo, você pode criar uma vertical para o conteúdo relacionado a marketing e outra para vendas, com base no tipo de informação de que cada grupo precisa. Você pode adicionar Verticals para mostrar resultados apenas do conteúdo indexado via conectores.  
 
 >[!NOTE]
-> Os tipos de resultados e verticais estão atualmente em visualização como parte da visualização dos conectores do Microsoft Graph. Para obter mais informações sobre a visualização, consulte [conectores Preview](connectors-preview.md). Para participar da visualização, você deve primeiro enviar o [formulário de inscrição prévia dos conectores do Microsoft Graph](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbRxWYgu82J_RFnMMATAS6_chUNVYwNU1CMDNZUDBSSDZKWVo2RDJDRjRLQi4u).
+> Os tipos de resultados e verticais estão atualmente em visualização como parte da visualização dos conectores do Microsoft Graph e não podem ser usados para conteúdo que reside no [SharePoint](https://sharepoint.com/). Para obter mais informações sobre a visualização, consulte [conectores Preview](connectors-preview.md). Para participar da visualização, você deve primeiro enviar o [formulário de inscrição prévia dos conectores do Microsoft Graph](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbRxWYgu82J_RFnMMATAS6_chUNVYwNU1CMDNZUDBSSDZKWVo2RDJDRjRLQi4u).
 
 ## <a name="things-to-consider"></a>Itens a considerar
 
 Antes de começar, certifique-se de que o conector tenha sido indexado. Isso pode levar até 48 horas, dependendo do tamanho do arquivo.
-
-Você não pode criar uma vertical para o conteúdo que reside no [SharePoint](https://sharepoint.com/).
 
 Há três etapas básicas para adicionar uma vertical:
 
@@ -59,7 +57,7 @@ Você pode usar um conjunto limitado de [idioma de consulta de palavra-chave (KQ
 
 Para criar o vertical no Microsoft Search no [SharePoint](https://sharepoint.com/) Home, [Office](https://office.com)ou [Bing](https://bing.com), siga estas etapas:
 
-1. No [centro de administração do Microsoft 365](https://admin.microsoft.com), acesse [**verticalmente**](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/verticals).
+1. No  [centro de administração do Microsoft 365](https://admin.microsoft.com), acesse  [**verticalmente**](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/verticals).
 1. Selecione **Adicionar** para começar.  
 
 ### <a name="create-a-vertical-at-the-site-level"></a>Criar uma vertical no nível do site
@@ -67,7 +65,7 @@ Para criar o vertical no Microsoft Search no [SharePoint](https://sharepoint.com
 1. No site do [SharePoint](https://sharepoint.com/) em que você deseja que a vertical vá para **configurações**.
 1. Selecione **informações do site** e, em seguida, **exiba todas as configurações do site**.
 1. Procure a seção **Microsoft Search** e, em seguida, selecione **Configurar a pesquisa da Microsoft para este conjunto de sites**.
-1. No painel de navegação, vá para **experiência personalizada**e, em seguida, selecione a guia **verticais** .
+1. No painel de navegação, vá para  **experiência personalizada** e, em seguida, selecione a guia **verticais** .
 1. Para adicionar uma vertical, selecione **Adicionar**.
   Ou, para editar uma vertical, selecione-a na lista.
 
@@ -89,14 +87,14 @@ Depois de iniciar o assistente, você é orientado pelas etapas para definir o n
 ### <a name="create-a-result-type-at-the-organization-level"></a>Criar um tipo de resultado no nível da organização
 
 1. No [centro de administração do Microsoft 365](https://admin.microsoft.com), vá para [**tipos de resultados**](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/resulttypes).
-1. Para adicionar um **tipo de resultado**, selecione **Adicionar**. Para editar um tipo de resultado, selecione o tipo de resultado na lista relevante.
+1. Para adicionar um **tipo de resultado** , selecione  **Adicionar**. Para editar um tipo de resultado, selecione o tipo de resultado na lista relevante.
 
 ### <a name="create-a-results-type-at-the-site-level"></a>Criar um tipo de resultados no nível do site
 
 1. No site [do SharePoint](https://sharepoint.com/) onde você deseja criar o tipo de resultado, vá para **configurações**.
 1. Selecione **informações do site** e, em seguida, **exiba todas as configurações do site**.
 1. Procure a seção Microsoft Search e, em seguida, selecione **Configurar a pesquisa da Microsoft para este conjunto de sites**.
-1. No painel de navegação, vá para **experiência personalizada**e selecione guia **tipo de resultado** .
+1. No painel de navegação, vá para  **experiência personalizada** e selecione guia **tipo de resultado** .
 1. Para adicionar um tipo de resultado, selecione **Adicionar**.  Ou, para editar um tipo de resultado, selecione o tipo de resultado na lista.
 
 ### <a name="view-the-vertical-after-its-enabled"></a>Exibir a vertical após a habilitação
