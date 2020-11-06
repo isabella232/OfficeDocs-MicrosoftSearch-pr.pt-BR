@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Configurar o conector do Azure DevOps para o Microsoft Search
-ms.openlocfilehash: 1030dd2b508e5364f53f92e7c8ce8c12c040ce70
-ms.sourcegitcommit: 85d40512e8616c851da1a38c137ca0e4e8625813
+ms.openlocfilehash: a0028c3b336c2b5e3d01bb14006ee0debb4524f2
+ms.sourcegitcommit: 59435698bece013ae64ca2a68c43455ca10e3fdf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47359717"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "48927185"
 ---
 # <a name="azure-devops-connector"></a>Conector DevOps do Azure
 
@@ -69,15 +69,16 @@ Em seguida, selecione quais campos você deseja que a conexão indexe e visualiz
 
 ![Escolher Propriedades](media/ADO_choose_properties.png)
 
-## <a name="manage-the-search-schema"></a>Gerenciar o esquema de pesquisa
-
-Configure o mapeamento de esquema de pesquisa. Você pode escolher quais propriedades tornar **consultáveis**, **pesquisáveis** e **recuperáveis**.
-
 ## <a name="manage-search-permissions"></a>Gerenciar permissões de pesquisa
 
 No momento, o conector do Azure DevOps oferece suporte apenas **às permissões de pesquisa visíveis para todos**. Dados indexados aparecerão nos resultados da pesquisa para todos os usuários.
 
-## <a name="set-the-refresh-schedule"></a>Definir o agendamento de atualização
+## <a name="manage-search-schema"></a>Gerenciar o esquema de pesquisa
+
+Configure o mapeamento de esquema de pesquisa. Você pode escolher quais propriedades tornar **consultáveis** , **pesquisáveis** e **recuperáveis**.
+
+
+## <a name="set-refresh-schedule"></a>Definir agendamento de atualização
 
 O conector do Azure DevOps suporta agendas de atualização para rastreamentos completos e incrementais. Um rastreamento completo localiza itens de trabalho excluídos que foram sincronizados anteriormente com o índice de pesquisa da Microsoft. Um rastreamento completo é executado para sincronizar todos os itens de trabalho. Para sincronizar novos itens de trabalho e atualizações para itens de trabalho existentes, você precisa agendar rastreamentos incrementais.
 

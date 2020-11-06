@@ -1,5 +1,5 @@
 ---
-title: Personalizar o layout dos resultados da pesquisa
+title: Gerenciar layouts de resultados de pesquisa
 ms.author: jypal
 author: jypal6
 manager: jeffkizn
@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Usando cartões adaptáveis, crie um layout para exibir seus resultados de pesquisa personalizados
-ms.openlocfilehash: 5bd42eded291781f5122cfede3759327b5222108
-ms.sourcegitcommit: 995ce23d4e47a3456a02dba0ba7c9cd0de64528a
+ms.openlocfilehash: 425e5404c14d500f6ecd84ad449dafb05bbfd31b
+ms.sourcegitcommit: 59435698bece013ae64ca2a68c43455ca10e3fdf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 11/05/2020
-ms.locfileid: "48919506"
+ms.locfileid: "48927176"
 ---
 <!-- markdownlint-disable no-hard-tabs -->
 # <a name="create-a-layout-to-customize-search-results"></a>Criar um layout para personalizar os resultados da pesquisa
@@ -198,7 +198,7 @@ Antes de começar, há algumas coisas que você deve fazer e algumas coisas que 
 - Não defina tipos de dados inválidos ao vincular valores. Para obter mais informações sobre tipos de dados, consulte [Manage The Search Schema](https://docs.microsoft.com/sharepoint/search/manage-the-search-schema).
 - Evite cortar o resultado na página de resultados seguindo a altura máxima do JSON de layout de resultados. Se você exceder a altura máxima do layout do resultado, o resultado será cortado na página de resultados.
 - Não use `px` valores nas propriedades do elemento.
-- Não use redução quando tiver a propriedade **ResultSnippet** no layout do resultado para realçar a correspondência da consulta no resultado da pesquisa.
+- Não use redução com a propriedade **ResultSnippet** no layout do resultado para realçar a correspondência de consulta no resultado da pesquisa.
 
 ## <a name="resources"></a>Recursos
 
