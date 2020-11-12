@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ROBOTS: NoIndex
 description: Analisar e agir sobre o feedback do usuário no Microsoft Search
-ms.openlocfilehash: fd47403fd86be2e2fb1ba7baee7473958a8e5572
-ms.sourcegitcommit: 4b2cc0a4cd3d7cdcd8eb23a8baa9703173889a73
+ms.openlocfilehash: 332410cd29a7256cccd651c3a668fdf3eb473ba4
+ms.sourcegitcommit: 102371815e739da33d1711197cdc743ae8124baa
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "48986950"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "48996788"
 ---
 # <a name="managing-user-feedback"></a>Gerenciando comentários do usuário
 
@@ -32,7 +32,7 @@ Agora, estamos oferecendo ferramentas que lhe permitirão examinar e gerenciar o
 
 ![Formulário de comentários globais](media/feedback/feedback-global-dialog.png)
 
-Os usuários também têm a opção de enviar suas consultas e outras informações de diagnóstico, juntamente com a categoria e os comentários, para a Microsoft. As informações de diagnóstico incluirão alguns dados pessoais, como um identificador de usuário. [Saiba mais](https://privacy.microsoft.com/en-US/privacystatement) sobre privacidade e como protegemos esses dados. Os dados de diagnóstico contêm as informações mais críticas que a Microsoft precisa para usar o item de comentários para a melhoria do produto.
+Os usuários também têm a opção de enviar suas consultas e outras informações de diagnóstico, juntamente com a categoria e os comentários, para a Microsoft. [Saiba mais](https://privacy.microsoft.com/en-US/privacystatement) sobre privacidade e como protegemos esses dados. Os dados de diagnóstico contêm as informações mais críticas que a Microsoft precisa para usar o item de comentários para a melhoria do produto.
 
 A maioria dos envios de comentários é exibida na seção de [comentários](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/feedback) do centro de administração de pesquisa da Microsoft. O feedback enviado com a opção **desejo sugerir uma categoria de link interno** aparece como um indicador sugerido na seção [bookmarks](https://admin-ignite.microsoft.com/Adminportal/Home#/MicrosoftSearch/bookmarks) e pode ser visto por filtragem em status **sugerido** .
 
