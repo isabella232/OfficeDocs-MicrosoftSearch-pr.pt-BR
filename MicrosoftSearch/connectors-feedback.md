@@ -11,15 +11,15 @@ search.appverid:
 - BFB160
 - MET150
 - MOE150
-description: Como fornecer comentários para conectores de pesquisa da Microsoft
-ms.openlocfilehash: 678fb84e6b3495fbe518c93f15a9685ac2d9376a
-ms.sourcegitcommit: 988c37610e71f9784b486660400aecaa7bed40b0
+description: Como fornecer comentários para conectores do Microsoft Graph
+ms.openlocfilehash: 75e46e40400163fae729497abd4dab898e69dd25
+ms.sourcegitcommit: 59cdd3f0f82b7918399bf44d27d9891076090f4f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47422731"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "49367492"
 ---
-# <a name="provide-feedback-for-microsoft-search-connectors"></a>Fornecer comentários para conectores de pesquisa da Microsoft
+# <a name="provide-feedback-for-microsoft-graph-connectors"></a>Fornecer comentários para conectores do Microsoft Graph
 
 A equipe de conectores do Microsoft Graph responde à comunidade de administração de pesquisa em vários canais:
 

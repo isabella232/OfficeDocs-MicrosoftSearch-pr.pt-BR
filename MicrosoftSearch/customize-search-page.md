@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Adicionar verticais de pesquisa e personalizar os resultados da pesquisa
-ms.openlocfilehash: 8999a811b6ed0e04963a87ff0170869b38dba727
-ms.sourcegitcommit: 995ce23d4e47a3456a02dba0ba7c9cd0de64528a
+ms.openlocfilehash: 8522a6daf05b718ee6a066272da181be6e95905e
+ms.sourcegitcommit: 59cdd3f0f82b7918399bf44d27d9891076090f4f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "48919497"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "49367483"
 ---
 # <a name="customize-the-search-results-page"></a>Personalizar a página de resultados de pesquisa
 
@@ -30,16 +30,27 @@ Você pode criar verticais e tipos de resultado nesses níveis:
 
 ## <a name="search-verticals-explained"></a>Explicação vertical de pesquisa explicada
 
-Na parte superior da página de resultados da pesquisa da Microsoft, há uma linha de guias. Estes são os verticais de pesquisa. Uma vertical de pesquisa mostra os resultados de um determinado tipo ou de determinado conteúdo. Os exemplos são **arquivos** ou **notícias**. Por padrão, o Microsoft Search mostra os verticais **todos** , **pessoas** , **arquivos** , **sites** e **notícias**.  
+Na parte superior da página de resultados da pesquisa da Microsoft, há uma linha de guias. Estes são os verticais de pesquisa. Uma vertical de pesquisa mostra os resultados de um determinado tipo ou de determinado conteúdo. Os exemplos são **arquivos** ou **notícias**. Por padrão, o Microsoft Search mostra os verticais **todos**, **pessoas**, **arquivos**, **sites** e **notícias**.  
 
 Você pode adicionar verticais de pesquisa que são relevantes para sua organização. Eles serão exibidos na página de resultados da pesquisa da Microsoft no [SharePoint](https://sharepoint.com/), no [Office](https://Office.com)e no [Bing](https://bing.com). Por exemplo, você pode criar uma vertical para o conteúdo relacionado a marketing e outra para vendas, com base no tipo de informação de que cada grupo precisa. Você pode adicionar Verticals para mostrar resultados apenas do conteúdo indexado via conectores.  
 
->[!NOTE]
-> Os tipos de resultados e verticais estão atualmente em visualização como parte da visualização dos conectores do Microsoft Graph e não podem ser usados para conteúdo que reside no [SharePoint](https://sharepoint.com/). Para obter mais informações sobre a visualização, consulte [conectores Preview](connectors-preview.md). Para participar da visualização, você deve primeiro enviar o [formulário de inscrição prévia dos conectores do Microsoft Graph](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbRxWYgu82J_RFnMMATAS6_chUNVYwNU1CMDNZUDBSSDZKWVo2RDJDRjRLQi4u).
+### <a name="multiple-connections-in-a-vertical"></a>Várias conexões em uma vertical
+
+Uma vertical de pesquisa agora pode trazer resultados de várias fontes de conector. Isso oferece maior flexibilidade na criação da página de resultados de pesquisa. A experiência administrativa existente da configuração vertical permite que você selecione várias conexões na etapa "fonte de conteúdo".
+Se você estiver com precisão o mesmo número de rótulos semânticos possíveis, essa experiência será aprimorada. Você pode adicionar rótulos semânticos na definição e inclusão de esquema.
+
+[Aqui](#configure-connector-step-5-assign-property-labels) estão informações adicionais sobre como criar e gerenciar rótulos semânticos.
+
+### <a name="things-you-should-know"></a>Coisas que você deve saber
+
+1. Uma conexão pode ser adicionada como fonte de conteúdo somente em uma vertical. Não é permitido reutilizar conexões em vários verticais.
+2. Se você precisar configurar uma consulta para uma pesquisa vertical onde várias fontes de conexão tiverem sido adicionadas, as propriedades de fonte comuns deverão ser usadas para criar uma consulta desse tipo.
 
 ## <a name="things-to-consider"></a>Itens a considerar
 
 Antes de começar, certifique-se de que o conector tenha sido indexado. Isso pode levar até 48 horas, dependendo do tamanho do arquivo.
+
+Você não pode criar uma vertical para o conteúdo que reside no [SharePoint](https://sharepoint.com/).
 
 Há três etapas básicas para adicionar uma vertical:
 
@@ -57,16 +68,16 @@ Você pode usar um conjunto limitado de [idioma de consulta de palavra-chave (KQ
 
 Para criar o vertical no Microsoft Search no [SharePoint](https://sharepoint.com/) Home, [Office](https://office.com)ou [Bing](https://bing.com), siga estas etapas:
 
-1. No  [centro de administração do Microsoft 365](https://admin.microsoft.com), acesse  [**verticalmente**](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/verticals).
-1. Selecione **Adicionar** para começar.  
+1. No [centro de administração do Microsoft 365](https://admin.microsoft.com), acesse [**verticalmente**](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/verticals).
+2. Selecione **Adicionar** para começar.  
 
 ### <a name="create-a-vertical-at-the-site-level"></a>Criar uma vertical no nível do site
 
 1. No site do [SharePoint](https://sharepoint.com/) em que você deseja que a vertical vá para **configurações**.
-1. Selecione **informações do site** e, em seguida, **exiba todas as configurações do site**.
-1. Procure a seção **Microsoft Search** e, em seguida, selecione **Configurar a pesquisa da Microsoft para este conjunto de sites**.
-1. No painel de navegação, vá para  **experiência personalizada** e, em seguida, selecione a guia **verticais** .
-1. Para adicionar uma vertical, selecione **Adicionar**.
+2. Selecione **informações do site** e, em seguida, **exiba todas as configurações do site**.
+3. Procure a seção **Microsoft Search** e, em seguida, selecione **Configurar a pesquisa da Microsoft para este conjunto de sites**.
+4. No painel de navegação, vá para **experiência personalizada** e, em seguida, selecione a guia **verticais** .
+5. Para adicionar uma vertical, selecione **Adicionar**.
   Ou, para editar uma vertical, selecione-a na lista.
 
 Lembre-se de que as verticais são criadas em um estado desabilitado. Eles devem ser habilitados para que os usuários possam vê-los.
@@ -75,29 +86,35 @@ Lembre-se de que as verticais são criadas em um estado desabilitado. Eles devem
 
 Você pode definir como os resultados são exibidos na vertical criando o layout usando tipos de resultados. O layout do resultado permite que você mostre informações importantes diretamente nos resultados da pesquisa, para que os usuários não precisem selecionar cada resultado para ver se encontraram o que estão procurando.
 
-O tipo do resultado de pesquisa é uma função que faz com que diferentes tipos de resultados de pesquisa sejam exibidos de diferentes maneiras. Ele consiste no seguinte:
+### <a name="default-search-result-layout"></a>Layout de resultados de pesquisa padrão
+
+Um layout de resultado de pesquisa padrão será mostrado para o conteúdo do conector se os **Rótulos** e a propriedade de **conteúdo** tiverem sido mapeados corretamente para as propriedades de origem no momento da configuração do conector. O **título** do rótulo é o rótulo mais importante. É **altamente recomendável** que você tenha uma propriedade atribuída a esse rótulo para usar o layout de resultado de pesquisa padrão.
+
+### <a name="create-your-own-result-type"></a>Criar seu próprio tipo de resultado
+
+Você pode optar por criar seu próprio layout de resultado de pesquisa e substituir o layout padrão de resultados de pesquisa criando um **tipo de resultado**. O tipo do resultado de pesquisa é uma função que faz com que diferentes tipos de resultados de pesquisa sejam exibidos de diferentes maneiras. Ele consiste no seguinte:
 
 - **Uma ou mais condições** para comparar cada resultado de pesquisa, como a fonte de conteúdo do resultado da pesquisa.  
 - Um **layout de resultado** a ser usado para resultados de pesquisa que atendam às condições. O layout de resultado controla o modo como todos os resultados que atendem às condições aparecem e se comportam em uma página de resultados de pesquisa.
 
-**Você deve criar pelo menos um tipo de resultado para que os resultados sejam exibidos na vertical.** Você pode criar vários tipos de resultados para cada vertical, permitindo que você use diferentes layouts para diferentes tipos de resultados. Por exemplo, você pode personalizar incidentes de *gravidade 1* para ter cores mais proeminentes e uma fonte maior em comparação a incidentes de *gravidade 3* .
+**Se o mapeamento apropriado não for feito para mostrar o layout padrão do resultado da pesquisa, Yyou deve criar pelo menos um tipo de resultado para que os resultados sejam exibidos na vertical.** Você pode criar vários tipos de resultados para cada vertical, permitindo que você use diferentes layouts para diferentes tipos de resultados. Por exemplo, você pode personalizar incidentes de *gravidade 1* para ter cores mais proeminentes e uma fonte maior em comparação a incidentes de *gravidade 3* .
 
 Depois de iniciar o assistente, você é orientado pelas etapas para definir o nome, a fonte de conteúdo e as condições para o tipo de resultado. Você pode definir a prioridade do tipo de resultado no modo de exibição de lista.
   
 ### <a name="create-a-result-type-at-the-organization-level"></a>Criar um tipo de resultado no nível da organização
 
 1. No [centro de administração do Microsoft 365](https://admin.microsoft.com), vá para [**tipos de resultados**](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/resulttypes).
-1. Para adicionar um **tipo de resultado** , selecione  **Adicionar**. Para editar um tipo de resultado, selecione o tipo de resultado na lista relevante.
+2. Para adicionar um **tipo de resultado**, selecione **Adicionar**. Para editar um tipo de resultado, selecione o tipo de resultado na lista relevante.
 
 ### <a name="create-a-results-type-at-the-site-level"></a>Criar um tipo de resultados no nível do site
 
 1. No site [do SharePoint](https://sharepoint.com/) onde você deseja criar o tipo de resultado, vá para **configurações**.
-1. Selecione **informações do site** e, em seguida, **exiba todas as configurações do site**.
-1. Procure a seção Microsoft Search e, em seguida, selecione **Configurar a pesquisa da Microsoft para este conjunto de sites**.
-1. No painel de navegação, vá para  **experiência personalizada** e selecione guia **tipo de resultado** .
-1. Para adicionar um tipo de resultado, selecione **Adicionar**.  Ou, para editar um tipo de resultado, selecione o tipo de resultado na lista.
+2. Selecione **informações do site** e, em seguida, **exiba todas as configurações do site**.
+3. Procure a seção Microsoft Search e, em seguida, selecione **Configurar a pesquisa da Microsoft para este conjunto de sites**.
+4. No painel de navegação, vá para **experiência personalizada** e selecione guia **tipo de resultado** .
+5. Para adicionar um tipo de resultado, selecione **Adicionar**.  Ou, para editar um tipo de resultado, selecione o tipo de resultado na lista.
 
-### <a name="view-the-vertical-after-its-enabled"></a>Exibir a vertical após a habilitação
+## <a name="step-3-view-the-vertical-after-its-enabled"></a>ETAPA 3: exibir a vertical após a habilitação
 
 Depois de habilitar a vertical, poderá demorar um pouco antes de poder visualizá-la. Se você não quiser esperar após habilitá-lo, é possível acrescentar **cacheClear = true** à URL no [SharePoint](https://sharepoint.com/) e no [Office](https://office.com) para exibir a vertical imediatamente.
 
@@ -105,7 +122,7 @@ Depois de habilitar a vertical, poderá demorar um pouco antes de poder visualiz
 
 Veja a seguir uma lista de problemas comuns que você pode encontrar e ações para corrigi-los.
 
-|Erro  |Action  |
+|Error  |Action  |
 |---------|---------|
 | Vejo uma mensagem de erro "algo deu errado" na vertical. | Os tipos vertical e resultado são necessários para concluir a configuração. Verifique se você criou ambos para a mesma fonte de conteúdo. |
 | Não vejo o layout do resultado, embora eu tenha criado um. | Isso leva alguns minutos porque essas configurações geralmente são armazenadas em cache. Aguarde alguns minutos e tente novamente.        |

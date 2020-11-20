@@ -11,14 +11,13 @@ search.appverid:
 - BFB160
 - MET150
 - MOE150
-ROBOTS: NOINDEX, NOFOLLOW
-description: etapas sobre como mapear identidades do AAD
-ms.openlocfilehash: e373302314e3044f6bd6b874a341c8a1ada77556
-ms.sourcegitcommit: 77ec27736f3c8434b2ac47e10897ac2606ee8a03
+description: Etapas sobre como mapear identidades do AAD
+ms.openlocfilehash: db0378e596c560edebd2ceb942e6327b47a5286b
+ms.sourcegitcommit: 59cdd3f0f82b7918399bf44d27d9891076090f4f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "48992828"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "49367699"
 ---
 # <a name="map-your-azure-ad-identities"></a>Mapear suas identidades do Azure AD  
 

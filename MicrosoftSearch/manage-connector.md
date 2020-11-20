@@ -12,15 +12,16 @@ search.appverid:
 - MET150
 - MOE150
 description: Gerenciar conectores do Microsoft Graph para o Microsoft Search.
-ms.openlocfilehash: f836d3efc6e52028f2b38c5131fa369f1c9e630f
-ms.sourcegitcommit: 988c37610e71f9784b486660400aecaa7bed40b0
+ms.openlocfilehash: a9b3feff3a5c289fef3f5091518d074970209b9d
+ms.sourcegitcommit: 59cdd3f0f82b7918399bf44d27d9891076090f4f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47422933"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "49367672"
 ---
 <!-- markdownlint-disable no-inline-html -->
-# <a name="manage-your-connector-for-microsoft-search"></a>Gerenciar seu conector para a pesquisa da Microsoft
+
+# <a name="manage-your-connections-for-microsoft-search"></a>Gerenciar suas conexões para o Microsoft Search
 
 Para acessar e gerenciar seus conectores, você deve ser designado como um administrador de pesquisa para o seu locatário. Entre em contato com o administrador de locatários para provisionar a função de administrador de pesquisa.
 
@@ -30,12 +31,12 @@ Navegue até a [guia conectores](https://admin.microsoft.com/Adminportal/Home#/M
 
 Para cada tipo de conector, o [centro de administração do Microsoft 365](https://admin.microsoft.com) suporta as operações mostradas na tabela a seguir:
 
-Operação | Conector integrado da Microsoft | Parceiro ou conector criado de forma personalizada
+Operation | Conector integrado da Microsoft | Parceiro ou conector criado de forma personalizada
 --- | --- | ---
 Adicionar uma conexão | : heavy_check_mark: (consulte [Configurar o conector integrado da Microsoft](configure-connector.md)) | : x: (consulte seu parceiro ou UX de administração de conector criado para personalizar)
-Excluir uma conexão | : heavy_check_mark: | : heavy_check_mark:
+Excluir uma conexão | :heavy_check_mark: | :heavy_check_mark:
 Editar uma conexão publicada | : heavy_check_mark: nome<br></br> : heavy_check_mark: Descrição<br></br> : heavy_check_mark: credenciais de autenticação para sua fonte de dados externa<br></br> : heavy_check_mark: credenciais de gateway para sua fonte de dados local<br></br> : heavy_check_mark: Agenda de atualização<br></br> | : heavy_check_mark: nome<br></br> : heavy_check_mark: Descrição
-Editar uma conexão de rascunho | : heavy_check_mark: | x
+Editar uma conexão de rascunho | :heavy_check_mark: | :x:
 
 ## <a name="monitor-your-connection-status"></a>Monitorar o status da conexão
 
@@ -50,6 +51,20 @@ Quatro Estados aparecem na coluna **status** em cada conexão:
 * Em **pausa**. Os rastreamentos são pausados pelos administradores por meio da opção PAUSE. O próximo rastreamento é executado somente quando ele é reiniciado manualmente. No entanto, os dados dessa conexão continuam a ser pesquisados.
 
 * **Falhou**. A conexão teve uma falha crítica. Este erro requer intervenção manual. O administrador precisa tomar a ação apropriada com base na mensagem de erro mostrada. Os dados que foram indexados até que o erro ocorreu é pesquisável.
+
+### <a name="view-your-last-crawl-info"></a>Exibir suas últimas informações de rastreamento
+
+Depois que o primeiro rastreamento incremental inicial ou completo for concluído com êxito, os valores de dados do último rastreamento serão exibidos no último cabeçalho de rastreamento no painel de detalhes. Se não houver um último rastreamento que tenha sido executado, você não verá nenhuma informação no último cabeçalho de rastreamento. Essas informações sobre o último rastreamento ajudarão você a obter informações sobre como o rastreamento foi realizado e serão necessárias as etapas necessárias para sempre que for necessário.
+
+Os seguintes valores de rastreamento mais recentes estarão disponíveis para cada conexão:
+
+Valor | Descrição
+--- | ---
+Concluído às | Data e hora em que o último rastreamento foi concluído
+Tipo | Rastreamento completo ou incremental
+Duração | Quanto tempo o último rastreamento demora para concluir
+Sucessos | Número de itens que foram ingeridos com êxito no último rastreamento
+Erros | Número de itens com erro no último rastreamento
 
 ### <a name="monitor-errors"></a>Monitorar erros
 
@@ -81,14 +96,13 @@ Código de erro | Mensagem de erro | Solução
 
 ## <a name="monitor-your-index-quota-utilization"></a>Monitorar a utilização de cota de índice
 
-Durante o período de visualização, cada organização tem uma cota fixa de até 2 milhões itens para indexação de conteúdo de sistemas externos em todas as conexões.
+A cota de índice disponível e o consumo são exibidos na página inicial dos conectores.
 
-> [!NOTE]
-> A cota de conectores do Graph está disponível gratuitamente para a duração da visualização. Isso será alterado em disponibilidade geral.
+![Barra de utilização de cota de índice](media/quota_utilization.png)
 
-A cota de índice disponível e o consumo serão exibidos na página inicial dos conectores.
-
-![Barra de utilização de cota de índice.](media/quota_utilization.png)
+>[!NOTE]
+>Durante o período de visualização, cada organização que está tentando nos conectores do Graph recebeu uma cota fixa liberada de até 2 milhões itens em todas as conexões. Com conectores de gráfico em geral, a cota livre expirará no dia 1 de fevereiro de 2021 para as organizações que usam conectores gráficos na visualização.
+>Os conectores de gráficos criados pela Microsoft rotulados como ["Preview"](connectors-preview.md) não serão incluídos na cota de índice de total cobrado da sua organização. No entanto, ele contará em direção ao número máximo de 10 conexões que você pode configurar para sua organização e o número máximo de 7 milhões itens que sua organização pode indexar entre conexões.
 
 A barra de utilização de cota indicará vários Estados com base no consumo da cota por sua organização:
 
@@ -101,20 +115,30 @@ Completo | 100%
 
 O número de itens indexados também será exibido com cada conexão. O número de itens indexados por cada conexão contribui para a cota total disponível para sua organização.
 
-Quando a cota de índice for excedida para sua organização, todas as conexões ativas serão afetadas e as conexões pararão a inclusão de conteúdo. Para corrigir isso, você pode fazer o seguinte:
+Quando a cota de índice for excedida para sua organização, todas as conexões ativas serão impactadas e as conexões funcionarão no estado de **limite excedido** . Nesse estado, suas conexões ativas  
+
+* Não poderá adicionar novos itens.
+
+* Será possível atualizar ou excluir itens existentes.
+
+Para corrigir isso, você pode fazer o seguinte:
+
+* Saiba como comprar a cota de índice para sua organização em [requisitos de licenciamento e preços](licensing.md).
 
 * Identifique as conexões que possuem muito conteúdo sendo ingerido e atualize-as para indexar menos itens para liberar espaço para a cota. Para atualizar a conexão, você deve excluir e criar uma nova conexão com um novo filtro de inclusão, que apresenta menos itens.
 
 * Excluir permanentemente uma ou mais conexões
 
-* Contate a Microsoft se você precisar aumentar o limite de cota de índice para sua organização.
+## <a name="limitations"></a>Limitações
 
-## <a name="preview-limitations"></a>Limitações de visualização
+* Quando você **publica** um conector criado pela Microsoft, pode levar alguns minutos até que a conexão seja criada. Durante esse tempo, a conexão mostrará seu status como pendente.
 
-* Quando você **publica** um conector criado pela Microsoft, pode levar alguns minutos até que a conexão seja criada. Durante esse tempo, a conexão mostrará seu status como pendente. Além disso, não há atualização automática, portanto, você precisa atualizar manualmente.
+* O [centro de administração do Microsoft 365](https://admin.microsoft.com) não dá suporte à edição do **esquema de pesquisa** após a publicação de uma conexão. Para editar o esquema de pesquisa, exclua sua conexão e crie uma nova.
 
-* O [centro de administração do Microsoft 365](https://admin.microsoft.com) não dá suporte à exibição e edição do **esquema de pesquisa** após a publicação de uma conexão. Para editar o esquema de pesquisa, exclua sua conexão e crie uma nova.
+* O throughput da inclusão é limitado em cerca de quatro itens por segundo.
 
-* Quando você gerencia a agenda de **atualização**da sua conexão, o número de itens que sincroniza durante cada sessão é exibido. No entanto, o histórico de sincronização não está disponível.
+* Não há suporte para atualizações de esquema. Após criar uma configuração de conexão, não há como atualizar o esquema. Você só pode excluir e recriar a conexão.
 
-* Quando a utilização de cotas para sua organização atinge limites críticos ou superiores, você **não** será notificado por meio do centro de mensagens.  Verifique periodicamente a página de gerenciamento de conectores para garantir que as conexões configuradas não excedam os limites de cota geral para sua organização.
+* Há um limite de conexões. Cada locatário pode criar até 10 conexões.
+
+* Editar o suporte para conexão não está disponível. Depois que a conexão tiver sido criada, você não poderá editá-la ou alterá-la. Se for necessário alterar os detalhes, você deverá excluir e recriar a conexão.

@@ -2,7 +2,7 @@
 title: Conector Salesforce para pesquisa da Microsoft
 ms.author: rusamai
 author: rsamai
-manager: jameslao
+manager: jameslau
 ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
@@ -11,23 +11,22 @@ search.appverid:
 - BFB160
 - MET150
 - MOE150
-ROBOTS: NOINDEX, NOFOLLOW
 description: Configurar o conector do Salesforce para a pesquisa da Microsoft
-ms.openlocfilehash: 8de7784cae7d430bc385889bd836360c69492591
-ms.sourcegitcommit: 77ec27736f3c8434b2ac47e10897ac2606ee8a03
+ms.openlocfilehash: 149d1d9a297e09e9b895aeb0947c7ff4a3cbdf84
+ms.sourcegitcommit: 59cdd3f0f82b7918399bf44d27d9891076090f4f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "48992830"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "49367645"
 ---
-# <a name="salesforce-connector"></a>Conector do Salesforce
+# <a name="salesforce-connector-preview"></a>Conector Salesforce (visualização)
 
-Com o conector do Salesforce Graph, sua organização pode indexar os objetos contatos, oportunidades, clientes potenciais e contas em sua instância do Salesforce. Depois de configurar o conector e o conteúdo do índice a partir do Salesforce, os usuários finais podem pesquisar esses itens de qualquer cliente de pesquisa da Microsoft
+Com o conector do Salesforce Graph, sua organização pode indexar os objetos contatos, oportunidades, clientes potenciais e contas em sua instância do Salesforce. Depois de configurar o conector e o conteúdo do índice a partir do Salesforce, os usuários finais podem pesquisar esses itens de qualquer cliente de pesquisa da Microsoft.
 
 Este artigo é para os administradores do [Microsoft 365](https://www.microsoft.com/microsoft-365) ou qualquer pessoa que configure, execute e monitore um conector do Salesforce. Ele explica como configurar seus recursos de conector e conector, limitações e técnicas de solução de problemas.
 
 >[!IMPORTANT]
->No momento, o conector do Salesforce Graph é compatível com o verão de 20, Spring ' 20, o Winter ' 20 e o verão de 19.
+>O conector do Salesforce Graph atualmente é compatível com o verão de 19 ou posterior.
 
 ## <a name="connection-settings"></a>Configurações de conexão
 
@@ -60,7 +59,7 @@ Para se conectar à sua instância do Salesforce, você precisa da URL da instâ
 - Copie a chave do consumidor e o segredo do consumidor. Eles serão usados como a ID do cliente e o segredo do cliente quando você definir as configurações de conexão para o seu conector de gráfico no portal de administração do Microsoft 365.
 
   ![Resultados retornados pela seção de API na instância do Salesforce após o administrador enviar todas as configurações necessárias. A chave do consumidor está na parte superior da coluna esquerda e o segredo do consumidor está na parte superior da coluna direita.](media/salesforce-connector/clientsecret.png)
-- Antes de fechar sua instância do Salesforce, execute as seguintes etapas para garantir que os tokens de atualização não expirem: 
+- Antes de fechar sua instância do Salesforce, execute as seguintes etapas para garantir que os tokens de atualização não expirem:
     - Vá para o Gerenciador de aplicativos do > app
     - Localize o aplicativo que você acabou de criar e selecione o menu suspenso à direita. Selecionar **gerenciar**
     - Selecionar **Editar políticas**
@@ -89,21 +88,21 @@ Defina as configurações de conexão para o seu conector de gráfico da seguint
   ![Captura de tela do logon bem-sucedido. A faixa verde que diz "conexão bem-sucedida" está localizada sob o campo da URL da sua instância do Salesforce](media/salesforce-connector/sf5.png)
 
 ## <a name="manage-search-permissions"></a>Gerenciar permissões de pesquisa
-Você precisará escolher quais usuários verão os resultados da pesquisa dessa fonte de dados. Se você permitir que apenas alguns usuários do Azure Active Directory (AAD) ou não AAD vejam os resultados da pesquisa, será necessário mapear as identidades.
+Você precisará escolher quais usuários verão os resultados da pesquisa dessa fonte de dados. Se você permitir que apenas determinados usuários do Azure Active Directory (Azure AD) ou não-Azure AD vejam os resultados da pesquisa, será necessário mapear as identidades.
 
 ### <a name="select-permissions"></a>Selecionar permissões
-Você pode optar por incluir listas de controle de acesso (ACLs) em sua instância do Salesforce ou pode permitir que todas as pessoas em sua organização vejam os resultados da pesquisa dessa fonte de dados. As ACLs podem incluir identidades do Azure Active Directory (AAD), identidades não AAD ou ambas.
+Você pode optar por incluir listas de controle de acesso (ACLs) em sua instância do Salesforce ou pode permitir que todas as pessoas em sua organização vejam os resultados da pesquisa dessa fonte de dados. As ACLs podem incluir identidades do Azure Active Directory (AAD) (usuários que são federados do Azure AD para o Salesforce), identidades não do Azure AD (usuários nativos da equipe de vendas que possuem identidades correspondentes no Azure AD) ou ambos.
 
 ![Selecione a tela permissões que foi concluída por um administrador. O administrador selecionou a opção "apenas pessoas com acesso a esta fonte de dados" e também selecionou "AAD" em um menu suspenso de tipos de identidade.](media/salesforce-connector/sf6.png)
 
 ### <a name="map-non-aad-identities"></a>Mapear identidades não-AAD 
-Se você optar por incluir uma ACL de sua instância do Salesforce e selecionar "não AAD" para o tipo de identidade, confira [mapear suas identidades não do Azure ad ](map-non-aad.md) para obter instruções sobre como mapear as identidades.
+Se você optar por incluir uma ACL de sua instância do Salesforce e selecionar "não AAD" para o tipo de identidade, confira [mapear suas identidades não do Azure ad](map-non-aad.md) para obter instruções sobre como mapear as identidades.
 
 ### <a name="map-aad-identities"></a>Mapear identidades do AAD
-Se você optar por incluir uma ACL de sua instância do Salesforce e selecionar "AAD" para o tipo de identidade, confira [mapear suas identidades do Azure ad](map-aad.md) para obter instruções sobre como mapear as identidades.
+Se você optar por incluir uma ACL de sua instância do Salesforce e selecionar "AAD" para o tipo de identidade, confira [mapear suas identidades do Azure ad](map-aad.md) para obter instruções sobre como mapear as identidades. Para saber como configurar o Azure AD SSO para Salesforce, consulte este [tutorial](https://docs.microsoft.com/en-us/azure/active-directory/saas-apps/salesforce-tutorial).
 
 ## <a name="assign-property-labels"></a>Atribuir rótulos de propriedade 
-Você pode atribuir uma propriedade Source a cada rótulo escolhendo a partir de um menu de opções. Embora esta etapa não seja obrigatória, ter alguns rótulos de propriedade melhorará a relevância da pesquisa e garantirá resultados de pesquisa mais precisos para os usuários finais. Por padrão, alguns dos rótulos como "title", "URL" e "LastModifiedBy" já foram atribuídos a propriedades de origem.
+Você pode atribuir uma propriedade Source a cada rótulo escolhendo a partir de um menu de opções. Embora esta etapa não seja obrigatória, ter alguns rótulos de propriedade melhorará a relevância da pesquisa e garantirá resultados de pesquisa mais precisos para os usuários finais. Por padrão, alguns dos rótulos como "title", "URL", "CreatedBy" e "LastModifiedBy" já foram atribuídos a propriedades de origem.
 
 ![Tela atribuir rótulos de propriedade mostrando as propriedades de fonte padrão.](media/salesforce-connector/sf8.png)
 
@@ -126,7 +125,6 @@ O agendamento recomendado é uma semana para um rastreamento completo.
 - No momento, o conector do Graph não suporta o compartilhamento baseado em território e o compartilhamento por meio de grupos pessoais do Salesforce.
 - Há um bug conhecido na API do Salesforce que o conector do Graph usa onde os padrões de toda a organização privada para clientes potenciais não são honrados atualmente.  
 - Se um campo tiver um conjunto de segurança de nível de campo (FLS) definido para um perfil, o conector do gráfico não inreceberá esse campo para qualquer perfil na organização do Salesforce. Portanto, os usuários não poderão pesquisar os valores desses campos, nem eles aparecerão nos resultados.  
-- Qualquer configuração do FLS será atendida durante as sincronizações completas do conector.
 - Na tela Gerenciar esquema, esses nomes de propriedade padrão comuns são listados uma vez e a seleção feita para torná-los consultáveis, pesquisáveis e recuperáveis se aplicam a todos ou nenhum.
     - Nome
     - Url 

@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Configurar o conector de sites da empresa para o Microsoft Search
-ms.openlocfilehash: b4d9f837892bcfd795421530e0571fa0509a2761
-ms.sourcegitcommit: be0c64845477127d73ee24dc727e4583ced3d0e6
+ms.openlocfilehash: 4b9d8a8472c81c2bc647b3cef3cdb437073d36cf
+ms.sourcegitcommit: 59cdd3f0f82b7918399bf44d27d9891076090f4f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48206937"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "49367465"
 ---
 <!-- markdownlint-disable no-inline-html -->
 # <a name="enterprise-websites-connector"></a>Conector de sites corporativos
@@ -28,7 +28,11 @@ Este artigo é para os administradores do [Microsoft 365](https://www.microsoft.
 
 ## <a name="connect-to-a-data-source"></a>Conectar-se a uma fonte de dados
 
-Para se conectar à sua fonte de dados, você precisará da URL raiz e de uma forma de autenticação: nenhum, autenticação básica ou OAuth 2,0 com o [Azure Active Directory (Azure AD)](https://docs.microsoft.com/azure/active-directory/).
+Para se conectar à sua fonte de dados, você precisará preencher a URL raiz do site e o tipo de autenticação que gostaria de usar: nenhum, autenticação básica ou OAuth 2,0 com [Azure Active Directory (Azure AD)](https://docs.microsoft.com/azure/active-directory/).
+
+### <a name="url"></a>URL
+
+Use o campo URL para especificar a raiz do site que você deseja rastrear. O conector de sites corporativos usará essa URL como o ponto de partida e seguirá todos os links desta URL para o rastreamento.
 
 ### <a name="authentication"></a>Autenticação
 
@@ -45,21 +49,25 @@ Para obter os valores para o recurso, client_id e client_secret, acesse **usar o
 
 Para obter mais informações, consulte [QuickStart: registrar um aplicativo com a plataforma de identidade da Microsoft](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app).
 
-### <a name="root-url"></a>URL raiz
+## <a name="add-urls-to-exclude"></a>Adicionar URLs a serem excluídas
 
-A URL raiz é o que inicia o rastreamento e é usado para autenticação. Você pode obter a URL da home page do site que deseja rastrear.
-
-## <a name="select-the-source-properties"></a>Selecionar as propriedades de origem
-
-As propriedades de origem são definidas com base no formato de dados do site da empresa. No entanto, você pode criar uma **lista de exclusão** para excluir algumas URLs de serem rastreadas se esse conteúdo for confidencial ou não valer para o rastreamento. Para criar uma lista de exclusão, navegue pela URL raiz. Você tem a opção de adicionar as URLs excluídas à lista durante o processo de configuração.
+Opcionalmente, você pode criar uma **lista de exclusão** para excluir algumas URLs de serem rastreadas se esse conteúdo for confidencial ou não valer para o rastreamento. Para criar uma lista de exclusão, navegue pela URL raiz. Você tem a opção de adicionar as URLs excluídas à lista durante o processo de configuração.
 
 ## <a name="manage-search-permissions"></a>Gerenciar permissões de pesquisa
 
-Não há suporte para listas de controle de acesso (ACLs). Portanto, recomendamos que você conecte somente os sites que estão visíveis para qualquer usuário dentro da sua organização.
+O conector de sites da empresa oferece suporte apenas às permissões de pesquisa visíveis para **todos**. Dados indexados aparecem nos resultados da pesquisa e são visíveis para todos os usuários da organização.
+
+## <a name="assign-property-labels"></a>Atribuir rótulos de propriedade
+
+Você pode atribuir uma propriedade Source a cada rótulo escolhendo a partir de um menu de opções. Embora esta etapa não seja obrigatória, ter alguns rótulos de propriedade melhorará a relevância da pesquisa e garantirá resultados de pesquisa mais precisos para os usuários finais.
+
+## <a name="manage-schema"></a>Gerenciar esquema
+
+Na tela **gerenciar esquema** , você tem a opção de alterar os atributos de esquema (**consultável**, **pesquisável**, **recuperável** e **refinável**) associados às propriedades, adicionar aliases opcionais e escolher a propriedade **Content** .
 
 ## <a name="set-the-refresh-schedule"></a>Definir o agendamento de atualização
 
-O conector de sites corporativos suporta apenas um rastreamento completo. Isso significa que o conector lê todo o conteúdo do site em todos os rastreamentos. Para garantir que o conector tenha tempo suficiente para ler o conteúdo, recomendamos que você defina um intervalo grande de agendamento de atualização. Recomendamos uma atualização agendada entre uma e duas semanas.
+O conector de sites corporativos suporta apenas uma atualização completa. Isso significa que o conector irá rastrear novamente todo o conteúdo do site durante cada atualização. Para garantir que o conector tenha tempo suficiente para rastrear o conteúdo, recomendamos que você defina um intervalo grande de agendamento de atualização. Recomendamos uma atualização agendada entre uma e duas semanas.
 
 ## <a name="troubleshooting"></a>Solução de problemas
 

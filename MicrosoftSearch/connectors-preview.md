@@ -12,47 +12,28 @@ search.appverid:
 - MET150
 - MOE150
 description: Saiba mais sobre a visualização de conectores do Microsoft Graph para o Microsoft Search.
-ms.openlocfilehash: 81d169074a316b6ab07f47156e0f057e50c12e3e
-ms.sourcegitcommit: 988c37610e71f9784b486660400aecaa7bed40b0
+ms.openlocfilehash: 592e108fe0333e4faf8ff2e4618f9d5216847b8a
+ms.sourcegitcommit: 59cdd3f0f82b7918399bf44d27d9891076090f4f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47422888"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "49367663"
 ---
-# <a name="microsoft-graph-connectors-preview"></a>Visualização de conectores do Microsoft Graph
+# <a name="microsoft-graph-connectors-preview-release-and-features"></a>Versão e recursos do Microsoft Graph Connector Preview
 
-Os conectores do Microsoft Graph e as APIs de pesquisa da Microsoft (consulta e índice) estão atualmente no status de visualização. Para obter acesso à funcionalidade de conectores, você deve ativar a opção de lançamento direcionado no locatário. Esta é uma visualização inicial e não há garantia de nível de serviço. Incentivamos os clientes a experimentar a funcionalidade de conectores e a fornecer comentários. Não recomendamos o uso de conectores para fins de produção durante o período de visualização.
+Agora, os conectores do Microsoft Graph e as APIs de pesquisa da Microsoft estão disponíveis. A distribuição inicial será para os clientes configurados para lançamento direcionado. Após a conclusão da distribuição para todos os locatários, o índice de utilização de cota de conectores ficará sujeito à cobrança. Veja [requisitos de licenciamento e preços](licensing.md) para obter mais informações.
 
 ## <a name="set-up-targeted-release"></a>Configurar lançamento direcionado
 
-Para experimentar os conectores, você deve ter a opção de **lançamento direcionada** definida para todos os usuários em sua organização. Para saber mais sobre a opção de lançamento direcionado e como configurá-la, confira [configurar as opções de lançamento padrão ou direcionadas no Office 365](https://docs.microsoft.com/office365/admin/manage/release-options-in-office-365?view=o365-worldwide).
+Se você quiser usar conectores de gráfico em seu locatário durante a distribuição, você deve optar pelo lançamento direcionado. Para saber mais sobre a opção de lançamento direcionado e como configurá-la, confira [configurar as opções de lançamento padrão ou direcionadas no Office 365](https://docs.microsoft.com/office365/admin/manage/release-options-in-office-365?view=o365-worldwide).
 
-## <a name="choose-a-preview-environment"></a>Escolha um ambiente de visualização
+## <a name="preview-features"></a>Recursos de visualização
 
-Para testar os conectores, as APIs de indexação e as APIs de pesquisa, recomendamos estes dois métodos:
+Embora os conectores do Microsoft Graph e as APIs de pesquisa da Microsoft agora estejam disponíveis em geral, há vários recursos que permanecerão em visualização.
 
-1. **Testar locatário**.  Recomendamos que você use um locatário de teste para experimentar a visualização dos conectores do Microsoft Graph.
+O conjunto de conectores e recursos na visualização incluem:
 
-2. **Conjunto de sites de teste**. Se você não tem um locatário de teste, pode criar um conjunto de sites de teste para experimentar a funcionalidade de conectores. Para mostrar resultados de conectores sem afetar as páginas de pesquisa em qualquer outra parte da sua organização, personalize a experiência de pesquisa apenas desse conjunto de sites.
-
-## <a name="preview-limitations"></a>Limitações de visualização
-
-A versão prévia tem as seguintes limitações:
-
-* O throughput da inclusão é limitado em cerca de quatro itens por segundo.
-
-* Não há suporte para atualizações de esquema. Após criar uma configuração de conexão, não há como atualizar o esquema. Você só pode excluir e recriar a conexão.
-
-* O conteúdo indexado aparece na página de resultados de pesquisa em uma vertical personalizada. Essa restrição se aplica ao conteúdo com tipos personalizados.
-
-* Qualquer conexão que você configurar durante o período de visualização talvez precise ser excluída e recriada. Essas conexões não funcionarão mais se não forem compatíveis com as alterações feitas para melhorar o produto.
-
-* Há um limite de conexões. Cada locatário pode criar até 10 conexões.
-
-* Tamanho do repositório de origem. Recomendamos que você visualize os conectores com um repositório de origem de cerca de 200.000 itens, já que esse é nosso limite de escala de pesquisa testada. Estamos trabalhando para melhorar o desempenho da pesquisa e esperamos oferecer suporte para tamanhos de repositório maiores em um futuro próximo.
-
-* Editar o suporte para conexão não está disponível. Depois que a conexão tiver sido criada, você não poderá editá-la ou alterá-la. Se for necessário alterar os detalhes, você deverá excluir e recriar a conexão.
-
-* O conteúdo do conector só pode ser pesquisado em verticais personalizadas.
-
-* O conteúdo do conector de apenas uma conexão pode ser exibido em cada vertical personalizada e requer a criação do tipo de resultado.
+* [Conector DevOps do Azure](azure-devops-connector.md)
+* [Conector do Salesforce](salesforce-connector.md)
+* [Conector do ServiceNow](servicenow.md) com permissões de pesquisa que usam ACLs de origem
+* [Gerenciar o cluster de resultados](result-cluster.md)
