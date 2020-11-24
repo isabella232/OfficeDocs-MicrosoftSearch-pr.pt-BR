@@ -17,7 +17,7 @@
 ## Conectores de gráfico da Microsoft
 ### [Visão geral da configuração](configure-connector.md)
 ### [Configurar o Agente local (visualização)](on-prem-agent.md)
-### [Mapear as Identidades que não do Azure AD (visualização)](map-non-add)
+### [Mapear as Identidades que não do Azure AD (visualização)](map-non-aad.md)
 ### [Mapear as Identidades do Azure AD ](map-aad.md)
 ### Informações específicas do conector
 #### [Azure Data Lake Storage Gen2](azure-data-lake-connector.md)
@@ -26,6 +26,7 @@
 #### [Sites empresariais](enterprise-web-connector.md)
 #### [Compartilhamento de arquivo (visualização)](fileshare-connector.md)
 #### [MediaWiki](mediawiki-connector.md)
+#### [Oracle SQL (visualização)](OracleSQL-connector.md)
 #### [Salesforce (visualização)](salesforce-connector.md)
 #### [ServiceNow](servicenow-connector.md)
 ## [Gerenciar conexões](manage-connector.md)
