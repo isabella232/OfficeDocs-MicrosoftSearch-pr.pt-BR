@@ -1,5 +1,5 @@
 ---
-title: Microsoft SQL Server e Azure SQL Connector para Microsoft Search
+title: Oracle SQL Connector para Microsoft Search
 ms.author: vivg
 author: Vivek
 manager: harshkum
@@ -12,51 +12,29 @@ search.appverid:
 - MET150
 - MOE150
 description: Configurar o Oracle SQL Connector para o Microsoft Search.
-ms.openlocfilehash: 118e073f355d2ce06e63745efbf5d090ba61d582
+ms.openlocfilehash: cf7946533b3806bb730cdc6a31f7745ebad2c59d
 ms.sourcegitcommit: ac4e261c01262be747341f810d2d1faf220d3961
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 11/23/2020
-ms.locfileid: "49382592"
+ms.locfileid: "49382662"
 ---
-# <a name="azure-sql-and-microsoft-sql-server-connectors"></a>Azure SQL e conectores do Microsoft SQL Server
+# <a name="oracle-sql-connector"></a>SQL Connector do Oracle
 
-Com o Microsoft SQL Server ou o Azure SQL Connector, sua organização pode descobrir e indexar dados de um banco de dados do SQL Server local ou de um banco de dados hospedado em sua instância do Azure SQL na nuvem. O conector indexa o conteúdo especificado na pesquisa da Microsoft. Para manter o índice atualizado com os dados de origem, ele oferece suporte a rastreamentos completos e incrementais periódicos. Com esses conectores SQL, você também pode restringir o acesso aos resultados de pesquisa de determinados usuários.
+Com o Oracle SQL Connector, sua organização pode descobrir e indexar dados de um banco de dados Oracle local. O conector indexa o conteúdo especificado na pesquisa da Microsoft. Para manter o índice atualizado com os dados de origem, ele oferece suporte a rastreamentos completos e incrementais periódicos. Com o SQL Connector do Oracle, você também pode restringir o acesso aos resultados de pesquisa de determinados usuários.
 
-Este artigo é para os administradores do Microsoft 365 ou qualquer pessoa que configure, execute e monitore o Microsoft SQL Server ou o Azure SQL Connector. Ele explica como configurar seus recursos de conector e conector, limitações e técnicas de solução de problemas. 
+Este artigo é para os administradores do Microsoft 365 ou qualquer pessoa que configure, execute e monitore um SQL Server Connector Oracle. Ele explica como configurar seus recursos de conector e conector, limitações e técnicas de solução de problemas.
 
-## <a name="install-the-graph-connector-agent-required-for-on-premises-microsoft-sql-server-connector-only"></a>Instalar o agente do conector do Graph (necessário somente para o conector local do Microsoft SQL Server)
+## <a name="install-the-graph-connector-agent"></a>Instalar o agente do conector do Graph
 Para acessar seus dados de terceiros locais, você deve instalar e configurar o agente do conector do Graph. Confira [instalar o agente do conector do Graph](on-prem-agent.md) para saber mais.  
 
-## <a name="register-an-app-for-azure-sql-connector-only"></a>Registrar um aplicativo (somente para o Azure SQL Connector)
-Para o Azure SQL Connector, você deve registrar um aplicativo no Azure Active Directory para permitir que o aplicativo de pesquisa da Microsoft acesse dados para indexação. Para saber mais sobre como registrar um aplicativo, consulte a documentação do Microsoft Graph sobre como [registrar um aplicativo](https://docs.microsoft.com/graph/auth-register-app-v2). 
-
-Após concluir o registro do aplicativo e anotar o nome do aplicativo, a ID do aplicativo (cliente) e a ID do locatário, você precisará [gerar um novo segredo do cliente](https://docs.microsoft.com/azure/healthcare-apis/register-confidential-azure-ad-client-app#application-secret). O segredo do cliente será exibido apenas uma vez. Lembre-se de anotar & armazenar o segredo do cliente com segurança. Use a ID do cliente e o segredo do cliente ao configurar uma nova conexão no Microsoft Search. 
-
-Para adicionar o aplicativo registrado ao seu banco de dados SQL do Azure, você precisa:
- - Faça logon no seu BD SQL do Azure
- - Abrir uma nova janela de consulta
- - Crie um novo usuário executando o comando "criar usuário [nome do aplicativo] do provedor externo"
- - Adicionar usuário à função executando o comando "exec sp_addrolemember ' db_datareader ', [App Name] ' ou ' ALTER ROLE db_datareader ADD MEMBER [App Name] '
-
->[!NOTE]
->Para revogar o acesso a qualquer aplicativo registrado no Azure Active Directory, consulte a documentação do Azure sobre como [remover um aplicativo registrado](https://docs.microsoft.com/azure/active-directory/develop/quickstart-remove-app).
-
 ## <a name="connect-to-a-data-source"></a>Conectar-se a uma fonte de dados
-Para conectar o Microsoft SQL Server Connector a uma fonte de dados, você deve configurar o servidor de banco de dados que deseja rastrear e o agente local. Em seguida, você pode se conectar ao banco de dados com o método de autenticação necessário.
+Para conectar seu SQL Connector do Oracle a uma fonte de dados, você deve configurar o servidor de banco de dados que deseja rastrear e o agente de conector de gráfico local. Em seguida, você pode se conectar ao banco de dados com o método de autenticação necessário.
+
+Para o Oracle SQL Connector, você precisa especificar o nome do host, a porta e o nome do serviço (banco de dados), juntamente com o método de autenticação preferencial, o nome de usuário e a senha.
 
 > [!NOTE]
-> Seu banco de dados deve executar o SQL Server versão 2008 ou posterior para que o Microsoft SQL Server Connector possa se conectar.
-
-Para o Azure SQL Connector, você só precisa especificar o nome do servidor ou o endereço IP ao qual você deseja se conectar. O Azure SQL Connector só oferece suporte à autenticação do Azure Active Directory Open ID Connect (OIDC) para se conectar ao banco de dados.
-
-Para obter segurança adicional, você pode configurar regras de firewall IP para seu banco de dados ou SQL Server do Azure. Para saber mais sobre como configurar regras de firewall IP, consulte a documentação sobre [regras de firewall de IP](https://docs.microsoft.com/azure/azure-sql/database/firewall-configure). Adicione os seguintes intervalos de IP de cliente nas configurações de firewall.
-
-| Região | Intervalo de IP |
-| ------------ | ------------ |
-| NAM | 52.250.92.252/30, 52.224.250.216/30 |
-| EUR | 20.54.41.208/30, 51.105.159.88/30 |
-| APC | 52.139.188.212/30, 20.43.146.44/30 |
+> Seu banco de dados deve executar o Oracle Database versão 11g ou posterior para que o conector possa se conectar. O conector suporta o banco de dados Oracle hospedado nas plataformas Windows, Linux e VM do Azure.
 
 Para pesquisar seu conteúdo de banco de dados, você deve especificar consultas SQL ao configurar o conector. Essas consultas SQL precisam nomear todas as colunas do banco de dados que você deseja indexar (ou seja, propriedades de origem), incluindo quaisquer junções SQL que precisam ser executadas para obter todas as colunas. Para restringir o acesso aos resultados da pesquisa, você deve especificar listas de controle de acesso (ACLs) em consultas SQL ao configurar o conector.
 
@@ -84,17 +62,16 @@ O uso de cada uma das colunas ACL na consulta acima é descrita abaixo. A lista 
 ![Dados de exemplo mostrando as propriedades Ordertable e AclTable com exemplo](media/MSSQL-ACL1.png)
 
 ### <a name="supported-data-types"></a>Tipos de dados com suporte
-A tabela a seguir resume os tipos de dados SQL que são compatíveis com o MS SQL e o Azure SQL Connectors. A tabela também resume o tipo de dados de indexação para o tipo de dados SQL suportado. Para saber mais sobre os tipos de dados compatíveis com conectores do Microsoft Graph para indexação, consulte a documentação sobre [tipos de recurso de propriedade](https://docs.microsoft.com/graph/api/resources/property?view=graph-rest-beta#properties). 
+A tabela a seguir resume os tipos de dados suportados pelo SQL Connector do Oracle. A tabela também resume o tipo de dados de indexação para o tipo de dados SQL suportado. Para saber mais sobre os tipos de dados compatíveis com conectores do Microsoft Graph para indexação, consulte a documentação sobre [tipos de recurso de propriedade](https://docs.microsoft.com/graph/api/resources/property?view=graph-rest-beta#properties). 
 
 | Categoria | Tipo de dados de origem | Tipo de dados de indexação |
 | ------------ | ------------ | ------------ |
-| Data e hora | data <br> datetime <br> datetime2 <br> smalldatetime | datetime |
-| Numérico exato | bigint <br> int <br> smallint <br> tinyint | Int64 |
-| Numérico exato | bits | booliano |
-| Numérico aproximado | flutuação <br> realizada | double |
-| Conjunto de caracteres | Char <br> varchar <br> texto | string |
-| Cadeias de caracteres Unicode | nchar <br> nvarchar <br> ntext | string |
-| Outros tipos de dados | identificador | string |
+| Tipo de dados número | NÚMERO (p, 0) | Int64 (para p <= 18) <br> Double (para p > 18) |
+| Tipo de dados numéricos de ponto flutuante | NÚMERO (p, s) <br> FLUTUAr (p) | double |
+| Tipo de dados de data | DATA <br> REGISTRA <br> CARIMBO de data/hora (n) | datetime |
+| Tipo de dados character | CHAR (n) <br> VARCHAR <br> VARCHAR2 <br> Longas <br> CLOB <br> NCLOB | string |
+| Tipo de dados de caractere Unicode | NCHAR <br> NVARCHAR | string |
+| Tipo de dados de RowID | ROWID <br> UROWID | string |
 
 Para qualquer outro tipo de dados atualmente não suportado, a coluna precisa ser explicitamente convertida para um tipo de dados com suporte.
 
@@ -102,8 +79,8 @@ Para qualquer outro tipo de dados atualmente não suportado, a coluna precisa se
 Para evitar a sobrecarga do banco de dados, o conector batche e retoma consultas de rastreamento completo com uma coluna de marca d' água de rastreamento completo. Usando o valor da coluna watermark, cada lote subsequente é buscado e a consulta é retomada do último ponto de verificação. Essencialmente, este é um mecanismo para controlar a atualização de dados para rastreamentos completos.
 
 Criar trechos de consulta para marcas d' água, conforme mostrado nestes exemplos:
-* `WHERE (CreatedDateTime > @watermark)`. Cite o nome da coluna da marca d' água com a palavra-chave reservada `@watermark` . Se a ordem de classificação da coluna de marca d' água for crescente, use `>` ; caso contrário, use `<` .
-* `ORDER BY CreatedDateTime ASC`. Classifique na coluna de marca d' água em ordem crescente ou decrescente.
+* `WHERE (CreatedDateTime > @watermark)`. Cite o nome da coluna da marca d' água com a palavra-chave reservada `@watermark` . Só é possível classificar a coluna de marca d' água em ordem crescente.
+* `ORDER BY CreatedDateTime ASC`. Classifique na coluna de marca d' água em ordem crescente.
 
 Na configuração mostrada na imagem a seguir, `CreatedDateTime` é a coluna de marca d' água selecionada. Para buscar o primeiro lote de linhas, especifique o tipo de dados da coluna de marca d' água. Nesse caso, o tipo de dados é `DateTime` .
 
@@ -138,13 +115,27 @@ Os componentes da imagem a seguir são semelhantes aos componentes de rastreamen
 ## <a name="manage-search-permissions"></a>Gerenciar permissões de pesquisa 
 Você pode optar por usar as [ACLs especificadas na tela de rastreamento completo](#full-crawl-manage-search-permissions) ou pode substituí-las para tornar o conteúdo visível para todos.
 
+## <a name="set-the-refresh-schedule"></a>Definir o agendamento de atualização
+O Oracle SQL Connector suporta agendas de atualização para rastreamentos completos e incrementais. Recomendamos que você defina ambas.
+
+Um cronograma de rastreamento completo localiza linhas excluídas que foram previamente sincronizadas com o índice de pesquisa da Microsoft e quaisquer linhas que foram movidas para o filtro de sincronização. Quando você se conecta ao banco de dados pela primeira vez, um rastreamento completo é executado para sincronizar todas as linhas recuperadas da consulta de rastreamento completo. Para sincronizar novas linhas e fazer atualizações, você precisa agendar rastreamentos incrementais.
+
 ## <a name="next-steps-customize-the-search-results-page"></a>Próximas etapas: personalizar a página de resultados de pesquisa
 Crie seus próprios tipos de resultados e verticais para que os usuários finais possam exibir os resultados de pesquisa de novas conexões. Sem esta etapa, os dados da sua conexão não aparecerão na página de resultados da pesquisa.
 
 Para saber mais sobre como criar seus verticais e MRTs, confira [personalização da página de resultados da pesquisa](customize-search-page.md).
 
 ## <a name="limitations"></a>Limitações
-Os conectores SQL têm estas limitações na versão prévia:
-* Microsoft SQL Server Connector: o banco de dados local deve executar o SQL Server versão 2008 ou posterior.
+O Oracle SQL Connector tem essas limitações na versão prévia:
+* O banco de dados local deve executar o Oracle Database versão 11g ou posterior.
 * As ACLs só são compatíveis com o uso de um UPN (nome principal de usuário), do Azure Active Directory (Azure AD) ou da segurança do Active Directory. 
 * Não há suporte para indexação de conteúdo avançado nas colunas do banco de dados. Exemplos desse tipo de conteúdo são HTML, JSON, XML, BLOBs e análises de documento que existem como links dentro das colunas do banco de dados.
+
+## <a name="troubleshooting-guide"></a>Guia de solução de problemas
+Abaixo está uma lista de erros comuns observados durante a configuração do conector e seus possíveis motivos.
+| Etapa de configuração | Mensagem de erro | Possível motivo (s) |
+| ------------ | ------------ | ------------ |
+| Configurações do banco de dados | Erro do servidor de banco de dados: a solicitação de conexão atingiu o tempo limite | Nome de host inválido <br> Host inacessível |
+| Configurações do banco de dados | Erro do servidor de banco de dados: ORA-12541: TNS: não listner | Porta inválida |
+| Configurações do banco de dados | Erro do servidor de banco de dados: ORA-12514: TNS: o listner não está ciente de serviço solicitado no descritor de conector | Nome de serviço (banco de dados) inválido |
+| Configurações do banco de dados | Erro do servidor de banco de dados: falha de logon para o usuário ' `user` '. | Nome de usuário ou senha inválido |

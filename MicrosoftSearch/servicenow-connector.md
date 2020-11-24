@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Configurar o conector do ServiceNow para pesquisa da Microsoft
-ms.openlocfilehash: 5bcc0870df7c2ad418bb2ae29e9d4d999dcbdf3f
-ms.sourcegitcommit: 59cdd3f0f82b7918399bf44d27d9891076090f4f
+ms.openlocfilehash: 520232f8055d5432ccb96a840a9466ae6a4e3b1a
+ms.sourcegitcommit: ac4e261c01262be747341f810d2d1faf220d3961
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "49367591"
+ms.lasthandoff: 11/23/2020
+ms.locfileid: "49382556"
 ---
 # <a name="servicenow-connector"></a>Conector do ServiceNow
 
@@ -171,6 +171,9 @@ Com uma cadeia de caracteres de consulta do ServiceNow, você pode especificar c
 O conector do ServiceNow oferece suporte a permissões de pesquisa visíveis para **todos** ou **apenas pessoas com acesso a essa fonte de dados**. Dados indexados aparecem nos resultados da pesquisa e são visíveis para todos os usuários da organização ou usuários que tenham acesso a eles, respectivamente. O conector do ServiceNow oferece suporte a permissões de critérios de usuário padrão sem scripts avançados. Quando o conector encontra um critério de usuário com script avançado, todos os dados que usam esses critérios de usuário não serão mostrados nos resultados da pesquisa.
 
 Se você escolher **apenas as pessoas com acesso a essa fonte de dados**, será necessário escolher se sua instância do ServiceNow tem usuários provisionados do Azure Active Directory (AAD) ou usuários não-AAD.
+
+>[!NOTE]
+>O conector do ServiceNow está em versão **prévia** se você escolher **apenas pessoas com acesso a essa fonte de dados**.
 
 >[!NOTE]
 >Se você escolher AAD como o tipo de fonte de identidade, certifique-se de atribuir a propriedade de fonte de UPN à propriedade de destino de email no ServiceNow. Para verificar ou alterar seus mapeamentos, confira [Personalizando o atributo de provisionamento do usuário-mapeamentos para aplicativos SaaS no Azure Active Directory](https://docs.microsoft.com/azure/active-directory/app-provisioning/customize-application-attributes).
