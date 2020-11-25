@@ -11,13 +11,13 @@ search.appverid:
 - BFB160
 - MET150
 - MOE150
-description: Configurar o Oracle SQL Connector para o Microsoft Search.
-ms.openlocfilehash: 118e073f355d2ce06e63745efbf5d090ba61d582
-ms.sourcegitcommit: ac4e261c01262be747341f810d2d1faf220d3961
+description: Configurar o Microsoft SQL Connector para o Microsoft Search.
+ms.openlocfilehash: 412f7979e6e76b68828124a2984aabd3b4ed5f42
+ms.sourcegitcommit: 69a1c544cc8db364991cb58d7818d7158ff108b8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/23/2020
-ms.locfileid: "49382592"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "49408947"
 ---
 # <a name="azure-sql-and-microsoft-sql-server-connectors"></a>Azure SQL e conectores do Microsoft SQL Server
 

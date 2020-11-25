@@ -11,13 +11,14 @@ search.appverid:
 - BFB160
 - MET150
 - MOE150
+ROBOTS: NoIndex
 description: Agente local
-ms.openlocfilehash: 30ddf0ac8c6df76d1c598606754066b3d2e93615
-ms.sourcegitcommit: 59cdd3f0f82b7918399bf44d27d9891076090f4f
+ms.openlocfilehash: 487c5b179e09fd99fa26ae7a237e89ca38b7be4d
+ms.sourcegitcommit: 69a1c544cc8db364991cb58d7818d7158ff108b8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "49367713"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "49408938"
 ---
 # <a name="on-prem-agent"></a>Agente local
 
@@ -59,7 +60,7 @@ Depois de criar o aplicativo para o agente do, você deve configurar o agente co
 
 Os detalhes de autenticação podem ser fornecidos em um dos formatos a seguir.
 
-### <a name="configuring-the-client-secret-for-authentation"></a>Configurando o segredo do cliente para o authentation
+### <a name="configuring-the-client-secret-for-authentication"></a>Configurando o segredo do cliente para autenticação
 
 1. Vá para o [portal do Azure](https://portal.azure.com) e entre com as credenciais de administrador do locatário.
 2. Abra o **registro de aplicativos** no painel de navegação e vá para o aplicativo apropriado. Em **gerenciar**, selecione **certificados e segredos**.
@@ -68,7 +69,7 @@ Os detalhes de autenticação podem ser fornecidos em um dos formatos a seguir.
 
 ## <a name="using-thumbprint-certificate-for-authentication"></a>Usando o certificado de impressão digital para autenticação
 
-Se você já configurou os detalhes de autenticação seguindo [a configuração do segredo do cliente para o authentation](#Configuring-the-client-secret-for-authentication) , poderá ir direto para a [visão geral da instalação](configure-connector.md).
+Se você já configurou os detalhes de autenticação seguindo [a configuração do segredo do cliente para autenticação](#configuring-the-client-secret-for-authentication) , poderá ir diretamente para a [visão geral da configuração](configure-connector.md).
 
 1. Abra o **registro do aplicativo** e selecione **certificados e segredos** no painel de navegação. Copie a impressão digital do certificado.
 ![Lista de certificados do thumbrint quando os certificados e segredos são selecionados no painel esquerdo](media/onprem-agent/certificates.png)
