@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Gerenciar conectores do Microsoft Graph para o Microsoft Search.
-ms.openlocfilehash: a9b3feff3a5c289fef3f5091518d074970209b9d
-ms.sourcegitcommit: 59cdd3f0f82b7918399bf44d27d9891076090f4f
+ms.openlocfilehash: 04ae757e95c6d3713ad03da701f99c669fb2a59c
+ms.sourcegitcommit: 0ed8ec8b3c4e0f5f669005081fd8b2219f07b4f0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "49367672"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "49420838"
 ---
 <!-- markdownlint-disable no-inline-html -->
 
@@ -31,7 +31,7 @@ Navegue até a [guia conectores](https://admin.microsoft.com/Adminportal/Home#/M
 
 Para cada tipo de conector, o [centro de administração do Microsoft 365](https://admin.microsoft.com) suporta as operações mostradas na tabela a seguir:
 
-Operation | Conector integrado da Microsoft | Parceiro ou conector criado de forma personalizada
+Operação | Conector integrado da Microsoft | Parceiro ou conector criado de forma personalizada
 --- | --- | ---
 Adicionar uma conexão | : heavy_check_mark: (consulte [Configurar o conector integrado da Microsoft](configure-connector.md)) | : x: (consulte seu parceiro ou UX de administração de conector criado para personalizar)
 Excluir uma conexão | :heavy_check_mark: | :heavy_check_mark:
@@ -92,6 +92,7 @@ Código de erro | Mensagem de erro | Solução
 2001 | A indexação é limitada por causa de um grande número de atualizações na fila. Dependendo da fila, pode levar algum tempo para que as atualizações sejam concluídas. | Aguarde até que a fila seja limpa.
 2002 | Falha na indexação devido à formatação de item sem suporte. | Consulte a documentação específica do conector para obter mais informações.
 2003 | Falha na indexação devido a conteúdo do item não suportado. | Consulte a documentação específica do conector para obter mais informações.
+2010 | Esta conexão não é mais válida por causa de uma atualização feita pela Microsoft. Exclua a conexão e crie uma nova. | Exclua a conexão e crie uma nova.
 5000 | Algo deu errado. Se isso persistir, entre em contato com o suporte. |
 
 ## <a name="monitor-your-index-quota-utilization"></a>Monitorar a utilização de cota de índice
