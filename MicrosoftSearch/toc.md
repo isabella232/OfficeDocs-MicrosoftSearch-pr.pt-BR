@@ -2,7 +2,7 @@
 ## [Visão geral](overview-microsoft-search.md)
 ## [Configurar](setup-microsoft-search.md)
 ## [Perguntas frequentes](faqs.md)
-# [Obter informações](get-insights.md)
+# [Obter informações](usage-reports.md)
 # Forneça respostas
 ## [Planejar o conteúdo](plan-your-content.md)
 ## [Acrônimos](manage-acronyms.md)
