@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Gerenciar conectores do Microsoft Graph para o Microsoft Search.
-ms.openlocfilehash: 04ae757e95c6d3713ad03da701f99c669fb2a59c
-ms.sourcegitcommit: 0ed8ec8b3c4e0f5f669005081fd8b2219f07b4f0
+ms.openlocfilehash: bf5a382ae0bd8308922599f0dfa9e087aad50c24
+ms.sourcegitcommit: b1ca58219fb16d5aff277f357dfa11ce6b0d42ca
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "49420838"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "49695681"
 ---
 <!-- markdownlint-disable no-inline-html -->
 
@@ -103,7 +103,7 @@ A cota de índice disponível e o consumo são exibidos na página inicial dos c
 
 >[!NOTE]
 >Durante o período de visualização, cada organização que está tentando nos conectores do Graph recebeu uma cota fixa liberada de até 2 milhões itens em todas as conexões. Com conectores de gráfico em geral, a cota livre expirará no dia 1 de fevereiro de 2021 para as organizações que usam conectores gráficos na visualização.
->Os conectores de gráficos criados pela Microsoft rotulados como ["Preview"](connectors-preview.md) não serão incluídos na cota de índice de total cobrado da sua organização. No entanto, ele contará em direção ao número máximo de 10 conexões que você pode configurar para sua organização e o número máximo de 7 milhões itens que sua organização pode indexar entre conexões.
+>Os conectores de gráficos criados pela Microsoft rotulados como ["Preview"](connectors-preview.md) não serão incluídos na cota de índice de total cobrado da sua organização. No entanto, ele contará em direção ao número máximo de 10 conexões que você pode configurar para sua organização e o número máximo de 7 milhões itens que sua organização pode indexar entre conexões; cada conexão tem um limite de 700.000 itens. 
 
 A barra de utilização de cota indicará vários Estados com base no consumo da cota por sua organização:
 
