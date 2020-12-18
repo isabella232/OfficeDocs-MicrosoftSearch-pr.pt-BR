@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Criar e atualizar respostas de acrônimos no Microsoft Search
-ms.openlocfilehash: e328ecb7604a144b51f3a1483eef1b1c3a7e0bcb
-ms.sourcegitcommit: 988c37610e71f9784b486660400aecaa7bed40b0
+ms.openlocfilehash: 9de9de8287e3ddf206f93f53573922f3cf526580
+ms.sourcegitcommit: ad225af81060a2e3d7e4c953eeb6977d54698b60
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47422942"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "49709678"
 ---
 # <a name="manage-acronyms-answers-in-microsoft-search"></a>Gerenciar as respostas de acrônimos no Microsoft Search
 
@@ -100,7 +100,7 @@ A pesquisa da Microsoft garante que apenas usuários com acesso e permissões a 
 
 **P: como os dados de editorial e minados são classificados?**
 
-**A:** O recurso atualmente classifica os acrônimos editoriais acima de acrônimos minados.
+**A:** A classificação dos resultados pode variar de pessoa para pessoa à medida que os resultados são personalizados para cada usuário.
 
 **P: quanto tempo demora para que os acrônimos editoriais fiquem visíveis na pesquisa da Microsoft após serem publicados?**
 
@@ -120,7 +120,7 @@ A pesquisa da Microsoft garante que apenas usuários com acesso e permissões a 
 
 **P: a Microsoft vai minar as acrônimos de documentos em todos os idiomas?**
 
-**A: A**Microsoft dá suporte apenas à mineração de documentos em inglês. O suporte para outros idiomas será adicionado em fases.
+**A: A** Microsoft dá suporte apenas à mineração de documentos em inglês. O suporte para outros idiomas será adicionado em fases.
 
 **P: e se minha organização não quiser mostrar acrônimos minados? Posso parar de mostrar acrônimos minados nos resultados da pesquisa?**
 

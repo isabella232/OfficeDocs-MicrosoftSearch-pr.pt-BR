@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Analisar relatórios de uso do Microsoft Search
-ms.openlocfilehash: f34a82892818f00737d313285e6af7bce7c8a90a
-ms.sourcegitcommit: 3aa3623022270872a2c1ed8b86201c42bc313c1f
+ms.openlocfilehash: 04de0de08423eff1368bc2b77e48d3fc8add038d
+ms.sourcegitcommit: 1d6fcf180f427abf3d8bfa4b8b6129e39f60ceb4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "49675264"
+ms.lasthandoff: 12/18/2020
+ms.locfileid: "49712607"
 ---
 # <a name="microsoft-search-usage-reports"></a>Relatórios de uso do Microsoft Search
 
@@ -30,19 +30,18 @@ Os [relatórios de uso do Microsoft Search](https://admin.microsoft.com/Adminpor
 
 Uma versão anterior desta página incluiu dados de pesquisas executadas para o Microsoft Search no Bing no Bing.com. Esses dados serão integrados nesses relatórios em breve, mas por enquanto, você ainda pode ver esses relatórios clicando no link na parte inferior da página para exibir as **principais consultas e distribuição de impressão do Bing**.
 
-![Painel de relatórios de uso de pesquisa](media/usage-reports/usage_reports_v2.png)
+> [!div class="mx-imgBorder"]
+> ![Painel de relatórios de uso de pesquisa](media/usage-reports/usage_reports_v2.png)
+
 
 ## <a name="overview-of-search-reports"></a>Visão geral dos relatórios de pesquisa
 
-|**Relatório**|**Descrição**|
+| Relatório | Descrição |
 |:-----|:-----|
 |Volume de consulta|Esse relatório mostra o número de consultas de pesquisa executadas. Use este relatório para identificar as tendências de volume da consulta de pesquisa e para determinar os períodos de alta e baixa atividade de pesquisa.|
 |Principais Consultas|Esse relatório mostra as consultas de pesquisa mais populares. Use este relatório para entender quais tipos de informações seus usuários estão pesquisando.|
 |Consultas abandonadas|Este relatório mostra consultas de pesquisa populares que recebem baixo clique. Use esse relatório para identificar consultas de pesquisa que podem levar à insatisfação do usuário e para aprimorar a capacidade de descoberta de conteúdo. Em seguida, você pode determinar se a criação de uma resposta, como um indicador ou a inclusão de novo conteúdo por meio de um conector de gráfico é a ação certa.|
 |Nenhuma consulta de resultados|Esse relatório mostra consultas de pesquisa populares que retornaram sem resultado. Use-o para identificar as consultas que podem criar insatisfação do usuário e aprimorar a capacidade de descoberta do conteúdo. Em seguida, você pode determinar se a criação de uma resposta, como um indicador ou a inclusão de novo conteúdo por meio de um conector de gráfico é a ação certa.|
-
-> [!NOTE]
-> No momento, há um problema com o CTR (taxa de cliques) mostrado para as principais consultas. O valor exibido no painel é 100 vezes maior do que o valor real. Para obter o CTR real, divida o número no painel por 100 ou use o botão baixar para obter o relatório no Excel onde o valor é exibido corretamente.
 
 ## <a name="viewing-reports"></a>Exibindo relatórios
 
@@ -54,9 +53,9 @@ Para exibir as principais consultas e relatórios de distribuição de impressã
 
 ## <a name="frequently-asked-questions"></a>Perguntas frequentes
 
-**Quando selecionou 31 dias ou últimos 12 meses, por que eu preciso escolher um dia específico ou mês específico, respectivamente.**
+**Quando selecionou 31 dias ou últimos 12 meses, por que eu preciso escolher um dia específico ou mês específico.**
 
-O modo de exibição calendário hoje nos relatórios de uso do Microsoft Search é um processo de duas etapas. Primeiro, selecione o intervalo de datas na lista suspensa (últimos 31 dias ou últimos 12 meses) e selecione o dia ou mês de início.
+O modo de exibição calendário, hoje, nos relatórios de uso do Microsoft Search é um processo de duas etapas. Primeiro, selecione o intervalo de datas na lista suspensa (últimos 31 dias ou últimos 12 meses) e selecione o dia ou mês de início.
 
 As tabelas de consulta superior, abandonadas e com falha mostram os resultados do dia ou mês que você escolher.
 
