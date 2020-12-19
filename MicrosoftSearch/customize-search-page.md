@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Adicionar verticais de pesquisa e personalizar os resultados da pesquisa
-ms.openlocfilehash: 8522a6daf05b718ee6a066272da181be6e95905e
-ms.sourcegitcommit: 59cdd3f0f82b7918399bf44d27d9891076090f4f
+ms.openlocfilehash: edc541e902965472295a835906ef36fcd7fba730
+ms.sourcegitcommit: e1215758fd1325526e4b7b1612c3349137c6fbc3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "49367483"
+ms.lasthandoff: 12/18/2020
+ms.locfileid: "49716981"
 ---
 # <a name="customize-the-search-results-page"></a>Personalizar a página de resultados de pesquisa
 
@@ -116,13 +116,13 @@ Depois de iniciar o assistente, você é orientado pelas etapas para definir o n
 
 ## <a name="step-3-view-the-vertical-after-its-enabled"></a>ETAPA 3: exibir a vertical após a habilitação
 
-Depois de habilitar a vertical, poderá demorar um pouco antes de poder visualizá-la. Se você não quiser esperar após habilitá-lo, é possível acrescentar **cacheClear = true** à URL no [SharePoint](https://sharepoint.com/) e no [Office](https://office.com) para exibir a vertical imediatamente.
+Depois de habilitar a vertical, poderá demorar um pouco antes de poder visualizá-la. Se você não quiser esperar após habilitá-lo, é possível acrescentar **cacheClear = true** à URL no [SharePoint](https://sharepoint.com/) e no [Office](https://office.com) para exibir a vertical imediatamente. Para [Bing](https://bing.com), acrescente **&Features = uncachedVerticals** à URL vertical do trabalho para exibir as verticais imediatamente. 
 
 ## <a name="troubleshooting"></a>Solução de problemas
 
 Veja a seguir uma lista de problemas comuns que você pode encontrar e ações para corrigi-los.
 
-|Error  |Action  |
+|Erro  |Ação  |
 |---------|---------|
 | Vejo uma mensagem de erro "algo deu errado" na vertical. | Os tipos vertical e resultado são necessários para concluir a configuração. Verifique se você criou ambos para a mesma fonte de conteúdo. |
 | Não vejo o layout do resultado, embora eu tenha criado um. | Isso leva alguns minutos porque essas configurações geralmente são armazenadas em cache. Aguarde alguns minutos e tente novamente.        |
