@@ -1,8 +1,8 @@
 ---
 title: Gerenciar as respostas de acrônimo no Microsoft Search
-ms.author: jeffkizn
-author: jeffkizn
-manager: parulm
+ms.author: rakkum
+author: rakeshMSFT
+manager: jeffkizn
 ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Criar e atualizar respostas de acrônimos no Microsoft Search
-ms.openlocfilehash: 9de9de8287e3ddf206f93f53573922f3cf526580
-ms.sourcegitcommit: ad225af81060a2e3d7e4c953eeb6977d54698b60
+ms.openlocfilehash: ff79e3d741e10d401873c29d86739e61c9f53329
+ms.sourcegitcommit: e6ceb07cae208648dadd5452a077414ab5a4513f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49709678"
+ms.lasthandoff: 12/22/2020
+ms.locfileid: "49728002"
 ---
 # <a name="manage-acronyms-answers-in-microsoft-search"></a>Gerenciar as respostas de acrônimos no Microsoft Search
 
@@ -48,21 +48,21 @@ No [centro de administração do Microsoft 365](https://admin.microsoft.com), v�
 
 O Microsoft Search consulta duas fontes de dados para fornecer respostas de acrônimos às pesquisas dos usuários:
 
-1. **Acrônimos editoriais**. Fornecido por administradores de ti no [centro de administração](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/acronyms).
-2. **Acrônimos minados**. O Microsoft Search dos emails e dos documentos pessoais do usuário e dos dados publicamente disponíveis dentro da organização.
+1. **Administração-organizada**. Fornecido por administradores de ti no [centro de administração](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/acronyms).
+2. **De sistema-organizada**. Descoberto pela Microsoft Search de emails e documentos de usuários e dados publicamente disponíveis dentro da organização.
 
-### <a name="set-up-editorial-acronyms"></a>Configurar acrônimos editoriais
+### <a name="set-up-admin-curated-acronyms"></a>Configurar acrônimos auxiliares de administrador
 
-Os administradores de pesquisa podem configurar acrônimos editoriais na [guia acrônimos](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/acronyms) no  [centro de administração de pesquisa da Microsoft](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch). Você pode adicionar acrônimos de qualquer site ou repositório interno ao centro de administração. Acrônimos editoriais podem ser adicionados ao estado **publicado** ou de **rascunho** :
+Os administradores de pesquisa podem adicionar acrônimos à [guia acrônimos](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/acronyms) no  [centro de administração de pesquisa da Microsoft](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch). Você pode adicionar acrônimos de qualquer site ou repositório interno ao centro de administração. Esses acrônimos podem ser adicionados ao estado **publicado** ou de **rascunho** :
 
-**Estado publicado**. Os acrônimos estão disponíveis para os funcionários da organização através da pesquisa da Microsoft.
+**Estado publicado**. Os acrônimos estão disponíveis para os usuários da organização através da pesquisa da Microsoft.
 
 > [!NOTE]
 > Pode levar até três dias para que os acrônimos adicionados ao estado publicado fiquem disponíveis no Microsoft Search.
 
-**Estado de rascunho**. Se os administradores desejarem revisar as respostas de acrônimos antes de disponibilizá-las no Microsoft Search, poderão adicionar os acrônimos ao estado de rascunho. Os acrônimos adicionados ao estado de rascunho não estão disponíveis no Microsoft Search. Os administradores precisam adicionar os acrônimos ao estado publicado para torná-los disponíveis.
+**Estado de rascunho**. Se você deseja revisar um acrônimo antes de disponibilizá-lo no Microsoft Search, você pode adicionar o acrônimo em um estado de rascunho. Os acrônimos no estado rascunho não serão exibidos nos resultados da pesquisa. Você precisará mover o acrônimo para o estado publicado para que ele apareça nos resultados da pesquisa.
 
-Os administradores podem adicionar acrônimos individualmente ou importá-los em massa em um arquivo CSV. Carregue um arquivo CSV com os campos mostrados na tabela a seguir:
+Você pode adicionar acrônimos individualmente ou importá-los em massa em um arquivo CSV. Carregue um arquivo CSV com os campos mostrados na tabela a seguir:
 
 | Sigla (obrigatório) | Expansão (obrigatória) | Descrição  | Origem | Estado (obrigatório) |
 | --------- | --------- | ---------- | --------- |--------- |
@@ -83,26 +83,26 @@ Os administradores podem adicionar acrônimos individualmente ou importá-los em
 - **Rascunho**. Adiciona o acrônimo ao estado de rascunho.
 - **Publicado**. Adiciona a sigla ao estado publicado e a disponibiliza no Microsoft Search.
 
-### <a name="mined-acronyms"></a>Acrônimos minados
+### <a name="system-curated-acronyms"></a>Acrônimos organizados pelo sistema
 
-Pode ser um desafio para os administradores adicionarem todos os acrônimos usados dentro de uma organização para responder. Esse recurso pode encontrar acrônimos que os administradores de pesquisa nem são compatíveis. Para fazer isso, a pesquisa da Microsoft também extrai acrônimos dessas fontes:
+Pode ser um desafio para os administradores adicionarem todos os acrônimos usados dentro de uma organização para responder. Esse recurso pode encontrar acrônimos que os administradores de pesquisa nem são compatíveis. Para fazer isso funcionar, a pesquisa da Microsoft também descobre e busca acrônimos dessas fontes:
 
-- Emails dos usuários.
-- Documentos no [SharePoint](https://products.office.com/sharepoint/collaboration), [Microsoft onedrive]( https://onedrive.live.com/about/)e [Microsoft OneNote](https://www.onenote.com/).
-- Documentos públicos dentro da organização aos quais os usuários têm acesso no SharePoint, no OneDrive ou no OneNote.
+- Emails dos usuários
+- Documentos no [SharePoint](https://products.office.com/sharepoint/collaboration), [Microsoft onedrive]( https://onedrive.live.com/about/)e [Microsoft OneNote](https://www.onenote.com/)
+- Documentos públicos dentro da organização para os quais os usuários têm acesso no SharePoint, OneDrive ou OneNote
 
-A pesquisa da Microsoft garante que apenas usuários com acesso e permissões a um documento possam ver os acrônimos que são minados. Quando um acrônimo é minado da caixa de correio de um usuário, apenas esse usuário pode ver esse acrônimo.
+A pesquisa da Microsoft garante que somente os usuários com acesso e permissões a um documento possam ver os acrônimos descobertos. Quando um acrônimo é encontrado na caixa de correio de um usuário, apenas esse usuário pode ver esse acrônimo.
 
 > [!NOTE]
-> Nenhuma configuração é necessária para acrônimos minados.
+> Nenhuma configuração é necessária para acrônimos auxiliares de administrador.
 
 ## <a name="frequently-asked-questions"></a>Perguntas frequentes
 
-**P: como os dados de editorial e minados são classificados?**
+**P: como os dados de administrador e de sistema são classificados de acordo?**
 
-**A:** A classificação dos resultados pode variar de pessoa para pessoa à medida que os resultados são personalizados para cada usuário.
+**A:** A classificação dos resultados pode variar de pessoa para pessoa à medida que os resultados são personalizados para cada usuário. Nenhuma dessas categorias sempre terá precedência sobre a outra.
 
-**P: quanto tempo demora para que os acrônimos editoriais fiquem visíveis na pesquisa da Microsoft após serem publicados?**
+**P: quanto tempo demora para que os acrônimos auxiliares sejam visíveis na pesquisa da Microsoft após serem publicados?**
 
 **A:**  É necessário até três dias para que os acrônimos adicionados ao estado publicado sejam disponibilizados na pesquisa da Microsoft.
 
@@ -110,19 +110,19 @@ A pesquisa da Microsoft garante que apenas usuários com acesso e permissões a 
 
 **A**: para obter respostas de acrônimos, os usuários devem inserir padrões de consulta específicos em uma caixa de **pesquisa** [Bing](https://bing.com), [SharePoint](https://products.office.com/sharepoint/collaboration)ou [Office 365](https://Office.com) .
 
-**P: quanto tempo leva para que acrônimos minados apareçam após você receber ou enviar um novo email ou documento?**
+**P: quanto tempo leva para que os acrônimos de sistema sejam exibidos depois que você recebe ou envia um novo email ou documento?**
 
-**A:** Os acrônimos minados de um novo email ou documento levam até sete dias para serem exibidos nos resultados da pesquisa da Microsoft.
+**A:** Os acrônimos encontrados em um novo email ou documento levam até sete dias para serem exibidos nos resultados da pesquisa da Microsoft.
 
 **P: os documentos precisam estar em um formato específico para que a mineração os pegue?**
 
 **A:** Não. Oferecemos suporte a todos os tipos de arquivo, exceto imagem, pastas e arquivos zip.
 
-**P: a Microsoft vai minar as acrônimos de documentos em todos os idiomas?**
+**P: a Microsoft descobrirá as abreviações de documentos em todos os idiomas?**
 
 **A: A** Microsoft dá suporte apenas à mineração de documentos em inglês. O suporte para outros idiomas será adicionado em fases.
 
-**P: e se minha organização não quiser mostrar acrônimos minados? Posso parar de mostrar acrônimos minados nos resultados da pesquisa?**
+**P: e se minha organização não quiser mostrar os acrônimos de sistema. Posso parar de mostrar esse tipo de sigla nos meus resultados de pesquisa?**
 
-**A**: para desativar a exibição de acrônimos minados nos resultados da pesquisa, crie um tíquete de suporte ao cliente seguindo as instruções em [contato com o suporte para produtos de negócios](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?redirectSourcePath=%252f%252farticle%252fContact-Office-365-for-business-support-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b&view=o365-worldwide&tabs=online#BKMK_call_support).
-Depois de criar um tíquete de suporte, serão necessários até 48 horas para que os acrônimos minados parem de aparecer nos resultados da pesquisa.
+**A**: para desativar a exibição de acrônimos de sistema não organizados em resultados de pesquisa, crie um tíquete de suporte ao cliente seguindo as instruções em [contato com o suporte para produtos de negócios](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?redirectSourcePath=%252f%252farticle%252fContact-Office-365-for-business-support-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b&view=o365-worldwide&tabs=online#BKMK_call_support).
+Depois de criar um tíquete de suporte, serão necessários até 48 horas para que os acrônimos de sistema separados parem de aparecer nos resultados da pesquisa.
