@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Obtenha uma visão geral da pesquisa da Microsoft, seus benefícios e quais aplicativos dão suporte à pesquisa da Microsoft.
-ms.openlocfilehash: fc21328f9a72ac77e37ae366bd138770509d6080
-ms.sourcegitcommit: d40d44d01b27dfed92577446fe7a30008b28deb4
+ms.openlocfilehash: f06aff0ea0407983a40f60e03337d4ed281a53ad
+ms.sourcegitcommit: d6f8628be8108e6e9d6fb9efb7bd06bc2fcd561d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/28/2020
-ms.locfileid: "43914485"
+ms.lasthandoff: 01/04/2021
+ms.locfileid: "49749382"
 ---
 # <a name="overview-of-microsoft-search"></a>Visão geral da Pesquisa da Microsoft
 
@@ -40,7 +40,7 @@ Quando os usuários clicam na caixa de **pesquisa** , a pesquisa sugere resultad
 
 ![Capturas de tela da caixa do Microsoft Search com uma consulta e resultados sugeridos](media/SERP_text_520.png)
 
-Se as sugestões na caixa de pesquisa não forem quais usuários estão procurando, **Enter** abre a lista completa de resultados. Eles podem usar metadados, como quem modificou o item pela última vez e quando e onde os itens estão localizados, além de visualizá-los para determinar se é o que eles estão procurando.
+Se as sugestões na caixa de pesquisa não forem quais usuários estão procurando, **Enter** abre a lista completa de resultados. Eles podem usar metadados como quem modificou o item pela última vez e quando, onde o item está localizado, além de visualizá-lo para determinar se é o que está procurando.
 
 ![Capturas de tela da página de resultados da Pesquisa da Microsoft](media/search_box.png)
 
