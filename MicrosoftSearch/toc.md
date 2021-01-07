@@ -9,6 +9,7 @@
 ## [Bookmarks](manage-bookmarks.md)
 ## [Plantas baixas](manage-floorplans.md)
 ## [Locais](manage-locations.md)
+## [Power BI](manage-powerbi.md)
 ## [P e R](manage-qas.md)
 # Conectores (visualização)
 ## [Visão geral](connectors-overview.md)
