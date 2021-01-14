@@ -11,29 +11,39 @@ search.appverid:
 - BFB160
 - MET150
 - MOE150
-description: Requisitos de licença para a visualização pública de conectores do Microsoft Graph para o Microsoft Search
-ms.openlocfilehash: 04683a0fe15d4f76286d6637d97345eda57a0330
-ms.sourcegitcommit: 995ce23d4e47a3456a02dba0ba7c9cd0de64528a
+description: Requisitos de licença para a visualização pública dos conectores do Microsoft Graph para a Pesquisa da Microsoft
+ms.openlocfilehash: 4d8c279b948063c713fb0afaf713ab42c9714b54
+ms.sourcegitcommit: 469be70ad295a5837978d75babf5243115257f77
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "48920663"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "49847524"
 ---
 # <a name="license-requirements-and-pricing"></a>Requisitos de licença e preços
 
-Este artigo destina-se a administradores globais ou de cobrança que desejam aprender sobre como adquirir cota de conectores de gráfico adicional para sua organização.
+Este artigo destina-se a administradores globais ou de cobrança que querem saber mais sobre como adquirir cota adicional de conectores do Graph para sua organização.
 
-Você precisa de uma licença válida do Microsoft 365 ou do Office 365 e uma cota de conectores de gráfico suficiente para que sua organização exiba dados de conectores nos resultados da pesquisa. Todos os [conectores de gráficos da Microsoft](configure-connector.md) são gratuitos. No entanto, você precisa ter cota de índice suficiente para incluir o conteúdo desses conectores.
+Qualquer licença válida do Microsoft 365 ou Office 365 permite que você veja dados de conectores nos resultados da pesquisa.
 
-Cada licença do Microsoft 365 ou do Office 365 E5 inclui 500 itens de cota de índice, que se referem à cota da organização para a inclusão de conteúdo de conectores do Graph. Por exemplo, se sua organização tiver 100 Microsoft 365 E5 licenças, então sua organização terá 100 x 500 = 50.000 itens de cota de índice de conectores de gráfico.
-
-Para adquirir a cota de conectores de gráficos adicionais, entre em contato com o gerente de contas da Microsoft ou conclua as seguintes etapas:
-
-1. No menu de navegação do [centro de administração do Microsoft 365](https://admin.microsoft.com) , vá para **serviços de cobrança > compra**.
-2. Na parte inferior da página de serviços de compra, selecione **Complementos**.
-3. Selecione **capacidade adicional do conector do Graph**.
-4. Selecione **comprar** e conclua as preferências de pedidos.
-5. Selecione **fazer check-out agora**.
+Para indexar o conteúdo usando conectores do Graph, você precisa ter cota de índice suficiente. A cota de índice dos conectores do Graph está disponível por meio de:
+- Direitos integrados às licenças do Microsoft 365 ou Office 365 E5
+- Compra da cota de índice do complemento (veja abaixo as instruções de compra)
 
 >[!NOTE]
->Atualmente, os conectores de gráfico só dão suporte a 7 milhões itens da cota de índice total, que inclui qualquer cota interna incluída em licenças do Microsoft 365 ou Office 365 e5. A plataforma dará suporte a limites mais altos no futuro. Entre em contato com o suporte da Microsoft ou com seu gerente de contas da Microsoft se tiver alguma dúvida.
+>Todos os conectores do Graph pela Microsoft são gratuitos. No entanto, você precisa ter cota de índice suficiente para ingerir conteúdo desses conectores.
+
+O tipo de licença a seguir inclui direito a 500 itens de cota de índice, o que conta para a cota da sua organização para inclusão de conteúdo de conectores do Graph.
+- Microsoft 365 E5 ou Office 365 E5
+
+Por exemplo, se sua organização tiver 100 licenças do Microsoft 365 E5, sua organização terá 100 x 500 = 50.000 itens da cota de índice dos conectores do Graph.
+
+Para adquirir uma cota adicional de conectores do Graph, entre em contato com o Microsoft Account Manager ou conclua as seguintes etapas:
+
+1. No menu de navegação do Centro de administração do [Microsoft 365,](https://admin.microsoft.com) vá para Cobrança **> serviços de compra.**
+2. Na parte inferior da página Comprar serviços, selecione **Complementos.**
+3. Selecione **Capacidade Extra do Conector do Graph.**
+4. Selecione **Comprar** e conclua suas preferências de pedido.
+5. Selecione **Check-out agora.**
+
+>[!NOTE]
+>Atualmente, os conectores do Graph só suportam até 7 milhões de itens da cota de índice total, o que inclui qualquer cota embutida agrupada nas licenças do Microsoft 365 ou Office 365 E5. A plataforma dará suporte a limites mais altos no futuro. Entre em contato com o suporte da Microsoft ou com o gerente de contas da Microsoft, se você tiver alguma dúvida.
