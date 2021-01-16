@@ -1,5 +1,5 @@
 ---
-title: Gerenciar conectores do Microsoft Graph para o Microsoft Search
+title: Gerenciar conectores do Microsoft Graph para a Pesquisa da Microsoft
 ms.author: monaray
 author: monaray97
 manager: mnirkhe
@@ -11,135 +11,135 @@ search.appverid:
 - BFB160
 - MET150
 - MOE150
-description: Gerenciar conectores do Microsoft Graph para o Microsoft Search.
-ms.openlocfilehash: bf5a382ae0bd8308922599f0dfa9e087aad50c24
-ms.sourcegitcommit: b1ca58219fb16d5aff277f357dfa11ce6b0d42ca
+description: Gerenciar conectores do Microsoft Graph para a Pesquisa da Microsoft.
+ms.openlocfilehash: cf1231f8003d166977398ef4bdcc1ad12104dd05
+ms.sourcegitcommit: d22fe2a34d7efe2dd5bbb456f0d00eb5f6c7608c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/16/2020
-ms.locfileid: "49695681"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "49880605"
 ---
 <!-- markdownlint-disable no-inline-html -->
 
-# <a name="manage-your-connections-for-microsoft-search"></a>Gerenciar suas conexões para o Microsoft Search
+# <a name="manage-your-connections-for-microsoft-search"></a>Gerenciar suas conexões para a Pesquisa da Microsoft
 
-Para acessar e gerenciar seus conectores, você deve ser designado como um administrador de pesquisa para o seu locatário. Entre em contato com o administrador de locatários para provisionar a função de administrador de pesquisa.
+Para acessar e gerenciar seus conectores, você deve ser designado como um administrador de pesquisa para seu locatário. Entre em contato com o administrador de locatários para provisioná-lo para a função de administrador de pesquisa.
 
 ## <a name="get-started"></a>Introdução
 
-Navegue até a [guia conectores](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/Connectors) no [centro de administração do Microsoft 365](https://admin.microsoft.com).
+Navegue até [a guia Conectores](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/Connectors) no centro [de administração do Microsoft 365.](https://admin.microsoft.com)
 
-Para cada tipo de conector, o [centro de administração do Microsoft 365](https://admin.microsoft.com) suporta as operações mostradas na tabela a seguir:
+Para cada tipo de conector, o [Centro de administração do Microsoft 365](https://admin.microsoft.com) dá suporte às operações mostradas na tabela a seguir:
 
-Operação | Conector integrado da Microsoft | Parceiro ou conector criado de forma personalizada
+Operação | Conector criado pela Microsoft | Conector de parceiro ou personalizado
 --- | --- | ---
-Adicionar uma conexão | : heavy_check_mark: (consulte [Configurar o conector integrado da Microsoft](configure-connector.md)) | : x: (consulte seu parceiro ou UX de administração de conector criado para personalizar)
+Adicionar uma conexão | :heavy_check_mark: (Consulte [Configurar seu conector criado pela Microsoft)](configure-connector.md) | :x: (Consulte sua UX de administrador de conector personalizado ou parceiro)
 Excluir uma conexão | :heavy_check_mark: | :heavy_check_mark:
-Editar uma conexão publicada | : heavy_check_mark: nome<br></br> : heavy_check_mark: Descrição<br></br> : heavy_check_mark: credenciais de autenticação para sua fonte de dados externa<br></br> : heavy_check_mark: credenciais de gateway para sua fonte de dados local<br></br> : heavy_check_mark: Agenda de atualização<br></br> | : heavy_check_mark: nome<br></br> : heavy_check_mark: Descrição
+Editar uma conexão publicada | :heavy_check_mark: Nome<br></br> :heavy_check_mark: Descrição<br></br> :heavy_check_mark: Credenciais de autenticação para sua fonte de dados externa<br></br> :heavy_check_mark: Credenciais de gateway para sua fonte de dados local<br></br> :heavy_check_mark: Atualizar agenda<br></br> | :heavy_check_mark: Nome<br></br> :heavy_check_mark: Descrição
 Editar uma conexão de rascunho | :heavy_check_mark: | :x:
 
 ## <a name="monitor-your-connection-status"></a>Monitorar o status da conexão
 
-Após criar uma conexão, o número de itens processados é exibido na guia **conectores** da página de **pesquisa da Microsoft** . Depois que o rastreamento completo inicial for concluído com êxito, o progresso dos rastreamentos incrementais periódicos é exibido. Esta página fornece informações sobre as operações diárias do conector e uma visão geral dos logs e histórico de erros.
+Depois de criar uma conexão, o número de itens **processados** aparece na guia Conectores da **página Pesquisa da Microsoft.** Depois que o rastreamento completo inicial for concluído com êxito, o progresso de rastreamentos incrementais periódicos será exibido. Esta página fornece informações sobre as operações diárias do conector e uma visão geral dos logs e do histórico de erros.
 
-Quatro Estados aparecem na coluna **status** em cada conexão:
+Quatro estados aparecem na coluna **Status** em cada conexão:
 
-* **Sincronização**. O conector está rastreando os dados da fonte para indexar os itens existentes e fazer qualquer atualização.
+* **Sincronização**. O conector está rastreando os dados da fonte para indexar os itens existentes e fazer atualizações.
 
-* **Habilitado**: a conexão está habilitada e não há nenhum rastreamento ativo em execução nela. **Hora da última sincronização** indica quando ocorreu o último rastreamento bem-sucedido. A conexão é tão recente quanto o horário da última sincronização.
+* **Habilitado:** a conexão está habilitada e não há rastreamento ativo em execução. **A hora da última sincronização** indica quando ocorreu o último rastreamento bem-sucedido. A conexão é tão recente quanto a hora da última sincronização.
 
-* Em **pausa**. Os rastreamentos são pausados pelos administradores por meio da opção PAUSE. O próximo rastreamento é executado somente quando ele é reiniciado manualmente. No entanto, os dados dessa conexão continuam a ser pesquisados.
+* **Pausado**. Os rastreamentos são pausados pelos administradores por meio da opção de pausa. O próximo rastreamento só será executado quando for retomado manualmente. No entanto, os dados dessa conexão continuam a ser pesquisáveis.
 
-* **Falhou**. A conexão teve uma falha crítica. Este erro requer intervenção manual. O administrador precisa tomar a ação apropriada com base na mensagem de erro mostrada. Os dados que foram indexados até que o erro ocorreu é pesquisável.
+* **Falha**. A conexão teve uma falha crítica. Esse erro requer intervenção manual. O administrador precisa tomar a ação apropriada com base na mensagem de erro mostrada. Os dados que foram indexados até que o erro ocorreu são pesquisáveis.
 
 ### <a name="view-your-last-crawl-info"></a>Exibir suas últimas informações de rastreamento
 
-Depois que o primeiro rastreamento incremental inicial ou completo for concluído com êxito, os valores de dados do último rastreamento serão exibidos no último cabeçalho de rastreamento no painel de detalhes. Se não houver um último rastreamento que tenha sido executado, você não verá nenhuma informação no último cabeçalho de rastreamento. Essas informações sobre o último rastreamento ajudarão você a obter informações sobre como o rastreamento foi realizado e serão necessárias as etapas necessárias para sempre que for necessário.
+Depois que o primeiro rastreamento incremental ou completo inicial for concluído com êxito, os últimos valores de dados de rastreamento serão exibidos sob o último header de rastreamento no painel de detalhes. Se não houve nenhum último rastreamento que foi feito, você não verá nenhuma informação sob o último header de rastreamento. Essas informações sobre o último rastreamento ajudarão você a obter informações sobre como o rastreamento foi executado e seguirá as etapas necessárias sempre que necessário.
 
-Os seguintes valores de rastreamento mais recentes estarão disponíveis para cada conexão:
+Os últimos valores de rastreamento a seguir estarão disponíveis para cada conexão:
 
 Valor | Descrição
 --- | ---
-Concluído às | Data e hora em que o último rastreamento foi concluído
-Tipo | Rastreamento completo ou incremental
-Duração | Quanto tempo o último rastreamento demora para concluir
+Concluído em | Data e hora em que o último rastreamento foi concluído
+Tipo | Rastreamento incremental ou completo
+Duração | quanto tempo o último rastreamento leva para ser concluído
 Sucessos | Número de itens que foram ingeridos com êxito no último rastreamento
-Erros | Número de itens com erro no último rastreamento
+Erros | Número de itens que errou no último rastreamento
 
 ### <a name="monitor-errors"></a>Monitorar erros
 
-Para cada **conector ativo** na guia **conectores** , qualquer erro de rastreamento existente aparecerá na guia **erro** . A guia lista os códigos de erro, a contagem de cada um e as opções de download de log de erros. Confira o exemplo na imagem a seguir. Selecione um **código de erro** para exibir os detalhes do erro.
+Para cada **Conector Ativo** na guia **Conectores,** quaisquer erros de rastreamento existentes aparecem na **guia** Erro. A guia lista códigos de erro, a contagem de cada um e opções de download de log de erro. Veja o exemplo na imagem a seguir. Selecione um **código de erro** para exibir os detalhes do erro.
 
-![Lista de conectores com um conector selecionado e o painel de detalhes mostrando 3 erros para esse conector.](media/errormonitoring1.png)
+![Lista de conectores com um conector selecionado e painel de detalhes mostrando 3 erros para esse conector.](media/errormonitoring1.png)
 
-Para exibir os detalhes específicos de um erro, selecione seu código de erro. Uma tela aparece com detalhes do erro e um link. Os erros mais recentes aparecem na parte superior. Confira o exemplo na tabela a seguir.
+Para exibir detalhes específicos de um erro, selecione seu código de erro. Uma tela aparece com detalhes de erro e um link. Os erros mais recentes aparecem na parte superior. Consulte o exemplo na tabela a seguir.
 
-![Lista de conectores com um conector selecionado e o painel de detalhes, mostrando a lista de erros do conector.](media/errormonitoring2.png)
+![Lista de conectores com um conector selecionado e painel de detalhes mostrando a lista de erros do conector.](media/errormonitoring2.png)
 
-Veja a seguir a lista de erros diferentes que podem aparecer em qualquer conexão. Se essas soluções não funcionarem, entre em contato com o suporte ou envie-nos [seus comentários](connectors-feedback.md).
+Abaixo está a lista de erros diferentes que podem aparecer em qualquer conexão.
 
 Código de erro | Mensagem de erro | Solução
 --- | --- | ---
-1000 | A fonte de dados não está disponível. Verifique a conexão com a Internet ou certifique-se de que a fonte de dados ainda seja acessível pelo conector. | Esse erro ocorre quando a fonte de dados não está acessível devido a um problema de rede ou quando a própria fonte de dados é excluída, movida ou renomeada. Verifique se os detalhes da fonte de dados fornecidos ainda são válidos.
-1001 | O não pode atualizar os dados, pois a fonte de dados está limitando o conector. | Para desacelerar a fonte de dados, verifique se seus limites de escala podem ser aumentados ou espere até um tráfego menos pesado do dia.
-1002 | Não é possível autenticar com a fonte de dados. Verifique se as credenciais associadas a essa fonte de dados estão corretas. | Clique em **Editar** para atualizar as credenciais de autenticação.
+1000 | A fonte de dados não está disponível. Verifique sua conexão com a Internet ou verifique se a fonte de dados ainda está acessível pelo conector. | Esse erro ocorre quando a fonte de dados não está acessível devido a um problema de rede ou quando a própria fonte de dados é excluída, movida ou renomeada. Verifique se os detalhes da fonte de dados fornecidos ainda são válidos.
+1001 | Não é possível atualizar os dados, pois a fonte de dados está throttling o conector. | Para desacontnar a fonte de dados, verifique se os limites de escala podem ser aumentados ou aguarde até um período menos intenso de tráfego do dia.
+1002 | Não é possível autenticar com a fonte de dados. Verifique se as credenciais associadas a essa fonte de dados estão corretas. | Clique **em Editar** para atualizar as credenciais de autenticação.
 1003 | A conta associada ao conector não tem permissão para acessar o item. |  Verifique se a conta adequada tem acesso ao item que você deseja indexar.
-1004 | Não é possível acessar o gateway de dados local. Verifique se o serviço de gateway está em execução e se os detalhes do gateway estão atualizados na configuração de conexão. | Verifique o computador com o gateway, abra o aplicativo de gateway do Power BI e verifique se o gateway está em execução. Verifique se o gateway está usando a mesma conta de administrador do Microsoft Search e, em seguida, certifique-se de que todos os detalhes de gateway estejam atualizados na configuração de conexão.
-1005 | As credenciais associadas a essa fonte de dados expiraram. Renovar as credenciais e atualizar a conexão. | Clique em **Editar** para atualizar as credenciais de autenticação.
-1006 | Sua versão de gateway está desatualizada e não dá mais suporte a esse conector. Será necessário atualizar o gateway. | Visite [instalar um gateway de dados local](https://docs.microsoft.com/data-integration/gateway/service-gateway-install) para baixar e instalar a versão mais recente do gateway do Power bi no computador que contém o gateway.
-1007 | Nenhuma licença válida do Power BI detectada. Você precisa de uma licença válida do Power BI para executar este rastreamento. | Você precisa de uma licença válida do Power BI para executar este rastreamento. Verifique se a sua organização tem uma licença válida. Se isso acontecer, tente novamente. Caso contrário, obtenha uma licença e tente novamente.
-1008 | A utilização de cota total do seu locatário atingiu seu limite. Tente excluir uma conexão para liberar algumas da sua cota ou ajustar seus filtros de inclusão para obter menos dados. | Tente excluir uma conexão para liberar algumas da sua cota ou ajustar seus filtros de inclusão para obter menos dados. Se isso não resolver o problema, entre em contato com o suporte da Microsoft.
-2001 | A indexação é limitada por causa de um grande número de atualizações na fila. Dependendo da fila, pode levar algum tempo para que as atualizações sejam concluídas. | Aguarde até que a fila seja limpa.
+1004 | Não é possível alcançar o gateway de dados local. Certifique-se de que o serviço de gateway está em execução e se os detalhes do gateway foram atualizados na configuração de conexão. | Verifique o computador com o gateway, abra o aplicativo Gateway do Power BI e verifique se o gateway está em execução. Verifique se o gateway está usando a mesma conta de administrador da Pesquisa da Microsoft e verifique se todos os detalhes do gateway foram atualizados na configuração de conexão.
+1005 | As credenciais associadas a essa fonte de dados expiraram. Renove as credenciais e atualize a conexão. | Clique **em Editar** para atualizar as credenciais de autenticação.
+1006 | A versão do gateway está des date e não dá mais suporte a esse conector. Você precisará atualizar o gateway. | Visite [Instalar um gateway](https://docs.microsoft.com/data-integration/gateway/service-gateway-install) de dados local para baixar e instalar a versão mais recente do gateway do Power BI no computador que contém o gateway.
+1007 | Nenhuma licença válida do Power BI detectada. Você precisa de uma licença válida do Power BI para executar esse rastreamento. | Você precisa de uma licença válida do Power BI para executar esse rastreamento. Verifique se sua organização tem uma licença válida. Se isso acontecer, tente novamente. Se isso não acontecer, obtenha uma licença e tente novamente.
+1008 | A utilização total da cota do seu locatário atingiu seu limite. Tente excluir uma conexão para liberar parte de sua cota ou ajustar seus filtros de ingestão para trazer menos dados. | Tente excluir uma conexão para liberar parte de sua cota ou ajustar seus filtros de ingestão para trazer menos dados. Se eles não resolverem o problema, entre em contato com o suporte da Microsoft.
+2001 | A indexação é acelerada devido a um grande número de atualizações na fila. Dependendo da fila, pode levar algum tempo para que as atualizações possam ser concluídas. | Aguarde até que a fila seja limpa.
 2002 | Falha na indexação devido à formatação de item sem suporte. | Consulte a documentação específica do conector para obter mais informações.
-2003 | Falha na indexação devido a conteúdo do item não suportado. | Consulte a documentação específica do conector para obter mais informações.
-2010 | Esta conexão não é mais válida por causa de uma atualização feita pela Microsoft. Exclua a conexão e crie uma nova. | Exclua a conexão e crie uma nova.
-5000 | Algo deu errado. Se isso persistir, entre em contato com o suporte. |
+2003 | Falha na indexação devido ao conteúdo do item sem suporte. | Consulte a documentação específica do conector para obter mais informações.
+2010 | Essa conexão não é mais válida devido a uma atualização feita pela Microsoft. Exclua a conexão e crie uma nova. | Exclua a conexão e crie uma nova.
+5000 | Algo deu errado. Se isso continuar, contate o suporte. |
 
-## <a name="monitor-your-index-quota-utilization"></a>Monitorar a utilização de cota de índice
+## <a name="monitor-your-index-quota-utilization"></a>Monitorar a utilização da cota de índice
 
-A cota de índice disponível e o consumo são exibidos na página inicial dos conectores.
+A cota e o consumo do índice disponíveis são exibidos na página de aterrissagem dos conectores.
 
-![Barra de utilização de cota de índice](media/quota_utilization.png)
+![Barra de utilização da cota de índice](media/quota_utilization.png)
 
 >[!NOTE]
->Durante o período de visualização, cada organização que está tentando nos conectores do Graph recebeu uma cota fixa liberada de até 2 milhões itens em todas as conexões. Com conectores de gráfico em geral, a cota livre expirará no dia 1 de fevereiro de 2021 para as organizações que usam conectores gráficos na visualização.
->Os conectores de gráficos criados pela Microsoft rotulados como ["Preview"](connectors-preview.md) não serão incluídos na cota de índice de total cobrado da sua organização. No entanto, ele contará em direção ao número máximo de 10 conexões que você pode configurar para sua organização e o número máximo de 7 milhões itens que sua organização pode indexar entre conexões; cada conexão tem um limite de 700.000 itens. 
+>Durante o período de visualização, todas as organizações que estão tentando os conectores do Graph foram fornecidas uma cota fixa gratuita de até 2 milhões de itens em todas as conexões. Com os conectores do Graph geralmente disponíveis, a cota gratuita expirará em 1º de fevereiro de 2021 para as organizações que usam conectores do Graph na visualização.
+>Os conectores do Graph integrados pela Microsoft rotulados como ["Visualização"](connectors-preview.md) não serão incluídos na cota de índice total cobrada da sua organização. No entanto, ele contará para o número máximo de 10 conexões que você pode configurar para sua organização e o número máximo de 7 milhões de itens que sua organização pode indexar entre conexões; cada conexão é limitada a 700.000 itens. 
 
-A barra de utilização de cota indicará vários Estados com base no consumo da cota por sua organização:
+A barra de utilização de cota indicará vários estados com base no consumo de cota por sua organização:
 
 Estado | Consumo de cota
 --- | ---
 Normal | 1-69%
-Alto | 70-89%
-Crítico | 90% a 99%
+Alta | 70-89%
+Crítico | 90%-99%
 Completo | 100%
 
 O número de itens indexados também será exibido com cada conexão. O número de itens indexados por cada conexão contribui para a cota total disponível para sua organização.
 
-Quando a cota de índice for excedida para sua organização, todas as conexões ativas serão impactadas e as conexões funcionarão no estado de **limite excedido** . Nesse estado, suas conexões ativas  
+Quando a cota de índice for excedida para sua organização, todas as conexões ativas serão impactadas e essas conexões funcionarão **no estado excedido do** limite. Nesse estado, suas conexões ativas  
 
-* Não poderá adicionar novos itens.
+* Não será possível adicionar novos itens.
 
-* Será possível atualizar ou excluir itens existentes.
+* Poderá atualizar ou excluir itens existentes.
 
-Para corrigir isso, você pode fazer o seguinte:
+Para corrigir isso, você pode fazer qualquer um dos seguintes:
 
-* Saiba como comprar a cota de índice para sua organização em [requisitos de licenciamento e preços](licensing.md).
+* Saiba como comprar cota de índice para sua organização em [requisitos de licenciamento e preços.](licensing.md)
 
-* Identifique as conexões que possuem muito conteúdo sendo ingerido e atualize-as para indexar menos itens para liberar espaço para a cota. Para atualizar a conexão, você deve excluir e criar uma nova conexão com um novo filtro de inclusão, que apresenta menos itens.
+* Identifique as conexões que têm muito conteúdo sendo ingerido e atualize-as para indexar menos itens para dar espaço à cota. Para atualizar a conexão, você deve excluir e criar uma nova conexão com um novo filtro de ingestão que traz menos itens.
 
 * Excluir permanentemente uma ou mais conexões
 
 ## <a name="limitations"></a>Limitações
 
-* Quando você **publica** um conector criado pela Microsoft, pode levar alguns minutos até que a conexão seja criada. Durante esse tempo, a conexão mostrará seu status como pendente.
+* Quando você **publica** um conector criado pela Microsoft, pode levar alguns minutos para que a conexão seja criada. Durante esse tempo, a conexão mostrará seu status como pendente.
 
-* O [centro de administração do Microsoft 365](https://admin.microsoft.com) não dá suporte à edição do **esquema de pesquisa** após a publicação de uma conexão. Para editar o esquema de pesquisa, exclua sua conexão e crie uma nova.
+* O Centro de administração do [Microsoft 365](https://admin.microsoft.com) não dá suporte à edição do esquema **de pesquisa** após a publicação de uma conexão. Para editar o esquema de pesquisa, exclua sua conexão e crie um novo.
 
-* O throughput da inclusão é limitado em cerca de quatro itens por segundo.
+* A produtividade da ingestão é acelerada em cerca de quatro itens por segundo.
 
-* Não há suporte para atualizações de esquema. Após criar uma configuração de conexão, não há como atualizar o esquema. Você só pode excluir e recriar a conexão.
+* Não há suporte para atualizações de esquema. Depois de criar uma configuração de conexão, não há como atualizar o esquema. Você só pode excluir e criar a conexão.
 
 * Há um limite de conexões. Cada locatário pode criar até 10 conexões.
 
-* Editar o suporte para conexão não está disponível. Depois que a conexão tiver sido criada, você não poderá editá-la ou alterá-la. Se for necessário alterar os detalhes, você deverá excluir e recriar a conexão.
+* O suporte de edição para conexão não está disponível. Depois que a conexão tiver sido criada, você não poderá editá-la ou alterá-la. Se precisar alterar algum detalhe, você deve excluir e recriar a conexão.

@@ -12,57 +12,57 @@ search.appverid:
 - MET150
 - MOE150
 ROBOTS: NoIndex
-description: Agente local
-ms.openlocfilehash: 5dbca392fefdcc11de253fd244cc98a6adcee68a
-ms.sourcegitcommit: e8d770fa72ac83e074a5de57098cb55d06d8db07
+description: Agente no prem
+ms.openlocfilehash: 31220196849fe90ab2611e9c2b83a1cec0a02b34
+ms.sourcegitcommit: a04f1df14a3221776ccd141f6060328612d80e06
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "49588363"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "49876494"
 ---
 # <a name="graph-connector-agent"></a>Agente do conector do Graph
 
-O uso de conectores de gráfico local exige que você instale o software de *agente do conector do Graph* . Ele permite a transferência segura de dados entre os dados locais e as APIs do conector do Graph. Este artigo orienta você durante a instalação e a configuração do agente.
+O uso de conectores do Graph no centro exige a instalação do software *do agente do conector do Graph.* Ele permite a transferência segura de dados entre os dados locais e as APIs do conector do Graph. Este artigo orienta você durante a instalação e configuração do agente.
 
 ## <a name="installation"></a>Instalação
 
-Baixe a versão mais recente do agente do conector do Graph [aqui](https://aka.ms/gcadownload) e instale o software usando o assistente de instalação. Usando a configuração recomendada da máquina descrita abaixo, o software pode lidar com até três conexões. As conexões além disso podem degradar o desempenho de todas as conexões no agente.
+Baixe a versão mais recente do agente de conector do Graph [aqui](https://aka.ms/gcadownload) e instale o software usando o assistente de instalação. Usando a configuração recomendada do computador descrita abaixo, o software pode lidar com até três conexões. Qualquer conexão além disso pode prejudicar o desempenho de todas as conexões no agente.
 
 Configuração recomendada:
 
 * Windows 10, Windows Server 2016 R2 e superior
-* [.NET Core desktop Runtime 3,1 (x64)](https://dotnet.microsoft.com/download/dotnet-core/3.1)
+* [.NET Core Desktop Runtime 3.1 (x64)](https://dotnet.microsoft.com/download/dotnet-core/3.1)
 * 8 núcleos, 3 GHz
 * 16 GB de RAM, 2 GB de espaço em disco
-* Acesso de rede à fonte de dados e à Internet por meio de 443
+* Acesso de rede à fonte de dados e à Internet por meio do 443
 
 ## <a name="create-and-configure-an-app-for-the-agent"></a>Criar e configurar um aplicativo para o agente  
 
-Antes de usar o agente, você deve criar um aplicativo e configurar os detalhes de autenticação.
+Primeiro, entre e observe que o privilégio mínimo necessário na conta é o administrador de pesquisa. Em seguida, o agente solicitará que você forneça detalhes de autenticação. Use as etapas abaixo para criar um aplicativo e gerar os detalhes de autenticação necessários.
 
 ### <a name="create-an-app"></a>Criar um aplicativo
 
-1. Vá para o [portal do Azure](https://portal.azure.com) e entre com as credenciais de administrador do locatário.
-2. Navegue até registros de aplicativos do **Azure Active Directory**  ->  **App registrations** no painel de navegação e selecione **novo registro**.
-3. Forneça um nome para o aplicativo e selecione **registrar**.
+1. Acesse o [portal do Azure](https://portal.azure.com) e entre com as credenciais de administrador do locatário.
+2. Navegue até registros de aplicativo do **Azure Active Directory** no  ->   painel de navegação e selecione **Novo registro.**
+3. Forneça um nome para o aplicativo e selecione **Registrar.**
 4. Anote a ID do aplicativo (cliente).
-5. Abra **permissões de API** do painel de navegação e selecione **Adicionar uma permissão**.
-6. Selecione **Microsoft Graph** e, em seguida, **permissões de aplicativo**.
-7. Procure "ExternalItem. ReadWrite. All" e "Directory. Read. All" nas permissões e selecione **adicionar permissões**.
-8. Selecione **conceder consentimento do administrador para [locatárioname]** e confirmar selecionando **Sim**.
+5. Abra **permissões da API** no painel de navegação e selecione Adicionar uma **permissão.**
+6. Selecione **o Microsoft Graph** e, em **seguida, permissões de aplicativo.**
+7. Procure por "ExternalItem.ReadWrite.All" e "Directory.Read.All" nas permissões e selecione **Adicionar permissões**.
+8. Selecione **Conceder consentimento de administrador para [TenantName]** e confirme selecionando **Sim**.
 9. Verifique se as permissões estão no estado "concedido".
      ![Permissões mostradas como concedidas na coluna verde à direita.](media/onprem-agent/granted-state.png)
 
 ### <a name="configure-authentication"></a>Configurar autenticação
 
-Os detalhes de autenticação podem ser fornecidos usando um segredo do cliente ou um certificado. Siga as etapas para sua escolha.
+Os detalhes da autenticação podem ser fornecidos usando um segredo do cliente ou um certificado. Siga as etapas de sua escolha.
 
 #### <a name="configuring-the-client-secret-for-authentication"></a>Configurando o segredo do cliente para autenticação
 
-1. Vá para o [portal do Azure](https://portal.azure.com) e entre com as credenciais de administrador do locatário.
-2. Abra o **registro de aplicativos** no painel de navegação e vá para o aplicativo apropriado. Em **gerenciar**, selecione **certificados e segredos**.
-3. Selecione **novo segredo do cliente** e selecione um período de expiração para o segredo. Copie o segredo gerado e salve-o porque ele não será mostrado novamente.
-4. Use este segredo do cliente junto com a ID do aplicativo para configurar o agente. Não é possível usar espaços em branco no campo **nome** do agente. Caracteres numéricos Alfa são aceitos.
+1. Acesse o [portal do Azure](https://portal.azure.com) e entre com as credenciais de administrador do locatário.
+2. Abra **o Registro de** Aplicativo no painel de navegação e vá para o aplicativo apropriado. Em **Gerenciar,** selecione **Certificados e segredos.**
+3. Selecione **Novo Segredo do Cliente** e selecione um período de expiração para o segredo. Copie o segredo gerado e salve-o porque ele não será mostrado novamente.
+4. Use esse segredo do cliente juntamente com a ID do aplicativo para configurar o agente. Não é possível usar espaços em branco **no campo** Nome do agente. Caracteres numéricos alfa são aceitos.
 
 #### <a name="using-a-certificate-for-authentication"></a>Usando um certificado para autenticação
 
@@ -72,9 +72,9 @@ Há três etapas simples para usar a autenticação baseada em certificado:
 1. Carregar o certificado no portal do Azure
 1. Atribuir o certificado ao agente
 
-##### <a name="step-1-get-a-certificate"></a>Etapa 1: obter um certificado
+##### <a name="step-1-get-a-certificate"></a>Etapa 1: Obter um certificado
 
-O script a seguir pode ser usado para gerar um certificado autoassinado. Sua organização pode não permitir certificados autoassinados. Nesse caso, use essas informações para entender os requisitos e adquirir um certificado de acordo com as políticas da sua organização.
+O script abaixo pode ser usado para gerar um certificado auto-assinado. Sua organização pode não permitir certificados auto-assinados. Nesse caso, use essas informações para entender os requisitos e adquirir um certificado de acordo com as políticas da sua organização.
 
 ```Powershell
 $dnsName = "<TenantDomain like agent.onmicrosoft.com>" # Your DNS name
@@ -92,23 +92,23 @@ Export-Certificate -Cert $certificatePath -FilePath ($filePath + '.cer')
 Export-PfxCertificate -Cert $certificatePath -FilePath ($filePath + '.pfx') -Password $securePassword
 ```
 
-##### <a name="step-2-upload-the-certificate-in-the-azure-portal"></a>Etapa 2: carregar o certificado no portal do Azure
+##### <a name="step-2-upload-the-certificate-in-the-azure-portal"></a>Etapa 2: Carregar o certificado no portal do Azure
 
-1. Abra o aplicativo e navegue até a seção de certificados e segredos no painel esquerdo
-1. Selecione "carregar certificado" e carregar o arquivo. cer
-1. Abra o **registro do aplicativo** e selecione **certificados e segredos** no painel de navegação. Copie a impressão digital do certificado.
+1. Abra o aplicativo e navegue até a seção certificados e segredos no painel esquerdo
+1. Selecione "Carregar certificado" e carregue o arquivo .cer
+1. Abra **o registro do** aplicativo e selecione **Certificados e** segredos no painel de navegação. Copie a impressão digital do certificado.
 
-![Lista de certificados do thumbrint quando os certificados e segredos são selecionados no painel esquerdo](media/onprem-agent/certificates.png)
+![Lista de certificados em miniatura quando certificados e segredos são selecionados no painel esquerdo](media/onprem-agent/certificates.png)
 
-##### <a name="step-3-assign-the-certificate-to-the-agent"></a>Etapa 3: atribuir o certificado ao agente
+##### <a name="step-3-assign-the-certificate-to-the-agent"></a>Etapa 3: Atribuir o certificado ao agente
 
 Se você usou o script de exemplo para gerar um certificado, o arquivo PFX pode ser encontrado no local identificado no script.
 
-1. Baixe o arquivo PFX de certificado no computador do agente.
-1. Clique duas vezes no arquivo PFX para iniciar a caixa de diálogo de instalação de certificado.
-1. Selecione "máquina local" para local de armazenamento ao instalar o certificado.
-1. Após instalar o certificado, abra a guia gerenciar certificados de computador por meio do menu iniciar
-1. Selecione o certificado recém-instalado em ' pessoal '-> ' certificados '
-1. Clique com o botão direito do mouse no certificado e selecione "todas as tarefas"-> ' gerenciar chaves privadas... ' Opção
-1. Na caixa de diálogo permissões, selecione Adicionar opção. Na caixa de diálogo seleção de usuário, escreva: "NT Service\GcaHostService" e clique em "OK". Não clique no botão "verificar nomes".
-1. Clique em OK na caixa de diálogo permissões. A máquina do agente agora está configurada para que o agente gere tokens usando o certificado.
+1. Baixe o arquivo pfx do certificado na máquina do Agente.
+1. Clique duas vezes no arquivo pfx para iniciar a caixa de diálogo de instalação do certificado.
+1. Selecione "Computador Local" para o local de armazenamento durante a instalação do certificado.
+1. Depois de instalar o certificado, abra "Gerenciar certificados de computador" por meio do menu Iniciar
+1. Selecione o certificado recém-instalado em "Pessoal" -> 'Certificados'
+1. Clique com o botão direito do mouse no certificado e selecione "Todas as Tarefas" -> "Gerenciar Chaves Privadas..." Opção
+1. Na caixa de diálogo permissões, selecione adicionar opção. Na caixa de diálogo de seleção do usuário, escreva: 'NT Service\GcaHostService' e clique em 'OK'. Não clique no botão "Verificar Nomes".
+1. Clique em ok na caixa de diálogo permissões. A máquina do agente agora está configurada para que o agente gere tokens usando o certificado.
