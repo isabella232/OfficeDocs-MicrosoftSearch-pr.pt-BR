@@ -11,11 +11,11 @@
 ## [Locais](manage-locations.md)
 ## [Power BI](manage-powerbi.md)
 ## [P e R](manage-qas.md)
-# Conectores (visualização)
+# Conectores
 ## [Visão geral](connectors-overview.md)
 ## [Versão prévia](connectors-preview.md)
 ## [Galeria de conectores](connectors-gallery.md)
-## Conectores de gráfico da Microsoft
+## Configurar conectores da Microsoft
 ### [Visão geral da configuração](configure-connector.md)
 ### [Mapear as Identidades que não do Microsoft Azure Active Directory (pré-visualização)](map-non-aad.md)
 ### [Mapeie suas identidades do Microsoft Azure AD (visualização)](map-aad.md)
@@ -30,7 +30,6 @@
 ## [Gerenciar conexões](manage-connector.md)
 ## [Detalhes e Erros de Conexão](connector-details-errors.md)
 ## [Licenciamento](licensing.md)
-## [Feedback](connectors-feedback.md)
 ## [Termos de uso](terms-of-use.md)
 # Personalizar e configurar
 ## [Gerenciar verticais e tipos de resultados](customize-search-page.md)
