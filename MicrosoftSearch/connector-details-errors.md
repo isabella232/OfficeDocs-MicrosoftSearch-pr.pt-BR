@@ -12,16 +12,16 @@ search.appverid:
 - MET150
 - MOE150
 description: Detalhes e erros de conectores
-ms.openlocfilehash: 23b2f0745a09bffbc5ac6ad9c2163c7a5b63cb51
-ms.sourcegitcommit: d22fe2a34d7efe2dd5bbb456f0d00eb5f6c7608c
+ms.openlocfilehash: 79f6404670e6c5a655559efac7235b1e7813f8e4
+ms.sourcegitcommit: 39bf9f0db7f9bff2ab82c99a059b0ddcf1c98f5f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "49880596"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "49905971"
 ---
 <!-- markdownlint-disable no-inline-html -->
 
-# <a name="view-connection-details-and-errors-for-microsoft-search"></a>Exibir detalhes e erros de conexão para a Pesquisa da Microsoft
+# <a name="view-connection-details-and-errors"></a>Exibir detalhes e erros de conexão
 
 Para acessar e gerenciar seus conectores, você deve ser designado como um administrador de pesquisa para seu locatário. Entre em contato com o administrador de locatários para provisioná-lo para a função de administrador de pesquisa.
 
