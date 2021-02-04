@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Configurar o conector do Graph de sites corporativos para a Pesquisa da Microsoft
-ms.openlocfilehash: bf706399ec55fafbe96ce53622ce8502c81c2190
-ms.sourcegitcommit: d39113376db26333872d3a2c7baddc3a3a7aea61
+ms.openlocfilehash: 526b36a798f50bed457832d576ffebd15820184d
+ms.sourcegitcommit: d53b91f8f52a4a96281b66831c2449bbffe2177c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 02/03/2021
-ms.locfileid: "50084880"
+ms.locfileid: "50097426"
 ---
 <!---Previous ms.author: monaray --->
 
@@ -30,7 +30,7 @@ O conector do Graph de sites corporativos permite que sua organização indexe a
 > [!NOTE]
 > Leia o artigo [**Configurar seu conector do Graph**](configure-connector.md) para entender o processo geral de configuração de conectores do Graph.
 
-Este artigo é para qualquer pessoa que configure, executa e monitore um conector do ServiceNow Graph. Ele complementa o processo de instalação geral e mostra instruções que se aplicam somente ao conector do ServiceNow Graph. Este artigo também inclui informações sobre solução [de problemas](#troubleshooting) e [limitações.](#limitations)
+Este artigo é destinado a qualquer pessoa que configure, seja executado e monitore um conector de sites corporativos. Ele complementa o processo de configuração geral e mostra instruções que se aplicam somente ao conector de sites corporativos. Este artigo também inclui informações sobre solução [de problemas](#troubleshooting) e [limitações.](#limitations)
 
 <!---## Before you get started-->
 
@@ -78,7 +78,7 @@ Para obter mais informações, consulte Autorizar o acesso a aplicativos Web do 
 
 Para obter os valores do recurso, client_id e client_secret, vá para Usar o código de autorização para solicitar um **token** de acesso na página da Web da URL de redirecionamento.
 
-Para obter ainda mais informações, consulte [Guia de início rápido: registrar um aplicativo com](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app)a plataforma de identidade da Microsoft.
+Para obter ainda mais informações, consulte [Guia de início rápido: registrar um aplicativo com a plataforma de identidade da Microsoft.](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app)
 
 ## <a name="step-3a-add-urls-to-exclude-optional-crawl-restrictions"></a>Etapa 3a: Adicionar URLs a excluir (restrições de rastreamento opcionais)
 
@@ -115,7 +115,7 @@ Siga as instruções [gerais de configuração.](https://docs.microsoft.com/micr
 
 ## <a name="troubleshooting"></a>Solução de problemas
 
-Ao ler o conteúdo do site, o rastreamento pode encontrar alguns erros de origem, que são representados pelos códigos de erro detalhados abaixo. Para obter mais informações sobre os tipos de erros, vá para a página **de detalhes do** erro depois de selecionar a conexão. Selecione o **código de** erro para ver erros mais detalhados. Consulte também Gerenciar [seu conector para](https://docs.microsoft.com/microsoftsearch/manage-connector) saber mais.
+Ao ler o conteúdo do site, o rastreamento pode encontrar alguns erros de origem, que são representados pelos códigos de erro detalhados abaixo. Para obter mais informações sobre os tipos de erros, vá para a página de detalhes **do** erro depois de selecionar a conexão. Selecione o **código de** erro para ver erros mais detalhados. Consulte também Gerenciar [seu conector para](https://docs.microsoft.com/microsoftsearch/manage-connector) saber mais.
 
  Código de erro detalhado | Mensagem de erro
  --- | ---

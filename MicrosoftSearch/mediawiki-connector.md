@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Configurar o conector MediaWiki Graph para a Pesquisa da Microsoft
-ms.openlocfilehash: 9d9d7a1ef9aeaba079f8cccef1ec4a4836768e8d
-ms.sourcegitcommit: d39113376db26333872d3a2c7baddc3a3a7aea61
+ms.openlocfilehash: e2b2b7c506d92623dd0f68801312c1820b5b9d4e
+ms.sourcegitcommit: d53b91f8f52a4a96281b66831c2449bbffe2177c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 02/03/2021
-ms.locfileid: "50084979"
+ms.locfileid: "50097390"
 ---
 <!---Previous ms.author: monaray --->
 
@@ -28,7 +28,7 @@ O conector MediaWiki Graph permite que sua organização descubra e indexe dados
 > [!NOTE]
 > Leia o [**artigo Configuração do seu conector do Graph**](configure-connector.md) para entender o processo geral de configuração de conectores do Graph.
 
-Este artigo é para qualquer pessoa que configure, executa e monitore um conector do ServiceNow Graph. Ele complementa o processo de instalação geral e mostra instruções que se aplicam somente ao conector MediaWiki Graph. Este artigo também inclui informações sobre [limitações.](#limitations)
+Este artigo é para qualquer pessoa que configure, executa e monitore um conector MediaWiki Graph. Ele complementa o processo de instalação geral e mostra instruções que se aplicam somente ao conector MediaWiki Graph. Este artigo também inclui informações sobre [limitações.](#limitations)
 
 <!---## Before you get started-->
 

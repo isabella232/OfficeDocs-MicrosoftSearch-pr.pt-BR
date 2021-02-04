@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Configurar o conector do Azure DevOps Graph para a Pesquisa da Microsoft
-ms.openlocfilehash: 3d922a5384de8bf0ef3c6dfd80bd67ad9170eb66
-ms.sourcegitcommit: d39113376db26333872d3a2c7baddc3a3a7aea61
+ms.openlocfilehash: 8fe783c847c672223e051f4433af3e41678fe367
+ms.sourcegitcommit: d53b91f8f52a4a96281b66831c2449bbffe2177c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 02/03/2021
-ms.locfileid: "50084934"
+ms.locfileid: "50097399"
 ---
 <!---Previous ms.author: shgrover --->
 
@@ -28,7 +28,7 @@ O conector do Azure DevOps Graph permite que sua organização indexe itens de t
 > [!NOTE]
 > Leia o [**artigo Configuração do seu conector do Graph**](configure-connector.md) para entender o processo geral de configuração de conectores do Graph.
 
-Este artigo é para qualquer pessoa que configure, executa e monitore um conector do ServiceNow Graph. Ele complementa o processo de instalação geral e mostra instruções que se aplicam somente ao conector do ServiceNow Graph.
+Este artigo é destinado a qualquer pessoa que configure, seja executado e monitore um conector do Azure DevOps Graph. Ele complementa o processo de instalação geral e mostra instruções que se aplicam somente ao conector do Azure DevOps Graph.
 
 >[!IMPORTANT]
 >O conector do Azure DevOps é compatível apenas com o serviço de nuvem do Azure DevOps. O Azure DevOps Server 2019, o TFS 2018, o TFS 2017, o TFS 2015 e o TFS 2013 não são compatíveis com esse conector.
@@ -63,7 +63,7 @@ Campos obrigatórios | Descrição | Valor Recomendado
 --- | --- | ---
 | Nome da Empresa         | O nome da sua empresa. | Usar um valor apropriado   |
 | Nome do aplicativo     | Um valor exclusivo que identifica o aplicativo que você está autorizando.    | Pesquisa da Microsoft     |
-| Site do aplicativo  | A URL do aplicativo que solicitará acesso à sua instância do Azure DevOps durante a configuração do conector. (Obrigatório).  | https://<span>gcs.office.</span> com/
+| Site do aplicativo  | A URL do aplicativo que solicitará acesso à instância do Azure DevOps durante a configuração do conector. (Obrigatório).  | https://<span>gcs.office.</span> com/
 | URL de retorno de chamada de autorização        | Uma URL de retorno de chamada necessária para a que o servidor de autorização redireciona. | https://<span>gcs.office.</span> com/v1.0/admin/oauth/callback|
 | Escopos autorizados | O escopo de acesso para o aplicativo | Selecione os seguintes escopos: Identidade (leitura), Itens de Trabalho (lidos), Grupos de Variáveis (lidos), Projeto e equipe (lido), Gráfico (lido)|
 
@@ -88,13 +88,13 @@ Se você escolher projetos individuais, somente os itens de trabalho nesses proj
 
 ![Configurar dados](media/ADO_Configure_data.png)
 
-Em seguida, selecione quais campos você deseja que a conexão indexe e visualize os dados nesses campos antes de prosseguir.
+Em seguida, selecione quais campos você deseja que a conexão indexe e visualize dados nesses campos antes de prosseguir.
 
 ![Escolher propriedades](media/ADO_choose_properties.png)
 
 ## <a name="step-4-manage-search-permissions"></a>Etapa 4: Gerenciar permissões de pesquisa
 
-O conector do Azure DevOps dá suporte a permissões de pesquisa visíveis apenas para pessoas com acesso a essa fonte de  **dados** ou **a Todos.** Se você escolher Apenas as pessoas com acesso a essa fonte de **dados,** os dados indexados aparecerão nos resultados da pesquisa para usuários que têm acesso a elas com base nas permissões para usuários ou grupos no nível do caminho organização, projeto ou área no Azure DevOps. Se você escolher **Todos,** os dados indexados aparecerão nos resultados da pesquisa para todos os usuários.
+O conector do Azure DevOps dá suporte a permissões de pesquisa visíveis apenas para pessoas com acesso a essa fonte de  **dados** ou **a Todos.** Se você escolher Apenas as pessoas com acesso a essa fonte de **dados,** os dados indexados aparecerão nos resultados da pesquisa para usuários que têm acesso a eles com base nas permissões para usuários ou grupos no nível do caminho organização, projeto ou área no Azure DevOps. Se você escolher **Todos,** os dados indexados aparecerão nos resultados da pesquisa para todos os usuários.
 
 ## <a name="step-5-assign-property-labels"></a>Etapa 5: Atribuir rótulos de propriedade
 

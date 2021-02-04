@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Configurar o conector do Salesforce Graph para a Pesquisa da Microsoft
-ms.openlocfilehash: 0b80bf7d3296236887d1cc1bf8e75da976b6a1f1
-ms.sourcegitcommit: d39113376db26333872d3a2c7baddc3a3a7aea61
+ms.openlocfilehash: 6771bc0b234bc2570a8b1fa7174b9b9244cf3958
+ms.sourcegitcommit: d53b91f8f52a4a96281b66831c2449bbffe2177c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 02/03/2021
-ms.locfileid: "50084995"
+ms.locfileid: "50097444"
 ---
 <!---Previous ms.author: rusamai --->
 
@@ -28,14 +28,14 @@ O conector salesforce Graph permite que sua organização indexe contatos, oport
 > [!NOTE]
 > Leia o [**artigo Configuração do seu conector do Graph**](configure-connector.md) para entender o processo geral de configuração de conectores do Graph.
 
-Este artigo é para qualquer pessoa que configure, executa e monitore um conector do ServiceNow Graph. Ele complementa o processo de instalação geral e mostra instruções que se aplicam somente ao conector do Salesforce Graph. Este artigo também inclui informações sobre [limitações.](#limitations)
+Este artigo é destinado a qualquer pessoa que configure, seja executado e monitore um conector do Graph da Salesforce. Ele complementa o processo de instalação geral e mostra instruções que se aplicam somente ao conector do Salesforce Graph. Este artigo também inclui informações sobre [limitações.](#limitations)
 
 >[!IMPORTANT]
 >O conector do Salesforce Graph atualmente dá suporte a Verão '19 ou posterior.
 
 ## <a name="before-you-get-started"></a>Antes de começar
 
-Para se conectar à sua instância da Salesforce, você precisa da URL da instância da Salesforce, da ID do Cliente e do Segredo do Cliente para autenticação OAuth. As etapas a seguir explicam como você ou seu administrador da Salesforce podem obter essas informações de sua conta da Salesforce:
+Para se conectar à sua instância da Salesforce, você precisa da URL da instância da Salesforce, da ID do Cliente e do Segredo do Cliente para autenticação OAuth. As etapas a seguir explicam como você ou seu administrador da Salesforce podem obter essas informações da sua conta da Salesforce:
 
 - Entre na instância da Salesforce e vá para a Instalação
 
@@ -45,7 +45,7 @@ Para se conectar à sua instância da Salesforce, você precisa da URL da instâ
 
 - Conclua a seção da API da seguinte forma:
 
-    - Marque a caixa de seleção para **Habilitar Configurações do Oauth.**
+    - Marque a caixa de seleção **habilitar configurações do Oauth.**
 
     - Especifique a URL de retorno de chamada como: [https://gcs.office.com/v1.0/admin/oauth/callback](https://gcs.office.com/v1.0/admin/oauth/callback)
 
@@ -71,7 +71,7 @@ Para se conectar à sua instância da Salesforce, você precisa da URL da instâ
     - Go to Apps -> App Manager
     - Encontre o aplicativo que você criou e selecione o drop-down à direita. Selecionar **Gerenciar**
     - Selecionar **políticas de edição**
-    - Para a política de token de atualização, selecionar **Token de atualização é válido até ser revogado**
+    - Para a política de token de atualização, selecione **Refresh token é válido até ser revogado**
 
   > [!div class="mx-imgBorder"]
   > ![Selecione a Política de Token de Atualização chamada "O token de atualização é válido até ser revogado"](media/salesforce-connector/oauthpolicies.png)
@@ -120,11 +120,11 @@ Você pode optar por ingerir listas de controle de acesso (ACLs) de sua instânc
 > [!div class="mx-imgBorder"]
 > ![Tela Selecionar permissões que foi concluída por um administrador. O administrador selecionou a opção "Somente pessoas com acesso a essa fonte de dados" e também selecionou "AAD" em um menu suspenso de tipos de identidade.](media/salesforce-connector/sf6.png)
 
-Se você optou por ingerir uma ACL da sua instância do Salesforce e selecionou "não-AAD" para o tipo de identidade, confira Mapear suas identidades não [Azure AD](map-non-aad.md) para obter instruções sobre como mapear as identidades.
+Se você optou por ingerir uma ACL da sua instância do Salesforce e selecionou "não-AAD" para o tipo de identidade, confira Mapear as identidades que não são do [Azure AD](map-non-aad.md) para obter instruções sobre como mapear as identidades.
 
 ## <a name="step-4b-map-aad-identities"></a>Etapa 4b: Mapear identidades do AAD
 
-Se você optou por ingerir uma ACL da sua instância do Salesforce e selecionou "AAD" para o tipo de identidade, confira Mapear as identidades do [Azure AD](map-aad.md) para obter instruções sobre como mapear as identidades. Para saber como configurar o SSO do Azure AD para Salesforce, confira este [tutorial.](https://docs.microsoft.com/azure/active-directory/saas-apps/salesforce-tutorial)
+Se você optou por ingerir uma ACL da sua instância da Salesforce e selecionou "AAD" para o tipo de identidade, confira Mapear as identidades do [Azure AD](map-aad.md) para obter instruções sobre como mapear as identidades. Para saber como configurar o SSO do Azure AD para Salesforce, confira este [tutorial.](https://docs.microsoft.com/azure/active-directory/saas-apps/salesforce-tutorial)
 
 ## <a name="step-5-assign-property-labels"></a>Etapa 5: Atribuir rótulos de propriedade
 
@@ -159,7 +159,7 @@ Siga as instruções [gerais de configuração.](https://docs.microsoft.com/micr
 
 - No momento, o conector do Graph não dá suporte ao compartilhamento e compartilhamento baseado em território da Apex usando grupos pessoais da Salesforce.
 - Há um bug conhecido na API salesforce que o conector do Graph usa, onde os padrões de toda a organização privada para leads não são compatíveis no momento.  
-- Se um campo tiver segurança de nível de campo (FLS) definida para um perfil, o conector do Graph não ingeri esse campo para nenhum perfil nessa organização salesforce. Como resultado, os usuários não poderão pesquisar os valores desses campos, nem aparecerão nos resultados.  
+- Se um campo tiver a segurança de nível de campo (FLS) definida para um perfil, o conector do Graph não ingeri esse campo para nenhum perfil nessa organização da Salesforce. Como resultado, os usuários não poderão pesquisar os valores desses campos, nem aparecerão nos resultados.  
 - Na tela Gerenciar Esquema, esses nomes de propriedade padrão comuns são listados uma vez, as opções são **Consulta** **,** **Pesquisa,** Recuperar e **Refinar** e aplicar a todos ou a nenhum.
     - Nome
     - Url

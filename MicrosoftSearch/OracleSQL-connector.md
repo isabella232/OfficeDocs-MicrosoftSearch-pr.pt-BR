@@ -1,5 +1,5 @@
 ---
-title: Conector oracle DO SQL Graph para a Pesquisa da Microsoft
+title: Conector Oracle SQL Graph para a Pesquisa da Microsoft
 ms.author: mecampos
 author: mecampos
 manager: umas
@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ROBOTS: NoIndex
 description: Configurar o conector Oracle SQL Graph para a Pesquisa da Microsoft.
-ms.openlocfilehash: a13c9ea71b115e84d313489214d424f77337a062
-ms.sourcegitcommit: d39113376db26333872d3a2c7baddc3a3a7aea61
+ms.openlocfilehash: 01e4cd6b04d2997ea11ef006e94ea09b03280f41
+ms.sourcegitcommit: 6a7f36769e92b714588b47efb0c185eddabe6953
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "50084970"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "50099331"
 ---
 <!---Previous ms.author:vivg --->
 
@@ -29,7 +29,7 @@ O conector Oracle SQL Graph permite que sua organização descubra e indexe dado
 > [!NOTE]
 > Leia o [**artigo Configuração do seu conector do Graph**](configure-connector.md) para entender o processo geral de configuração de conectores do Graph.
 
-Este artigo é para qualquer pessoa que configure, executa e monitore um conector do ServiceNow Graph. Ele complementa o processo de instalação geral e mostra instruções que se aplicam somente ao conector do ServiceNow Graph. Este artigo também inclui informações sobre solução [de problemas](#troubleshooting) e [limitações.](#limitations)
+Este artigo é destinado a qualquer pessoa que configure, seja executado e monitore um conector Oracle SQL Graph. Ele complementa o processo de instalação geral e mostra instruções que se aplicam somente ao conector Oracle SQL Graph. Este artigo também inclui informações sobre solução [de problemas](#troubleshooting) e [limitações.](#limitations)
 
 ## <a name="before-you-get-started"></a>Antes de começar
 
@@ -138,9 +138,9 @@ Os seguintes tipos de ID são suportados para uso como ACLs:
 
 Nesta etapa opcional, forneça uma consulta SQL para executar um rastreamento incremental do banco de dados. Com essa consulta, o conector SQL determina as alterações nos dados desde o último rastreamento incremental. Como no rastreamento completo, selecione entre as opções **Consulta**, **Pesquisa** ou **Recuperar**. Especifique o mesmo conjunto de colunas ACL que você especificou na consulta de rastreamento completo.
 
-Os componentes na imagem a seguir são semelhantes aos componentes de rastreamento completo, com uma exceção. Nesse caso, "ModifiedDateTime" é a coluna de marca d'água selecionada. Revise as [etapas de rastreamento completo](#step-3a-full-crawl-required) para saber como escrever sua consulta de rastreamento incremental e veja a imagem a seguir como exemplo.
+Os componentes na imagem a seguir são semelhantes aos componentes de rastreamento completo, com uma exceção. Nesse caso, "ModifiedDateTime" é a coluna de marca d'água selecionada. Revise as [etapas completas do](#step-3a-full-crawl-required) rastreamento para saber como escrever sua consulta de rastreamento incremental e veja a imagem a seguir como exemplo.
 
-![Script de rastreamento incremental mostrando as propriedades OrderTable, AclTable e de exemplo que podem ser usadas.](media/MSSQL-incrcrawl.png)
+![Script de rastreamento incremental mostrando as propriedades OrderTable, AclTable e exemplo que podem ser usadas.](media/MSSQL-incrcrawl.png)
 
 ## <a name="step-4-assign-property-labels"></a>Etapa 4: Atribuir rótulos de propriedade
 
@@ -160,7 +160,7 @@ Você pode optar por usar as [ACLs especificadas](#full-crawl-manage-search-perm
 
 O conector Oracle SQL dá suporte a agendamentos de atualização para rastreamentos completos e incrementais. Recomendamos que você de definir ambos.
 
-Um cronograma de rastreamento completo localiza linhas excluídas que foram sincronizadas anteriormente com o índice da Pesquisa da Microsoft e quaisquer linhas que foram movidas para fora do filtro de sincronização. Quando você se conecta pela primeira vez ao banco de dados, um rastreamento completo é executado para sincronizar todas as linhas recuperadas da consulta de rastreamento completo. Para sincronizar novas linhas e fazer atualizações, você precisa agendar rastreamentos incrementais.
+Um cronograma de rastreamento completo localiza linhas excluídas que foram sincronizadas anteriormente com o índice da Pesquisa da Microsoft e quaisquer linhas que foram movidas do filtro de sincronização. Quando você se conecta pela primeira vez ao banco de dados, um rastreamento completo é executado para sincronizar todas as linhas recuperadas da consulta de rastreamento completo. Para sincronizar novas linhas e fazer atualizações, você precisa agendar rastreamentos incrementais.
 
 ## <a name="step-8-review-connection"></a>Etapa 8: Analisar a conexão
 
@@ -169,7 +169,7 @@ Siga as instruções [gerais de configuração.](https://docs.microsoft.com/micr
 
 ## <a name="next-steps-customize-the-search-results-page"></a>Próximas etapas: Personalizar a página de resultados da pesquisa
 
-Crie seus próprios tipos de resultados e verticais, para que os usuários finais possam exibir os resultados da pesquisa a partir de novas conexões. Sem essa etapa, os dados da sua conexão não aparecerão na página de resultados da pesquisa.
+Crie seus próprios tipos de resultados e verticais, para que os usuários finais possam exibir os resultados da pesquisa a partir de novas conexões. Sem essa etapa, os dados da conexão não aparecerão na página de resultados da pesquisa.
 
 Para saber mais sobre como criar seus itens verticais e MRTs, consulte [Personalização da página de resultados de pesquisa.](customize-search-page.md)
 
@@ -189,5 +189,5 @@ Abaixo está uma lista de erros comuns observados durante a configuração do co
 O conector Oracle SQL tem estas limitações na versão de visualização:
 
 * O banco de dados local deve executar o Banco de Dados Oracle versão 11g ou posterior.
-* As ACLs só têm suporte usando um Nome UpN, Azure Active Directory (Azure AD) ou Segurança do Active Directory.
+* As ACLs só são suportadas usando um Nome Principal de Usuário (UPN), Azure Active Directory (Azure AD) ou Segurança do Active Directory.
 * A indexação de conteúdo rico em colunas de banco de dados não é suportada. Exemplos desse conteúdo são HTML, JSON, XML, blobs e análise de documentos que existem como links dentro das colunas do banco de dados.
