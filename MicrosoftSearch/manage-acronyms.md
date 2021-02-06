@@ -1,5 +1,5 @@
 ---
-title: Gerenciar as respostas de acrônimo no Microsoft Search
+title: Gerenciar respostas de acrônimo na Pesquisa da Microsoft
 ms.author: rakkum
 author: rakeshMSFT
 manager: jeffkizn
@@ -11,118 +11,118 @@ search.appverid:
 - BFB160
 - MET150
 - MOE150
-description: Criar e atualizar respostas de acrônimos no Microsoft Search
-ms.openlocfilehash: ff79e3d741e10d401873c29d86739e61c9f53329
-ms.sourcegitcommit: e6ceb07cae208648dadd5452a077414ab5a4513f
+description: Criar e atualizar respostas de acrônimos na Pesquisa da Microsoft
+ms.openlocfilehash: 45d3cc7b33f27d2f4e77d8099fbfa91e01aabcbb
+ms.sourcegitcommit: ef94ffd6111acb929c8343f0f4f82ea109b68fb6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/22/2020
-ms.locfileid: "49728002"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50122152"
 ---
-# <a name="manage-acronyms-answers-in-microsoft-search"></a>Gerenciar as respostas de acrônimos no Microsoft Search
+# <a name="manage-acronyms-answers-in-microsoft-search"></a>Gerenciar respostas de acrônimos na Pesquisa da Microsoft
 
-Geralmente, os usuários podem ter acrônimos e abreviaturas desconhecidos usados por sua organização ou equipe. Os termos específicos para organizações ou equipes podem ser novos para pessoas que se movem de uma equipe para outra, trabalham com equipes de parceiros internas ou que são novos na organização.
+Os usuários geralmente têm acrônimos e abreviações desconhecidos usados por sua organização ou equipe. Os termos específicos para organizações ou equipes podem ser novos para pessoas que mudarem de uma equipe para outra, trabalhem com equipes parceiras internas ou sejam novos na organização.
 
-As organizações nem sempre têm uma única referência para sua terminologia padrão. A falta de uma única referência dificulta a localização de definições ou expansões desses acrônimos. O Microsoft Search resolve esse problema com acrônimos.
+As organizações nem sempre têm uma única referência para sua terminologia padrão. A falta de uma única referência dificulta encontrar definições ou expansões para esses acrônimos. A Pesquisa da Microsoft resolve esse problema com acrônimos.
 
 ## <a name="what-users-experience"></a>O que os usuários experimentam
 
-Os usuários de pesquisa da Microsoft podem obter definições com acrônimos no [Bing](https://Bing.com), [SharePoint](https://products.office.com/sharepoint/collaboration)e [Office 365](https://Office.com). Na caixa de **pesquisa** , os usuários inserem consultas como estes exemplos:
+Os usuários da Pesquisa da Microsoft podem obter definições com acrônimos no [Bing,](https://Bing.com) [no SharePoint](https://products.office.com/sharepoint/collaboration)e [no Office 365.](https://Office.com) Na caixa **Pesquisar,** os usuários ins são consultadas como estes exemplos:
 
 - *O que é* DNN
 - *Definir* DNN
-- *Definição* DNN
-- *Expand* DNN
-- *Expansão* DNN
+- Definição  de DNN
+- *Expandir* DNN
+- Expansão  de DNN
 - *Significado de* DNN
 - DNN *significa*
 
-O resultado inclui todos os significados do DNN que estão presentes na organização do usuário.
+O resultado inclui todos os significados de DNN presentes na organização do usuário.
 
 > [!NOTE]
-> Os usuários devem inserir uma consulta que inclua as *palavras-chave* especificadas pelo acrônimo para disparar suas respostas correspondentes. As consultas de acrônimos não diferenciam maiúsculas de minúsculas.
+> Os usuários devem inserir uma consulta que inclua as palavras-chave *especificadas* do acrônimo para disparar suas respostas correspondentes. Consultas de acrônimo não são sensíveis a minúsculas.
 
 ## <a name="set-up-acronyms-answers"></a>Configurar respostas de acrônimos
 
-No [centro de administração do Microsoft 365](https://admin.microsoft.com), vá até [**acrônimos**](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/acronyms)e, em seguida, selecione **Adicionar sigla**.
+No centro [de administração do Microsoft 365,](https://admin.microsoft.com)vá para Acrônimos e selecione Adicionar **acrônimo.** [](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/acronyms)
 
-O Microsoft Search consulta duas fontes de dados para fornecer respostas de acrônimos às pesquisas dos usuários:
+A Pesquisa da Microsoft consulta duas fontes de dados para fornecer respostas de Acrônimos às pesquisas dos usuários:
 
-1. **Administração-organizada**. Fornecido por administradores de ti no [centro de administração](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/acronyms).
-2. **De sistema-organizada**. Descoberto pela Microsoft Search de emails e documentos de usuários e dados publicamente disponíveis dentro da organização.
+1. **Administração gerenciada**. Fornecido por administradores de IT no centro [de administração.](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/acronyms)
+2. **Curadado pelo sistema.** Descoberta pela Pesquisa da Microsoft a partir de emails e documentos dos usuários e dados disponíveis publicamente dentro da organização.
 
-### <a name="set-up-admin-curated-acronyms"></a>Configurar acrônimos auxiliares de administrador
+### <a name="set-up-admin-curated-acronyms"></a>Configurar acrônimos com administração
 
-Os administradores de pesquisa podem adicionar acrônimos à [guia acrônimos](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/acronyms) no  [centro de administração de pesquisa da Microsoft](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch). Você pode adicionar acrônimos de qualquer site ou repositório interno ao centro de administração. Esses acrônimos podem ser adicionados ao estado **publicado** ou de **rascunho** :
+Os administradores de pesquisa podem adicionar acrônimos na [guia Acrônimos](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/acronyms) no centro [de administração da Pesquisa da Microsoft.](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch) Você pode adicionar acrônimos de qualquer site ou repositório interno ao centro de administração. Esses acrônimos podem ser adicionados **ao estado Publicado** ou **Rascunho:**
 
-**Estado publicado**. Os acrônimos estão disponíveis para os usuários da organização através da pesquisa da Microsoft.
+**Estado publicado.** Os acrônimos estão disponíveis para os usuários da organização por meio da Pesquisa da Microsoft.
 
 > [!NOTE]
-> Pode levar até três dias para que os acrônimos adicionados ao estado publicado fiquem disponíveis no Microsoft Search.
+> Pode levar até três dias para que os acrônimos adicionados ao estado Publicado se tornem disponíveis na Pesquisa da Microsoft.
 
-**Estado de rascunho**. Se você deseja revisar um acrônimo antes de disponibilizá-lo no Microsoft Search, você pode adicionar o acrônimo em um estado de rascunho. Os acrônimos no estado rascunho não serão exibidos nos resultados da pesquisa. Você precisará mover o acrônimo para o estado publicado para que ele apareça nos resultados da pesquisa.
+**Estado de rascunho.** Se quiser revisar um acrônimo antes de disponibilizar na Pesquisa da Microsoft, você pode adicionar o acrônimo em um estado rascunho. Os acrônimos no estado Rascunho não aparecerão nos resultados da pesquisa. Você precisará mover o acrônimo para o estado Publicado para que ele apareça nos resultados da pesquisa.
 
 Você pode adicionar acrônimos individualmente ou importá-los em massa em um arquivo CSV. Carregue um arquivo CSV com os campos mostrados na tabela a seguir:
 
-| Sigla (obrigatório) | Expansão (obrigatória) | Descrição  | Origem | Estado (obrigatório) |
-| --------- | --------- | ---------- | --------- |--------- |
-| *XXX* | *Abreviatura de abreviação* |  | *URL* | *Publicado ou rascunho* |
+| Acrônimo (obrigatório) | Expansão (obrigatório) | Url | Descrição  | Estado (obrigatório) | Última Modificação | Última modificação por | Id |
+| --------- | --------- | --------- | ---------- | --------- |--------- |--------- |--------- |
+| *XXX* | *Abreviação spelled out* | *Fonte* |  | *Publicado ou rascunho* |  |  |  |
 
 ### <a name="csv-fields"></a>Campos CSV
 
-**Sigla**. Contém a forma curta ou sigla real. Um exemplo é *DNN*.
+**Acrônimo**. Contém o formato curto ou acrônimo real. Um exemplo é *DNN*.
 
-**Expansão**. Contém a expansão do acrônimo. Um exemplo é uma *rede neural profunda*.
+**Expansão**. Contém a expansão do acrônimo. Um exemplo é *Deep Neural Network*.
 
-**Descrição**. Uma breve descrição do acrônimo que oferece aos usuários mais informações sobre o acrônimo e sua expansão. Por exemplo, *uma rede neural profunda é uma rede neural com um determinado nível de complexidade, uma rede neural com mais de duas camadas*.
+**Descrição**. Uma breve descrição do acrônimo que fornece aos usuários mais informações sobre o acrônimo e sua expansão. Por exemplo, uma rede neural profunda é uma rede neural com um determinado nível de complexidade, uma rede neural com *mais de duas camadas.*
 
-**Fonte**. A URL da página ou site onde você deseja que os usuários vá para obter mais informações sobre o acrônimo.
+**Fonte**. A URL da página ou site onde você deseja que os usuários acessem para obter mais informações sobre o acrônimo.
 
-**Estado**. Este campo pode ter dois valores:
+**Estado**. Esse campo pode ter dois valores:
 
-- **Rascunho**. Adiciona o acrônimo ao estado de rascunho.
-- **Publicado**. Adiciona a sigla ao estado publicado e a disponibiliza no Microsoft Search.
+- **Rascunho**. Adiciona o acrônimo ao estado Rascunho.
+- **Publicado**. Adiciona o acrônimo ao estado Publicado e o disponibiliza na Pesquisa da Microsoft.
 
-### <a name="system-curated-acronyms"></a>Acrônimos organizados pelo sistema
+### <a name="system-curated-acronyms"></a>Acrônimos com cura do sistema
 
-Pode ser um desafio para os administradores adicionarem todos os acrônimos usados dentro de uma organização para responder. Esse recurso pode encontrar acrônimos que os administradores de pesquisa nem são compatíveis. Para fazer isso funcionar, a pesquisa da Microsoft também descobre e busca acrônimos dessas fontes:
+Pode ser um desafio para os administradores adicionarem todos os acrônimos usados em uma organização às Respostas. Esse recurso pode encontrar acrônimos que os administradores de pesquisa nem sabem. Para fazer esse trabalho, a Pesquisa da Microsoft também descobre e reúne acrônimos destas fontes:
 
 - Emails dos usuários
-- Documentos no [SharePoint](https://products.office.com/sharepoint/collaboration), [Microsoft onedrive]( https://onedrive.live.com/about/)e [Microsoft OneNote](https://www.onenote.com/)
-- Documentos públicos dentro da organização para os quais os usuários têm acesso no SharePoint, OneDrive ou OneNote
+- Documentos no [SharePoint,](https://products.office.com/sharepoint/collaboration) [Microsoft OneDrive]( https://onedrive.live.com/about/)e [Microsoft OneNote](https://www.onenote.com/)
+- Documentos públicos dentro da organização aos qual os usuários têm acesso no SharePoint, OneDrive ou OneNote
 
-A pesquisa da Microsoft garante que somente os usuários com acesso e permissões a um documento possam ver os acrônimos descobertos. Quando um acrônimo é encontrado na caixa de correio de um usuário, apenas esse usuário pode ver esse acrônimo.
+A Pesquisa da Microsoft garante que somente os usuários com acesso e permissões para um documento possam ver os acrônimos descobertos a partir dela. Quando um acrônimo é encontrado na caixa de correio de um usuário, somente esse usuário pode ver esse acrônimo.
 
 > [!NOTE]
-> Nenhuma configuração é necessária para acrônimos auxiliares de administrador.
+> Nenhuma configuração é necessária para acrônimos com administração.
 
 ## <a name="frequently-asked-questions"></a>Perguntas frequentes
 
-**P: como os dados de administrador e de sistema são classificados de acordo?**
+**P: Como os dados coletados pelo administrador e pelo sistema são classificados?**
 
-**A:** A classificação dos resultados pode variar de pessoa para pessoa à medida que os resultados são personalizados para cada usuário. Nenhuma dessas categorias sempre terá precedência sobre a outra.
+**R:** A classificação dos resultados pode variar de pessoa para pessoa, pois os resultados são personalizados para cada usuário. Nenhuma dessas categorias terá precedência sobre a outra.
 
-**P: quanto tempo demora para que os acrônimos auxiliares sejam visíveis na pesquisa da Microsoft após serem publicados?**
+**P: Quanto tempo leva para que os acrônimos com administração sejam visíveis na Pesquisa da Microsoft depois que eles são publicados?**
 
-**A:**  É necessário até três dias para que os acrônimos adicionados ao estado publicado sejam disponibilizados na pesquisa da Microsoft.
+**R:**  Leva até três dias para que os acrônimos adicionados ao estado Publicado se tornem disponíveis na Pesquisa da Microsoft.
 
-**P: como os usuários acionam as respostas de acrônimos?**
+**P: Como os usuários disparam respostas de acrônimos?**
 
-**A**: para obter respostas de acrônimos, os usuários devem inserir padrões de consulta específicos em uma caixa de **pesquisa** [Bing](https://bing.com), [SharePoint](https://products.office.com/sharepoint/collaboration)ou [Office 365](https://Office.com) .
+**R:** Para obter respostas de acrônimos, os usuários devem inserir padrões de consulta específicos em uma caixa de pesquisa do [Bing,](https://bing.com) [do SharePoint](https://products.office.com/sharepoint/collaboration)ou do [Office 365.](https://Office.com) 
 
-**P: quanto tempo leva para que os acrônimos de sistema sejam exibidos depois que você recebe ou envia um novo email ou documento?**
+**P: Quanto tempo leva para que os acrônimos de sistema apareçam depois que você receber ou enviar um novo email ou documento?**
 
-**A:** Os acrônimos encontrados em um novo email ou documento levam até sete dias para serem exibidos nos resultados da pesquisa da Microsoft.
+**R:** Os acrônimos encontrados em um novo email ou documento levam até sete dias para aparecerem nos resultados da Pesquisa da Microsoft.
 
-**P: os documentos precisam estar em um formato específico para que a mineração os pegue?**
+**P: Os documentos precisam estar em um formato específico para que a mineração os pegue?**
 
-**A:** Não. Oferecemos suporte a todos os tipos de arquivo, exceto imagem, pastas e arquivos zip.
+**R:** Não. Damos suporte a todos os tipos de arquivo, exceto arquivos de imagem, pastas e zip.
 
-**P: a Microsoft descobrirá as abreviações de documentos em todos os idiomas?**
+**P: A Microsoft descobrirá acrônimos de documentos em todos os idiomas?**
 
-**A: A** Microsoft dá suporte apenas à mineração de documentos em inglês. O suporte para outros idiomas será adicionado em fases.
+**R:** A Microsoft só dá suporte à mineração de documentos em inglês. O suporte para outros idiomas será adicionado em fases.
 
-**P: e se minha organização não quiser mostrar os acrônimos de sistema. Posso parar de mostrar esse tipo de sigla nos meus resultados de pesquisa?**
+**P: E se minha organização não quiser mostrar acrônimos com organização do sistema? Posso parar de mostrar esse tipo de acrônimo nos resultados da pesquisa?**
 
-**A**: para desativar a exibição de acrônimos de sistema não organizados em resultados de pesquisa, crie um tíquete de suporte ao cliente seguindo as instruções em [contato com o suporte para produtos de negócios](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?redirectSourcePath=%252f%252farticle%252fContact-Office-365-for-business-support-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b&view=o365-worldwide&tabs=online#BKMK_call_support).
-Depois de criar um tíquete de suporte, serão necessários até 48 horas para que os acrônimos de sistema separados parem de aparecer nos resultados da pesquisa.
+**R:** Para desativar a exibição de acrônimos de sistema nos resultados da pesquisa, crie um tíquete de suporte ao cliente seguindo as instruções em Contato com o suporte [para produtos comerciais.](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)
+Depois de criar um tíquete de suporte, leva até 48 horas para que os acrônimos com a cura do sistema parem de aparecer nos resultados da pesquisa.
