@@ -13,16 +13,16 @@ search.appverid:
 - MOE150
 ROBOTS: NoIndex
 description: Agente no prem
-ms.openlocfilehash: 31220196849fe90ab2611e9c2b83a1cec0a02b34
-ms.sourcegitcommit: a04f1df14a3221776ccd141f6060328612d80e06
+ms.openlocfilehash: 7aef2ea57c92929d4d4f45e1a738c84e6a3f4bba
+ms.sourcegitcommit: ab4f81ded967168689e6e81c90e115b94719335c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "49876494"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "50173058"
 ---
-# <a name="graph-connector-agent"></a>Agente do conector do Graph
+# <a name="graph-connector-agent"></a>Agente de conector do Graph
 
-O uso de conectores do Graph no centro exige a instalação do software *do agente do conector do Graph.* Ele permite a transferência segura de dados entre os dados locais e as APIs do conector do Graph. Este artigo orienta você durante a instalação e configuração do agente.
+O uso de conectores do Graph no computador exige a instalação do software *do agente do conector do Graph.* Ele permite a transferência segura de dados entre os dados locais e as APIs do conector do Graph. Este artigo orienta você durante a instalação e configuração do agente.
 
 ## <a name="installation"></a>Instalação
 
@@ -36,6 +36,15 @@ Configuração recomendada:
 * 16 GB de RAM, 2 GB de espaço em disco
 * Acesso de rede à fonte de dados e à Internet por meio do 443
 
+Depois de instalar o agente, se os servidores proxy ou firewalls da sua organização bloquearem a comunicação com domínios desconhecidos, adicione os abaixo à lista de autorizações.
+
+1. *.servicebus.windows.net
+2. *.events.data.microsoft.com
+3. https://login.microsoftonline.com
+4. https://gcs.office.com
+5. https://graph.microsoft.com/
+
+
 ## <a name="create-and-configure-an-app-for-the-agent"></a>Criar e configurar um aplicativo para o agente  
 
 Primeiro, entre e observe que o privilégio mínimo necessário na conta é o administrador de pesquisa. Em seguida, o agente solicitará que você forneça detalhes de autenticação. Use as etapas abaixo para criar um aplicativo e gerar os detalhes de autenticação necessários.
@@ -46,7 +55,7 @@ Primeiro, entre e observe que o privilégio mínimo necessário na conta é o ad
 2. Navegue até registros de aplicativo do **Azure Active Directory** no  ->   painel de navegação e selecione **Novo registro.**
 3. Forneça um nome para o aplicativo e selecione **Registrar.**
 4. Anote a ID do aplicativo (cliente).
-5. Abra **permissões da API** no painel de navegação e selecione Adicionar uma **permissão.**
+5. Abra **as permissões da API** no painel de navegação e selecione Adicionar uma **permissão.**
 6. Selecione **o Microsoft Graph** e, em **seguida, permissões de aplicativo.**
 7. Procure por "ExternalItem.ReadWrite.All" e "Directory.Read.All" nas permissões e selecione **Adicionar permissões**.
 8. Selecione **Conceder consentimento de administrador para [TenantName]** e confirme selecionando **Sim**.
@@ -74,7 +83,7 @@ Há três etapas simples para usar a autenticação baseada em certificado:
 
 ##### <a name="step-1-get-a-certificate"></a>Etapa 1: Obter um certificado
 
-O script abaixo pode ser usado para gerar um certificado auto-assinado. Sua organização pode não permitir certificados auto-assinados. Nesse caso, use essas informações para entender os requisitos e adquirir um certificado de acordo com as políticas da sua organização.
+O script a seguir pode ser usado para gerar um certificado auto-assinado. Sua organização pode não permitir certificados auto-assinados. Nesse caso, use essas informações para entender os requisitos e adquirir um certificado de acordo com as políticas da sua organização.
 
 ```Powershell
 $dnsName = "<TenantDomain like agent.onmicrosoft.com>" # Your DNS name
@@ -106,7 +115,7 @@ Se você usou o script de exemplo para gerar um certificado, o arquivo PFX pode 
 
 1. Baixe o arquivo pfx do certificado na máquina do Agente.
 1. Clique duas vezes no arquivo pfx para iniciar a caixa de diálogo de instalação do certificado.
-1. Selecione "Computador Local" para o local de armazenamento durante a instalação do certificado.
+1. Selecione "Máquina Local" para o local de armazenamento durante a instalação do certificado.
 1. Depois de instalar o certificado, abra "Gerenciar certificados de computador" por meio do menu Iniciar
 1. Selecione o certificado recém-instalado em "Pessoal" -> 'Certificados'
 1. Clique com o botão direito do mouse no certificado e selecione "Todas as Tarefas" -> "Gerenciar Chaves Privadas..." Opção
