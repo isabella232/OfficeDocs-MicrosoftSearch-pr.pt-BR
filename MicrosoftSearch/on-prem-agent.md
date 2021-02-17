@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ROBOTS: NoIndex
 description: Agente no prem
-ms.openlocfilehash: 7aef2ea57c92929d4d4f45e1a738c84e6a3f4bba
-ms.sourcegitcommit: ab4f81ded967168689e6e81c90e115b94719335c
+ms.openlocfilehash: bd5212d42fe21583aa6a4e0dc8060d5e191a7292
+ms.sourcegitcommit: 35b4246cb3e38c6fe21540686e28fe54154b33f3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "50173058"
+ms.lasthandoff: 02/16/2021
+ms.locfileid: "50259425"
 ---
 # <a name="graph-connector-agent"></a>Agente de conector do Graph
 
@@ -40,9 +40,9 @@ Depois de instalar o agente, se os servidores proxy ou firewalls da sua organiza
 
 1. *.servicebus.windows.net
 2. *.events.data.microsoft.com
-3. https://login.microsoftonline.com
-4. https://gcs.office.com
-5. https://graph.microsoft.com/
+3. https://<span>login.microsoftonline.</span>com
+4. https://<span>gcs.office.</span> com/
+5. https://<span>graph.microsoft.</span> com/
 
 
 ## <a name="create-and-configure-an-app-for-the-agent"></a>Criar e configurar um aplicativo para o agente  
@@ -83,7 +83,7 @@ Há três etapas simples para usar a autenticação baseada em certificado:
 
 ##### <a name="step-1-get-a-certificate"></a>Etapa 1: Obter um certificado
 
-O script a seguir pode ser usado para gerar um certificado auto-assinado. Sua organização pode não permitir certificados auto-assinados. Nesse caso, use essas informações para entender os requisitos e adquirir um certificado de acordo com as políticas da sua organização.
+O script abaixo pode ser usado para gerar um certificado auto-assinado. Sua organização pode não permitir certificados auto-assinados. Nesse caso, use essas informações para entender os requisitos e adquirir um certificado de acordo com as políticas da sua organização.
 
 ```Powershell
 $dnsName = "<TenantDomain like agent.onmicrosoft.com>" # Your DNS name
@@ -115,9 +115,12 @@ Se você usou o script de exemplo para gerar um certificado, o arquivo PFX pode 
 
 1. Baixe o arquivo pfx do certificado na máquina do Agente.
 1. Clique duas vezes no arquivo pfx para iniciar a caixa de diálogo de instalação do certificado.
-1. Selecione "Máquina Local" para o local de armazenamento durante a instalação do certificado.
+1. Selecione "Computador Local" para o local de armazenamento durante a instalação do certificado.
 1. Depois de instalar o certificado, abra "Gerenciar certificados de computador" por meio do menu Iniciar
 1. Selecione o certificado recém-instalado em "Pessoal" -> 'Certificados'
 1. Clique com o botão direito do mouse no certificado e selecione "Todas as Tarefas" -> "Gerenciar Chaves Privadas..." Opção
 1. Na caixa de diálogo permissões, selecione adicionar opção. Na caixa de diálogo de seleção do usuário, escreva: 'NT Service\GcaHostService' e clique em 'OK'. Não clique no botão "Verificar Nomes".
 1. Clique em ok na caixa de diálogo permissões. A máquina do agente agora está configurada para que o agente gere tokens usando o certificado.
+
+## <a name="troubleshooting"></a>Solução de problemas
+1. Se uma conexão falhar com o erro '1011: O agente do conector do Graph não está acessível ou offline', faça logon no computador onde o agente está instalado e inicie o aplicativo do agente se ele ainda não estiver em execução. Se a conexão continuar a falhar, verifique se o certificado ou o segredo do cliente fornecido ao agente durante o registro não expirou e se tem permissões necessárias.
