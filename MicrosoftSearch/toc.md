@@ -13,7 +13,6 @@
 ## [P e R](manage-qas.md)
 # Conectores
 ## [Visão geral](connectors-overview.md)
-## [Versão prévia](connectors-preview.md)
 ## [Galeria de conectores](connectors-gallery.md)
 ## Configurar conectores da Microsoft
 ### [Visão geral da configuração](configure-connector.md)
@@ -25,6 +24,7 @@
 #### [Azure DevOps (visualização)](azure-devops-connector.md)
 #### [Azure SQL e Microsoft SQL Server](MSSQL-connector.md)
 #### [Sites empresariais](enterprise-web-connector.md)
+#### [Compartilhamento de arquivos](fileshare-connector.md)
 #### [MediaWiki](mediawiki-connector.md)
 #### [Oracle SQL (visualização)](OracleSQL-connector.md)
 #### [Salesforce (visualização)](salesforce-connector.md)
