@@ -3,6 +3,7 @@ title: Conector gráfico de sites corporativos para Pesquisa da Microsoft
 ms.author: mecampos
 author: mecampos
 manager: umas
+audience: Admin
 ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
@@ -12,12 +13,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Configurar o conector gráfico de sites corporativos para a Pesquisa da Microsoft
-ms.openlocfilehash: 7d71e6e3d775c97d8916e20ab032c312c269c5f1
-ms.sourcegitcommit: 6a7522d9aeaedeedaac096c485d3f343ce98d3d2
+ms.openlocfilehash: b0ed7cc4148dba6c7555fcf7c9c930184cdbc24c
+ms.sourcegitcommit: f76ade4c8fed0fee9c36d067b3ca8288c6c980aa
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50421095"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50508792"
 ---
 <!---Previous ms.author: monaray --->
 
@@ -28,7 +29,7 @@ ms.locfileid: "50421095"
 O conector do Graph de sites corporativos permite que sua organização indexe artigos e **conteúdo de seus sites voltados para internamente.** Depois de configurar o conector e sincronizar o conteúdo do site, os usuários finais poderão pesquisar esse conteúdo de qualquer cliente de Pesquisa da Microsoft.
 
 > [!NOTE]
-> Leia o [**artigo Configurar seu conector do Graph**](configure-connector.md) para entender o processo geral de instalação de conectores do Graph.
+> Leia o [**artigo Configurar seu conector do Graph**](configure-connector.md) para entender as instruções gerais de configuração dos conectores do Graph.
 
 Este artigo é para qualquer pessoa que configure, executa e monitore um conector de sites enterprise. Ele complementa o processo de instalação geral e mostra instruções que se aplicam somente ao conector de sites da Empresa. Este artigo também inclui informações sobre Solução de [Problemas](#troubleshooting) e [Limitações.](#limitations)
 
@@ -50,12 +51,12 @@ Siga as instruções [gerais de instalação](https://docs.microsoft.com/microso
 
 Para se conectar à sua fonte de dados, você precisa preencher a URL raiz do site, selecionar uma fonte de rastreamento e o tipo de autenticação que você gostaria de usar: None, Basic Authentication ou OAuth 2.0 com o [Azure Active Directory (Azure AD)](https://docs.microsoft.com/azure/active-directory/). Depois de concluir essas informações, selecione Conexão de Teste para verificar suas configurações.
 
-> [!NOTE]
-> Se o site que você deseja rastrear tiver um mapa de site definido, o conector rastreará apenas as URLs listadas no sitemap. Se nenhum sitemap for definido, o conector fará um rastreamento profundo de todos os links encontrados na URL raiz do site.
-
 ### <a name="url"></a>URL
 
 Use o campo URL para especificar a raiz do site que você gostaria de rastrear. O conector de sites corporativos usará essa URL como ponto de partida e seguirá todos os links dessa URL para seu rastreamento.
+
+> [!NOTE]
+> Se o site que você deseja rastrear tiver um mapa de site definido, o conector rastreará apenas as URLs listadas no sitemap. Se nenhum sitemap for definido, o conector fará um rastreamento profundo de todos os links encontrados na URL raiz do site.
 
 ### <a name="crawl-mode-cloud-or-on-premises-preview"></a>Modo de rastreamento: Nuvem ou Local (Visualização)
 
@@ -116,7 +117,7 @@ O conector de sites corporativos só oferece suporte a uma atualização complet
 Siga as instruções [gerais de instalação](https://docs.microsoft.com/microsoftsearch/configure-connector).
 <!---If the above phrase does not apply, delete it and insert specific details for your data source that are different from general setup instructions.-->
 
-## <a name="troubleshooting"></a>Solução de problemas
+## <a name="troubleshooting"></a>Solução de Problemas
 
 Ao ler o conteúdo do site, o rastreamento pode encontrar alguns erros de origem, que são representados pelos códigos de erro detalhados abaixo. Para obter mais informações sobre os tipos de erros, vá para a página de detalhes **de** erro após selecionar a conexão. Selecione o **código de erro** para ver erros mais detalhados. Consulte Também Gerenciar [seu conector para](https://docs.microsoft.com/microsoftsearch/manage-connector) saber mais.
 

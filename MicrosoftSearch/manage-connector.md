@@ -3,6 +3,7 @@ title: Gerenciar conectores do Microsoft Graph para Pesquisa da Microsoft
 ms.author: monaray
 author: monaray97
 manager: mnirkhe
+audience: Admin
 ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
@@ -12,12 +13,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Gerenciar conectores do Microsoft Graph para Pesquisa da Microsoft.
-ms.openlocfilehash: 488b6e9452e381f8fc64ad06c6f063aa170ca7f5
-ms.sourcegitcommit: 3ed4d21510020045d25e8c5b7e168013d96c1b7e
+ms.openlocfilehash: aa2e3db8c8dc9155c06f81fc0169dd4bda8f8343
+ms.sourcegitcommit: f76ade4c8fed0fee9c36d067b3ca8288c6c980aa
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 03/05/2021
-ms.locfileid: "50464036"
+ms.locfileid: "50508828"
 ---
 <!-- markdownlint-disable no-inline-html -->
 
@@ -31,11 +32,11 @@ Navegue até [a guia Conectores](https://admin.microsoft.com/Adminportal/Home#/M
 
 Para cada tipo de conector, o Centro de administração do [Microsoft 365](https://admin.microsoft.com) dá suporte às operações mostradas na tabela a seguir:
 
-Operation | Conector criado pela Microsoft | Conector de parceiro ou personalizado
+Operação | Conectores de gráfico da Microsoft | Conectores de parceiros ou gráficos
 --- | --- | ---
-Adicionar uma conexão | :heavy_check_mark: (Consulte [Configure your Microsoft-built connector](configure-connector.md)) | :x: (Consulte seu parceiro ou UX de administrador de conector personalizado)
+Adicionar uma conexão | :heavy_check_mark: (Consulte Visão [geral da Instalação](configure-connector.md)) | :x: (Consulte seu parceiro ou UX de administrador de conector personalizado)
 Excluir uma conexão | :heavy_check_mark: | :heavy_check_mark:
-Editar uma conexão publicada | :heavy_check_mark: Nome<br></br> :heavy_check_mark: Descrição<br></br> :heavy_check_mark: credenciais de autenticação para sua fonte de dados externa<br></br> :heavy_check_mark: Credenciais de gateway para sua fonte de dados local<br></br> :heavy_check_mark: Agenda de atualização<br></br> | :heavy_check_mark: Nome<br></br> :heavy_check_mark: Descrição
+Editar uma conexão publicada | :heavy_check_mark: Nome e Descrição<br></br> :heavy_check_mark: Configurações de conexão<br></br> :heavy_check_mark: Rótulos de propriedades<br></br> :heavy_check_mark: Esquema<br></br> :heavy_check_mark: Agenda de atualização<br></br> | :heavy_check_mark: Nome<br></br> :heavy_check_mark: Descrição
 Editar uma conexão de rascunho | :heavy_check_mark: | :x:
 
 ## <a name="monitor-your-connection-status"></a>Monitorar o status da conexão
