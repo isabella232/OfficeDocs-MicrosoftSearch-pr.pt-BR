@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Gerenciar conectores do Microsoft Graph para Pesquisa da Microsoft.
-ms.openlocfilehash: aa2e3db8c8dc9155c06f81fc0169dd4bda8f8343
-ms.sourcegitcommit: f76ade4c8fed0fee9c36d067b3ca8288c6c980aa
+ms.openlocfilehash: 1c152f23e9b9d9982b957830d5f4bef0eef41347
+ms.sourcegitcommit: 2f770de12b27546b18b2e86517d2c25522eb9022
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50508828"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50929577"
 ---
 <!-- markdownlint-disable no-inline-html -->
 
@@ -39,15 +39,15 @@ Excluir uma conexão | :heavy_check_mark: | :heavy_check_mark:
 Editar uma conexão publicada | :heavy_check_mark: Nome e Descrição<br></br> :heavy_check_mark: Configurações de conexão<br></br> :heavy_check_mark: Rótulos de propriedades<br></br> :heavy_check_mark: Esquema<br></br> :heavy_check_mark: Agenda de atualização<br></br> | :heavy_check_mark: Nome<br></br> :heavy_check_mark: Descrição
 Editar uma conexão de rascunho | :heavy_check_mark: | :x:
 
-## <a name="monitor-your-connection-status"></a>Monitorar o status da conexão
+## <a name="monitor-your-connection-state"></a>Monitorar seu estado de conexão
 
 Depois de criar uma conexão, o número de itens **processados** aparece na guia Conectores na **página Pesquisa da Microsoft.** Depois que o rastreamento completo inicial for concluído com êxito, o progresso de rastreamentos incrementais periódicos será exibido. Esta página fornece informações sobre as operações diárias do conector e uma visão geral dos logs e do histórico de erros.
 
-Quatro estados aparecem na coluna **Status** em cada conexão:
+Quatro estados aparecem na coluna **Estado em** cada conexão:
 
 * **Sincronizando**. O conector está rastreando os dados da fonte para indexar os itens existentes e fazer qualquer atualização.
 
-* **Habilitado**: a conexão está habilitada e não há rastreamento ativo em execução contra ela. **O último tempo de** sincronização indica quando ocorreu o último rastreamento bem-sucedido. A conexão é tão recente quanto a última hora de sincronização.
+* **Pronto**: a conexão está pronta e não há rastreamento ativo em execução contra ela. **O último tempo de** sincronização indica quando ocorreu o último rastreamento bem-sucedido. A conexão é tão recente quanto a última hora de sincronização.
 
 * **Pausado**. Os rastreamentos são pausados pelos administradores por meio da opção de pausa. O próximo rastreamento é executado somente quando é retomado manualmente. No entanto, os dados dessa conexão continuam a ser pesquisáveis.
 
@@ -58,19 +58,23 @@ Quatro estados aparecem na coluna **Status** em cada conexão:
 A cota de índice disponível e o consumo são exibidos na página inicial dos conectores.
 
 ![Barra de utilização de cota de índice](media/quota_utilization.png)
-
+ 
 >[!NOTE]
 >Durante o período de visualização, todas as organizações que estavam tentando os conectores do Graph foram fornecidas uma cota fixa gratuita de até 2 milhões de itens em todas as conexões. Com os conectores do Graph geralmente disponíveis, a cota gratuita expirará em 1º de abril de 2021 para as organizações que têm usado conectores graph na visualização.
 >Os conectores do Graph criado pela Microsoft rotulados como ["Visualização"](connectors-preview.md) não serão incluídos na cota de índice total cobrada para sua organização. No entanto, ele contará para o número máximo de 10 conexões que você pode configurar para sua organização e o número máximo de 7 milhões de itens que sua organização pode indexar entre conexões; cada conexão é limitada a 700.000 itens. 
 
 A barra de utilização de cota indicará vários estados com base no consumo de cota pela sua organização:
 
-Estado | Consumo de cotas
---- | ---
-Normal | 1-69%
-Alto | 70-89%
+Estado | Níveis de utilização de cota
+--- | --- 
+Normal | 0-79%
+Alto | 80-89%
 Crítico | 90%-99%
 Completo | 100%
+
+<!-- 
+![Quota utilization levels](media/connectors-quota-utilization-levels.png)
+-->
 
 O número de itens indexados também será exibido com cada conexão. O número de itens indexados por cada conexão contribui para a cota total disponível para sua organização.
 
