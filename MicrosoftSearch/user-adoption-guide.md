@@ -12,183 +12,183 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 9e8c9323-4ff9-42dd-8052-2bc9e0d6d0e7
-description: Saiba mais sobre métodos e processos para ajudá-lo a distribuir com êxito a pesquisa da Microsoft para sua organização
-ms.openlocfilehash: 76079dd2db378185a999acf9cc49cd04a7f97bbe
-ms.sourcegitcommit: b3738f5ab02bfba9dedf099e035f3850607be480
+description: Saiba mais sobre métodos e processos para ajudá-lo a lançar com êxito a Pesquisa da Microsoft para sua organização
+ms.openlocfilehash: 78c94be873ba7167e9d0605b0aaa7da942ad8a8a
+ms.sourcegitcommit: 5df252e6d0bd67bb1b4c59418aceca8369f5fe42
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "46591513"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51031706"
 ---
 # <a name="user-adoption-guide"></a>Guia de adoção do usuário
 
-Essas informações se destinam a administradores de pesquisa da Microsoft, líderes de gerenciamento de mudanças e proprietários de negócios.
+Essas informações são destinadas a administradores da Pesquisa da Microsoft, líderes de gerenciamento de alterações e proprietários de negócios.
   
-Para distribuir e garantir a adoção bem-sucedida da pesquisa da Microsoft em toda a organização, recomendamos esse processo de quatro estágios.
+Para lançar e garantir a adoção bem-sucedida da Pesquisa da Microsoft em toda a sua organização, recomendamos esse processo de quatro estágios.
   
-## <a name="stage-1-stakeholders"></a>Etapa 1: participantes
+## <a name="stage-1-stakeholders"></a>Estágio 1: Stakeholders
 
-Para garantir uma distribuição sem falhas e aumentar a adoção do usuário da pesquisa da Microsoft, identifique pessoas que podem ajudar a oferecer suporte e orientar o processo.
+Para garantir uma aprovação perfeita e aumentar a adoção do usuário da Pesquisa da Microsoft, identifique as pessoas que podem ajudar a dar suporte e conduzir o processo.
   
-A tabela mostra a hierarquia da equipe e o que cada pessoa contribui. 
+A tabela mostra a hierarquia de equipe e o que cada pessoa contribui. 
   
- **Funções e responsabilidades da equipe de adoção do usuário**
+ **Funções e responsabilidades de equipe de adoção de usuários**
   
 |**Função**|**Responsabilidades**|**Departamento**|
 |:-----|:-----|:-----|
-|Apoio executivo  <br/> |Entenda a visão e o valor de alto nível da pesquisa da Microsoft para sua organização.  <br/> Fornecer suporte à liderança para a equipe de ti/negócios.  <br/> Alocar recursos.  <br/> Comunique-se diretamente com os funcionários.  <br/> |Liderança executiva  <br/> |
-|Proprietário da empresa  <br/> |Identificar cenários de produto e de usuário.  <br/> Determinar as métricas de sucesso para departamentos e a organização.  <br/> |Qualquer  <br/> |
-|Equipe de gerenciamento de mudanças  <br/> |Assegure-se de que o valor do produto seja fácil de entender.  <br/> Crie um plano para a implantação.  <br/> |IT  <br/> |
-|Campeões  <br/> |Evangelize o produto a colegas e equipes.  <br/> |Qualquer (equipe)  <br/> |
-|Administrador de pesquisa  <br/> |Identificar membros da equipe principais de adoção do usuário.  <br/> Administrar a pesquisa da Microsoft, incluindo a aparência da experiência e o gerenciamento contínuo.  <br/> Conduzir discussões para mostrar o valor da pesquisa da Microsoft.  <br/> |IT  <br/> |
-|Editores  <br/> |Criar conteúdo no [centro de administração](https://admin.microsoft.com)do Microsoft 365.  <br/> |TI/qualquer  <br/> |
+|Apoio executivo  <br/> |Entenda a visão de alto nível e o valor da Pesquisa da Microsoft para sua organização.  <br/> Forneça suporte de liderança à equipe de IT/negócios.  <br/> Alocar recursos.  <br/> Comunicar-se diretamente com os funcionários.  <br/> |Liderança executiva  <br/> |
+|Proprietário da empresa  <br/> |Identificar cenários de produto e usuário.  <br/> Determine as métricas de sucesso para os departamentos e a organização.  <br/> |Qualquer  <br/> |
+|Alterar a equipe de gerenciamento  <br/> |Verifique se o valor do produto é fácil de entender.  <br/> Crie um plano para a adoção.  <br/> |IT  <br/> |
+|Campeões  <br/> |Evangelize o produto para pares e equipes.  <br/> |Any (staff)  <br/> |
+|Administrador de pesquisa  <br/> |Identificar os principais membros da equipe de adoção do usuário.  <br/> Administro a Pesquisa da Microsoft, incluindo a aparência da experiência e o gerenciamento contínuo.  <br/> Conduza discussões para mostrar o valor da Pesquisa da Microsoft.  <br/> |IT  <br/> |
+|Editores  <br/> |Crie conteúdo no Centro de administração [do](https://admin.microsoft.com)Microsoft 365.  <br/> |IT/Any  <br/> |
    
-## <a name="stage-2-scenarios"></a>Estágio 2: cenários
+## <a name="stage-2-scenarios"></a>Estágio 2: Cenários
 
-Para garantir a adoção do usuário, é fundamental determinar e definir cenários de usuário final. Eles devem incluir exemplos do mundo real de como as pessoas podem usar a pesquisa da Microsoft para encontrar as informações de que precisam, responder perguntas e concluir tarefas mais rapidamente. Para medir o sucesso de sua implantação e adoção do usuário, também é importante determinar as métricas que você usará antes de começar.
+Para garantir a adoção do usuário, é fundamental determinar e definir cenários do usuário final. Eles devem incluir exemplos reais de como as pessoas podem usar a Pesquisa da Microsoft para encontrar as informações necessárias, responder perguntas e concluir tarefas mais rapidamente. Para medir o sucesso da sua adoção de usuários e de lançamento, também é importante determinar as métricas que você usará antes de começar.
   
-### <a name="understand-what-your-users-need-and-want"></a>Entender o que os usuários precisam e querem
+### <a name="understand-what-your-users-need-and-want"></a>Entender o que seus usuários precisam e querem
   
-Quando se trata de encontrar informações e obter respostas, conhecer as necessidades e os pontos problemáticos do usuário é fundamental. Você pode usar métodos quantitativos, como dados de uso do [Office 365](https://Office.com) e [do SharePoint](https://products.office.com/sharepoint/collaboration) Search, ou métodos qualitativos, como pesquisas e grupos de foco do usuário para obter esses dados. Isso ajudará a determinar quando, onde e como a pesquisa da Microsoft podem fornecer valor.
+Quando se trata de encontrar informações e obter respostas, conhecer as necessidades e pontos de dor do usuário é fundamental. Você pode usar métodos quantitativos, como dados do uso da pesquisa do [Office 365](https://Office.com) e [do SharePoint,](https://products.office.com/sharepoint/collaboration) ou métodos qualitativos, como pesquisas e grupos de foco do usuário para obter esses dados. Isso ajudará você a determinar quando, onde e como a Pesquisa da Microsoft pode fornecer valor.
   
 Para várias funções e equipes em toda a sua organização, considere:
   
-- Pontos problemáticos do usuário existentes durante a pesquisa de informações.
+- Pontos de dor do usuário existentes ao pesquisar informações.
     
-- Aplicativos, ferramentas, sites e outras fontes de informações usadas com frequência.
+- Aplicativos, ferramentas, sites e outras fontes de informações usados com frequência.
     
-- O que os usuários gostariam de ver em relação à pesquisa de informações.
+- O que os usuários gostaria de ver quando se trata de pesquisar informações.
     
-- Como os benefícios da pesquisa da Microsoft se aplicam à sua organização. Para obter mais informações, consulte [visão geral da pesquisa da Microsoft](overview-microsoft-search.md).
+- Como os benefícios da Pesquisa da Microsoft se aplicam à sua organização. Para obter mais informações, consulte [Visão geral da Pesquisa da Microsoft.](overview-microsoft-search.md)
     
-Escolha os cenários de usuário que terão o maior impacto positivo para os seus usuários.
+Escolha os cenários de usuário que terão o maior impacto positivo para seus usuários.
   
  ### <a name="identify-success-metrics"></a>Identificar métricas de sucesso
   
-Para ajudá-lo a atender às suas metas de distribuição e mostrar um impacto positivo para a sua organização, é fundamental determinar as principais métricas de sucesso antes de começar. Mantenha suas metas simples e mensuráveis e avalie o desempenho regularmente, para que você possa responder rapidamente, se necessário.
+Para ajudá-lo a cumprir suas metas de lançamento e mostrar um impacto positivo para sua organização, é fundamental determinar suas principais métricas de sucesso antes de começar. Mantenha suas metas simples e mensuráveis e avalie o desempenho regularmente, para que você possa responder rapidamente, se necessário.
   
-1. **Gerenciamento de alterações:** Determine como você medirá a conscientização da pesquisa da Microsoft e o sucesso das comunicações sobre ele. 
+1. **Gerenciamento de alterações:** Determine como você medirá a conscientização da Pesquisa da Microsoft e o sucesso das comunicações sobre ela. 
     
-2. **Uso:** Você pode aproveitar os dados do seu painel do insights, incluindo usuários ativos diários e mensais (DAU e MAU), os tipos de conteúdo que estão obtendo a maioria dos modos de exibição e palavras-chave de pesquisa principais para medir o uso com o passar do tempo. Para obter mais informações, consulte [Microsoft Search insights Dashboard Reports](get-insights.md).
+2. **Uso:** Você pode aproveitar dados do Painel de Insights, incluindo usuários ativos diários e mensais (DAU e MAU), os tipos de conteúdo que estão recebendo mais visualizações e as principais palavras-chave de pesquisa para medir o uso ao longo do tempo. Para obter mais informações, consulte [Relatórios de painel do Microsoft Search Insights.](./usage-reports.md)
     
-3. **Satisfação do usuário:** Use os dados coletados de pesquisas e grupos de foco de usuário para determinar a linha de base. A satisfação líquida (NSAT) e as pontuações do NET promovar (NPS) também podem fornecer medidas úteis. Independentemente do método usado, mantenha-o consistente, para que você possa ver o impacto com o tempo. 
+3. **Satisfação do usuário:** Use os dados coletados de pesquisas e grupos de foco do usuário para determinar sua linha de base. A satisfação líquida (NSAT) e o Net Promoter Scores (NPS) também podem fornecer medidas úteis. Independentemente do método usado, mantenha-o consistente, para que você possa ver o impacto ao longo do tempo. 
     
-4. **Outras medições:** Use dados históricos e/ou atuais para solicitações de suporte e a quantidade de tempo gasto na pesquisa. 
+4. **Outras medidas:** Use dados históricos e/ou atuais para solicitações de suporte e o tempo gasto de pesquisa. 
     
-## <a name="stage-3-readiness"></a>Etapa 3: preparação
+## <a name="stage-3-readiness"></a>Estágio 3: Preparação
 
-O tempo de inpreparação para a implantação do Microsoft Search resultará em um impacto positivo na sua organização. A Microsoft fornece um <a href="https://go.microsoft.com/fwlink/?linkid=2114710">Kit de adoção</a> que contém um modelo de email de comunicado, leve, conteúdo visual criado para compartilhamento em seus sites de comunicação interna e uma apresentação de treinamento. Há também uma <a href="https://resources.techcommunity.microsoft.com/microsoft-search/#adoption">central de recursos de pesquisa da Microsoft</a> onde você pode encontrar outros recursos de treinamento e adoção projetados para ajudar a tornar o seu Microsoft Search migrar bem-sucedido.
+Investir tempo na preparação da sua lançamento da Pesquisa da Microsoft resultará em um impacto positivo para sua organização. A Microsoft fornece um Kit de <a href="https://go.microsoft.com/fwlink/?linkid=2114710">Adoção</a> que contém um modelo de email de anúncio, conteúdo leve e visual criado para compartilhamento em seus sites de comunicação interna e uma apresentação de treinamento. Há também um Centro de Recursos de Pesquisa da <a href="https://resources.techcommunity.microsoft.com/microsoft-search/#adoption">Microsoft</a> onde você pode encontrar outros recursos de treinamento e adoção projetados para ajudar a tornar a distribuição da Pesquisa da Microsoft bem-sucedida.
   
-### <a name="product-and-content-readiness"></a>Preparação do conteúdo e do produto
+### <a name="product-and-content-readiness"></a>Preparação de produto e conteúdo
   
-Os administradores influenciam diretamente a experiência de pesquisa para usuários finais e determinam como a pesquisa da Microsoft procura pela organização. Isso inclui escolher os tipos de resultados que você deseja destacar para seus usuários. Esses resultados podem incluir links, também conhecidos como marcadores, em documentos, sites, pessoas, grupos, locais, conversas e outros recursos de área de trabalho.
+Os administradores influenciam diretamente a experiência de pesquisa para usuários finais e determinam a aparência da Pesquisa da Microsoft para a organização. Isso inclui escolher os tipos de resultados que você deseja destacar para seus usuários. Esses resultados podem incluir links, também conhecidos como indicadores, para documentos, sites, pessoas, grupos, locais, conversas e outros recursos de local de trabalho.
   
-Para obter mais informações, consulte [Configurar a pesquisa da Microsoft](setup-microsoft-search.md).
+Para obter mais informações, consulte [Configurar a Pesquisa da Microsoft](setup-microsoft-search.md).
   
-Os editores são especialistas no assunto que ajudam a gerenciar indicadores e Q&como em suas áreas de especialização. Editores devem criar conteúdo que atenda aos cenários de usuário identificados anteriormente.
+Os editores são especialistas em assuntos que ajudam a gerenciar indicadores e&como em suas áreas de especialização. Os editores devem criar conteúdo que aborda os cenários de usuário identificados anteriormente.
   
-Para obter mais informações, consulte [Plan Your Content](plan-your-content.md).
+Para obter mais informações, consulte [Plan your content](plan-your-content.md).
   
 ### <a name="signing-in"></a>Entrar
   
-Os usuários de pesquisa da Microsoft devem entrar no [Bing](https://Bing.com) com uma conta corporativa ou de estudante. Para fazer logon o mais direto possível para seus usuários:
+Os usuários da Pesquisa da Microsoft devem entrar [no Bing](https://Bing.com) com uma conta de trabalho ou de estudante. Para tornar a conexão o mais perfeita possível para seus usuários:
   
-- Para garantir que as configurações [do Azure Active Directory](https://docs.microsoft.com/azure/active-directory/) sejam definidas corretamente, peça que alguns usuários tentem entrar. Para obter mais informações, consulte [Test Single Sign-on](test-single-sign-on.md).
+- Para garantir que as configurações do [Azure Active Directory](/azure/active-directory/) sejam definidas corretamente, faça com que alguns usuários tentem entrar. Para obter mais informações, consulte [Test single sign-on](test-single-sign-on.md).
     
-- Definir padrões do navegador para dispositivos gerenciados pela empresa para o Bing. Para obter mais informações, consulte [Set Default browser](set-default-browser.md).
+- Definir os padrões do navegador para dispositivos gerenciados pela empresa como Bing. Para obter mais informações, consulte [Definir navegador padrão](/deployedge/edge-default-browser).
     
-- Implantar extensões de pesquisa para usuários do [Microsoft Edge](https://www.microsoft.com/windows/microsoft-edge) e [Google Chrome](https://www.google.com) por meio da política de grupo. Para obter mais informações, consulte [visão geral da pesquisa da Microsoft](overview-microsoft-search.md).
+- Implantar extensões de pesquisa para [usuários do Microsoft Edge](https://www.microsoft.com/windows/microsoft-edge) e do Google [Chrome](https://www.google.com) por meio da Política de Grupo. Para obter mais informações, consulte [Visão geral da Pesquisa da Microsoft.](overview-microsoft-search.md)
     
-### <a name="draft-communications"></a>Comunicações de rascunho
+### <a name="draft-communications"></a>Rascunho de comunicações
   
-Use seus cenários do mundo real para informar os usuários sobre a pesquisa da Microsoft e como eles irão ajudá-los a economizar tempo. Sua equipe de gerenciamento de alterações pode ajudar a criar uma estratégia de distribuição e preparar o material e as campanhas para a preparação do usuário final.
+Use seus cenários reais para contar aos usuários sobre a Pesquisa da Microsoft e como isso os ajudará a economizar tempo. Sua equipe de gerenciamento de alterações pode ajudar a criar uma estratégia de lançamento e preparar garantias e campanhas para preparação do usuário final.
   
 Comece a planejar comunicações e eventos para sua organização:
   
-- Coloque banners, cartazes ou leaflets em locais proeminentes.
+- Coloque faixas, cartazes ou folhetos em locais proeminentes.
     
-- Estandes ou demonstrações de produtos de pessoas.
+- Demonstrações ou estandes de produtos em pessoa.
     
 - Eventos online para equipes locais e remotas.
     
-- Peça para seu patrocinador executivo hospedar uma reunião de prefeitura ou enviar um email de anúncio.
+- Fazer com que seu patrocinador executivo hospede uma reunião da cidade ou envie um email de anúncio.
     
-- Compartilhe a documentação de auto-ajuda sobre o uso da pesquisa da Microsoft.
+- Compartilhe a documentação de auto-ajuda sobre como usar a Pesquisa da Microsoft.
     
-Todas as comunicações devem informar os usuários sobre como eles podem entrar no [Bing](https://Bing.com) para encontrar resultados de trabalho.
+Todas as comunicações devem instruir os usuários sobre como eles podem entrar no [Bing para](https://Bing.com) encontrar resultados de trabalho.
   
-### <a name="engage-partner-teams"></a>Contratar equipes de parceiros
+### <a name="engage-partner-teams"></a>Envolver equipes parceiras
   
-Como parte integrante do [microsoft 365](https://www.microsoft.com/microsoft-365), a pesquisa da Microsoft obedece às diretrizes Rgpd e Tier-C. Dependendo da sua organização, talvez seja necessário compartilhar informações sobre a pesquisa da Microsoft com suas equipes de privacidade e segurança. Para obter mais informações, consulte [segurança e privacidade do Microsoft Search no Bing](security-for-search.md).
+Como parte integrante do [Microsoft 365,](https://www.microsoft.com/microsoft-365)a Pesquisa da Microsoft está em conformidade com as diretrizes RGPD e Tier-C. Dependendo da sua organização, pode ser necessário compartilhar informações sobre a Pesquisa da Microsoft com suas equipes de privacidade e segurança. Para saber mais, confira [Segurança e Privacidade da Pesquisa da Microsoft no Bing](security-for-search.md).
   
-Certifique-se de que seu suporte técnico sabe sobre os recursos e a funcionalidade da pesquisa da Microsoft, bem como os requisitos do usuário para entrar, para que eles possam oferecer suporte de usuários com mais eficiência. Para obter mais informações, consulte [saiba mais sobre o Microsoft Search no microsoft 365](https://support.office.com/article/Learn-about-Microsoft-Search-in-Microsoft-365-b8bf5a2c-7515-40a9-9a6a-b8ed382c86bc) e [perguntas frequentes](faqs.md).
+Certifique-se de que o suporte técnico saiba sobre os recursos e a funcionalidade da Pesquisa da Microsoft, bem como os requisitos do usuário para entrar, para que eles possam dar suporte mais eficaz aos usuários. Para obter mais informações, [consulte Saiba mais sobre a Pesquisa da Microsoft no Microsoft 365](https://support.office.com/article/Learn-about-Microsoft-Search-in-Microsoft-365-b8bf5a2c-7515-40a9-9a6a-b8ed382c86bc) e [perguntas frequentes.](faqs.md)
   
 ### <a name="evaluate-with-pilot-users"></a>Avaliar com usuários piloto
   
-Comece com um pequeno grupo de usuários para avaliar o impacto da pesquisa da Microsoft e obter o feedback inicial. Isso dá tempo para alterar o conteúdo, atualizar suas comunicações e definir as expectativas para a distribuição ampla. Os usuários avançados da pesquisa ou os pioneiros são grandes candidatos para isso.
+Comece com um pequeno grupo de usuários para avaliar o impacto da Pesquisa da Microsoft e coletar comentários antecipados. Isso dá tempo para alterar o conteúdo, atualizar suas comunicações e definir as expectativas para a ampla lançamento. Os usuários do poder de pesquisa ou os adotantes antecipados são ótimos candidatos para isso.
   
-Para ajudar a localizar usuários pilotos:
+Para ajudar a encontrar usuários piloto:
   
-- Parceria com um patrocinador corporativo dentro da sua organização.
+- Partner with a business sponsor within your organization.
     
-- Identificar um grupo de pioneiros.
+- Identifique um grupo de adotantes in-locar.
     
-- Identificar grupos que fazem altos volumes de pesquisas empresariais.
+- Identifique grupos que fazem grandes volumes de pesquisas corporativas.
     
-- Identifique os usuários em outros locais geográficos, incluindo o internacional.
+- Identifique usuários em outros locais geográficos, incluindo internacionais.
     
-Peça aos usuários piloto que forneçam entradas usando as opções de feedback no Microsoft Search ou via pesquisas simples.
+Peça aos usuários piloto que forneçam informações usando as opções de feedback na Pesquisa da Microsoft ou por meio de pesquisas simples.
   
-Perguntas de pesquisa a serem feitas: 
+Perguntas de pesquisa a fazer: 
   
-- Você entende como entrar e usar o Microsoft Search?
+- Você entende como entrar e usar a Pesquisa da Microsoft?
     
 - Funciona conforme o esperado?
     
-- Quais recursos você gostou?
+- Quais recursos você gosta?
     
-- Você conseguiu encontrar resultados de trabalho?
+- Você foi capaz de encontrar resultados de trabalho?
     
 - Os resultados do trabalho foram úteis?
     
-- As comunicações da pesquisa da Microsoft são claras e compreensíveis?
+- As comunicações sobre a Pesquisa da Microsoft são claras e compreensíveis?
     
-Esse é um ótimo momento para começar a medir a eficácia das métricas identificadas no estágio 2.
+Este é um ótimo momento para começar a medir a eficácia das métricas identificadas no Estágio 2.
   
-Ao iniciar a fase piloto, considere compartilhar uma espiada da pesquisa da Microsoft com a organização mais ampla.
+Ao iniciar a fase piloto, considere compartilhar uma visão geral da Pesquisa da Microsoft com a organização mais ampla.
   
-## <a name="stage-4-roll-out"></a>Estágio 4: distribuir
+## <a name="stage-4-roll-out"></a>Estágio 4: lançamento
 
-Cada organização pensa sobre distribuições de produto de forma diferente. Aqui estão alguns pontos a considerar.
+Cada organização pensa em lançamentos de produtos de forma diferente. Aqui estão algumas coisas a considerar.
   
 ### <a name="broad-deployment"></a>Implantação geral
   
-Quando estiver pronto, permita que todos os usuários em sua organização acessem a pesquisa da Microsoft ou use uma abordagem em fases para a implantação mais lenta. 
+Quando estiver pronto, permita que todos os usuários da sua organização acessem a Pesquisa da Microsoft ou usem uma abordagem em fases para rolar mais lentamente. 
   
 ### <a name="generate-awareness"></a>Gerar conscientização
   
-Crie uma empolgação em sua organização sobre a pesquisa da Microsoft:
+Crie animação em sua organização sobre a Pesquisa da Microsoft:
   
-- Inscrever usuários do piloto para fornecer assistência e experiência ponto a ponto.
+- Aliste usuários piloto para fornecer assistência ponto a ponto e experiência.
     
-- Acompanhe as comunicações e os eventos planejados no estágio 3.
+- Siga as comunicações e eventos que você planejou no Estágio 3.
     
 ### <a name="ongoing-communication"></a>Comunicação contínua
   
-Para as primeiras semanas e meses, mantenha uma ritmo de comunicação para incentivar o envolvimento com o Microsoft Search. Isso mantém os usuários informados e participam de novos usuários. Cada comunicação deve explicar por que a pesquisa da Microsoft pode ser útil para o trabalho.
+Nas primeiras semanas e meses, mantenha um ritmo de comunicações para incentivar o envolvimento com a Pesquisa da Microsoft. Isso mantém os usuários informados e envolve novos usuários. Cada comunicação deve explicar por que a Pesquisa da Microsoft pode ser útil para seu trabalho.
   
-Enviar comunicações contínuas que realçam recursos e pesquisas para tentar, bem como histórias de sucesso do usuário.
+Envie comunicações contínuas que realçam recursos e pesquisas para tentar, bem como histórias de sucesso do usuário.
   
-### <a name="gather-feedback-and-improve"></a>Reunir comentários e melhorar
+### <a name="gather-feedback-and-improve"></a>Coletar comentários e melhorar
   
-Dê suporte aos usuários e informe-o de que você está ouvindo a eles e agindo com seus comentários.
+Suporte os usuários e deixe-os saber que você se importa escutando-os e atuando em seus comentários.
   
-Use o painel do insights para ver como o produto e o conteúdo estão sendo executados. Aproveite essas informações para atualizar indicadores, p&como e outras comunicações. Isso também ajudará você a:
+Use o painel de insights para ver como o produto e o conteúdo estão se executando. Aproveite essas informações para atualizar indicadores, Q&As e outras comunicações. Isso também o ajudará:
   
-- Melhorar a qualidade do conteúdo: revisar títulos, descrições e URLs, otimizar palavras-chave, remover informações obsoletas e adicionar novas informações.
+- Melhore a qualidade do conteúdo: revise títulos, descrições e URLs, otimize palavras-chave, remova informações obsoletas e adicione novas informações.
     
-2. Determine quais recursos são mais frequentemente ou raramente usados. 
+2. Determine quais recursos são usados com mais frequência ou com pouca frequência. 
     
-3. Conduzir pesquisas, grupos de foco e sessões de comentários para entender o que os usuários pensam na pesquisa da Microsoft, aumentar a adoção e identificar áreas de aperfeiçoamento.
+3. Realize pesquisas, grupos de foco e sessões de feedback para entender o que os usuários pensam da Pesquisa da Microsoft, aumentar a adoção e identificar áreas de melhoria.
     
-Education and feedback é um processo interativo. Talvez seja necessário fazer alterações no conteúdo e nas comunicações à medida que os usuários adotarem a pesquisa da Microsoft.
+Educação e feedback é um processo iterativo. Pode ser necessário fazer alterações no conteúdo e nas comunicações à medida que seus usuários adotam a Pesquisa da Microsoft.

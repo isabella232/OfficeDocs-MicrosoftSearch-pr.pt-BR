@@ -13,18 +13,18 @@ search.appverid:
 - MET150
 - MOE150
 description: Visão geral dos conectores do Microsoft Graph para Pesquisa da Microsoft
-ms.openlocfilehash: 1b3ea74cf571b1b5a048695633f6b9f698a21bf5
-ms.sourcegitcommit: f76ade4c8fed0fee9c36d067b3ca8288c6c980aa
+ms.openlocfilehash: 2d49471c703b765f6e99324f39dbe730f6dea814
+ms.sourcegitcommit: 5df252e6d0bd67bb1b4c59418aceca8369f5fe42
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50508909"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51031652"
 ---
 <!---Previous ms.author: monaray --->
 
 # <a name="overview-of-microsoft-graph-connectors"></a>Visão geral dos conectores do Microsoft Graph
 
-[A Pesquisa da Microsoft](https://docs.microsoft.com/microsoftsearch/overview-microsoft-search) indexa todos os dados do [Microsoft 365](https://www.microsoft.com/microsoft-365) para torná-los pesquisáveis para usuários. Com os conectores do Microsoft Graph, sua organização pode indexar dados de terceiros para que apareçam nos resultados da Pesquisa da Microsoft. Esse recurso expande os tipos de fontes de conteúdo pesquisáveis em seus aplicativos de produtividade do Microsoft 365 e no ecossistema da Microsoft mais amplo. Os dados de terceiros podem ser hospedados no local ou nas nuvens públicas ou privadas.
+[A Pesquisa da Microsoft](./overview-microsoft-search.md) indexa todos os dados do [Microsoft 365](https://www.microsoft.com/microsoft-365) para torná-los pesquisáveis para usuários. Com os conectores do Microsoft Graph, sua organização pode indexar dados de terceiros para que apareçam nos resultados da Pesquisa da Microsoft. Esse recurso expande os tipos de fontes de conteúdo pesquisáveis em seus aplicativos de produtividade do Microsoft 365 e no ecossistema da Microsoft mais amplo. Os dados de terceiros podem ser hospedados no local ou nas nuvens públicas ou privadas.
 
 <!---link Microsoft Graph reference in line 19 when we have access to relevant documentation--->
 
@@ -41,13 +41,13 @@ Este artigo destina-se a ajudar os administradores do Microsoft 365 a localizar 
 
 <!---Modify to another note that is more accurate after rollout completion--->
 > [!IMPORTANT]
-> Os conectores do Microsoft Graph e as APIs de Pesquisa da Microsoft agora estão geralmente disponíveis. As primeiras versões serão para clientes configurados para lançamento direcionado. Se você quiser usar um conector Graph em seu locatário, os usuários e administradores devem optar [pela versão direcionada.](https://docs.microsoft.com/microsoft-365/admin/manage/release-options-in-office-365?view=o365-worldwide&preserve-view=true)
+> Os conectores do Microsoft Graph e as APIs de Pesquisa da Microsoft agora estão geralmente disponíveis. As primeiras versões serão para clientes configurados para lançamento direcionado. Se você quiser usar um conector Graph em seu locatário, os usuários e administradores devem optar [pela versão direcionada.](/microsoft-365/admin/manage/release-options-in-office-365?preserve-view=true&view=o365-worldwide)
 
 <!---Add Value, scenario, example, and/or graphic in December updates--->
 <!---Probably remove architecture section below
 ## Architecture
 
-The following architectural diagram of the Microsoft Graph platform shows how Graph connector content flows through content indexing to user results in [Microsoft Search](https://docs.microsoft.com/microsoftsearch/overview-microsoft-search) clients. The rest of this section explains each of the key building blocks in the diagram.
+The following architectural diagram of the Microsoft Graph platform shows how Graph connector content flows through content indexing to user results in [Microsoft Search](./overview-microsoft-search.md) clients. The rest of this section explains each of the key building blocks in the diagram.
 
 ![Diagram: on-premises and cloud-based data is pulled by connectors and indexed by the Microsoft Search API, and then the Microsoft Search service delivers the results to users.](media/connectors-overview/highlevel-connectors.png)
 Graph connectors can pull data from cloud-based (SaaS) data sources and on-premises data stores. The above diagram shows connections to only two data sources, but you can add connections to up ten sources per tenant.
@@ -86,7 +86,7 @@ A [galeria de conectores](connectors-gallery.md) do Microsoft Graph inclui uma b
 
 ### <a name="build-your-own-graph-connector"></a>Criar seu próprio conector do Graph
 
-Você pode criar seu próprio conector do Graph, se preferir. Para obter mais informações sobre como criar conectores do Graph, consulte [a Visão geral da API de Pesquisa da Microsoft no Microsoft Graph](https://docs.microsoft.com/graph/search-concept-overview).
+Você pode criar seu próprio conector do Graph, se preferir. Para obter mais informações sobre como criar conectores do Graph, consulte [a Visão geral da API de Pesquisa da Microsoft no Microsoft Graph](/graph/search-concept-overview).
 
 ## <a name="how-do-i-manage-my-connections"></a>Como faço para gerenciar minhas conexões?
 
@@ -120,11 +120,11 @@ Há muitas maneiras de personalizar e configurar os resultados da pesquisa. Conf
 
 ## <a name="how-do-i-search-my-connector-data-from-a-custom-application"></a>Como faço para pesquisar dados do meu conector de um aplicativo personalizado?
 
-Depois que os dados personalizados são indexados, os [desenvolvedores podem consultar esses dados.](https://docs.microsoft.com/graph/search-concept-custom-types) Você pode exibir seus dados em qualquer aplicativo. Para obter mais informações, consulte [Visão geral da API de Pesquisa da Microsoft no Microsoft Graph](https://docs.microsoft.com/graph/search-concept-overview).
+Depois que os dados personalizados são indexados, os [desenvolvedores podem consultar esses dados.](/graph/search-concept-custom-types) Você pode exibir seus dados em qualquer aplicativo. Para obter mais informações, consulte [Visão geral da API de Pesquisa da Microsoft no Microsoft Graph](/graph/search-concept-overview).
 
 ## <a name="how-do-i-customize-search-results"></a>Como personalizar os resultados da pesquisa?
 
-A próxima etapa é personalizar os resultados da pesquisa conforme recomendado neste artigo Como personalizar e configurar os resultados [da pesquisa?](#how-do-i-customize-and-configure-search-results). Para saber mais sobre como personalizar os resultados da pesquisa, consulte [Personalizar a página de resultados da pesquisa.](https://docs.microsoft.com/microsoftsearch/configure-connector#next-steps-customize-the-search-results-page)
+A próxima etapa é personalizar os resultados da pesquisa conforme recomendado neste artigo Como personalizar e configurar os resultados [da pesquisa?](#how-do-i-customize-and-configure-search-results). Para saber mais sobre como personalizar os resultados da pesquisa, consulte [Personalizar a página de resultados da pesquisa.](./configure-connector.md#next-steps-customize-the-search-results-page)
 
 ## <a name="what-are-the-connector-limitations"></a>Quais são as limitações do conector?
 

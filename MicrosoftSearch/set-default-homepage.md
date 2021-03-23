@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: c020bd72-9906-4dfd-bc77-57287f5927ce
 description: Saiba como definir o Bing como home page padrão para a empresa com a Pesquisa da Microsoft.
-ms.openlocfilehash: 2b88d92d02261ec1756b811e5078206301229cbd
-ms.sourcegitcommit: 21361af7c244ffd6ff8689fd0ff0daa359bf4129
+ms.openlocfilehash: 0d8fac0302e672c603853185ff0810bf6d42371c
+ms.sourcegitcommit: 5df252e6d0bd67bb1b4c59418aceca8369f5fe42
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38626923"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51031670"
 ---
 # <a name="make-bingcom-the-default-home-page"></a>Definir o Bing.com como página inicial padrão
 
@@ -42,7 +42,7 @@ O artigo do Suporte do Windows sobre como gerenciar arquivos ADMX, bem como os a
 
 É necessário também o arquivo de política do Google mais recente, que está disponível na página de [Ajuda do Google Chrome Enterprise](https://support.google.com/chrome/a/answer/187202).
   
-Caso as configurações descritas nesta seção não estejam disponíveis no GPMC, baixe o arquivo ADMX apropriado e copie-o para o [Repositório Central](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-vista/cc748955%28v%3dws.10%29). O Repositório Central no controlador é uma pasta com a seguinte convenção de nomenclatura:
+Caso as configurações descritas nesta seção não estejam disponíveis no GPMC, baixe o arquivo ADMX apropriado e copie-o para o [Repositório Central](/previous-versions/windows/it-pro/windows-vista/cc748955%28v%3dws.10%29). O Repositório Central no controlador é uma pasta com a seguinte convenção de nomenclatura:
   
  **%systemroot%\sysvol\\<domain\>\policies\PolicyDefinitions**
   

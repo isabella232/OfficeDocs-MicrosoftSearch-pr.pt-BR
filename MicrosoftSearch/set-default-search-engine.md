@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: ee40010e-5d7f-4ba8-a3f8-d240dab3af6d
 description: Saiba como configurar o Bing como o mecanismo de pesquisa padrão da sua empresa usando a Pesquisa da Microsoft.
-ms.openlocfilehash: 1ac2f23a8263c01901e252e7dd830e7373380669
-ms.sourcegitcommit: f76ade4c8fed0fee9c36d067b3ca8288c6c980aa
+ms.openlocfilehash: 346bf3bf2da10178a8bd19390920db2d9de2629e
+ms.sourcegitcommit: 5df252e6d0bd67bb1b4c59418aceca8369f5fe42
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50508666"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51031751"
 ---
 # <a name="make-bing-the-default-search-engine"></a>Definir o Bing como mecanismo de pesquisa padrão
   
@@ -30,7 +30,7 @@ Embora você defina o Bing como mecanismo de pesquisa padrão, o Microsoft Edge 
   
 Para obter os arquivos ADMX mais recentes para várias versões do Windows, confira [Como criar e gerenciar um Repositório central para modelos administrativos de política de grupo do Windows](https://support.microsoft.com/help/3087759/how-to-create-and-manage-the-central-store-for-group-policy-administra).
   
-Se a configuração descrita nesta seção não puder ser encontrada dentro do GPMC, baixe o ADMX apropriado e copie-os para o armazenamento central. Para obter mais informações, [consulte Editing Domain-Based GPOs Using ADMX Files](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-vista/cc748955%28v%3dws.10%29). O armazenamento central no controlador é uma pasta com a seguinte convenção de nomenização: **%systemroot%\sysvol \\<domínio \> \policies\PolicyDefinitions**
+Se a configuração descrita nesta seção não puder ser encontrada dentro do GPMC, baixe o ADMX apropriado e copie-os para o armazenamento central. Para obter mais informações, [consulte Editing Domain-Based GPOs Using ADMX Files](/previous-versions/windows/it-pro/windows-vista/cc748955%28v%3dws.10%29). O armazenamento central no controlador é uma pasta com a seguinte convenção de nomenização: **%systemroot%\sysvol \\<domínio \> \policies\PolicyDefinitions**
   
 Cada domínio processado pelo controlador deve ter uma pasta separada. O comando a seguir pode ser usado para copiar o arquivo ADMX usando o prompt de comando:
   
@@ -48,7 +48,7 @@ Os usuários não poderão alternar o mecanismo de pesquisa padrão após a defi
   
 O Chrome vem com seu próprio conjunto de configurações de política de grupo que podem ser baixadas na forma de um arquivo ADMX da Ajuda [do Google Chrome Enterprise.](https://support.google.com/chrome/a/answer/187202)
   
-Copie o arquivo de modelo para um armazenamento central para arquivos ADMX no controlador de domínio. Para obter mais informações, [consulte Editing Domain-Based GPOs Using ADMX Files](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-vista/cc748955%28v%3dws.10%29). O armazenamento central no controlador é uma pasta com a seguinte convenção de nomenização: **%systemroot%\sysvol \\<domínio \> \policies\PolicyDefinitions**
+Copie o arquivo de modelo para um armazenamento central para arquivos ADMX no controlador de domínio. Para obter mais informações, [consulte Editing Domain-Based GPOs Using ADMX Files](/previous-versions/windows/it-pro/windows-vista/cc748955%28v%3dws.10%29). O armazenamento central no controlador é uma pasta com a seguinte convenção de nomenização: **%systemroot%\sysvol \\<domínio \> \policies\PolicyDefinitions**
   
 Cada domínio processado pelo controlador deve ter uma pasta separada. O comando a seguir pode ser usado para copiar o arquivo ADMX usando o prompt de comando:
   

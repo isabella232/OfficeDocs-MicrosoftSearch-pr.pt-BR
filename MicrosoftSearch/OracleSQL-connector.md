@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 ROBOTS: NoIndex
 description: Configurar o conector Oracle SQL Graph para a Pesquisa da Microsoft.
-ms.openlocfilehash: 901b772def7585606a090d8a7696a32ff028e2a0
-ms.sourcegitcommit: f76ade4c8fed0fee9c36d067b3ca8288c6c980aa
+ms.openlocfilehash: 7ad3d03c73ce051c43f3b3ea094130a837d3177f
+ms.sourcegitcommit: 5df252e6d0bd67bb1b4c59418aceca8369f5fe42
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50508891"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51031418"
 ---
 <!---Previous ms.author:vivg --->
 
@@ -40,12 +40,12 @@ Para acessar seus dados de terceiros locais, você deve instalar e configurar o 
 
 ## <a name="step-1-add-a-graph-connector-in-the-microsoft-365-admin-center"></a>Etapa 1: Adicionar um conector graph no centro de administração do Microsoft 365
 
-Siga as instruções [gerais de instalação](https://docs.microsoft.com/microsoftsearch/configure-connector).
+Siga as instruções [gerais de instalação](./configure-connector.md).
 <!---If the above phrase does not apply, delete it and insert specific details for your data source that are different from general setup instructions.-->
 
 ## <a name="step-2-name-the-connection"></a>Etapa 2: nomear a conexão
 
-Siga as instruções [gerais de instalação](https://docs.microsoft.com/microsoftsearch/configure-connector).
+Siga as instruções [gerais de instalação](./configure-connector.md).
 <!---If the above phrase does not apply, delete it and insert specific details for your data source that are different from general setup instructions.-->
 
 ## <a name="step-3-configure-the-connection-settings"></a>Etapa 3: Configurar as configurações de conexão
@@ -87,7 +87,7 @@ O uso de cada uma das colunas ACL na consulta acima é descrito abaixo. A lista 
 
 ### <a name="supported-data-types"></a>Tipos de dados com suporte
 
-A tabela abaixo resume os tipos de dados suportados pelo conector SQL Oracle. A tabela também resume o tipo de dados de indexação para o tipo de SQL de dados com suporte. Para saber mais sobre os conectores do Microsoft Graph com suporte para tipos de dados para indexação, consulte a documentação sobre tipos [de recursos de propriedade.](https://docs.microsoft.com/graph/api/resources/property?view=graph-rest-beta#properties&preserve-view=true)
+A tabela abaixo resume os tipos de dados suportados pelo conector SQL Oracle. A tabela também resume o tipo de dados de indexação para o tipo de SQL de dados com suporte. Para saber mais sobre os conectores do Microsoft Graph com suporte para tipos de dados para indexação, consulte a documentação sobre tipos [de recursos de propriedade.](/graph/api/resources/property?preserve-view=true&view=graph-rest-beta#properties)
 
 | Categoria | Tipo de dados de origem | Tipo de dados de indexação |
 | ------------ | ------------ | ------------ |
@@ -145,12 +145,12 @@ Os componentes na imagem a seguir se parecem com os componentes de rastreamento 
 
 ## <a name="step-4-assign-property-labels"></a>Etapa 4: Atribuir rótulos de propriedade
 
-Siga as instruções [gerais de instalação](https://docs.microsoft.com/microsoftsearch/configure-connector).
+Siga as instruções [gerais de instalação](./configure-connector.md).
 <!---If the above phrase does not apply, delete it and insert specific details for your data source that are different from general setup instructions.-->
 
 ## <a name="step-5-manage-schema"></a>Etapa 5: Gerenciar esquema
 
-Siga as instruções [gerais de instalação](https://docs.microsoft.com/microsoftsearch/configure-connector).
+Siga as instruções [gerais de instalação](./configure-connector.md).
 <!---If the above phrase does not apply, delete it and insert specific details for your data source that are different from general setup instructions.-->
 
 ## <a name="step-6-manage-search-permissions"></a>Etapa 6: Gerenciar permissões de pesquisa
@@ -165,7 +165,7 @@ Uma agenda completa de rastreamento localiza linhas excluídas que foram sincron
 
 ## <a name="step-8-review-connection"></a>Etapa 8: Revisar conexão
 
-Siga as instruções [gerais de instalação](https://docs.microsoft.com/microsoftsearch/configure-connector).
+Siga as instruções [gerais de instalação](./configure-connector.md).
 <!---If the above phrase does not apply, delete it and insert specific details for your data source that are different from general setup instructions.-->
 
 <!--- ## Next steps: Customize the search results page
@@ -174,7 +174,7 @@ Create your own verticals and result types, so end users can view search results
 
 To learn more about how to create your verticals and MRTs, see [Search results page customization](customize-search-page.md). -->
 
-## <a name="troubleshooting"></a>Solução de Problemas
+## <a name="troubleshooting"></a>Solução de problemas
 
 Abaixo está uma lista de erros comuns observados durante a configuração do conector e seus possíveis motivos.
 

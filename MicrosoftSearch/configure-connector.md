@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Visão geral da instalação para conectores do Graph pela Microsoft
-ms.openlocfilehash: e97b930f627a6336cc93b3a1f33e390cae4ff0aa
-ms.sourcegitcommit: f76ade4c8fed0fee9c36d067b3ca8288c6c980aa
+ms.openlocfilehash: 5c674f6b9253af1145be983e5713f65be1c2b022
+ms.sourcegitcommit: 5df252e6d0bd67bb1b4c59418aceca8369f5fe42
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50508865"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51031373"
 ---
 <!-- Previous ms.author: monaray -->
 
@@ -81,13 +81,13 @@ A ID da conexão cria propriedades implícitas para o conector. Ele deve conter 
 
 O processo para configurar as configurações de conexão varia com base no tipo de fonte de dados. Consulte as informações específicas do Conector para o tipo de fonte de dados que você deseja adicionar ao seu locatário para concluir esta etapa no processo de instalação.  
 
-Para saber mais sobre como se conectar a uma fonte de dados local, consulte [Install an on-premises data gateway](https://aka.ms/configuregateway).
+Para saber mais sobre como se conectar a uma fonte de dados local, consulte [Install an on-premises data gateway](/data-integration/gateway/service-gateway-install).
 
 ## <a name="step-4-manage-search-permissions"></a>Etapa 4: Gerenciar permissões de pesquisa
 
 As Listas de Controle de Acesso (ACLs) determinam quais usuários em sua organização podem acessar cada item de dados.  
 
-Alguns conectores, como [o Microsoft SQL](MSSQL-connector.md) e o [Azure Data Lake Storage Gen2,](azure-data-lake-connector.md) suportam as ACLs do [Azure Active Directory (Azure AD).](https://docs.microsoft.com/azure/active-directory/)
+Alguns conectores, como [o Microsoft SQL](MSSQL-connector.md) e o [Azure Data Lake Storage Gen2,](azure-data-lake-connector.md) suportam as ACLs do [Azure Active Directory (Azure AD).](/azure/active-directory/)
 
 Outros conectores como [ServiceNow,](servicenow-connector.md) [Azure DevOps](azure-devops-connector.md)e [Salesforce](salesforce-connector.md) suportam a sincronização de usuários e grupos que não são do Azure AD.  
 
@@ -189,7 +189,7 @@ Você pode revisar toda a configuração e editar as configurações conforme ne
 
 Vá para a lista de suas conexões **publicadas** na guia Conectores no centro [de administração.](https://admin.microsoft.com) Para saber como fazer atualizações e exclusões, consulte [Manage your connector](manage-connector.md).
 
-## <a name="troubleshooting"></a>Solução de Problemas
+## <a name="troubleshooting"></a>Solução de problemas
 <!---Insert troubleshooting recommendations for this data source-->
 Leia as informações específicas do conector para sua fonte de dados. 
 
@@ -204,4 +204,4 @@ Consulte as informações específicas do conector para sua fonte de dados para 
 
 ## <a name="next-steps"></a>Próximas etapas
 
-Depois de publicar a conexão, você precisa personalizar a página de resultados da pesquisa. Para saber mais sobre como personalizar resultados de pesquisa, consulte [Personalizar a página de resultados da pesquisa](https://docs.microsoft.com/microsoftsearch/configure-connector#next-steps-customize-the-search-results-page).
+Depois de publicar a conexão, você precisa personalizar a página de resultados da pesquisa. Para saber mais sobre como personalizar resultados de pesquisa, consulte [Personalizar a página de resultados da pesquisa](#next-steps-customize-the-search-results-page).

@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Gerenciar conectores do Microsoft Graph para Pesquisa da Microsoft.
-ms.openlocfilehash: 1c152f23e9b9d9982b957830d5f4bef0eef41347
-ms.sourcegitcommit: 2f770de12b27546b18b2e86517d2c25522eb9022
+ms.openlocfilehash: cba50d8eb558b4d74ed46554dc155d4f275b1332
+ms.sourcegitcommit: 5df252e6d0bd67bb1b4c59418aceca8369f5fe42
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50929577"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51031715"
 ---
 <!-- markdownlint-disable no-inline-html -->
 
@@ -32,7 +32,7 @@ Navegue até [a guia Conectores](https://admin.microsoft.com/Adminportal/Home#/M
 
 Para cada tipo de conector, o Centro de administração do [Microsoft 365](https://admin.microsoft.com) dá suporte às operações mostradas na tabela a seguir:
 
-Operação | Conectores de gráfico da Microsoft | Conectores de parceiros ou gráficos
+Operation | Conectores de gráfico da Microsoft | Conectores de parceiros ou gráficos
 --- | --- | ---
 Adicionar uma conexão | :heavy_check_mark: (Consulte Visão [geral da Instalação](configure-connector.md)) | :x: (Consulte seu parceiro ou UX de administrador de conector personalizado)
 Excluir uma conexão | :heavy_check_mark: | :heavy_check_mark:
@@ -61,7 +61,7 @@ A cota de índice disponível e o consumo são exibidos na página inicial dos c
  
 >[!NOTE]
 >Durante o período de visualização, todas as organizações que estavam tentando os conectores do Graph foram fornecidas uma cota fixa gratuita de até 2 milhões de itens em todas as conexões. Com os conectores do Graph geralmente disponíveis, a cota gratuita expirará em 1º de abril de 2021 para as organizações que têm usado conectores graph na visualização.
->Os conectores do Graph criado pela Microsoft rotulados como ["Visualização"](connectors-preview.md) não serão incluídos na cota de índice total cobrada para sua organização. No entanto, ele contará para o número máximo de 10 conexões que você pode configurar para sua organização e o número máximo de 7 milhões de itens que sua organização pode indexar entre conexões; cada conexão é limitada a 700.000 itens. 
+>Os conectores do Graph criado pela Microsoft rotulados como ["Visualização"](./connectors-overview.md) não serão incluídos na cota de índice total cobrada para sua organização. No entanto, ele contará para o número máximo de 10 conexões que você pode configurar para sua organização e o número máximo de 7 milhões de itens que sua organização pode indexar entre conexões; cada conexão é limitada a 700.000 itens. 
 
 A barra de utilização de cota indicará vários estados com base no consumo de cota pela sua organização:
 

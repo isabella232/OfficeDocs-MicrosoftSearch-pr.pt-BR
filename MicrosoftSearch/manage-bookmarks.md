@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: c0c814d0-f7e4-444e-b18e-09beb45c9322
 description: Criar e atualizar indicadores e maneiras de editar em massa resultados de indicadores para a Pesquisa da Microsoft
-ms.openlocfilehash: b801e75f772a585c2ddfedd09aff3b74c1d909b5
-ms.sourcegitcommit: 2f770de12b27546b18b2e86517d2c25522eb9022
+ms.openlocfilehash: e8488146a041e7165596dafff8012adfa1122341
+ms.sourcegitcommit: 5df252e6d0bd67bb1b4c59418aceca8369f5fe42
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50929603"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51031724"
 ---
 # <a name="manage-bookmarks"></a>Gerenciar indicadores
 
@@ -160,4 +160,4 @@ Um indicador pode ter várias palavras-chave e compartilhar a mesma palavra-chav
 
 **P: Onde encontro a ID do aplicativo para um Aplicativo Do Power?**
 
-**R:** Vá para o site do Power Apps e veja o painel Detalhes do aplicativo. Saiba mais sobre [como obter uma ID do aplicativo.](https://docs.microsoft.com/powerapps/maker/canvas-apps/get-sessionid#get-an-app-id)
+**R:** Vá para o site do Power Apps e veja o painel Detalhes do aplicativo. Saiba mais sobre [como obter uma ID do aplicativo.](/powerapps/maker/canvas-apps/get-sessionid#get-an-app-id)

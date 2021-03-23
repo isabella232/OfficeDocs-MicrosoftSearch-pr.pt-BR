@@ -12,35 +12,35 @@ search.appverid:
 - MET150
 - MOE150
 description: Usando cartões adaptáveis, crie um layout para exibir seus resultados de pesquisa personalizados
-ms.openlocfilehash: 425e5404c14d500f6ecd84ad449dafb05bbfd31b
-ms.sourcegitcommit: 59435698bece013ae64ca2a68c43455ca10e3fdf
+ms.openlocfilehash: d29b1a45f11079f4b71f71a387cf43cbf2f48e7d
+ms.sourcegitcommit: 5df252e6d0bd67bb1b4c59418aceca8369f5fe42
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "48927176"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51031733"
 ---
 <!-- markdownlint-disable no-hard-tabs -->
 # <a name="create-a-layout-to-customize-search-results"></a>Criar um layout para personalizar os resultados da pesquisa
 
-Você pode criar o layout de resultado para uma vertical personalizada usando o designer de layout de pesquisa. Você pode começar a criar o layout escolhendo modelos oferecidos no designer de layout e usá-los se eles atenderem aos seus requisitos. Ou você pode optar por editar esses modelos de várias maneiras para atender aos seus requisitos. Por exemplo, adicionar/remover imagens, adicionar/remover texto e modificar texto. Se nenhum dos modelos atender aos seus requisitos, você poderá optar por começar a criar o layout usando um modelo em branco.  
+Você pode projetar o layout de resultado para uma vertical personalizada usando o designer de layout de pesquisa. Você pode começar a projetar o layout escolhendo modelos oferecidos no designer de layout e usando-os se eles se ajustarem aos seus requisitos. Ou você pode optar por editar esses modelos de várias maneiras para se ajustar aos seus requisitos. Por exemplo, adicione/remova imagens, adicione/remova texto e modifique o texto. Se nenhum dos modelos atender aos seus requisitos, você poderá optar por começar a projetar seu layout usando um modelo em branco.  
 
-Depois que o layout estiver pronto, use o [idioma do modelo de cartões adaptáveis](https://docs.microsoft.com/adaptive-cards/templating/language) para criar um JSON de layout de resultado que é usado para definir um tipo de resultado. Você mapeia as propriedades de resultado para o layout usando a etapa de mapeamento no designer de layout.  
+Depois que o layout estiver pronto, use o idioma [Modelo](/adaptive-cards/templating/language) de Cartões Adaptáveis para criar um JSON de layout de resultado usado para definir um tipo de resultado. Você mapeia as propriedades de resultado para o layout usando a etapa Mapeamento no designer de layout.  
 
 ## <a name="create-a-layout-on-your-own"></a>Criar um layout por conta própria
 
-Criar um layout por conta própria requer conhecimento de [cartões adaptáveis](https://docs.microsoft.com/adaptive-cards/authoring-cards/getting-started) e seu [esquema](https://adaptivecards.io/explorer/). Layout do resultado da pesquisa usa um subconjunto dos elementos oferecidos por cartões adaptáveis e você pode usar o designer de layout para saber mais sobre o conjunto de elementos com suporte.  
+Criar um layout por conta própria requer conhecimento de [cartões adaptáveis](/adaptive-cards/authoring-cards/getting-started) e [seu esquema.](https://adaptivecards.io/explorer/) O layout do resultado da pesquisa usa um subconjunto dos elementos oferecidos por cartões adaptáveis e você pode usar o designer de layout para saber mais sobre o conjunto de elementos com suporte.  
 
-Ao criar seu próprio layout, crie o layout do cartão adaptável usando dados do seu conector e Finalize o layout.
+Ao criar seu próprio layout, crie o layout do cartão adaptável usando dados do conector e finalize o layout.
 Há duas etapas principais na criação de seu próprio layout:
 
-- Criar o layout.
+- Projete o layout.
 - Separe os dados do modelo.
 
 ### <a name="design-the-layout"></a>Criar o layout
 
-Neste exemplo, mostramos um layout com um cabeçalho, link e texto descritivo.
+Neste exemplo, mostramos um layout com um header, link e texto descritivo.
 
-![Exemplo de layout com cabeçalho, link e descrição.](media/Verts-ExampleLayout.png)
+![Exemplo de um layout com um header, link e descrição.](media/Verts-ExampleLayout.png)
 
 E aqui está o arquivo JSON associado do layout:
 
@@ -102,7 +102,7 @@ E aqui está o arquivo JSON associado do layout:
 
 Você pode separar os dados do layout e vincular os dados.
 
-Veja a seguir o layout JSON depois de vincular os dados:
+Veja Layout JSON após vincular os dados:
 
 ```json
 {
@@ -155,7 +155,7 @@ Veja a seguir o layout JSON depois de vincular os dados:
 }
 ```
 
-Dados de exemplo: especifique dados de exemplo no **Editor de dados de exemplo** para exibir o cartão ligado a dados no modo de **Visualização**.
+Dados de exemplo: especifique dados de exemplo no Editor de Dados de **Exemplo** para exibir o cartão vinculado a dados quando estiver no **modo de visualização.**
 
 ```json
 {
@@ -170,42 +170,42 @@ Dados de exemplo: especifique dados de exemplo no **Editor de dados de exemplo**
 
 ## <a name="map-the-layout-to-the-result-properties"></a>Mapear o layout para as propriedades de resultado
 
-Você deve mapear cada campo do layout para uma propriedade Result ou uma propriedade Connector para gerar o resultado de layout JSON.
+Você deve mapear cada campo do layout para uma propriedade de resultado ou uma propriedade do conector para gerar o JSON de layout de resultado.
 
-![Captura de tela de um layout de exemplo na página de designer de layout de pesquisa com um campo selecionado e o painel de propriedades aberto.](media/Verts-SearchLayoutDesigner.png)
+![Captura de tela de um layout de exemplo na página Designer de Layout de Pesquisa com um campo selecionado e o painel de propriedades aberto.](media/Verts-SearchLayoutDesigner.png)
 
-Selecione um campo no layout para realçar as variáveis que precisam ser mapeadas. Você pode usar várias variáveis para um único campo, e todos os campos devem ser mapeados para as propriedades do resultado.
+Selecione um campo no layout para realçar as variáveis que precisam ser mapeadas. Você pode usar várias variáveis para um único campo e todos os campos devem ser mapeados para as propriedades de resultado.
 
 ### <a name="show-snippet-on-search-result"></a>Mostrar trecho no resultado da pesquisa  
 
-Trechos dinâmicos gerados na propriedade de **conteúdo** do resultado do conector podem ser mostrados no resultado da pesquisa. **ResultSnippet** é a propriedade do sistema que atua como uma propriedade de espaço reservado para os trechos gerados para cada resultado do conector. Para mostrar os trechos de código no layout do resultado, a propriedade do sistema **ResultSnippet** deve ser mapeada para um campo apropriado, por exemplo, descrição, no layout do resultado da pesquisa. Os trechos de código gerados em cada resultado também realçam as correspondências no trecho de código com o termo de consulta inserido pelo usuário.
+Trechos dinâmicos gerados na propriedade **de** conteúdo do resultado do conector podem ser mostrados no resultado da pesquisa. **ResultSnippet** é a propriedade do sistema que age como uma propriedade de espaço reservado para os trechos gerados para cada resultado do Conector. Para mostrar os trechos no layout do resultado, a propriedade do sistema **ResultSnippet** deve ser mapeada para um campo apropriado, por exemplo, Description, no layout do resultado da pesquisa. Trechos gerados em cada resultado também realçam as partidas no trecho com o termo de consulta inserido pelo usuário.
 
 ## <a name="things-to-consider"></a>Itens a considerar
 
-Antes de começar, há algumas coisas que você deve fazer e algumas coisas que você deve evitar para garantir que seus layouts serão bem-sucedidos.
+Antes de começar, há algumas coisas que você deve fazer e algumas coisas que você deve evitar para garantir que seus layouts sejam bem-sucedidos.
 
 ### <a name="do"></a>Fazer
 
-- Edite um modelo para fornecer o link de logotipo no layout se você estiver usando links estáticos para logotipos e não resultados de propriedades.
-- Validar o layout do resultado para cenários em que nenhum dado é retornado para uma propriedade Result usada no resultado JSON. Use a `$when` condição para ocultar um elemento se a propriedade não contiver dados.  
-- Certifique-se de que os tipos de dados da `$when` condição e a propriedade Result correspondam. Por exemplo, não compare `Number` com `Text` na `$when` condição.  
-- Considere os requisitos de temas ao criar um layout de resultados.  
-- Certifique-se de que o `Textblock`   elemento pode lidar com conteúdo dinâmico. Você pode usar as `wrap` `maxLines` Propriedades de elemento e para essa finalidade.
-- Formatar corretamente a data ao usar `{DATE()}` na redução.  
+- Edite um modelo para fornecer o link de logotipo no layout se você estiver usando links estáticos para logotipos e não propriedades de resultado.
+- Valide o layout de resultados para cenários em que nenhum dado é retornado para uma propriedade de resultado usada no JSON de resultado. Use a `$when` condição para ocultar um elemento se a propriedade não contém dados.  
+- Certifique-se de que os tipos de dados `$when` da condição e da propriedade de resultado corresponderem. Por exemplo, não compare `Number` com `Text` na `$when` condição.  
+- Pense nos requisitos de tema ao projetar um layout de resultado.  
+- Certifique-se de que `Textblock`   o elemento possa manipular o conteúdo dinâmico. Você pode usar as `wrap` propriedades e elemento para essa `maxLines` finalidade.
+- Formatar corretamente a data ao usar `{DATE()}` em Markdown.  
 
 ### <a name="dont"></a>Não fazer
 
-- Não defina tipos de dados inválidos ao vincular valores. Para obter mais informações sobre tipos de dados, consulte [Manage The Search Schema](https://docs.microsoft.com/sharepoint/search/manage-the-search-schema).
-- Evite cortar o resultado na página de resultados seguindo a altura máxima do JSON de layout de resultados. Se você exceder a altura máxima do layout do resultado, o resultado será cortado na página de resultados.
-- Não use `px` valores nas propriedades do elemento.
-- Não use redução com a propriedade **ResultSnippet** no layout do resultado para realçar a correspondência de consulta no resultado da pesquisa.
+- Não defina tipos de dados inválidos quando os valores de associação. Para obter mais informações sobre tipos de dados, consulte [Manage the Search schema](/sharepoint/search/manage-the-search-schema).
+- Evite recorte o resultado na página de resultados seguindo a altura máxima do layout de resultado JSON. Se você exceder a altura máxima do layout do resultado, o resultado será cortado na página de resultados.
+- Não use valores `px` nas propriedades do elemento.
+- Não use a marcação com a **propriedade ResultSnippet** no layout do resultado para realçar a combinação de consulta no resultado da pesquisa.
 
 ## <a name="resources"></a>Recursos
 
-[Personalizar página de resultados de pesquisa](customize-search-page.md)
+[Personalizar a página de resultados da pesquisa](customize-search-page.md)
 
-[Cartões adaptáveis](https://docs.microsoft.com/adaptive-cards/authoring-cards/getting-started)
+[Cartões adaptáveis](/adaptive-cards/authoring-cards/getting-started)
 
-[Idioma do modelo de cartões adaptáveis](https://docs.microsoft.com/adaptive-cards/templating/language)
+[Idioma do Modelo de Cartões Adaptáveis](/adaptive-cards/templating/language)
 
 [Esquema de cartão adaptável](https://adaptivecards.io/explorer/)
