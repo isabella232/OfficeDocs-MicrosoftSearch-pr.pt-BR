@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Visão geral dos conectores do Microsoft Graph para Pesquisa da Microsoft
-ms.openlocfilehash: 2d49471c703b765f6e99324f39dbe730f6dea814
-ms.sourcegitcommit: 5df252e6d0bd67bb1b4c59418aceca8369f5fe42
+ms.openlocfilehash: 77f145f58cf06e49f88af25bcb4d28cfa7d2bd56
+ms.sourcegitcommit: 08a7086185d28df14b06d1f7fdfbb1637288f7a5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 03/23/2021
-ms.locfileid: "51031652"
+ms.locfileid: "51042570"
 ---
 <!---Previous ms.author: monaray --->
 
@@ -124,7 +124,7 @@ Depois que os dados personalizados são indexados, os [desenvolvedores podem con
 
 ## <a name="how-do-i-customize-search-results"></a>Como personalizar os resultados da pesquisa?
 
-A próxima etapa é personalizar os resultados da pesquisa conforme recomendado neste artigo Como personalizar e configurar os resultados [da pesquisa?](#how-do-i-customize-and-configure-search-results). Para saber mais sobre como personalizar os resultados da pesquisa, consulte [Personalizar a página de resultados da pesquisa.](./configure-connector.md#next-steps-customize-the-search-results-page)
+A próxima etapa é personalizar os resultados da pesquisa conforme recomendado neste artigo Como personalizar e configurar os resultados [da pesquisa?](#how-do-i-customize-and-configure-search-results). Para saber mais sobre como personalizar os resultados da pesquisa, consulte [Personalizar a página de resultados da pesquisa.](customize-search-page.md)
 
 ## <a name="what-are-the-connector-limitations"></a>Quais são as limitações do conector?
 
