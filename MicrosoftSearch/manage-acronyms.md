@@ -12,18 +12,18 @@ search.appverid:
 - MET150
 - MOE150
 description: Criar e atualizar respostas de acrônimos na Pesquisa da Microsoft
-ms.openlocfilehash: 5677ff6915c9e43e2559964c40086cb360a05db7
-ms.sourcegitcommit: 5df252e6d0bd67bb1b4c59418aceca8369f5fe42
+ms.openlocfilehash: 013510da28599f41c9dc4bf74da99efa2f6c3e97
+ms.sourcegitcommit: 62cb7b8c6a311760cc728f2c70a9a22ca76e977e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51031364"
+ms.lasthandoff: 03/29/2021
+ms.locfileid: "51408710"
 ---
 # <a name="manage-acronyms-answers-in-microsoft-search"></a>Gerenciar respostas de acrônimos na Pesquisa da Microsoft
 
 Os usuários geralmente têm acrônimos e abreviações desconhecidos usados por sua organização ou equipe. Os termos específicos para organizações ou equipes podem ser novos para pessoas que se movem de uma equipe para outra, trabalham com equipes de parceiros internas ou são novos para a organização.
 
-As organizações nem sempre têm uma única referência para sua terminologia padrão. A falta de uma única referência torna difícil encontrar definições ou expansões para esses acrônimos. A Pesquisa da Microsoft resolve esse problema com acrônimos.
+As organizações nem sempre têm uma única referência para sua terminologia padrão. A falta de uma única referência torna difícil encontrar definições para esses acrônimos. A Pesquisa da Microsoft resolve esse problema com acrônimos.
 
 ## <a name="what-users-experience"></a>O que os usuários experimentam
 
@@ -35,6 +35,7 @@ Os usuários da Pesquisa da Microsoft podem obter definições com acrônimos no
 - *Expandir* DNN
 - Expansão  de DNN
 - *Significado de* DNN
+- DNN *significa*
 - DNN *significa*
 
 O resultado inclui todos os significados de DNN presentes na organização do usuário.
@@ -49,7 +50,7 @@ No Centro de administração do [Microsoft 365,](https://admin.microsoft.com)vá
 A Pesquisa da Microsoft consulta duas fontes de dados para fornecer respostas de acrônimos às pesquisas dos usuários:
 
 1. **Admin-curated**. Fornecido por administradores de IT no [centro de administração](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/acronyms).
-2. **Cura do sistema**. Descoberta pela Pesquisa da Microsoft a partir de emails e documentos dos usuários e dados disponíveis publicamente dentro da organização.
+2. **Cura do sistema**. Descoberta pela Pesquisa da Microsoft a partir de emails e documentos dos usuários, bem como dados disponíveis publicamente dentro da organização.
 
 ### <a name="set-up-admin-curated-acronyms"></a>Configurar acrônimos com cura de administrador
 
@@ -62,19 +63,21 @@ Os administradores de pesquisa podem adicionar acrônimos na [guia Acrônimos](h
 
 **Estado de rascunho**. Se você quiser revisar um acrônimo antes de disponibilizar na Pesquisa da Microsoft, você pode adicionar o acrônimo em um estado rascunho. Os acrônimos no estado Rascunho não aparecerão nos resultados da pesquisa. Você precisará mover o acrônimo para o estado Publicado para torná-lo exibido nos resultados da pesquisa.
 
+**Estado excluído**. Se você quiser impedir que um acrônimo apareça na Pesquisa da Microsoft, use **Excluir um acrônimo** para adicioná-lo. Para impedir que um acrônimo seja excluído, você precisará excluir o acrônimo excluído e adicioná-lo ou verificar se ele está em sua lista publicada.
+
 Você pode adicionar acrônimos individualmente ou importá-los em massa em um arquivo CSV. Carregue um arquivo CSV com os campos mostrados na tabela a seguir:
 
-| Acrônimo (Obrigatório) | Expansão (obrigatório) | Url | Descrição  | Estado (Obrigatório) | Última Modificação | Última modificação por | Id |
+| Acrônimo (Obrigatório) | Representa (obrigatório) | Url | Descrição  | Estado (Obrigatório) | Última Modificação | Última modificação por | Id |
 | --------- | --------- | --------- | ---------- | --------- |--------- |--------- |--------- |
-| *XXX* | *Abreviação escrita* | *Fonte* |  | *Publicado ou Rascunho* |  |  |  |
+| *XXX* | *Abreviação escrita* | *Fonte* |  | *Publicado, Rascunho ou Excluído* |  |  |  |
 
 ### <a name="csv-fields"></a>Campos CSV
 
 **Acrônimo**. Contém o formulário curto ou acrônimo real. Um exemplo é *DNN*.
 
-**Expansão**. Contém a expansão do acrônimo. Um exemplo é *Rede Neural Profunda*.
+**Significa**. Contém a definição do acrônimo. Um exemplo é *Rede Neural Profunda*.
 
-**Descrição**. Uma breve descrição do acrônimo que fornece aos usuários mais informações sobre o acrônimo e sua expansão. Por exemplo, uma rede neural profunda é uma rede neural com um determinado nível de complexidade, uma rede *neural com mais de duas camadas*.
+**Descrição**. Uma breve descrição do acrônimo que fornece aos usuários mais informações sobre o acrônimo e sua definição. Por exemplo, uma rede neural profunda é uma rede neural com um determinado nível de complexidade, uma rede *neural com mais de duas camadas*.
 
 **Fonte**. A URL da página ou site onde você deseja que os usuários acessem para obter mais informações sobre o acrônimo.
 
@@ -82,6 +85,7 @@ Você pode adicionar acrônimos individualmente ou importá-los em massa em um a
 
 - **Rascunho**. Adiciona o acrônimo ao estado Rascunho.
 - **Publicado**. Adiciona o acrônimo ao estado Publicado e o disponibiliza na Pesquisa da Microsoft.
+- **Excluído**. Adiciona o acrônimo ao estado Excluído e impede que ele apareça na Pesquisa da Microsoft.
 
 ### <a name="system-curated-acronyms"></a>Acrônimos com cura do sistema
 
@@ -94,7 +98,7 @@ Pode ser um desafio para os administradores adicionarem todos os acrônimos usad
 A Pesquisa da Microsoft garante que somente usuários com acesso e permissões para um documento possam ver os acrônimos descobertos nele. Quando um acrônimo é encontrado na caixa de correio de um usuário, somente esse usuário pode ver esse acrônimo.
 
 > [!NOTE]
-> Nenhuma configuração é necessária para acrônimos com cura do administrador.
+> Nenhuma configuração é necessária para acrônimos com cura do sistema.
 
 ## <a name="frequently-asked-questions"></a>Perguntas frequentes
 
@@ -104,7 +108,7 @@ A Pesquisa da Microsoft garante que somente usuários com acesso e permissões p
 
 **P: Quanto tempo leva para que os acrônimos com cura de administrador sejam visíveis na Pesquisa da Microsoft depois que eles são publicados?**
 
-**R:**  Leva até três dias para que os acrônimos adicionados ao estado Publicado se tornem disponíveis na Pesquisa da Microsoft.
+**R:**  Leva até um dia para que os acrônimos adicionados ao estado Publicado se tornem disponíveis na Pesquisa da Microsoft.
 
 **P: Como os usuários acionam respostas de acrônimos?**
 
@@ -114,13 +118,21 @@ A Pesquisa da Microsoft garante que somente usuários com acesso e permissões p
 
 **R:** Os acrônimos encontrados em um novo email ou documento levam até sete dias para aparecerem nos resultados da Pesquisa da Microsoft.
 
-**P: Os documentos precisam estar em um formato específico para que a mineração os pegue?**
+**P: O que acontece quando um acrônimo é excluído e publicado?**
 
-**R:** Não. Suportamos todos os tipos de arquivo, exceto arquivos de imagem, pastas e zip.
+**R:** O acrônimo excluído recebe prioridade e impede que o acrônimo publicado apareça nos resultados da pesquisa. Ele não exclui ou remove o acrônimo publicado.
+
+**P: Quanto tempo leva para um acrônimo ser excluído dos resultados da Pesquisa da Microsoft?**
+
+**R:** Leva até um dia para um acrônimo excluído parar de aparecer nos resultados da pesquisa.
+
+**P: Para acrônimos com cura do sistema, os documentos precisam estar em um formato específico?**
+
+**R:** Não. Suportamos todos os tipos de arquivo, exceto arquivos de imagem, pasta e zip.
 
 **P: A Microsoft descobrirá acrônimos de documentos em todos os idiomas?**
 
-**R:** A Microsoft só dá suporte à mineração de documentos em inglês. O suporte para outros idiomas será adicionado em fases.
+**R:** A Microsoft só dá suporte a acrônimos com cura do sistema a partir de documentos em inglês, espanhol, francês, italiano, alemão e português. O suporte para outros idiomas será adicionado em fases.
 
 **P: E se minha organização não quiser mostrar acrônimos com cura do sistema? Posso parar de mostrar esse tipo de acrônimo nos meus resultados de pesquisa?**
 
