@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Adicionar verticais de pesquisa e personalizar resultados de pesquisa
-ms.openlocfilehash: 75dd6193308f52e7bfbb787d8f8dc27def834751
-ms.sourcegitcommit: 5df252e6d0bd67bb1b4c59418aceca8369f5fe42
+ms.openlocfilehash: c6104383698203fde48d217506da57941efa680f
+ms.sourcegitcommit: 0aca0a5c9152b1b5e8345c91edadfae0b30f57c8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51031643"
+ms.lasthandoff: 04/05/2021
+ms.locfileid: "51587735"
 ---
 # <a name="customize-the-search-results-page"></a>Personalizar a página de resultados da pesquisa
 
@@ -116,7 +116,10 @@ Depois de iniciar o assistente, você é orientado pelas etapas para definir o n
 
 ## <a name="step-3-view-the-vertical-after-its-enabled"></a>ETAPA 3: Exibir a vertical depois de habilitada
 
-Depois de habilitar a vertical, pode demorar um pouco para poder exibi-la. Se você não quiser esperar depois de habilita-lo, você pode anexar **cacheClear=true** à URL no [SharePoint](https://sharepoint.com/) e [no Office](https://office.com) para exibir o vertical imediatamente. Para [Bing](https://bing.com),&**features=uncachedVerticals** para a URL vertical de Trabalho para exibir as verticais imediatamente.
+Depois de habilitar a vertical, levará algumas horas para poder exibi-la. Se você não quiser esperar depois de habilita-lo, você pode anexar **cacheClear=true** à URL no [SharePoint](https://sharepoint.com/) e [no Office](https://office.com) para exibir o vertical imediatamente. Para [Bing](https://bing.com),&**features=uncachedVerticals** para a URL vertical de Trabalho para exibir as verticais imediatamente. 
+
+> [!NOTE]
+> As verticais adicionadas não estarão visíveis no [SharePoint](https://sharepoint.com/) e [no Office quando](https://office.com) exibidas de navegadores da Web móveis.
 
 ## <a name="troubleshooting"></a>Solução de problemas
 
