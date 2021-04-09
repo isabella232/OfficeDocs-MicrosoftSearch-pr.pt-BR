@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Visão geral dos conectores do Microsoft Graph para Pesquisa da Microsoft
-ms.openlocfilehash: 77f145f58cf06e49f88af25bcb4d28cfa7d2bd56
-ms.sourcegitcommit: 08a7086185d28df14b06d1f7fdfbb1637288f7a5
+ms.openlocfilehash: ccf1e746c2a8bf97429bf5b13c8340db015e3eb1
+ms.sourcegitcommit: a07c957dfa1d31542f0362379251bc9679dfae41
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51042570"
+ms.lasthandoff: 04/08/2021
+ms.locfileid: "51639858"
 ---
 <!---Previous ms.author: monaray --->
 
@@ -108,6 +108,7 @@ O conjunto de conectores e recursos na visualização inclui:
 * [Conector do Salesforce](salesforce-connector.md)
 * [Conector ServiceNow](servicenow-connector.md) com permissões de pesquisa que usam ACLs de origem
 * [Gerenciar tipos de cluster](result-cluster.md)
+* [Várias conexões em um vertical](customize-search-page.md#multiple-connections-in-a-vertical)
 
 ## <a name="how-do-i-customize-and-configure-search-results"></a>Como personalizar e configurar os resultados da pesquisa?
 
@@ -130,12 +131,10 @@ A próxima etapa é personalizar os resultados da pesquisa conforme recomendado 
 
 * Quando você **publica** um conector criado pela Microsoft, pode levar alguns minutos para que a conexão seja criada. Durante esse tempo, a conexão mostrará seu status como pendente.
 
-* O Centro de administração do [Microsoft 365](https://admin.microsoft.com) não dá suporte à edição do **esquema** de pesquisa depois que uma conexão é publicada. Para editar o esquema de pesquisa, exclua sua conexão e crie um novo.
-
-* A produtividade de ingestão é acelerada em cerca de quatro itens por segundo.
+* A produtividade de ingestão é acelerada em quatro itens por segundo.
 
 * Não há suporte para atualizações de esquema. Depois de criar uma configuração de conexão, não há como atualizar o esquema. Você só pode excluir e re-criar a conexão.
 
 * Há um limite de conexão. Cada locatário pode criar até 10 conexões.
 
-* O suporte de edição para conexão não está disponível. Depois que a conexão tiver sido criada, você não poderá editá-la ou alterá-la. Se precisar alterar qualquer detalhe, exclua e recrie a conexão.
+* Não é possível editar ou alterar uma conexão depois que ela tiver sido criada. Se precisar alterar qualquer detalhe, exclua e recrie a conexão.

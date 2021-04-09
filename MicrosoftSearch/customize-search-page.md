@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Adicionar verticais de pesquisa e personalizar resultados de pesquisa
-ms.openlocfilehash: c6104383698203fde48d217506da57941efa680f
-ms.sourcegitcommit: 0aca0a5c9152b1b5e8345c91edadfae0b30f57c8
+ms.openlocfilehash: e5c4ab8d507e0e6096a5b9d52dc0e818faebefb6
+ms.sourcegitcommit: a07c957dfa1d31542f0362379251bc9679dfae41
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/05/2021
-ms.locfileid: "51587735"
+ms.lasthandoff: 04/08/2021
+ms.locfileid: "51639849"
 ---
 # <a name="customize-the-search-results-page"></a>Personalizar a página de resultados da pesquisa
 
@@ -40,6 +40,9 @@ Uma pesquisa vertical agora pode surgir resultados de várias fontes de conector
 Se você nomear com precisão quantos rótulos semânticos for possível, essa experiência será aprimorada. Você pode adicionar rótulos semânticos na definição e ingestão do esquema.
 
 [Aqui](configure-connector.md#step-5-assign-property-labels) estão informações adicionais sobre como criar e gerenciar rótulos semânticos.
+
+> [!NOTE]
+> Várias conexões em uma vertical estão atualmente em visualização. Para obter mais informações sobre visualização, consulte [Conectores recursos de visualização](connectors-overview.md#what-are-the-preview-features).
 
 ### <a name="things-you-should-know"></a>Coisas que você deve saber
 
