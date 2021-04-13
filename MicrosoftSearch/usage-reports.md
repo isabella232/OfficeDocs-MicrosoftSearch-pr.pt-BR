@@ -3,21 +3,23 @@ title: Relatórios de uso de pesquisa
 ms.author: ankmis
 author: jeffkizn
 manager: parulm
-ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
+audience: Admin
+ms.audience: Admin
+ms.date: 04/09/2021
 localization_priority: Normal
 search.appverid:
 - BFB160
 - MET150
 - MOE150
 description: Revisar relatórios de uso da Pesquisa da Microsoft
-ms.openlocfilehash: 2237fc978ad7b0d7b94b342a9f2646c9da6b73a4
-ms.sourcegitcommit: 5df252e6d0bd67bb1b4c59418aceca8369f5fe42
+ms.openlocfilehash: 8e46b1bdc2143dd3f7c53643e3ee89446a18cbbf
+ms.sourcegitcommit: 74356701eac9d5deccd01b142e7e6fb083cd3871
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51031742"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "51656776"
 ---
 # <a name="microsoft-search-usage-reports"></a>Relatórios de uso da Pesquisa da Microsoft
 
@@ -35,9 +37,12 @@ Uma versão anterior desta página incluía dados de pesquisas executadas para a
 | Relatório | Descrição |
 |:-----|:-----|
 |Volume da consulta|Esse relatório mostra o número de consultas de pesquisa executadas. Use este relatório para identificar tendências de volume de consulta de pesquisa e para determinar períodos de atividade de pesquisa alta e baixa.|
-|Principais Consultas|Esse relatório mostra as consultas de pesquisa mais populares. Use este relatório para entender quais tipos de informações seus usuários estão procurando.|
+|Principais Consultas|Esse relatório mostra as consultas de pesquisa mais populares. Uma consulta é adicionada a esse relatório quando ela é pesquisada pelo menos três vezes com um clique em um resultado. Use este relatório para entender quais tipos de informações seus usuários estão procurando.|
 |Consultas abandonadas|Este relatório mostra consultas de pesquisa populares que recebem baixo clique. Use esse relatório para identificar consultas de pesquisa que podem levar à insatisfação do usuário e para aprimorar a capacidade de descoberta de conteúdo. Em seguida, você pode determinar se criar uma resposta, como um Indicador, ou ingerir novo conteúdo por meio de um conector do Graph é a ação certa.|
 |Sem consultas de resultados|Esse relatório mostra consultas de pesquisa populares que retornaram sem resultado. Use-o para identificar as consultas que podem criar insatisfação do usuário e aprimorar a capacidade de descoberta do conteúdo. Em seguida, você pode determinar se criar uma resposta, como um Indicador, ou ingerir novo conteúdo por meio de um conector do Graph é a ação certa.|
+
+>[!NOTE]
+>Atualmente, há um problema conhecido em que as consultas atendidas por uma resposta como um Indicador são contadas como uma consulta abandonada.
 
 ## <a name="viewing-reports"></a>Exibindo relatórios
 
@@ -55,7 +60,7 @@ A exibição do calendário, hoje, nos relatórios de uso da pesquisa da Microso
 
 As tabelas de consulta superior, abandonadas e com falha mostram resultados do dia ou do mês escolhido.
 
-**Quando vou ver os dados agregados dos últimos 7 dias, últimos 30 dias, etc... Como os principais relatórios de consultas do Bing?**
+**Quando vou ver os dados agregados dos últimos 7 dias, dos últimos 30 dias e assim por diante... Como os principais relatórios de consultas do Bing?**
 
 Estamos considerando esse tipo de agregação e simplificando a filtragem do intervalo de dados para versões futuras desses relatórios.
 
