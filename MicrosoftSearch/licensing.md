@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Requisitos de licença e preços para visualização pública de conectores do Microsoft Graph para a Pesquisa da Microsoft
-ms.openlocfilehash: 23eed2c107b8b0ee04d772b3d2a77fb5db9c1902
-ms.sourcegitcommit: 62cb7b8c6a311760cc728f2c70a9a22ca76e977e
+ms.openlocfilehash: a7236f647e6513508e50519f9c6b1af166a3b2d9
+ms.sourcegitcommit: 2a178850c521189a221879151faa7b3b0aff95d2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/29/2021
-ms.locfileid: "51408701"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51905524"
 ---
 <!---Previous ms.author: rusamai --->
 
@@ -38,9 +38,15 @@ Para indexar o conteúdo usando conectores do Graph, você precisa ter cota de �
 
 ## <a name="entitlement-built-into-microsoft-365-or-office-365-e5-licenses"></a>Direito integrado às licenças do Microsoft 365 ou Office 365 E5
 
-O tipo de licença do Microsoft 365 E5 ou office 365 E5 inclui direito a 500 itens de cota de índice, que conta para a cota da sua organização para ingestão de conteúdo dos conectores do Graph. Observe que isso não está incluído no Microsoft 365 A5 ou no Office 365 A5.
+As licenças a seguir incluem o direito a 500 itens de cota de índice, que conta para a cota da sua organização para ingerir conteúdo dos conectores do Graph:
+
+* Microsoft 365 E5 ou Office 365 E5
+* [ Tópicos do Microsoft Viva ](https://www.microsoft.com/microsoft-viva/topics?activetab=pivot:overviewtab)
 
 Por exemplo, se sua organização tiver 100 licenças do Microsoft 365 E5, sua organização terá 100 x 500 = 50.000 itens de cota de índice de conectores do Graph.
+
+<!---Comment requested in PR#143--->
+Observe que o Microsoft 365 A5 ou o Office 365 A5 não incluem esse direito.
 
 ## <a name="purchase-of-add-on-index-quota"></a>Compra de cota de índice de complemento
 Para comprar mais cota de conectores do Graph, entre em contato com o Microsoft Account Manager ou conclua as seguintes etapas:
