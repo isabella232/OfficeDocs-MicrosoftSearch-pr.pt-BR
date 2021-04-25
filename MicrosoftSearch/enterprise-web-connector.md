@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Configurar o conector gráfico de sites corporativos para a Pesquisa da Microsoft
-ms.openlocfilehash: 42c3f0a80b21e23bb625db06c4f9e89f2c10de4a
-ms.sourcegitcommit: 5df252e6d0bd67bb1b4c59418aceca8369f5fe42
+ms.openlocfilehash: 4b8a14b216d7df68d0898bb72d926abe671047a4
+ms.sourcegitcommit: 56b7b5aa55413141c805f766bdf7bc63d721ef53
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51031625"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51951017"
 ---
 <!---Previous ms.author: monaray --->
 
@@ -58,11 +58,11 @@ Use o campo URL para especificar a raiz do site que você gostaria de rastrear. 
 > [!NOTE]
 > Se o site que você deseja rastrear tiver um mapa de site definido, o conector rastreará apenas as URLs listadas no sitemap. Se nenhum sitemap for definido, o conector fará um rastreamento profundo de todos os links encontrados na URL raiz do site.
 
-### <a name="crawl-mode-cloud-or-on-premises-preview"></a>Modo de rastreamento: Nuvem ou Local (Visualização)
+### <a name="crawl-mode-cloud-or-on-premises"></a>Modo de rastreamento: nuvem ou local
 
 O modo de rastreamento determina o tipo de sites que você deseja indexar, na nuvem ou no local. Para seus sites de nuvem, selecione **Nuvem** como o modo de rastreamento.
 
-Além disso, o conector agora dá suporte ao rastreamento de sites locais. Esse modo está na visualização. Para acessar seus dados locais, você deve primeiro instalar e configurar o agente conector do Graph. Para saber mais, consulte [Graph connector agent](./on-prem-agent.md).
+Além disso, o conector agora dá suporte ao rastreamento de sites locais. Para acessar seus dados locais, você deve primeiro instalar e configurar o agente conector do Graph. Para saber mais, consulte [Graph connector agent](./on-prem-agent.md).
 
 Para seus sites locais, selecione **Agente** como o  modo de rastreamento e, no campo Agente Local, escolha o agente de conector do Graph que você instalou e configurou anteriormente.  
 
@@ -117,7 +117,7 @@ O conector de sites corporativos só oferece suporte a uma atualização complet
 Siga as instruções [gerais de instalação](./configure-connector.md).
 <!---If the above phrase does not apply, delete it and insert specific details for your data source that are different from general setup instructions.-->
 
-## <a name="troubleshooting"></a>Solução de problemas
+## <a name="troubleshooting"></a>Solução de Problemas
 
 Ao ler o conteúdo do site, o rastreamento pode encontrar alguns erros de origem, que são representados pelos códigos de erro detalhados abaixo. Para obter mais informações sobre os tipos de erros, vá para a página de detalhes **de** erro após selecionar a conexão. Selecione o **código de erro** para ver erros mais detalhados. Consulte Também Gerenciar [seu conector para](./manage-connector.md) saber mais.
 
