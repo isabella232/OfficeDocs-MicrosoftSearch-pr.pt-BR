@@ -16,7 +16,7 @@
 ## [Galeria de conectores](connectors-gallery.md)
 ## Configurar conectores da Microsoft
 ### [Visão geral da configuração](configure-connector.md)
-### [Configurar o agente de conector gráfico (visualização) ](on-prem-agent.md)
+### [Configurar o agente de conector gráfico](on-prem-agent.md)
 ### [Mapear as Identidades que não do Azure AD (visualização)](map-non-aad.md)
 ### [Mapear as Identidades do Azure AD (visualização)](map-aad.md)
 ### Informações específicas do conector
@@ -26,7 +26,7 @@
 #### [Sites empresariais](enterprise-web-connector.md)
 #### [Compartilhamento de arquivos](fileshare-connector.md)
 #### [MediaWiki](mediawiki-connector.md)
-#### [Oracle SQL (visualização)](OracleSQL-connector.md)
+#### [Oracle SQL](OracleSQL-connector.md)
 #### [Salesforce (visualização)](salesforce-connector.md)
 #### [ServiceNow](servicenow-connector.md)
 ## Gerenciar conexões
