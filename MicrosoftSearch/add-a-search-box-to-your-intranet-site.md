@@ -3,7 +3,6 @@ title: Adicionar uma caixa de pesquisa ao site de intranet
 ms.author: dawholl
 author: dawholl
 manager: kellis
-ms.date: 10/31/2018
 ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
@@ -14,23 +13,23 @@ search.appverid:
 - MOE150
 ms.assetid: f980b90f-95e2-4b66-8b21-69f601ff4b50
 ROBOTS: NoIndex
-description: Para ter acesso a sugestões de pesquisa relevantes e encontrar resultados de trabalho mais rapidamente, adicione uma caixa de pesquisa da Pesquisa da Microsoft a um site ou página da intranet.
-ms.openlocfilehash: af12ce4d17c2695e196f8e4d79ccd515f002f238
-ms.sourcegitcommit: 92206ea179ec00b22496f6fd2866b5406449cf40
+description: Obter sugestões de pesquisa relevantes e encontrar resultados de trabalho mais rapidamente adicionando uma caixa de pesquisa da Pesquisa da Microsoft ao seu site ou página da intranet.
+ms.openlocfilehash: c71f61971bf69c2eaa5fb7a48d0cb3d26af0ad07
+ms.sourcegitcommit: 5f0a8bdf274d02132a3b5211fb4738eb38d159db
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "44798221"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52247755"
 ---
 # <a name="add-a-search-box-to-your-intranet-site"></a>Adicionar uma caixa de pesquisa ao site de intranet
 
-Para permitir que seus usuários tenham acesso fácil aos resultados da sua organização, adicione uma pesquisa da Microsoft na caixa de pesquisa do Bing a qualquer site da intranet ou página. Estes são alguns dos benefícios:
+Para fornecer aos usuários acesso fácil aos resultados da sua organização, adicione uma Pesquisa da Microsoft Bing caixa de pesquisa a qualquer site ou página da intranet. Estes são alguns dos benefícios:
 
-- Uma caixa de pesquisa em seu portal do SharePoint ou intranet fornece um ponto de entrada confiável e familiar para iniciar a pesquisa
-- Dá suporte a todos os principais navegadores da Web, incluindo o Google Chrome e o Microsoft Edge
-- Somente as sugestões de pesquisa de sua organização são exibidas, as sugestões da Web nunca são incluídas
-- Leva os usuários para uma pesquisa da Microsoft na página de resultados de trabalho do Bing, que exclui anúncios e resultados da Web
-- Você controla a aparência e o comportamento da caixa de pesquisa
+- Uma caixa de pesquisa em seu SharePoint ou portal de intranet fornece um ponto de entrada familiar e confiável para começar a pesquisar
+- Oferece suporte a todos os principais navegadores da Web, incluindo o Google Chrome e Microsoft Edge
+- Somente sugestões de pesquisa de sua organização aparecem, as sugestões da Web nunca são incluídas
+- Leva os usuários a uma Pesquisa da Microsoft Bing de resultados de trabalho, que exclui anúncios e resultados da Web
+- Você controla a aparência e o comportamento da caixa de pesquisa, incluindo a capacidade de pousar usuários em um padrão vertical ou em uma vertical personalizada que você criou
   
 ## <a name="add-a-search-box-to-an-intranet-page"></a>Adicionar uma caixa de pesquisa à página de intranet
 
@@ -91,8 +90,10 @@ Para ajudar a caixa de pesquisa se ajustar melhor ao estilo da sua intranet, exi
         height: 40,                             // default: 40, min: 40, max: 72
         cornerRadius: 6,                        // default: 6, min: 0, max: 25                                   
         strokeOutline: true,                    // default: true
-        dropShadow: true,                       // default: true
+        dropShadow: true,                       // default: false
         iconColor: "#067FA6",                   // default: #067FA6
+        title: "Search box",                    // default: "Search box"
+        vertical: "Person-people",              // default: not specified, search box directs to the All vertical on the WORK results page
         companyNameInGhostText: "Contoso"       // default: not specified
                                                 // when absent, ghost text will be "Search work"
                                                 // when specified, text will be "Search <companyNameInGhostText>"
@@ -101,10 +102,26 @@ Para ajudar a caixa de pesquisa se ajustar melhor ao estilo da sua intranet, exi
 <script async src="https://www.bing.com/business/s?k=sb"></script>
 ```
 
+## <a name="direct-users-to-a-default-or-custom-vertical"></a>Direcionar os usuários para um padrão ou vertical personalizado
+
+Para oferecer uma integração fácil entre seus aplicativos de linha de negócios ou sites de intranet e seus resultados de trabalho, você também pode personalizar a caixa de pesquisa especificando um padrão ou vertical personalizado em que os usuários devem pousar quando clicarem em uma sugestão de pesquisa.
+
+Use a opção vertical em bfbSearchBoxConfig para definir o vertical que você deseja. Por exemplo, se você quiser que os usuários sempre aterrisem na vertical Sites, uma das verticais padrão, use o valor "Site-sites".
+
+![Captura de tela da página de resultados do trabalho na Pesquisa da Microsoft em Bing mostrando os resultados verticais de Sites e URL](media/sites-vertical-esb.png)
+
+Para verticais personalizadas, use o hash no final da URL. Você pode encontrar esses valores pesquisando na página de trabalho no Bing, clicando em um rótulo vertical e copiando o valor após o sinal de número (#).
+
+![Captura de tela da página de resultados do trabalho na Pesquisa da Microsoft em Bing mostrando uma URL e resultados verticais de apresentação personalizados](media/custom-vertical-esb.png)
+
 ## <a name="use-an-iframe-to-embed-a-search-box"></a>Usar um iFrame para incorporar uma caixa de pesquisa
 
-Se incorporar um script não for uma opção para o site, use um iFrame para adicionar a caixa de pesquisa. Você não poderá personalizar a aparência da caixa de pesquisa.
+Se incorporar um script não for uma opção para o site, use um iFrame para adicionar a caixa de pesquisa. Você não poderá personalizar a caixa de pesquisa.
   
 ```html
 <iframe width="564" height="400" src="https://www.bing.com/business/searchbox"></iframe>
 ```
+
+## <a name="inprivate-mode-and-conditional-access"></a>Modo InPrivate e Acesso Condicional
+
+Uma caixa de pesquisa incorporada será desabilitada se a página ou o site for aberto em uma janela InPrivate. Além disso, com o suporte ao Acesso Condicional do Azure AD no Microsoft Edge, Bing.com não dá suporte a entrada do AAD ao usar o modo InPrivate. Para obter mais informações sobre o Acesso Condicional na Borda, [consulte Microsoft Edge e Acesso Condicional.](https://docs.microsoft.com/deployedge/ms-edge-security-conditional-access#accessing-conditional-access-protected-resources-in-microsoft-edge) 
