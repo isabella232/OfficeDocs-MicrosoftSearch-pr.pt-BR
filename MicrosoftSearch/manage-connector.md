@@ -1,6 +1,6 @@
 ---
 title: Gerenciar conectores do Microsoft Graph para Pesquisa da Microsoft
-ms.author: monaray
+ms.author: mecampos
 author: monaray97
 manager: mnirkhe
 audience: Admin
@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Gerenciar conectores do Microsoft Graph para Pesquisa da Microsoft.
-ms.openlocfilehash: cba50d8eb558b4d74ed46554dc155d4f275b1332
-ms.sourcegitcommit: 5df252e6d0bd67bb1b4c59418aceca8369f5fe42
+ms.openlocfilehash: 685b501f3afe25d75c13a1fe6cc2c1b5db8a3511
+ms.sourcegitcommit: e5d695c40b68c2f1fa082fa9de20b9aa6d5b8050
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51031715"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "52325164"
 ---
 <!-- markdownlint-disable no-inline-html -->
 
@@ -43,7 +43,7 @@ Editar uma conexão de rascunho | :heavy_check_mark: | :x:
 
 Depois de criar uma conexão, o número de itens **processados** aparece na guia Conectores na **página Pesquisa da Microsoft.** Depois que o rastreamento completo inicial for concluído com êxito, o progresso de rastreamentos incrementais periódicos será exibido. Esta página fornece informações sobre as operações diárias do conector e uma visão geral dos logs e do histórico de erros.
 
-Quatro estados aparecem na coluna **Estado em** cada conexão:
+Cinco estados aparecem na coluna **Estado em** cada conexão:
 
 * **Sincronizando**. O conector está rastreando os dados da fonte para indexar os itens existentes e fazer qualquer atualização.
 
@@ -52,6 +52,8 @@ Quatro estados aparecem na coluna **Estado em** cada conexão:
 * **Pausado**. Os rastreamentos são pausados pelos administradores por meio da opção de pausa. O próximo rastreamento é executado somente quando é retomado manualmente. No entanto, os dados dessa conexão continuam a ser pesquisáveis.
 
 * **Falha**. A conexão teve uma falha crítica. Esse erro requer intervenção manual. O administrador precisa tomar a ação apropriada com base na mensagem de erro mostrada. Os dados indexados até o erro ocorrer são pesquisáveis.
+
+* **Delete Failed**. Falha na exclusão da conexão. Dependendo do motivo da falha, os dados ainda podem ser indexados, a cota de item ainda pode ser consumida e os rastreamentos ainda podem ser executados para a conexão. É recomendável tentar excluir a conexão novamente neste estado.
 
 ## <a name="monitor-your-index-quota-utilization"></a>Monitorar a utilização da cota de índice
 
