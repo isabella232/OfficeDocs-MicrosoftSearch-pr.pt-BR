@@ -1,5 +1,5 @@
 ---
-title: Azure SQL and Microsoft SQL server Graph connector for Microsoft Search
+title: Azure SQL microsoft SQL servidor Graph conector para Pesquisa da Microsoft
 ms.author: mecampos
 author: mecampos
 manager: umas
@@ -12,33 +12,33 @@ search.appverid:
 - BFB160
 - MET150
 - MOE150
-description: Configurar o conector do Azure SQL Microsoft SQL Graph para a Pesquisa da Microsoft.
-ms.openlocfilehash: 81951dab058a14d687f81f7611ee624b079f0822
-ms.sourcegitcommit: 5df252e6d0bd67bb1b4c59418aceca8369f5fe42
+description: Configurar o conector do Azure SQL microsoft SQL Graph microsoft search.
+ms.openlocfilehash: 29474c731c489c9e9b75f2456d25e4ff43aae4eb
+ms.sourcegitcommit: 1b154441f3a3abba0f2719e66a767432bc9506ca
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51031400"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "52720975"
 ---
 <!---Previous ms.author: vivg --->
 
-# <a name="azure-sql-and-microsoft-sql-server-graph-connectors"></a>Conectores do Azure SQL e do Microsoft SQL Graph do servidor
+# <a name="azure-sql-and-microsoft-sql-server-graph-connectors"></a>Conectores SQL do Azure SQL servidor Graph Microsoft
 
-O servidor do Microsoft SQL ou o conector do Azure SQL Graph permite que sua organização descubra e indexe dados de um banco de dados SQL Server local ou um banco de dados hospedado em sua instância do Azure SQL na nuvem.
-O conector graph indexa o conteúdo especificado na Pesquisa da Microsoft. Para manter o índice atualizado com dados de origem, ele oferece suporte a rastreamentos periódicos completos e incrementais. Com esses SQL conectores, você também pode restringir o acesso aos resultados da pesquisa para determinados usuários.
+O servidor do Microsoft SQL ou o conector de SQL Graph do Azure permite que sua organização descubra e indexe dados de um banco de dados do SQL Server local ou um banco de dados hospedado em sua instância do Azure SQL na nuvem.
+O Graph conectores indexa o conteúdo especificado na Pesquisa da Microsoft. Para manter o índice atualizado com dados de origem, ele oferece suporte a rastreamentos periódicos completos e incrementais. Com esses SQL conectores, você também pode restringir o acesso aos resultados da pesquisa para determinados usuários.
 
 > [!NOTE]
-> Leia o [**artigo Configurar seu conector do Graph**](configure-connector.md) para entender as instruções gerais de configuração dos conectores do Graph.
+> Leia o [**artigo Configurar seu Graph conector para**](configure-connector.md) entender as instruções gerais Graph configuração de conectores.
 
-Este artigo é para qualquer pessoa que configure, executa e monitore um conector do Azure SQL e do Microsoft SQL Graph do servidor. Ele complementa o processo de instalação geral e mostra instruções que se aplicam apenas ao conector do SQL do Azure e do Microsoft SQL Server Graph. Este artigo também inclui informações sobre [limitações](#limitations) para o servidor microsoft SQL e conectores SQL Azure.
+Este artigo é para qualquer pessoa que configure, executa e monitore um conector de SQL do Azure e SQL servidor Graph Microsoft. Ele complementa o processo de instalação geral e mostra instruções que se aplicam apenas ao conector do servidor SQL do Azure e SQL do Graph. Este artigo também inclui informações sobre [limitações](#limitations) para o servidor microsoft SQL e conectores SQL Azure.
 
 ## <a name="before-you-get-started"></a>Antes de começar
 
-### <a name="install-the-graph-connector-agent-required-for-on-premises-microsoft-sql-server-connector-only"></a>Instale o agente de conector do Graph (necessário apenas para o conector de servidor do Microsoft SQL local)
+### <a name="install-the-graph-connector-agent-required-for-on-premises-microsoft-sql-server-connector-only"></a>Instale o Graph conector de Graph (necessário apenas para o conector de servidor do Microsoft SQL local)
 
-Para acessar seus dados de terceiros locais, você deve instalar e configurar o agente de conector do Graph. Consulte [Instalar o agente de conector do Graph](on-prem-agent.md) para saber mais.  
+Para acessar seus dados de terceiros locais, você deve instalar e configurar o Graph conector. Consulte [Instalar o Graph conector de dados](on-prem-agent.md) para saber mais.  
 
-## <a name="step-1-add-a-graph-connector-in-the-microsoft-365-admin-center"></a>Etapa 1: Adicionar um conector graph no centro de administração do Microsoft 365
+## <a name="step-1-add-a-graph-connector-in-the-microsoft-365-admin-center"></a>Etapa 1: adicionar um conector Graph no centro de Microsoft 365 de administração
 
 Siga as instruções [gerais de instalação](./configure-connector.md).
 <!---If the above phrase does not apply, delete it and insert specific details for your data source that are different from general setup 
@@ -54,11 +54,11 @@ instructions.-->
 
 ### <a name="register-an-app-for-azure-sql-connector-only"></a>Registrar um aplicativo (somente para o SQL do Azure)
 
-Para o conector SQL do Azure, você deve registrar um aplicativo no Azure Active Directory para permitir que o aplicativo de Pesquisa da Microsoft acesse dados para indexação. Para saber mais sobre como registrar um aplicativo, consulte a documentação do Microsoft Graph sobre como [registrar um aplicativo.](/graph/auth-register-app-v2)
+Para o conector SQL do Azure, você deve registrar um aplicativo no Azure Active Directory para permitir que o aplicativo de Pesquisa da Microsoft acesse dados para indexação. Para saber mais sobre como registrar um aplicativo, consulte a documentação Graph Microsoft sobre como [registrar um aplicativo.](/graph/auth-register-app-v2)
 
 Depois de concluir o registro do aplicativo e anotar o nome do aplicativo, a ID do aplicativo (cliente) e a ID do locatário, você precisa gerar um novo segredo [do cliente.](/azure/healthcare-apis/register-confidential-azure-ad-client-app#application-secret) O segredo do cliente só será exibido uma vez. Lembre-se de & armazenar o segredo do cliente com segurança. Use a ID do cliente e o segredo do cliente durante a configuração de uma nova conexão na Pesquisa da Microsoft.
 
-Para adicionar o aplicativo registrado ao banco de dados do Azure SQL, você precisa:
+Para adicionar o aplicativo registrado ao seu Banco de Dados SQL do Azure, você precisa:
 
 - Faça logoff no seu Azure SQL DB
 - Abrir uma nova janela de consulta
@@ -75,7 +75,7 @@ Para conectar seu conector de servidor microsoft SQL a uma fonte de dados, você
 > [!NOTE] 
 > Seu banco de dados deve ser executado SQL servidor versão 2008 ou posterior para que o conector de servidor do Microsoft SQL possa se conectar.
 
-Para o conector de SQL do Azure, você só precisa especificar o nome do servidor ou o endereço IP ao qual deseja se conectar. O conector SQL do Azure só dá suporte à autenticação do OIDC (Conexão aberta de ID do Active Directory) do Azure para se conectar ao banco de dados.
+Para o conector de SQL do Azure, você só precisa especificar o nome do servidor ou o endereço IP ao qual deseja se conectar. O conector SQL do Azure dá suporte Azure Active Directory autenticação OIDC (Conexão de ID Aberta) para se conectar ao banco de dados.
 
 Para maior segurança, você pode configurar regras de firewall IP para seu servidor ou banco de dados SQL Azure. Para saber mais sobre como configurar regras de firewall IP, consulte documentação sobre regras [de firewall IP.](/azure/azure-sql/database/firewall-configure) Adicione os seguintes intervalos de IP do cliente nas configurações de firewall.
 
@@ -85,7 +85,7 @@ Para maior segurança, você pode configurar regras de firewall IP para seu serv
 | EUR | 20.54.41.208/30, 51.105.159.88/30 |
 | APC | 52.139.188.212/30, 20.43.146.44/30 |
 
-Para pesquisar o conteúdo do banco de dados, você deve especificar SQL consultas ao configurar o conector. Essas SQL precisam nomear todas as colunas de banco de dados que você deseja indexar (ou seja, propriedades de origem), incluindo qualquer SQL que precise ser executada para obter todas as colunas. Para restringir o acesso aos resultados da pesquisa, você deve especificar Listas de Controle de Acesso (ACLs) dentro SQL consultas ao configurar o conector.
+Para pesquisar o conteúdo do banco de dados, você deve especificar SQL consultas ao configurar o conector. Essas SQL precisam nomear todas as colunas de banco de dados que você deseja indexar (ou seja, propriedades de origem), incluindo qualquer SQL que precise ser executada para obter todas as colunas. Para restringir o acesso aos resultados da pesquisa, especifique As LISTAS de Controle de Acesso (ACLs) em SQL consultas ao configurar o conector.
 
 ## <a name="step-3a-full-crawl-required"></a>Etapa 3a: Rastreamento completo (Obrigatório)
 
@@ -115,7 +115,7 @@ O uso de cada uma das colunas ACL na consulta acima é descrito abaixo. A lista 
 
 ### <a name="supported-data-types"></a>Tipos de dados com suporte
 
-A tabela a seguir resume os SQL de dados que são suportados nos conectores MS SQL e Azure SQL. A tabela também resume o tipo de dados de indexação para o tipo de SQL de dados com suporte. Para saber mais sobre os conectores do Microsoft Graph com suporte para tipos de dados para indexação, consulte a documentação sobre tipos [de recursos de propriedade.](/graph/api/resources/property?preserve-view=true&view=graph-rest-beta#properties)
+A tabela a seguir resume os SQL de dados que são suportados nos conectores MS SQL e Azure SQL. A tabela também resume o tipo de dados de indexação para o tipo de SQL de dados com suporte. Para saber mais sobre os conectores Graph microsoft com suporte para tipos de dados para indexação, consulte a documentação sobre tipos de recursos [de propriedade.](/graph/api/resources/property?preserve-view=true&view=graph-rest-beta#properties)
 
 | Categoria | Tipo de dados de origem | Tipo de dados de indexação |
 | ------------ | ------------ | ------------ |
@@ -159,7 +159,7 @@ Cada uma das colunas ACL deve ser uma coluna de vários valores. Esses vários v
 Os seguintes tipos de ID são suportados para uso como ACLs:
 
 - **Nome principal do usuário (UPN)**: Um Nome de Entidade de Usuário (UPN) é o nome de um usuário do sistema em um formato de endereço de email. Um UPN (por exemplo: john.doe@domain.com) consiste no nome de usuário (nome de logon), separador (o símbolo @) e nome de domínio (sufixo UPN).
-- **ID do Azure Active Directory (AAD) : no Azure AD,** cada usuário ou grupo tem uma ID de objeto que se parece com 'e0d3ad3d-0000-1111-2222-3c5f5c52ab9b'.
+- **Azure Active Directory (AAD) ID**: no Azure AD, cada usuário ou grupo tem uma ID de objeto que se parece com 'e0d3ad3d-0000-1111-2222-3c5f5c52ab9b'.
 - ID de Segurança do **Active Directory (AD)**: Em uma configuração do AD local, cada usuário e grupo tem um identificador de segurança imutável e exclusivo que se parece com 'S-1-5-21-3878594291-2115959936-132693609-65242.'
 
 ![Configurações de permissão de pesquisa para configurar listas de controle de acesso](media/MSSQL-ACL2.png)
@@ -207,9 +207,13 @@ Create your own verticals and result types, so end users can view search results
 
 To learn more about how to create your verticals and MRTs, see [Search results page customization](customize-search-page.md).-->
 
-<!---## Troubleshooting-->
+## <a name="troubleshooting"></a>Solução de problemas
 
-<!---Insert troubleshooting recommendations for this data source-->
+A seguir, um erro comum observado durante a configuração do conector e seu possível motivo.
+
+| Etapa de configuração | Mensagem de erro | Possíveis motivos |
+| ------------ | ------------ | ------------ |
+| Rastreamento completo | `Error from database server: A transport level error has occurred when receiving results from the server.` | Esse erro ocorre devido a problemas de rede. É recomendável verificar logs de rede usando o [monitor de rede da Microsoft](https://www.microsoft.com/download/details.aspx?id=4865) e entrar em contato com o suporte ao cliente da Microsoft. |
 
 ## <a name="limitations"></a>Limitações
 
@@ -217,5 +221,5 @@ Os SQL conectores têm essas limitações na versão de visualização:
 
 - Conector SQL servidor da Microsoft: o banco de dados local deve ser executado SQL servidor versão 2008 ou posterior.
 - A assinatura do M365 e a assinatura do Azure (hospedando o banco de dados do Azure SQL) devem estar no mesmo Azure Active Directory.
-- As ACLs só têm suporte usando um Nome de Entidade de Usuário (UPN), o Azure Active Directory (Azure AD) ou o Active Directory Security.
+- As ACLs só têm suporte usando um Nome de Entidade de Usuário (UPN), Azure Active Directory (Azure AD) ou Segurança do Active Directory.
 - Não há suporte para indexação de conteúdo rico dentro de colunas de banco de dados. Exemplos desse conteúdo são HTML, JSON, XML, blobs e análises de documentos que existem como links dentro das colunas de banco de dados.
