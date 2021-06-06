@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Configurar o conector de Graph ServiceNow para a Pesquisa da Microsoft
-ms.openlocfilehash: 08947381dff7cd06007c68a7f1614b23c53f7510
-ms.sourcegitcommit: 1b154441f3a3abba0f2719e66a767432bc9506ca
+ms.openlocfilehash: 31b581af2c51a5c26b161e778b242e396afe91fd
+ms.sourcegitcommit: 6cffa2d29448be9a22514e7b4c3009c522af0860
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/02/2021
-ms.locfileid: "52720957"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52774076"
 ---
 <!---Previous ms.author: kam1 --->
 
@@ -212,7 +212,7 @@ Se você optou por ingerir um ACL da sua instância serviceNow e selecionou "nã
 
 No vídeo a seguir, você pode ver como usar o conector Servicenow para indexar artigos de conhecimento, definir permissões de critérios de usuário e sincronizar perfeitamente as alterações entre ServiceNow e o índice de Pesquisa da Microsoft.
 
-> [!VIDEO https://www.youtube.com/watch?v=TVSkJpk1RiE]
+> [!VIDEO https://www.youtube-nocookie.com/embed/TVSkJpk1RiE]
 
 ## <a name="step-6-assign-property-labels"></a>Etapa 6: Atribuir rótulos de propriedade
 

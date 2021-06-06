@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Configurar o conector de Graph Salesforce para a Pesquisa da Microsoft
-ms.openlocfilehash: d4d19c05f82ddb28c4dc3e6719bf8ea8d7284cc3
-ms.sourcegitcommit: 1b154441f3a3abba0f2719e66a767432bc9506ca
+ms.openlocfilehash: 7d73454fb909db24514c969f34158e3f2be5e34c
+ms.sourcegitcommit: 6cffa2d29448be9a22514e7b4c3009c522af0860
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/02/2021
-ms.locfileid: "52720984"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52774085"
 ---
 <!---Previous ms.author: rusamai --->
 
@@ -131,7 +131,7 @@ Se você optou por ingerir um ACL da sua instância do Salesforce e selecionou "
 
 Neste vídeo, você pode ver o processo de autenticação à sua instância do Salesforce, sincronizar suas identidades não Azure Active Directory com suas identidades Azure Active Directory e aplicar os recortes de segurança apropriados aos itens do Salesforce.
 
-> [!VIDEO https://www.youtube.com/watch?v=SZYiFxZMKcM]
+> [!VIDEO https://www.youtube-nocookie.com/embed/SZYiFxZMKcM]
 
 ## <a name="step-5-assign-property-labels"></a>Etapa 5: Atribuir rótulos de propriedade
 
