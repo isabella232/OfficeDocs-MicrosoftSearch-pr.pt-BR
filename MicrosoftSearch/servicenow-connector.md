@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Configurar o conector de Graph ServiceNow para a Pesquisa da Microsoft
-ms.openlocfilehash: 0b7e752ec67a7c14e4afc2e3bad32124694f8f39
-ms.sourcegitcommit: 668930032e77a065c23551b3e8820dcc2c63c0f8
+ms.openlocfilehash: ac5d0b23547ce7ccd0d8bb6399b092f9bc9e5303
+ms.sourcegitcommit: f12e7ff0a94d30a9de1f93266715180e7530de3f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52853810"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52879304"
 ---
 <!---Previous ms.author: kam1 --->
 
@@ -64,15 +64,15 @@ Você pode **criar e atribuir uma função para a** conta de serviço que você 
 
 Para autenticar e sincronizar conteúdo do ServiceNow, escolha **um dos três** métodos com suporte: 
  
-1. Autenticação básica 
-1. ServiceNow OAuth (recomendado)
-1. OpenID do Azure AD Conexão
+- Autenticação básica 
+- ServiceNow OAuth (recomendado)
+- OpenID do Azure AD Conexão
 
-### <a name="basic-authentication"></a>Autenticação básica
+## <a name="step-31-basic-authentication"></a>Etapa 3.1: Autenticação básica
 
 Insira o nome de usuário e a senha da conta ServiceNow com **a função de** conhecimento a ser autenticada em sua instância.
 
-### <a name="servicenow-oauth"></a>ServiceNow OAuth
+## <a name="step-32-servicenow-oauth"></a>Etapa 3.2: ServiceNow OAuth
 
 Para usar ServiceNow OAuth para autenticação, um administrador do ServiceNow precisa provisionar um ponto de extremidade em sua instância serviceNow, para que o aplicativo de Pesquisa da Microsoft possa acessá-lo. Para saber mais, confira Criar um ponto de extremidade para que os clientes [acessem](https://docs.servicenow.com/bundle/newyork-platform-administration/page/administer/security/task/t_CreateEndpointforExternalClients.html) a instância na documentação ServiceNow.
 
@@ -91,19 +91,19 @@ Tempo de vida útil do token de acesso | O número de segundos em que um token d
 
 Insira a ID do cliente e o segredo do cliente para se conectar à sua instância. Depois de se conectar, use uma credencial de conta ServiceNow para autenticar a permissão para rastrear. A conta deve ter pelo menos uma **função de** conhecimento. Consulte a tabela no início da etapa [3:](#step-3-connection-settings) configurações de conexão para fornecer acesso de leitura a mais registros de tabela ServiceNow e permissões de critérios de usuário de índice.
 
-### <a name="azure-ad-openid-connect"></a>OpenID do Azure AD Conexão
+## <a name="step-33-azure-ad-openid-connect"></a>Etapa 3.3: Azure AD OpenID Conexão
 
 Para usar o Azure AD OpenID Conexão autenticação, siga as etapas abaixo.
 
-## <a name="step-3a-register-a-new-application-in-azure-active-directory"></a>Etapa 3.a: Registrar um novo aplicativo no Azure Active Directory
+### <a name="step-331-register-a-new-application-in-azure-active-directory"></a>Etapa 3.3.1: Registrar um novo aplicativo no Azure Active Directory
 
 Para saber mais sobre como registrar um novo aplicativo no Azure Active Directory, consulte [Register an application](/azure/active-directory/develop/quickstart-register-app#register-an-application). Selecione diretório organizacional de locatário único. O URI de redirecionamento não é necessário. Após o registro, anote a ID do Aplicativo (cliente) e a ID de Diretório (locatário).
 
-## <a name="step-3b-create-a-client-secret"></a>Etapa 3.b: Criar um segredo do cliente
+### <a name="step-332-create-a-client-secret"></a>Etapa 3.3.2: Criar um segredo do cliente
 
 Para saber mais sobre como criar um segredo do cliente, consulte [Creating a client secret](/azure/active-directory/develop/quickstart-register-app#add-a-client-secret). Anote o segredo do cliente.
 
-## <a name="step-3c-retrieve-service-principal-object-identifier"></a>Etapa 3.c: Recuperar o Identificador de Objeto Principal do Serviço
+### <a name="step-333-retrieve-service-principal-object-identifier"></a>Etapa 3.3.3: Recuperar o Identificador de Objeto Principal do Serviço
 
 Siga as etapas para recuperar o Identificador de Objeto Principal do Serviço
 
@@ -137,7 +137,7 @@ ID do aplicativo (ID do cliente) | ID exclusiva do aplicativo registrado na etap
 Segredo de Cliente | A chave secreta do aplicativo (da etapa 3.b). Trate-o como uma senha.
 ID da Entidade de Serviço | Uma identidade para o aplicativo em execução como um serviço. (da etapa 3.c)
 
-## <a name="step-3d-register-servicenow-application"></a>Etapa 3.d: Registrar Aplicativo ServiceNow
+### <a name="step-334-register-servicenow-application"></a>Etapa 3.3.4: Registrar Aplicativo ServiceNow
 
 A instância ServiceNow precisa da seguinte configuração:
 
@@ -169,7 +169,7 @@ A instância ServiceNow precisa da seguinte configuração:
 
 5. Selecione Enviar e Atualizar o formulário Entidade OAuth OIDC.
 
-## <a name="step-3e-create-a-servicenow-account"></a>Etapa 3.e: Criar uma conta ServiceNow
+### <a name="step-335-create-a-servicenow-account"></a>Etapa 3.3.5: Criar uma conta ServiceNow
 
 Consulte as instruções para criar uma conta ServiceNow, [criar um usuário em ServiceNow](https://docs.servicenow.com/bundle/paris-platform-administration/page/administer/users-and-groups/task/t_CreateAUser.html).
 
@@ -182,7 +182,7 @@ Somente acesso ao serviço Web | Marcado
 
 Todos os outros valores podem ser deixados como padrão.
 
-##### <a name="step-36-enable-knowledge-role-for-the-servicenow-account"></a>Etapa 3.6: Habilitar a função Conhecimento para a conta ServiceNow
+### <a name="step-336-enable-knowledge-role-for-the-servicenow-account"></a>Etapa 3.3.6: Habilitar a função conhecimento para a conta ServiceNow
 
 Acesse a conta ServiceNow criada com a ID principal do ServiceNow como ID de usuário e atribua a função de conhecimento. As instruções para atribuir uma função a uma conta ServiceNow podem ser encontradas aqui, [atribuir uma função a um usuário](https://docs.servicenow.com/bundle/paris-platform-administration/page/administer/users-and-groups/task/t_AssignARoleToAUser.html). Consulte a tabela no início da etapa [3:](#step-3-connection-settings) configurações de conexão para fornecer acesso de leitura a mais registros de tabela ServiceNow e permissões de critérios de usuário de índice.
 
@@ -267,4 +267,4 @@ PROD | Europa | 20.54.41.208/30, 51.105.159.88/30
 PROD | Pacífico Asiático | 52.139.188.212/30, 20.43.146.44/30 
 
 
-Se você tiver outros problemas ou quiser fornecer comentários, escreva para nós aka.ms/TalkToGraphConnectors
+Se você tiver outros problemas ou quiser fornecer comentários, escreva para nós [aka.ms/TalkToGraphConnectors](https://aka.ms/TalkToGraphConnectors)
