@@ -11,29 +11,32 @@
 ## [Locais](manage-locations.md)
 ## [Power BI](manage-powerbi.md)
 ## [P e R](manage-qas.md)
-# Conectores
-## [Visão geral](connectors-overview.md)
-## [Galeria de conectores](connectors-gallery.md)
-## Configurar conectores da Microsoft
-### [Visão geral da configuração](configure-connector.md)
-### [Configurar o agente de conector gráfico](on-prem-agent.md)
-### [Mapear as Identidades que não do Azure AD (visualização)](map-non-aad.md)
-### [Mapear as Identidades do Azure AD (visualização)](map-aad.md)
-### Informações específicas do conector
-#### [Azure Data Lake Storage Gen2](azure-data-lake-connector.md)
-#### [Azure DevOps (visualização)](azure-devops-connector.md)
-#### [Azure SQL e Microsoft SQL Server](MSSQL-connector.md)
-#### [Sites empresariais](enterprise-web-connector.md)
-#### [Compartilhamento de arquivos](fileshare-connector.md)
-#### [MediaWiki](mediawiki-connector.md)
-#### [Oracle SQL](OracleSQL-connector.md)
-#### [Salesforce (visualização)](salesforce-connector.md)
-#### [ServiceNow](servicenow-connector.md)
-## Gerenciar conexões
-### [Monitorar conexões](manage-connector.md)
-### [Exibir detalhes e erros de conexão](connector-details-errors.md)
-## [Licenciamento](licensing.md)
-## [Termos de uso](terms-of-use.md)
+# Fontes de dados
+## Conectores de Gráfico
+### [Visão geral](connectors-overview.md)
+### [Galeria de conectores](connectors-gallery.md)
+### Configurar conectores da Microsoft
+#### [Visão geral da configuração](configure-connector.md)
+#### [Configurar o agente de conector gráfico](on-prem-agent.md)
+#### [Mapear as Identidades que não do Azure AD (visualização)](map-non-aad.md)
+#### [Mapear as Identidades do Azure AD (visualização)](map-aad.md)
+#### Informações específicas do conector
+##### [Azure Data Lake Storage Gen2](azure-data-lake-connector.md)
+##### [Azure DevOps (visualização)](azure-devops-connector.md)
+##### [Azure SQL e Microsoft SQL Server](MSSQL-connector.md)
+##### [Sites empresariais](enterprise-web-connector.md)
+##### [Compartilhamento de arquivos](fileshare-connector.md)
+##### [MediaWiki](mediawiki-connector.md)
+##### [Oracle SQL](OracleSQL-connector.md)
+##### [Salesforce (visualização)](salesforce-connector.md)
+##### [ServiceNow](servicenow-connector.md)
+### Gerenciar conexões
+#### [Monitorar conexões](manage-connector.md)
+#### [Exibir detalhes e erros de conexão](connector-details-errors.md)
+### [Licenciamento](licensing.md)
+### [Termos de uso](terms-of-use.md)
+## Conectores de Federação
+### [Dynamics 365](manage-dynamics365.md)
 # Personalizar e configurar
 ## [Gerenciar verticais e tipos de resultados](customize-search-page.md)
 ## [Gerenciar layouts de resultados de pesquisa](customize-results-layout.md)
