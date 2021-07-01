@@ -1,5 +1,5 @@
 ---
-title: Conector de Graph salesforce para Pesquisa da Microsoft
+title: Conector Graph salesforce para Pesquisa da Microsoft
 ms.author: mecampos
 author: mecampos
 manager: umas
@@ -12,19 +12,19 @@ search.appverid:
 - BFB160
 - MET150
 - MOE150
-description: Configurar o conector de Graph Salesforce para a Pesquisa da Microsoft
-ms.openlocfilehash: 7d73454fb909db24514c969f34158e3f2be5e34c
-ms.sourcegitcommit: 6cffa2d29448be9a22514e7b4c3009c522af0860
+description: Configurar o conector Graph Salesforce para Pesquisa da Microsoft
+ms.openlocfilehash: 4bef771538934722deaa5deac3959f21246e4529
+ms.sourcegitcommit: 93fc70f0073ab45b4dbd702441ac2fc07a7668bc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52774085"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "53230930"
 ---
 <!---Previous ms.author: rusamai --->
 
 # <a name="salesforce-graph-connector-preview"></a>Conector Graph Salesforce (visualização)
 
-O conector Graph Salesforce permite que sua organização indexe objetos Contatos, Oportunidades, Leads e Contas em sua instância do Salesforce. Depois de configurar o conector e o conteúdo de índice do Salesforce, os usuários finais podem pesquisar esses itens de qualquer cliente de Pesquisa da Microsoft.
+O conector Graph Salesforce permite que sua organização indexe objetos Contatos, Oportunidades, Leads e Contas em sua instância do Salesforce. Depois de configurar o conector e o conteúdo de índice do Salesforce, os usuários finais podem pesquisar esses itens de qualquer Pesquisa da Microsoft cliente.
 
 > [!NOTE]
 > Leia o [**artigo Instalação do conector Graph para**](configure-connector.md) entender as instruções gerais Graph configuração de conectores.
@@ -77,9 +77,9 @@ Para se conectar à sua instância do Salesforce, você precisa da URL da instâ
   > [!div class="mx-imgBorder"]
   > ![Selecione a Política de Token de Atualização chamada "O token de atualização é válido até revogado"](media/salesforce-connector/oauthpolicies.png)
 
-Agora você pode usar o Centro de Administração [do M365](https://admin.microsoft.com/) para concluir o restante do processo de instalação para o conector Graph usuário.
+Agora você pode usar a [central Administração Microsoft 365 para](https://admin.microsoft.com/) concluir o restante do processo de instalação do conector Graph.
 
-## <a name="step-1-add-a-graph-connector-in-the-microsoft-365-admin-center"></a>Etapa 1: adicionar um conector Graph no centro de Microsoft 365 de administração
+## <a name="step-1-add-a-graph-connector-in-the-microsoft-365-admin-center"></a>Etapa 1: adicionar um conector Graph no Centro de administração do Microsoft 365
 
 Siga as instruções [gerais de instalação](./configure-connector.md).
 <!---If the above phrase does not apply, delete it and insert specific details for your data source that are different from general setup instructions.-->
@@ -150,7 +150,7 @@ Refinar permite definir as propriedades que podem ser usadas posteriormente como
 O conector do Salesforce dá suporte apenas a agendas de atualização para rastreamentos completos no momento.
 
 >[!IMPORTANT]
->Um rastreamento completo localiza objetos excluídos e usuários que foram sincronizados anteriormente com o índice de Pesquisa da Microsoft.
+>Um rastreamento completo localiza objetos excluídos e usuários que foram sincronizados anteriormente com o índice Pesquisa da Microsoft de dados.
 
 A agenda recomendada é de uma semana para um rastreamento completo.
 
