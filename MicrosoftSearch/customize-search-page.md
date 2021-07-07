@@ -1,5 +1,5 @@
 ---
-title: Personalizar a página de Pesquisa da Microsoft
+title: Personalizar a Pesquisa da Microsoft página
 ms.author: jeffkizn
 author: jypal
 manager: jeffkizn
@@ -12,27 +12,27 @@ search.appverid:
 - MET150
 - MOE150
 description: Adicionar verticais de pesquisa e personalizar resultados de pesquisa
-ms.openlocfilehash: e5c4ab8d507e0e6096a5b9d52dc0e818faebefb6
-ms.sourcegitcommit: a07c957dfa1d31542f0362379251bc9679dfae41
+ms.openlocfilehash: 6b6f0593a668e9c2c5c7fc5a62f7b5dd4a43a8bb
+ms.sourcegitcommit: ea6905626de67090141039565282e4e0c53b43ac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/08/2021
-ms.locfileid: "51639849"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53314015"
 ---
 # <a name="customize-the-search-results-page"></a>Personalizar a página de resultados da pesquisa
 
-Você pode criar tipos de resultados e verticais de pesquisa para personalizar os resultados de pesquisa que os usuários veem quando pesquisam no Microsoft [SharePoint](https://sharepoint.com/), [Microsoft Office](https://office.com)e na Pesquisa da Microsoft no [Bing](https://bing.com). As verticais facilitam que os usuários encontrem as informações que eles têm permissão para ver. Por exemplo, você pode criar uma pesquisa vertical para dados de análise de marketing de software de terceiros para seus usuários no departamento de marketing. Você também pode definir tipos de resultados e personalizar o layout desses dados.  
+Você pode criar tipos de resultados e verticais de pesquisa para personalizar os resultados de pesquisa que os usuários veem quando pesquisam no Microsoft [SharePoint,](https://sharepoint.com/) [Microsoft Office](https://office.com)e Pesquisa da Microsoft em [Bing](https://bing.com). As verticais facilitam que os usuários encontrem as informações que eles têm permissão para ver. Por exemplo, você pode criar uma pesquisa vertical para dados de análise de marketing de software de terceiros para seus usuários no departamento de marketing. Você também pode definir tipos de resultados e personalizar o layout desses dados.  
 
 Você pode criar tipos de resultados e verticais nesses níveis:
 
-- **Nível da** organização – quando você adiciona uma vertical no nível da organização, ela aparece na página de resultados da pesquisa quando os usuários pesquisam na página inicial do [SharePoint,](https://sharepoint.com/) no [Office](https://office.com)ou no [Bing](https://bing.com).
-- **Nível do** site – Por exemplo, talvez você queira permitir que seus funcionários do serviço de atendimento ao cliente pesquisem incidentes de Gravidade *1* diretamente do site do SharePoint do departamento.
+- **Nível da** organização – quando você adiciona uma vertical no nível da organização, ela aparece na página de resultados da pesquisa quando os usuários pesquisam [na](https://sharepoint.com/) página inicial do SharePoint, no [Office](https://office.com)ou no [Bing](https://bing.com).
+- **Nível do** site – Por exemplo, talvez você queira permitir que seus funcionários do serviço de atendimento ao cliente pesquisem incidentes de Gravidade *1* diretamente do site de segurança SharePoint departamento.
 
 ## <a name="search-verticals-explained"></a>Pesquisas verticais explicadas
 
-Na parte superior da página de resultados da Pesquisa da Microsoft, há uma linha de guias. Estas são as verticais de pesquisa. Uma pesquisa vertical mostra apenas resultados de um determinado tipo ou de determinado conteúdo. Exemplos são **Arquivos** ou **Notícias.** Por padrão, a Pesquisa da Microsoft mostra as verticais **Todos**, **Pessoas,** **Arquivos,** **Sites** e **Notícias**.  
+Na parte superior da página Pesquisa da Microsoft resultados, há uma linha de guias. Estas são as verticais de pesquisa. Uma pesquisa vertical mostra apenas resultados de um determinado tipo ou de determinado conteúdo. Exemplos são **Arquivos** ou **Notícias.** Por padrão, Pesquisa da Microsoft mostra as verticais **Todos**, **Pessoas,** **Arquivos,** **Sites** e **Notícias**.  
 
-Você pode adicionar verticais de pesquisa relevantes à sua organização. Elas serão exibidas na página de resultados da Pesquisa da Microsoft no [SharePoint,](https://sharepoint.com/) [Office](https://Office.com)e [Bing.](https://bing.com) Por exemplo, você pode criar uma vertical para conteúdo relacionado ao marketing e outra para vendas, com base no tipo de informação que cada grupo precisa. Você pode adicionar verticais para mostrar resultados somente de conteúdo indexado por meio de conectores.  
+Você pode adicionar verticais de pesquisa relevantes à sua organização. Elas serão exibidas na página Pesquisa da Microsoft resultados em [SharePoint,](https://sharepoint.com/) [Office](https://Office.com)e [Bing](https://bing.com). Por exemplo, você pode criar uma vertical para conteúdo relacionado ao marketing e outra para vendas, com base no tipo de informação que cada grupo precisa. Você pode adicionar verticais para mostrar resultados somente de conteúdo indexado por meio de conectores.  
 
 ### <a name="multiple-connections-in-a-vertical"></a>Várias conexões em um vertical
 
@@ -53,7 +53,7 @@ Se você nomear com precisão quantos rótulos semânticos for possível, essa e
 
 Antes de iniciar, certifique-se de que o conector foi indexado. Isso pode levar até 48 horas, dependendo do tamanho do arquivo.
 
-Não é possível criar uma vertical para conteúdo que reside no [SharePoint](https://sharepoint.com/).
+Não é possível criar uma vertical para conteúdo que reside em [SharePoint](https://sharepoint.com/).
 
 Há três etapas básicas para adicionar um vertical:
 
@@ -66,19 +66,20 @@ Há três etapas básicas para adicionar um vertical:
 Depois de iniciar o assistente, você é orientado pelas etapas para definir o nome vertical, a fonte de conteúdo e o escopo do conteúdo a ser pesquisado. A vertical é criada em um estado desabilitado. Você a habilitará mais tarde.
 
 Você pode usar um conjunto limitado de [KQL (Keyword Query Language) para](/sharepoint/dev/general-development/keyword-query-language-kql-syntax-reference) restringir o escopo. Esta página lista as propriedades disponíveis. Recomendamos que você use palavras-chave de texto livre e restrições de propriedade com operadores boolianas para criar o KQL.
+O KQL também dá suporte ao uso de [variáveis de consulta](#profile-query-variables) de perfil para ajustar os resultados na vertical.
 
 ### <a name="create-a-vertical-at-the-organization-level"></a>Criar uma vertical no nível da organização
 
-Para criar a vertical na Pesquisa da Microsoft no [SharePoint](https://sharepoint.com/) home, [Office](https://office.com)ou [Bing,](https://bing.com)siga estas etapas:
+Para criar a vertical no Pesquisa da Microsoft [em](https://sharepoint.com/) [SharePoint,](https://office.com)Office , ou [Bing](https://bing.com), siga estas etapas:
 
-1. No Centro de administração do [Microsoft 365,](https://admin.microsoft.com)vá para [**Verticals**](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/verticals).
+1. No [Centro de administração do Microsoft 365,](https://admin.microsoft.com)vá para [**Verticals**](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/verticals).
 2. Selecione **Adicionar** para começar.  
 
 ### <a name="create-a-vertical-at-the-site-level"></a>Criar uma vertical no nível do site
 
-1. No site [do SharePoint](https://sharepoint.com/) onde você deseja a vertical, vá para **Configurações**.
+1. No site [SharePoint](https://sharepoint.com/) onde você deseja verticais, vá para **Configurações**.
 2. Selecione **Informações do site** e, em **seguida, Exibir todas as configurações do site**.
-3. Procure a seção **Pesquisa da Microsoft** e selecione Configurar a Pesquisa da Microsoft para este conjunto de **sites.**
+3. Procure a seção **Pesquisa da Microsoft** e selecione Configurar Pesquisa da Microsoft **para este conjunto de sites.**
 4. No painel de navegação, vá para **Experiência personalizada** e selecione a **guia Verticals.**
 5. Para adicionar um vertical, selecione **Adicionar**.
   Ou, para editar uma vertical, selecione-a na lista.
@@ -98,7 +99,7 @@ Um layout de resultado de pesquisa  padrão será mostrado para conteúdo do Con
 Você pode optar por criar seu próprio layout de resultado de pesquisa e substituir o layout padrão do resultado da pesquisa criando um **tipo de resultado**. O tipo do resultado de pesquisa é uma função que faz com que diferentes tipos de resultados de pesquisa sejam exibidos de diferentes maneiras. Ele consiste no seguinte:
 
 - **Uma ou mais condições para** comparar cada resultado de pesquisa, como a fonte de conteúdo do resultado da pesquisa.  
-- Um **layout de resultado** a ser usado para resultados de pesquisa que atendem às condições. O layout de resultados controla a forma como todos os resultados que atendem às condições aparecem e se comportam em uma página de resultados de pesquisa.
+- Um **layout de resultado** a ser usado para resultados de pesquisa que atendem às condições. O layout resultante controla a forma como todos os resultados que atendem às condições aparecem e se comportam em uma página de resultados de pesquisa.
 
 **Se o mapeamento apropriado não for feito para mostrar o layout padrão do resultado da pesquisa, você deve criar pelo menos um tipo de resultado para que os resultados seja exibidos na vertical.** Você pode criar vários tipos de resultados para cada vertical, o que permite usar layouts diferentes para diferentes tipos de resultados. Por exemplo, você pode personalizar *incidentes de* Gravidade 1 para ter cores mais proeminentes e uma fonte maior em comparação com incidentes de Gravidade *3.*
 
@@ -106,23 +107,89 @@ Depois de iniciar o assistente, você é orientado pelas etapas para definir o n
   
 ### <a name="create-a-result-type-at-the-organization-level"></a>Criar um tipo de resultado no nível da organização
 
-1. No Centro de administração do [Microsoft 365,](https://admin.microsoft.com)vá para [**Tipos de resultado.**](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/resulttypes)
+1. Na [Centro de administração do Microsoft 365,](https://admin.microsoft.com)vá para [**Tipos de resultado**](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/resulttypes).
 2. Para adicionar um **tipo de resultado,** selecione **Adicionar**. Para editar um tipo de resultado, selecione o tipo de resultado na lista relevante.
 
 ### <a name="create-a-results-type-at-the-site-level"></a>Criar um tipo de resultados no nível do site
 
-1. No site [do SharePoint](https://sharepoint.com/) onde você deseja criar o tipo de resultado, vá para **Configurações**.
+1. No site [SharePoint](https://sharepoint.com/) onde você deseja criar o tipo de resultado, vá para **Configurações**.
 2. Selecione **Informações do site** e, em **seguida, Exibir todas as configurações do site**.
-3. Procure a seção Pesquisa da Microsoft e selecione **Configurar a Pesquisa da Microsoft para este conjunto de sites.**
+3. Procure a seção Pesquisa da Microsoft e selecione Configurar Pesquisa da Microsoft **para este conjunto de sites.**
 4. No painel de navegação, vá para **Experiência personalizada** e selecione Guia **Tipo de** resultado.
 5. Para adicionar um tipo de resultado, selecione **Adicionar**.  Ou, para editar um tipo de resultado, selecione o tipo de resultado na lista.
 
 ## <a name="step-3-view-the-vertical-after-its-enabled"></a>ETAPA 3: Exibir a vertical depois de habilitada
 
-Depois de habilitar a vertical, levará algumas horas para poder exibi-la. Se você não quiser esperar depois de habilita-lo, você pode anexar **cacheClear=true** à URL no [SharePoint](https://sharepoint.com/) e [no Office](https://office.com) para exibir o vertical imediatamente. Para [Bing](https://bing.com),&**features=uncachedVerticals** para a URL vertical de Trabalho para exibir as verticais imediatamente. 
+Depois de habilitar a vertical, levará algumas horas para poder exibi-la. Se você não quiser esperar depois de habilita-lo, você pode anexar **cacheClear=true** à URL no [SharePoint](https://sharepoint.com/) e [Office](https://office.com) para exibir a vertical imediatamente. Para [Bing](https://bing.com), anexar&**features=uncachedVerticals** à URL vertical de Trabalho para exibir as verticais imediatamente.
 
 > [!NOTE]
-> As verticais adicionadas não estarão visíveis no [SharePoint](https://sharepoint.com/) e [no Office quando](https://office.com) exibidas de navegadores da Web móveis.
+> As verticais adicionadas não estarão visíveis SharePoint [e](https://sharepoint.com/) [Office](https://office.com) quando exibidas de navegadores da Web móveis.
+
+## <a name="profile-query-variables"></a>Variáveis de consulta de perfil
+
+As variáveis de consulta são usadas na seção de consulta KQL de uma vertical para fornecer dados dinâmicos como uma entrada para a consulta de uma vertical. Você pode usar as variáveis de consulta de perfil para tornar os resultados da pesquisa contextuais para o usuário in-locar. As variáveis de consulta de perfil buscam valores do perfil do usuário [de entrada.](/graph/api/resources/profile?view=graph-rest-beta)
+
+Por exemplo, se você quiser criar uma vertical "Tíquetes" onde um usuário inscreveu pode pesquisar por tíquetes de suporte atribuídos a eles, você pode especificar a seguinte consulta na seção "Consulta" durante a criação vertical na página de administração.  
+
+**AssignedTo:{Profile.accounts.userPrincipalName}**
+
+Isso restringirá os resultados da pesquisa para mostrar apenas os itens em que o destinatário é o usuário que está executando a pesquisa.
+
+[O recurso Profile](https://graph.microsoft.com/graph/api/resources/profile?view=graph-rest-beta) expõe propriedades como coleções. Por exemplo, informações relacionadas a endereços de email são expostas por meio de coleta de emails, posições de trabalho como conjunto de posições e assim por diante. Todas as propriedades disponíveis no perfil de usuário, que têm o AAD como o tipo de origem, são expostas como variáveis de consulta.
+
+Considere um usuário que tenha 3 endereços de email disponíveis no conjunto de emails, conforme mostrado abaixo.
+
+```json
+"emails": [{ 
+
+        "address": "Megan.Bowen@contoso.com",
+        "id": "xyz", 
+        "source": { 
+            "CreatedBy": "xyz", 
+            "CreatedOn": "2222", 
+            "Type": "official" 
+        },
+        "type": "main" 
+    }, { 
+        "address": "meganb@hotmail.com",
+        "id": "abc", 
+        "source": { 
+            "CreatedBy": "abc",
+            "CreatedOn": "3333", 
+            "Type": "non-official",
+        },
+        "type": "work"
+    }, { 
+        "address": "meganb@outlook.com",
+        "id": "pqr", 
+        "source": { 
+            "CreatedBy": "pqr", 
+            "CreatedOn": "4444", 
+            "Type": "personal" 
+        },
+        "type": "personal" 
+    } 
+] 
+```
+
+- A consulta **MyProperty: {Profile.emails.address}** resolverá para MyProperty: "Megan.Bowen@contoso.com".  
+
+- Se desejar resolver todos os valores do atributo address, você terá que usar a sintaxe de expansão de vários valores. A consulta **{| MyProperty:{Profile.emails.address}}** resolverá para ((MyProperty:"Megan.Bowen@contoso.com") OR (MyProperty: "meganb@hotmail.com") OR (MyProperty:"meganb@outlook.com"))  
+
+O operador "|" deve ser usado para resolver variáveis de vários valores. Para obter mais exemplos de expansão de perfil, consulte a tabela abaixo.
+
+| #         | Sintaxe |  Valor retornado  |
+| --------- | ------ | --- |
+| 1    | MyProperty:{Profile.emails.address}  |   "Megan.Bowen@contoso.com"  |
+| 2 | MyProperty:{Profile.emails}   |    {Profile.emails} Isso não será resolvido porque os emails são um objeto.|
+| 3    | {? MyProperty:{Profile.emails}}  |  Isso não será resolvido porque os emails são um objeto. O "?" o operador ignora as variáveis de consulta que não são resolvidas. Essa variável será removida quando passada para baixo na pilha de consulta.   |
+| 4  | {&#124;MyProperty: {Profile.emails.source.Type}}    |  ((MyProperty:"official") OR (MyProperty:"non-official") OR (MyProperty:"personal"))    |
+
+> [!NOTE]
+>
+> - As variáveis de consulta de perfil só têm suporte para verticais personalizadas usando [um conector](connectors-overview.md) como fonte de conteúdo.
+> - As variáveis de consulta de perfil são definidas na seção "Consulta" do [processo de configuração vertical](customize-search-page.md#step-1-create-the-search-vertical).
+> - As variáveis de consulta de perfil estão atualmente em visualização. Para obter mais informações sobre visualização, consulte [Conectores recursos de visualização](connectors-overview.md#what-are-the-preview-features).
 
 ## <a name="troubleshooting"></a>Solução de problemas
 
