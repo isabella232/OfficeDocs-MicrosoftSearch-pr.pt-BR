@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Configurar o conector Enterprise de sites Graph para Pesquisa da Microsoft
-ms.openlocfilehash: f986736218768b4979e6e8aa474081c6aa87cb75
-ms.sourcegitcommit: 56e6c0706067e383d826ec97feb80f0742a726e0
+ms.openlocfilehash: 32e38c9bef036556dae2734e23b1d26ba4fe2c27
+ms.sourcegitcommit: 38a0f09596c2bca0e12bf4cada7b4c64fd4c48e4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/14/2021
-ms.locfileid: "53419887"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53449039"
 ---
 <!---Previous ms.author: monaray --->
 
@@ -31,7 +31,7 @@ O Enterprise de sites Graph permite que sua organização indexe artigos e **con
 > [!NOTE]
 > Leia o [**artigo Configurar seu Graph conector para**](configure-connector.md) entender as instruções gerais Graph configuração de conectores.
 
-Este artigo é para qualquer pessoa que configure, executa e monitore um conector Enterprise sites. Ele complementa o processo de instalação geral e mostra instruções que se aplicam somente ao conector Enterprise de sites. Este artigo também inclui informações sobre Solução de [Problemas](#troubleshooting) e [Limitações.](#limitations)
+Este artigo é para qualquer pessoa que configure, executa e monitore um conector Enterprise sites. Ele complementa o processo de instalação geral e mostra instruções que se aplicam somente ao conector Enterprise de sites. Este artigo também inclui informações sobre Solução [de Problemas](#troubleshooting).
 
 <!---## Before you get started-->
 
@@ -59,8 +59,21 @@ Use o campo URL para especificar a raiz do site que você gostaria de rastrear. 
 
 Quando selecionado, o conector rastreará apenas as URLs listadas no sitemap. Se não for selecionado ou nenhum mapa de site for encontrado, o conector fará um rastreamento profundo de todos os links encontrados na URL raiz do site.
 
+### <a name="dynamic-site-configuration"></a>Configuração dinâmica do site
+
+Se seu site contiver conteúdo dinâmico, por exemplo, páginas da Web que vivem em sistemas de gerenciamento de conteúdo como Confluência ou Unily, você pode habilitar um rastreador dinâmico. Para ative-lo, selecione **Habilitar rastreamento para sites dinâmicos.** O rastreador aguardará a renderização do conteúdo dinâmico antes de começar a rastrear.
+
 > [!div class="mx-imgBorder"]
-> ![Captura de tela do painel Configurações conexão para Enterprise Web](media/enterprise-web-connector/connectors-enterpriseweb-connectionsettings-with-sitemap.png)
+> ![Captura de tela do painel Configurações conexão para Enterprise Web](media/enterprise-web-connector/connectors-enterpriseweb-connectionsettings-dynamicconfig-small.png)
+
+Além da caixa de seleção, há três campos opcionais disponíveis:
+
+1. **DOM Pronto**: insira o elemento DOM que o rastreador deve usar como o sinal de que o conteúdo está totalmente renderizado e o rastreamento deve começar.
+1. **Cabeçalhos a adicionar:** especifique quais cabeçalhos HTTP o rastreador deve incluir ao enviar essa URL da Web específica. Você pode definir vários headers para sites diferentes. Sugerimos incluir valores de token de auth.
+1. **Headers to Skip**: Especifique quaisquer headers desnecessários que devem ser excluídos das solicitações dinâmicas de rastreamento.
+
+> [!NOTE]
+> O rastreamento dinâmico só é suportado para o modo de rastreamento do Agente.
 
 ### <a name="crawl-mode-cloud-or-on-premises"></a>Modo de rastreamento: nuvem ou local
 
@@ -136,7 +149,3 @@ Ao ler o conteúdo do site, o rastreamento pode encontrar alguns erros de origem
 
 * Os erros 6001-6013 ocorrem quando a fonte de dados não pode ser alcançada devido a um problema de rede ou quando a própria fonte de dados é excluída, movida ou renomeada. Verifique se os detalhes da fonte de dados fornecidos ainda são válidos.
 * Os erros 6021-6024 ocorrem quando a fonte de dados contém conteúdo não textual na página ou quando a página não é um HTML. Verifique a fonte de dados e adicione esta página na lista de exclusão ou ignore o erro.
-
-## <a name="limitations"></a>Limitações
-
-O Enterprise de sites não dá suporte à pesquisa de dados em **páginas dinâmicas da Web.** Exemplos dessas páginas da Web vivem em sistemas de gerenciamento de conteúdo, como [Confluência](https://www.atlassian.com/software/confluence) e [Unily](https://www.unily.com/) ou bancos de dados que armazenam conteúdo do site.
