@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Adicionar verticais de pesquisa e personalizar resultados de pesquisa
-ms.openlocfilehash: 6b6f0593a668e9c2c5c7fc5a62f7b5dd4a43a8bb
-ms.sourcegitcommit: ea6905626de67090141039565282e4e0c53b43ac
+ms.openlocfilehash: 4dd3f08f6d7e3df0aa983684eb0d4f649bc409a1
+ms.sourcegitcommit: 1e766e1f549c46882f47df6679f5a3cdf48d70d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "53314015"
+ms.lasthandoff: 07/16/2021
+ms.locfileid: "53463222"
 ---
 # <a name="customize-the-search-results-page"></a>Personalizar a página de resultados da pesquisa
 
@@ -135,7 +135,7 @@ Por exemplo, se você quiser criar uma vertical "Tíquetes" onde um usuário ins
 
 Isso restringirá os resultados da pesquisa para mostrar apenas os itens em que o destinatário é o usuário que está executando a pesquisa.
 
-[O recurso Profile](https://graph.microsoft.com/graph/api/resources/profile?view=graph-rest-beta) expõe propriedades como coleções. Por exemplo, informações relacionadas a endereços de email são expostas por meio de coleta de emails, posições de trabalho como conjunto de posições e assim por diante. Todas as propriedades disponíveis no perfil de usuário, que têm o AAD como o tipo de origem, são expostas como variáveis de consulta.
+[O recurso Profile](/graph/api/resources/profile?view=graph-rest-beta) expõe propriedades como coleções. Por exemplo, informações relacionadas a endereços de email são expostas por meio de coleta de emails, posições de trabalho como conjunto de posições e assim por diante. Todas as propriedades disponíveis no perfil de usuário, que têm o AAD como o tipo de origem, são expostas como variáveis de consulta.
 
 Considere um usuário que tenha 3 endereços de email disponíveis no conjunto de emails, conforme mostrado abaixo.
 
