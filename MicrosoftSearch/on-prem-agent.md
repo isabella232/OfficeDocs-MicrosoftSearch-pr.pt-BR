@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 ROBOTS: NoIndex
 description: Agente in-prem
-ms.openlocfilehash: d6dabbbb5ee34acedd92166564f560bbc64c7da7
-ms.sourcegitcommit: 93fc70f0073ab45b4dbd702441ac2fc07a7668bc
+ms.openlocfilehash: cfd02fa4ef05ae35738742d9a5d3194d6181ff05
+ms.sourcegitcommit: 0e26abf728cc8df91a85bb22f21426612cf0d57d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/01/2021
-ms.locfileid: "53230921"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53565218"
 ---
 # <a name="microsoft-graph-connector-agent"></a>Agente Graph conector da Microsoft
 
@@ -91,8 +91,8 @@ Os detalhes da autenticação podem ser fornecidos usando um segredo do cliente 
 Há três etapas simples para usar a autenticação baseada em certificado:
 
 1. Criar ou obter um certificado
-1. Upload certificado para o portal do Azure
-1. Atribuir o certificado ao agente
+2. Upload certificado para o portal do Azure
+3. Atribuir o certificado ao agente
 
 ##### <a name="step-1-get-a-certificate"></a>Etapa 1: Obter um certificado
 
@@ -118,9 +118,9 @@ Export-PfxCertificate -Cert $certificatePath -FilePath ($filePath + '.pfx') -Pas
 
 1. Abra o aplicativo e navegue até a seção certificados e segredos do painel esquerdo.
 
-1. Selecione **Upload certificado e** carregue o arquivo .cer.
+2. Selecione **Upload certificado e** carregue o arquivo .cer.
 
-1. Abra **o registro do** aplicativo e selecione **Certificados e** segredos do painel de navegação. Copie a impressão digital do certificado.
+3. Abra **o registro do** aplicativo e selecione **Certificados e** segredos do painel de navegação. Copie a impressão digital do certificado.
 
 :::image type="content" alt-text="Lista de certificados de miniatura quando Certificados e segredos são selecionados no painel esquerdo" source="media/onprem-agent/certificates.png" lightbox="media/onprem-agent/certificates.png":::
 
@@ -130,20 +130,33 @@ Se você usou o script de exemplo para gerar um certificado, o arquivo PFX pode 
 
 1. Baixe o arquivo pfx de certificado para o computador agente.
 
-1. Clique duas vezes no arquivo pfx para iniciar a caixa de diálogo de instalação do certificado.
+2. Clique duas vezes no arquivo pfx para iniciar a caixa de diálogo de instalação do certificado.
 
-1. Selecione **Máquina Local para** o local do armazenamento durante a instalação do certificado.
+3. Selecione **Máquina Local para** o local do armazenamento durante a instalação do certificado.
 
-1. Depois de instalar o certificado, abra **Gerenciar certificados de computador** por meio menu Iniciar.
+4. Depois de instalar o certificado, abra **Gerenciar certificados de computador** por meio menu Iniciar.
 
-1. Selecione o certificado recém-instalado em   >  **Certificados Pessoais.**
+5. Selecione o certificado recém-instalado em   >  **Certificados Pessoais.**
 
-1. Clique com o botão direito do mouse no certificado e selecione **Todas as Tarefas** Gerenciar Chaves  >  **Privadas** Opção.
+6. Clique com o botão direito do mouse no certificado e selecione **Todas as Tarefas** Gerenciar Chaves  >  **Privadas** Opção.
 
-1. Na caixa de diálogo permissões, selecione adicionar opção. Na caixa de diálogo seleção do usuário, escreva: **NT Service\GcaHostService** e clique em **OK**. Não clique no botão Verificar **Nomes.**
+7. Na caixa de diálogo permissões, selecione adicionar opção. Na caixa de diálogo seleção do usuário, escreva: **NT Service\GcaHostService** e clique em **OK**. Não clique no botão Verificar **Nomes.**
 
-1. Clique em ok na caixa de diálogo permissões. O computador agente agora está configurado para que o agente gere tokens usando o certificado.
+8. Clique em ok na caixa de diálogo permissões. O computador agente agora está configurado para que o agente gere tokens usando o certificado.
 
-## <a name="troubleshooting"></a>Solução de Problemas
+## <a name="troubleshooting"></a>Solução de problemas
 
-1. Se uma conexão falhar com o erro "1011: o agente do conector do Graph não está acessível ou offline.", faça logon no computador onde o agente está instalado e inicie o aplicativo de agente se ainda não estiver em execução. Se a conexão continuar falhando, verifique se o certificado ou o segredo do cliente fornecido ao agente durante o registro não expirou e tem permissões necessárias.
+### <a name="installation-failure"></a>Falha na instalação
+Se a instalação falhar, verifique os logs de instalação executando: msiexec /i " <path to msi>\GcaInstaller.msi" /L*V " <destination path> \install.log". Se os erros não são resolvêveis, alcance o suporte no MicrosoftGraphConnectorsFeedback@service.microsoft.com com os logs.
+
+### <a name="registration-failure"></a>Falha no registro
+
+Se entrar no aplicativo de configuração falhar com o erro "Falha ao entrar. Clique no botão Entrar para tentar novamente." mesmo após a autenticação do navegador ter êxito, abra services.msc e verifique se O GcaHostService está em execução. Se não estiver, inicie-o manualmente.
+
+Se o serviço falhar ao iniciar com o erro "O serviço não começou devido a uma falha de logon", verifique se a conta virtual NT Service\GcaHostService tem permissão para fazer logon como um serviço no computador. Verifique [este link para](https://docs.microsoft.com/windows/security/threat-protection/security-policy-settings/log-on-as-a-service) obter instruções. Se a opção para adicionar usuário ou grupo estiver acinzenada na Atribuição de Direitos do Usuário\Políticas Locais, isso significa que o usuário que está tentando adicionar essa conta não tem privilégios de administrador neste computador ou que há uma política de grupo substituindo isso. A política de grupo precisa ser atualizada para permitir que o serviço host seja logon como um serviço.
+
+### <a name="connection-failure"></a>Falha na conexão
+
+Se a ação 'Testar conexão' falhar ao criar conexão com o erro "Verifique nome de usuário/senha e o caminho do datasource" mesmo quando o nome de usuário e a senha fornecidos estão corretos, verifique se a conta de usuário tem direitos de logon interativos para o computador onde o agente do conector do Graph está instalado. Consulte a documentação sobre [o gerenciamento de política de logon](https://docs.microsoft.com/windows/security/threat-protection/security-policy-settings/allow-log-on-locally#policy-management) para verificar os direitos de logon. Verifique também se a fonte de dados e o computador agente estão na mesma rede.
+
+Se uma conexão falhar com o erro "1011: o agente do conector do Graph não está acessível ou offline.", faça logon no computador onde o agente está instalado e inicie o aplicativo de agente se ainda não estiver em execução. Se a conexão continuar falhando, verifique se o certificado ou o segredo do cliente fornecido ao agente durante o registro não expirou e tem permissões necessárias.

@@ -18,8 +18,8 @@
 ### Configurar conectores da Microsoft
 #### [Visão geral da configuração](configure-connector.md)
 #### [Configurar o agente de conector gráfico](on-prem-agent.md)
-#### [Mapear as Identidades que não do Azure AD (visualização)](map-non-aad.md)
-#### [Mapear as Identidades do Azure AD (visualização)](map-aad.md)
+#### [Mapa de Identidades não-Microsoft Azure Active Directory](map-non-aad.md)
+#### [Mapa de Identidades Microsoft Azure Active Directory](map-aad.md)
 #### Informações específicas do conector
 ##### [Azure Data Lake Storage Gen2](azure-data-lake-connector.md)
 ##### [Azure DevOps (visualização)](azure-devops-connector.md)
@@ -28,7 +28,7 @@
 ##### [Compartilhamento de arquivos](fileshare-connector.md)
 ##### [MediaWiki](mediawiki-connector.md)
 ##### [Oracle SQL](OracleSQL-connector.md)
-##### [Salesforce (visualização)](salesforce-connector.md)
+##### [Salesforce](salesforce-connector.md)
 ##### [ServiceNow](servicenow-connector.md)
 ### Gerenciar conexões
 #### [Monitorar conexões](manage-connector.md)

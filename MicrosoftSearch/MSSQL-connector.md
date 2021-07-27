@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Configurar o conector do Azure SQL microsoft SQL Graph para Pesquisa da Microsoft.
-ms.openlocfilehash: 0f8501e36754235b43846b80d60d4b0156a504b9
-ms.sourcegitcommit: 93fc70f0073ab45b4dbd702441ac2fc07a7668bc
+ms.openlocfilehash: ae17b99fa0b83b38c8681652af0fdfdb32969f28
+ms.sourcegitcommit: 9cfe9b7f6d4ddf783ee31a6d2a02a73f0c0aef79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/01/2021
-ms.locfileid: "53230912"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53590257"
 ---
 <!---Previous ms.author: vivg --->
 
@@ -36,7 +36,10 @@ Este artigo é para qualquer pessoa que configure, executa e monitore um conecto
 
 ### <a name="install-the-graph-connector-agent-required-for-on-premises-microsoft-sql-server-connector-only"></a>Instale o Graph conector (necessário apenas para o conector Microsoft SQL Server local)
 
-Para acessar seus dados de terceiros locais, você deve instalar e configurar o Graph conector. Consulte [Instalar o Graph conector de dados](on-prem-agent.md) para saber mais.  
+Para acessar seus dados de terceiros locais, você deve instalar e configurar o Graph conector. Consulte [Instalar o Graph conector de dados](on-prem-agent.md) para saber mais.
+
+>[!NOTE]
+>Se você usar Windows autenticação durante a configuração do conector Microsoft SQL Server Graph, o usuário com o qual você está tentando entrar precisa ter direitos de logon interativos para o computador onde o Graph conector está instalado. Consulte a documentação sobre [o gerenciamento de política de logon](/windows/security/threat-protection/security-policy-settings/allow-log-on-locally#policy-management) para verificar os direitos de logon.
 
 ## <a name="step-1-add-a-graph-connector-in-the-microsoft-365-admin-center"></a>Etapa 1: adicionar um conector Graph no Centro de administração do Microsoft 365
 
@@ -207,7 +210,7 @@ Create your own verticals and result types, so end users can view search results
 
 To learn more about how to create your verticals and MRTs, see [Search results page customization](customize-search-page.md).-->
 
-## <a name="troubleshooting"></a>Solução de Problemas
+## <a name="troubleshooting"></a>Solução de problemas
 
 A seguir, um erro comum observado durante a configuração do conector e seu possível motivo.
 
@@ -220,7 +223,6 @@ A seguir, um erro comum observado durante a configuração do conector e seu pos
 Os SQL conectores têm essas limitações na versão de visualização:
 
 - Microsoft SQL Server conector: o banco de dados local deve ser executado SQL Server versão 2008 ou posterior.
-
 - A assinatura Microsoft 365 assinatura do Azure (hospedando o banco de dados do Azure SQL) deve estar no mesmo Azure Active Directory.
 - As ACLs só têm suporte usando um Nome de Entidade de Usuário (UPN), Azure Active Directory (Azure AD) ou Segurança do Active Directory.
 - Não há suporte para indexação de conteúdo rico dentro de colunas de banco de dados. Exemplos desse conteúdo são HTML, JSON, XML, blobs e análises de documentos que existem como links dentro das colunas de banco de dados.

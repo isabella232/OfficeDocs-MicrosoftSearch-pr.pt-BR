@@ -13,18 +13,18 @@ search.appverid:
 - MET150
 - MOE150
 description: Configurar o conector Graph Salesforce para Pesquisa da Microsoft
-ms.openlocfilehash: 4bef771538934722deaa5deac3959f21246e4529
-ms.sourcegitcommit: 93fc70f0073ab45b4dbd702441ac2fc07a7668bc
+ms.openlocfilehash: b0b3ba0e41c0e28cac15f4fed491ac8507aa0e59
+ms.sourcegitcommit: 8270e4271b1eeb57b988ea5265e5b6d9d6ef64a6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/01/2021
-ms.locfileid: "53230930"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53529368"
 ---
 <!---Previous ms.author: rusamai --->
 
-# <a name="salesforce-graph-connector-preview"></a>Conector Graph Salesforce (visualização)
+# <a name="salesforce-graph-connector"></a>Conector Graph Salesforce
 
-O conector Graph Salesforce permite que sua organização indexe objetos Contatos, Oportunidades, Leads e Contas em sua instância do Salesforce. Depois de configurar o conector e o conteúdo de índice do Salesforce, os usuários finais podem pesquisar esses itens de qualquer Pesquisa da Microsoft cliente.
+O conector Graph Salesforce permite que sua organização indexe os objetos Contatos, Oportunidades, Leads, Casos e Contas em sua instância do Salesforce. Depois de configurar o conector e o conteúdo de índice do Salesforce, os usuários finais podem pesquisar esses itens de qualquer Pesquisa da Microsoft cliente.
 
 > [!NOTE]
 > Leia o [**artigo Instalação do conector Graph para**](configure-connector.md) entender as instruções gerais Graph configuração de conectores.
@@ -105,13 +105,20 @@ Na primeira vez que você tentar entrar com essas configurações, você obterá
 Verifique se a conexão foi bem-sucedida pesquisando uma faixa verde que diz "Conexão bem-sucedida" como mostra a captura de tela abaixo.
 
   > [!div class="mx-imgBorder"]
-  > ![Captura de tela de logon bem-sucedido. A faixa verde que diz "Conexão bem-sucedida" está localizada no campo para a URL da instância do Salesforce](media/salesforce-connector/sf5.png)
+  > ![Captura de tela de logon bem-sucedido. A faixa verde que diz "Conexão bem-sucedida" está localizada no campo para a URL da instância do Salesforce](media/salesforce-connector/salesforce-connector-connection-settings.png)
 
-## <a name="step-4-manage-search-permissions"></a>Etapa 4: Gerenciar permissões de pesquisa
+## <a name="step-4-select-properties"></a>Etapa 4: Selecionar propriedades
+
+Selecione os objetos Salesforce que você deseja que o conector pesquise e inclua nos resultados da pesquisa. Se o Contato estiver selecionado, Account também será selecionado automaticamente.
+
+>[!NOTE]
+>Se um campo tiver fls (segurança de nível de campo) definido para um perfil, o conector não ingerirá esse campo para nenhum perfil nessa organização do Salesforce. Como resultado, os usuários não poderão pesquisar os valores desses campos, nem aparecerão nos resultados.
+
+## <a name="step-5-manage-search-permissions"></a>Etapa 5: Gerenciar permissões de pesquisa
 
 Você precisará escolher quais usuários verão os resultados da pesquisa nesta fonte de dados. Se você permitir que Azure Active Directory apenas determinados usuários do Azure AD (Azure AD) ou não do Azure AD vejam os resultados da pesquisa, certifique-se de mapear as identidades.
 
-### <a name="step-4a-select-permissions"></a>Etapa 4.a: Selecionar permissões
+### <a name="step-5a-select-permissions"></a>Etapa 5.a: Selecionar permissões
 
 Você pode optar por ingerir listas de controle de acesso (ACLs) de sua instância do Salesforce ou permitir que todos em sua organização vejam os resultados da pesquisa a partir dessa fonte de dados. As ACLs podem incluir Azure Active Directory identidades (AAD) (usuários federados do Azure AD para o Salesforce), identidades não-Azure AD (usuários nativos do Salesforce que têm identidades correspondentes no Azure AD) ou ambos.
 
@@ -123,7 +130,7 @@ Você pode optar por ingerir listas de controle de acesso (ACLs) de sua instânc
 
 Se você optou por ingerir um ACL da sua instância do Salesforce e selecionou "não-AAD" para o tipo de identidade, consulte Mapear suas Identidades [não-Azure AD](map-non-aad.md) para obter instruções sobre como mapear as identidades.
 
-### <a name="step-4b-map-aad-identities"></a>Etapa 4.b: Mapear identidades do AAD
+### <a name="step-5b-map-aad-identities"></a>Etapa 5.b: Mapear identidades do AAD
 
 Se você optou por ingerir um ACL da sua instância do Salesforce e selecionou "AAD" para o tipo de identidade, consulte Mapear suas Identidades do [Azure AD](map-aad.md) para obter instruções sobre como mapear as identidades. Para saber como configurar o SSO do Azure AD para Salesforce, consulte este [tutorial](/azure/active-directory/saas-apps/salesforce-tutorial).
 
@@ -133,11 +140,11 @@ Neste vídeo, você pode ver o processo de autenticação à sua instância do S
 
 > [!VIDEO https://www.youtube-nocookie.com/embed/SZYiFxZMKcM]
 
-## <a name="step-5-assign-property-labels"></a>Etapa 5: Atribuir rótulos de propriedade
+## <a name="step-6-assign-property-labels"></a>Etapa 6: Atribuir rótulos de propriedade
 
 Você pode atribuir uma propriedade de origem a cada rótulo escolhendo a partir de um menu de opções. Embora essa etapa não seja obrigatória, ter alguns rótulos de propriedade melhorará a relevância da pesquisa e garantirá melhores resultados de pesquisa para usuários finais. Por padrão, algumas das propriedades de origem "Title", "URL", "CreatedBy" e "LastModifiedBy" já foram atribuídas.
 
-## <a name="step-6-manage-schema"></a>Etapa 6: Gerenciar esquema
+## <a name="step-7-manage-schema"></a>Etapa 7: Gerenciar esquema
 
 Você pode selecionar quais propriedades de origem devem ser indexadas para que elas sejam acionadas nos resultados da pesquisa. O assistente de conexão por padrão seleciona um esquema de pesquisa com base em um conjunto de propriedades de origem. Você pode modificá-lo selecionando as caixas de seleção para cada propriedade e atributo na página esquema de pesquisa. Os atributos de esquema de pesquisa incluem Pesquisa, Consulta, Recuperação e Refinamento.
 Refinar permite definir as propriedades que podem ser usadas posteriormente como refinadores ou filtros personalizados na experiência de pesquisa.  
@@ -145,7 +152,7 @@ Refinar permite definir as propriedades que podem ser usadas posteriormente como
 > [!div class="mx-imgBorder"]
 > ![Selecione o esquema para cada propriedade de origem. As opções são Consulta, Pesquisa, Recuperação e Refine](media/salesforce-connector/sf9.png)
 
-## <a name="step-7-set-the-refresh-schedule"></a>Etapa 7: Definir o cronograma de atualização
+## <a name="step-8-set-the-refresh-schedule"></a>Etapa 8: Definir o cronograma de atualização
 
 O conector do Salesforce dá suporte apenas a agendas de atualização para rastreamentos completos no momento.
 
@@ -154,9 +161,15 @@ O conector do Salesforce dá suporte apenas a agendas de atualização para rast
 
 A agenda recomendada é de uma semana para um rastreamento completo.
 
-## <a name="step-8-review-connection"></a>Etapa 8: Revisar conexão
+## <a name="step-9-review-connection"></a>Etapa 9: Analisar conexão
 
 Siga as instruções [gerais de instalação](./configure-connector.md).
+
+>[!TIP]
+>**Tipo de resultado padrão**
+>* O conector salesforce registra automaticamente um [tipo de resultado](./customize-search-page.md#step-2-create-the-result-types) depois que o conector é publicado. O tipo de resultado usa um layout de [resultado](./customize-results-layout.md) gerado dinamicamente com base nos campos selecionados na etapa 3.
+>* Você pode gerenciar o tipo de resultado navegando até [**Tipos de**](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/resulttypes) resultado no [Centro de administração do Microsoft 365](https://admin.microsoft.com). O tipo de resultado padrão será nomeado como " `ConnectionId` Padrão". Por exemplo, se sua id de conexão for `Salesforce` , seu layout de resultado será nomeado: "SalesforceDefault"
+>* Além disso, você pode optar por criar seu próprio tipo de resultado, se necessário.
 <!---If the above phrase does not apply, delete it and insert specific details for your data source that are different from general setup instructions.-->
 
 <!---## Troubleshooting-->
