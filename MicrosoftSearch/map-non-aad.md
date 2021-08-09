@@ -1,5 +1,5 @@
 ---
-title: Mapeando identidades não-AAD
+title: Mapeamento de identidades não AAD
 ms.author: monaray
 author: monaray97
 manager: jameslau
@@ -11,83 +11,83 @@ search.appverid:
 - BFB160
 - MET150
 - MOE150
-description: Etapas sobre como mapear identidades não-AAD
-ms.openlocfilehash: cd7d0eb17678d69ec1966e4472b38c1f18c30809
-ms.sourcegitcommit: 59cdd3f0f82b7918399bf44d27d9891076090f4f
+description: Etapas sobre como mapear identidades não AAD
+ms.openlocfilehash: 48f462318b005f426cd2e0ee3ade0ee895b1c38b36ccf53faf5631a5c002c3d6
+ms.sourcegitcommit: 71ac2a38971ca4452d1bddfc773ff8f45e1ffd77
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "49367654"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54533559"
 ---
-# <a name="map-your-non-azure-ad-identities"></a>Mapear suas identidades não pertencentes ao Azure AD  
+# <a name="map-your-non-azure-ad-identities"></a>Mapear suas identidades que não são do Azure AD  
 
-Este artigo apresenta as etapas de mapeamento de suas identidades não do Azure AD para suas identidades do Azure AD para que as pessoas na sua lista de controle de acesso (ACL) com identidades não Azure AD possam ver os resultados de pesquisa do conector com o escopo.
+Este artigo orienta você pelas etapas de mapeamento de suas identidades não Azure AD para suas identidades do Azure AD para que as pessoas em sua Lista de Controle de Acesso (ACL) com identidades que não são do Azure AD possam ver os resultados da pesquisa do conector com escopo para elas.
 
-Essas etapas só são relevantes para os administradores de pesquisa que estão Configurando os conectores do [ServiceNow](servicenow-connector.md) ou do [Salesforce](salesforce-connector.md) pela Microsoft com permissões de pesquisa para "apenas pessoas com acesso a esta fonte de dados" e tipo de identidade "não AAD".
+Essas etapas são relevantes apenas para administradores de pesquisa que estão configurando um [conector serviceNow](servicenow-connector.md) ou [Salesforce](salesforce-connector.md) pela Microsoft com permissões de pesquisa para "Somente pessoas com acesso a essa fonte de dados" e tipo de identidade "Não-AAD".
 
 >[!NOTE]
->Se você estiver configurando um conector do Salesforce e selecionar **apenas pessoas com acesso a essa fonte de dados** e tipo de identidade do **AAD** na tela de permissões de pesquisa, consulte o artigo [map your Azure ad Identities](map-aad.md) para obter etapas sobre como mapear identidades do Azure AD.  
+>Se você estiver configurando um  conector do Salesforce e selecionar Somente pessoas com acesso a essa fonte de dados e tipo de identidade **AAD** na tela de permissões de pesquisa, consulte o artigo Mapear suas Identidades do [Azure AD](map-aad.md) para ver as etapas sobre como mapear identidades do Azure AD.  
 
-## <a name="steps-for-mapping-your-non-azure-ad-properties"></a>Etapas para mapeamento de suas propriedades não do Azure AD
+## <a name="steps-for-mapping-your-non-azure-ad-properties"></a>Etapas para mapear suas propriedades que não são do Azure AD
 
 ### <a name="1-select-an-azure-ad-user-property"></a>1. Selecione uma propriedade de usuário do Azure AD  
 
-Você pode selecionar a propriedade de usuário do Azure AD para a qual você está criando o mapeamento. Esta é a propriedade de destino para a qual você deseja mapear suas identidades não do Azure AD.  
+Você pode selecionar a propriedade de usuário do Azure AD para a que você está criando o mapeamento. Esta é a propriedade de destino que você está visando mapear suas identidades não-Azure AD.  
 
 Você pode selecionar uma das seguintes propriedades do Azure AD:
 
 | Propriedade do Azure AD    | Definição           | Exemplo         |
 | :------------------- | :------------------- |:--------------- |
-| Nome UPN  | Um UPN consiste em um prefixo UPN (o nome da conta de usuário) e um sufixo UPN (um nome de domínio DNS). O prefixo é Unido ao sufixo usando o símbolo "@". | us1@contoso.onmicrosoft.com |
-| ID do Azure AD                 | Uma ID do Azure AD para um determinado usuário é o único GUID do usuário.                 | 58006c96-9e6e-45ea-8c88-4a56851eefad            |
-| IDENTIFICAÇÃO de segurança (SID) do Active Directory                  | SID (identificador de segurança) é um identificador exclusivo que o Active Directory usa para identificar objetos como entidade de segurança.                  | S-1-5-21-453406510-812318184-4183662089             |
+| Nome UPN  | Um UPN consiste em um prefixo UPN (o nome da conta de usuário) e um sufixo UPN (um nome de domínio DNS). O prefixo é ingressado com o sufixo usando o símbolo "@". | us1@contoso.onmicrosoft.com |
+| Azure AD ID                 | Uma ID do Azure AD para um determinado usuário é o GUID exclusivo do usuário.                 | 58006c96-9e6e-45ea-8c88-4a56851eefad            |
+| ID de Segurança do Active Directory (SID)                  | SID (Identificador de Segurança) é um identificador exclusivo que o Active Directory usa para identificar objetos como entidades de segurança.                  | S-1-5-21-453406510-812318184-4183662089             |
 
-### <a name="2-select-non-azure-ad-user-properties-to-map"></a>2. selecione Propriedades de usuário não do Azure AD para mapear
+### <a name="2-select-non-azure-ad-user-properties-to-map"></a>2. Selecione propriedades de usuário que não são do Azure AD para mapear
 
-Você pode selecionar as propriedades não do Azure AD obtidas da fonte de dados para aplicar as expressões regulares. Para saber mais sobre onde encontrar essas propriedades na sua fonte de dados, consulte as páginas do [ServiceNow](servicenow-connector.md) e do [Salesforce](salesforce-connector.md) .  
+Você pode selecionar propriedades que não são do Azure AD retiradas de sua fonte de dados para aplicar expressões regulares. Para saber mais sobre onde encontrar essas propriedades em sua fonte de dados, consulte as [páginas ServiceNow](servicenow-connector.md) e [Salesforce.](salesforce-connector.md)  
 
-Você pode selecionar uma propriedade de usuário não do Azure AD na lista suspensa e fornecer uma expressão regular a ser aplicada nesses valores de Propriedade do usuário. Para saber mais sobre expressões regulares, confira [referência de expressões regulares]( https://docs.microsoft.com/dotnet/standard/base-types/regular-expression-language-quick-reference).  
+Você pode selecionar uma propriedade de usuário que não seja do Azure AD no menu suspenso e fornecer uma expressão regular a ser aplicada a esses valores de propriedade do usuário. Para saber mais sobre expressões regulares, consulte [referência de expressão regular]( https://docs.microsoft.com/dotnet/standard/base-types/regular-expression-language-quick-reference).  
 
-Veja a seguir alguns exemplos de expressões regulares e suas saídas aplicadas a uma cadeia de caracteres de amostra: 
+A seguir estão alguns exemplos de expressões regulares e suas saídas aplicadas a uma cadeia de caracteres de exemplo: 
 
-| Cadeia de caracteres de amostra                  | Expressão regular                 | Saída da expressão regular na cadeia de caracteres de amostra           |
+| Cadeia de caracteres de exemplo                  | Expressão regular                 | Saída de expressão regular na cadeia de caracteres de exemplo           |
 | :------------------- | :------------------- |:---------------|
-| Alexis Vasquez  | .* | Alexis Vasquez |
-| Alexis Vasquez                 | ..$                 | ez            |
-| Alexis Vasquez                  | (\w +) $                  | Vasquez             |
+| Alexia Vasquez  | .* | Alexia Vasquez |
+| Alexia Vasquez                 | ..$                 | ez            |
+| Alexia Vasquez                  | (\w+)$                  | Vasquez             |
 
-Você pode adicionar quantas Propriedades de usuário não pertencente ao Azure você quiser as expressões. Você pode aplicar diferentes expressões regulares à mesma propriedade de usuário se sua fórmula final garantir isso.  
+Você pode adicionar quantas propriedades de usuário que não são do Azure AD como você gostaria de expressões. Você pode aplicar expressões regulares diferentes à mesma propriedade do usuário se a fórmula final o justificar.  
 
-### <a name="3-create-formula-to-complete-mapping"></a>3. criar fórmula para concluir o mapeamento
+### <a name="3-create-formula-to-complete-mapping"></a>3. Criar fórmula para concluir o mapeamento
 
-Você pode combinar as saídas de expressões regulares aplicadas a cada uma das suas propriedades de usuário não do Azure AD para formar a propriedade do Azure AD selecionada na etapa 1.
+Você pode combinar as saídas das expressões regulares aplicadas a cada uma das suas propriedades de usuário que não são do Azure AD para formar a propriedade do Azure AD selecionada na etapa 1.
 
-Na caixa Fórmula, " {0} " corresponde à saída da expressão regular aplicada à *primeira* propriedade não Azure AD que você selecionou. " {1} " corresponde à saída da expressão regular aplicada à *segunda* propriedade não Azure AD que você selecionou. " {2} " corresponde à saída da expressão regular aplicada à *terceira* propriedade não do Azure AD e assim por diante.  
+Na caixa de fórmula, " " corresponde à saída da expressão regular aplicada à primeira propriedade {0} não-Azure AD selecionada.  " " corresponde à saída da expressão regular aplicada à segunda propriedade {1} não-Azure AD selecionada.  " " corresponde à saída da expressão regular aplicada à terceira propriedade {2} não-Azure AD e assim por diante.   
 
-Veja a seguir alguns exemplos de fórmulas com exemplos de resultados de expressões regulares e saídas de fórmulas: 
+A seguir estão alguns exemplos de fórmulas com saídas de expressão regular de exemplo e saídas de fórmula: 
 
-| Fórmula de exemplo                  | Valor de {0} no usuário de exemplo                 | Valor de {1} no usuário de exemplo           | Saída da fórmula                  |
+| Fórmula de exemplo                  | Valor de {0} usuário de exemplo                 | Valor de {1} usuário de exemplo           | Saída da fórmula                  |
 | :------------------- | :------------------- |:---------------|:---------------|
-| {0}.{1} @contoso. com  | FirstName | LastName |firstname.lastname@contoso.com
-| {0}@domain. com                 | ID                 |             |userid@domain.com
+| {0}.{1} @contoso.com  | firstname | lastname |firstname.lastname@contoso.com
+| {0}@domain.com                 | userid                 |             |userid@domain.com
 
-Depois de fornecer sua fórmula, você pode, opcionalmente, clicar em **Visualizar** para ver uma visualização de cinco usuários aleatórios da fonte de dados com seus respectivos mapeamentos de usuários aplicados. A saída da visualização inclui o valor das propriedades de usuário não do Azure AD selecionadas na etapa 2 para esses usuários e a saída da fórmula final fornecida na etapa 3 para esse usuário. Também indica se a saída da fórmula pode ser resolvida para um usuário do Azure AD no locatário por meio de um ícone de "sucesso" ou "falha".  
+Depois de fornecer sua fórmula, você pode, opcionalmente, clicar em **Visualizar** para ver uma visualização de cinco usuários aleatórios de sua fonte de dados com seus respectivos mapeamentos de usuário aplicados. A saída da visualização inclui o valor das propriedades de usuário que não são do Azure AD selecionadas na etapa 2 para esses usuários e a saída da fórmula final fornecida na etapa 3 para esse usuário. Ele também indica se a saída da fórmula poderia ser resolvida para um usuário do Azure AD em seu locatário por meio de um ícone "Sucesso" ou "Falha".  
 
 >[!NOTE]
->Você ainda pode prosseguir com a criação de sua conexão se um ou mais mapeamentos de usuário tiverem um status de "falha" após você clicar em **Visualização**. A visualização mostra 5 usuários aleatórios e seus mapeamentos da fonte de dados. Se o mapeamento fornecido não mapear todos os usuários, você pode experimentar esse caso.
+>Você ainda pode prosseguir com a criação de sua conexão se um ou mais mapeamentos de usuário tiver um status "Falha" depois de clicar em **Visualizar**. A visualização mostra 5 usuários aleatórios e seus mapeamentos de sua fonte de dados. Se o mapeamento que você fornece não mapear todos os usuários, você poderá experimentar esse caso.
 
-## <a name="sample-non-azure-ad-mapping"></a>Exemplo de mapeamento não Azure AD
+## <a name="sample-non-azure-ad-mapping"></a>Exemplo de mapeamento do Azure AD
 
-Confira o instantâneo abaixo para obter um exemplo de mapeamento não Azure AD.
+Consulte o instantâneo abaixo para um exemplo de mapeamento que não seja do Azure AD.
 
-![Instantâneo de exemplo de como preencher a página de mapeamento não pertencente ao Azure AD](media/non-aad-mapping.png)
+![Exemplo de instantâneo de como preencher a página de mapeamento que não é do Azure AD](media/non-aad-mapping.png)
 
 ## <a name="limitations"></a>Limitações  
 
-- Só há suporte para um mapeamento para todos os usuários. Não há suporte para mapeamentos condicionais.  
+- Há suporte para apenas um mapeamento para todos os usuários. Não há suporte para mapeamentos condicionais.  
 
-- Não é possível alterar o mapeamento depois que a conexão é publicada.  
+- Não é possível alterar o mapeamento depois que a conexão for publicada.  
 
-- Atualmente, somente as expressões baseadas em Regex em relação às propriedades do usuário não AAD têm suporte para a transformação.
+- Somente expressões baseadas em regex em propriedades de usuário não AAD são suportadas atualmente para a transformação.
 
-- Há apenas 3 identidades do Azure AD que você pode escolher para mapear (UPN, ID do Azure AD e SID do AD).
+- Há apenas 3 identidades do Azure AD para as quais você pode optar por mapear (UPN, ID do Azure AD e SID do AD).

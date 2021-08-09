@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: ee40010e-5d7f-4ba8-a3f8-d240dab3af6d
 description: Saiba como configurar o Bing como o mecanismo de pesquisa padrão da sua empresa usando a Pesquisa da Microsoft.
-ms.openlocfilehash: 346bf3bf2da10178a8bd19390920db2d9de2629e
-ms.sourcegitcommit: 5df252e6d0bd67bb1b4c59418aceca8369f5fe42
+ms.openlocfilehash: 7ad9ff2a0fde5ad5d84a7a51785767fd2e5d21df6654a76b09e9796917a92a0f
+ms.sourcegitcommit: 71ac2a38971ca4452d1bddfc773ff8f45e1ffd77
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51031751"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54534174"
 ---
 # <a name="make-bing-the-default-search-engine"></a>Definir o Bing como mecanismo de pesquisa padrão
   
@@ -42,11 +42,11 @@ Cada domínio processado pelo controlador deve ter uma pasta separada. O comando
 4. Aplique o GPO resultante vinculando-o ao domínio apropriado.
 
 
-## <a name="google-chrome-on-windows-10-version-1507-or-later"></a>Google Chrome no Windows 10, Versão 1507 ou posterior
+## <a name="google-chrome-on-windows-10-version-1507-or-later"></a>Google Chrome no Windows 10, versão 1507 ou posterior
 
 Os usuários não poderão alternar o mecanismo de pesquisa padrão após a definição dessa política.
   
-O Chrome vem com seu próprio conjunto de configurações de política de grupo que podem ser baixadas na forma de um arquivo ADMX da Ajuda [do Google Chrome Enterprise.](https://support.google.com/chrome/a/answer/187202)
+O Chrome vem com seu próprio conjunto de configurações de política de grupo que podem ser baixadas na forma de um arquivo ADMX do [Google Chrome Enterprise Ajuda](https://support.google.com/chrome/a/answer/187202).
   
 Copie o arquivo de modelo para um armazenamento central para arquivos ADMX no controlador de domínio. Para obter mais informações, [consulte Editing Domain-Based GPOs Using ADMX Files](/previous-versions/windows/it-pro/windows-vista/cc748955%28v%3dws.10%29). O armazenamento central no controlador é uma pasta com a seguinte convenção de nomenização: **%systemroot%\sysvol \\<domínio \> \policies\PolicyDefinitions**
   

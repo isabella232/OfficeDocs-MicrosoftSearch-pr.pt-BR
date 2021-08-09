@@ -1,5 +1,5 @@
 ---
-title: Configurar seu conector de Graph da Microsoft para a Pesquisa da Microsoft
+title: Configure seu conector de Graph da Microsoft para Pesquisa da Microsoft
 ms.author: mecampos
 author: mecampos
 manager: umas
@@ -12,31 +12,31 @@ search.appverid:
 - BFB160
 - MET150
 - MOE150
-description: Visão geral da instalação para Graph conectores pela Microsoft
-ms.openlocfilehash: ef94d530af63d8b8b33dfae3c4b411164ef31feb
-ms.sourcegitcommit: 1b154441f3a3abba0f2719e66a767432bc9506ca
+description: Visão geral da configuração dos conectores do Graph pela Microsoft
+ms.openlocfilehash: 0c67081d3efab421b563e82dba506da85e65cb91d34b31f128f3bcff945c68a1
+ms.sourcegitcommit: 71ac2a38971ca4452d1bddfc773ff8f45e1ffd77
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/02/2021
-ms.locfileid: "52720939"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54533292"
 ---
 <!-- Previous ms.author: monaray -->
 
 <!-- markdownlint-disable no-trailing-punctuation -->
 
-# <a name="setup-overview-for-graph-connectors-by-microsoft"></a>Visão geral da instalação para Graph conectores pela Microsoft 
+# <a name="setup-overview-for-graph-connectors-by-microsoft"></a>Visão geral da configuração dos conectores do Graph pela Microsoft 
 
-Este artigo mostra o processo básico necessário para configurar os conectores Graph da **Microsoft** no Microsoft 365 [de administração.](https://admin.microsoft.com) O processo básico inclui as seguintes etapas:  
+Este artigo mostra o processo básico necessário para configurar os conectores Graph **de** Graph microsoft no [Centro de administração do Microsoft 365](https://admin.microsoft.com). O processo básico inclui as seguintes etapas:  
 <!---Add links to each section in the doc--->
 
-1. [Adicionar um Graph no centro Microsoft 365 de administração](#step-1-add-a-graph-connector-in-the-microsoft-365-admin-center)
-2. [Nomear a conexão](#step-2-name-the-connection)
-3. [Configurar as configurações de conexão](#step-3-configure-the-connection-settings)
-4. [Gerenciar permissões de pesquisa](#step-4-manage-search-permissions)
-5. [Atribuir rótulos de propriedade](#step-5-assign-property-labels)
+1. [Adicionar um conector do Graph no Centro de administração do Microsoft 365](#step-1-add-a-graph-connector-in-the-microsoft-365-admin-center)
+2. [Dar um nome à conexão](#step-2-name-the-connection)
+3. [Definir as configurações de conexão](#step-3-configure-the-connection-settings)
+4. [Gerenciar as permissões de pesquisa](#step-4-manage-search-permissions)
+5. [Atribuir os rótulos de propriedade](#step-5-assign-property-labels)
 6. [Gerenciar esquema](#step-6-manage-schema)
-7. [Configurações de atualização](#step-7-refresh-settings)
-8. [Analisar conexão](#step-8-review-connection)
+7. [Atualizar as configurações](#step-7-refresh-settings)
+8. [Analisar a conexão](#step-8-review-connection)
 
 Este artigo também inclui informações sobre solução de problemas, limitações e próximas etapas:
 
@@ -51,11 +51,11 @@ Este artigo também inclui informações sobre solução de problemas, limitaç�
 
 <!---Insert "Before you get started" recommendations for this data source-->
 
-## <a name="step-1-add-a-graph-connector-in-the-microsoft-365-admin-center"></a>Etapa 1: adicionar um conector Graph no centro de Microsoft 365 de administração
+## <a name="step-1-add-a-graph-connector-in-the-microsoft-365-admin-center"></a>Etapa 1: adicionar um conector Graph no Centro de administração do Microsoft 365
 
 Conclua as etapas a seguir para configurar qualquer um dos conectores de Graph da Microsoft:
 
-1. Entre na sua conta de administrador no Microsoft 365 [de administração.](https://admin.microsoft.com)
+1. Entre em sua conta de administrador no [Centro de administração do Microsoft 365](https://admin.microsoft.com).
 
 2. No painel de navegação, selecione **Configurações** e, em seguida, selecione **Pesquisar & inteligência**. Selecione a [guia Conectores](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/Connectors).
 
@@ -138,7 +138,7 @@ Atributo de esquema de pesquisa | Função | Exemplo
 SEARCH | Torna o conteúdo de texto de uma propriedade pesquisável. O conteúdo da propriedade está incluído no índice de texto completo. | Se a propriedade for **title**, uma consulta para Enterprise **retornará** respostas que contêm a palavra **Enterprise** em qualquer texto ou título.
 CONSULTA | Pesquisa por consulta para uma combinação de uma propriedade específica. Em seguida, o nome da propriedade pode ser especificado na consulta programaticamente ou verbatim. |  Se a **propriedade Title** puder ser consultada, a consulta **Title: Enterprise** será suportada.
 RETRIEVE | Somente propriedades recuperáveis podem ser usadas no tipo de resultado e exibidas no resultado da pesquisa. |
-REFINE | A opção refinar pode ser usada como na página de resultados da Pesquisa da Microsoft. | Os usuários em sua organização podem [filtrar](custom-filters.md) **por URL** na página de resultados da pesquisa se a propriedade refinar for marcada durante a configuração da conexão
+REFINE | A opção refinar pode ser usada como na página Pesquisa da Microsoft resultados. | Os usuários em sua organização podem [filtrar](custom-filters.md) **por URL** na página de resultados da pesquisa se a propriedade refinar for marcada durante a configuração da conexão
 
 Para todos os conectores, exceto o conector de compartilhamento de arquivos, os tipos personalizados devem ser definidos manualmente. Para ativar os recursos de pesquisa para cada campo, você precisa de um esquema de pesquisa mapeado para uma lista de propriedades. O assistente de conexão seleciona automaticamente um esquema de pesquisa com base no conjunto de propriedades de origem escolhidas. Você pode modificar esse esquema selecionando as caixas de seleção de cada propriedade e atributo na página de esquema de pesquisa.
 
@@ -160,7 +160,7 @@ Para todos os conectores, exceto o conector de compartilhamento de arquivos, os 
 
 ## <a name="step-7-refresh-settings"></a>Etapa 7: Atualizar configurações
 
-O intervalo de atualização determina com que frequência seus dados são sincronizados entre a fonte de dados e a Pesquisa da Microsoft. Cada tipo de fonte de dados tem um conjunto diferente de agendas de atualização ideais com base na frequência com que os dados são modificados e no tipo de modificações.
+O intervalo de atualização determina com que frequência seus dados são sincronizados entre a fonte de dados e Pesquisa da Microsoft. Cada tipo de fonte de dados tem um conjunto diferente de agendas de atualização ideais com base na frequência com que os dados são modificados e no tipo de modificações.
 
 Há dois tipos de intervalos  de atualização, que são Atualização Completa e Atualização **Incremental**, mas as atções incrementais não estão disponíveis para algumas fontes de dados.
 

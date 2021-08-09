@@ -12,19 +12,19 @@ search.appverid:
 - BFB160
 - MET150
 - MOE150
-description: Configurar o conector Azure DevOps Graph para a Pesquisa da Microsoft
-ms.openlocfilehash: bfe04a022360a968424b673ad03ba05f27c8c333
-ms.sourcegitcommit: 1b154441f3a3abba0f2719e66a767432bc9506ca
+description: Configurar o conector Azure DevOps Graph para Pesquisa da Microsoft
+ms.openlocfilehash: b7c5ab48288fdc421cda87b8afbadf08b8cf42ef023e8f56decd7b5c177c619a
+ms.sourcegitcommit: 71ac2a38971ca4452d1bddfc773ff8f45e1ffd77
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/02/2021
-ms.locfileid: "52720948"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54533325"
 ---
 <!---Previous ms.author: shgrover --->
 
 # <a name="azure-devops-graph-connector-preview"></a>Azure DevOps Graph conector (visualização)
 
-O Azure DevOps Graph conector permite que sua organização indexe itens de trabalho em sua instância do Azure DevOps serviço. Depois de configurar o conector e o conteúdo de índice Azure DevOps, os usuários finais poderão pesquisar esses itens na Pesquisa da Microsoft.
+O Azure DevOps Graph conector permite que sua organização indexe itens de trabalho em sua instância do Azure DevOps serviço. Depois de configurar o conector e o conteúdo de índice Azure DevOps, os usuários finais poderão pesquisar esses itens Pesquisa da Microsoft.
 
 > [!NOTE]
 > Leia o [**artigo Instalação do conector Graph para**](configure-connector.md) entender as instruções gerais Graph configuração de conectores.
@@ -38,7 +38,7 @@ Este artigo é para qualquer pessoa que configure, executa e monitore um conecto
 
 <!---Insert "Before you get started" recommendations for this data source-->
 
-## <a name="step-1-add-a-graph-connector-in-the-microsoft-365-admin-center"></a>Etapa 1: adicionar um conector Graph no centro de Microsoft 365 de administração
+## <a name="step-1-add-a-graph-connector-in-the-microsoft-365-admin-center"></a>Etapa 1: adicionar um conector Graph no Centro de administração do Microsoft 365
 
 Siga as instruções [gerais de instalação](./configure-connector.md).
 <!---If the above phrase does not apply, delete it and insert specific details for your data source that are different from general setup 
@@ -56,7 +56,7 @@ Para se conectar à sua instância Azure DevOps, você [](/azure/devops/organiza
 
 ### <a name="register-an-app"></a>Registrar um aplicativo
 
-Registre um aplicativo no Azure DevOps para que o aplicativo de Pesquisa da Microsoft possa acessar a instância. Para saber mais, confira Azure DevOps sobre como registrar [um aplicativo.](/azure/devops/integrate/get-started/authentication/oauth?preserve-view=true&view=azure-devops#register-your-app)
+Registre um aplicativo no Azure DevOps para que o Pesquisa da Microsoft possa acessar a instância. Para saber mais, confira Azure DevOps sobre como registrar [um aplicativo.](/azure/devops/integrate/get-started/authentication/oauth?preserve-view=true&view=azure-devops#register-your-app)
 
 A tabela a seguir fornece orientações sobre como preencher o formulário de registro do aplicativo:
 
@@ -78,7 +78,7 @@ Ao registrar o aplicativo com os detalhes acima, você receberá a **ID** do apl
 
 ### <a name="connection-settings"></a>Configurações de conexão
 
-Depois de registrar o aplicativo de Pesquisa da Microsoft com Azure DevOps, você pode concluir a etapa de configurações de conexão. Insira o nome da sua organização, a ID do aplicativo e o segredo do cliente.
+Após registrar o aplicativo Pesquisa da Microsoft com Azure DevOps, você pode concluir a etapa de configurações de conexão. Insira o nome da sua organização, a ID do aplicativo e o segredo do cliente.
 
 ![Aplicativo de conexão Configurações](media/ADO_Connection_settings_2.png)
 
@@ -120,7 +120,7 @@ Siga as instruções [gerais de instalação](./configure-connector.md).
 >[!TIP]
 >**Tipo de resultado padrão**
 >* O Azure DevOps conector registra automaticamente um tipo [de resultado](./customize-search-page.md#step-2-create-the-result-types) depois que o conector é publicado. O tipo de resultado usa um layout de [resultado](./customize-results-layout.md) gerado dinamicamente com base nos campos selecionados na etapa 3. 
->* Você pode gerenciar o tipo de resultado navegando até [**Tipos**](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/resulttypes) de resultado no Microsoft 365 [de administração.](https://admin.microsoft.com) O tipo de resultado padrão será nomeado como " `ConnectionId` Padrão". Por exemplo, se sua id de conexão for `AzureDevOps` , seu layout de resultado será nomeado: "AzureDevOpsDefault"
+>* Você pode gerenciar o tipo de resultado navegando até [**Tipos de**](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/resulttypes) resultado no [Centro de administração do Microsoft 365](https://admin.microsoft.com). O tipo de resultado padrão será nomeado como " `ConnectionId` Padrão". Por exemplo, se sua id de conexão for `AzureDevOps` , seu layout de resultado será nomeado: "AzureDevOpsDefault"
 >* Além disso, você pode optar por criar seu próprio tipo de resultado, se necessário.
 
 <!---If the above phrase does not apply, delete it and insert specific details for your data source that are different from general setup 

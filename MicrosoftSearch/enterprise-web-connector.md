@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Configurar o conector Enterprise de sites Graph para Pesquisa da Microsoft
-ms.openlocfilehash: 32e38c9bef036556dae2734e23b1d26ba4fe2c27
-ms.sourcegitcommit: 38a0f09596c2bca0e12bf4cada7b4c64fd4c48e4
+ms.openlocfilehash: 7e308c8239fbc4ea0da5449731d25442490270f9d604a40944d17cd2bf367a0c
+ms.sourcegitcommit: 71ac2a38971ca4452d1bddfc773ff8f45e1ffd77
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/15/2021
-ms.locfileid: "53449039"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54533071"
 ---
 <!---Previous ms.author: monaray --->
 
@@ -79,7 +79,7 @@ Além da caixa de seleção, há três campos opcionais disponíveis:
 
 O modo de rastreamento determina o tipo de sites que você deseja indexar, na nuvem ou no local. Para seus sites de nuvem, selecione **Nuvem** como o modo de rastreamento.
 
-Além disso, o conector agora dá suporte ao rastreamento de sites locais. Para acessar seus dados locais, você deve primeiro instalar e configurar o Graph conector. Para saber mais, consulte [Graph conector](./on-prem-agent.md).
+Além disso, o conector agora dá suporte ao rastreamento de sites locais. Para acessar seus dados locais, você deve primeiro instalar e configurar o Graph conector. Para saber mais, consulte [Graph conector](./graph-connector-agent.md).
 
 Para seus sites locais,  selecione Agente como o  modo de rastreamento e, no campo Agente Local, escolha o Graph conector que você instalou e configurou anteriormente.  
 

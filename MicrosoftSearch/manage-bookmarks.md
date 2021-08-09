@@ -12,13 +12,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: c0c814d0-f7e4-444e-b18e-09beb45c9322
-description: Criar e atualizar indicadores e maneiras de editar em massa resultados de indicadores para a Pesquisa da Microsoft
-ms.openlocfilehash: e8488146a041e7165596dafff8012adfa1122341
-ms.sourcegitcommit: 5df252e6d0bd67bb1b4c59418aceca8369f5fe42
+description: Criar e atualizar indicadores e maneiras de editar em massa os resultados do indicador para Pesquisa da Microsoft
+ms.openlocfilehash: 1362082bf33bd4a30ff2ae76e2fa05a3ccd8962c4ef5f5cb15f41fc183d0c4b9
+ms.sourcegitcommit: 71ac2a38971ca4452d1bddfc773ff8f45e1ffd77
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51031724"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54533794"
 ---
 # <a name="manage-bookmarks"></a>Gerenciar indicadores
 
@@ -38,37 +38,37 @@ Um indicador excelente tem quatro elementos-chave:
 
 ## <a name="create-bookmark-answers"></a>Criar respostas de indicador
 
-No Centro de administração do [Microsoft 365,](https://admin.microsoft.com/)acesse [Indicadores](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/bookmarks) e escolha como você deseja criar novos indicadores:
+Na [Centro de administração do Microsoft 365](https://admin.microsoft.com/), vá para [Indicadores](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/bookmarks) e escolha como você deseja criar novos indicadores:
 
 - Adicionar indicadores
-- Importar resultados do SharePoint
+- Importar SharePoint resultados
 - Adicionar indicadores padrão e indicadores sugeridos
 - Importar indicadores
 - Publicar ou revisar indicadores recomendados
 
 ### <a name="add-bookmarks"></a>Adicionar indicadores
 
-Os administradores e editores de pesquisa podem adicionar indicadores no Centro de administração do Microsoft 365 e publicá-los ou salvá-los no rascunho. Publicar um indicador atualiza imediatamente o índice de pesquisa, tornando-o descoberto imediatamente para os usuários. Você também pode agendar um indicador especificando a data e a hora em que ele será publicado.
+Os administradores e editores de pesquisa podem adicionar indicadores no Centro de administração do Microsoft 365 e publicar ou salvá-los no rascunho. Publicar um indicador atualiza imediatamente o índice de pesquisa, tornando-o descoberto imediatamente para os usuários. Você também pode agendar um indicador especificando a data e a hora em que ele será publicado.
 
-- **Publicado**: Os indicadores estão disponíveis para os usuários da organização por meio da Pesquisa da Microsoft.
+- **Publicado**: os indicadores estão disponíveis para os usuários da organização por meio Pesquisa da Microsoft.
 - **Rascunho**: Indicadores salvos como rascunhos não estão disponíveis para seus usuários. Use esse status se você ou outros participantes quiserem revisar ou atualizar indicadores antes de publicá-los.
 - **Agendado**: Indicadores que serão publicados na data e hora especificadas.
 
-Você pode usar a extensão do navegador criador de conteúdo da Pesquisa da Microsoft para adicionar indicadores facilmente. Para instalar a extensão do navegador, vá para o site que você deseja adicionar como um indicador e clique em Adicionar na extensão.
+Você pode usar a extensão do navegador Pesquisa da Microsoft criador de conteúdo para adicionar indicadores facilmente. Para instalar a extensão do navegador, vá para o site que você deseja adicionar como um indicador e clique em Adicionar na extensão.
 Instale a extensão para Borda e Chrome:
 
-- Para Borda Chromium ou Chrome: vá para o [Chrome Web Store](https://chrome.google.com/webstore/detail/microsoft-search-content/nocnablpaoeecfmfnjoheefkogmleipm) e adicione a extensão.
-- Para o Edge herdados: vá para a [Microsoft Store](https://www.microsoft.com/p/microsoft-search-content-creator/9nrqdbcbwq55?activetab=pivot:overviewtab) e adicione a extensão.
+- Para Chromium Borda ou Chrome: vá para o [Chrome Web Store](https://chrome.google.com/webstore/detail/microsoft-search-content/nocnablpaoeecfmfnjoheefkogmleipm) e adicione a extensão.
+- Para Borda herdados: vá para [o](https://www.microsoft.com/p/microsoft-search-content-creator/9nrqdbcbwq55?activetab=pivot:overviewtab) Microsoft Store e adicione a extensão.
 
-### <a name="import-sharepoint-results"></a>Importar resultados do SharePoint
+### <a name="import-sharepoint-results"></a>Importar SharePoint resultados
 
-Se sua organização configurar Os Resultados Promovidos no SharePoint, você poderá importar os títulos, URLs e descrições dos Resultados Promovidos para seu locatário para a Pesquisa da Microsoft e disponibilizar o conteúdo importado para seus usuários. Na maioria dos casos, a importação de resultados do SharePoint leva apenas alguns minutos. Se você estiver importando um grande número de resultados, pode levar até 48 horas. Essa é uma maneira fácil de preencher rapidamente os resultados da pesquisa e torná-los mais eficazes para seus usuários. Recomendamos o uso de resultados promovidos do SharePoint como referência para entender como nomear e criar resultados de pesquisa relevantes.
+Se sua organização configurar Os Resultados Promovidos no SharePoint, você poderá importar os títulos, URLs e descrições dos Resultados Promovidos para seu locatário para Pesquisa da Microsoft e disponibilizar o conteúdo importado para seus usuários. Na maioria dos casos, a importação SharePoint resultados leva apenas alguns minutos. Se você estiver importando um grande número de resultados, pode levar até 48 horas. Essa é uma maneira fácil de preencher rapidamente os resultados da pesquisa e torná-los mais eficazes para seus usuários. Recomendamos o uso de resultados promovidos SharePoint como referência para entender como nomear e criar resultados de pesquisa relevantes.
 
 ### <a name="add-default-and-suggested-bookmarks"></a>Adicionar indicadores padrão e sugeridos
 
 Incluímos alguns indicadores sugeridos padrão que seus usuários podem achar úteis, incluindo indicadores para RH, benefícios, suporte a IT, gerenciamento de senhas e muito mais. Revise, atualize e publique esses indicadores sugeridos para fornecer resultados de alta qualidade aos usuários imediatamente.
 
-Seus usuários também podem sugerir indicadores que gostaria de ver adicionados usando links de comentários na Pesquisa da Microsoft. Suas recomendações aparecerão como indicadores sugeridos.
+Seus usuários também podem sugerir indicadores que gostaria de ver adicionados usando links de comentários Pesquisa da Microsoft. Suas recomendações aparecerão como indicadores sugeridos.
 
 ### <a name="import-bookmarks"></a>Importar indicadores
 
@@ -106,15 +106,15 @@ Para evitar erros de duplicação de indicador para indicador:
 
 ### <a name="publish-or-review-recommended-bookmarks"></a>Publicar ou revisar indicadores recomendados
 
-Para reduzir o esforço manual necessário para adicionar indicadores, a Pesquisa da Microsoft pode avaliar os links do SharePoint da sua organização e recomendar indicadores. Você pode revisá-los antes de publicá-los ou defini-los para publicar automaticamente. Nenhuma configuração é necessária para indicadores recomendados, eles estão habilitados e definidos como autopublicidade por padrão. Para alterar essas configurações a qualquer momento, selecione **Gerenciar indicadores** para abrir o painel de configurações do Indicador.
+Para reduzir o esforço manual necessário para adicionar indicadores, Pesquisa da Microsoft pode avaliar os links de SharePoint da sua organização e recomendar indicadores. Você pode revisá-los antes de publicá-los ou defini-los para publicar automaticamente. Nenhuma configuração é necessária para indicadores recomendados, eles estão habilitados e definidos como autopublicidade por padrão. Para alterar essas configurações a qualquer momento, selecione **Gerenciar indicadores** para abrir o painel de configurações do Indicador.
 
-![Captura de tela das configurações de indicador recomendadas no portal de administração do Microsoft 365](media/bookmarks-recommendedsettings.png)
+![Captura de tela das configurações de indicador recomendadas no portal Microsoft 365 administrador](media/bookmarks-recommendedsettings.png)
 
-Se os indicadores recomendados estão habilitados, o mecanismo de recomendação avaliará sites do SharePoint em sua organização para identificar links de alto tráfego. Após um período de avaliação inicial, os indicadores recomendados serão publicados automaticamente ou adicionados à lista de indicadores sugeridos. O próximo ciclo — um período de avaliação de 30 dias seguido de publicação automática ou adição de indicadores sugeridos — começará.
+Se os indicadores recomendados estão habilitados, o mecanismo de recomendação avaliará SharePoint sites em sua organização para identificar links de alto tráfego. Após um período de avaliação inicial, os indicadores recomendados serão publicados automaticamente ou adicionados à lista de indicadores sugeridos. O próximo ciclo — um período de avaliação de 30 dias seguido de publicação automática ou adição de indicadores sugeridos — começará.
 
 Sugerimos que os administradores ou editores de pesquisa revisem esses indicadores publicados automaticamente ou sugeridos regularmente. Além disso, os indicadores recomendados nunca incluirão URLs encontradas em indicadores publicados, sugeridos, agendados ou excluídos existentes.
 
-Para garantir que somente os usuários com acesso vejam um indicador recomendado nos resultados do trabalho, um recurso de verificação de acesso é incluído para todos os indicadores recomendados. Os usuários nunca verão um indicador recomendado para um site do SharePoint que não podem acessar. Essa verificação de acesso é controlada pela opção Somente pessoas com acesso a esse **link** na configuração Grupos para cada indicador recomendado.
+Para garantir que somente os usuários com acesso vejam um indicador recomendado nos resultados do trabalho, um recurso de verificação de acesso é incluído para todos os indicadores recomendados. Os usuários nunca verão um indicador recomendado para um SharePoint site que não possam acessar. Essa verificação de acesso é controlada pela opção Somente pessoas com acesso a esse **link** na configuração Grupos para cada indicador recomendado.
 
 A verificação de acesso será parada se a URL no indicador recomendado ou a configuração Grupos for alterada.
 
@@ -126,21 +126,21 @@ Um indicador pode ter várias palavras-chave e compartilhar a mesma palavra-chav
 
 ## <a name="frequently-asked-questions"></a>Perguntas frequentes
 
-**P: Quanto tempo leva para que um indicador seja visível na Pesquisa da Microsoft depois de publicado?**
+**P: Quanto tempo leva para que um indicador seja visível no Pesquisa da Microsoft depois de publicado?**
 
-**R:**  Um indicador está disponível na Pesquisa da Microsoft imediatamente após a publicação.
+**R:**  Um indicador está disponível no Pesquisa da Microsoft imediatamente após a publicação.
 
 **P: Quanto tempo leva para que um indicador recomendado apareça?**
 
-**R:**  Os indicadores recomendados só aparecerão na Pesquisa da Microsoft se os indicadores recomendados e a publicação automática estão habilitados. Durante o período de avaliação inicial, o mecanismo de recomendação avaliará o tráfego do SharePoint para identificar indicadores adequados e publicá-los automaticamente. Depois de publicados, eles ficam disponíveis imediatamente na Pesquisa da Microsoft.
+**R:**  Os indicadores recomendados só serão exibidos Pesquisa da Microsoft se os indicadores recomendados e a publicação automática estão habilitados. Durante o período de avaliação inicial, o mecanismo de recomendação avaliará SharePoint tráfego para identificar indicadores adequados e publicá-los automaticamente. Depois de publicados, eles ficam disponíveis imediatamente Pesquisa da Microsoft.
 
-**P: Quanto tempo leva para que um indicador excluído seja removido dos resultados da Pesquisa da Microsoft?**
+**P: Quanto tempo leva para que um indicador excluído seja removido Pesquisa da Microsoft resultados?**
 
 **R:** Indicadores excluídos são removidos imediatamente dos resultados do trabalho.
 
-**P: A Pesquisa da Microsoft recomendará indicadores de sites em todos os idiomas?**
+**P: Pesquisa da Microsoft indicadores de sites em todos os idiomas?**
 
-**R:** Sim, a Pesquisa da Microsoft pode recomendar indicadores de qualquer site interno do SharePoint, independentemente do idioma.
+**R:** Sim, Pesquisa da Microsoft pode recomendar indicadores de qualquer site SharePoint interno, independentemente do idioma.
 
 **P: Posso parar de mostrar indicadores recomendados nos resultados da pesquisa?**
 
@@ -160,4 +160,4 @@ Um indicador pode ter várias palavras-chave e compartilhar a mesma palavra-chav
 
 **P: Onde encontro a ID do aplicativo para um Aplicativo Do Power?**
 
-**R:** Vá para o site do Power Apps e veja o painel Detalhes do aplicativo. Saiba mais sobre [como obter uma ID do aplicativo.](/powerapps/maker/canvas-apps/get-sessionid#get-an-app-id)
+**R:** Vá para o site Power Apps e veja o painel Detalhes do aplicativo. Saiba mais sobre [como obter uma ID do aplicativo.](/powerapps/maker/canvas-apps/get-sessionid#get-an-app-id)

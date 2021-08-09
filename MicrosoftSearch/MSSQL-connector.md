@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Configurar o conector do Azure SQL microsoft SQL Graph para Pesquisa da Microsoft.
-ms.openlocfilehash: ae17b99fa0b83b38c8681652af0fdfdb32969f28
-ms.sourcegitcommit: 9cfe9b7f6d4ddf783ee31a6d2a02a73f0c0aef79
+ms.openlocfilehash: ed9284de968921f40003e011348e3e6d4321b59d86207b6c7d054765c6837a1e
+ms.sourcegitcommit: 71ac2a38971ca4452d1bddfc773ff8f45e1ffd77
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/26/2021
-ms.locfileid: "53590257"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54533505"
 ---
 <!---Previous ms.author: vivg --->
 
@@ -36,7 +36,7 @@ Este artigo é para qualquer pessoa que configure, executa e monitore um conecto
 
 ### <a name="install-the-graph-connector-agent-required-for-on-premises-microsoft-sql-server-connector-only"></a>Instale o Graph conector (necessário apenas para o conector Microsoft SQL Server local)
 
-Para acessar seus dados de terceiros locais, você deve instalar e configurar o Graph conector. Consulte [Instalar o Graph conector de dados](on-prem-agent.md) para saber mais.
+Para acessar seus dados de terceiros locais, você deve instalar e configurar o Graph conector. Consulte [Instalar o Graph conector de dados](graph-connector-agent.md) para saber mais.
 
 >[!NOTE]
 >Se você usar Windows autenticação durante a configuração do conector Microsoft SQL Server Graph, o usuário com o qual você está tentando entrar precisa ter direitos de logon interativos para o computador onde o Graph conector está instalado. Consulte a documentação sobre [o gerenciamento de política de logon](/windows/security/threat-protection/security-policy-settings/allow-log-on-locally#policy-management) para verificar os direitos de logon.

@@ -1,5 +1,5 @@
 ---
-title: Conector do Graph de compartilhamento de arquivos para a Pesquisa da Microsoft
+title: Conector de Graph de compartilhamento de arquivos para Pesquisa da Microsoft
 ms.author: mecampos
 author: mecampos
 manager: umas
@@ -13,28 +13,28 @@ search.appverid:
 - MET150
 - MOE150
 ROBOTS: NoIndex
-description: Configurar o conector gráfico de compartilhamento de arquivos para a Pesquisa da Microsoft
-ms.openlocfilehash: 792e853e5d2b7a23835dc031ff4ba4c09d619f9c
-ms.sourcegitcommit: 5df252e6d0bd67bb1b4c59418aceca8369f5fe42
+description: Configurar o conector de compartilhamento Graph arquivo para Pesquisa da Microsoft
+ms.openlocfilehash: af4c3996fdc8ac753404f4b4519175a9054fa18bce3862b0c5841c7bd5369cdd
+ms.sourcegitcommit: 71ac2a38971ca4452d1bddfc773ff8f45e1ffd77
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51031607"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54533016"
 ---
 <!---Previous ms.author: rusamai --->
 
-# <a name="file-share-graph-connector"></a>Conector graph de compartilhamento de arquivos
+# <a name="file-share-graph-connector"></a>Conector de compartilhamento Graph arquivo
 
-O conector graph de compartilhamento de arquivos permite que os usuários em sua organização pesquisem compartilhamentos de arquivos do Windows no local.
+O conector de compartilhamento de arquivos Graph permite que os usuários em sua organização pesquisem Windows compartilhamentos de arquivos locais.
 
 > [!NOTE]
-> Leia o [**artigo Instalação do conector do Graph**](configure-connector.md) para entender o processo de configuração geral dos conectores do Graph.
+> Leia o [**artigo Instalação do conector Graph para**](configure-connector.md) entender o processo de instalação geral Graph conectores.
 
 ## <a name="before-you-get-started"></a>Antes de começar
 
-### <a name="install-the-graph-connector-agent"></a>Instalar o agente de conector do Graph
+### <a name="install-the-graph-connector-agent"></a>Instalar o Graph conector
 
-Para indexar seus compartilhamentos de arquivos do Windows, você deve instalar e registrar o agente conector do Graph. Consulte [Instalar o agente de conector do Graph](on-prem-agent.md) para saber mais.  
+Para indexar seus Windows de arquivos, você deve instalar e registrar o Graph conector. Consulte [Instalar o Graph conector de dados](graph-connector-agent.md) para saber mais.  
 
 ### <a name="content-requirements"></a>Requisitos de conteúdo
 
@@ -46,7 +46,7 @@ O conteúdo dos seguintes formatos pode ser indexado e pesquisado: DOC, DOCM, DO
 
 O tamanho máximo do arquivo com suporte é de 100 MB. Os arquivos que excedem 100 MB não são indexados. O limite máximo de tamanho pós-processado é 4 MB. O processamento é interrompido quando o tamanho de um arquivo atinge 4 MB. Portanto, algumas frases presentes no arquivo podem não funcionar para pesquisa.
 
-## <a name="step-1-add-a-graph-connector-in-the-microsoft-365-admin-center"></a>Etapa 1: Adicionar um conector graph no centro de administração do Microsoft 365
+## <a name="step-1-add-a-graph-connector-in-the-microsoft-365-admin-center"></a>Etapa 1: adicionar um conector Graph no Centro de administração do Microsoft 365
 
 Siga as instruções [gerais de instalação](./configure-connector.md).
 <!---If the above phrase does not apply, delete it and insert specific details for your data source that are different from general setup instructions.-->
@@ -58,7 +58,7 @@ Siga as instruções [gerais de instalação](./configure-connector.md).
 
 ## <a name="step-3-configure-the-connection-settings"></a>Etapa 3: Configurar as configurações de conexão
 
-Na página **Conectar-se à fonte de** dados, selecione **Compartilhamento** de arquivos e forneça o nome, a ID da conexão e a descrição. Na próxima página, forneça o caminho para o compartilhamento de arquivos e selecione o agente de conector do Graph instalado anteriormente. Insira as credenciais de uma conta de usuário do [Microsoft Windows](https://microsoft.com/windows) com acesso de leitura a todos os arquivos no compartilhamento de arquivos.
+Na página **Conexão para fonte de** dados, selecione **Compartilhamento** de arquivos e forneça o nome, a ID da conexão e a descrição. Na próxima página, forneça o caminho para o compartilhamento de arquivos e selecione o agente de conector Graph instalado anteriormente. Insira as credenciais de uma [conta de usuário do Microsoft Windows](https://microsoft.com/windows) com acesso de leitura a todos os arquivos no compartilhamento de arquivos.
 
 ### <a name="preserve-last-access-time"></a>Preservar a última hora de acesso
 

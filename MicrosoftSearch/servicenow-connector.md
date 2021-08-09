@@ -12,26 +12,26 @@ search.appverid:
 - BFB160
 - MET150
 - MOE150
-description: Configurar o conector de Graph ServiceNow para a Pesquisa da Microsoft
-ms.openlocfilehash: ac5d0b23547ce7ccd0d8bb6399b092f9bc9e5303
-ms.sourcegitcommit: f12e7ff0a94d30a9de1f93266715180e7530de3f
+description: Configurar o conector de Graph ServiceNow para Pesquisa da Microsoft
+ms.openlocfilehash: 11abe956e624fa23cd19e2dfc2ae9a4af31a0f81407f6e2c5672723c5fdfc8b5
+ms.sourcegitcommit: 71ac2a38971ca4452d1bddfc773ff8f45e1ffd77
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52879304"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54534127"
 ---
 <!---Previous ms.author: kam1 --->
 
 
 # <a name="servicenow-graph-connector"></a>Conector de Graph ServiceNow
 
-Com o Microsoft Graph Connector para ServiceNow, sua organização pode indexar artigos de base de conhecimento visíveis para todos os usuários ou restritos com permissões de critérios de usuário em sua organização. Depois de configurar o conector e o conteúdo de índice do ServiceNow, os usuários finais podem pesquisar esses artigos de qualquer cliente de Pesquisa da Microsoft.  
+Com o Microsoft Graph Connector para ServiceNow, sua organização pode indexar artigos de base de conhecimento visíveis para todos os usuários ou restritos com permissões de critérios de usuário em sua organização. Depois de configurar o conector e o conteúdo de índice do ServiceNow, os usuários finais podem pesquisar esses artigos de qualquer Pesquisa da Microsoft cliente.  
 
 Este artigo é para Microsoft 365 administradores ou qualquer pessoa que configure, executa e monitore um conector de Graph ServiceNow. Ele complementa as instruções gerais fornecidas no [artigo Configurar seu](configure-connector.md) Graph conector. Se você ainda não tiver feito isso, leia todo o artigo Configurar o conector Graph para entender o processo de instalação geral.
 
 Cada etapa no processo de instalação é listada abaixo juntamente com uma observação que indica que você deve seguir as [](#troubleshooting) instruções gerais de instalação OU outras instruções que se aplicam apenas ao conector de Graph ServiceNow, incluindo informações sobre Solução de Problemas e Limitações. [](#limitations)  
 
-## <a name="step-1-add-a-graph-connector-in-the-microsoft-365-admin-center"></a>Etapa 1: adicionar um conector Graph no centro de Microsoft 365 de administração.
+## <a name="step-1-add-a-graph-connector-in-the-microsoft-365-admin-center"></a>Etapa 1: Adicionar um conector Graph no Centro de administração do Microsoft 365.
 Siga as instruções gerais de instalação.
 
 ## <a name="step-2-name-the-connection"></a>Etapa 2: nomear a conexão.
@@ -41,7 +41,7 @@ Siga as instruções gerais de instalação.
 ## <a name="step-3-connection-settings"></a>Etapa 3: Conexão Configurações
 Para se conectar aos dados serviceNow, você precisa da URL da instância **serviceNow da sua organização.** A URL da instância ServiceNow da sua organização normalmente se parece https:// **&lt; sua organização-domínio>.service-now.com**. 
 
-Junto com essa URL, você precisará de uma conta de serviço para configurar **a** conexão com ServiceNow, bem como para permitir que a Pesquisa da Microsoft atualize periodicamente os artigos de conhecimento com base no cronograma de atualização. A conta de serviço precisará de acesso de leitura aos seguintes registros da tabela **ServiceNow** para rastrear várias entidades com êxito.
+Junto com essa URL, você precisará de uma conta de serviço para configurar **a** conexão com ServiceNow, bem como para permitir Pesquisa da Microsoft atualizar periodicamente os artigos de conhecimento com base no cronograma de atualização. A conta de serviço precisará de acesso de leitura aos seguintes registros da tabela **ServiceNow** para rastrear várias entidades com êxito.
 
 **Recurso** | **Ler tabelas necessárias de acesso** | **Descrição**
 --- | --- | ---
@@ -56,7 +56,7 @@ Permissões de critérios de usuário de indexação e suporte | kb_uc_can_read_
 | | user_criteria | Ler permissões de critérios de usuário
 | | kb_knowledge_base | Ler informações da base de dados de conhecimento
 
-Você pode **criar e atribuir uma função para a** conta de serviço que você usa para se conectar à Pesquisa da Microsoft. [Saiba como atribuir função para contas ServiceNow.](https://docs.servicenow.com/bundle/paris-platform-administration/page/administer/users-and-groups/task/t_AssignARoleToAUser.html) O acesso de leitura às tabelas pode ser atribuído na função criada. Para saber mais sobre como definir o acesso de leitura aos registros de tabela, consulte [Proteger registros de tabela.](https://developer.servicenow.com/dev.do#!/learn/learning-plans/orlando/new_to_servicenow/app_store_learnv2_securingapps_orlando_creating_and_editing_access_controls) 
+Você pode **criar e atribuir uma função** para a conta de serviço que você usa para se conectar com Pesquisa da Microsoft. [Saiba como atribuir função para contas ServiceNow.](https://docs.servicenow.com/bundle/paris-platform-administration/page/administer/users-and-groups/task/t_AssignARoleToAUser.html) O acesso de leitura às tabelas pode ser atribuído na função criada. Para saber mais sobre como definir o acesso de leitura aos registros de tabela, consulte [Proteger registros de tabela.](https://developer.servicenow.com/dev.do#!/learn/learning-plans/orlando/new_to_servicenow/app_store_learnv2_securingapps_orlando_creating_and_editing_access_controls) 
 
 
 >[!NOTE]
@@ -74,7 +74,7 @@ Insira o nome de usuário e a senha da conta ServiceNow com **a função de** co
 
 ## <a name="step-32-servicenow-oauth"></a>Etapa 3.2: ServiceNow OAuth
 
-Para usar ServiceNow OAuth para autenticação, um administrador do ServiceNow precisa provisionar um ponto de extremidade em sua instância serviceNow, para que o aplicativo de Pesquisa da Microsoft possa acessá-lo. Para saber mais, confira Criar um ponto de extremidade para que os clientes [acessem](https://docs.servicenow.com/bundle/newyork-platform-administration/page/administer/security/task/t_CreateEndpointforExternalClients.html) a instância na documentação ServiceNow.
+Para usar ServiceNow OAuth para autenticação, um administrador do ServiceNow precisa provisionar um ponto de extremidade em sua instância serviceNow, para que o aplicativo Pesquisa da Microsoft possa acessá-lo. Para saber mais, confira Criar um ponto de extremidade para que os clientes [acessem](https://docs.servicenow.com/bundle/newyork-platform-administration/page/administer/security/task/t_CreateEndpointforExternalClients.html) a instância na documentação ServiceNow.
 
 A tabela a seguir fornece orientações sobre como preencher o formulário de criação do ponto de extremidade:
 
@@ -82,7 +82,7 @@ Campo | Descrição | Valor Recomendado
 --- | --- | ---
 Nome | Valor exclusivo que identifica o aplicativo para o que você precisa de acesso OAuth. | Pesquisa da Microsoft
 ID do cliente | Uma ID exclusiva gerada automaticamente somente leitura para o aplicativo. A instância usa a ID do cliente quando solicita um token de acesso. | NA
-Segredo do cliente | Com essa cadeia de caracteres secreta compartilhada, a instância ServiceNow e a Pesquisa da Microsoft autorizam comunicações entre si. | Siga as práticas recomendadas de segurança tratando o segredo como uma senha.
+Segredo do cliente | Com essa cadeia de caracteres secreta compartilhada, a instância serviceNow e Pesquisa da Microsoft autorizam comunicações entre si. | Siga as práticas recomendadas de segurança tratando o segredo como uma senha.
 URL de redirecionamento | Uma URL de retorno de chamada necessária para a que o servidor de autorização redireciona. | https://gcs.office.com/v1.0/admin/oauth/callback
 URL de logotipo | Uma URL que contém a imagem do logotipo do aplicativo. | NA
 Ativo | Marque a caixa de seleção para tornar o registro do aplicativo ativo. | Definir como ativo
@@ -147,7 +147,7 @@ A instância ServiceNow precisa da seguinte configuração:
 
    Campo | Descrição | Valor Recomendado
    --- | --- | ---
-   Nome | Um nome exclusivo que identifica a entidade OAuth OIDC. | Azure Active Directory
+   Nome | Um nome exclusivo que identifica a entidade OAuth OIDC. | Azure AD
    ID do cliente | A ID do cliente do aplicativo registrado no servidor OAuth OIDC de terceiros. A instância usa a ID do cliente ao solicitar um token de acesso. | ID do aplicativo (cliente) da etapa 3.a
    Segredo de Cliente | O segredo do cliente do aplicativo registrado no servidor OAuth OIDC de terceiros. | Segredo do Cliente da etapa 3.b
 
@@ -159,7 +159,7 @@ A instância ServiceNow precisa da seguinte configuração:
 
    Campo | Valor Recomendado
    --- | ---
-   Provedor OIDC |  Azure Active Directory
+   Provedor OIDC |  Azure AD
    URL de metadados OIDC | A URL deve estar no formato https \: //login.microsoftonline.com/<tenandId">/.well-known/openid-configuration <br/>Substitua "tenantID" pela ID de Diretório (locatário) da etapa 3.a.
    Período de vida útil do cache de configuração do OIDC |  120
    Aplicativo | Global

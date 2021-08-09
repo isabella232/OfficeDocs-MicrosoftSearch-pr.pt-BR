@@ -1,5 +1,5 @@
 ---
-title: Introdução à pesquisa & inteligência
+title: Apresentando o Search & Intelligence
 ms.author: jeffkizn
 author: jeffkizn
 manager: parulm
@@ -12,30 +12,30 @@ search.appverid:
 - MET150
 - MOE150
 ROBOTS: NoIndex
-description: Renomeando a pesquisa da Microsoft na navegação de administração para pesquisar & inteligência
-ms.openlocfilehash: 272bcd95a701c0e86c6296f2945ec5080c0ab287
-ms.sourcegitcommit: 404a4c9125f10235675b318f0dcf22742e7a7f4b
+description: Renomeando Pesquisa da Microsoft na navegação do administrador para o Search & intelligence
+ms.openlocfilehash: b0a5912ba02c74daffe677f3fbd22c0fb3df12289f155ad4beef69484771fcf3
+ms.sourcegitcommit: 71ac2a38971ca4452d1bddfc773ff8f45e1ffd77
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/25/2020
-ms.locfileid: "46868710"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54533964"
 ---
-# <a name="search--intelligence"></a>Inteligência de & de pesquisa
+# <a name="search--intelligence"></a>Pesquisa & inteligência
 
-A administração de pesquisa da Microsoft atualmente é encontrada no [centro de administração do Microsoft 365](https://admin.microsoft.com) em **configurações**de  >  **[pesquisa da Microsoft](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch).** Estamos renomeando a navegação para ** [Pesquisar & inteligência](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch).**
+Pesquisa da Microsoft administração atualmente é encontrada no [Centro de administração do Microsoft 365](https://admin.microsoft.com) em **Configurações**  >  **[Pesquisa da Microsoft](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch).** Estamos renomeando a navegação para Search **[& intelligence.](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch)**
 
 > [!Important]
-> Essa alteração começará a ser distribuição aos clientes em 1 de outubro de 2020 e chegar a todos os clientes em uma questão de semanas.
+> Essa alteração começará a ser rolada para os clientes em 1º de outubro de 2020 e alcançará todos os clientes em questão de semanas.
 
 ## <a name="why-we-are-making-this-change"></a>Por que estamos fazendo essa alteração
 
-A pesquisa da Microsoft torna sua organização mais produtiva, ajudando as pessoas a encontrar o que precisam, com rapidez. À medida que continuamos a melhorar e a desenvolver a pesquisa da Microsoft, estamos interseccionando com funções que vão além da descoberta de informações para áreas como gerenciamento de conhecimento, conclusão de tarefas, controles de privacidade e muito mais.
-O que aprendemos a trabalhar com clientes é que as pessoas que estão fazendo a administração nessas áreas são a mesma pessoa, na maioria dos casos.
+Pesquisa da Microsoft torna sua organização mais produtiva ajudando as pessoas a encontrar o que precisam, rapidamente. À medida que continuamos a melhorar e Pesquisa da Microsoft, estamos interseção com funções que vão além da descoberta de informações para áreas como gerenciamento de conhecimento, conclusão de tarefas, controles de privacidade e muito mais.
+O que aprendemos ao trabalhar com clientes é que as pessoas que fazem a administração nessas áreas são a mesma pessoa, na maioria dos casos.
 
-Um dos nossos princípios fundamentais é organizar a administração em relação a pessoas e experiências, e não a tecnologia. Isso, combinado com um conjunto de controles de administração que abrange experiências nos trouxe aqui.
+Um de nossos princípios principais é organizar a administração em torno de pessoas e experiências, não tecnologia. Isso, combinado com um conjunto de controles de administração que abrangem experiências, nos trouxe aqui.
 
-O futuro começa com esta renomeação para pesquisar & inteligência, que será seguida sobre as próximas semanas, meses e mais para incluir gerenciamento de conhecimento e muito mais.
+O futuro começa com esse renomeado para Search & Intelligence, que será seguido nas próximas semanas, meses e além para incluir o gerenciamento de conhecimento e muito mais.
 
 ## <a name="no-change-in-the-brand"></a>Nenhuma alteração na marca
 
-A alteração na navegação não representa uma alteração no produto e/ou marca do Microsoft Search e foi projetada para fornecer um local para a consolidação futura de produtos e tecnologias relacionados.
+A alteração na navegação não representa uma alteração no produto Pesquisa da Microsoft e/ou marca e foi projetada para fornecer um local para a consolidação futura de produtos e tecnologias relacionadas.

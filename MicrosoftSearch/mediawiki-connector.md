@@ -1,5 +1,5 @@
 ---
-title: Conector do MediaWiki Graph para Pesquisa da Microsoft
+title: Conector de Graph MediaWiki para Pesquisa da Microsoft
 ms.author: mecampos
 author: mecampos
 manager: umas
@@ -12,30 +12,30 @@ search.appverid:
 - BFB160
 - MET150
 - MOE150
-description: Configurar o conector do MediaWiki Graph para a Pesquisa da Microsoft
-ms.openlocfilehash: 5922cf76aa112430f9f6e857066acd054182058c
-ms.sourcegitcommit: 5df252e6d0bd67bb1b4c59418aceca8369f5fe42
+description: Configurar o conector de Graph MediaWiki para Pesquisa da Microsoft
+ms.openlocfilehash: fff24ce918e3eab6a50d78977749a030ef17d0aef235e6d98e02bdf54fc63a0c
+ms.sourcegitcommit: 71ac2a38971ca4452d1bddfc773ff8f45e1ffd77
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51031688"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54532690"
 ---
 <!---Previous ms.author: monaray --->
 
-# <a name="mediawiki-graph-connector"></a>Conector MediaWiki Graph
+# <a name="mediawiki-graph-connector"></a>Conector de Graph MediaWiki
 
-O conector MediaWiki Graph permite que sua organização descubra e indexe dados de um wiki criado usando o software MediaWiki. Esse conector indexa o conteúdo especificado na Pesquisa da Microsoft e oferece suporte a rastreamentos periódicos para manter o índice atualizado.
+O conector Graph MediaWiki permite que sua organização descubra e indexe dados de um wiki criado usando o software MediaWiki. Esse conector indexa o conteúdo especificado em Pesquisa da Microsoft e oferece suporte a rastreamentos periódicos para manter o índice atualizado.
 
 > [!NOTE]
-> Leia o [**artigo Instalação do conector do Graph**](configure-connector.md) para entender as instruções gerais de configuração dos conectores do Graph.
+> Leia o [**artigo Instalação do conector Graph para**](configure-connector.md) entender as instruções gerais Graph configuração de conectores.
 
-Este artigo é para qualquer pessoa que configure, executa e monitore um conector do MediaWiki Graph. Ele complementa o processo de instalação geral e mostra instruções que se aplicam somente ao conector do MediaWiki Graph. Este artigo também inclui informações sobre [Limitações.](#limitations)
+Este artigo é para qualquer pessoa que configure, executa e monitore um conector de Graph MediaWiki. Ele complementa o processo de instalação geral e mostra instruções que se aplicam somente ao conector de Graph MediaWiki. Este artigo também inclui informações sobre [Limitações.](#limitations)
 
 <!---## Before you get started-->
 
 <!---Insert "Before you get started" recommendations for this data source-->
 
-## <a name="step-1-add-a-graph-connector-in-the-microsoft-365-admin-center"></a>Etapa 1: Adicionar um conector graph no centro de administração do Microsoft 365
+## <a name="step-1-add-a-graph-connector-in-the-microsoft-365-admin-center"></a>Etapa 1: adicionar um conector Graph no Centro de administração do Microsoft 365
 
 Siga as instruções [gerais de instalação](./configure-connector.md).
 <!---If the above phrase does not apply, delete it and insert specific details for your data source that are different from general setup instructions.-->
@@ -85,6 +85,6 @@ Siga as instruções [gerais de instalação](./configure-connector.md).
 O conector MediaWiki tem essas limitações na versão de visualização:
 
 * Oferece suporte apenas a wikis baseados em nuvem.
-* Oferece suporte apenas ao Basic ou ao OAuth 2.0 com autenticação do Azure Active Directory ou do Azure.
+* Oferece suporte apenas ao Basic ou ao OAuth 2.0 com Azure Active Directory ou autenticação do Azure.
 * Não dá suporte à seleção de namespace para indexação. Indexa somente namespaces Main, Category e File.
 * Não dá suporte a Listas de Controle de Acesso (ACLs). Assim, as páginas indexadas ficam visíveis para todos os usuários na organização.

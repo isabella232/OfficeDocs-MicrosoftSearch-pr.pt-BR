@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: 8ab9aa00-cd74-405f-8410-9a1c3cfacdb9
 description: Com o tempo, você pode precisar atualizar o status e o conteúdo de um local para mantê-lo relevante.
-ms.openlocfilehash: ab093cca1c340268b2fd43f7594eb48eddf32208
-ms.sourcegitcommit: 988c37610e71f9784b486660400aecaa7bed40b0
+ms.openlocfilehash: 5e9d88fc08458e928e52988124ee94c60829c7bb71ed13f8534b71ca08e2d50c
+ms.sourcegitcommit: 71ac2a38971ca4452d1bddfc773ff8f45e1ffd77
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47422879"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54532871"
 ---
 # <a name="manage-locations"></a>Gerenciar locais
 
@@ -28,7 +28,7 @@ Os Locais ajudam os usuários a encontrarem endereços e localizarem os edifíci
 
 ### <a name="add-or-edit-a-single-location"></a>Adicionar ou editar um único local
 
-1. No [centro de administração do Microsoft 365](https://admin.microsoft.com), vá para [**locais**](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/locations)
+1. No [Centro de administração do Microsoft 365](https://admin.microsoft.com), vá para [**Locais**](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/locations)
 1. Para adicionar um novo local, selecione **Adicionar**.
 1. Para editar um local, selecione o local na lista de locais relevantes.
 1. À medida que você adiciona ou edita as informações, a visualização é atualizada automaticamente.
@@ -42,7 +42,7 @@ Use o recurso de importação/exportação para:
 
 1. Adicionar local em massa - Adicione detalhes no arquivo de modelo de local e, em seguida, importe-o.
 1. Edição em massa de locais - exporte locais para um arquivo .csv, edite os detalhes do local no arquivo .csv exportado e importe o arquivo .csv atualizado.
-1. Locais de backup – exportar locais existentes para um arquivo. csv.
+1. Locais de backup – Export existing locations to a .csv file.
 
 Para exportar ou importar locais:
 
@@ -57,13 +57,13 @@ Faça o download do arquivo de modelo para obter uma lista dos campos e detalhes
 Aqui estão alguns pontos importantes sobre o arquivo de modelo:
 
 - Nunca edite os dados nesses campos: *Id*, *Última modificação* e *Última modificação por*
-- Se você incluir a *ID* de um local existente, ele será substituído pelas informações no arquivo de importação.
+- Se você incluir *a ID* de um local existente, ela será substituída com as informações no arquivo de importação.
 - Se houver um local existente com o mesmo nome, o local será atualizado com informações no arquivo de importação.
-- Nem todos os campos no arquivo de modelo são obrigatórios e os campos obrigatórios variam de acordo com o estado do local.
-- Com base no campo *estado* , os locais serão salvos como rascunho, sugerido, agendado ou serão publicados automaticamente.
-- Para parceiros que gerenciam várias organizações, você pode exportar seus locais de uma organização e importá-los para outro. Mas você deve remover os dados na coluna *Id* antes de importar.
+- Nem todos os campos no arquivo de modelo são necessários e os campos necessários variam dependendo do estado do local.
+- Com base no *campo Estado,* os locais serão salvos como rascunho, sugerido, agendado ou publicados automaticamente.
+- Para parceiros que gerenciam várias organizações, você pode exportar seus locais de uma organização e importá-los para outra. Mas você deve remover os dados na coluna *Id* antes de importar.
 
 > [!NOTE]
-> Você não pode importar locais se houver algum erro no arquivo de modelo. Para evitar erros, verifique se o arquivo de importação está formatado corretamente e inclua todas as informações necessárias.
+> Não é possível importar Locais se houver erros no arquivo de modelo. Para evitar erros, verifique se o arquivo de importação está formatado corretamente e inclua todas as informações necessárias.
 
 Para obter mais informações sobre como evitar erros, consulte [Evite erros de importação](manage-bookmarks.md#prevent-import-errors).

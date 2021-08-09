@@ -13,16 +13,16 @@ search.appverid:
 - MOE150
 ms.assetid: c0c814d0-f7e4-444e-b18e-09beb45c9322
 description: Gerenciar como Power BI relatórios e dados aparecem nos resultados da pesquisa
-ms.openlocfilehash: 4b2251bdb8039c25fb1ec5290f3374a9f4eb3fd1
-ms.sourcegitcommit: 4b72a31910753d46373a829a64ffec77fe6bc855
+ms.openlocfilehash: a9148ab621703d89ddbe0f225ac2b0697748d8a2e85ffe96cec1763e04deeda9
+ms.sourcegitcommit: 71ac2a38971ca4452d1bddfc773ff8f45e1ffd77
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52547696"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54533604"
 ---
 # <a name="manage-power-bi-answers"></a>Gerenciar Power BI respostas
 
-Para facilitar que os usuários encontrem os dados e análises necessários para tomar decisões informadas, a Pesquisa da Microsoft adicionou suporte para painéis Power BI e relatórios. Aqui estão alguns dos benefícios da pesquisa Power BI:
+Para facilitar que os usuários encontrem os dados e análises necessários para tomar decisões informadas, o Pesquisa da Microsoft adicionou suporte para painéis e relatórios de Power BI. Aqui estão alguns dos benefícios da pesquisa Power BI:
 
 * **Fácil de usar:** Essa experiência de pesquisa pronta ajuda os usuários a encontrar facilmente e rapidamente Power BI painéis e relatórios em toda a sua organização.
 * **Conteúdo mais rico:** Para tornar Power BI resultados de pesquisa mais úteis, eles incluem informações importantes, como o tipo de conteúdo — painel ou relatório — e a equipe ou pessoa proprietária.
@@ -31,7 +31,7 @@ Para facilitar que os usuários encontrem os dados e análises necessários para
 
 ## <a name="what-users-experience"></a>O que os usuários experimentam
 
-Os usuários da Pesquisa da Microsoft podem encontrar Power BI resultados pesquisando Windows caixa de pesquisa, SharePoint, Office 365 e Bing. Os usuários podem pesquisar relatórios e painéis com consultas como estas:
+Pesquisa da Microsoft os usuários podem encontrar Power BI resultados pesquisando na caixa de pesquisa Windows, SharePoint, Office 365 e Bing. Os usuários podem pesquisar relatórios e painéis com consultas como estas:
 
 * Power BI sobre`<topic>`
 * Power BI para`<topic>`
@@ -51,13 +51,13 @@ Power BI resultados estão habilitados para sua organização por padrão. Seu P
 :::image type="content" source="media/powerbi-answers/powerbi-admin.png" alt-text="Captura de tela da configuração para ativar ou desativar Power BI respostas" border="true":::
 
 > [!NOTE]
-> Ao usar a Pesquisa da Microsoft, sua consulta de pesquisa e os resultados retornados do Power BI podem ser processados em uma região ou geografia diferente de onde seus dados de locatário Power BI estão localizados.
+> Ao usar Pesquisa da Microsoft, sua consulta de pesquisa e os resultados retornados do Power BI podem ser processados em uma região ou geografia diferente de onde seus dados de locatário Power BI estão localizados.
 
-## <a name="frequently-asked-questions"></a>Perguntas Frequentes
+## <a name="frequently-asked-questions"></a>Perguntas frequentes
 
 **P: a Power BI está habilitada por padrão?**
 
-**R:** Sim, ele é um dos mais bem Power BI pesquisa está habilitada por padrão para a Pesquisa da Microsoft. Não há nenhuma configuração de primeira hora necessária pelo administrador do locatário para esse recurso.
+**R:** Sim, ele é um dos mais bem Power BI pesquisa está habilitada por padrão para Pesquisa da Microsoft. Não há nenhuma configuração de primeira hora necessária pelo administrador do locatário para esse recurso.
 
 **P: A Power BI pesquisa pode ser habilitada ou desabilitada para grupos ou usuários específicos?**
 
@@ -69,11 +69,11 @@ Power BI resultados estão habilitados para sua organização por padrão. Seu P
 
 **P: Eu vou ver a página Power BI resultado da pesquisa se eu não tiver uma Power BI de pesquisa?**
 
-**R:** Não. Se um usuário de pesquisa não tiver uma licença de Power BI, a página Power BI resultado da pesquisa não aparecerá nos resultados da Pesquisa da Microsoft.
+**R:** Não. Se um usuário de pesquisa não tiver uma licença de Power BI, a página de resultados Power BI pesquisa não aparecerá nos Pesquisa da Microsoft resultados.
 
 **P: Vou ver Power BI resultados de pesquisa que não consigo acessar?**
 
-**R:** Não. A Pesquisa da Microsoft retornará apenas Power BI resultados aos que você tem acesso.
+**R:** Não. Pesquisa da Microsoft retornará apenas Power BI resultados aos que você tem acesso.
 
 **P: Posso personalizar os Power BI de pesquisa (por exemplo, o tipo de relatório ou o proprietário do relatório)?**
 

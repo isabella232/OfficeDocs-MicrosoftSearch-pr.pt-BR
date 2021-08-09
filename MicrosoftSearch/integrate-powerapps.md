@@ -1,5 +1,5 @@
 ---
-title: Integrar Aplicativos do Power
+title: Integrar Power Apps
 ms.author: dawholl
 author: dawholl
 manager: kellis
@@ -12,21 +12,21 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 1fadcba3-4a7f-4a55-8476-d4e64d49a15f
-description: Incluir aplicativos baseados em navegador em resultados de indicadores para a Pesquisa da Microsoft
-ms.openlocfilehash: 52fa78c54ab6db74ef1e3679d3d32151a3f5ac10
-ms.sourcegitcommit: 5df252e6d0bd67bb1b4c59418aceca8369f5fe42
+description: Incluir aplicativos baseados em navegador nos resultados de indicadores para Pesquisa da Microsoft
+ms.openlocfilehash: 4571862919c2f8bd92f1756a70baef908eaa0eade649e6890c1ba56d314398c2
+ms.sourcegitcommit: 71ac2a38971ca4452d1bddfc773ff8f45e1ffd77
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51031697"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54532953"
 ---
-# <a name="integrate-power-apps-in-microsoft-search-bookmarks"></a>Integrar aplicativos do Power nos indicadores da Pesquisa da Microsoft
+# <a name="integrate-power-apps-in-microsoft-search-bookmarks"></a>Integrar Power Apps em Pesquisa da Microsoft indicadores
    
-Ajude os usuários a concluir tarefas, como inserir períodos de férias ou relatar despesas, integrando aplicativos [existentes](https://products.office.com/business/microsoft-powerapps) do Microsoft Power em seus indicadores da Pesquisa da Microsoft. Os Aplicativos Do Power Integrados aparecem em um resultado de indicador, eliminando a necessidade de ir para um site diferente ou abrir uma ferramenta separada, o que economiza tempo e esforço.
+Ajude os usuários a concluir tarefas, como inserir períodos de férias ou relatar despesas, integrando o [Microsoft Power Apps](https://products.office.com/business/microsoft-powerapps) existente em seus Pesquisa da Microsoft indicadores. As Power Apps aparecem em um resultado de indicador, eliminando a necessidade de ir para um site diferente ou abrir uma ferramenta separada, o que economiza tempo e esforço.
   
-## <a name="what-are-power-apps"></a>O que são Aplicativos do Power?
+## <a name="what-are-power-apps"></a>O que são Power Apps?
 
-[O Power Apps](https://products.office.com/business/microsoft-powerapps) é um serviço que permite criar aplicativos de negócios executados em um navegador ou em um telefone ou tablet sem nenhuma experiência de codificação necessária. Saiba mais:
+[Power Apps](https://products.office.com/business/microsoft-powerapps) é um serviço que permite criar aplicativos de negócios executados em um navegador ou em um telefone ou tablet sem nenhuma experiência de codificação necessária. Saiba mais:
   
 - [Aprendizagem Orientada](/learn/browse/?products=powerapps)
     
@@ -34,11 +34,11 @@ Ajude os usuários a concluir tarefas, como inserir períodos de férias ou rela
     
 ## <a name="add-a-power-app-to-a-bookmark"></a>Adicionar um Aplicativo do Power a um indicador
 
-[Power Apps( https://products.office.com/business/microsoft-powerapps) trabalhe em qualquer navegador e em qualquer dispositivo e leve menos de um minuto para adicionar.
+[Power Apps( trabalhe https://products.office.com/business/microsoft-powerapps) em qualquer navegador e em qualquer dispositivo e leve menos de um minuto para adicionar.
   
 1. [Encontre a ID do aplicativo para o Power App](/powerapps/maker/canvas-apps/get-sessionid#get-an-app-id) que você deseja integrar.
     
-2. No Centro de administração [](https://admin.microsoft.com)do Microsoft 365, vá para **Indicadores**.
+2. No centro Microsoft 365 [de administração,](https://admin.microsoft.com)vá para **Indicadores**.
     
 3. Adicione um indicador ou encontre um indicador existente ao que você deseja adicionar um Aplicativo do Power.
     
@@ -54,4 +54,4 @@ Ajude os usuários a concluir tarefas, como inserir períodos de férias ou rela
     
 7. Selecionar **Publicar**.
     
-Quando um usuário autorizado da Pesquisa da Microsoft pesquisa no [Bing](https://Bing.com) por qualquer uma das palavras-chave do indicador ou palavras-chave reservadas, o Power App aparecerá no resultado do indicador.
+Quando um usuário autorizado Pesquisa da Microsoft pesquisa [](https://Bing.com) no Bing para qualquer uma das palavras-chave do indicador ou palavras-chave reservadas, o Power App aparecerá no resultado do indicador.

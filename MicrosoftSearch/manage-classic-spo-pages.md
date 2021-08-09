@@ -1,5 +1,5 @@
 ---
-title: Páginas clássicas no SharePoint Online e na Pesquisa da Microsoft
+title: Páginas clássicas no SharePoint Online e Pesquisa da Microsoft
 ms.author: keremy
 author: jeffkizn
 manager: parulm
@@ -11,23 +11,23 @@ search.appverid:
 - BFB160
 - MET150
 - MOE150
-description: Usando a Pesquisa da Microsoft em páginas clássicas do SharePoint
-ms.openlocfilehash: 33215c730d34c14f8ce1d55e93730615688f1e2a
-ms.sourcegitcommit: 5df252e6d0bd67bb1b4c59418aceca8369f5fe42
+description: Usando Pesquisa da Microsoft em páginas SharePoint clássicas
+ms.openlocfilehash: 187a8c78b9f1b78cf1c5ad04ede91a38fe88759d34037226949a441034cb13b9
+ms.sourcegitcommit: 71ac2a38971ca4452d1bddfc773ff8f45e1ffd77
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51031427"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54533595"
 ---
 # <a name="classic-pages-and-microsoft-search"></a>Páginas clássicas e Pesquisa da Microsoft
 
-Os sites do SharePoint criados antes dos sites modernos usam uma caixa de pesquisa clássica e uma experiência clássica de resultados de pesquisa. Vamos lançar um recurso que irá padrão de páginas clássicas para começar a usar a experiência de pesquisa moderna que usa a Pesquisa da Microsoft, que fornece resultados personalizados com maior relevância.
+SharePoint sites criados antes dos sites modernos usam uma caixa de pesquisa clássica e uma experiência clássica de resultados de pesquisa. Vamos lançar um recurso que irá padrão de páginas clássicas para começar a usar a experiência de pesquisa moderna que usa Pesquisa da Microsoft, que fornece resultados personalizados com maior relevância.
 
-O uso da Pesquisa da Microsoft é recomendado para todos os sites, incluindo clássicos, mas se seus sites clássicos usarem páginas mestras personalizadas e/ou você tiver personalizado sua experiência clássica de resultados de pesquisa, detectaremos automaticamente essas personalizações e não mudaremos para a Pesquisa da Microsoft.
+O uso do Pesquisa da Microsoft é recomendado para todos os sites, incluindo os clássicos, mas se seus sites clássicos usarem páginas mestras personalizadas e/ou você tiver personalizado sua experiência clássica de resultados de pesquisa, detectaremos automaticamente essas personalizações e não mudaremos para Pesquisa da Microsoft.
 
-## <a name="classic-sites-that-will-automatically-switch-to-microsoft-search"></a>Sites clássicos que alternarão automaticamente para a Pesquisa da Microsoft
+## <a name="classic-sites-that-will-automatically-switch-to-microsoft-search"></a>Sites clássicos que alternarão automaticamente para Pesquisa da Microsoft
 
-Sites clássicos começarão a usar a Pesquisa da Microsoft se todos os seguintes são verdadeiros:
+Sites clássicos começarão a usar Pesquisa da Microsoft se todos os seguintes são verdadeiros:
 
 * O site se baseia no modelo de site de equipe (como STS#0 e STS#1).
 * O site não tem o recurso de publicação ligado.
@@ -36,7 +36,7 @@ Sites clássicos começarão a usar a Pesquisa da Microsoft se todos os seguinte
 * Não há tipos de resultados personalizados para o site ou o conjunto de sites na fonte de resultados padrão.
 * O site ou o conjunto de sites não é optado pela opção usando a *configuração SearchBoxInNavBar* descrita abaixo.
 
-Após a mudança para a Pesquisa da Microsoft, as páginas clássicas no site começarão a mostrar a caixa de pesquisa na barra de navegação do pacote e removerão a caixa de pesquisa clássica da página. Em seguida, quando um usuário pesquisa um termo, os resultados serão exibidos usando a experiência de pesquisa moderna da Pesquisa da Microsoft.
+Após a opção para Pesquisa da Microsoft, as páginas clássicas no site começarão a mostrar a caixa de pesquisa na barra de navegação do pacote e removerão a caixa de pesquisa clássica da página. Em seguida, quando um usuário pesquisa um termo, os resultados serão exibidos usando a experiência de pesquisa moderna de Pesquisa da Microsoft.
 
 ## <a name="staying-with-the-classic-search-experience"></a>Permanecendo com a experiência de pesquisa clássica
 
@@ -44,7 +44,7 @@ Se seu site atender aos critérios listados acima, mas você não quiser que ele
 
 Você pode usar esse comando a qualquer momento, antes ou depois que a opção acontecer, portanto, é fácil voltar à experiência de pesquisa que você tinha anteriormente.
 
-Para executar os comandos abaixo, você usará o PowerShell com extensões pnP do PowerShell do SharePoint. Você pode instalar e saber mais sobre como começar [aqui](/powershell/sharepoint/sharepoint-pnp/sharepoint-pnp-cmdlets?view=sharepoint-ps). Você fará login no seu site ou conjunto de sites usando este comando:
+Para executar os comandos abaixo, você usará o PowerShell com SharePoint extensões pnP do PowerShell. Você pode instalar e saber mais sobre como começar [aqui](/powershell/sharepoint/sharepoint-pnp/sharepoint-pnp-cmdlets?view=sharepoint-ps). Você fará login no seu site ou conjunto de sites usando este comando:
 
 ```powershell
 Connect-PnPOnline -Url <yoursiteurl> -UseWebLogin
@@ -65,9 +65,9 @@ Set-PnPSearchSettings -Scope Site -SearchBoxInNavBar ModernOnly
 # ModernOnly | Inherit
 ```
 
-## <a name="opting-into-microsoft-search"></a>Opting into Microsoft Search
+## <a name="opting-into-microsoft-search"></a>Opting into Pesquisa da Microsoft
 
-Para os sites que não atendem aos critérios listados acima ou para sites específicos em um conjunto de sites que optaram por permanecer no clássico, você pode habilitar manualmente a experiência da Pesquisa da Microsoft.
+Para os sites que não atendem aos critérios listados acima ou para sites específicos em um conjunto de sites que optaram por permanecer no clássico, você pode habilitar manualmente a experiência de Pesquisa da Microsoft.
 
 Para alterar essa configuração para um site específico, você pode usar este comando:
 
@@ -84,4 +84,4 @@ Set-PnPSearchSettings -Scope Site -SearchBoxInNavBar AllPages
 ```
 
 > [!NOTE]
-> Você pode habilitar manualmente a Pesquisa da Microsoft somente para um Site de Equipe ou Site de Publicação (ids de modelo que contenham "STS", "CMSPUBLISHING", "BLANKINTERNET" e "GROUP").
+> Você pode habilitar manualmente Pesquisa da Microsoft somente para um Site de Equipe ou Site de Publicação (ids de modelo que contenham "STS", "CMSPUBLISHING", "BLANKINTERNET" e "GROUP").

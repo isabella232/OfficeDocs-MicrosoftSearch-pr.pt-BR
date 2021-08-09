@@ -1,5 +1,5 @@
 ---
-title: Gerenciando a caixa de pesquisa em sites do SharePoint
+title: Gerenciando a caixa de pesquisa em SharePoint sites
 ms.author: keremy
 author: jeffkizn
 manager: parulm
@@ -11,24 +11,24 @@ search.appverid:
 - BFB160
 - MET150
 - MOE150
-description: Como personalizar a experiência da caixa de pesquisa em sites do SharePoint
-ms.openlocfilehash: c58e7cf0a47d22fa9c6fd3abd93cc97087625690
-ms.sourcegitcommit: 5df252e6d0bd67bb1b4c59418aceca8369f5fe42
+description: Como personalizar a experiência da caixa de pesquisa em SharePoint sites
+ms.openlocfilehash: 151b5b066cd0164d4f7689192c37867d75b6eb6c57c82588cee654871c5e32b0
+ms.sourcegitcommit: 71ac2a38971ca4452d1bddfc773ff8f45e1ffd77
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51031355"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54533577"
 ---
-# <a name="search-box-settings-on-sharepoint-sites"></a>Configurações da caixa de pesquisa em sites do SharePoint
+# <a name="search-box-settings-on-sharepoint-sites"></a>Configurações da caixa de pesquisa em SharePoint sites
 
-Uma das várias maneiras de a Pesquisa da Microsoft ser personalizada em sites do SharePoint é adaptar como a caixa de pesquisa na barra de navegação do pacote funciona em sites do SharePoint para melhor se ajustar às suas necessidades.
+Uma das várias maneiras Pesquisa da Microsoft pode ser personalizada em sites SharePoint é adaptar como a caixa de pesquisa na barra de navegação do pacote funciona em sites SharePoint para melhor se ajustar às suas necessidades.
 
-Para outras opções de personalização, consulte Changing the Microsoft Search results page to add [custom verticals, result types and layouts](customize-search-page.md), and [Creating a custom search results page](create-search-results-pages.md).
+Para outras opções de personalização, consulte [Changing the Pesquisa da Microsoft results page to add custom verticals, result types and layouts](customize-search-page.md), and Creating a custom search results [page](create-search-results-pages.md).
 
 > [!NOTE]
 > A caixa de pesquisa da barra de navegação do pacote não está disponível para todos os clientes no momento, mas essas opções ainda podem ser definidas agora e terão efeito quando ela se tornar disponível.
 
-Para as tarefas listadas abaixo, você usará o PowerShell com extensões pnP do PowerShell do SharePoint. Você pode instalar e saber mais sobre como começar [aqui](/powershell/sharepoint/sharepoint-pnp/sharepoint-pnp-cmdlets?view=sharepoint-ps). Você entrará em seu site ou conjunto de sites usando este comando:
+Para as tarefas listadas abaixo, você usará o PowerShell com SharePoint extensões PnP PowerShell. Você pode instalar e saber mais sobre como começar [aqui](/powershell/sharepoint/sharepoint-pnp/sharepoint-pnp-cmdlets?view=sharepoint-ps). Você entrará em seu site ou conjunto de sites usando este comando:
 
 ```powershell
 Connect-PnPOnline -Url <yoursiteurl> -UseWebLogin
@@ -37,7 +37,7 @@ Connect-PnPOnline -Url <yoursiteurl> -UseWebLogin
 
 ## <a name="changing-the-scope-of-search"></a>Alterando o escopo da pesquisa
 
-Quando você cria um novo site no SharePoint Online hoje e digita na caixa de pesquisa, é levado para a página de resultados da Pesquisa da Microsoft. Esta página mostra os resultados do site atual por padrão e permite expandir o escopo da pesquisa para o hub ao qual o site atual está associado (se houver um) ou para toda a organização.
+Quando você cria um novo site no SharePoint Online hoje e digita na caixa de pesquisa, é levado para a página de Pesquisa da Microsoft resultados. Esta página mostra os resultados do site atual por padrão e permite expandir o escopo da pesquisa para o hub ao qual o site atual está associado (se houver um) ou para toda a organização.
 
 O escopo que a caixa de pesquisa usa, por padrão, depende do tipo de site.
 
@@ -84,11 +84,11 @@ Há vários pontos a considerar:
 
 * Essa configuração só se aplica à caixa de pesquisa na barra de navegação do pacote. Ele não se aplica às caixas de pesquisa que estão na página ou às caixas de pesquisa em páginas clássicas.
 
-* Depois de desabilitar a caixa de pesquisa na barra de navegação, se quiser a funcionalidade de pesquisa em seu site, será preciso fornecer você mesmo usando uma Web Part personalizada ou uma extensão da Estrutura do SharePoint.
+* Depois de desabilitar a caixa de pesquisa na barra de navegação, se quiser a funcionalidade de pesquisa em seu site, será preciso fornecer você mesmo usando uma Web Part personalizada ou uma extensão Estrutura do SharePoint.
 
-* Essa solução também removerá a caixa de pesquisa de listas e bibliotecas do seu site. Sua solução de pesquisa personalizada precisará considerar pesquisas contextuais para listas e bibliotecas do SharePoint, além da pesquisa em todo o site.
+* Essa solução também removerá a caixa de pesquisa de listas e bibliotecas do seu site. Sua solução de pesquisa personalizada precisará considerar pesquisas contextuais para SharePoint listas e bibliotecas, além da pesquisa em todo o site.
 
-* Se você aplicar a configuração ao site raiz do seu domínio, a página inicial do SharePoint também interromperá a exibição da caixa de pesquisa.
+* Se você aplicar a configuração ao site raiz do seu domínio, SharePoint página inicial também interromperá a exibição da caixa de pesquisa.
 
 ## <a name="changing-the-hint-displayed-in-the-search-box"></a>Alterar a dica exibida na caixa de pesquisa
 

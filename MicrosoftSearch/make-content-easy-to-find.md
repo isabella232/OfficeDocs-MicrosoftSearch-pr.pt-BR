@@ -12,30 +12,30 @@ search.appverid:
 - MET150
 - MOE150
 description: Crie indicadores, locais e itens de P e R para facilitar a localização do conteúdo da sua organização.
-ms.openlocfilehash: 0617108d0bdcefe417290a1a3ccf37ad50eb2415
-ms.sourcegitcommit: 5df252e6d0bd67bb1b4c59418aceca8369f5fe42
+ms.openlocfilehash: 0cf3152e7fb47f0cb1b1fa3fe0df43645a2536e171fd8211050a1773ec86a490
+ms.sourcegitcommit: 71ac2a38971ca4452d1bddfc773ff8f45e1ffd77
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51031589"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54532935"
 ---
 # <a name="make-content-easy-to-find"></a>Tornar o conteúdo fácil de encontrar
 
-A Pesquisa da Microsoft ajuda os usuários a encontrar conteúdo relevante. É uma maneira segura de pesquisar tanto a intranet quanto o conteúdo da Web. Esse tipo de integração entre a Web e as organizações só está disponível na Microsoft. Com a Pesquisa da Microsoft, os administradores podem usar o conhecimento de uma organização para facilitar a busca de conteúdo relevante para os usuários. 
+A Pesquisa da Microsoft ajuda os usuários a encontrar conteúdo relevante. É uma maneira segura de pesquisar conteúdo da Intranet e da Web. Esse tipo de integração entre a web e as organizações só está disponível na Microsoft. Com a Pesquisa da Microsoft, os administradores podem usar o conhecimento de uma organização para facilitar a localização de conteúdo relevante para os usuários. 
 
 ## <a name="components-that-find-content"></a>Componentes que encontram conteúdo
-Na Pesquisa da Microsoft, os administradores criam [Indicadores,](manage-bookmarks.md) [PowerApps,](integrate-powerapps.md) [Q&A](manage-qas.md)e [Locais](manage-locations.md) que facilitam a localização do conteúdo. Cada um desses componentes de pesquisa inclui um título, uma URL e um conjunto de palavras-chave que o acionam.
+Em Pesquisa da Microsoft, os administradores criam [Indicadores,](manage-bookmarks.md) [PowerApps,](integrate-powerapps.md) [Q&A](manage-qas.md)e [Locais](manage-locations.md) que facilitam a localização do conteúdo. Cada um desses componentes de pesquisa inclui um título, uma URL e um conjunto de palavras-chave que o acionam.
 
 ## <a name="bookmarks"></a>Indicadores
 Você pode criar [Indicadores](manage-bookmarks.md) em apenas algumas etapas. Cada indicador inclui um título, uma URL e um conjunto de palavras-chave que o acionam. Um indicador pode ter várias palavras-chave e vários indicadores podem compartilhar a mesma palavra-chave. Mas palavras-chave reservadas não podem ser compartilhadas. Quando você cria ou modifica um indicador, o índice de pesquisa é atualizado e o indicador fica disponível imediatamente para os usuários.
 
-Se sua organização **promoveu resultados** definidos no [SharePoint,](http://sharepoint.com/)você pode importar esses resultados para a Pesquisa da Microsoft. Com os resultados promovidos, você pode preencher rapidamente os resultados da pesquisa, disponibilizar o conteúdo para os usuários e tornar a Pesquisa da Microsoft mais eficaz assim que você o configurar. Recomendamos que você use os resultados promovidos do SharePoint como referência para entender como nomear e criar resultados de pesquisa relevantes. 
+Se sua organização **promoveu resultados** definidos em SharePoint [,](http://sharepoint.com/)você pode importar esses resultados para Pesquisa da Microsoft. Com os resultados promovidos, você pode preencher rapidamente os resultados da pesquisa, disponibilizar o conteúdo para os usuários e torná-lo Pesquisa da Microsoft mais eficaz assim que você o configurar. Recomendamos que você use os resultados promovidos do SharePoint como referência para entender como nomear e criar resultados de pesquisa relevantes. 
 
 ### <a name="add-or-edit-bookmarks-by-using-browser-extensions"></a>Adicionar ou editar Indicadores usando extensões do navegador
 Os administradores de pesquisa podem criar conteúdo de pesquisa facilmente usando extensões de navegador. Para adicionar o site como um indicador, instale a extensão do navegador. Em seguida, vá para o site e adicione-o como um indicador. Para saber mais, confira [Gerenciar indicadores](manage-bookmarks.md).
 
-Atualmente, as extensões do navegador estão disponíveis para [o Microsoft Edge](https://www.microsoft.com/windows/microsoft-edge) e o Google [Chrome](https://www.google.com): 
-- Para baixar a extensão de Borda, vá para a [Microsoft Store](https://www.microsoft.com/p/microsoft-search-content-creator/9nrqdbcbwq55?activetab=pivot:overviewtab).
+Atualmente, as extensões do navegador estão disponíveis para o [Microsoft Edge](https://www.microsoft.com/windows/microsoft-edge) e [o Google Chrome](https://www.google.com): 
+- Para baixar a extensão de Borda, vá para o [Microsoft Store](https://www.microsoft.com/p/microsoft-search-content-creator/9nrqdbcbwq55?activetab=pivot:overviewtab).
 - Para baixar a extensão do Chrome, vá para o [Chrome Web Store](https://chrome.google.com/webstore/detail/microsoft-search-content/nocnablpaoeecfmfnjoheefkogmleipm).
 
 ## <a name="powerapps"></a>PowerApps
@@ -50,7 +50,7 @@ Com [o PowerApps,](integrate-powerapps.md)você pode criar aplicativos de negóc
 ### <a name="add-a-powerapp-to-a-bookmark"></a>Adicionar um PowerApp a um indicador
 
 1. Encontre a [ID do aplicativo](/powerapps/maker/canvas-apps/get-sessionid#get-an-app-id) para o PowerApp que você deseja adicionar.
-1. No Centro de administração [](https://admin.microsoft.com)do Microsoft 365, acesse **Configurações**  >  **da Pesquisa da Microsoft.** 
+1. No centro Microsoft 365 [de administração,](https://admin.microsoft.com)vá **para Configurações**  >  **Pesquisa da Microsoft**. 
 1. Adicione um indicador ou encontre um indicador existente ao qual você deseja adicionar um PowerApp.
 1. Em **Configurações de indicador,** selecione **Power App**. Em seguida, **selecione Adicionar um Aplicativo do Power**.
 1. Insira a **ID do aplicativo**. A altura e a largura se ajustam automaticamente. [Indicadores podem](manage-bookmarks.md) dar suporte a orientações de retrato e paisagem, mas atualmente o tamanho não pode ser alterado. Para facilitar o teste, a visualização do indicador mostra um PowerApp totalmente funcional.
@@ -86,11 +86,11 @@ As marcas sem suporte são ignoradas ou exibidas como texto. Certifique-se de vi
 > [!Note]
 > Não é possível importar itens Q&A se houver erros no arquivo de modelo. Para evitar erros, certifique-se de que o arquivo de importação está formatado corretamente e ele inclui todas as informações necessárias. Confira mais informações sobre como evitar [erros de importação.](#prevent-import-errors)
 
-## <a name="locations"></a>Locais
+## <a name="locations"></a>Localizações
 
-Com [Locais](manage-locations.md), os usuários podem localizar endereços e localizar os edifícios da sua organização. O **recurso Locais** fornece um local preciso para escritórios, campus e edifícios, bem como direções e navegação. Para melhores resultados, os administradores precisam adicionar todos os locais importantes de suas organizações à Pesquisa da Microsoft. Ao [contrário de Indicadores](manage-bookmarks.md) e [&A](manage-qas.md), o índice Locations não é atualizado imediatamente. Pode levar várias horas para que locais novos ou alterados apareçam nos resultados da pesquisa.
+Com [Locais](manage-locations.md), os usuários podem localizar endereços e localizar os edifícios da sua organização. O **recurso Locais** fornece um local preciso para escritórios, campus e edifícios, bem como direções e navegação. Para melhores resultados, os administradores precisam adicionar todos os locais importantes de suas organizações para Pesquisa da Microsoft. Ao [contrário de Indicadores](manage-bookmarks.md) e [&A](manage-qas.md), o índice Locations não é atualizado imediatamente. Pode levar várias horas para que locais novos ou alterados apareçam nos resultados da pesquisa.
 
-## <a name="get-started"></a>Começar
+## <a name="get-started"></a>Introdução
 Para descobrir do que os usuários precisam e facilitar a descoberta dessas informações, experimente alguns desses métodos:
 
 - Use os registros de pesquisa da intranet para saber quais sites e páginas recebem mais tráfego.
@@ -110,7 +110,7 @@ Em uma organização, os usuários pesquisam por um intervalo de tópicos simple
 A maioria dos administradores de pesquisa não tem conhecimento específico sobre cada assunto. Para dimensionar a quantidade de conteúdo disponível sem ajuda de recursos externos, procure conhecimento e experiência de outras pessoas em sua organização.
 
 ### <a name="get-content-from-smes"></a>Obter conteúdo de SMEs
-Aproveite os especialistas em assunto (SMEs) em sua organização, incluindo especialistas de RH, suporte, vendas, tecnologia e outras áreas-chave. As SMEs podem contribuir com conteúdo diretamente se você adicioná-los como editores da Pesquisa da Microsoft. 
+Aproveite os especialistas em assunto (SMEs) em sua organização, incluindo especialistas de RH, suporte, vendas, tecnologia e outras áreas-chave. As SMEs podem contribuir com conteúdo diretamente se você adicioná-los como Pesquisa da Microsoft editores. 
 
 ### <a name="involve-your-users"></a>Envolva seus usuários
 Peça aos usuários para sugerir recursos para os quais criar indicadores. Peça também que os usuários reportem erros como links quebrados ou inválidos.
@@ -119,7 +119,7 @@ Peça aos usuários para sugerir recursos para os quais criar indicadores. Peça
 Para adicionar ou editar indicadores [individuais](manage-bookmarks.md)ou em massa, [P&A](manage-qas.md)e [Localizações,](manage-locations.md)dê as etapas nas seções a seguir. 
 
 ### <a name="add-or-edit-a-single-bookmark-qa-or-location-component"></a>Adicionar ou editar um único indicador, P&A ou componente de local
-1. No Centro de administração [](https://admin.microsoft.com)do Microsoft 365, acesse **Configurações**  >  **da Pesquisa da Microsoft.** Selecione a guia nomeada do componente. A **guia Indicadores** é selecionada por padrão.
+1. No centro Microsoft 365 [de administração,](https://admin.microsoft.com)vá **para Configurações**  >  **Pesquisa da Microsoft**. Selecione a guia nomeada do componente. A **guia Indicadores** é selecionada por padrão.
 1. Para adicionar um componente, selecione **Adicionar novo**. 
 1. Para editar um componente, selecione o indicador na lista de componentes relevante. 
 1. À medida que você adiciona ou edita as informações, a visualização é atualizada automaticamente.
@@ -130,13 +130,13 @@ Com os **recursos de importação** **e exportação,** os administradores de pe
 Os recursos de importação e exportação fornecem estas funções:
 - **Adicionar em massa**. Adicione detalhes no arquivo de modelo do componente e importe-o.
 - **Edição em massa**. Exporte componentes para um arquivo CSV, edite os detalhes do indicador no CSV exportado e importe o CSV atualizado.
-- **Importar sites promovidos do [SharePoint](http://sharepoint.com/)**. Esse recurso só se aplica [a Indicadores](manage-bookmarks.md).
+- **Importar sites promovidos [de SharePoint](http://sharepoint.com/)**. Esse recurso só se aplica [a Indicadores](manage-bookmarks.md).
 - **Backup**. Exportar componentes para um arquivo CSV.
 
 Para importar ou exportar componentes, tome estas etapas:
 1. No canto superior direito da guia nomeada do componente, selecione **Importar**. 
 1. Para baixar todos os componentes existentes em um arquivo CSV, selecione **Exportar**.
-1. No painel direito, escolha a opção para importar usando um arquivo CSV ou do [SharePoint](http://sharepoint.com/).
+1. No painel direito, escolha a opção para importar usando um arquivo CSV ou de [SharePoint](http://sharepoint.com/).
 1. Para obter uma lista dos campos e detalhes necessários, baixe o arquivo de modelo do componente. 
 1. Adicione ou edite detalhes do componente no arquivo de modelo. Em seguida, salve-o em seu computador. 
 1. No painel Importação **do** componente, selecione **Procurar**. Em seguida, selecione o arquivo CSV que você deseja e selecione **Importar**.
@@ -167,7 +167,7 @@ Para evitar erros, certifique-se de que o arquivo de importação está formatad
 Títulos e descrições conectados ajudam os usuários a determinar se os resultados respondem à consulta de pesquisa. Bons títulos e descrições refletem a finalidade principal do resultado. Um exemplo é o título **Childcare benefits** with the description *Learn about benefits to help pay childcare costs*. Com esses dados conectados, os usuários que pesquisam por **assistência** à criança podem encontrar benefícios de suporte monetário e obter um link para saber mais.
 
 ### <a name="keywords"></a>Palavras-chave
-Com palavras-chave, os usuários em sua organização podem pesquisar e encontrar conteúdo relevante. Você precisa associar termos de palavra-chave aos resultados de pesquisa relacionados. A Pesquisa da Microsoft sugere palavras-chave com base no título e NAL do seu conteúdo. Para identificar mais palavras-chave, obter respostas para estas perguntas:
+Com palavras-chave, os usuários em sua organização podem pesquisar e encontrar conteúdo relevante. Você precisa associar termos de palavra-chave aos resultados de pesquisa relacionados. Pesquisa da Microsoft sugestões de palavras-chave com base no título e URL do seu conteúdo. Para identificar mais palavras-chave, obter respostas para estas perguntas:
 
 1. **Quais termos de pesquisa podem encontrar as informações identificadas?** Consulte qualquer terminologia existente em sua organização, bem como variações relacionadas, acrônimos, assuntos e tópicos.
 1. **Quais variações ou palavras as pessoas usam para falar sobre essas informações?** Peça à sua equipe de suporte para fornecer essas palavras-chave.
@@ -183,7 +183,7 @@ Um exemplo é um indicador para um site para enviar suas horas. Se **o tempo de*
 Se você quiser que os usuários encontrem conjuntos de conteúdo relacionado quando pesquisam um termo específico, atribua a mesma palavra-chave a todo o conteúdo relacionado. Um exemplo é uma pesquisa de processos e ferramentas em torno de alterações de status de vida. Para agrupar respostas sobre a atualização de benefícios, informações fiscais e alterações de nome e alias, inclua uma palavra-chave como **o casamento**.
 
 ### <a name="search-settings"></a>Configurações de pesquisa
-Com as configurações de pesquisa, você pode adaptar seu conteúdo e direcionar grupos específicos de usuários. Essas configurações da Pesquisa da Microsoft controlam quando um resultado de pesquisa é exibido e quem pode vê-lo:
+Com as configurações de pesquisa, você pode adaptar seu conteúdo e direcionar grupos específicos de usuários. Essas Pesquisa da Microsoft controle de configurações quando um resultado de pesquisa é exibido e quem pode vê-lo:
 
 - **Data**. Para controlar quando o conteúdo está disponível ou indisponível, de definir uma data de início e uma data de término. Por exemplo, o material sensível ao tempo aparece nos resultados da pesquisa quando relevante.
 - **País ou região**. Você pode selecionar países ou regiões, portanto, somente os usuários nesses locais veem determinado conteúdo. Por exemplo, informações específicas do país aparecem apenas nos resultados da pesquisa nesses países.
@@ -209,7 +209,7 @@ Informações autoritativas, como [Indicadores](manage-bookmarks.md) e [&A,](man
 
 ## <a name="get-insights-about-bookmarks-qa-and-locations"></a>Obter informações sobre indicadores,&A e Locais
 
-A Pesquisa da Microsoft mostra quantos [Indicadores](manage-bookmarks.md), [Q&A](manage-qas.md)e [Locais](manage-locations.md) são publicados, agendados ou sugeridos. O [painel Insights](./usage-reports.md) mostra indicador, Q&A e totais de local por status:
+Pesquisa da Microsoft mostra quantos [Indicadores,](manage-bookmarks.md)Q [&A](manage-qas.md)e [Locais](manage-locations.md) são publicados, agendados ou sugeridos. O [painel Insights mostra](./usage-reports.md) indicador, P&A e totais de localização por status:
 
 - **Publicado:** o número de resultados publicados que estão disponíveis para os usuários.
 - **Agendado:** o número de resultados agendados no pipeline de publicação.
@@ -219,12 +219,12 @@ Indicadores [sugeridos,](manage-bookmarks.md) [Q&A](manage-qas.md)e [Locais](man
 
 ### <a name="review-top-search-queries"></a>Examine as principais consultas de pesquisa
 
-Para descobrir quais pesquisas geraram mais impressões nos últimos 90 dias, revise suas principais consultas de pesquisa. *Impressão* significa quantas vezes uma página foi exibida nos resultados da pesquisa. O **cartão Principais Consultas** no painel [Insights](./usage-reports.md) mostra as 25 principais pesquisas de usuário para cada tipo de resultado, o número total de pesquisas e a taxa de cliques (CTR). Com este relatório, você pode identificar o volume da consulta de pesquisa e determinar consultas com atividade de pesquisa alta e baixa.
+Para descobrir quais pesquisas geraram mais impressões nos últimos 90 dias, revise suas principais consultas de pesquisa. *Impressão* significa quantas vezes uma página foi exibida nos resultados da pesquisa. O **cartão Principais Consultas** no painel Insights mostra as 25 principais pesquisas de usuário para cada tipo de resultado, o número total de pesquisas e [a](./usage-reports.md) taxa de cliques (CTR). Com este relatório, você pode identificar o volume da consulta de pesquisa e determinar consultas com atividade de pesquisa alta e baixa.
 
 A contagem baixa de pesquisa pode indicar a insatisfação do usuário. Os usuários não estão procurando por esse conteúdo ou estão usando palavras-chave diferentes para encontrá-lo. A CTR mostra com que frequência os usuários selecionam os resultados promovidos e indica qual a utilidade das suas regras e resultados de consulta para os usuários. Uma CTR baixa indica que os usuários encontram o conteúdo, mas não atendem às suas necessidades. Nesses casos, revise o conteúdo. Para alinhar o conteúdo às consultas de pesquisa, certifique-se de que ele corresponde aos títulos de pesquisa e atualização dos usuários, descrições e palavras-chave. 
 
 ### <a name="analyze-impressions-by-result-type"></a>Analise impressões por tipo de resultado
 
-Gráficos fáceis de ler no cartão de distribuição **Impressão** no painel [do Insights](./usage-reports.md) mostram impressões ao longo de vários quadros de tempo. A linha do tempo mostra o número de diário de impressões para um tipo de resultado. Com esses gráficos, você pode determinar qual tipo de resultado é usado com mais frequência ou com pouca frequência. O uso frequente de um determinado tipo de resultado não significa necessariamente que o tipo de resultado não seja bom. Apenas mostra como os usuários estão usando o resultado da pesquisa.
+Gráficos fáceis de ler no cartão de distribuição **Impression** no painel [Insights](./usage-reports.md) mostram impressões ao longo de vários quadros de tempo. A linha do tempo mostra o número de diário de impressões para um tipo de resultado. Com esses gráficos, você pode determinar qual tipo de resultado é usado com mais frequência ou com pouca frequência. O uso frequente de um determinado tipo de resultado não significa necessariamente que o tipo de resultado não seja bom. Apenas mostra como os usuários estão usando o resultado da pesquisa.
 
  Se um determinado tipo de resultado for preferido pelos usuários, você poderá criar mais resultados de pesquisa do mesmo tipo. Para garantir que as palavras-chave sejam apropriadas, revise as palavras-chave dos tipos de resultados com baixo uso. Com este relatório, você também pode ver alterações no comportamento do usuário ao longo do tempo.
