@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 ROBOTS: NoIndex
 description: Configurar o conector de compartilhamento Graph arquivo para Pesquisa da Microsoft
-ms.openlocfilehash: af4c3996fdc8ac753404f4b4519175a9054fa18bce3862b0c5841c7bd5369cdd
-ms.sourcegitcommit: 71ac2a38971ca4452d1bddfc773ff8f45e1ffd77
+ms.openlocfilehash: 387a04c435045d620f8e35aa9fbdd37e23da32a61489d0102dc7bda09920e980
+ms.sourcegitcommit: 07d04a81d30b04d1f7e3c556bd711dc7efd710d9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54533016"
+ms.lasthandoff: 08/10/2021
+ms.locfileid: "57823007"
 ---
 <!---Previous ms.author: rusamai --->
 
@@ -64,7 +64,27 @@ Na página **Conexão para fonte de** dados, selecione **Compartilhamento** de a
 
 Quando o conector tenta rastrear um arquivo, o campo "última hora de acesso" em seus metadados é atualizado. Se você depender desse campo para qualquer solução de arquivamento e backup e não quiser atualizá-lo quando o conector acessá-lo, você poderá configurar essa opção na página Configurações **Avançadas.**
 
-## <a name="step-4-manage-search-permissions"></a>Etapa 4: Gerenciar permissões de pesquisa
+## <a name="step-4-limits-for-file-indexing"></a>Etapa 4: Limites para indexação de arquivos
+
+Ao configurar uma conexão de Compartilhamento de Arquivos, o administrador teria a capacidade de limitar arquivos e pastas da indexação. Haveria várias maneiras de fazer isso:
+
+#### <a name="based-on-file-types"></a>Com base nos tipos de arquivo
+
+Somente o conteúdo textual desses formatos é indexado: DOC, DOCM, DOCX, DOT, DOTX, EML, HTML, MHT, MHTML, MSG, NWS, OBD, OBT, ODP, ODS, ODT, ONE, PDF, POT, PPS, PPT, PPTM, PPTX, TXT, XLB, XLC, XLSB, XLS, XLSX, XLT, XLXM, XML, XPS. Para arquivos multimídia e arquivos que não pertencem a esse formato, os únicos metadados são indexados.
+
+#### <a name="based-on-last-modified-date-or-number-of-days-since-last-modification"></a>Com base na última data ou número de dias modificados desde a última modificação
+
+#### <a name="full-network-path-of-filefolder-or-regular-expression-to-limit-indexing"></a>Caminho completo da rede de arquivo/pasta ou expressão regular para limitar a indexação 
+
+No caminho da rede, use o caractere de escape ( \\ ) antes de caracteres especiais como \\ . Exemplo: para o caminho \\ \\ CONTOSO \\ FILE \\ SHAREDFOLDER, a maneira correta de entrada é \\ \\ \\ \\ CONTOSO \\ \\ FILE \\ \\ SHAREDFOLDER
+
+As regras para escrever expressão regular podem ser encontradas [aqui](https://docs.microsoft.com/dotnet/standard/base-types/regular-expression-language-quick-reference)
+
+O administrador também estaria tendo a capacidade de dar uma exceção à regra de limite. A prioridade da regra de exceção irá sobressuar as regras de Limite. Da mesma forma, a exceção pode ser definida dando caminho de pasta/arquivo para os itens que desejamos incluir na indexação.
+
+![Limites e Exceções](media/file-connector/ExclusionRule.png)
+
+## <a name="step-5-manage-search-permissions"></a>Etapa 5: Gerenciar permissões de pesquisa
 
 Você pode restringir a permissão para pesquisar qualquer arquivo com base em Listas de Controle do Share Access ou Listas de Controle de Acesso do Sistema de Arquivos de Nova Tecnologia (NTFS), selecionando a opção desejada na página Gerenciar permissões **de** pesquisa. As contas de usuário e os grupos fornecidos nessas Listas de Controle de Acesso devem ser gerenciados pelo Active Directory (AD). Se você estiver usando qualquer outro sistema para gerenciamento de contas de usuário, poderá selecionar a opção "todos", que permite que os usuários pesquisem todos os arquivos sem restrições de acesso. No entanto, quando os usuários tentam abrir o arquivo, os controles de acesso definidos na origem se aplicam.
 
@@ -74,22 +94,22 @@ Você pode escolher Compartilhar ACLs somente se o caminho de compartilhamento f
 
 ![Advanced_sharing](media/file-connector/file-advanced-sharing.png)
 
-## <a name="step-5-assign-property-labels"></a>Etapa 5: Atribuir rótulos de propriedade
+## <a name="step-6-assign-property-labels"></a>Etapa 6: Atribuir rótulos de propriedade
 
 Siga as instruções [gerais de instalação](./configure-connector.md).
 <!---If the above phrase does not apply, delete it and insert specific details for your data source that are different from general setup instructions.-->
 
-## <a name="step-6-manage-schema"></a>Etapa 6: Gerenciar esquema
+## <a name="step-7-manage-schema"></a>Etapa 7: Gerenciar esquema
 
 Siga as instruções [gerais de instalação](./configure-connector.md).
 <!---If the above phrase does not apply, delete it and insert specific details for your data source that are different from general setup instructions.-->
 
-## <a name="step-7-choose-refresh-settings"></a>Etapa 7: Escolher configurações de atualização
+## <a name="step-8-choose-refresh-settings"></a>Etapa 8: Escolher configurações de atualização
 
 Siga as instruções [gerais de instalação](./configure-connector.md).
 <!---If the above phrase does not apply, delete it and insert specific details for your data source that are different from general setup instructions.-->
 
-## <a name="step-8-review-connection"></a>Etapa 8: Revisar conexão
+## <a name="step-9-review-connection"></a>Etapa 9: Analisar conexão
 
 Siga as instruções [gerais de instalação](./configure-connector.md).
 <!---If the above phrase does not apply, delete it and insert specific details for your data source that are different from general setup 
