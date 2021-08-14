@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 ROBOTS: NoIndex
 description: Configurar o conector de SQL Graph Oracle para Pesquisa da Microsoft.
-ms.openlocfilehash: 5c45998796a606c61f1fa4a63693fe7a32bb8da7a5267bd1456452ed4872dc84
-ms.sourcegitcommit: 71ac2a38971ca4452d1bddfc773ff8f45e1ffd77
+ms.openlocfilehash: 21585d1d60e5dcd73a45a3ccda151fbb144e85eb
+ms.sourcegitcommit: 5151bcd8fd929ef37239b7c229e2fa33b1e0e0b7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54533424"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58236019"
 ---
 <!---Previous ms.author:vivg --->
 
@@ -94,9 +94,9 @@ A tabela abaixo resume os tipos de dados suportados pelo conector SQL Oracle. A 
 | Datatype de número | NUMBER(p,0) | int64 (para p <= 18) <br> double (para p > 18) |
 | Datatype de número de ponto flutuante | NUMBER(p,s) <br> FLOAT(p) | double |
 | Datatype de data | DATA <br> TIMESTAMP <br> TIMESTAMP(n) | datetime |
-| Tipo de dados de caractere | CHAR(n) <br> VARCHAR <br> VARCHAR2 <br> Longas <br> CLOB <br> NCLOB | string |
-| Tipo de dados de caractere unicode | NCHAR <br> NVARCHAR | string |
-| Tipo de dados RowID | ROWID <br> UROWID | string |
+| Tipo de dados de caractere | CHAR(n) <br> VARCHAR <br> VARCHAR2 <br> Longas <br> CLOB <br> NCLOB | cadeia de caracteres |
+| Tipo de dados de caractere unicode | NCHAR <br> NVARCHAR | cadeia de caracteres |
+| Tipo de dados RowID | ROWID <br> UROWID | cadeia de caracteres |
 
 Para qualquer outro tipo de dados atualmente não suportado diretamente, a coluna precisa ser explicitamente lançada para um tipo de dados com suporte.
 
@@ -174,7 +174,7 @@ Create your own verticals and result types, so end users can view search results
 
 To learn more about how to create your verticals and MRTs, see [Search results page customization](customize-search-page.md). -->
 
-## <a name="troubleshooting"></a>Solução de problemas
+## <a name="troubleshooting"></a>Solução de Problemas
 
 Abaixo está uma lista de erros comuns observados durante a configuração do conector e seus possíveis motivos.
 

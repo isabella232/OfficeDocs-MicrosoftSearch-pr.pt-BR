@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Configurar o conector Enterprise de sites Graph para Pesquisa da Microsoft
-ms.openlocfilehash: 7e308c8239fbc4ea0da5449731d25442490270f9d604a40944d17cd2bf367a0c
-ms.sourcegitcommit: 71ac2a38971ca4452d1bddfc773ff8f45e1ffd77
+ms.openlocfilehash: 002a1504915c2c882492c894595e39598c692bcf
+ms.sourcegitcommit: 5151bcd8fd929ef37239b7c229e2fa33b1e0e0b7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54533071"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58235935"
 ---
 <!---Previous ms.author: monaray --->
 
@@ -131,7 +131,7 @@ O Enterprise de sites só oferece suporte a uma atualização completa. Isso sig
 Siga as instruções [gerais de instalação](./configure-connector.md).
 <!---If the above phrase does not apply, delete it and insert specific details for your data source that are different from general setup instructions.-->
 
-## <a name="troubleshooting"></a>Solução de problemas
+## <a name="troubleshooting"></a>Solução de Problemas
 
 Ao ler o conteúdo do site, o rastreamento pode encontrar alguns erros de origem, que são representados pelos códigos de erro detalhados abaixo. Para obter mais informações sobre os tipos de erros, vá para a página de detalhes **de** erro após selecionar a conexão. Selecione o **código de erro** para ver erros mais detalhados. Consulte Também Gerenciar [seu conector para](./manage-connector.md) saber mais.
 

@@ -12,18 +12,21 @@ search.appverid:
 - MET150
 - MOE150
 description: Gerenciar filtros personalizados
-ms.openlocfilehash: 339c7e96a00860a044a4e1af7382932f8e440e01b8b6d12445c24c1ea9b8cad0
-ms.sourcegitcommit: 71ac2a38971ca4452d1bddfc773ff8f45e1ffd77
+ms.openlocfilehash: 256cf9748aa3050aacf48c3562f6f84b4ba2e460
+ms.sourcegitcommit: 5151bcd8fd929ef37239b7c229e2fa33b1e0e0b7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54533124"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58235923"
 ---
 # <a name="manage-custom-filters"></a>Gerenciar filtros personalizados
 
 Você pode usar filtros para personalizar a Pesquisa da Microsoft experiência. Os filtros permitem que os usuários refinem rapidamente o conjunto de resultados de sua consulta de pesquisa.
 
 Um filtro personalizado pode ser criado dentro de uma propriedade de conexão vertical. Por exemplo, você pode criar um filtro **Publicado em** para a conexão ServiceNow dentro de uma vertical.
+
+> [!NOTE]
+> Os Filtros Personalizados estão atualmente em visualização para administradores e usuários finais em Versão Direcionada. Para obter mais informações sobre visualização, consulte [Conectores recursos de visualização](connectors-overview.md#what-are-the-preview-features).
 
 ## <a name="create-a-filter-in-an-organizational-level-vertical"></a>Criar um filtro em um nível organizacional vertical
 

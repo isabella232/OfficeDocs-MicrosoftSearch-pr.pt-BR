@@ -1,8 +1,8 @@
 ---
 title: Conector de Graph ServiceNow para Pesquisa da Microsoft
-ms.author: mecampos
-author: mecampos
-manager: umas
+ms.author: kam1
+author: TheKarthikeyan
+manager: harshkum
 audience: Admin
 ms.audience: Admin
 ms.topic: article
@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Configurar o conector de Graph ServiceNow para Pesquisa da Microsoft
-ms.openlocfilehash: 11abe956e624fa23cd19e2dfc2ae9a4af31a0f81407f6e2c5672723c5fdfc8b5
-ms.sourcegitcommit: 71ac2a38971ca4452d1bddfc773ff8f45e1ffd77
+ms.openlocfilehash: b07776dfd6e2ae8ae87b43ac61e9f92495311ca8
+ms.sourcegitcommit: 5151bcd8fd929ef37239b7c229e2fa33b1e0e0b7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54534127"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58235876"
 ---
 <!---Previous ms.author: kam1 --->
 
@@ -26,6 +26,10 @@ ms.locfileid: "54534127"
 # <a name="servicenow-graph-connector"></a>Conector de Graph ServiceNow
 
 Com o Microsoft Graph Connector para ServiceNow, sua organização pode indexar artigos de base de conhecimento visíveis para todos os usuários ou restritos com permissões de critérios de usuário em sua organização. Depois de configurar o conector e o conteúdo de índice do ServiceNow, os usuários finais podem pesquisar esses artigos de qualquer Pesquisa da Microsoft cliente.  
+
+Você também pode consultar [o vídeo a](https://www.youtube.com/watch?v=TVSkJpk1RiE) seguir para saber mais sobre Graph capacidade do Connector no gerenciamento de permissões de pesquisa.
+
+[![Gerenciando permissões de pesquisa no Microsoft Graph Connector for ServiceNow](https://img.youtube.com/vi/TVSkJpk1RiE/hqdefault.jpg)](https://www.youtube.com/watch?v=TVSkJpk1RiE)
 
 Este artigo é para Microsoft 365 administradores ou qualquer pessoa que configure, executa e monitore um conector de Graph ServiceNow. Ele complementa as instruções gerais fornecidas no [artigo Configurar seu](configure-connector.md) Graph conector. Se você ainda não tiver feito isso, leia todo o artigo Configurar o conector Graph para entender o processo de instalação geral.
 
@@ -43,7 +47,7 @@ Para se conectar aos dados serviceNow, você precisa da URL da instância **serv
 
 Junto com essa URL, você precisará de uma conta de serviço para configurar **a** conexão com ServiceNow, bem como para permitir Pesquisa da Microsoft atualizar periodicamente os artigos de conhecimento com base no cronograma de atualização. A conta de serviço precisará de acesso de leitura aos seguintes registros da tabela **ServiceNow** para rastrear várias entidades com êxito.
 
-**Recurso** | **Ler tabelas necessárias de acesso** | **Descrição**
+**Característica** | **Ler tabelas necessárias de acesso** | **Descrição**
 --- | --- | ---
 Artigos de conhecimento de índice disponíveis para <em>Todos</em> | kb_knowledge | Para rastrear artigos de conhecimento
 Permissões de critérios de usuário de indexação e suporte | kb_uc_can_read_mtom | Who pode ler essa base de dados de conhecimento
@@ -202,9 +206,6 @@ O conector ServiceNow dá suporte a permissões de pesquisa visíveis para **tod
 
 ServiceNow Graph Connector oferece suporte a permissões de critérios de usuário padrão sem scripts avançados. Quando o conector encontra um critério de usuário com script avançado, todos os dados que usam esses critérios de usuário não aparecerão nos resultados da pesquisa.
 
->[!NOTE]
->Para escolher Somente pessoas com acesso a essa fonte **de dados,** habilita as atualizações de versão direcionadas em seu locatário. Para saber mais sobre como configurar a versão direcionada, consulte [Setup Targeted release options.](/microsoft-365/admin/manage/release-options-in-office-365?preserve-view=true&view=o365-worldwide)
-
 Se você escolher **Somente** pessoas com acesso a essa fonte de dados, você precisará escolher se sua instância serviceNow tem usuários Azure Active Directory (AAD) provisionados ou usuários não AAD.
 
 >[!NOTE]
@@ -212,9 +213,6 @@ Se você escolher **Somente** pessoas com acesso a essa fonte de dados, você pr
 
 Se você tiver escolhido "não-AAD" para o tipo de identidade, consulte Mapear suas Identidades não [Azure AD](map-non-aad.md) para obter instruções sobre como mapear as identidades. 
 
-Você também pode consultar o vídeo a seguir para saber mais sobre como gerenciar permissões de pesquisa.
-
-[![Gerenciando permissões de pesquisa no Microsoft Graph Connector for ServiceNow](https://img.youtube.com/vi/TVSkJpk1RiE/hqdefault.jpg)](https://www.youtube.com/watch?v=TVSkJpk1RiE)
 
 ## <a name="step-6-assign-property-labels"></a>Etapa 6: Atribuir rótulos de propriedade
 
@@ -245,7 +243,7 @@ O Graph serviceNow tem as seguintes limitações em sua versão mais recente:
 - *Somente as pessoas com acesso a esse* recurso de fonte de dados na etapa Gerenciar permissões de Pesquisa estão no canal de lançamento direcionado e processam apenas as permissões de [critérios do](https://hi.service-now.com/kb_view.do?sysparm_article=KB0550924) usuário. Qualquer outro tipo de permissão de acesso não será aplicado nos resultados da pesquisa.
 - Os critérios do usuário com scripts avançados não são suportados na versão atual. Qualquer artigo de conhecimento com essa restrição de acesso será indexado com negação de acesso a todos, ou seja, eles não aparecerão nos resultados da pesquisa para qualquer usuário até que nós os suportemos.
 
-## <a name="troubleshooting"></a>Solução de problemas
+## <a name="troubleshooting"></a>Solução de Problemas
 Depois de publicar sua conexão, personalização da página de resultados, você pode revisar o status na guia **Fontes** de Dados no centro [de administração](https://admin.microsoft.com). Para saber como fazer atualizações e exclusões, consulte [Manage your connector](manage-connector.md).
 Você pode encontrar etapas de solução de problemas para problemas comumente vistos abaixo.
 ### <a name="1-unable-to-login-due-to-single-sign-on-enabled-servicenow-instance"></a>1. Não é possível fazer logon devido Sign-On serviceNow habilitada
@@ -266,5 +264,7 @@ PROD | América do Norte | 52.250.92.252/30, 52.224.250.216/30
 PROD | Europa | 20.54.41.208/30, 51.105.159.88/30 
 PROD | Pacífico Asiático | 52.139.188.212/30, 20.43.146.44/30 
 
+#### <a name="23-access-permissions-not-working-as-expected"></a>2.3. Permissões de acesso não funcionando conforme esperado
+Se observar discrepâncias nas permissões de acesso aplicadas aos resultados da pesquisa, verifique o gráfico de fluxo de acesso para os critérios do usuário no gerenciamento do acesso a bases de [conhecimento e artigos.](https://docs.servicenow.com/bundle/rome-servicenow-platform/page/product/knowledge-management/concept/user-access-knowledge.html)
 
 Se você tiver outros problemas ou quiser fornecer comentários, escreva para nós [aka.ms/TalkToGraphConnectors](https://aka.ms/TalkToGraphConnectors)

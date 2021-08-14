@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Configurar o conector do Azure SQL microsoft SQL Graph para Pesquisa da Microsoft.
-ms.openlocfilehash: ed9284de968921f40003e011348e3e6d4321b59d86207b6c7d054765c6837a1e
-ms.sourcegitcommit: 71ac2a38971ca4452d1bddfc773ff8f45e1ffd77
+ms.openlocfilehash: 9e8a9784c139873b4584f9be0a42e51f101bd7d6
+ms.sourcegitcommit: 5151bcd8fd929ef37239b7c229e2fa33b1e0e0b7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54533505"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58236030"
 ---
 <!---Previous ms.author: vivg --->
 
@@ -127,8 +127,8 @@ A tabela a seguir resume os SQL de dados que são suportados nos conectores MS S
 | Numérico exato | bit | booliano |
 | Numérico aproximado | flutuação <br> real | double |
 | Conjunto de caracteres | char <br> varchar <br> texto | string |
-| Cadeias de caracteres Unicode | nchar <br> nvarchar <br> ntext | string |
-| Outros tipos de dados | uniqueidentifier | string |
+| Cadeias de caracteres Unicode | nchar <br> nvarchar <br> ntext | cadeia de caracteres |
+| Outros tipos de dados | uniqueidentifier | cadeia de caracteres |
 
 Para qualquer outro tipo de dados atualmente não suportado diretamente, a coluna precisa ser explicitamente lançada para um tipo de dados com suporte.
 
@@ -210,7 +210,7 @@ Create your own verticals and result types, so end users can view search results
 
 To learn more about how to create your verticals and MRTs, see [Search results page customization](customize-search-page.md).-->
 
-## <a name="troubleshooting"></a>Solução de problemas
+## <a name="troubleshooting"></a>Solução de Problemas
 
 A seguir, um erro comum observado durante a configuração do conector e seu possível motivo.
 

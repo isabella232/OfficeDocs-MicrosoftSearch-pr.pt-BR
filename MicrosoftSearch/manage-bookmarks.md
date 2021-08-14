@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: c0c814d0-f7e4-444e-b18e-09beb45c9322
 description: Criar e atualizar indicadores e maneiras de editar em massa os resultados do indicador para Pesquisa da Microsoft
-ms.openlocfilehash: 1362082bf33bd4a30ff2ae76e2fa05a3ccd8962c4ef5f5cb15f41fc183d0c4b9
-ms.sourcegitcommit: 71ac2a38971ca4452d1bddfc773ff8f45e1ffd77
+ms.openlocfilehash: ed46583d857d97fa28773b64401ae4f85f88650a
+ms.sourcegitcommit: 5151bcd8fd929ef37239b7c229e2fa33b1e0e0b7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54533794"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58235958"
 ---
 # <a name="manage-bookmarks"></a>Gerenciar indicadores
 
@@ -54,11 +54,7 @@ Os administradores e editores de pesquisa podem adicionar indicadores no Centro 
 - **Rascunho**: Indicadores salvos como rascunhos não estão disponíveis para seus usuários. Use esse status se você ou outros participantes quiserem revisar ou atualizar indicadores antes de publicá-los.
 - **Agendado**: Indicadores que serão publicados na data e hora especificadas.
 
-Você pode usar a extensão do navegador Pesquisa da Microsoft criador de conteúdo para adicionar indicadores facilmente. Para instalar a extensão do navegador, vá para o site que você deseja adicionar como um indicador e clique em Adicionar na extensão.
-Instale a extensão para Borda e Chrome:
-
-- Para Chromium Borda ou Chrome: vá para o [Chrome Web Store](https://chrome.google.com/webstore/detail/microsoft-search-content/nocnablpaoeecfmfnjoheefkogmleipm) e adicione a extensão.
-- Para Borda herdados: vá para [o](https://www.microsoft.com/p/microsoft-search-content-creator/9nrqdbcbwq55?activetab=pivot:overviewtab) Microsoft Store e adicione a extensão.
+Você pode usar a extensão do navegador Pesquisa da Microsoft criador de conteúdo para adicionar indicadores facilmente. Basta ir para o site que você deseja adicionar como um indicador e clique em Adicionar na extensão. Para instalar a extensão para o Microsoft Edge ou o Google Chrome, vá para o [Chrome Web Store](https://chrome.google.com/webstore/detail/microsoft-search-content/nocnablpaoeecfmfnjoheefkogmleipm) e adicione-a ao navegador.
 
 ### <a name="import-sharepoint-results"></a>Importar SharePoint resultados
 

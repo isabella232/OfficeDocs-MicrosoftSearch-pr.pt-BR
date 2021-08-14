@@ -17,7 +17,7 @@
 ### [Galeria de conectores](connectors-gallery.md)
 ### Configurar conectores da Microsoft
 #### [Visão geral da configuração](configure-connector.md)
-#### [Configurar o agente de conector gráfico](on-prem-agent.md)
+#### [Configurar o agente de conector gráfico](graph-connector-agent.md)
 #### [Mapa de Identidades não-Microsoft Azure Active Directory](map-non-aad.md)
 #### [Mapa de Identidades Microsoft Azure Active Directory](map-aad.md)
 #### Informações específicas do conector
