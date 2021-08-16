@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Visão geral da configuração dos conectores do Graph pela Microsoft
-ms.openlocfilehash: 0c67081d3efab421b563e82dba506da85e65cb91d34b31f128f3bcff945c68a1
-ms.sourcegitcommit: 71ac2a38971ca4452d1bddfc773ff8f45e1ffd77
+ms.openlocfilehash: b08363421ed143eb32c112ef53ac47cff44722e0
+ms.sourcegitcommit: 8ac77db22002d47bb461222b81b7cfc1c15a72fb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54533292"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58340083"
 ---
 <!-- Previous ms.author: monaray -->
 
@@ -32,11 +32,12 @@ Este artigo mostra o processo básico necessário para configurar os conectores 
 1. [Adicionar um conector do Graph no Centro de administração do Microsoft 365](#step-1-add-a-graph-connector-in-the-microsoft-365-admin-center)
 2. [Dar um nome à conexão](#step-2-name-the-connection)
 3. [Definir as configurações de conexão](#step-3-configure-the-connection-settings)
-4. [Gerenciar as permissões de pesquisa](#step-4-manage-search-permissions)
-5. [Atribuir os rótulos de propriedade](#step-5-assign-property-labels)
-6. [Gerenciar esquema](#step-6-manage-schema)
-7. [Atualizar as configurações](#step-7-refresh-settings)
-8. [Analisar a conexão](#step-8-review-connection)
+4. [Selecionar propriedades](#step-4-select-properties)
+5. [Gerenciar as permissões de pesquisa](#step-5-manage-search-permissions)
+6. [Atribuir os rótulos de propriedade](#step-6-assign-property-labels)
+7. [Gerenciar o esquema](#step-7-manage-schema)
+8. [Atualizar as configurações](#step-8-refresh-settings)
+9. [Analisar a conexão](#step-9-review-connection)
 
 Este artigo também inclui informações sobre solução de problemas, limitações e próximas etapas:
 
@@ -57,7 +58,7 @@ Conclua as etapas a seguir para configurar qualquer um dos conectores de Graph d
 
 1. Entre em sua conta de administrador no [Centro de administração do Microsoft 365](https://admin.microsoft.com).
 
-2. No painel de navegação, selecione **Configurações** e, em seguida, selecione **Pesquisar & inteligência**. Selecione a [guia Conectores](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/Connectors).
+2. No painel de navegação, selecione **Configurações** e, em seguida, selecione **Pesquisar & inteligência**. Selecione a [guia Fontes de dados](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/Connectors).
 
 3. Selecione **+Adicionar** e selecione a fonte de dados de sua escolha no menu de opções disponíveis.
 
@@ -74,24 +75,33 @@ Especifique esses atributos:
 * Nome (obrigatório)
 * ID da conexão (obrigatório)
 * Descrição (opcional)
+* Marque a caixa de seleção (obrigatório)
 
 A ID da conexão cria propriedades implícitas para o conector. Ele deve conter apenas caracteres alfanuméricos e ter no máximo 32 caracteres.
 
 ## <a name="step-3-configure-the-connection-settings"></a>Etapa 3: Configurar as configurações de conexão
 
-O processo para configurar as configurações de conexão varia com base no tipo de fonte de dados. Consulte as informações específicas do Conector para o tipo de fonte de dados que você deseja adicionar ao seu locatário para concluir esta etapa no processo de instalação.  
+O processo para configurar as configurações de conexão varia com base no tipo de fonte de dados. Consulte as [informações específicas do](/microsoftsearch/servicenow-connector#step-31-basic-authentication) Conector para o tipo de fonte de dados que você deseja adicionar ao seu locatário para concluir esta etapa no processo de instalação.  
 
 Para saber mais sobre como se conectar a uma fonte de dados local, consulte [Install an on-premises data gateway](/data-integration/gateway/service-gateway-install).
 
-## <a name="step-4-manage-search-permissions"></a>Etapa 4: Gerenciar permissões de pesquisa
+## <a name="step-4-select-properties"></a>Etapa 4: Selecionar propriedades
 
-As Listas de Controle de Acesso (ACLs) determinam quais usuários em sua organização podem acessar cada item de dados.  
+Você pode escolher as propriedades que serão indexadas por Pesquisa da Microsoft. 
+
+A consulta ServiceNow pode ser usada para filtrar seus dados antes de serem indexados por Pesquisa da Microsoft; isso oferece mais controle sobre os dados que podem ser pesquisados. Para saber mais sobre consultas ServiceNow, [consulte Learn about ServiceNow queries](https://go.microsoft.com/fwlink/?linkid=2151447). 
+
+## <a name="step-5-manage-search-permissions"></a>Etapa 5: Gerenciar permissões de pesquisa
+
+As Listas de Controle de Acesso (ACLs) determinam quais usuários em sua organização podem acessar cada item.  
 
 Alguns conectores como [o Microsoft SQL](MSSQL-connector.md) e o [Azure Data Lake Armazenamento Gen2](azure-data-lake-connector.md) suportam Azure Active Directory [ACLs (Azure AD).](/azure/active-directory/)
 
 Outros conectores, como [ServiceNow,](servicenow-connector.md) [Azure DevOps](azure-devops-connector.md)e [Salesforce,](salesforce-connector.md) suportam a sincronização de usuários e grupos que não são do Azure AD.  
 
-## <a name="step-5-assign-property-labels"></a>Etapa 5: Atribuir rótulos de propriedade
+Selecionar todos permite que todos em sua organização vejam os resultados da pesquisa dessa fonte de dados.
+
+## <a name="step-6-assign-property-labels"></a>Etapa 6: Atribuir rótulos de propriedade
 
 Você pode atribuir rótulos semânticos às suas propriedades de origem na página "Atribuir rótulos de propriedade". Rótulos são marcas conhecidas fornecidas pela Microsoft que fornecem significado semântico. Eles permitem que a Microsoft integre seus dados do conector Microsoft 365 experiências como pesquisa aprimorada, cartões de pessoas, descoberta inteligente e muito mais.  
 
@@ -101,13 +111,13 @@ Rótulo | Descrição
 --- | ---  
 **título** | O título do item que você deseja mostrar na pesquisa e em outras experiências
 **url** | A URL de destino do item no sistema de origem
-**createdBy** | Nome da pessoa que criou o item
-**lastModifiedBy** | Nome da pessoa que editou o item mais recentemente
-**autores** | Nome das pessoas que participaram/colaboraram no item
-**createdDateTime** | Quando o item foi criado
-**lastModifiedDateTime** | Quando o item foi editado mais recentemente
-**fileName** | Nome do item de arquivo
-**FileExtension** | Tipo de item de arquivo como .pdf ou .word
+**Criado por** | Nome da pessoa que criou o item
+**Última modificação por** | Nome da pessoa que editou o item mais recentemente
+**Authors** | Nome das pessoas que participaram/colaboraram no item
+**Data de criação** | Quando o item foi criado
+**Hora da data da última modificação** | Quando o item foi editado mais recentemente
+**Nome do arquivo** | Nome do item de arquivo
+**Extensão do arquivo** | Tipo de item de arquivo como .pdf ou .word
 
 As propriedades nesta página são pré-selecionadas com base em sua fonte de dados, mas você pode alterar essa seleção se houver uma propriedade diferente que seja mais adequada para um rótulo específico.  
 
@@ -115,7 +125,7 @@ O título **do rótulo** é o rótulo mais importante. É altamente **recomendá
 
 O mapeamento incorreto de rótulos causará uma experiência de pesquisa deteriorada. Não há problema em alguns rótulos não ter uma propriedade atribuída a ela.  
 
-## <a name="step-6-manage-schema"></a>Etapa 6: Gerenciar esquema
+## <a name="step-7-manage-schema"></a>Etapa 7: Gerenciar esquema
 
 ### <a name="content-property"></a>Propriedade Content
 
@@ -158,7 +168,7 @@ Para todos os conectores, exceto o conector de compartilhamento de arquivos, os 
 > [!NOTE]
 > Depois de criar uma conexão, **não é possível** modificar o esquema. Para fazer isso, você precisa excluir sua conexão e criar uma nova.
 
-## <a name="step-7-refresh-settings"></a>Etapa 7: Atualizar configurações
+## <a name="step-8-refresh-settings"></a>Etapa 8: Atualizar configurações
 
 O intervalo de atualização determina com que frequência seus dados são sincronizados entre a fonte de dados e Pesquisa da Microsoft. Cada tipo de fonte de dados tem um conjunto diferente de agendas de atualização ideais com base na frequência com que os dados são modificados e no tipo de modificações.
 
@@ -181,7 +191,7 @@ As atções incrementais são muito mais rápidas do que as atções completas p
 
 <!---Change screenshot for one that shows both options in new UI (try ServiceNow)--->
 
-## <a name="step-8-review-connection"></a>Etapa 8: Revisar conexão
+## <a name="step-9-review-connection"></a>Etapa 9: Analisar conexão
 
 Você pode revisar toda a configuração e editar as configurações conforme necessário antes de concluir a conexão. **Leia as informações específicas do conector para sua fonte de dados se ainda não tiver feito isso.** Selecione **Concluir a atualização** quando estiver pronto para concluir a conexão.
 

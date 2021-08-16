@@ -12,14 +12,13 @@ search.appverid:
 - BFB160
 - MET150
 - MOE150
-ROBOTS: NoIndex
 description: Agente in-prem
-ms.openlocfilehash: 1fcd1b6848d950c9f7cefa87d086f6607ac5df4f
-ms.sourcegitcommit: 5151bcd8fd929ef37239b7c229e2fa33b1e0e0b7
+ms.openlocfilehash: b6303b71910dc300ba5297fde155e538452ef99d
+ms.sourcegitcommit: 8ac77db22002d47bb461222b81b7cfc1c15a72fb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 08/13/2021
-ms.locfileid: "58235944"
+ms.locfileid: "58340092"
 ---
 # <a name="microsoft-graph-connector-agent"></a>Agente Graph conector da Microsoft
 
@@ -45,6 +44,8 @@ Depois de instalar o agente, se os servidores proxy ou firewalls da sua organiza
 4. https://<span>gcs.office.</span> com/
 5. https://<span>graph.microsoft.</span> com/
 
+>[!NOTE]
+>Não há suporte para autenticação de proxy. Se seu ambiente tiver um proxy que exija autenticação, nossa recomendação é permitir que o agente do conector ignore o proxy.
 
 ## <a name="create-and-configure-an-app-for-the-agent"></a>Criar e configurar um aplicativo para o agente  
 
@@ -144,9 +145,10 @@ Se você usou o script de exemplo para gerar um certificado, o arquivo PFX pode 
 
 8. Clique em ok na caixa de diálogo permissões. O computador agente agora está configurado para que o agente gere tokens usando o certificado.
 
-## <a name="troubleshooting"></a>Solução de Problemas
+## <a name="troubleshooting"></a>Solução de problemas
 
 ### <a name="installation-failure"></a>Falha na instalação
+
 Se a instalação falhar, verifique os logs de instalação executando: msiexec /i " <path to msi>\GcaInstaller.msi" /L*V " <destination path> \install.log". Se os erros não são resolvêveis, alcance o suporte no MicrosoftGraphConnectorsFeedback@service.microsoft.com com os logs.
 
 ### <a name="registration-failure"></a>Falha no registro
