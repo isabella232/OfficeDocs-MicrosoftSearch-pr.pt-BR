@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Agente in-prem
-ms.openlocfilehash: b6303b71910dc300ba5297fde155e538452ef99d
-ms.sourcegitcommit: 8ac77db22002d47bb461222b81b7cfc1c15a72fb
+ms.openlocfilehash: a27b5225d6a9f804d9122fbb237adb453eaf34ba
+ms.sourcegitcommit: 7148807ee9c857bd900916bed24176892a7d1d66
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58340092"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "58363237"
 ---
 # <a name="microsoft-graph-connector-agent"></a>Agente Graph conector da Microsoft
 
@@ -141,15 +141,17 @@ Se você usou o script de exemplo para gerar um certificado, o arquivo PFX pode 
 
 6. Clique com o botão direito do mouse no certificado e selecione **Todas as Tarefas** Gerenciar Chaves  >  **Privadas** Opção.
 
-7. Na caixa de diálogo permissões, selecione adicionar opção. Na caixa de diálogo seleção do usuário, escreva: **NT Service\GcaHostService** e clique em **OK**. Não clique no botão Verificar **Nomes.**
+7. Na caixa de diálogo permissões, selecione adicionar opção. Ele aparece em uma nova janela. Selecione a opção "Locais" nele. Selecione o computador no qual o agente está instalado entre a lista de locais mostrados e clique em **OK**.
 
-8. Clique em ok na caixa de diálogo permissões. O computador agente agora está configurado para que o agente gere tokens usando o certificado.
+8. Na caixa de diálogo seleção do usuário, escreva: **NT Service\GcaHostService** e clique em **OK**. Não clique no botão Verificar **Nomes.**
+
+9. Clique em ok na caixa de diálogo permissões. O computador agente agora está configurado para que o agente gere tokens usando o certificado.
 
 ## <a name="troubleshooting"></a>Solução de problemas
 
 ### <a name="installation-failure"></a>Falha na instalação
 
-Se a instalação falhar, verifique os logs de instalação executando: msiexec /i " <path to msi>\GcaInstaller.msi" /L*V " <destination path> \install.log". Se os erros não são resolvêveis, alcance o suporte no MicrosoftGraphConnectorsFeedback@service.microsoft.com com os logs.
+Se a instalação falhar, verifique os logs de instalação executando: msiexec /i "< caminho para msi >\GcaInstaller.msi" /L*V "< caminho de destino >\install.log". Se os erros não são resolvêveis, alcance o suporte no MicrosoftGraphConnectorsFeedback@service.microsoft.com com os logs.
 
 ### <a name="registration-failure"></a>Falha no registro
 
