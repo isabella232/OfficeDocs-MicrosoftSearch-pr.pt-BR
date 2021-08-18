@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: mssearch
 localization_priority: Normal
 description: Gerenciar como o conteúdo do Dynamics 365 aparece nos resultados da pesquisa
-ms.openlocfilehash: 65d6d27028f46751270cb3a50a154063de4fbab72d917f94aa8925693ac9ea2b
-ms.sourcegitcommit: 71ac2a38971ca4452d1bddfc773ff8f45e1ffd77
+ms.openlocfilehash: d2874febe39abf68653fa82d6a50121ebd1a357b
+ms.sourcegitcommit: fbe565b1a8994425b4f7ff0114a69044659e3892
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54533631"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "58380029"
 ---
 # <a name="dynamics-365-federation-search-preview"></a>Pesquisa de federação do Dynamics 365 (visualização)
 
@@ -25,7 +25,7 @@ Para ajudar a Pesquisa da Microsoft mais útil, apresentamos Pesquisa da Microso
 * Dados que não podem deixar limites do sistema
 * Dados confidenciais armazenados no local que sua organização não deseja indexar na nuvem
 
-Os dados acessados por meio de uma conexão de pesquisa federada não são indexados Pesquisa da Microsoft. Além disso, usando conectores integrados da Microsoft, é fácil configurar conexões de pesquisa federadas. Nosso conector do Dynamics 365 está atualmente em visualização. Se você estiver interessado em ingressar na visualização, nos avise [em](https://aka.ms/D365FederationSearchPreview)aka.ms/D365FederationSearchPreview .
+Os dados acessados por meio de uma conexão de pesquisa federada não são indexados Pesquisa da Microsoft. Além disso, usando conectores integrados da Microsoft, é fácil configurar conexões de pesquisa federadas. Nosso conector do Dynamics 365 está atualmente em visualização. Se você estiver interessado em ingressar na visualização, nos avise [em](https://aka.ms/D365FederationSearchPreview)aka.ms/D365FederationSearchPreview . Para ver o período de tempo de lançamento, consulte [o Pesquisa da Microsoft Roadmap](https://www.microsoft.com/microsoft-365/roadmap?filters=Microsoft%20Search).
 
 ## <a name="dynamics-365-federation-connector"></a>Conector de federação do Dynamics 365
 
