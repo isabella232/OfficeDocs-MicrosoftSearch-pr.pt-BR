@@ -13,15 +13,13 @@ search.appverid:
 - MET150
 - MOE150
 description: Gerenciar conectores Graph Microsoft para Pesquisa da Microsoft.
-ms.openlocfilehash: e8cf01cb3af3dea96ba98ab65e12d54a027ab77fa92e00c354331ac887578b0f
-ms.sourcegitcommit: 71ac2a38971ca4452d1bddfc773ff8f45e1ffd77
+ms.openlocfilehash: 0a4165af84cc11fbba4239f0204a3a7f3ce4fb25
+ms.sourcegitcommit: d276bfd1e03d1cdc1f51f70368df333da1d0111a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54532899"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "58408204"
 ---
-<!-- markdownlint-disable no-inline-html -->
-
 # <a name="monitor-your-connections"></a>Monitorar as suas conexões
 
 Para acessar e gerenciar seus conectores, você deve ser designado como administrador de pesquisa para seu locatário. Entre em contato com o administrador do locatário para provisioná-lo para a função de administrador de pesquisa.
@@ -59,11 +57,7 @@ Cinco estados aparecem na coluna **Estado em** cada conexão:
 
 A cota de índice disponível e o consumo são exibidos na página inicial dos conectores.
 
-![Barra de utilização de cota de índice](media/quota_utilization.png)
- 
->[!NOTE]
->Durante o período de visualização, todas as organizações que Graph conectores foram fornecidos com uma cota fixa gratuita de até 2 milhões de itens em todas as conexões. Com Graph conectores geralmente disponíveis, a cota gratuita expirará em 1º de abril de 2021 para as organizações que têm usado conectores Graph na visualização.
->Os conectores de Graph da Microsoft rotulados como ["Visualização"](./connectors-overview.md) não serão incluídos na cota de índice total cobrada para sua organização. No entanto, ele contará para o número máximo de 10 conexões que você pode configurar para sua organização e o número máximo de 7 milhões de itens que sua organização pode indexar entre conexões; cada conexão é limitada a 700.000 itens. 
+:::image type="content" alt-text="Barra de utilização de cota de índice." source="media/quota_utilization.png" lightbox="media/quota_utilization.png":::
 
 A barra de utilização de cota indicará vários estados com base no consumo de cota pela sua organização:
 
@@ -73,10 +67,6 @@ Normal | 0-79%
 Alto | 80-89%
 Crítico | 90%-99%
 Completo | 100%
-
-<!-- 
-![Quota utilization levels](media/connectors-quota-utilization-levels.png)
--->
 
 O número de itens indexados também será exibido com cada conexão. O número de itens indexados por cada conexão contribui para a cota total disponível para sua organização.
 
@@ -92,4 +82,4 @@ Para corrigir isso, você pode fazer qualquer um dos seguintes:
 
 * Identifique conexões que tenham muito conteúdo sendo ingerido e atualize-as para indexar menos itens para dar espaço para cota. Para atualizar a conexão, você deve excluir e criar uma nova conexão com um novo filtro de ingestão que traz menos itens.
 
-* Excluir permanentemente uma ou mais conexões
+* Exclua permanentemente uma ou mais conexões.

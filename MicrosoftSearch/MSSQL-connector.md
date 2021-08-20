@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Configurar o conector do Azure SQL microsoft SQL Graph para Pesquisa da Microsoft.
-ms.openlocfilehash: 9e8a9784c139873b4584f9be0a42e51f101bd7d6
-ms.sourcegitcommit: 5151bcd8fd929ef37239b7c229e2fa33b1e0e0b7
+ms.openlocfilehash: f80e3e1b86a120981c4dafd95715c00cd766f5e9
+ms.sourcegitcommit: 17cc660ec51bea11ab65f62655584c65c84a1d79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58236030"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58406941"
 ---
 <!---Previous ms.author: vivg --->
 
@@ -75,14 +75,15 @@ Para adicionar o aplicativo registrado ao seu Banco de Dados SQL do Azure, você
 
 Para conectar seu conector Microsoft SQL Server a uma fonte de dados, você deve configurar o servidor de banco de dados que deseja rastrear e o agente local. Em seguida, você pode se conectar ao banco de dados com o método de autenticação necessário.
 
-> [!NOTE] 
-> Seu banco de dados deve SQL Server versão 2008 ou posterior para que o conector Microsoft SQL Server possa se conectar.
+> [!NOTE]
+> - Seu banco de dados deve SQL Server versão 2008 ou posterior para que o conector Microsoft SQL Server possa se conectar.
+> - O conector SQL gráfico do Azure só permite a ingestão de uma instância do SQL do Azure no mesmo locatário [do](/azure/active-directory/develop/quickstart-create-new-tenant) Microsoft 365. Não há suporte para o fluxo de dados entre locatários.
 
 Para o conector de SQL do Azure, você só precisa especificar o nome do servidor ou o endereço IP ao qual deseja se conectar. O conector SQL do Azure dá suporte Azure Active Directory autenticação OIDC (Conexão de ID Aberta) para se conectar ao banco de dados.
 
 Para maior segurança, você pode configurar regras de firewall IP para seu SQL Server ou banco de dados do Azure. Para saber mais sobre como configurar regras de firewall IP, consulte documentação sobre regras [de firewall IP.](/azure/azure-sql/database/firewall-configure) Adicione os seguintes intervalos de IP do cliente nas configurações de firewall.
 
-| Região | Intervalo DE IP |
+| Região | Intervalo de IP |
 | ------------ | ------------ |
 | NAM | 52.250.92.252/30, 52.224.250.216/30 |
 | EUR | 20.54.41.208/30, 51.105.159.88/30 |
@@ -104,6 +105,8 @@ Nesta etapa, você configura a SQL que executa um rastreamento completo do banco
 O exemplo demonstra uma seleção de cinco colunas de dados que reterão os dados da pesquisa: OrderId, OrderTitle, OrderDesc, CreatedDateTime e IsDeleted. Para definir permissões de exibição para cada linha de dados, você pode, opcionalmente, selecionar essas colunas ACL: AllowedUsers, AllowedGroups, DeniedUsers e DeniedGroups. Todas essas colunas de dados também têm as opções **para Consulta,** **Pesquisa** ou **Recuperar**.
 
 Selecione colunas de dados conforme mostrado nesta consulta de exemplo: `SELECT OrderId, OrderTitle, OrderDesc, AllowedUsers, AllowedGroups, DeniedUsers, DeniedGroups, CreatedDateTime, IsDeleted`
+
+Observe que os conectores SQL não permitem nomes de coluna com caracteres não alfanuméricos na cláusula SELECT. Remova quaisquer caracteres não alfanuméricos de nomes de coluna usando um alias. Exemplo - SELECT *column_name* AS *columnName*
 
 Para gerenciar o acesso aos resultados da pesquisa, você pode especificar uma ou mais colunas ACL na consulta. O SQL conector permite controlar o acesso por nível de registro. Você pode optar por ter o mesmo controle de acesso para todos os registros de uma tabela. Se as informações da ACL são armazenadas em uma tabela separada, talvez seja preciso fazer uma junção com essas tabelas em sua consulta.
 
@@ -127,8 +130,8 @@ A tabela a seguir resume os SQL de dados que são suportados nos conectores MS S
 | Numérico exato | bit | booliano |
 | Numérico aproximado | flutuação <br> real | double |
 | Conjunto de caracteres | char <br> varchar <br> texto | string |
-| Cadeias de caracteres Unicode | nchar <br> nvarchar <br> ntext | cadeia de caracteres |
-| Outros tipos de dados | uniqueidentifier | cadeia de caracteres |
+| Cadeias de caracteres Unicode | nchar <br> nvarchar <br> ntext | string |
+| Outros tipos de dados | uniqueidentifier | string |
 
 Para qualquer outro tipo de dados atualmente não suportado diretamente, a coluna precisa ser explicitamente lançada para um tipo de dados com suporte.
 
@@ -210,13 +213,14 @@ Create your own verticals and result types, so end users can view search results
 
 To learn more about how to create your verticals and MRTs, see [Search results page customization](customize-search-page.md).-->
 
-## <a name="troubleshooting"></a>Solução de Problemas
+## <a name="troubleshooting"></a>Solução de problemas
 
 A seguir, um erro comum observado durante a configuração do conector e seu possível motivo.
 
 | Etapa de configuração | Mensagem de erro | Possíveis motivos |
 | ------------ | ------------ | ------------ |
 | Rastreamento completo | `Error from database server: A transport level error has occurred when receiving results from the server.` | Esse erro ocorre devido a problemas de rede. É recomendável verificar logs de rede usando o [monitor de rede da Microsoft](https://www.microsoft.com/download/details.aspx?id=4865) e entrar em contato com o suporte ao cliente da Microsoft. |
+| Rastreamento completo | `Column column_name returned from full crawl SQL query contains non-alphanumeric character` | Caracteres não alfanuméricos (como sublinhados) não são permitidos em nomes de coluna na cláusula SELECT. Use aliases para renomear colunas e remover caracteres não alfanuméricos (Exemplo - SELECT column_name AS columnName). |
 
 ## <a name="limitations"></a>Limitações
 
