@@ -6,19 +6,19 @@ manager: kellis
 ms.audience: Admin
 ms.topic: reference
 ms.service: mssearch
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - BFB160
 - MET150
 - MOE150
 ms.assetid: 9e8c9323-4ff9-42dd-8052-2bc9e0d6d0e7
 description: Saiba mais sobre métodos e processos para ajudá-lo a Pesquisa da Microsoft para sua organização
-ms.openlocfilehash: b2613ba06353c22704479c8de66dcdbaef567019d5a8eef84d47605fc391e8ef
-ms.sourcegitcommit: 71ac2a38971ca4452d1bddfc773ff8f45e1ffd77
+ms.openlocfilehash: 1e33e17da92070eb4a887b4d5130a4c47b7cfe37
+ms.sourcegitcommit: cc9d743bcf5e998720ce9cd6eefb4061d913dc65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54534199"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58701881"
 ---
 # <a name="user-adoption-guide"></a>Guia de adoção do usuário
 
@@ -38,9 +38,9 @@ A tabela mostra a hierarquia de equipe e o que cada pessoa contribui.
 |:-----|:-----|:-----|
 |Apoio executivo  <br/> |Entenda a visão de alto nível e o valor da Pesquisa da Microsoft para sua organização.  <br/> Forneça suporte de liderança à equipe de IT/negócios.  <br/> Alocar recursos.  <br/> Comunicar-se diretamente com os funcionários.  <br/> |Liderança executiva  <br/> |
 |Proprietário da empresa  <br/> |Identificar cenários de produto e usuário.  <br/> Determine as métricas de sucesso para os departamentos e a organização.  <br/> |Qualquer  <br/> |
-|Alterar a equipe de gerenciamento  <br/> |Verifique se o valor do produto é fácil de entender.  <br/> Crie um plano para a adoção.  <br/> |TI  <br/> |
+|Alterar a equipe de gerenciamento  <br/> |Verifique se o valor do produto é fácil de entender.  <br/> Crie um plano para a adoção.  <br/> |IT  <br/> |
 |Campeões  <br/> |Evangelize o produto para pares e equipes.  <br/> |Any (staff)  <br/> |
-|Administrador de pesquisa  <br/> |Identificar os principais membros da equipe de adoção do usuário.  <br/> Administrar Pesquisa da Microsoft, incluindo a aparência da experiência e o gerenciamento contínuo.  <br/> Conduza discussões para mostrar o valor de Pesquisa da Microsoft.  <br/> |TI  <br/> |
+|Administrador de pesquisa  <br/> |Identificar os principais membros da equipe de adoção do usuário.  <br/> Administrar Pesquisa da Microsoft, incluindo a aparência da experiência e o gerenciamento contínuo.  <br/> Conduza discussões para mostrar o valor de Pesquisa da Microsoft.  <br/> |IT  <br/> |
 |Editores  <br/> |Crie conteúdo no centro de [administração Microsoft 365.](https://admin.microsoft.com)  <br/> |IT/Any  <br/> |
    
 ## <a name="stage-2-scenarios"></a>Estágio 2: Cenários

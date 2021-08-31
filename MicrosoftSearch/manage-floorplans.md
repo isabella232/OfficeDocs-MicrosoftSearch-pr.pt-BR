@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: O recurso de planos de piso no Pesquisa da Microsoft ajuda os usuários a encontrar pessoas, escritórios e outras comodidades em um edifício.
-ms.openlocfilehash: 6ca32db0afafe328d872b87c2ba7ebf5bee40148ae8aea089e097a3b6ec4dedf
-ms.sourcegitcommit: 71ac2a38971ca4452d1bddfc773ff8f45e1ffd77
+ms.openlocfilehash: 6cbba6d764fd3904d251fa53fd96c3a66a6aed6b
+ms.sourcegitcommit: e5d56d6ce1cd285c5af3e0472ce169cb34883017
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54533694"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58470019"
 ---
 # <a name="manage-floor-plans"></a>Gerenciar planos de piso
 
@@ -43,7 +43,7 @@ Os arquivos de planos de piso devem estar no formato DWG; Arquivos DWG podem con
 
 |**Rótulos de texto, incluindo rótulos de sala**|**Rótulos de texto, mas nenhum rótulo de sala**|**Sem rótulos de texto**|
 |:-----:|:-----:|:-----:|
-|![floorplans-textandroomlabels.png](media/floorplans-textandroomlabels.png)|![floorplans-textnoroomlabels.png](media/floorplans-textnoroomlabels.png)|![floorplans-nolabels.png](media/floorplans-nolabels.png)|
+|![floorplans-textandroomlabels.png.](media/floorplans-textandroomlabels.png)|![floorplans-textnoroomlabels.png](media/floorplans-textnoroomlabels.png)|![floorplans-nolabels.png](media/floorplans-nolabels.png)|
 
 Consulte a [seção Perguntas frequentes](#frequently-asked-questions) para obter informações sobre como exibir e atualizar arquivos DWG.
 
@@ -54,7 +54,7 @@ O local do escritório de um usuário é uma combinação de um código de const
 Adicione ou atualize locais de escritório para cada usuário em sua organização. Você pode alterar o local do [](https://admin.microsoft.com) escritório no perfil de usuário no Centro de administração do Microsoft 365 ou pode alterar no Active Directory local para sincronizar com Azure Active Directory. *PhysicalDeliveryOfficeName* é o campo usado para o local do escritório. Se os rótulos de sala não incluirem números de piso, consulte perguntas frequentes sobre dicas.
 
 Neste exemplo, o escritório de Henrique está na sala 1173 no piso 1 do edifício 2.
-![floorplans-userlestview.png](media/floorplans-userlistview.png)
+![floorplans-userlestview.png.](media/floorplans-userlistview.png)
 
 > [!NOTE]
 > Para ver os locais de escritório atualizados ao pesquisar planos de piso, você deve atualizar os locais do office para pelo menos **10 pessoas** em cada andar.
@@ -63,13 +63,13 @@ Neste exemplo, o escritório de Henrique está na sala 1173 no piso 1 do edifíc
 
 Use **Pesquisa da Microsoft** para localizar um usuário e verificar se o local do escritório está aparecendo corretamente. Se você acabou de atualizar locais, talvez seja necessário aguardar até **72** horas para que as atualizações apareçam nos resultados da pesquisa.
 
-![floorplans-peoplecard.png](media/floorplans-peoplecard.png)
+![floorplans-peoplecard.png.](media/floorplans-peoplecard.png)
 
 ### <a name="step-5-add-building-locations"></a>Etapa 5: Adicionar locais de construção
 
 Os planos de piso [usam Locais](manage-locations.md) para definir seus edifícios. Na [Centro de administração do Microsoft 365,](https://admin.microsoft.com)vá para [**Locais**](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/locations)e selecione **Adicionar**. Insira o nome, o endereço e as palavras-chave do edifício. Adicione quantos edifícios você precisar.
 
-![floorplans-locations.png](media/floorplans-locations.png)
+![floorplans-locations.png.](media/floorplans-locations.png)
 
 Para obter mais detalhes sobre locais, consulte [Manage Locations](manage-locations.md)
 
@@ -79,7 +79,7 @@ Antes de poder usar planos de piso, os locais do office devem ser indexados. Est
 
 No [centro de administração,](https://admin.microsoft.com)vá para [**Planos de piso**](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/floorplans)e selecione **Começar**. Se você não vir esse aviso, essa etapa já foi concluída para sua organização
 
-![floorplans_hydrationstep.png](media/floorplans_hydrationstep.png)
+![floorplans_hydrationstep.png.](media/floorplans_hydrationstep.png)
 
 ### <a name="step-7-upload-floor-plans"></a>Etapa 7: Upload de piso
 
@@ -99,13 +99,13 @@ No [centro de administração,](https://admin.microsoft.com)vá para [**Planos d
 > [!NOTE]
 > **Leva 48 horas para que os planos de piso sejam publicados.** Depois disso, os usuários verão resultados de um plano de piso semelhante ao abaixo quando procurarem o escritório de um colega de trabalho.
 
-![floorplans-officelocation.png](media/floorplans-officelocation.png)
+![floorplans-officelocation.png.](media/floorplans-officelocation.png)
 
 ### <a name="step-8-optional-specify-location-patterns"></a>Etapa 8: (Opcional) Especificar padrões de local
 
 Depois de carregar um plano de piso, os rótulos de texto serão comparados aos locais do office nos perfis dos usuários. Se houver menos de 10 combinações, a tela Especificar padrões **de** local será exibida. Os padrões de local são usados para extrair informações de piso, asa e sala de locais do escritório.
 
-![floorplans-locationpattern.png](media/floorplans-locationpattern.png)
+![floorplans-locationpattern.png.](media/floorplans-locationpattern.png)
 
 Somente a sala é necessária, o piso e a asa são opcionais e você pode ignorar locais conforme necessário.
 
@@ -166,6 +166,6 @@ Para atualizar um plano de piso existente, selecione o plano de piso que você d
 
 Por exemplo, um arquivo DWG que inclui números de sala, mas nenhum número de piso, pode ser semelhante a este:
 
-![floorplans-nofloors.png](media/floorplans-nofloors.png)
+![floorplans-nofloors.png.](media/floorplans-nofloors.png)
 
 O local do escritório no perfil do usuário deve ser 2/1175 onde '2' é o código de construção, '1' é o número do piso e '175' é o número da sala.

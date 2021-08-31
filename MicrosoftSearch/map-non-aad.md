@@ -6,18 +6,18 @@ manager: jameslau
 ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - BFB160
 - MET150
 - MOE150
 description: Etapas sobre como mapear identidades não AAD
-ms.openlocfilehash: 48f462318b005f426cd2e0ee3ade0ee895b1c38b36ccf53faf5631a5c002c3d6
-ms.sourcegitcommit: 71ac2a38971ca4452d1bddfc773ff8f45e1ffd77
+ms.openlocfilehash: e90db3bb8d20a0389ddbf2d2845bf91843513404
+ms.sourcegitcommit: cc9d743bcf5e998720ce9cd6eefb4061d913dc65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54533559"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58701954"
 ---
 # <a name="map-your-non-azure-ad-identities"></a>Mapear suas identidades que não são do Azure AD  
 
@@ -80,7 +80,7 @@ Depois de fornecer sua fórmula, você pode, opcionalmente, clicar em **Visualiz
 
 Consulte o instantâneo abaixo para um exemplo de mapeamento que não seja do Azure AD.
 
-![Exemplo de instantâneo de como preencher a página de mapeamento que não é do Azure AD](media/non-aad-mapping.png)
+![Exemplo de instantâneo de como preencher a página de mapeamento que não é do Azure AD.](media/non-aad-mapping.png)
 
 ## <a name="limitations"></a>Limitações  
 

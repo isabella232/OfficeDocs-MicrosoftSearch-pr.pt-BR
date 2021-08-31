@@ -11,14 +11,13 @@ search.appverid:
 - BFB160
 - MET150
 - MOE150
-ROBOTS: NoIndex
 description: Revise e aja sobre os comentários do usuário Pesquisa da Microsoft
-ms.openlocfilehash: ab6f25a8454c1c1e61488179107b3bbec96ef099d29afcce1f303a7f3e7c39e1
-ms.sourcegitcommit: 71ac2a38971ca4452d1bddfc773ff8f45e1ffd77
+ms.openlocfilehash: 8b512f0bbfe5c72ff1a7a2296b0b76c5430e082f
+ms.sourcegitcommit: 2f5868e50caa9743d298188003a24545b5078c5b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54532880"
+ms.lasthandoff: 08/25/2021
+ms.locfileid: "58528979"
 ---
 # <a name="managing-user-feedback"></a>Gerenciando comentários do usuário
 
@@ -30,7 +29,7 @@ Agora, estamos oferecendo ferramentas que permitirão que você revise e gerenci
 
 À medida que as pessoas em sua organização usam Pesquisa da Microsoft, elas podem ter comentários sobre a experiência. Quando clicam em um link de comentários na página de resultados, eles podem categorizar seus comentários e incluir comentários adicionais.
 
-![Formulário de feedback global](media/feedback/feedback-global-dialog.png)
+![Formulário de feedback global.](media/feedback/feedback-global-dialog.png)
 
 Os usuários também têm a opção de enviar suas consultas e outras informações de diagnóstico, juntamente com a categoria e comentários, para a Microsoft. [Saiba mais](https://privacy.microsoft.com/en-US/privacystatement) sobre privacidade e como protegemos esses dados. Os dados de diagnóstico contêm as informações mais críticas que a Microsoft precisa para usar o item de feedback para melhoria do produto.
 
@@ -45,6 +44,9 @@ Usando um filtro, você pode ver comentários para tipos de resposta específico
 Você pode usar a caixa de pesquisa acima da lista de comentários para procurar comentários em uma consulta específica.
 
 Na lista de comentários, a coluna Verbatim indica quais comentários do usuário também incluem um comentário ou sugestão. Para lê-lo, clique na consulta para abrir o **painel Detalhes.**
+
+>[!NOTE]
+>Durante a lançamento inicial entre as experiências de pesquisa do administrador e do usuário final, pode levar até duas semanas para que os itens de feedback apareçam no portal de administração.
 
 ## <a name="update-feedback-state"></a>Atualizar estado de feedback
 

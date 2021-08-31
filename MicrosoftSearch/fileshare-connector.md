@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 ROBOTS: NoIndex
 description: Configurar o conector de compartilhamento Graph arquivo para Pesquisa da Microsoft
-ms.openlocfilehash: 71bcc86c2a1bf2f3d20693028ce006812aa170b5
-ms.sourcegitcommit: 5151bcd8fd929ef37239b7c229e2fa33b1e0e0b7
+ms.openlocfilehash: b91f10704b536ecc3a62c492ef23ba8745c4dcf8
+ms.sourcegitcommit: e5d56d6ce1cd285c5af3e0472ce169cb34883017
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58235916"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58469947"
 ---
 <!---Previous ms.author: rusamai --->
 
@@ -82,7 +82,7 @@ As regras para escrever expressão regular podem ser encontradas [aqui](https://
 
 O administrador também estaria tendo a capacidade de dar uma exceção à regra de limite. A prioridade da regra de exceção irá sobressuar as regras de Limite. Da mesma forma, a exceção pode ser definida dando caminho de pasta/arquivo para os itens que desejamos incluir na indexação.
 
-![Limites e Exceções](media/file-connector/ExclusionRule.png)
+![Limites e Exceções.](media/file-connector/ExclusionRule.png)
 
 ## <a name="step-5-manage-search-permissions"></a>Etapa 5: Gerenciar permissões de pesquisa
 
@@ -92,7 +92,7 @@ Observe que as janelas por padrão fornece permissão 'Ler' para 'Todos' em AcLs
 
 Você pode escolher Compartilhar ACLs somente se o caminho de compartilhamento fornecido seguir o formato de caminho UNC. Você pode criar um caminho no formato UNC indo para 'Compartilhamento Avançado' na opção 'Compartilhamento'.
 
-![Advanced_sharing](media/file-connector/file-advanced-sharing.png)
+![Advanced_sharing.](media/file-connector/file-advanced-sharing.png)
 
 ## <a name="step-6-assign-property-labels"></a>Etapa 6: Atribuir rótulos de propriedade
 

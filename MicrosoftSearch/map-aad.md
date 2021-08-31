@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Etapas sobre como mapear identidades do AAD
-ms.openlocfilehash: 676e06d4019dabe0f07846dd8918b8070765a7ffd9deb02b11dd68f2014dc7e5
-ms.sourcegitcommit: 71ac2a38971ca4452d1bddfc773ff8f45e1ffd77
+ms.openlocfilehash: 69d4164e6d0acc245eee5c631db39ed7fb178325
+ms.sourcegitcommit: e5d56d6ce1cd285c5af3e0472ce169cb34883017
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54532799"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58470292"
 ---
 # <a name="map-your-azure-ad-identities"></a>Mapear as Identidades do Azure AD   
 
@@ -58,7 +58,7 @@ Depois de fornecer sua fórmula, você pode, opcionalmente, clicar em **Visualiz
 
 Consulte o instantâneo abaixo para um exemplo de mapeamento do Azure AD.
 
-![Exemplo de instantâneo de como preencher a página de mapeamento do Azure AD](media/aad-mapping.png)
+![Exemplo de instantâneo de como preencher a página de mapeamento do Azure AD.](media/aad-mapping.png)
 
 ## <a name="limitations"></a>Limitações  
 

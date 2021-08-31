@@ -6,18 +6,18 @@ manager: parulm
 ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - BFB160
 - MET150
 - MOE150
 description: Obter uma visão geral do que Pesquisa da Microsoft é, seus benefícios e quais aplicativos suportam Pesquisa da Microsoft.
-ms.openlocfilehash: 8992f9683bd2ad72d7084ff6fb2dcd08dc7d14ef6307161a69f7b54d6d150bd6
-ms.sourcegitcommit: 71ac2a38971ca4452d1bddfc773ff8f45e1ffd77
+ms.openlocfilehash: 29a6db642ac9cc787b8cbec45aec609f55722206
+ms.sourcegitcommit: cc9d743bcf5e998720ce9cd6eefb4061d913dc65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54533985"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58701936"
 ---
 # <a name="overview-of-microsoft-search"></a>Visão geral da Pesquisa da Microsoft
 
@@ -32,17 +32,17 @@ Pesquisa da Microsoft ajuda os usuários a encontrar as respostas certas, pessoa
 
 ## <a name="what-users-see"></a>O que os usuários visualizam
 
-Em [Bing](https://bing.com), os usuários usam a mesma caixa de pesquisa que para pesquisas da Web. No Office aplicativos, os usuários encontram a caixa Pesquisa da Microsoft na barra de header. Esse recurso tem a seguinte aparência:
+Em [Bing](https://bing.com), os usuários usam a mesma caixa de pesquisa que para pesquisas da Web. No Office aplicativos, os usuários encontram a caixa Pesquisa da Microsoft na barra de header. Tem esta aparência:
 
-![Capturas de tela de janelas de aplicativos com a caixa do Microsoft Search no cabeçalho](media/Headings_520.png)
+![Capturas de tela das janelas do aplicativo com Pesquisa da Microsoft caixa na barra de header.](media/Headings_520.png)
 
 Quando os usuários clicam na caixa **Pesquisa,** a pesquisa sugere resultados com base em suas atividades anteriores no Office 365 e com base no conteúdo que está sendo tendência em sua organização. Arquivos em que eles estavam trabalhando recentemente, comandos que eles usaram recentemente, bem como pessoas com quem colaborar são exemplos de atividade que a pesquisa considera. À medida que os usuários começam a digitar na **caixa Pesquisa,** os resultados sugeridos são atualizados. Os usuários podem abrir os resultados da pesquisa na caixa **Pesquisar.** Aqui está um exemplo de uma pesquisa em [SharePoint](http://sharepoint.com/).
 
-![Capturas de tela da caixa do Microsoft Search com uma consulta e resultados sugeridos](media/SERP_text_520.png)
+![Capturas de tela da caixa Pesquisa da Microsoft com uma consulta e resultados sugeridos.](media/SERP_text_520.png)
 
 Se as sugestões na caixa de pesquisa não são o que os usuários estão procurando, **Enter** abre a lista completa de resultados. Eles podem usar metadados, como quem modificou o item pela última vez e quando, onde o item está localizado, bem como visualizar para determinar se é o que estão procurando.
 
-![Capturas de tela da página de resultados da Pesquisa da Microsoft](media/search_box.png)
+![Capturas de tela da página Pesquisa da Microsoft resultados.](media/search_box.png)
 
 ## <a name="benefits-of-microsoft-search"></a>Benefícios do Microsoft Search
 

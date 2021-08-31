@@ -6,7 +6,7 @@ manager: kellis
 ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - BFB160
 - MET150
@@ -14,12 +14,12 @@ search.appverid:
 ms.assetid: f980b90f-95e2-4b66-8b21-69f601ff4b50
 ROBOTS: NoIndex
 description: Obter sugestões de pesquisa relevantes e encontrar resultados de trabalho mais rapidamente adicionando uma Pesquisa da Microsoft de pesquisa ao seu site ou página da intranet.
-ms.openlocfilehash: f11fcbeee23346041e4ebc720e4256d3aba29d57bed9266ed04bb02ee31c2ada
-ms.sourcegitcommit: 71ac2a38971ca4452d1bddfc773ff8f45e1ffd77
+ms.openlocfilehash: d9f730eee98291d64e1f860c67be3eb7aa52a4a8
+ms.sourcegitcommit: cc9d743bcf5e998720ce9cd6eefb4061d913dc65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54533379"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58701404"
 ---
 # <a name="add-a-search-box-to-your-intranet-site"></a>Adicionar uma caixa de pesquisa ao site de intranet
 

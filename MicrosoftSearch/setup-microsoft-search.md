@@ -6,18 +6,18 @@ manager: parulm
 ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - BFB160
 - MET150
 - MOE150
 description: Configurar a Pesquisa da Microsoft pela primeira vez.
-ms.openlocfilehash: 9a52695f3a7494b27849ff21798302777716b9bda755ff372e605ec45a6d94b5
-ms.sourcegitcommit: 71ac2a38971ca4452d1bddfc773ff8f45e1ffd77
+ms.openlocfilehash: b1ddc3c32036b1fe3b86d38926bec86f626736f4
+ms.sourcegitcommit: cc9d743bcf5e998720ce9cd6eefb4061d913dc65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54534118"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58701458"
 ---
 # <a name="set-up-microsoft-search"></a>Configurar a Pesquisa da Microsoft
 

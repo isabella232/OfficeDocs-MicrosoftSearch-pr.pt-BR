@@ -6,19 +6,19 @@ manager: parulm
 ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - BFB160
 - MET150
 - MOE150
 ms.assetid: 7e3432e6-5317-4d63-90b0-52da6fddd343
 description: Encontre e atualize respostas individualmente ou use as ferramentas Pesquisa da Microsoft disponíveis para editar Q&como tudo de uma vez.
-ms.openlocfilehash: 2e54169a6196ec78bd96b33aa1ba71fc498b6ff13d8d872ad06ca0db1d9fc2c0
-ms.sourcegitcommit: 71ac2a38971ca4452d1bddfc773ff8f45e1ffd77
+ms.openlocfilehash: 2ee42e3feaf5c14b2af820360f753ecc2e116f9b
+ms.sourcegitcommit: cc9d743bcf5e998720ce9cd6eefb4061d913dc65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54532862"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58701981"
 ---
 # <a name="manage-qas"></a>Gerenciar P e R
 

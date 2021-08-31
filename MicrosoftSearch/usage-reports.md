@@ -8,18 +8,18 @@ ms.service: mssearch
 audience: Admin
 ms.audience: Admin
 ms.date: 07/02/2021
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - BFB160
 - MET150
 - MOE150
 description: Analisar Pesquisa da Microsoft relatórios de uso
-ms.openlocfilehash: 9798cdaf0f88ca2f247bb8d10fce526f07adbabc1bbe5566eaddfc071346f751
-ms.sourcegitcommit: 71ac2a38971ca4452d1bddfc773ff8f45e1ffd77
+ms.openlocfilehash: 9de48331efbc956ee7d980b919d9bd2f025fc8aa
+ms.sourcegitcommit: cc9d743bcf5e998720ce9cd6eefb4061d913dc65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54533106"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58701449"
 ---
 # <a name="microsoft-search-usage-reports"></a>Pesquisa da Microsoft Relatórios de uso
 
@@ -33,7 +33,7 @@ Os [Pesquisa da Microsoft](https://admin.microsoft.com/Adminportal/Home?#/Micros
 Uma versão anterior desta página incluía dados de pesquisas executadas apenas para Pesquisa da Microsoft em Bing em Bing.com. Esses dados agora estão integrados a esses relatórios; você ainda pode ver a página antiga clicando no link na parte inferior da página para Exibir Bing principais consultas e distribuição **de impressão do Bing.** Este link e a página antiga serão removidos em breve.
 
 > [!div class="mx-imgBorder"]
-> ![Painel de relatórios de uso de pesquisa](media/usage-reports/usage_reports_v2.png)
+> ![Painel de relatórios de uso de pesquisa.](media/usage-reports/usage_reports_v2.png)
 
 ## <a name="overview-of-search-reports"></a>Visão geral dos relatórios de pesquisa
 

@@ -6,19 +6,19 @@ manager: shohara
 ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - BFB160
 - MET150
 - MOE150
 ms.assetid: c020bd72-9906-4dfd-bc77-57287f5927ce
 description: Saiba como definir o Bing como home page padrão para a empresa com a Pesquisa da Microsoft.
-ms.openlocfilehash: 1ec0ffc097324b3c2d985f6eada4fb3fa3b079b7caab9d6af0e4073c4d91b562
-ms.sourcegitcommit: 71ac2a38971ca4452d1bddfc773ff8f45e1ffd77
+ms.openlocfilehash: 745e4a81e4b53ff88b612cd19295cb89dc041ddc
+ms.sourcegitcommit: cc9d743bcf5e998720ce9cd6eefb4061d913dc65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54534154"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58701440"
 ---
 # <a name="make-bingcom-the-default-home-page"></a>Definir o Bing.com como página inicial padrão
 
@@ -85,7 +85,7 @@ Os usuários ainda poderão alterar a home page após a definição dessa polít
     
 5. Pressione **F8** para desabilitar todas as configurações antes de configurar tudo. A tela deve ter a seguinte aparência: 
     
-    ![Caixa de diálogo Propriedades do Internet Explorer 10](media/2fd55755-5007-4e33-a795-c42ce2fcef4a.jpg)
+    ![Internet Explorer 10 Caixa de diálogo Propriedades.](media/2fd55755-5007-4e33-a795-c42ce2fcef4a.jpg)
   
 6. Pressione **F6** na configuração da Página Inicial e insira `https://www.bing.com/business?form=BFBSPR`
     

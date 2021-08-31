@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Criar e atualizar respostas de acrônimos Pesquisa da Microsoft
-ms.openlocfilehash: 14b46e8f689a4df1e41d1852f49157faf67f7fdece2fa09fb740b5652d719a34
-ms.sourcegitcommit: 71ac2a38971ca4452d1bddfc773ff8f45e1ffd77
+ms.openlocfilehash: 3b0f87fb252c3e88160f1b3753aad09b1e3f5083
+ms.sourcegitcommit: e5d56d6ce1cd285c5af3e0472ce169cb34883017
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54532916"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58470244"
 ---
 # <a name="manage-acronyms-answers-in-microsoft-search"></a>Gerenciar respostas de acrônimos Pesquisa da Microsoft
 
@@ -27,7 +27,7 @@ As organizações nem sempre têm uma única referência para sua terminologia p
 
 ## <a name="what-users-experience"></a>O que os usuários experimentam
 
-Pesquisa da Microsoft usuários podem obter definições com acrônimos [em Bing,](https://Bing.com) [SharePoint](https://products.office.com/sharepoint/collaboration)e [Office 365](https://Office.com). Na caixa **Pesquisa,** os usuários entram em consultas como estes exemplos:
+Pesquisa da Microsoft usuários podem obter definições com acrônimos em [Bing](https://Bing.com), [SharePoint](https://products.office.com/sharepoint/collaboration), [Office 365](https://Office.com), Outlook na Web, Outlook Mobile (Android) e Teams Mobile (iOS e Android). Na caixa **Pesquisa,** os usuários entram em consultas como estes exemplos:
 
 - *O que é* DNN
 - *Definir* DNN
@@ -59,7 +59,7 @@ Os administradores de pesquisa podem adicionar acrônimos na [guia Acrônimos](h
 **Estado publicado**. Os acrônimos estão disponíveis para os usuários da organização por meio Pesquisa da Microsoft.
 
 > [!NOTE]
-> Pode levar até três dias para que os acrônimos adicionados ao estado publicado se tornem disponíveis no Pesquisa da Microsoft.
+> Leva até um dia para que os acrônimos adicionados ao estado publicado se tornem disponíveis Pesquisa da Microsoft.
 
 **Estado de rascunho**. Se você quiser revisar um acrônimo antes de disponibilizar Pesquisa da Microsoft, adicione o acrônimo em um estado rascunho. Os acrônimos no estado Rascunho não aparecerão nos resultados da pesquisa. Você precisará mover o acrônimo para o estado Publicado para torná-lo exibido nos resultados da pesquisa.
 
@@ -106,13 +106,17 @@ Pesquisa da Microsoft garante que somente usuários com acesso e permissões par
 
 **R:** A classificação dos resultados pode variar de pessoa para pessoa, pois os resultados são personalizados para cada usuário. Nenhuma dessas categorias sempre terá precedência sobre a outra.
 
-**P: Quanto tempo leva para que os acrônimos com cura do administrador sejam visíveis Pesquisa da Microsoft depois que eles são publicados?**
-
-**R:**  Leva até um dia para que os acrônimos adicionados ao estado publicado se tornem disponíveis Pesquisa da Microsoft.
-
 **P: Como os usuários acionam respostas de acrônimos?**
 
-**R:** Para obter respostas de acrônimos, os usuários devem inserir padrões de consulta específicos em uma caixa [Bing,](https://bing.com) [SharePoint](https://products.office.com/sharepoint/collaboration)ou [Office 365](https://Office.com) **Pesquisa.**
+**R:** Para obter respostas de acrônimos, os usuários devem inserir padrões de consulta específicos em uma caixa de pesquisa Bing [,](https://bing.com) [SharePoint](https://products.office.com/sharepoint/collaboration), [Office 365](https://Office.com), Outlook na Web, Outlook Mobile (Android)  ou Teams Mobile (iOS e Android).
+
+**P: Os usuários podem inserir apenas o acrônimo ao pesquisar?**
+
+**R:** No Bing, os usuários agora podem encontrar respostas de acrônimo apenas pesquisando um acrônimo, uma palavra-chave não é mais necessária. Essa mesma experiência será habilitada para outros Pesquisa da Microsoft pontos de entrada em fases.
+
+**P: Quanto tempo leva para que os acrônimos com cura do administrador sejam visíveis Pesquisa da Microsoft depois que eles são publicados?**
+
+**R:** Leva até um dia para que os acrônimos adicionados ao estado publicado se tornem disponíveis Pesquisa da Microsoft.
 
 **P: Quanto tempo leva para que os acrônimos com cura do sistema apareçam depois de receber ou enviar um novo email ou documento?**
 

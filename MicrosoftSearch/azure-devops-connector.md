@@ -7,18 +7,18 @@ audience: Admin
 ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - BFB160
 - MET150
 - MOE150
 description: Configurar o conector Azure DevOps Graph para Pesquisa da Microsoft
-ms.openlocfilehash: b7c5ab48288fdc421cda87b8afbadf08b8cf42ef023e8f56decd7b5c177c619a
-ms.sourcegitcommit: 71ac2a38971ca4452d1bddfc773ff8f45e1ffd77
+ms.openlocfilehash: fcf381a92ef397f900b300ca667fa80067a6672a
+ms.sourcegitcommit: cc9d743bcf5e998720ce9cd6eefb4061d913dc65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54533325"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58701386"
 ---
 <!---Previous ms.author: shgrover --->
 
@@ -66,7 +66,7 @@ Campos Obrigatórios | Descrição | Valor Recomendado
 | Nome do aplicativo     | Um valor exclusivo que identifica o aplicativo que você está autorizando.    | Pesquisa da Microsoft     |
 | Site do aplicativo  | A URL do aplicativo que solicitará acesso à sua instância Azure DevOps durante a instalação do conector. (Obrigatório).  | https://<span>gcs.office.</span> com/
 | URL de retorno de chamada de autorização        | Uma URL de retorno de chamada necessária para a que o servidor de autorização redireciona. | https://<span>gcs.office.</span> com/v1.0/admin/oauth/callback|
-| Escopos autorizados | O escopo de acesso para o aplicativo | Selecione os seguintes escopos: Identidade (leitura), Itens de Trabalho (leitura), Grupos Variáveis (leitura), Project e equipe (leitura), Graph (leitura)|
+| Escopos autorizados | O escopo de acesso para o aplicativo | Selecione os seguintes escopos: Identidade (leitura), Itens de Trabalho (leitura), Grupos Variáveis (leitura), Project e equipe (leitura), Graph (leitura), Análise (leitura)|
 
 >[!IMPORTANT]
 >Os escopos autorizados selecionados para o aplicativo devem corresponder aos escopos exatamente como listado acima. Se você omitir um dos escopos autorizados na lista ou adicionar outro escopo, a autorização falhará.
@@ -80,7 +80,7 @@ Ao registrar o aplicativo com os detalhes acima, você receberá a **ID** do apl
 
 Após registrar o aplicativo Pesquisa da Microsoft com Azure DevOps, você pode concluir a etapa de configurações de conexão. Insira o nome da sua organização, a ID do aplicativo e o segredo do cliente.
 
-![Aplicativo de conexão Configurações](media/ADO_Connection_settings_2.png)
+![Conexão aplicativo Configurações.](media/ADO_Connection_settings_2.png)
 
 ### <a name="configure-data-select-projects-and-fields"></a>Configurar dados: selecionar projetos e campos
 
@@ -90,11 +90,11 @@ Se você optar por indexar toda a organização, os itens em todos os projetos d
 
 Se você escolher projetos individuais, somente os itens de trabalho nesses projetos serão indexados.
 
-![Configurar dados](media/ADO_Configure_data.png)
+![Configurar dados.](media/ADO_Configure_data.png)
 
 Em seguida, selecione quais campos você deseja que a conexão indexe e visualize dados nesses campos antes de prosseguir.
 
-![Escolher propriedades](media/ADO_choose_properties.png)
+![Escolha propriedades.](media/ADO_choose_properties.png)
 
 ## <a name="step-4-manage-search-permissions"></a>Etapa 4: Gerenciar permissões de pesquisa
 
@@ -119,15 +119,19 @@ Siga as instruções [gerais de instalação](./configure-connector.md).
 
 >[!TIP]
 >**Tipo de resultado padrão**
->* O Azure DevOps conector registra automaticamente um tipo [de resultado](./customize-search-page.md#step-2-create-the-result-types) depois que o conector é publicado. O tipo de resultado usa um layout de [resultado](./customize-results-layout.md) gerado dinamicamente com base nos campos selecionados na etapa 3. 
+>* O Azure DevOps conector registra automaticamente um tipo [de resultado](./customize-search-page.md#step-2-create-result-types) depois que o conector é publicado. O tipo de resultado usa um layout de [resultado](./customize-results-layout.md) gerado dinamicamente com base nos campos selecionados na etapa 3. 
 >* Você pode gerenciar o tipo de resultado navegando até [**Tipos de**](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/resulttypes) resultado no [Centro de administração do Microsoft 365](https://admin.microsoft.com). O tipo de resultado padrão será nomeado como " `ConnectionId` Padrão". Por exemplo, se sua id de conexão for `AzureDevOps` , seu layout de resultado será nomeado: "AzureDevOpsDefault"
 >* Além disso, você pode optar por criar seu próprio tipo de resultado, se necessário.
 
 <!---If the above phrase does not apply, delete it and insert specific details for your data source that are different from general setup 
 instructions.-->
 
-<!---## Troubleshooting-->
-<!---Insert troubleshooting recommendations for this data source-->
+## <a name="troubleshooting"></a>Solução de problemas
+A seguir, um erro comum observado durante a configuração do conector e seu possível motivo.
+
+| Etapa de configuração | Mensagem de erro | Possíveis motivos |
+| ------------ | ------------ | ------------ |
+|  | `The account associated with the connector doesn't have permission to access the item.` | O aplicativo registrado não tem nenhum dos escopos OAuth necessários. (Observação - Um novo requisito de escopo OAuth 'Analytics:read' foi introduzido em 31/08/2021)  |
 
 <!---## Limitations-->
 <!---Insert limitations for this data source-->

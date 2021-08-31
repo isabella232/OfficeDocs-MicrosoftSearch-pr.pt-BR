@@ -6,19 +6,19 @@ manager: parulm
 ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - BFB160
 - MET150
 - MOE150
 ms.assetid: ee40010e-5d7f-4ba8-a3f8-d240dab3af6d
 description: Saiba como configurar o Bing como o mecanismo de pesquisa padrão da sua empresa usando a Pesquisa da Microsoft.
-ms.openlocfilehash: 7ad9ff2a0fde5ad5d84a7a51785767fd2e5d21df6654a76b09e9796917a92a0f
-ms.sourcegitcommit: 71ac2a38971ca4452d1bddfc773ff8f45e1ffd77
+ms.openlocfilehash: 5feef972d5c61c9cefba6981084e005271b39f15
+ms.sourcegitcommit: cc9d743bcf5e998720ce9cd6eefb4061d913dc65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54534174"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58701899"
 ---
 # <a name="make-bing-the-default-search-engine"></a>Definir o Bing como mecanismo de pesquisa padrão
   
@@ -89,7 +89,7 @@ Editor do Registro do Windows Versão 5.00
   
 Clique duas vezes no arquivo criado e siga as etapas para importar o arquivo. Uma importação bem-sucedida deve resultar na seguinte caixa de diálogo:
   
-![Mensagem de importação bem-sucedida do Editor do registro](media/ea3686b9-f6d7-481e-9a0d-2c96891bc501.png)
+![Mensagem de importação bem-sucedida do Editor de Registro.](media/ea3686b9-f6d7-481e-9a0d-2c96891bc501.png)
   
 ### <a name="step-2-open-the-group-policy-management-console-gpmcmsc-and-switch-to-editing-an-existing-policy-or-creating-a-new-one"></a>ETAPA 2. Abra o Console de Gerenciamento de Política de Grupo (gpmc.msc) e alterne para editar uma política existente ou criar uma nova.
 
@@ -98,7 +98,7 @@ Clique duas vezes no arquivo criado e siga as etapas para importar o arquivo. Um
 3. Navegue até **HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer\SearchScopes**.
 4. Nesta chave, certifique-se de selecionar DefaultScope.
 
-    ![Navegador de registro com DefaultScope selecionado](media/ec5a450d-0cba-4e9c-acba-1a09e8e90bad.png)
+    ![Navegador do Registro com DefaultScope selecionado.](media/ec5a450d-0cba-4e9c-acba-1a09e8e90bad.png)
 5. Marque todas as subchaves com a GUID da Pesquisa da Microsoft no Bing e todos os valores na chave, exceto qualquer caminho ao perfil do usuário. Role para baixo para escolher outros itens.
 6. Clique em Concluir para finalizar essa configuração.
 

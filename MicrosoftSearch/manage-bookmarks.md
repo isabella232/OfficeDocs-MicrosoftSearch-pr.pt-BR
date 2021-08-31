@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: c0c814d0-f7e4-444e-b18e-09beb45c9322
 description: Criar e atualizar indicadores e maneiras de editar em massa os resultados do indicador para Pesquisa da Microsoft
-ms.openlocfilehash: ed46583d857d97fa28773b64401ae4f85f88650a
-ms.sourcegitcommit: 5151bcd8fd929ef37239b7c229e2fa33b1e0e0b7
+ms.openlocfilehash: 67833ba563f8f4081cc6291db968542ba32df79f
+ms.sourcegitcommit: e5d56d6ce1cd285c5af3e0472ce169cb34883017
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58235958"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58470235"
 ---
 # <a name="manage-bookmarks"></a>Gerenciar indicadores
 
@@ -104,7 +104,7 @@ Para evitar erros de duplicação de indicador para indicador:
 
 Para reduzir o esforço manual necessário para adicionar indicadores, Pesquisa da Microsoft pode avaliar os links de SharePoint da sua organização e recomendar indicadores. Você pode revisá-los antes de publicá-los ou defini-los para publicar automaticamente. Nenhuma configuração é necessária para indicadores recomendados, eles estão habilitados e definidos como autopublicidade por padrão. Para alterar essas configurações a qualquer momento, selecione **Gerenciar indicadores** para abrir o painel de configurações do Indicador.
 
-![Captura de tela das configurações de indicador recomendadas no portal Microsoft 365 administrador](media/bookmarks-recommendedsettings.png)
+![Captura de tela das configurações de indicador recomendadas no portal Microsoft 365 administrador.](media/bookmarks-recommendedsettings.png)
 
 Se os indicadores recomendados estão habilitados, o mecanismo de recomendação avaliará SharePoint sites em sua organização para identificar links de alto tráfego. Após um período de avaliação inicial, os indicadores recomendados serão publicados automaticamente ou adicionados à lista de indicadores sugeridos. O próximo ciclo — um período de avaliação de 30 dias seguido de publicação automática ou adição de indicadores sugeridos — começará.
 

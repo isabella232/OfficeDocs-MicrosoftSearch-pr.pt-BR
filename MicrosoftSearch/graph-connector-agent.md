@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Agente in-prem
-ms.openlocfilehash: a27b5225d6a9f804d9122fbb237adb453eaf34ba
-ms.sourcegitcommit: 7148807ee9c857bd900916bed24176892a7d1d66
+ms.openlocfilehash: 4b9dddba7741388f2e6c96510e5f41b196def330
+ms.sourcegitcommit: e5d56d6ce1cd285c5af3e0472ce169cb34883017
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58363237"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58469956"
 ---
 # <a name="microsoft-graph-connector-agent"></a>Agente Graph conector da Microsoft
 
@@ -123,7 +123,7 @@ Export-PfxCertificate -Cert $certificatePath -FilePath ($filePath + '.pfx') -Pas
 
 3. Abra **o registro do** aplicativo e selecione **Certificados e** segredos do painel de navegação. Copie a impressão digital do certificado.
 
-:::image type="content" alt-text="Lista de certificados de miniatura quando Certificados e segredos são selecionados no painel esquerdo" source="media/onprem-agent/certificates.png" lightbox="media/onprem-agent/certificates.png":::
+:::image type="content" alt-text="Lista de certificados de miniatura quando Certificados e segredos são selecionados no painel esquerdo." source="media/onprem-agent/certificates.png" lightbox="media/onprem-agent/certificates.png":::
 
 ##### <a name="step-3-assign-the-certificate-to-the-agent"></a>Etapa 3: Atribuir o certificado ao agente
 

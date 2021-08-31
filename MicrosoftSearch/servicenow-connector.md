@@ -7,18 +7,18 @@ audience: Admin
 ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - BFB160
 - MET150
 - MOE150
 description: Configurar o conector de Graph ServiceNow para Pesquisa da Microsoft
-ms.openlocfilehash: b07776dfd6e2ae8ae87b43ac61e9f92495311ca8
-ms.sourcegitcommit: 5151bcd8fd929ef37239b7c229e2fa33b1e0e0b7
+ms.openlocfilehash: fccae6c2a007470eb9ef56130cb952158c01610c
+ms.sourcegitcommit: cc9d743bcf5e998720ce9cd6eefb4061d913dc65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58235876"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58701908"
 ---
 <!---Previous ms.author: kam1 --->
 
@@ -29,7 +29,7 @@ Com o Microsoft Graph Connector para ServiceNow, sua organização pode indexar 
 
 Você também pode consultar [o vídeo a](https://www.youtube.com/watch?v=TVSkJpk1RiE) seguir para saber mais sobre Graph capacidade do Connector no gerenciamento de permissões de pesquisa.
 
-[![Gerenciando permissões de pesquisa no Microsoft Graph Connector for ServiceNow](https://img.youtube.com/vi/TVSkJpk1RiE/hqdefault.jpg)](https://www.youtube.com/watch?v=TVSkJpk1RiE)
+[![Gerenciando permissões de pesquisa no Microsoft Graph Connector for ServiceNow.](https://img.youtube.com/vi/TVSkJpk1RiE/hqdefault.jpg)](https://www.youtube.com/watch?v=TVSkJpk1RiE)
 
 Este artigo é para Microsoft 365 administradores ou qualquer pessoa que configure, executa e monitore um conector de Graph ServiceNow. Ele complementa as instruções gerais fornecidas no [artigo Configurar seu](configure-connector.md) Graph conector. Se você ainda não tiver feito isso, leia todo o artigo Configurar o conector Graph para entender o processo de instalação geral.
 
@@ -47,7 +47,7 @@ Para se conectar aos dados serviceNow, você precisa da URL da instância **serv
 
 Junto com essa URL, você precisará de uma conta de serviço para configurar **a** conexão com ServiceNow, bem como para permitir Pesquisa da Microsoft atualizar periodicamente os artigos de conhecimento com base no cronograma de atualização. A conta de serviço precisará de acesso de leitura aos seguintes registros da tabela **ServiceNow** para rastrear várias entidades com êxito.
 
-**Característica** | **Ler tabelas necessárias de acesso** | **Descrição**
+**Recurso** | **Ler tabelas necessárias de acesso** | **Descrição**
 --- | --- | ---
 Artigos de conhecimento de índice disponíveis para <em>Todos</em> | kb_knowledge | Para rastrear artigos de conhecimento
 Permissões de critérios de usuário de indexação e suporte | kb_uc_can_read_mtom | Who pode ler essa base de dados de conhecimento
@@ -151,7 +151,7 @@ A instância ServiceNow precisa da seguinte configuração:
 
    Campo | Descrição | Valor Recomendado
    --- | --- | ---
-   Nome | Um nome exclusivo que identifica a entidade OAuth OIDC. | Azure AD
+   Nome | Um nome exclusivo que identifica a entidade OAuth OIDC. | Microsoft Azure AD
    ID do cliente | A ID do cliente do aplicativo registrado no servidor OAuth OIDC de terceiros. A instância usa a ID do cliente ao solicitar um token de acesso. | ID do aplicativo (cliente) da etapa 3.a
    Segredo de Cliente | O segredo do cliente do aplicativo registrado no servidor OAuth OIDC de terceiros. | Segredo do Cliente da etapa 3.b
 
@@ -163,10 +163,10 @@ A instância ServiceNow precisa da seguinte configuração:
 
    Campo | Valor Recomendado
    --- | ---
-   Provedor OIDC |  Azure AD
+   Provedor OIDC |  Microsoft Azure AD
    URL de metadados OIDC | A URL deve estar no formato https \: //login.microsoftonline.com/<tenandId">/.well-known/openid-configuration <br/>Substitua "tenantID" pela ID de Diretório (locatário) da etapa 3.a.
    Período de vida útil do cache de configuração do OIDC |  120
-   Aplicativo | Global
+   Application | Global
    Declaração de usuário | sub
    Campo usuário | ID do Usuário
    Habilitar a verificação de declaração JTI | Desabilitado
@@ -243,7 +243,7 @@ O Graph serviceNow tem as seguintes limitações em sua versão mais recente:
 - *Somente as pessoas com acesso a esse* recurso de fonte de dados na etapa Gerenciar permissões de Pesquisa estão no canal de lançamento direcionado e processam apenas as permissões de [critérios do](https://hi.service-now.com/kb_view.do?sysparm_article=KB0550924) usuário. Qualquer outro tipo de permissão de acesso não será aplicado nos resultados da pesquisa.
 - Os critérios do usuário com scripts avançados não são suportados na versão atual. Qualquer artigo de conhecimento com essa restrição de acesso será indexado com negação de acesso a todos, ou seja, eles não aparecerão nos resultados da pesquisa para qualquer usuário até que nós os suportemos.
 
-## <a name="troubleshooting"></a>Solução de Problemas
+## <a name="troubleshooting"></a>Solução de problemas
 Depois de publicar sua conexão, personalização da página de resultados, você pode revisar o status na guia **Fontes** de Dados no centro [de administração](https://admin.microsoft.com). Para saber como fazer atualizações e exclusões, consulte [Manage your connector](manage-connector.md).
 Você pode encontrar etapas de solução de problemas para problemas comumente vistos abaixo.
 ### <a name="1-unable-to-login-due-to-single-sign-on-enabled-servicenow-instance"></a>1. Não é possível fazer logon devido Sign-On serviceNow habilitada

@@ -7,19 +7,19 @@ audience: Admin
 ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - BFB160
 - MET150
 - MOE150
 ROBOTS: NoIndex
 description: Configurar o conector de SQL Graph Oracle para Pesquisa da Microsoft.
-ms.openlocfilehash: 21585d1d60e5dcd73a45a3ccda151fbb144e85eb
-ms.sourcegitcommit: 5151bcd8fd929ef37239b7c229e2fa33b1e0e0b7
+ms.openlocfilehash: 804bee89f8529630df5741f68b9f112c69307b4f
+ms.sourcegitcommit: cc9d743bcf5e998720ce9cd6eefb4061d913dc65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58236019"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58701422"
 ---
 <!---Previous ms.author:vivg --->
 
@@ -66,7 +66,7 @@ Nesta etapa, você configura a SQL que executa um rastreamento completo do banco
 > [!Tip]
 > Para obter todas as colunas de que você precisa, você pode ingressar em várias tabelas.
 
-![Script mostrando as propriedades OrderTable e AclTable com exemplo](media/MSSQL-fullcrawl.png)
+![Script mostrando as propriedades OrderTable e AclTable com exemplo.](media/MSSQL-fullcrawl.png)
 
 ### <a name="select-data-columns-required-and-acl-columns-optional"></a>Selecione colunas de dados (obrigatório) e colunas ACL (Opcional)
 
@@ -83,7 +83,7 @@ O uso de cada uma das colunas ACL na consulta acima é descrito abaixo. A lista 
 * **DeniedUsers**: Essa opção especifica a lista de usuários que **não têm** acesso aos resultados da pesquisa. No exemplo a seguir, os usuários john@contoso.com e keith@contoso.com não têm acesso para gravar com OrderId = 13, enquanto todos os outros têm acesso a esse registro.
 * **DeniedGroups**: essa opção especifica o grupo de usuários que **não têm** acesso aos resultados da pesquisa. No exemplo a seguir, os grupos engg-team@contoso.com e pm-team@contoso.com não têm acesso para gravar com OrderId = 15, enquanto todos os outros têm acesso a esse registro.  
 
-![Dados de exemplo mostrando as propriedades OrderTable e AclTable com exemplo](media/MSSQL-ACL1.png)
+![Dados de exemplo mostrando as propriedades OrderTable e AclTable.](media/MSSQL-ACL1.png)
 
 ### <a name="supported-data-types"></a>Tipos de dados com suporte
 
@@ -94,9 +94,9 @@ A tabela abaixo resume os tipos de dados suportados pelo conector SQL Oracle. A 
 | Datatype de número | NUMBER(p,0) | int64 (para p <= 18) <br> double (para p > 18) |
 | Datatype de número de ponto flutuante | NUMBER(p,s) <br> FLOAT(p) | double |
 | Datatype de data | DATA <br> TIMESTAMP <br> TIMESTAMP(n) | datetime |
-| Tipo de dados de caractere | CHAR(n) <br> VARCHAR <br> VARCHAR2 <br> Longas <br> CLOB <br> NCLOB | cadeia de caracteres |
-| Tipo de dados de caractere unicode | NCHAR <br> NVARCHAR | cadeia de caracteres |
-| Tipo de dados RowID | ROWID <br> UROWID | cadeia de caracteres |
+| Tipo de dados de caractere | CHAR(n) <br> VARCHAR <br> VARCHAR2 <br> LONGAS <br> CLOB <br> NCLOB | string |
+| Tipo de dados de caractere unicode | NCHAR <br> NVARCHAR | string |
+| Tipo de dados RowID | ROWID <br> UROWID | string |
 
 Para qualquer outro tipo de dados atualmente não suportado diretamente, a coluna precisa ser explicitamente lançada para um tipo de dados com suporte.
 
@@ -111,7 +111,7 @@ Crie trechos de consulta para marcas d'água, conforme mostrado nestes exemplos:
 
 Na configuração mostrada na imagem a seguir, `CreatedDateTime` está a coluna de marca d'água selecionada. Para buscar o primeiro lote de linhas, especifique o tipo de dados da coluna de marca d'água. Nesse caso, o tipo de dados é `DateTime` .
 
-![Configuração da coluna Watermark](media/MSSQL-watermark.png)
+![Configuração de coluna de marca d'água.](media/MSSQL-watermark.png)
 
 A primeira consulta busca o primeiro **número N** de linhas usando: "CreatedDateTime > 1º de janeiro de 1753 00:00:00" (valor mínimo do tipo de dados DateTime). Depois que o primeiro lote é buscado, o maior valor de retornado no lote é salvo como o ponto de verificação se as linhas são classificação em `CreatedDateTime` ordem crescente. Um exemplo é 1º de março de 2019 03:00:00. Em seguida, o próximo lote de linhas **N** é buscado usando "CreatedDateTime > 1º de março de 2019 03:00:00" na consulta.
 
@@ -119,7 +119,7 @@ A primeira consulta busca o primeiro **número N** de linhas usando: "CreatedDat
 
 Para excluir linhas excluídas de forma suave em seu banco de dados de serem indexadas, especifique o nome da coluna de exclusão suave e o valor que indica que a linha é excluída.
 
-![Configurações de exclusão suave: "Coluna de exclusão suave" e "Valor da coluna de exclusão suave que indica uma linha excluída"](media/MSSQL-softdelete.png)
+![Configurações de exclusão suave: "Coluna de exclusão suave" e "Valor da coluna de exclusão suave que indica uma linha excluída".](media/MSSQL-softdelete.png)
 
 ### <a name="full-crawl-manage-search-permissions"></a>Rastreamento completo: Gerenciar permissões de pesquisa
 
@@ -133,7 +133,7 @@ Os seguintes tipos de ID são suportados para uso como ACLs:
 * **Azure Active Directory (AAD) ID**: no Azure AD, cada usuário ou grupo tem uma ID de objeto que se parece com 'e0d3ad3d-0000-1111-2222-3c5f5c52ab9b'
 * ID de Segurança do **Active Directory (AD)**: Em uma configuração do AD local, cada usuário e grupo tem um identificador de segurança imutável e exclusivo que se parece com 'S-1-5-21-3878594291-2115959936-132693609-65242.'
 
-![Configurações de permissão de pesquisa para configurar listas de controle de acesso](media/MSSQL-ACL2.png)
+![Configurações de permissão de pesquisa para configurar listas de controle de acesso.](media/MSSQL-ACL2.png)
 
 ## <a name="step-3b-incremental-crawl-optional"></a>Etapa 3b: Rastreamento incremental (Opcional)
 
@@ -174,7 +174,7 @@ Create your own verticals and result types, so end users can view search results
 
 To learn more about how to create your verticals and MRTs, see [Search results page customization](customize-search-page.md). -->
 
-## <a name="troubleshooting"></a>Solução de Problemas
+## <a name="troubleshooting"></a>Solução de problemas
 
 Abaixo está uma lista de erros comuns observados durante a configuração do conector e seus possíveis motivos.
 

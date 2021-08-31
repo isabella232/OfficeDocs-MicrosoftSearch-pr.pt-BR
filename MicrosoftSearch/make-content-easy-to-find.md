@@ -6,18 +6,18 @@ manager: mnirkhe
 ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - BFB160
 - MET150
 - MOE150
 description: Crie indicadores, locais e itens de P e R para facilitar a localização do conteúdo da sua organização.
-ms.openlocfilehash: 0cf3152e7fb47f0cb1b1fa3fe0df43645a2536e171fd8211050a1773ec86a490
-ms.sourcegitcommit: 71ac2a38971ca4452d1bddfc773ff8f45e1ffd77
+ms.openlocfilehash: 77b6507c7643e6cf2176f37a9a2cf0def1c640ba
+ms.sourcegitcommit: cc9d743bcf5e998720ce9cd6eefb4061d913dc65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54532935"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58702071"
 ---
 # <a name="make-content-easy-to-find"></a>Tornar o conteúdo fácil de encontrar
 

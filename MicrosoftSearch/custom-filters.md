@@ -1,7 +1,7 @@
 ---
-title: Gerenciar filtros personalizados
-ms.author: rodhb
-author: rodhb
+title: Gerenciar filtros
+ms.author: v-revathib
+author: revathi-b
 manager: jeffkizn
 ms.audience: Admin
 ms.topic: article
@@ -11,55 +11,69 @@ search.appverid:
 - BFB160
 - MET150
 - MOE150
-description: Gerenciar filtros personalizados
-ms.openlocfilehash: 256cf9748aa3050aacf48c3562f6f84b4ba2e460
-ms.sourcegitcommit: 5151bcd8fd929ef37239b7c229e2fa33b1e0e0b7
+description: Gerenciar filtros para uso na SERP
+ms.openlocfilehash: da8c93f4faef7d52862db7464f61fd8e2cbd9fdf
+ms.sourcegitcommit: b69da84c97ea14fd4706d24522a1e324b6798f91
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58235923"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "58674772"
 ---
-# <a name="manage-custom-filters"></a>Gerenciar filtros personalizados
+# <a name="manage-filters"></a>Gerenciar filtros
 
-Você pode usar filtros para personalizar a Pesquisa da Microsoft experiência. Os filtros permitem que os usuários refinem rapidamente o conjunto de resultados de sua consulta de pesquisa.
+Os filtros permitem aos usuários refinar os resultados de suas consultas e exibir os resultados refinados. Você pode personalizar os filtros disponíveis para seus usuários Pesquisa da Microsoft experiência.
 
-Um filtro personalizado pode ser criado dentro de uma propriedade de conexão vertical. Por exemplo, você pode criar um filtro **Publicado em** para a conexão ServiceNow dentro de uma vertical.
+Há dois tipos de filtros disponíveis na página de pesquisa.
+
+- Filtros fora da caixa
+- Filtros personalizados
 
 > [!NOTE]
 > Os Filtros Personalizados estão atualmente em visualização para administradores e usuários finais em Versão Direcionada. Para obter mais informações sobre visualização, consulte [Conectores recursos de visualização](connectors-overview.md#what-are-the-preview-features).
 
-## <a name="create-a-filter-in-an-organizational-level-vertical"></a>Criar um filtro em um nível organizacional vertical
+## <a name="out-of-the-box-filters"></a>Filtros fora da caixa
 
-Para criar um filtro na pesquisa da Microsoft, siga estas etapas:
+Por padrão, os filtros de caixa estão disponíveis em verticais de pesquisa, como Todos, Arquivos, Imagens e Notícias. Nas verticais 'Tudo' e 'Arquivo', você pode ver o filtro "Tipo de arquivo" na propriedade FileType e o filtro "Última modificação" na propriedade LastModifiedTime. Esses filtros estão disponíveis em SharePoint Home, Office.com, SharePoint Sites e Trabalhar verticalmente Bing.
 
-1. No Centro de administração do Microsoft 365, vá para [Verticals](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/verticals).
-1. Criar/editar a vertical na qual você deseja criar o filtro
-1. Navegue até a etapa "Filtros" no assistente
-1. Clique em "Adicionar Filtro" e começar
-1. Depois de adicionar filtros, você pode revisar e salvar a vertical.
+## <a name="custom-filters"></a>Filtros personalizados
 
-## <a name="things-to-consider"></a>Itens a considerar
+Os filtros podem ser adicionados às verticais de pesquisa personalizadas no nível da organização e do site. As propriedades gerenciadas refináveis são usadas para configurar filtros no assistente de administração vertical.  Em seguida, um filtro personalizado pode ser criado dentro de uma propriedade de conexão vertical. Por exemplo, você pode criar um filtro Publicado em para uma conexão ServiceNow dentro de uma vertical.
 
-1. Recursos adicionais de filtro existem no conteúdo da conexão.
+Os filtros configurados para verticais no escopo da organização estarão disponíveis no escopo da organização. Os filtros também podem ser configurados no escopo do site.  
 
-    - Você também pode criar filtro em um alias para as propriedades de origem do conector
-    - Se uma vertical tiver várias conexões, você poderá criar um filtro comum entre essas conexões. Isso pode ser feito criando o filtro em um alias comum que aliasiza as propriedades de origem entre as diferentes conexões. Por exemplo, você pode criar um filtro **Autor** em uma conexão ServiceNow e Jira criando aliases da seguinte forma:
+## <a name="create-organization-level-filters"></a>Criar filtros no nível da organização
 
-    | Connection | Propriedade | Alias |
-    | --- | --- | --- |
-    | Serviço Agora | Proprietário | Autor |
-    | Jira | Publisher | Autor |
+1. Em  [Centro de administração do Microsoft 365](https://admin.microsoft.com/), vá para  [**Verticals**](https://admin.microsoft.com/Adminportal/Home#/MicrosoftSearch/verticals)
+2. Selecione sua vertical preferida onde você deseja criar um filtro e clique em **Editar**.  
+3. Navegue até a etapa Filtros no assistente vertical.
+4. Clique **em Adicionar um Filtro para** configurar filtros em propriedades gerenciadas refináveis.
+5. Depois de adicionar filtros, você pode revisar e salvar a vertical.
 
-1. Os filtros existem no escopo de uma vertical.
+## <a name="create-sharepoint-site-level-filters"></a>Criar SharePoint de nível de site
 
-    - Se um filtro for criado em uma vertical que está no nível organizacional, o filtro só ficará visível no nível organizacional
-    - Se um filtro for criado em uma vertical que está no nível do site, o filtro só ficará visível no nível do site.
+1. No [SharePoint de administração,](https://sharepoint.com/)vá para Configurações.
+2. Procure a seção Pesquisa da Microsoft e selecione Configurar Pesquisa da Microsoft **para este conjunto de sites.**
+3. No painel de navegação, vá para Experiência personalizada e selecione  **Verticals**.
+4. Selecione sua vertical preferida para criar o filtro e clique em **Editar**.
+5. Navegue até a etapa Filtros no assistente vertical.
+6. Clique **em Adicionar um Filtro para** configurar filtros em propriedades gerenciadas refináveis.
+7. Depois de adicionar filtros, você pode revisar e salvar a vertical.
 
-## <a name="known-limitations"></a>Limitações conhecidas
+## <a name="filter-across-multiple-properties"></a>Filtrar entre várias propriedades
 
-1. No momento, você pode criar filtros somente em propriedades gerenciadas de tipo de & de caracteres de data.
-1. Não é possível criar filtros hierárquicos.
+As verticais podem ser criadas com uma ou mais fontes de conteúdo. Quando uma vertical é configurada com várias fontes de conteúdo, a lista de propriedades do refinador mostra a qual fonte de conteúdo cada propriedade refinável pertence. As propriedades gerenciadas comuns serão mescladas com base no nome (ou alias) e no tipo de dados. Os filtros também podem ser configurados nessas propriedades comuns. Isso é feito criando o filtro em um alias comum que aliasiza as propriedades de origem entre as diferentes conexões. Por exemplo, você pode criar um filtro **Autor** entre conexões ServiceNow e Jira criando aliases da seguinte forma:
 
-## <a name="resources"></a>Recursos
+ | Connection | Propriedade | Alias |
+ | --- | --- | --- |
+ | Serviço Agora | Proprietário | Autor |
+ | Jira | Publisher | Autor |
 
-[Gerenciar verticais e tipos de resultados](customize-search-page.md)
+## <a name="important-details"></a>Detalhes importantes
+
+- Os filtros só podem ser adicionados a verticais personalizadas. Novos filtros não podem ser adicionados a verticais fora da caixa, como Todos, Arquivos, Pessoas, Sites, Notícias.
+- Os filtros são configuráveis nas propriedades Text e DateTime.
+- Você está limitado a um total de 50 filtros.
+- Não é possível ajustar a ordem dos filtros de saída da caixa.
+- Não há suporte para filtros para OneDrive conteúdo. Os valores de filtro correspondentes aos resultados da pesquisa OneDrive conteúdo não serão exibidos em filtros.
+- Os valores de filtro personalizados mostrarão opções SharePoint conteúdo e não do conteúdo do One Drive.Por exemplo, se você criar um filtro personalizado para 'Autor' e SharePoint conteúdo contiver resultados apenas de um autor, "Amy", e OneDrive conteúdo contém resultados apenas de um autor chamado 'John', o filtro personalizado Autor mostrará 'Amy' como a única opção.
+- Um valor de filtro mostrado para SharePoint conteúdo será aplicado OneDrive conteúdo quando usado.

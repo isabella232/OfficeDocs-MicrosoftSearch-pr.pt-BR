@@ -7,18 +7,18 @@ audience: Admin
 ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - BFB160
 - MET150
 - MOE150
 description: Visão geral da configuração dos conectores do Graph pela Microsoft
-ms.openlocfilehash: b08363421ed143eb32c112ef53ac47cff44722e0
-ms.sourcegitcommit: 8ac77db22002d47bb461222b81b7cfc1c15a72fb
+ms.openlocfilehash: 3b8ae9068b445e09f2df95fb5b29feb5ec3af74b
+ms.sourcegitcommit: cc9d743bcf5e998720ce9cd6eefb4061d913dc65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58340083"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58701872"
 ---
 <!-- Previous ms.author: monaray -->
 
@@ -35,7 +35,7 @@ Este artigo mostra o processo básico necessário para configurar os conectores 
 4. [Selecionar propriedades](#step-4-select-properties)
 5. [Gerenciar as permissões de pesquisa](#step-5-manage-search-permissions)
 6. [Atribuir os rótulos de propriedade](#step-6-assign-property-labels)
-7. [Gerenciar o esquema](#step-7-manage-schema)
+7. [Gerenciar esquema](#step-7-manage-schema)
 8. [Atualizar as configurações](#step-8-refresh-settings)
 9. [Analisar a conexão](#step-9-review-connection)
 

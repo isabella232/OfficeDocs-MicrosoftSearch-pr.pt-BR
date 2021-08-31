@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: c0c814d0-f7e4-444e-b18e-09beb45c9322
 description: Gerenciar como Power BI relatórios e dados aparecem nos resultados da pesquisa
-ms.openlocfilehash: a9148ab621703d89ddbe0f225ac2b0697748d8a2e85ffe96cec1763e04deeda9
-ms.sourcegitcommit: 71ac2a38971ca4452d1bddfc773ff8f45e1ffd77
+ms.openlocfilehash: 951b1849cd3c9f60e93c98bde189eef85680b372
+ms.sourcegitcommit: e5d56d6ce1cd285c5af3e0472ce169cb34883017
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54533604"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58470253"
 ---
 # <a name="manage-power-bi-answers"></a>Gerenciar Power BI respostas
 
@@ -42,18 +42,18 @@ Pesquisa da Microsoft os usuários podem encontrar Power BI resultados pesquisan
 
 Substitua nos exemplos acima pelas informações que você está procurando, como `<topic>` vendas, uso, capacidade, 2021, Q1 e muito mais, para ver resultados relevantes do Power BI.
 
-:::image type="content" source="media/powerbi-answers/powerbi-serp.png" alt-text="Captura de tela de um SERP com Power BI respostas e verticais" border="true":::
+:::image type="content" source="media/powerbi-answers/powerbi-serp.png" alt-text="Captura de tela de um SERP com Power BI respostas e verticais." border="true":::
 
 ## <a name="turn-power-bi-search-on-or-off"></a>Ativar Power BI pesquisa ou desativar
 
 Power BI resultados estão habilitados para sua organização por padrão. Seu Power BI administrador pode desabilitá-los a qualquer momento. No portal Power BI Administrador, acesse Configurações de locatário e desabilite a configuração **Usar pesquisa global para Power BI.** Para saber mais, consulte [Administering Power BI in the admin portal](/power-bi/admin/service-admin-portal#use-global-search-for-power-bi-preview).
 
-:::image type="content" source="media/powerbi-answers/powerbi-admin.png" alt-text="Captura de tela da configuração para ativar ou desativar Power BI respostas" border="true":::
+:::image type="content" source="media/powerbi-answers/powerbi-admin.png" alt-text="Captura de tela da configuração para Power BI ou desativar as respostas." border="true":::
 
 > [!NOTE]
 > Ao usar Pesquisa da Microsoft, sua consulta de pesquisa e os resultados retornados do Power BI podem ser processados em uma região ou geografia diferente de onde seus dados de locatário Power BI estão localizados.
 
-## <a name="frequently-asked-questions"></a>Perguntas frequentes
+## <a name="frequently-asked-questions"></a>Perguntas Frequentes
 
 **P: a Power BI está habilitada por padrão?**
 

@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Configurar o conector Enterprise de sites Graph para Pesquisa da Microsoft
-ms.openlocfilehash: 002a1504915c2c882492c894595e39598c692bcf
-ms.sourcegitcommit: 5151bcd8fd929ef37239b7c229e2fa33b1e0e0b7
+ms.openlocfilehash: 2be52bc83718c2450ad91444a6176f5f63c03890
+ms.sourcegitcommit: e5d56d6ce1cd285c5af3e0472ce169cb34883017
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58235935"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58469974"
 ---
 <!---Previous ms.author: monaray --->
 
@@ -64,7 +64,7 @@ Quando selecionado, o conector rastreará apenas as URLs listadas no sitemap. Se
 Se seu site contiver conteúdo dinâmico, por exemplo, páginas da Web que vivem em sistemas de gerenciamento de conteúdo como Confluência ou Unily, você pode habilitar um rastreador dinâmico. Para ative-lo, selecione **Habilitar rastreamento para sites dinâmicos.** O rastreador aguardará a renderização do conteúdo dinâmico antes de começar a rastrear.
 
 > [!div class="mx-imgBorder"]
-> ![Captura de tela do painel Configurações conexão para Enterprise Web](media/enterprise-web-connector/connectors-enterpriseweb-connectionsettings-dynamicconfig-small.png)
+> ![Captura de tela do painel Configurações conexão para Enterprise Web.](media/enterprise-web-connector/connectors-enterpriseweb-connectionsettings-dynamicconfig-small.png)
 
 Além da caixa de seleção, há três campos opcionais disponíveis:
 
@@ -131,7 +131,7 @@ O Enterprise de sites só oferece suporte a uma atualização completa. Isso sig
 Siga as instruções [gerais de instalação](./configure-connector.md).
 <!---If the above phrase does not apply, delete it and insert specific details for your data source that are different from general setup instructions.-->
 
-## <a name="troubleshooting"></a>Solução de Problemas
+## <a name="troubleshooting"></a>Solução de problemas
 
 Ao ler o conteúdo do site, o rastreamento pode encontrar alguns erros de origem, que são representados pelos códigos de erro detalhados abaixo. Para obter mais informações sobre os tipos de erros, vá para a página de detalhes **de** erro após selecionar a conexão. Selecione o **código de erro** para ver erros mais detalhados. Consulte Também Gerenciar [seu conector para](./manage-connector.md) saber mais.
 
