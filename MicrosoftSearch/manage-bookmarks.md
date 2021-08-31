@@ -6,19 +6,19 @@ manager: jeffkizn
 ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - BFB160
 - MET150
 - MOE150
 ms.assetid: c0c814d0-f7e4-444e-b18e-09beb45c9322
 description: Criar e atualizar indicadores e maneiras de editar em massa os resultados do indicador para Pesquisa da Microsoft
-ms.openlocfilehash: 67833ba563f8f4081cc6291db968542ba32df79f
-ms.sourcegitcommit: e5d56d6ce1cd285c5af3e0472ce169cb34883017
+ms.openlocfilehash: a08bef9ccc56d395fe6570bacc856653ff3a1563
+ms.sourcegitcommit: cc9d743bcf5e998720ce9cd6eefb4061d913dc65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "58470235"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58702053"
 ---
 # <a name="manage-bookmarks"></a>Gerenciar indicadores
 

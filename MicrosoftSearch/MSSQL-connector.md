@@ -7,18 +7,18 @@ audience: Admin
 ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
-ms.localizationpriority: medium
+localization_priority: Normal
 search.appverid:
 - BFB160
 - MET150
 - MOE150
 description: Configurar o conector do Azure SQL microsoft SQL Graph para Pesquisa da Microsoft.
-ms.openlocfilehash: ae953d55de4a4f5e8afc32cc6b55f6e0b32e2811
-ms.sourcegitcommit: cc9d743bcf5e998720ce9cd6eefb4061d913dc65
+ms.openlocfilehash: a60c8a038790bb4a08189c48675d315b06a6e0f7
+ms.sourcegitcommit: e5d56d6ce1cd285c5af3e0472ce169cb34883017
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58701431"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58470001"
 ---
 <!---Previous ms.author: vivg --->
 

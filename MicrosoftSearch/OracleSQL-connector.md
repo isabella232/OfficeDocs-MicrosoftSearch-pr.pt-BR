@@ -7,19 +7,19 @@ audience: Admin
 ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
-ms.localizationpriority: medium
+localization_priority: Normal
 search.appverid:
 - BFB160
 - MET150
 - MOE150
 ROBOTS: NoIndex
 description: Configurar o conector de SQL Graph Oracle para Pesquisa da Microsoft.
-ms.openlocfilehash: 804bee89f8529630df5741f68b9f112c69307b4f
-ms.sourcegitcommit: cc9d743bcf5e998720ce9cd6eefb4061d913dc65
+ms.openlocfilehash: 1fe45fa6f92b16290148ef72282418c41942a3c7
+ms.sourcegitcommit: e5d56d6ce1cd285c5af3e0472ce169cb34883017
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58701422"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58470010"
 ---
 <!---Previous ms.author:vivg --->
 
