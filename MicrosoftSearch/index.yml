@@ -1,0 +1,81 @@
+## YamlMime:Hub
+title: Pesquisa da Microsoft de administrador
+summary: Gerencie Pesquisa da Microsoft para aumentar a produtividade fornecendo resultados de pesquisa mais relevantes para sua organização.
+metadata:
+  title: Pesquisa da Microsoft documentação
+  description: Pesquisa da Microsoft aumenta a produtividade e economiza tempo entregando resultados de pesquisa mais relevantes para sua organização.
+  ms.service: mssearch
+  ms.topic: landing-page
+  author: jeffkizn
+  ms.author: jeffkizn
+  ms.date: 05/29/2020
+highlightedContent:
+  items:
+    - title: Saiba mais sobre Pesquisa da Microsoft
+      itemType: overview
+      url: 'https://resources.techcommunity.microsoft.com/microsoft-search/'
+    - title: Pesquisa da Microsoft roteiro
+      itemType: reference
+      url: 'https://www.microsoft.com/microsoft-365/roadmap?rtc=1&filters=Microsoft%20Search'
+    - title: Recursos de adoção
+      itemType: get-started
+      url: 'https://resources.techcommunity.microsoft.com/microsoft-search/#adoption'
+    - title: Pesquisa da Microsoft no YouTube
+      itemType: video
+      url: 'https://www.youtube.com/channel/UC-d4Q5pvRf6IVJuWY8wpAFw/'
+additionalContent:
+  sections:
+    - title: Administração
+      items:
+        - title: Pesquisa da Microsoft para o Administrador
+          links:
+            - text: Visão geral
+              url: overview-microsoft-search.md
+            - text: Configurar a Pesquisa da Microsoft
+              url: setup-microsoft-search.md
+            - text: Perguntas frequentes
+              url: faqs.md
+        - title: Obter informações dos usuários
+          links:
+            - text: Relatórios de uso de pesquisa
+              url: usage-reports.md
+            - text: Exibir comentários dos usuários
+              url: manage-feedback.md
+        - title: Forneça respostas
+          links:
+            - text: Gerenciar indicadores
+              url: manage-bookmarks.md
+            - text: Gerenciar acrônimos
+              url: manage-acronyms.md
+            - text: Gerenciar planos de piso
+              url: manage-floorplans.md
+            - text: Gerenciar locais
+              url: manage-locations.md
+            - text: Gerenciar Power BI
+              url: manage-powerbi.md
+            - text: Gerenciar Q&A
+              url: manage-qas.md
+        - title: Gerenciar fontes de dados
+          links:
+            - text: Graph Visão geral dos conectores
+              url: connectors-overview.md
+            - text: Conectores Graph de instalação
+              url: configure-connector.md
+            - text: Gerenciamento de conectores de federação
+              url: manage-dynamics365.md
+        - title: Personalizar o UX do usuário final
+          links:
+            - text: Gerenciar verticais e tipos de resultados
+              url: customize-search-page.md
+            - text: Personalizar o layout de SERP
+              url: customize-results-layout.md
+            - text: Gerenciar filtros
+              url: custom-filters.md
+            - text: Gerenciar clusters de resultados
+              url: result-cluster.md
+        - title: Clientes de pesquisa
+          links:
+            - text: Entenda Pesquisa da Microsoft no SharePoint
+              url: get-started-search-in-sharepoint-online.md
+            - text: Entenda Pesquisa da Microsoft no Bing
+              url: security-for-search.md
