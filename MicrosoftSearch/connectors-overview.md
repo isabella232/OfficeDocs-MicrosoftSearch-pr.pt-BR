@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Visão geral dos conectores Graph microsoft para Pesquisa da Microsoft
-ms.openlocfilehash: e1aea93c927d933a63c3eb0456bb18d3f99e9291
-ms.sourcegitcommit: cc9d743bcf5e998720ce9cd6eefb4061d913dc65
+ms.openlocfilehash: 0d0a1a89edfbcba0fed167c8b3f7bb2166da9439
+ms.sourcegitcommit: 134749c0f3a10f63d667f86dca55656b020b920f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58702207"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "58923139"
 ---
 <!---Previous ms.author: monaray --->
 
@@ -71,7 +71,7 @@ Você pode se conectar às seguintes fontes de dados usando conectores criados p
 * [MediaWiki](mediawiki-connector.md)
 * [Compartilhamento de arquivos](fileshare-connector.md)
 * [Oracle SQL](OracleSQL-connector.md)
-* [Salesforce (visualização)](salesforce-connector.md)
+* [Salesforce ](salesforce-connector.md)
 * [ServiceNow](servicenow-connector.md)
 
 A [galeria Graph conectores da Microsoft](https://www.microsoft.com/microsoft-search/connectors) contém uma breve descrição de cada um desses conectores. Se você estiver pronto para conectar uma dessas fontes de dados [](configure-connector.md) ao seu locatário, leia a visão geral da Instalação e quaisquer outros artigos na seção Conectores de Instalação da Microsoft que se apliquem à sua fonte de dados.
@@ -101,8 +101,6 @@ Embora os Graph da Microsoft e as APIs Pesquisa da Microsoft agora estão geralm
 O conjunto de conectores e recursos na visualização inclui:
 
 * [Azure DevOps conector](azure-devops-connector.md)
-* [Conector do Salesforce](salesforce-connector.md)
-* [Conector ServiceNow](servicenow-connector.md) com permissões de pesquisa que usam ACLs de origem
 * [Gerenciar filtros personalizados](custom-filters.md)
 * [Várias conexões em um vertical](customize-search-page.md#multiple-connections-in-a-vertical)
 

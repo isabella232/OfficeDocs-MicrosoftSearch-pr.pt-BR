@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Requisitos de licença e preços para Graph visualização pública de conectores da Microsoft para Pesquisa da Microsoft
-ms.openlocfilehash: df91bb0ae68dd86d61855eed6d70a09ed0986800
-ms.sourcegitcommit: cc9d743bcf5e998720ce9cd6eefb4061d913dc65
+ms.openlocfilehash: b62187f0618405bdd691f923437b7b1e0edea1f9
+ms.sourcegitcommit: 134749c0f3a10f63d667f86dca55656b020b920f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58702080"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "58923148"
 ---
 <!---Previous ms.author: rusamai --->
 
@@ -70,3 +70,4 @@ Há duas opções para explorar Graph conectores com Tópicos do Microsoft Viva:
 
 > [!NOTE]
 > Atualmente, os conectores do Microsoft Graph suportam apenas até 7 milhões de itens da cota de índice total, o que inclui qualquer cota de entrada agrupada em Microsoft 365 ou Office 365 E5 licenças. A plataforma dará suporte a limites mais altos no futuro. Entre em contato com o suporte da Microsoft ou com o gerente de conta da Microsoft, se tiver dúvidas.
+> Os conectores de visualização não contam em relação à cota, depois que um conector se torna geralmente disponível, ele começa a contar com a cota de índice total.
