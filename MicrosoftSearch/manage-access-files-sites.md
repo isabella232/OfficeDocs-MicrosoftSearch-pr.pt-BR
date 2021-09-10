@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Uma visão geral de como os administradores podem garantir que o acesso a sites e arquivos sejam restritos corretamente em sua organização.
-ms.openlocfilehash: c85cce6208743b884cce86cc11c46aab3e01254d
-ms.sourcegitcommit: 70c48e470262099feb79553e36593521cc5e7abc
+ms.openlocfilehash: c19442e1d89ddfe65a772213a8b0225ca680d699
+ms.sourcegitcommit: 3e069fd920b5fcdfe97a0261930447e9e87d9013
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/31/2021
-ms.locfileid: "58835013"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "58973754"
 ---
 # <a name="manage-access-to-files-and-sites"></a>Gerenciar o acesso a arquivos e sites
 
@@ -27,21 +27,23 @@ Os administradores de pesquisa não podem resolver esses problemas de compartilh
 
 ## <a name="solutions-to-prevent-oversharing"></a>Soluções para evitar o excesso de compartilhamento
 
-Use as ferramentas, políticas e técnicas abaixo para restringir ou ofuscar o acesso às informações para ajudar a evitar o excesso de compartilhamento. A implementação dessas soluções exigirá acesso provável ao administrador global, de conformidade ou de segurança. Também recomendamos uma campanha interna para instruir seus usuários sobre como proteger corretamente, rotular e permissões de seus sites e arquivos.
+Use as ferramentas, políticas e técnicas abaixo para restringir ou ofuscar o acesso às informações para ajudar a evitar o excesso de compartilhamento. A implementação dessas soluções provavelmente exigirá acesso de administrador global, conformidade ou segurança. Também recomendamos uma campanha interna para instruir seus usuários sobre como proteger corretamente, rotular e permissões de seus sites e arquivos.
 
-### <a name="public-sites-or-sites-with-public-owners"></a>Sites públicos ou sites com proprietários públicos
+### <a name="public-sites-or-sites-with-public-groups-as-owners"></a>Sites públicos ou sites com grupos públicos como proprietários
 
-Uma maneira de compartilhar arquivos com todos em sua organização é por meio de sites públicos ou sites com proprietários públicos. Os rótulos de sensibilidade podem impedir que os usuários criam grupos ou sites públicos. Isso é feito configurando todos os rótulos para criar grupos privados e exigindo um rótulo para grupos. Para obter detalhes, consulte Usar rótulos de sensibilidade para proteger o conteúdo em Microsoft Teams, grupos Microsoft 365 [e sites SharePoint.](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites) Você precisará definir um processo separado para que os usuários solicitem ou criem grupos públicos.
+Uma maneira de compartilhar arquivos com todos é por meio de sites públicos ou sites com grupos públicos como proprietários. Os rótulos de sensibilidade podem impedir que os usuários criam grupos ou sites públicos. Para obter detalhes sobre como configurar todos os rótulos para criar grupos/sites privados e um rótulo para grupos/sites, consulte Use sensitivity labels to protect content [in Microsoft Teams, Microsoft 365 Groups, and SharePoint sites](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites).
 
-Outra opção é definir quem pode criar Microsoft 365 grupos em sua organização. Para obter mais informações, [consulte Create a group for users who need to create Microsoft 365 groups](/microsoft-365/solutions/manage-creation-of-groups#step-1-create-a-group-for-users-who-need-to-create-microsoft-365-groups). Um administrador global precisará configurar um processo para que os usuários enviem solicitações de criação de grupo. Também sugerimos que você informe os usuários sobre essa alteração.
+Outra opção é controlar quem pode criar Microsoft 365 Grupos em sua organização. Para obter mais informações, [consulte Create a group for users who need to create Microsoft 365 Groups](/microsoft-365/solutions/manage-creation-of-groups#step-1-create-a-group-for-users-who-need-to-create-microsoft-365-groups).
 
-Se não for possível restringir a capacidade de criar grupos para sua organização, você poderá monitorar as atividades, incluindo a criação de grupo, por meio da auditoria. Para obter detalhes sobre auditoria básica e avançada, consulte [Auditing solutions in Microsoft 365](/microsoft-365/compliance/auditing-solutions-overview).
+Ao implementar uma dessas soluções, também sugerimos configurar um processo para que os usuários solicitem a criação de grupos públicos e informem seus usuários sobre a alteração.
+
+Se não for possível restringir a capacidade de criar grupos para sua organização, você poderá monitorar atividades, incluindo a criação de grupo, por meio de auditoria. Para obter detalhes sobre auditoria básica e avançada, consulte [Auditing solutions in Microsoft 365](/microsoft-365/compliance/auditing-solutions-overview).
 
 ### <a name="shared-files"></a>Arquivos compartilhados
 
 Para restringir o acesso a todos os arquivos classificados como confidenciais para empresas, você pode definir e aplicar classificações de dados para sua organização. Os dados de exemplo precisarão ser coletados para ajudar a treinar novos classificadores. Para obter detalhes sobre pré-requisitos e permissões, consulte [Saiba mais sobre a classificação de dados](/microsoft-365/compliance/data-classification-overview).
 
-Para restringir o acesso de arquivos a membros de um grupo específico, como executivos, você pode criar rótulos personalizados com escopo para um grupo de segurança. Em seguida, quando um membro do grupo de segurança aplica o rótulo, restringe automaticamente o acesso ao grupo. Para saber mais sobre rótulos personalizados, consulte [Create and configure sensitivity labels and](/microsoft-365/compliance/create-sensitivity-labels) their policies and Restrict access to content by using [sensitivity labels to apply encryption](/microsoft-365/compliance/encryption-sensitivity-labels).
+Para restringir o acesso de arquivos a membros de um grupo específico, como executivos, você pode criar rótulos personalizados com escopo para um grupo de segurança. Em seguida, quando um membro do grupo de segurança aplica o rótulo, ele restringe automaticamente o acesso ao grupo. Para saber mais sobre rótulos personalizados, consulte [Create and configure sensitivity labels and](/microsoft-365/compliance/create-sensitivity-labels) their policies and Restrict access to content by using [sensitivity labels to apply encryption](/microsoft-365/compliance/encryption-sensitivity-labels).
 
 Para garantir que documentos e emails sejam rotulados corretamente, os administradores também podem definir uma política de rótulo padrão e exigir que os usuários os rotulem. Para mais informações, consulte [Exigir que os usuários apliquem um rótulo em seus emails e documentos](/microsoft-365/compliance/sensitivity-labels-office-apps#require-users-to-apply-a-label-to-their-email-and-documents).
 

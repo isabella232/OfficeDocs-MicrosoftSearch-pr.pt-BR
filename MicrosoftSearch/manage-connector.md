@@ -14,11 +14,11 @@ search.appverid:
 - MOE150
 description: Gerenciar conectores Graph Microsoft para Pesquisa da Microsoft.
 ms.openlocfilehash: dd82114ff6aa651b57ce1941685840906ecf7318
-ms.sourcegitcommit: cc9d743bcf5e998720ce9cd6eefb4061d913dc65
+ms.sourcegitcommit: bb99601a7bd0f16dde7b271de516465d134e5bac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58702044"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "58973387"
 ---
 # <a name="monitor-your-connections"></a>Monitorar as suas conexões
 
@@ -65,7 +65,7 @@ Estado | Níveis de utilização de cota
 --- | --- 
 Normal | 0-79%
 Alto | 80-89%
-Crítico | 90%-99%
+Crítica | 90%-99%
 Completo | 100%
 
 O número de itens indexados também será exibido com cada conexão. O número de itens indexados por cada conexão contribui para a cota total disponível para sua organização.

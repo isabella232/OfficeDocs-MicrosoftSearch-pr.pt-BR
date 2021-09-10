@@ -14,11 +14,11 @@ search.appverid:
 - MOE150
 description: Configurar o conector Graph Salesforce para Pesquisa da Microsoft
 ms.openlocfilehash: c2679002affe494ba31777718d265b5526b744c0
-ms.sourcegitcommit: cc9d743bcf5e998720ce9cd6eefb4061d913dc65
+ms.sourcegitcommit: bb99601a7bd0f16dde7b271de516465d134e5bac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58701863"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "58973376"
 ---
 <!---Previous ms.author: rusamai --->
 
@@ -181,7 +181,7 @@ Siga as instruções [gerais de instalação](./configure-connector.md).
 - Há um bug conhecido na API salesforce que o conector Graph usa, onde os padrões de toda a organização privada para leads não são acadados no momento.  
 - Se um campo tiver fls (segurança de nível de campo) definido para um perfil, o conector Graph não ingerirá esse campo para nenhum perfil nessa organização do Salesforce. Como resultado, os usuários não poderão pesquisar os valores desses campos, nem aparecerão nos resultados.  
 - Na tela Gerenciar Esquema, esses nomes de propriedade padrão comuns são listados uma vez, as opções são **Consulta,** **Pesquisa,** **Recuperar** e **Refinar** e aplicar a todos ou a nenhum.
-    - Nome
+    - Name
     - Url
     - Descrição
     - Fax

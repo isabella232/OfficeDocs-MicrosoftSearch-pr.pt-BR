@@ -13,11 +13,11 @@ search.appverid:
 - MOE150
 description: Crie indicadores, locais e itens de P e R para facilitar a localização do conteúdo da sua organização.
 ms.openlocfilehash: 77b6507c7643e6cf2176f37a9a2cf0def1c640ba
-ms.sourcegitcommit: cc9d743bcf5e998720ce9cd6eefb4061d913dc65
+ms.sourcegitcommit: bb99601a7bd0f16dde7b271de516465d134e5bac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58702071"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "58973619"
 ---
 # <a name="make-content-easy-to-find"></a>Tornar o conteúdo fácil de encontrar
 

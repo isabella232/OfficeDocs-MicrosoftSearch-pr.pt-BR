@@ -14,11 +14,11 @@ search.appverid:
 ms.assetid: a220c1bf-7cee-448a-90a3-310284d03e81
 description: Reduza o número de vezes que seus usuários do Windows 10 são solicitados a entrar no Microsoft Search e no Office 365
 ms.openlocfilehash: ab4e9c8c3fc8f89abf60c9aa09671105e7c40451
-ms.sourcegitcommit: cc9d743bcf5e998720ce9cd6eefb4061d913dc65
+ms.sourcegitcommit: bb99601a7bd0f16dde7b271de516465d134e5bac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58701413"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "58973750"
 ---
 # <a name="test-single-sign-on"></a>Testar o logon único
 

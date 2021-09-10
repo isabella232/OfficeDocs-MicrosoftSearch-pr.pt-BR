@@ -13,11 +13,11 @@ search.appverid:
 - MOE150
 description: Configurar a Pesquisa da Microsoft pela primeira vez.
 ms.openlocfilehash: b1ddc3c32036b1fe3b86d38926bec86f626736f4
-ms.sourcegitcommit: cc9d743bcf5e998720ce9cd6eefb4061d913dc65
+ms.sourcegitcommit: bb99601a7bd0f16dde7b271de516465d134e5bac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58701458"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "58973396"
 ---
 # <a name="set-up-microsoft-search"></a>Configurar a Pesquisa da Microsoft
 

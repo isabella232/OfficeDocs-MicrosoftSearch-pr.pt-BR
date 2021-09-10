@@ -13,11 +13,11 @@ search.appverid:
 - MOE150
 description: O recurso de planos de piso no Pesquisa da Microsoft ajuda os usuários a encontrar pessoas, escritórios e outras comodidades em um edifício.
 ms.openlocfilehash: beeef26cc7413da654cc3ab01d92aa6cdc74e5cb
-ms.sourcegitcommit: cc9d743bcf5e998720ce9cd6eefb4061d913dc65
+ms.sourcegitcommit: bb99601a7bd0f16dde7b271de516465d134e5bac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58702017"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "58973617"
 ---
 # <a name="manage-floor-plans"></a>Gerenciar planos de piso
 
@@ -117,12 +117,12 @@ Para atualizar um plano de piso existente, selecione o plano de piso que você d
 
 |**Etapa**|**Mensagem de erro**|**Tipo**|**Ação**|
 |:-----|:-----|:-----|:-----|
-|Upload de piso|Não é possível ler CC_1.dwg. Carregue ou exclua o plano de piso.|Error|Tente carregar o arquivo novamente. Se isso não funcionar, exclua o arquivo e tente novamente.|
-|Upload de piso|Há dois arquivos chamados CC_1.dwg. Exclua um deles ou carregue-o com outro nome.|Error|Se o nome do arquivo estiver incorreto, o nome do arquivo será exclusivo adicionando informações de piso ou asa e, em seguida, carregue o arquivo novamente. Se você adicionou acidentalmente o mesmo arquivo duas vezes, exclua-o.|
-|Upload de piso|Nenhum dado encontrado.|Error|Verifique seu arquivo para certificar-se de que ele é o correto e, em seguida, carregue-o novamente ou exclua-o.|
+|Upload de piso|Não é possível ler CC_1.dwg. Carregue ou exclua o plano de piso.|Erro|Tente carregar o arquivo novamente. Se isso não funcionar, exclua o arquivo e tente novamente.|
+|Upload de piso|Há dois arquivos chamados CC_1.dwg. Exclua um deles ou carregue-o com outro nome.|Erro|Se o nome do arquivo estiver incorreto, o nome do arquivo será exclusivo adicionando informações de piso ou asa e, em seguida, carregue o arquivo novamente. Se você adicionou acidentalmente o mesmo arquivo duas vezes, exclua-o.|
+|Upload de piso|Nenhum dado encontrado.|Erro|Verifique seu arquivo para certificar-se de que ele é o correto e, em seguida, carregue-o novamente ou exclua-o.|
 |Upload de piso|Referências externas estão ausentes neste arquivo. Carregue CC_1_furniture.dwg ou exclua esse arquivo.|Aviso|Upload ou excluir arquivos de referência externos.|
 |Upload de piso|Não foi possível ler números de sala ou marcas no arquivo DWG. Exclua esse arquivo.|Aviso|Verifique seu arquivo DWG para verificar se os dados estão incluídos e, em seguida, exclua o arquivo e tente novamente.|
-|Vincular locais do office|Nenhum local de escritório encontrado no Azure Active Directory. Adicione dados de localização Azure Active Directory antes de configurar planos de piso.|Error|[Atualizar locais do office em perfis de usuário](#step-3-update-office-locations-on-user-profiles) |
+|Vincular locais do office|Nenhum local de escritório encontrado no Azure Active Directory. Adicione dados de localização Azure Active Directory antes de configurar planos de piso.|Erro|[Atualizar locais do office em perfis de usuário](#step-3-update-office-locations-on-user-profiles) |
 
 ## <a name="frequently-asked-questions"></a>Perguntas frequentes
 

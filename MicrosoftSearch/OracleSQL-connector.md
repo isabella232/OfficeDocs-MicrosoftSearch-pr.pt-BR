@@ -7,19 +7,19 @@ audience: Admin
 ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - BFB160
 - MET150
 - MOE150
 ROBOTS: NoIndex
 description: Configurar o conector de SQL Graph Oracle para Pesquisa da Microsoft.
-ms.openlocfilehash: 1fe45fa6f92b16290148ef72282418c41942a3c7
-ms.sourcegitcommit: e5d56d6ce1cd285c5af3e0472ce169cb34883017
+ms.openlocfilehash: 804bee89f8529630df5741f68b9f112c69307b4f
+ms.sourcegitcommit: bb99601a7bd0f16dde7b271de516465d134e5bac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "58470010"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "58973390"
 ---
 <!---Previous ms.author:vivg --->
 
@@ -94,9 +94,9 @@ A tabela abaixo resume os tipos de dados suportados pelo conector SQL Oracle. A 
 | Datatype de número | NUMBER(p,0) | int64 (para p <= 18) <br> double (para p > 18) |
 | Datatype de número de ponto flutuante | NUMBER(p,s) <br> FLOAT(p) | double |
 | Datatype de data | DATA <br> TIMESTAMP <br> TIMESTAMP(n) | datetime |
-| Tipo de dados de caractere | CHAR(n) <br> VARCHAR <br> VARCHAR2 <br> LONGAS <br> CLOB <br> NCLOB | string |
-| Tipo de dados de caractere unicode | NCHAR <br> NVARCHAR | string |
-| Tipo de dados RowID | ROWID <br> UROWID | string |
+| Tipo de dados de caractere | CHAR(n) <br> VARCHAR <br> VARCHAR2 <br> LONGAS <br> CLOB <br> NCLOB | cadeia de caracteres |
+| Tipo de dados de caractere unicode | NCHAR <br> NVARCHAR | cadeia de caracteres |
+| Tipo de dados RowID | ROWID <br> UROWID | cadeia de caracteres |
 
 Para qualquer outro tipo de dados atualmente não suportado diretamente, a coluna precisa ser explicitamente lançada para um tipo de dados com suporte.
 

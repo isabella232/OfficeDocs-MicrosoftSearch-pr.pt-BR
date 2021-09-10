@@ -4,6 +4,8 @@
       href: overview-microsoft-search.md
     - name: Configurar
       href: setup-microsoft-search.md
+    - name: Gerenciar o acesso a arquivos e sites
+      href: manage-access-files-sites.md
     - name: Perguntas frequentes
       href: faqs.md
 - name: Obter informações
@@ -54,6 +56,10 @@
                   href: azure-devops-connector.md
                 - name: Azure SQL e Microsoft SQL Server
                   href: MSSQL-connector.md
+                - name: Nuvem de Confluência (visualização)
+                  href: confluence-cloud-connector.md
+                - name: Nuvem Jira (visualização)
+                  href: jira-connector.md
                 - name: Sites empresariais
                   href: enterprise-web-connector.md
                 - name: Compartilhamento de arquivos
@@ -64,8 +70,10 @@
                   href: OracleSQL-connector.md
                 - name: Salesforce
                   href: salesforce-connector.md
-                - name: ServiceNow
-                  href: servicenow-connector.md
+                - name: Catálogo ServiceNow (visualização)
+                  href: servicenow-catalog-connector.md
+                - name: Conhecimento ServiceNow
+                  href: servicenow-knowledge-connector.md
         - name: Gerenciar conexões
           items:
             - name: Monitorar conexões

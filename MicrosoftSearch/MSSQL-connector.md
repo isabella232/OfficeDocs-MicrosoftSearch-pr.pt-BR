@@ -7,18 +7,18 @@ audience: Admin
 ms.audience: Admin
 ms.topic: article
 ms.service: mssearch
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - BFB160
 - MET150
 - MOE150
 description: Configurar o conector do Azure SQL microsoft SQL Graph para Pesquisa da Microsoft.
-ms.openlocfilehash: a60c8a038790bb4a08189c48675d315b06a6e0f7
-ms.sourcegitcommit: e5d56d6ce1cd285c5af3e0472ce169cb34883017
+ms.openlocfilehash: ae953d55de4a4f5e8afc32cc6b55f6e0b32e2811
+ms.sourcegitcommit: bb99601a7bd0f16dde7b271de516465d134e5bac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "58470001"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "58973395"
 ---
 <!---Previous ms.author: vivg --->
 
@@ -130,8 +130,8 @@ A tabela a seguir resume os SQL de dados que são suportados nos conectores MS S
 | Numérico exato | bit | booliano |
 | Numérico aproximado | flutuação <br> real | double |
 | Conjunto de caracteres | char <br> varchar <br> texto | string |
-| Cadeias de caracteres Unicode | nchar <br> nvarchar <br> ntext | string |
-| Outros tipos de dados | uniqueidentifier | string |
+| Cadeias de caracteres Unicode | nchar <br> nvarchar <br> ntext | cadeia de caracteres |
+| Outros tipos de dados | uniqueidentifier | cadeia de caracteres |
 
 Para qualquer outro tipo de dados atualmente não suportado diretamente, a coluna precisa ser explicitamente lançada para um tipo de dados com suporte.
 

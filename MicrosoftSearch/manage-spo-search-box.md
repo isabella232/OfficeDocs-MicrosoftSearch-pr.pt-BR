@@ -13,11 +13,11 @@ search.appverid:
 - MOE150
 description: Como personalizar a experiência da caixa de pesquisa em SharePoint sites
 ms.openlocfilehash: b5d58dd5a241ccf2ada556c44ec0ea5479ea2e2b
-ms.sourcegitcommit: cc9d743bcf5e998720ce9cd6eefb4061d913dc65
+ms.sourcegitcommit: bb99601a7bd0f16dde7b271de516465d134e5bac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58701972"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "58973746"
 ---
 # <a name="search-box-settings-on-sharepoint-sites"></a>Configurações da caixa de pesquisa em SharePoint sites
 

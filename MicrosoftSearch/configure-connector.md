@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Visão geral da configuração dos conectores do Graph pela Microsoft
-ms.openlocfilehash: 3b8ae9068b445e09f2df95fb5b29feb5ec3af74b
-ms.sourcegitcommit: cc9d743bcf5e998720ce9cd6eefb4061d913dc65
+ms.openlocfilehash: 95a2640652bd1289962c888be4ba771629806a6b
+ms.sourcegitcommit: 3e069fd920b5fcdfe97a0261930447e9e87d9013
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58701872"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "58973398"
 ---
 <!-- Previous ms.author: monaray -->
 
@@ -63,7 +63,7 @@ Conclua as etapas a seguir para configurar qualquer um dos conectores de Graph d
 3. Selecione **+Adicionar** e selecione a fonte de dados de sua escolha no menu de opções disponíveis.
 
    > [!div class="mx-imgBorder"]
-   > ![As fontes de dados disponíveis incluem: ADLS Gen2, sites Enterprise, servidor Microsoft SQL, Azure SQL, banco de dados oracle SQL, ServiceNow, compartilhamento de arquivos, Azure DevOps e MediaWiki.](media/add-connector.png)
+   > ![As fontes de dados disponíveis incluem: ADLS Gen2, sites do Enterprise, servidor Microsoft SQL, Azure SQL, banco de dados oracle SQL, Conhecimento serviceNow, catálogo ServiceNow, compartilhamento de arquivos, Azure DevOps e MediaWiki.](media/add-connector.png)
 
 > [!NOTE]
 > Você pode adicionar no máximo dez conexões Graph a cada locatário.
@@ -97,7 +97,7 @@ As Listas de Controle de Acesso (ACLs) determinam quais usuários em sua organiz
 
 Alguns conectores como [o Microsoft SQL](MSSQL-connector.md) e o [Azure Data Lake Armazenamento Gen2](azure-data-lake-connector.md) suportam Azure Active Directory [ACLs (Azure AD).](/azure/active-directory/)
 
-Outros conectores, como [ServiceNow,](servicenow-connector.md) [Azure DevOps](azure-devops-connector.md)e [Salesforce,](salesforce-connector.md) suportam a sincronização de usuários e grupos que não são do Azure AD.  
+Outros conectores, como [ServiceNow Knowledge,](servicenow-knowledge-connector.md) [ServiceNow Catalog,](servicenow-catalog-connector.md) [Azure DevOps](azure-devops-connector.md)e [Salesforce](salesforce-connector.md) suportam a sincronização de usuários e grupos que não são do Azure AD.  
 
 Selecionar todos permite que todos em sua organização vejam os resultados da pesquisa dessa fonte de dados.
 
