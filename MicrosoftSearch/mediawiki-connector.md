@@ -14,11 +14,11 @@ search.appverid:
 - MOE150
 description: Configurar o conector de Graph MediaWiki para Pesquisa da Microsoft
 ms.openlocfilehash: 7e1c308eb1785dd7fec23fac7e9002957a0d50ca
-ms.sourcegitcommit: bb99601a7bd0f16dde7b271de516465d134e5bac
+ms.sourcegitcommit: ca5ee826ba4f4bb9b9baabc9ae8a130011c2a3d0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "58973388"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "59375705"
 ---
 <!---Previous ms.author: monaray --->
 

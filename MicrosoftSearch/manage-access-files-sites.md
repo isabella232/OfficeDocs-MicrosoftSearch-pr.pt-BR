@@ -13,11 +13,11 @@ search.appverid:
 - MOE150
 description: Uma visão geral de como os administradores podem garantir que o acesso a sites e arquivos sejam restritos corretamente em sua organização.
 ms.openlocfilehash: c19442e1d89ddfe65a772213a8b0225ca680d699
-ms.sourcegitcommit: 3e069fd920b5fcdfe97a0261930447e9e87d9013
+ms.sourcegitcommit: ca5ee826ba4f4bb9b9baabc9ae8a130011c2a3d0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "58973754"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "59375588"
 ---
 # <a name="manage-access-to-files-and-sites"></a>Gerenciar o acesso a arquivos e sites
 

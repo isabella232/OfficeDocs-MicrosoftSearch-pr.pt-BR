@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Revise e aja sobre os comentários do usuário Pesquisa da Microsoft
-ms.openlocfilehash: 37ea70862cd4881170288339427f5ab1f150bf31
-ms.sourcegitcommit: bb99601a7bd0f16dde7b271de516465d134e5bac
+ms.openlocfilehash: db2854205b3006328919e22bd69c11a075ffc15d
+ms.sourcegitcommit: ca5ee826ba4f4bb9b9baabc9ae8a130011c2a3d0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "58973611"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "59334451"
 ---
 # <a name="managing-user-feedback"></a>Gerenciando comentários do usuário
 
@@ -66,7 +66,7 @@ Se você quiser compartilhar comentários de pesquisa com outras pessoas ou ret�
 
 ## <a name="send-user-feedback-to-microsoft"></a>Enviar comentários do usuário para a Microsoft
 
-Por padrão, todos os comentários do usuário são enviados para a Microsoft e além de você. Para parar de enviar comentários para a Microsoft, clique em Gerenciar configurações e **desempurar** a caixa de seleção Enviar comentários do usuário automaticamente **para a Microsoft.** Pode levar até 24 horas para que essa alteração entre em vigor.
+Por padrão, todos os comentários do usuário são enviados para a Microsoft, além de você. Para parar de enviar comentários para a Microsoft, clique em Gerenciar configurações e **desempurar** a caixa de seleção Enviar comentários do usuário automaticamente **para a Microsoft.** Pode levar até 24 horas para que essa alteração entre em vigor.
 
 Se você decidiu não enviar comentários para a Microsoft automaticamente, ainda poderá enviar comentários individuais para a Microsoft.
 

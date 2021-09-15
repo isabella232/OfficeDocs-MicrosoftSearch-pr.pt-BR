@@ -14,11 +14,11 @@ search.appverid:
 ms.assetid: 1fadcba3-4a7f-4a55-8476-d4e64d49a15f
 description: Incluir aplicativos baseados em navegador nos resultados de indicadores para Pesquisa da Microsoft
 ms.openlocfilehash: 55df0d6d6d39742548db497ed77f530b6a591895
-ms.sourcegitcommit: bb99601a7bd0f16dde7b271de516465d134e5bac
+ms.sourcegitcommit: ca5ee826ba4f4bb9b9baabc9ae8a130011c2a3d0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "58973640"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "59375613"
 ---
 # <a name="integrate-power-apps-in-microsoft-search-bookmarks"></a>Integrar Power Apps em Pesquisa da Microsoft indicadores
    

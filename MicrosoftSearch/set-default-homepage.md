@@ -14,11 +14,11 @@ search.appverid:
 ms.assetid: c020bd72-9906-4dfd-bc77-57287f5927ce
 description: Saiba como definir o Bing como home page padrão para a empresa com a Pesquisa da Microsoft.
 ms.openlocfilehash: 745e4a81e4b53ff88b612cd19295cb89dc041ddc
-ms.sourcegitcommit: bb99601a7bd0f16dde7b271de516465d134e5bac
+ms.sourcegitcommit: ca5ee826ba4f4bb9b9baabc9ae8a130011c2a3d0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "58973612"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "59375695"
 ---
 # <a name="make-bingcom-the-default-home-page"></a>Definir o Bing.com como página inicial padrão
 

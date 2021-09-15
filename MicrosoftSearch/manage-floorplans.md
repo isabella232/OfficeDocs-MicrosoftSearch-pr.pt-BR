@@ -13,11 +13,11 @@ search.appverid:
 - MOE150
 description: O recurso de planos de piso no Pesquisa da Microsoft ajuda os usuários a encontrar pessoas, escritórios e outras comodidades em um edifício.
 ms.openlocfilehash: beeef26cc7413da654cc3ab01d92aa6cdc74e5cb
-ms.sourcegitcommit: bb99601a7bd0f16dde7b271de516465d134e5bac
+ms.sourcegitcommit: ca5ee826ba4f4bb9b9baabc9ae8a130011c2a3d0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "58973617"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "59334453"
 ---
 # <a name="manage-floor-plans"></a>Gerenciar planos de piso
 

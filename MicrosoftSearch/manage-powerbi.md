@@ -14,11 +14,11 @@ search.appverid:
 ms.assetid: c0c814d0-f7e4-444e-b18e-09beb45c9322
 description: Gerenciar como Power BI relatórios e dados aparecem nos resultados da pesquisa
 ms.openlocfilehash: 14b294fcec7d9c7cb3e1951414ab8795fd2cace7
-ms.sourcegitcommit: bb99601a7bd0f16dde7b271de516465d134e5bac
+ms.sourcegitcommit: ca5ee826ba4f4bb9b9baabc9ae8a130011c2a3d0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "58973616"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "59334454"
 ---
 # <a name="manage-power-bi-answers"></a>Gerenciar Power BI respostas
 

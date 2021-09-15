@@ -15,11 +15,11 @@ search.appverid:
 - MOE150
 description: Analisar Pesquisa da Microsoft relatórios de uso
 ms.openlocfilehash: 9de48331efbc956ee7d980b919d9bd2f025fc8aa
-ms.sourcegitcommit: bb99601a7bd0f16dde7b271de516465d134e5bac
+ms.sourcegitcommit: ca5ee826ba4f4bb9b9baabc9ae8a130011c2a3d0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "58973636"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "59375642"
 ---
 # <a name="microsoft-search-usage-reports"></a>Pesquisa da Microsoft Relatórios de uso
 

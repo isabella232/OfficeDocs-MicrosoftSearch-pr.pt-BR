@@ -14,11 +14,11 @@ search.appverid:
 - MOE150
 description: Requisitos de licença e preços para Graph visualização pública de conectores da Microsoft para Pesquisa da Microsoft
 ms.openlocfilehash: b62187f0618405bdd691f923437b7b1e0edea1f9
-ms.sourcegitcommit: bb99601a7bd0f16dde7b271de516465d134e5bac
+ms.sourcegitcommit: ca5ee826ba4f4bb9b9baabc9ae8a130011c2a3d0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "58973372"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "59375601"
 ---
 <!---Previous ms.author: rusamai --->
 

@@ -14,11 +14,11 @@ search.appverid:
 ms.assetid: 9e8c9323-4ff9-42dd-8052-2bc9e0d6d0e7
 description: Saiba mais sobre métodos e processos para ajudá-lo a Pesquisa da Microsoft para sua organização
 ms.openlocfilehash: 1e33e17da92070eb4a887b4d5130a4c47b7cfe37
-ms.sourcegitcommit: bb99601a7bd0f16dde7b271de516465d134e5bac
+ms.sourcegitcommit: ca5ee826ba4f4bb9b9baabc9ae8a130011c2a3d0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "58973751"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "59375639"
 ---
 # <a name="user-adoption-guide"></a>Guia de adoção do usuário
 

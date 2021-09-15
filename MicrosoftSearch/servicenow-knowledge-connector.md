@@ -14,11 +14,11 @@ search.appverid:
 - MOE150
 description: Configurar o conector de Graph serviceNow para Pesquisa da Microsoft
 ms.openlocfilehash: 8052571124a74dfa92e5cd81deceee044081ecc1
-ms.sourcegitcommit: bb99601a7bd0f16dde7b271de516465d134e5bac
+ms.sourcegitcommit: ca5ee826ba4f4bb9b9baabc9ae8a130011c2a3d0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "58973371"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "59375696"
 ---
 <!---Previous ms.author: kam1 --->
 
@@ -83,7 +83,7 @@ A tabela a seguir fornece orientações sobre como preencher o formulário de cr
 
 Campo | Descrição | Valor Recomendado 
 --- | --- | ---
-Name | Valor exclusivo que identifica o aplicativo para o que você precisa de acesso OAuth. | Pesquisa da Microsoft
+Nome | Valor exclusivo que identifica o aplicativo para o que você precisa de acesso OAuth. | Pesquisa da Microsoft
 ID do cliente | Uma ID exclusiva gerada automaticamente somente leitura para o aplicativo. A instância usa a ID do cliente quando solicita um token de acesso. | NA
 Segredo do cliente | Com essa cadeia de caracteres secreta compartilhada, a instância serviceNow e Pesquisa da Microsoft autorizam comunicações entre si. | Siga as práticas recomendadas de segurança tratando o segredo como uma senha.
 URL de redirecionamento | Uma URL de retorno de chamada necessária para a que o servidor de autorização redireciona. | https://gcs.office.com/v1.0/admin/oauth/callback
@@ -150,7 +150,7 @@ A instância ServiceNow precisa da seguinte configuração:
 
    Campo | Descrição | Valor Recomendado
    --- | --- | ---
-   Name | Um nome exclusivo que identifica a entidade OAuth OIDC. | Microsoft Azure AD
+   Nome | Um nome exclusivo que identifica a entidade OAuth OIDC. | Microsoft Azure AD
    ID do cliente | A ID do cliente do aplicativo registrado no servidor OAuth OIDC de terceiros. A instância usa a ID do cliente ao solicitar um token de acesso. | ID do aplicativo (cliente) da etapa 3.a
    Segredo de Cliente | O segredo do cliente do aplicativo registrado no servidor OAuth OIDC de terceiros. | Segredo do Cliente da etapa 3.b
 

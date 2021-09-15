@@ -15,11 +15,11 @@ search.appverid:
 ROBOTS: NoIndex
 description: Configurar o conector de SQL Graph Oracle para Pesquisa da Microsoft.
 ms.openlocfilehash: 804bee89f8529630df5741f68b9f112c69307b4f
-ms.sourcegitcommit: bb99601a7bd0f16dde7b271de516465d134e5bac
+ms.sourcegitcommit: ca5ee826ba4f4bb9b9baabc9ae8a130011c2a3d0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "58973390"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "59375598"
 ---
 <!---Previous ms.author:vivg --->
 
@@ -95,7 +95,7 @@ A tabela abaixo resume os tipos de dados suportados pelo conector SQL Oracle. A 
 | Datatype de número de ponto flutuante | NUMBER(p,s) <br> FLOAT(p) | double |
 | Datatype de data | DATA <br> TIMESTAMP <br> TIMESTAMP(n) | datetime |
 | Tipo de dados de caractere | CHAR(n) <br> VARCHAR <br> VARCHAR2 <br> LONGAS <br> CLOB <br> NCLOB | cadeia de caracteres |
-| Tipo de dados de caractere unicode | NCHAR <br> NVARCHAR | cadeia de caracteres |
+| Tipo de dados de caractere unicode | NCHAR <br> NVARCHAR | string |
 | Tipo de dados RowID | ROWID <br> UROWID | cadeia de caracteres |
 
 Para qualquer outro tipo de dados atualmente não suportado diretamente, a coluna precisa ser explicitamente lançada para um tipo de dados com suporte.
