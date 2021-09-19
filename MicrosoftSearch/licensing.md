@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Requisitos de licença e preços para Graph visualização pública de conectores da Microsoft para Pesquisa da Microsoft
-ms.openlocfilehash: b62187f0618405bdd691f923437b7b1e0edea1f9
-ms.sourcegitcommit: ca5ee826ba4f4bb9b9baabc9ae8a130011c2a3d0
+ms.openlocfilehash: d4601e06d49ec860652d42517c79af2343c9b6ec
+ms.sourcegitcommit: bafd15a17ca20bac0f2c5f65e36ef81262eafc06
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "59375601"
+ms.lasthandoff: 09/19/2021
+ms.locfileid: "59448624"
 ---
 <!---Previous ms.author: rusamai --->
 
@@ -29,12 +29,15 @@ Este artigo é para administradores globais ou de cobrança que querem saber mai
 Qualquer licença **Microsoft 365 ou Office 365** permite que você veja dados de conectores em seus resultados de pesquisa.
 
 > [!TIP]
-> **Conectores** do Microsoft Graph & Avaliação de Tópicos do Viva Agora Disponíveis : Se você não tiver cota de índice disponível e quiser experimentar conectores do Microsoft Graph agora, você pode solicitar um código **Promocional** [com Tópicos do Microsoft Viva](https://www.microsoft.com/microsoft-viva/topics?activetab=pivot:overviewtab), conforme detalhado [aqui](#microsoft-graph-connectors-now-available-with-microsoft-viva-topics-trial).
+> **Código promocional** dos conectores do Microsoft Graph : se você não tiver cota de índice disponível e quiser experimentar conectores do Microsoft Graph, agora você pode solicitar um código **Promocional** do gerente de conta da Microsoft. Com o código promocional, você receberá uma avaliação de seis meses.
 
 >[!IMPORTANT]
 >Todos os conectores Graph da Microsoft são gratuitos. No entanto, você precisa ter cota de índice suficiente para ingerir conteúdo desses conectores.
 
 Para indexar o conteúdo usando Graph conectores, você precisa ter cota de índice suficiente. Graph cota de índice de conectores está disponível por meio de:
+
+- Direitos integrados
+- Compra de cota de índice de complemento
 
 ## <a name="entitlement-built-into-microsoft-365-or-office-365-e5-licenses"></a>Direito integrado a Microsoft 365 ou Office 365 E5 licenças
 
@@ -56,17 +59,6 @@ Para comprar mais Graph cota de conectores, entre em contato com o Microsoft Acc
 3. Selecione **Capacidade extra Graph conector.**
 4. Selecione **Comprar** e conclua suas preferências de pedido.
 5. Selecione **Check-out agora**.
-
-## <a name="microsoft-graph-connectors-now-available-with-microsoft-viva-topics-trial"></a>Conectores Graph Microsoft agora disponíveis com Tópicos do Microsoft Viva avaliação
- A nova avaliação de Tópicos do Viva permite avaliar os conectores do Microsoft Graph e os Tópicos do Viva em ambientes de desenvolvimento e/ou produção. Ele fornece uma capacidade limitada de conector, além do acesso aos Tópicos do Viva.
-
-Há duas opções para explorar Graph conectores com Tópicos do Microsoft Viva:
-
-1. **Inicie uma avaliação** gratuita e tenha acesso durante um mês para 25 usuários.
-
-     Visite [Tópicos do Microsoft Viva](https://www.microsoft.com/microsoft-viva/topics?activetab=pivot:overviewtab) e selecione a opção avaliação gratuita.
-
-2. Entre em contato com o gerente de conta da Microsoft para solicitar um **código Promocional** para capacidade de índice de avaliação com Tópicos do Microsoft Viva avaliação. Com um **código Promocional,** você pode obter acesso durante seis meses, para 50 usuários.
 
 > [!NOTE]
 > Atualmente, os conectores do Microsoft Graph suportam apenas até 7 milhões de itens da cota de índice total, o que inclui qualquer cota de entrada agrupada em Microsoft 365 ou Office 365 E5 licenças. A plataforma dará suporte a limites mais altos no futuro. Entre em contato com o suporte da Microsoft ou com o gerente de conta da Microsoft, se tiver dúvidas.

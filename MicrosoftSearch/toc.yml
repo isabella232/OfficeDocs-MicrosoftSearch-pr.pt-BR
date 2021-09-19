@@ -34,7 +34,7 @@
   items:
     - name: Conectores de Gráfico
       items:
-        - name: Visão Geral
+        - name: Visão geral
           href: connectors-overview.md
         - name: Galeria de conectores
           href: connectors-gallery.md
@@ -100,7 +100,7 @@
       href: custom-filters.md
     - name: Pesquisa da Microsoft no SharePoint
       items:
-        - name: Visão Geral
+        - name: Visão geral
           href: get-started-search-in-sharepoint-online.md
         - name: Criar uma página de resultados de pesquisa personalizada
           href: create-search-results-pages.md
@@ -114,6 +114,8 @@
           href: security-for-search.md
         - name: Adicionar uma caixa de pesquisa ao site de intranet
           href: add-a-search-box-to-your-intranet-site.md
+        - name: Selecione uma experiência de pesquisa de estudante ou trabalho (visualização)
+          href: select-work-school-search-experience.md
         - name: Tornar o Microsoft Edge o navegador padrão
           href: /deployedge/edge-default-browser
         - name: Definir o Bing como mecanismo de pesquisa padrão
