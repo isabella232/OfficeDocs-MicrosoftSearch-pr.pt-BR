@@ -7,30 +7,28 @@ ms.topic: article
 ms.service: mssearch
 audience: Admin
 ms.audience: Admin
-ms.date: 07/02/2021
+ms.date: 09/24/2021
 ms.localizationpriority: medium
 search.appverid:
 - BFB160
 - MET150
 - MOE150
 description: Analisar Pesquisa da Microsoft relatórios de uso
-ms.openlocfilehash: 9de48331efbc956ee7d980b919d9bd2f025fc8aa
-ms.sourcegitcommit: ca5ee826ba4f4bb9b9baabc9ae8a130011c2a3d0
+ms.openlocfilehash: 3f6b35ddbd08d4c709ce8b8b9125caa1a6517bae
+ms.sourcegitcommit: df898c1616c7c89e819cf2900a08a319af12f8cc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "59375642"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "59940644"
 ---
 # <a name="microsoft-search-usage-reports"></a>Pesquisa da Microsoft Relatórios de uso
 
-Os relatórios de uso da pesquisa permitem que você obtenha mais compreensão de como a pesquisa está funcionando em sua organização. As percepções geradas a [](./make-content-easy-to-find.md) partir desses relatórios ajudarão você a tornar o conteúdo fácil de encontrar e realizar ações que tornarão a pesquisa uma experiência mais útil e agradável para seus usuários.
+Os relatórios de uso da pesquisa permitem que você obtenha mais compreensão de como a pesquisa está funcionando em sua organização. As percepções geradas a partir desses relatórios ajudarão você a realizar ações que tornarão a pesquisa uma experiência mais útil e agradável para seus usuários.
 
 > [!IMPORTANT]
 > Pesquisa da Microsoft relatórios de uso estão atualmente em visualização
 
 Os [Pesquisa da Microsoft](https://admin.microsoft.com/Adminportal/Home?#/MicrosoftSearch/insights) de uso incluem gráficos e tabelas gerados a partir de pesquisas executadas SharePoint Home, Office.com e Pesquisa da Microsoft em caixas de pesquisa Bing. Você pode ver dados dos últimos 31 dias, por dia ou mensalmente do ano anterior. Esses relatórios estão apenas sendo divulgados, portanto, levará tempo para acumular os dados históricos.
-
-Uma versão anterior desta página incluía dados de pesquisas executadas apenas para Pesquisa da Microsoft em Bing em Bing.com. Esses dados agora estão integrados a esses relatórios; você ainda pode ver a página antiga clicando no link na parte inferior da página para Exibir Bing principais consultas e distribuição **de impressão do Bing.** Este link e a página antiga serão removidos em breve.
 
 > [!div class="mx-imgBorder"]
 > ![Painel de relatórios de uso de pesquisa.](media/usage-reports/usage_reports_v2.png)
@@ -53,8 +51,6 @@ Quando você navega até a página relatórios de uso, todos os relatórios est�
 
 Baixar um relatório permitirá que você veja relatórios de um intervalo de tempo mais amplo. Clique na seta de download e selecione **últimos 31 dias** **ou últimos 12 meses.** O relatório é baixado como uma Excel de dados. Se você tiver selecionado os últimos 31 dias, a planilha terá uma guia individual para cada dia. O download dos últimos 12 meses terá uma guia para cada mês.
 
-Para exibir Bing principais consultas e relatórios de distribuição de impressão, clique no link na página.
-
 ## <a name="frequently-asked-questions"></a>Perguntas frequentes
 
 **Quando eu selecionar últimos 31 dias ou últimos 12 meses, por que preciso escolher um dia específico ou um mês específico.**
@@ -63,7 +59,7 @@ A exibição do calendário, hoje, nos relatórios de uso da pesquisa da Microso
 
 As tabelas de consulta superior, abandonadas e com falha mostram resultados do dia ou do mês escolhido.
 
-**Quando vou ver os dados agregados dos últimos 7 dias, dos últimos 30 dias e assim por diante... Como Bing principais relatórios de consultas?**
+**Quando vou ver os dados agregados dos últimos 7 dias, dos últimos 30 dias e assim por diante...?**
 
 Estamos considerando esse tipo de agregação e simplificando a filtragem do intervalo de dados para versões futuras desses relatórios.
 
@@ -73,4 +69,4 @@ Atualmente, a filtragem por fonte não está disponível. Os relatórios combina
 
 **Que outra filtragem para relatórios de uso está chegando?**
 
-Estamos trabalhando em filtros adicionais que ajudarão a entender o uso da pesquisa em um nível mais granular da sua organização. Por exemplo, você poderá ver o volume de consulta para uma geografia ou departamento específico.
+Estamos trabalhando em mais filtros que ajudarão a entender o uso da pesquisa em um nível mais granular da sua organização. Por exemplo, você poderá ver o volume de consulta para uma geografia ou departamento específico.
