@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Analisar Pesquisa da Microsoft relatórios de uso
-ms.openlocfilehash: 3f6b35ddbd08d4c709ce8b8b9125caa1a6517bae
-ms.sourcegitcommit: df898c1616c7c89e819cf2900a08a319af12f8cc
+ms.openlocfilehash: 1f2afa6e2c7691aa3284ae017913827761981529
+ms.sourcegitcommit: ca6f0488b842e7fc0d98c7b84b2b8bc5817d3e7b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2021
-ms.locfileid: "59940644"
+ms.lasthandoff: 10/07/2021
+ms.locfileid: "60224863"
 ---
 # <a name="microsoft-search-usage-reports"></a>Pesquisa da Microsoft Relatórios de uso
 
@@ -28,7 +28,7 @@ Os relatórios de uso da pesquisa permitem que você obtenha mais compreensão d
 > [!IMPORTANT]
 > Pesquisa da Microsoft relatórios de uso estão atualmente em visualização
 
-Os [Pesquisa da Microsoft](https://admin.microsoft.com/Adminportal/Home?#/MicrosoftSearch/insights) de uso incluem gráficos e tabelas gerados a partir de pesquisas executadas SharePoint Home, Office.com e Pesquisa da Microsoft em caixas de pesquisa Bing. Você pode ver dados dos últimos 31 dias, por dia ou mensalmente do ano anterior. Esses relatórios estão apenas sendo divulgados, portanto, levará tempo para acumular os dados históricos.
+Os [relatórios de](https://admin.microsoft.com/Adminportal/Home?#/MicrosoftSearch/insights) uso do Pesquisa da Microsoft incluem gráficos e tabelas gerados a partir de pesquisas executadas SharePoint Home (o site com URL terminando em /SharePoint.aspx), Office.com e Pesquisa da Microsoft em caixas de pesquisa Bing. Você pode ver dados dos últimos 31 dias, por dia ou mensalmente do ano anterior. Esses relatórios estão apenas sendo divulgados, portanto, levará tempo para acumular os dados históricos.
 
 > [!div class="mx-imgBorder"]
 > ![Painel de relatórios de uso de pesquisa.](media/usage-reports/usage_reports_v2.png)
