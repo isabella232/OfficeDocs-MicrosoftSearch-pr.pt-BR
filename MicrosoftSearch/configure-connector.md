@@ -13,18 +13,18 @@ search.appverid:
 - MET150
 - MOE150
 description: Visão geral da configuração dos conectores do Graph pela Microsoft
-ms.openlocfilehash: 95a2640652bd1289962c888be4ba771629806a6b
-ms.sourcegitcommit: ca5ee826ba4f4bb9b9baabc9ae8a130011c2a3d0
+ms.openlocfilehash: f3e622abbc54103a47a06c587a1d20190639504c
+ms.sourcegitcommit: 02d4f91210d992da080fd39d5b60f8cf30d8f0b2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "59375600"
+ms.lasthandoff: 10/08/2021
+ms.locfileid: "60238435"
 ---
 <!-- Previous ms.author: monaray -->
 
 <!-- markdownlint-disable no-trailing-punctuation -->
 
-# <a name="setup-overview-for-graph-connectors-by-microsoft"></a>Visão geral da configuração dos conectores do Graph pela Microsoft 
+# <a name="setup-overview-for-graph-connectors-by-microsoft"></a>Visão geral da configuração dos conectores do Graph pela Microsoft
 
 Este artigo mostra o processo básico necessário para configurar os conectores Graph **de** Graph microsoft no [Centro de administração do Microsoft 365](https://admin.microsoft.com). O processo básico inclui as seguintes etapas:  
 <!---Add links to each section in the doc--->
@@ -87,9 +87,9 @@ Para saber mais sobre como se conectar a uma fonte de dados local, consulte [Ins
 
 ## <a name="step-4-select-properties"></a>Etapa 4: Selecionar propriedades
 
-Você pode escolher as propriedades que serão indexadas por Pesquisa da Microsoft. 
+Você pode escolher as propriedades que serão indexadas por Pesquisa da Microsoft.
 
-A consulta ServiceNow pode ser usada para filtrar seus dados antes de serem indexados por Pesquisa da Microsoft; isso oferece mais controle sobre os dados que podem ser pesquisados. Para saber mais sobre consultas ServiceNow, [consulte Learn about ServiceNow queries](https://go.microsoft.com/fwlink/?linkid=2151447). 
+A consulta ServiceNow pode ser usada para filtrar seus dados antes de serem indexados por Pesquisa da Microsoft; isso oferece mais controle sobre os dados que podem ser pesquisados. Para saber mais sobre consultas ServiceNow, [consulte Learn about ServiceNow queries](https://go.microsoft.com/fwlink/?linkid=2151447).
 
 ## <a name="step-5-manage-search-permissions"></a>Etapa 5: Gerenciar permissões de pesquisa
 
@@ -152,8 +152,7 @@ REFINE | A opção refinar pode ser usada como na página Pesquisa da Microsoft 
 
 Para todos os conectores, exceto o conector de compartilhamento de arquivos, os tipos personalizados devem ser definidos manualmente. Para ativar os recursos de pesquisa para cada campo, você precisa de um esquema de pesquisa mapeado para uma lista de propriedades. O assistente de conexão seleciona automaticamente um esquema de pesquisa com base no conjunto de propriedades de origem escolhidas. Você pode modificar esse esquema selecionando as caixas de seleção de cada propriedade e atributo na página de esquema de pesquisa.
 
-> [!div class="mx-imgBorder"]
-> ![O esquema de um conector pode ser personalizado adicionando ou removendo funções de Consulta, Pesquisa e Recuperação.](media/manageschema.png)
+:::image type="content" alt-text="O esquema de um conector pode ser personalizado adicionando ou removendo funções de Consulta, Pesquisa e Recuperação." source="media/manageschema.png" lightbox="media/manageschema.png":::
 
 ### <a name="restrictions-and-recommendations-for-search-schema-settings"></a>Restrições e recomendações para configurações de esquema de pesquisa
 
@@ -201,7 +200,7 @@ Vá para a lista de suas conexões **publicadas** na guia Conectores no centro [
 
 ## <a name="troubleshooting"></a>Solução de problemas
 <!---Insert troubleshooting recommendations for this data source-->
-Leia as informações específicas do conector para sua fonte de dados. 
+Leia as informações específicas do conector para sua fonte de dados.
 
 > [!NOTE]
 > Nem todos os artigos específicos do conector incluem recomendações de solução de problemas neste ponto.
@@ -214,4 +213,4 @@ Consulte as informações específicas do conector para sua fonte de dados para 
 
 ## <a name="next-steps"></a>Próximas etapas
 
-Depois de publicar a conexão, você precisa personalizar a página de resultados da pesquisa. Para saber mais sobre como personalizar resultados de pesquisa, consulte [Personalizar a página de resultados da pesquisa](customize-search-page.md).
+Depois de publicar a conexão, você precisa personalizar a página de resultados da pesquisa com tipos de resultados e verticais. Para saber mais sobre como personalizar resultados de pesquisa, você pode revisar como gerenciar tipos de resultados e [verticais.](manage-verticals.md) [](manage-result-types.md)

@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Visão geral dos conectores Graph microsoft para Pesquisa da Microsoft
-ms.openlocfilehash: 006ab3f56eb4976b44904e5191ae8fd256c8d5de
-ms.sourcegitcommit: ca5ee826ba4f4bb9b9baabc9ae8a130011c2a3d0
+ms.openlocfilehash: 2dec2d17479368bc6d85c0a5bd275461a4114800
+ms.sourcegitcommit: 02d4f91210d992da080fd39d5b60f8cf30d8f0b2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "59375633"
+ms.lasthandoff: 10/08/2021
+ms.locfileid: "60238390"
 ---
 <!---Previous ms.author: monaray --->
 
@@ -76,7 +76,6 @@ Você pode se conectar às seguintes fontes de dados usando conectores criados p
 * [Conhecimento ServiceNow](servicenow-knowledge-connector.md)
 * [Catálogo ServiceNow (visualização)](servicenow-catalog-connector.md)
 
-
 A [galeria Graph conectores da Microsoft](https://www.microsoft.com/microsoft-search/connectors) contém uma breve descrição de cada um desses conectores. Se você estiver pronto para conectar uma dessas fontes de dados [](configure-connector.md) ao seu locatário, leia a visão geral da Instalação e quaisquer outros artigos na seção Conectores de Instalação da Microsoft que se apliquem à sua fonte de dados.
 
 ### <a name="microsoft-graph-connectors-by-our-partners"></a>Microsoft Graph conectores por nossos parceiros
@@ -113,7 +112,7 @@ O conjunto de conectores e recursos na visualização inclui:
 
 Há muitas maneiras de personalizar e configurar os resultados da pesquisa. Confira os seguintes artigos para saber mais:
 
-* [Gerenciar verticais e tipos de resultados](customize-search-page.md)
+* [Gerenciar tipos de resultados](manage-verticals.md) [e verticais](manage-result-types.md)
 * [Gerenciar layouts de resultados de pesquisa](customize-results-layout.md)
 * [Gerenciar tipos de cluster](result-cluster.md)
 * [Gerenciar filtros personalizados](custom-filters.md)
